@@ -2,7 +2,7 @@ import Link from "next/link";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import TrustBar from "@/components/layout/TrustBar";
-import { allProducts, formatProductPrice } from "@/lib/products";
+import { allProducts, formatProductPrice, formatProductPriceRange } from "@/lib/products";
 
 export default function MagazinPage() {
   return (
@@ -15,7 +15,7 @@ export default function MagazinPage() {
           Toate produsele
         </h1>
         <p className="mt-2 text-sm text-[#251136]/80">
-          {allProducts.length} produse importate de la E-Store House.
+          {allProducts.length ? `${allProducts.length} produse disponibile.` : "Pregătim noua colecție. Produsele vor fi disponibile în curând."}
         </p>
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -38,7 +38,7 @@ export default function MagazinPage() {
               </h2>
               <div className="mt-3 flex items-center gap-2">
                 <span className="text-lg font-bold text-[#251136]">
-                  {formatProductPrice(product.price, product.currency)}
+                  {formatProductPriceRange(product)}
                 </span>
                 {product.oldPrice ? (
                   <span className="text-sm text-[#251136]/50 line-through">

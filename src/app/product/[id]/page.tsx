@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { notFound, permanentRedirect } from "next/navigation";
+import { notFound } from "next/navigation";
 import ProductImageGallery from "@/components/product/ProductImageGallery";
 import ProductPurchaseActions from "@/components/product/ProductPurchaseActions";
 import Footer from "@/components/layout/Footer";
@@ -10,6 +10,7 @@ import {
   COMBO_DEAL_DISCOUNT_PERCENT,
   COMBO_DEAL_THRESHOLD,
   formatProductPrice,
+  formatProductPriceRange,
   getProductById,
 } from "@/lib/products";
 
@@ -29,8 +30,6 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
   if (Number.isNaN(productId)) {
     notFound();
   }
-
-  if (productId === 16129402) permanentRedirect("/product/16129401");
 
   const product = getProductById(productId);
 
@@ -118,7 +117,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
             {product.variants ? <ProductPurchaseActions key={product.id} product={product} /> : (
             <div className="mt-6 flex items-end gap-3">
               <span className="text-3xl font-bold text-[#251136]">
-                {formatProductPrice(product.price, product.currency)}
+                {formatProductPriceRange(product)}
               </span>
               {product.oldPrice ? (
                 <span className="text-lg text-[#251136]/50 line-through">
@@ -262,7 +261,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
                     {item.name}
                   </h3>
                   <p className="mt-2 text-sm font-bold text-[#251136]">
-                    {formatProductPrice(item.price, item.currency)}
+                    {formatProductPriceRange(item)}
                   </p>
                   <Link
                     href={`/product/${item.id}`}

@@ -1,14 +1,15 @@
 import Link from "next/link";
-import { featuredProducts, formatProductPrice } from "@/lib/products";
+import { featuredProducts, formatProductPrice, formatProductPriceRange } from "@/lib/products";
 
 export default function ProductGrid() {
   return (
     <section className="mx-auto mt-14 w-full max-w-[1440px] px-4">
       <div className="mb-6 flex items-end justify-between">
         <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold text-[#251136]">
-          Produse Trendyol
+          Produsele noastre
         </h2>
       </div>
+      {featuredProducts.length === 0 ? <p className="text-[#251136]/80">Pregătim noua colecție. Revino în curând!</p> : null}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {featuredProducts.map((product) => (
           <article
@@ -34,7 +35,7 @@ export default function ProductGrid() {
             </h3>
             <div className="mt-4 flex items-center gap-2">
               <span className="text-xl font-bold text-[#251136]">
-                {formatProductPrice(product.price, product.currency)}
+                {formatProductPriceRange(product)}
               </span>
               {product.oldPrice ? (
                 <span className="text-sm text-[#251136]/50 line-through">
