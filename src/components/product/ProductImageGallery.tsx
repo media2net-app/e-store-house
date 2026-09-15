@@ -39,7 +39,7 @@ export default function ProductImageGallery({ images, name }: ProductImageGaller
                 <img
                   src={imageUrl}
                   alt={`${name} miniatura ${index + 1}`}
-                  className="aspect-[401/601] w-full bg-[#f8f5fc] object-contain"
+                  className="aspect-square w-full bg-[#f8f5fc] object-contain"
                   loading="lazy"
                 />
               </button>
@@ -47,11 +47,11 @@ export default function ProductImageGallery({ images, name }: ProductImageGaller
           </div>
         ) : null}
 
-        <div className="relative w-full">
+        <div className="relative min-w-0 flex-1">
           <img
             src={galleryImages[selectedIndex]}
             alt={name}
-            className="aspect-[401/601] w-full rounded-2xl border border-[#e7def2] bg-[#f8f5fc] object-contain"
+            className="aspect-square w-full rounded-2xl border border-[#e7def2] bg-[#f8f5fc] object-contain"
           />
 
           {galleryImages.length > 1 ? (
@@ -88,7 +88,7 @@ export default function ProductImageGallery({ images, name }: ProductImageGaller
               <img
                 src={imageUrl}
                 alt={`${name} miniatura ${index + 1}`}
-                className="aspect-[401/601] w-full bg-[#f8f5fc] object-contain"
+                className="aspect-square w-full bg-[#f8f5fc] object-contain"
                 loading="lazy"
               />
             </button>

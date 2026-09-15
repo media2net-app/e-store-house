@@ -27,7 +27,7 @@ export default function MagazinPage() {
               <img
                 src={product.image}
                 alt={product.name}
-                className="aspect-[401/601] w-full rounded-xl bg-[#f8f5fc] object-contain"
+                className="aspect-square w-full rounded-xl bg-[#f8f5fc] object-contain"
                 loading="lazy"
               />
               <p className="mt-3 text-xs font-semibold uppercase tracking-wider text-[#251136]">

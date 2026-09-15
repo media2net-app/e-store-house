@@ -202,7 +202,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               <img
                 src={product.image}
                 alt={product.name}
-                className="aspect-[401/601] w-28 rounded-xl border border-[#e7def2] bg-[#f8f5fc] object-contain"
+                className="aspect-square w-28 rounded-xl border border-[#e7def2] bg-[#f8f5fc] object-contain"
                 loading="lazy"
               />
               <div>
@@ -264,7 +264,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
                   <img
                     src={item.image}
                     alt={item.name}
-                    className="aspect-[401/601] w-full rounded-xl bg-[#f8f5fc] object-contain"
+                    className="aspect-square w-full rounded-xl bg-[#f8f5fc] object-contain"
                     loading="lazy"
                   />
                   <h3 className="title-2-lines mt-3 text-sm font-semibold text-[#251136]">
