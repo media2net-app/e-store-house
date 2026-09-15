@@ -1,5 +1,6 @@
 "use client";
 
+import { useProductSelection } from "./ProductSelection";
 import { useMemo, useState } from "react";
 
 type ProductImageGalleryProps = {
@@ -8,6 +9,12 @@ type ProductImageGalleryProps = {
 };
 
 export default function ProductImageGallery({ images, name }: ProductImageGalleryProps) {
+  const selection = useProductSelection();
+  const activeImages = selection?.selected?.images ?? images;
+  return <Gallery key={activeImages.join("|")} images={activeImages} name={name} />;
+}
+
+function Gallery({ images, name }: ProductImageGalleryProps) {
   const galleryImages = useMemo(() => {
     const filtered = images.filter(Boolean);
     return filtered.length > 0 ? filtered : [""];
@@ -34,6 +41,8 @@ export default function ProductImageGallery({ images, name }: ProductImageGaller
                 className={`overflow-hidden rounded-lg border ${
                   index === selectedIndex ? "border-[#251136]" : "border-[#e7def2]"
                 }`}
+                aria-label={`Vezi imaginea ${index + 1}`}
+                aria-pressed={index === selectedIndex}
                 onClick={() => setSelectedIndex(index)}
               >
                 <img
@@ -51,7 +60,7 @@ export default function ProductImageGallery({ images, name }: ProductImageGaller
           <img
             src={galleryImages[selectedIndex]}
             alt={name}
-            className="aspect-square w-full rounded-2xl border border-[#e7def2] bg-[#f8f5fc] object-contain"
+            className="h-auto max-h-[80vh] w-full rounded-2xl border border-[#e7def2] bg-[#f8f5fc] object-contain"
           />
 
           {galleryImages.length > 1 ? (
@@ -83,7 +92,9 @@ export default function ProductImageGallery({ images, name }: ProductImageGaller
               className={`overflow-hidden rounded-lg border ${
                 index === selectedIndex ? "border-[#251136]" : "border-[#e7def2]"
               }`}
-              onClick={() => setSelectedIndex(index)}
+              aria-label={`Vezi imaginea ${index + 1}`}
+                aria-pressed={index === selectedIndex}
+                onClick={() => setSelectedIndex(index)}
             >
               <img
                 src={imageUrl}

@@ -1,3 +1,4 @@
+import { ProductSelection } from "@/components/product/ProductSelection";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ProductImageGallery from "@/components/product/ProductImageGallery";
@@ -7,8 +8,6 @@ import Header from "@/components/layout/Header";
 import TrustBar from "@/components/layout/TrustBar";
 import {
   allProducts,
-  COMBO_DEAL_DISCOUNT_PERCENT,
-  COMBO_DEAL_THRESHOLD,
   formatProductPrice,
   formatProductPriceRange,
   getProductById,
@@ -91,6 +90,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
   ];
 
   return (
+    <ProductSelection key={product.id} variants={product.variants}>
     <main className="min-h-screen bg-[#f6f2fb]">
       <TrustBar />
       <Header />
@@ -127,12 +127,6 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
             </div>
 
             )}
-
-            <div className="mt-5 rounded-xl bg-[#16c05d] px-4 py-3 text-white">
-              <p className="text-sm font-semibold">
-                Combideal: -{COMBO_DEAL_DISCOUNT_PERCENT}% pentru {COMBO_DEAL_THRESHOLD}+ produse
-              </p>
-            </div>
 
             <div className="mt-6 space-y-2 text-sm text-[#251136]/90">
               {product.discount ? <p>Reducere: {product.discount}%</p> : null}
@@ -192,7 +186,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               <img
                 src={product.image}
                 alt={product.name}
-                className="aspect-square w-28 rounded-xl border border-[#e7def2] bg-[#f8f5fc] object-contain"
+                className="aspect-[2/3] w-28 rounded-xl border border-[#e7def2] bg-[#f8f5fc] object-contain"
                 loading="lazy"
               />
               <div>
@@ -206,8 +200,6 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-[#251136]/85">
                 <li>Produs vandut si livrat de {product.brand || "E-Store House"}.</li>
                 {product.variants ? null : <li>Cod produs: {product.sku || product.id}</li>}
-                <li>Origine: RO</li>
-                <li>Comanda maxima recomandata: 5 bucati / comanda.</li>
               </ul>
             </div>
           </div>
@@ -254,7 +246,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
                   <img
                     src={item.image}
                     alt={item.name}
-                    className="aspect-square w-full rounded-xl bg-[#f8f5fc] object-contain"
+                    className="aspect-[2/3] w-full rounded-xl bg-[#f8f5fc] object-contain"
                     loading="lazy"
                   />
                   <h3 className="title-2-lines mt-3 text-sm font-semibold text-[#251136]">
@@ -278,5 +270,6 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
 
       <Footer />
     </main>
+    </ProductSelection>
   );
 }

@@ -2,10 +2,11 @@ import productsData from "@/data/products.json";
 
 export type Product = {
   sku?: string;
+  inStock?: boolean;
   description?: string;
   material?: string;
   features?: { label: string; value: string }[];
-  variants?: { id: number; name: string; dimensions: string; price: number; sku: string; contents: string }[];
+  variants?: { id: number; name: string; dimensions: string; price: number; sku: string; images?: string[]; inStock?: boolean; contents: string }[];
   id: number;
   name: string;
   category: string;
@@ -25,17 +26,17 @@ export type Product = {
   tag?: string;
 };
 
-export const COMBO_DEAL_THRESHOLD = 2;
-export const COMBO_DEAL_DISCOUNT_PERCENT = 15;
-
 export const allProducts: Product[] = productsData as Product[];
-export const featuredProducts: Product[] = allProducts.slice(0, 8);
+export const featuredProducts: Product[] = [
+  ...allProducts.filter((product) => product.category === "Lenjerii Percale").slice(0, 4),
+  ...allProducts.filter((product) => product.category === "Ranforce Boutique").slice(0, 4),
+];
 
 export const getProductById = (id: number) => allProducts.find((product) => product.id === id);
 
 export const formatProductPrice = (value: number, currency: string) => {
-  if (currency === "Lei") {
-    return `${value.toFixed(2)} Lei`;
+  if (currency === "Lei" || currency === "RON") {
+    return `${new Intl.NumberFormat("ro-RO", { minimumFractionDigits: Number.isInteger(value) ? 0 : 2, maximumFractionDigits: 2 }).format(value)} lei`;
   }
 
   return new Intl.NumberFormat("nl-NL", {
@@ -43,13 +44,6 @@ export const formatProductPrice = (value: number, currency: string) => {
     currency,
     maximumFractionDigits: 2,
   }).format(value);
-};
-
-export const getComboDealUnitPrice = (price: number, quantity: number) => {
-  if (quantity >= COMBO_DEAL_THRESHOLD) {
-    return price * (1 - COMBO_DEAL_DISCOUNT_PERCENT / 100);
-  }
-  return price;
 };
 
 export const formatProductPriceRange = (product: Product) => {

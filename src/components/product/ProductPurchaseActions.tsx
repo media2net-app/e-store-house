@@ -1,5 +1,6 @@
 "use client";
 
+import { useProductSelection } from "./ProductSelection";
 import { useState } from "react";
 import { useCart } from "@/components/cart/CartProvider";
 import { formatProductPrice, formatProductPriceRange, type Product } from "@/lib/products";
@@ -11,10 +12,11 @@ type ProductPurchaseActionsProps = {
 export default function ProductPurchaseActions({ product }: ProductPurchaseActionsProps) {
   const [quantity, setQuantity] = useState(1);
   const { addItem } = useCart();
-  const [selectedId, setSelectedId] = useState<number | undefined>(undefined);
-  const selected = product.variants?.find((variant) => variant.id === selectedId);
+  const selection = useProductSelection();
+  const selected = selection?.selected;
   const cartProduct = selected ? {
     ...product, id: selected.id, price: selected.price, sku: selected.sku,
+    image: selected.images?.[0] ?? product.image,
     name: `${product.name} — ${selected.name} (${selected.dimensions})`,
   } : product;
 
@@ -31,7 +33,7 @@ export default function ProductPurchaseActions({ product }: ProductPurchaseActio
               {product.variants?.map((variant) => (
                 <label key={variant.id} className={`cursor-pointer rounded-xl border px-4 py-3 text-sm ${selected?.id === variant.id ? "border-[#251136] bg-[#251136] text-white" : "border-[#e7def2] text-[#251136]"}`}>
                   <input type="radio" name={`size-${product.id}`} value={variant.id}
-                    checked={selected?.id === variant.id} onChange={() => setSelectedId(variant.id)}
+                    checked={selected?.id === variant.id} onChange={() => selection?.select(variant.id)}
                     className="mr-2 accent-purple-700" />
                   {variant.name} — {variant.dimensions}
                 </label>
@@ -58,8 +60,8 @@ export default function ProductPurchaseActions({ product }: ProductPurchaseActio
 
       <button
         className="disabled:cursor-not-allowed disabled:opacity-50 rounded-full bg-[#251136] px-5 py-2 text-sm font-semibold text-white transition hover:bg-[#321747]"
-        disabled={Boolean(product.variants?.length && !selected)}
-        onClick={() => { if (!product.variants?.length || selected) addItem(cartProduct, quantity); }}
+        disabled={Boolean((product.variants?.length && !selected) || selected?.inStock === false || product.inStock === false)}
+        onClick={() => { if ((!product.variants?.length || selected) && selected?.inStock !== false && product.inStock !== false) addItem(cartProduct, quantity); }}
       >
         Adauga in cos
       </button>

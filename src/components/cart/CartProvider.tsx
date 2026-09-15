@@ -3,10 +3,7 @@
 import { createContext, useContext, useState } from "react";
 import type { Product } from "@/lib/products";
 import {
-  COMBO_DEAL_DISCOUNT_PERCENT,
-  COMBO_DEAL_THRESHOLD,
   formatProductPrice,
-  getComboDealUnitPrice,
 } from "@/lib/products";
 
 type CartItem = {
@@ -93,7 +90,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   };
 
   const subtotalByCurrency = items.reduce<Record<string, number>>((acc, item) => {
-    const unitPrice = getComboDealUnitPrice(item.price, item.quantity);
+    const unitPrice = item.price;
     acc[item.currency] = (acc[item.currency] || 0) + unitPrice * item.quantity;
     return acc;
   }, {});
@@ -143,15 +140,10 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
                         {item.sku ? <p className="mt-1 text-xs text-[#251136]/80">Cod produs: {item.sku}</p> : null}
                         <p className="mt-1 text-sm text-[#251136]/80">
                           {formatProductPrice(
-                            getComboDealUnitPrice(item.price, item.quantity),
+                            item.price,
                             item.currency,
                           )}
                         </p>
-                        {item.quantity >= COMBO_DEAL_THRESHOLD ? (
-                          <p className="mt-1 text-xs font-semibold text-[#251136]">
-                            Combo activ: -{COMBO_DEAL_DISCOUNT_PERCENT}% (2+ produse)
-                          </p>
-                        ) : null}
                       </div>
                     </div>
                     <div className="mt-3 flex items-center justify-between">
