@@ -27,7 +27,7 @@ export type Product = {
   description?: string;
   material?: string;
   features?: { label: string; value: string }[];
-  variants?: { id: number; name: string }[];
+  variants?: { id: number; name: string; dimensions: string; price: number; contents: string }[];
   id: number;
   name: string;
   category: string;

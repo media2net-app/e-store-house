@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import ProductImageGallery from "@/components/product/ProductImageGallery";
 import ProductPurchaseActions from "@/components/product/ProductPurchaseActions";
 import Footer from "@/components/layout/Footer";
@@ -29,6 +29,8 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
   if (Number.isNaN(productId)) {
     notFound();
   }
+
+  if (productId === 16129402) permanentRedirect("/product/16129401");
 
   const product = getProductById(productId);
 
@@ -113,6 +115,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
             </h1>
             <p className="mt-2 text-sm text-[#251136]/70">Categorie: {product.category}</p>
 
+            {product.variants ? <ProductPurchaseActions key={product.id} product={product} /> : (
             <div className="mt-6 flex items-end gap-3">
               <span className="text-3xl font-bold text-[#251136]">
                 {formatProductPrice(product.price, product.currency)}
@@ -123,6 +126,8 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
                 </span>
               ) : null}
             </div>
+
+            )}
 
             <div className="mt-5 rounded-xl bg-[#16c05d] px-4 py-3 text-white">
               <p className="text-sm font-semibold">
@@ -165,21 +170,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               </ul>
             </div>
 
-            {product.variants ? (
-              <div className="mt-6">
-                <p className="text-sm font-semibold text-[#251136]">Alege varianta</p>
-                <div className="mt-2 flex flex-wrap gap-2">
-                  {product.variants.map((variant) => (
-                    <Link key={variant.id} href={`/product/${variant.id}`}
-                      aria-current={variant.id === product.id ? "page" : undefined}
-                      className={`rounded-full border border-[#251136] px-4 py-2 text-sm ${variant.id === product.id ? "bg-[#251136] text-white" : "text-[#251136]"}`}>
-                      {variant.name}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            ) : null}
-            <ProductPurchaseActions product={product} />
+            {!product.variants ? <ProductPurchaseActions key={product.id} product={product} /> : null}
 
             <div className="mt-4 flex flex-wrap gap-3">
               <Link
