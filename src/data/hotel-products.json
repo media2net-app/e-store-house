@@ -48,14 +48,16 @@
         "name": "Pat single",
         "dimensions": "80 x 150 cm",
         "price": 130,
-        "contents": "Traversa 80 x 150 cm + 1 pernuta decorativa 30 x 50 cm cu fata detasabila"
+        "contents": "Traversa 80 x 150 cm + 1 pernuta decorativa 30 x 50 cm cu fata detasabila",
+        "sku": "161296"
       },
       {
         "id": 16129402,
         "name": "Pat dublu",
         "dimensions": "80 x 220 cm",
         "price": 195,
-        "contents": "Traversa 80 x 220 cm + 2 pernute decorative 30 x 50 cm cu fete detasabile"
+        "contents": "Traversa 80 x 220 cm + 2 pernute decorative 30 x 50 cm cu fete detasabile",
+        "sku": "161295"
       }
     ]
   }

@@ -10,6 +10,7 @@ import {
 } from "@/lib/products";
 
 type CartItem = {
+  sku?: string;
   productId: number;
   name: string;
   price: number;
@@ -51,6 +52,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
         ...prev,
         {
           productId: product.id,
+          sku: product.sku,
           name: product.name,
           price: product.price,
           currency: product.currency,
@@ -138,6 +140,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
                         <p className="line-clamp-2 text-sm font-semibold text-[#251136]">
                           {item.name}
                         </p>
+                        {item.sku ? <p className="mt-1 text-xs text-[#251136]/80">Cod produs: {item.sku}</p> : null}
                         <p className="mt-1 text-sm text-[#251136]/80">
                           {formatProductPrice(
                             getComboDealUnitPrice(item.price, item.quantity),

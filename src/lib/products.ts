@@ -24,10 +24,11 @@ type TrendyolRawProduct = {
 };
 
 export type Product = {
+  sku?: string;
   description?: string;
   material?: string;
   features?: { label: string; value: string }[];
-  variants?: { id: number; name: string; dimensions: string; price: number; contents: string }[];
+  variants?: { id: number; name: string; dimensions: string; price: number; sku: string; contents: string }[];
   id: number;
   name: string;
   category: string;

@@ -14,7 +14,7 @@ export default function ProductPurchaseActions({ product }: ProductPurchaseActio
   const [selectedId, setSelectedId] = useState(product.variants?.[0]?.id);
   const selected = product.variants?.find((variant) => variant.id === selectedId);
   const cartProduct = selected ? {
-    ...product, id: selected.id, price: selected.price,
+    ...product, id: selected.id, price: selected.price, sku: selected.sku,
     name: `${product.name} — ${selected.name} (${selected.dimensions})`,
   } : product;
 
@@ -39,6 +39,7 @@ export default function ProductPurchaseActions({ product }: ProductPurchaseActio
             </div>
           </fieldset>
           <p className="mt-3 text-sm text-[#251136]/85">{selected.contents}</p>
+          <p className="mt-2 text-sm text-[#251136]" aria-live="polite">Cod produs (SKU / cod de bare): <strong>{selected.sku}</strong></p>
         </>
       ) : null}
     <div className="mt-4 flex flex-wrap items-center gap-3">

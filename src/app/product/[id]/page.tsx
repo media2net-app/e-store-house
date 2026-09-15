@@ -206,7 +206,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               <h3 className="text-lg font-semibold text-[#251136]">Informatii suplimentare</h3>
               <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-[#251136]/85">
                 <li>Produs vandut si livrat de {product.brand || "E-Store House"}.</li>
-                <li>Cod produs: {product.id}</li>
+                {product.variants ? null : <li>Cod produs: {product.sku || product.id}</li>}
                 <li>Origine: RO</li>
                 <li>Comanda maxima recomandata: 5 bucati / comanda.</li>
               </ul>
