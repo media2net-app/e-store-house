@@ -1,0 +1,110 @@
+[
+  {
+    "id": 16129401,
+    "name": "Traversa de pat hotel personalizabila cu pernute decorative 30 x 50 cm - Mov — Pat single",
+    "brand": "E-Store House",
+    "category": "Textile hoteliere",
+    "price": 130,
+    "currency": "Lei",
+    "image": "/products/traversa-hotel-mov/01-hero.png",
+    "images": [
+      "/products/traversa-hotel-mov/01-hero.png",
+      "/products/traversa-hotel-mov/02-lifestyle.png",
+      "/products/traversa-hotel-mov/03-detail.png",
+      "/products/traversa-hotel-mov/04-dimensiuni.png"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/traverse-pat-hotel/traversa-pat-hotel-personalizata-cu-pernute-decorative-30x50-cm-11/",
+    "description": "Ofera camerei un aspect elegant si unitar cu un set decorativ realizat pentru hoteluri, pensiuni, vile si apartamente in regim hotelier. Setul include o traversa de pat mov si una sau doua pernute decorative, in functie de varianta aleasa. Materialul din 100% poliester, cu densitate de 300 g/mp, este placut vizual si potrivit pentru utilizare profesionala. Fetele pernutelor sunt detasabile, iar umplutura este din puf microgel. Personalizarea este inclusa, pe o suprafata de pana la 20 x 15 cm. Traversa 80 x 150 cm + 1 pernuta decorativa 30 x 50 cm cu fata detasabila. Imaginile prezintă exemple de personalizare.",
+    "material": "100% poliester",
+    "features": [
+      {
+        "label": "Culoare",
+        "value": "Mov"
+      },
+      {
+        "label": "Material",
+        "value": "100% poliester"
+      },
+      {
+        "label": "Densitate",
+        "value": "300 g/mp"
+      },
+      {
+        "label": "Conținut pachet",
+        "value": "Traversa 80 x 150 cm + 1 pernuta decorativa 30 x 50 cm cu fata detasabila"
+      },
+      {
+        "label": "Pernuțe",
+        "value": "30 x 50 cm, fețe detașabile, umplutură puf microgel"
+      },
+      {
+        "label": "Personalizare",
+        "value": "Inclusă, maximum 20 x 15 cm"
+      }
+    ],
+    "variants": [
+      {
+        "id": 16129401,
+        "name": "Pat single"
+      },
+      {
+        "id": 16129402,
+        "name": "Pat dublu"
+      }
+    ]
+  },
+  {
+    "id": 16129402,
+    "name": "Traversa de pat hotel personalizabila cu pernute decorative 30 x 50 cm - Mov — Pat dublu",
+    "brand": "E-Store House",
+    "category": "Textile hoteliere",
+    "price": 195,
+    "currency": "Lei",
+    "image": "/products/traversa-hotel-mov/01-hero.png",
+    "images": [
+      "/products/traversa-hotel-mov/01-hero.png",
+      "/products/traversa-hotel-mov/02-lifestyle.png",
+      "/products/traversa-hotel-mov/03-detail.png",
+      "/products/traversa-hotel-mov/04-dimensiuni.png"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/traverse-pat-hotel/traversa-pat-hotel-personalizata-cu-pernute-decorative-30x50-cm-11/",
+    "description": "Ofera camerei un aspect elegant si unitar cu un set decorativ realizat pentru hoteluri, pensiuni, vile si apartamente in regim hotelier. Setul include o traversa de pat mov si una sau doua pernute decorative, in functie de varianta aleasa. Materialul din 100% poliester, cu densitate de 300 g/mp, este placut vizual si potrivit pentru utilizare profesionala. Fetele pernutelor sunt detasabile, iar umplutura este din puf microgel. Personalizarea este inclusa, pe o suprafata de pana la 20 x 15 cm. Traversa 80 x 220 cm + 2 pernute decorative 30 x 50 cm cu fete detasabile. Imaginile prezintă exemple de personalizare.",
+    "material": "100% poliester",
+    "features": [
+      {
+        "label": "Culoare",
+        "value": "Mov"
+      },
+      {
+        "label": "Material",
+        "value": "100% poliester"
+      },
+      {
+        "label": "Densitate",
+        "value": "300 g/mp"
+      },
+      {
+        "label": "Conținut pachet",
+        "value": "Traversa 80 x 220 cm + 2 pernute decorative 30 x 50 cm cu fete detasabile"
+      },
+      {
+        "label": "Pernuțe",
+        "value": "30 x 50 cm, fețe detașabile, umplutură puf microgel"
+      },
+      {
+        "label": "Personalizare",
+        "value": "Inclusă, maximum 20 x 15 cm"
+      }
+    ],
+    "variants": [
+      {
+        "id": 16129401,
+        "name": "Pat single"
+      },
+      {
+        "id": 16129402,
+        "name": "Pat dublu"
+      }
+    ]
+  }
+]

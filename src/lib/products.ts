@@ -1,3 +1,4 @@
+import hotelProductsData from "@/data/hotel-products.json";
 import trendyolProductsData from "@/data/trendyol-products.json";
 
 type TrendyolRawProduct = {
@@ -23,6 +24,10 @@ type TrendyolRawProduct = {
 };
 
 export type Product = {
+  description?: string;
+  material?: string;
+  features?: { label: string; value: string }[];
+  variants?: { id: number; name: string }[];
   id: number;
   name: string;
   category: string;
@@ -47,7 +52,7 @@ export const COMBO_DEAL_DISCOUNT_PERCENT = 15;
 
 const rawProducts = trendyolProductsData.products as unknown as TrendyolRawProduct[];
 
-export const featuredProducts: Product[] = rawProducts.slice(0, 8).map((product) => {
+const trendyolFeaturedProducts: Product[] = rawProducts.slice(0, 8).map((product) => {
   const discountedPrice =
     typeof product.priceDiscounted === "number" ? product.priceDiscounted : undefined;
   const currentPrice = typeof product.priceCurrent === "number" ? product.priceCurrent : 0;
@@ -76,7 +81,7 @@ export const featuredProducts: Product[] = rawProducts.slice(0, 8).map((product)
   };
 });
 
-export const allProducts: Product[] = rawProducts.map((product) => {
+const trendyolProducts: Product[] = rawProducts.map((product) => {
   const discountedPrice =
     typeof product.priceDiscounted === "number" ? product.priceDiscounted : undefined;
   const currentPrice = typeof product.priceCurrent === "number" ? product.priceCurrent : 0;
@@ -104,6 +109,9 @@ export const allProducts: Product[] = rawProducts.map((product) => {
     tag: discountedPrice ? "Deal" : undefined,
   };
 });
+
+export const allProducts: Product[] = [...hotelProductsData, ...trendyolProducts];
+export const featuredProducts: Product[] = [...hotelProductsData, ...trendyolFeaturedProducts].slice(0, 8);
 
 export const getProductById = (id: number) => allProducts.find((product) => product.id === id);
 

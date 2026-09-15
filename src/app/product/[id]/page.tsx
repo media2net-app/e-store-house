@@ -40,7 +40,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
     .filter((item) => item.id !== product.id && item.brand === product.brand)
     .slice(0, 4);
 
-  const highlightedFeatures = [
+  const highlightedFeatures = product.features ? product.features.slice(0, 4).map((feature) => `${feature.label}: ${feature.value}`) : [
     product.brand ? `Brand: ${product.brand}` : "Brand verificat",
     "Material premium si finisaje de calitate",
     product.freeCargo ? "Livrare gratuita disponibila" : "Livrare rapida disponibila",
@@ -56,10 +56,10 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
   const titleLower = product.name.toLowerCase();
   const sizeMatch = getFirstMatch(product.name, /\d{2,3}x\d{2,3}(x\d{2})?/i);
   const piecesMatch = getFirstMatch(product.name, /\d+\s*piese/i);
-  const material =
+  const material = product.material ?? (
     titleLower.includes("100% bumbac") || titleLower.includes("ranforce")
       ? "100% bumbac ranforce"
-      : "Bumbac premium";
+      : "Bumbac premium");
   const pattern = titleLower.includes("geometric")
     ? "Model geometric"
     : titleLower.includes("floral") || titleLower.includes("lalea")
@@ -74,11 +74,11 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
         : "Multicolor";
   const setContents = piecesMatch ? piecesMatch : "Set complet pat";
   const measurements = sizeMatch ? sizeMatch.replace(/x/gi, " x ") : "180 x 200";
-  const productDescription = `${product.name}. Material premium, placut la atingere, potrivit pentru utilizare zilnica. ${
+  const productDescription = product.description ?? `${product.name}. Material premium, placut la atingere, potrivit pentru utilizare zilnica. ${
     sizeMatch ? `Dimensiune principala: ${measurements}. ` : ""
   }${piecesMatch ? `Setul include ${piecesMatch}.` : ""}`;
 
-  const productFeatures = [
+  const productFeatures = product.features ?? [
     { label: "Culoare", value: color },
     { label: "Model", value: pattern },
     { label: "Material", value: material },
@@ -165,6 +165,20 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               </ul>
             </div>
 
+            {product.variants ? (
+              <div className="mt-6">
+                <p className="text-sm font-semibold text-[#251136]">Alege varianta</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {product.variants.map((variant) => (
+                    <Link key={variant.id} href={`/product/${variant.id}`}
+                      aria-current={variant.id === product.id ? "page" : undefined}
+                      className={`rounded-full border border-[#251136] px-4 py-2 text-sm ${variant.id === product.id ? "bg-[#251136] text-white" : "text-[#251136]"}`}>
+                      {variant.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ) : null}
             <ProductPurchaseActions product={product} />
 
             <div className="mt-4 flex flex-wrap gap-3">
@@ -230,7 +244,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
             <div className="rounded-lg bg-[#f7f4fb] p-4">
               <h4 className="text-base font-semibold text-[#251136]">Instructiuni spalare</h4>
               <p className="mt-2 text-sm text-[#251136]/85">
-                Spalare la 40°C, fara inalbitor, uscare normala.
+                {product.features ? "Respectați instrucțiunile de pe eticheta produsului." : "Spalare la 40°C, fara inalbitor, uscare normala."}
               </p>
             </div>
           </div>
