@@ -16,6 +16,7 @@ export default function ProductPurchaseActions({ product }: ProductPurchaseActio
   const selected = selection?.selected;
   const cartProduct = selected ? {
     ...product, id: selected.id, price: selected.price, sku: selected.sku,
+    bundleComponents: selected.bundleComponents ?? product.bundleComponents,
     image: selected.images?.[0] ?? product.image,
     name: `${product.name} — ${selected.name} (${selected.dimensions})`,
   } : product;
@@ -28,7 +29,7 @@ export default function ProductPurchaseActions({ product }: ProductPurchaseActio
             {selected ? formatProductPrice(selected.price, product.currency) : formatProductPriceRange(product)}
           </p>
           <fieldset className="mt-5">
-            <legend className="text-sm font-semibold text-[#3b2d24]">Alege dimensiunea</legend>
+            <legend className="text-sm font-semibold text-[#3b2d24]">Alege varianta</legend>
             <div className="mt-2 flex flex-wrap gap-2">
               {product.variants?.map((variant) => (
                 <label key={variant.id} className={`cursor-pointer rounded-xl border px-4 py-3 text-sm ${selected?.id === variant.id ? "border-[#3b2d24] bg-[#3b2d24] text-white" : "border-[#e5d9c7] text-[#3b2d24]"}`}>
@@ -40,10 +41,12 @@ export default function ProductPurchaseActions({ product }: ProductPurchaseActio
               ))}
             </div>
           </fieldset>
-          <p className="mt-3 text-sm text-[#3b2d24]/85">{selected ? selected.contents : "Selectează dimensiunea pentru prețul exact."}</p>
+          <p className="mt-3 text-sm text-[#3b2d24]/85">{selected ? selected.contents : "Selectează varianta pentru prețul exact."}</p>
           {selected ? <p className="mt-2 text-sm text-[#3b2d24]" aria-live="polite">Cod produs (SKU / cod de bare): <strong>{selected.sku}</strong></p> : null}
         </>
       ) : null}
+      {cartProduct.bundleComponents ? <div className="mt-3 text-sm text-[#3b2d24]/85"><p className="font-semibold">Preț pentru un set. Conținut:</p>{cartProduct.bundleComponents.map((component) => <p key={component.sku}>{component.quantity} × {component.name} · Cod: {component.sku}</p>)}</div> : null}
+      {product.inStock === false || selected?.inStock === false ? <p className="mt-3 text-sm font-semibold text-[#3b2d24]" role="status">Momentan indisponibil</p> : null}
     <div className="mt-4 flex flex-wrap items-center gap-3">
       <div className="flex items-center rounded-full border border-[#3b2d24]">
         <button

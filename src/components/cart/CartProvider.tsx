@@ -8,6 +8,7 @@ import {
 
 type CartItem = {
   sku?: string;
+  bundleComponents?: Product["bundleComponents"];
   productId: number;
   name: string;
   price: number;
@@ -50,6 +51,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
         {
           productId: product.id,
           sku: product.sku,
+          bundleComponents: product.bundleComponents,
           name: product.name,
           price: product.price,
           currency: product.currency,
@@ -138,6 +140,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
                           {item.name}
                         </p>
                         {item.sku ? <p className="mt-1 text-xs text-[#3b2d24]/80">Cod produs: {item.sku}</p> : null}
+                        {item.bundleComponents?.map((component) => <p key={component.sku} className="mt-1 text-xs text-[#3b2d24]/80">{component.quantity * item.quantity} × {component.name} · Cod: {component.sku}</p>)}
                         <p className="mt-1 text-sm text-[#3b2d24]/80">
                           {formatProductPrice(
                             item.price,

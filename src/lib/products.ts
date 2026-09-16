@@ -2,11 +2,12 @@ import productsData from "@/data/products.json";
 
 export type Product = {
   sku?: string;
+  bundleComponents?: { sku: string; quantity: number; name: string }[];
   inStock?: boolean;
   description?: string;
   material?: string;
   features?: { label: string; value: string }[];
-  variants?: { id: number; name: string; dimensions: string; price: number; sku: string; images?: string[]; inStock?: boolean; contents: string }[];
+  variants?: { id: number; name: string; dimensions: string; price: number; sku: string; images?: string[]; inStock?: boolean; contents: string; bundleComponents?: Product["bundleComponents"] }[];
   id: number;
   name: string;
   category: string;
