@@ -10,6 +10,7 @@ export type Product = {
   id: number;
   name: string;
   category: string;
+  categoryPath?: string;
   brand?: string;
   price: number;
   oldPrice?: number;
@@ -28,8 +29,8 @@ export type Product = {
 
 export const allProducts: Product[] = productsData as Product[];
 export const featuredProducts: Product[] = [
-  ...allProducts.filter((product) => product.category === "Lenjerii Percale").slice(0, 4),
-  ...allProducts.filter((product) => product.category === "Ranforce Boutique").slice(0, 4),
+  ...allProducts.filter((product) => product.categoryPath?.endsWith("/lenjerii-percale-imprimat")).slice(0, 4),
+  ...allProducts.filter((product) => product.categoryPath?.endsWith("/lenjerii-de-pat-ranforce-butique")).slice(0, 4),
 ];
 
 export const getProductById = (id: number) => allProducts.find((product) => product.id === id);

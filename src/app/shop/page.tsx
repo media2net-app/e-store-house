@@ -1,25 +1,42 @@
+import { notFound } from "next/navigation";
+import { categoryCount, categoryHref, categoryProducts, categoryTrail, getCategory, getCategoryChildren } from "@/lib/categories";
 import Link from "next/link";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import TrustBar from "@/components/layout/TrustBar";
 import { allProducts, formatProductPrice, formatProductPriceRange } from "@/lib/products";
 
-export default function MagazinPage() {
+export default async function MagazinPage({ searchParams }: { searchParams: Promise<{ categorie?: string | string[] }> }) {
+  const { categorie } = await searchParams;
+  if (Array.isArray(categorie)) notFound();
+  const active = categorie ? getCategory(categorie) : undefined;
+  if (categorie && !active) notFound();
+  const products = active ? categoryProducts(active.path) : allProducts;
+  const children = getCategoryChildren(active?.path ?? null);
+
   return (
     <main className="min-h-screen bg-[#f6f2fb]">
       <TrustBar />
       <Header />
 
       <section className="mx-auto w-full max-w-[1440px] px-4 py-10">
+        <nav aria-label="Traseu categorie" className="mb-4 flex flex-wrap gap-2 text-sm text-[#251136]/80">
+          <Link href="/categorii" className="hover:underline">Categorii</Link>
+          <span>/</span><Link href="/shop" className="hover:underline">Toate produsele</Link>
+          {active ? categoryTrail(active.path).map((category) => <span key={category.path}> / <Link href={categoryHref(category.path)} aria-current={category.path === active.path ? "page" : undefined} className="hover:underline">{category.name}</Link></span>) : null}
+        </nav>
         <h1 className="font-[family-name:var(--font-playfair)] text-4xl font-semibold text-[#251136]">
-          Toate produsele
+          {active?.name ?? "Toate produsele"}
         </h1>
         <p className="mt-2 text-sm text-[#251136]/80">
-          {allProducts.length ? `${allProducts.length} produse disponibile.` : "Pregătim noua colecție. Produsele vor fi disponibile în curând."}
+          {products.length ? `${products.length} produse disponibile.` : "Momentan nu avem produse în această categorie. Colecția va fi completată în curând."}
         </p>
 
+        {children.length ? <nav aria-label="Subcategorii" className="mt-5 flex flex-wrap gap-2">
+          {children.map((category) => <Link key={category.path} href={categoryHref(category.path)} className="rounded-xl border border-[#e7def2] bg-white px-4 py-3 text-sm font-medium text-[#251136] hover:border-[#251136]">{category.name} ({categoryCount(category.path)})</Link>)}
+        </nav> : null}
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {allProducts.map((product) => (
+          {products.map((product) => (
             <article
               key={product.id}
               className="rounded-2xl border border-[#e7def2] bg-white p-4 transition hover:shadow-md"

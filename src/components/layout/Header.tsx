@@ -6,7 +6,7 @@ import { useCart } from "@/components/cart/CartProvider";
 const navItems = [
   { label: "Acasa", href: "/" },
   { label: "Magazin", href: "/shop" },
-  { label: "Categorii", href: "/shop" },
+  { label: "Categorii", href: "/categorii" },
   { label: "Despre noi", href: "#" },
   { label: "Contact", href: "#" },
 ];
@@ -37,6 +37,9 @@ export default function Header() {
           Cos ({totalItems})
         </button>
       </div>
+      <nav aria-label="Navigare mobil" className="flex gap-5 overflow-x-auto border-t border-[#e7def2] px-4 py-3 text-sm font-medium text-[#251136] md:hidden">
+        {navItems.slice(0, 3).map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}
+      </nav>
     </header>
   );
 }

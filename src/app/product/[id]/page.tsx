@@ -1,3 +1,4 @@
+import { categoryHref, categoryTrail } from "@/lib/categories";
 import { ProductSelection } from "@/components/product/ProductSelection";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -112,7 +113,9 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
             <h1 className="mt-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold text-[#251136]">
               {product.name}
             </h1>
-            <p className="mt-2 text-sm text-[#251136]/70">Categorie: {product.category}</p>
+            <nav aria-label="Categoria produsului" className="mt-2 flex flex-wrap gap-1 text-sm text-[#251136]/70">
+              {product.categoryPath ? categoryTrail(product.categoryPath).map((category, index) => <span key={category.path}>{index ? " / " : ""}<Link href={categoryHref(category.path)} className="hover:underline">{category.name}</Link></span>) : product.category}
+            </nav>
 
             {product.variants ? <ProductPurchaseActions key={product.id} product={product} /> : (
             <div className="mt-6 flex items-end gap-3">
