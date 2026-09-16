@@ -1,3 +1,4 @@
+import CatalogLayout from "@/components/layout/CatalogLayout";
 import { categoryHref, categoryTrail } from "@/lib/categories";
 import { ProductSelection } from "@/components/product/ProductSelection";
 import Link from "next/link";
@@ -48,12 +49,6 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
     product.sameDayShipping ? "Expediere in aceeasi zi" : "Procesare comanda in 24h",
   ];
 
-  const deliveryStart = new Date();
-  deliveryStart.setDate(deliveryStart.getDate() + 2);
-  const deliveryEnd = new Date();
-  deliveryEnd.setDate(deliveryEnd.getDate() + 5);
-  const deliveryRange = `${deliveryStart.toLocaleDateString("ro-RO")} - ${deliveryEnd.toLocaleDateString("ro-RO")}`;
-
   const titleLower = product.name.toLowerCase();
   const sizeMatch = getFirstMatch(product.name, /\d{2,3}x\d{2,3}(x\d{2})?/i);
   const piecesMatch = getFirstMatch(product.name, /\d+\s*piese/i);
@@ -95,6 +90,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
     <main className="min-h-screen bg-[#f8f4ec]">
       <TrustBar />
       <Header />
+      <CatalogLayout activePath={product.categoryPath}>
 
       <section className="mx-auto w-full max-w-[1440px] px-4 py-10">
         <Link href="/shop" className="text-sm font-semibold text-[#3b2d24] hover:underline">
@@ -135,24 +131,21 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               {product.discount ? <p>Reducere: {product.discount}%</p> : null}
               {product.freeCargo ? <p>Livrare gratuita disponibila</p> : null}
               {product.sameDayShipping ? <p>Expediere in aceeasi zi disponibila</p> : null}
-              {product.hasFastDeliveryTag ? <p>Livrare rapida label actief</p> : null}
+              {product.hasFastDeliveryTag ? <p>Livrare rapidă disponibilă</p> : null}
               {product.hasFlashSaleTag ? <p>Produs in promotie flash</p> : null}
               {product.socialProof ? <p>{product.socialProof}</p> : null}
             </div>
 
             <div className="mt-6 grid gap-3 md:grid-cols-2">
               <div className="rounded-xl border border-[#e5d9c7] bg-[#fcf8f0] p-4">
-                <p className="text-sm font-semibold text-[#3b2d24]">Metode de plata</p>
-                <ul className="mt-2 space-y-1 text-sm text-[#3b2d24]/85">
-                  <li>Card (Visa / Mastercard)</li>
-                  <li>Apple Pay / Google Pay</li>
-                  <li>Plata ramburs la livrare</li>
-                </ul>
+                <p className="text-sm font-semibold text-[#3b2d24]">Vândut de E-Store House</p>
+                <p className="mt-2 text-sm text-[#3b2d24]/85">Pentru întrebări despre produs sau comandă, contactează echipa E-Store House.</p>
+                <a className="mt-2 block break-all text-sm underline" href="mailto:estorehouse2025@yahoo.com">estorehouse2025@yahoo.com</a>
               </div>
               <div className="rounded-xl border border-[#e5d9c7] bg-[#fcf8f0] p-4">
-                <p className="text-sm font-semibold text-[#3b2d24]">Livrare estimata</p>
+                <p className="text-sm font-semibold text-[#3b2d24]">Livrare E-Store House</p>
                 <p className="mt-2 text-sm text-[#3b2d24]/85">
-                  Comanda acum, livrare intre <span className="font-semibold">{deliveryRange}</span>.
+                  Livrarea este gestionată de E-Store House. Termenul și costul livrării se confirmă la preluarea comenzii.
                 </p>
               </div>
             </div>
@@ -201,7 +194,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
             <div>
               <h3 className="text-lg font-semibold text-[#3b2d24]">Informatii suplimentare</h3>
               <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-[#3b2d24]/85">
-                <li>Produs vandut si livrat de {product.brand || "E-Store House"}.</li>
+                <li>Produs vândut și livrat de E-Store House.</li>
                 {product.variants ? null : product.bundleComponents ? <li>Coduri produse: {product.bundleComponents.map((component) => `${component.sku} (${component.quantity} buc.)`).join(" · ")}</li> : product.sku ? <li>Cod produs: {product.sku}</li> : null}
               </ul>
             </div>
@@ -271,6 +264,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
         ) : null}
       </section>
 
+      </CatalogLayout>
       <Footer />
     </main>
     </ProductSelection>

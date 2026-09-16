@@ -1,5 +1,6 @@
+import CatalogLayout from "@/components/layout/CatalogLayout";
 import { notFound } from "next/navigation";
-import { categoryCount, categoryHref, categoryProducts, categoryTrail, getCategory, getCategoryChildren } from "@/lib/categories";
+import { categoryHref, categoryProducts, categoryTrail, getCategory } from "@/lib/categories";
 import Link from "next/link";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
@@ -12,12 +13,12 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
   const active = categorie ? getCategory(categorie) : undefined;
   if (categorie && !active) notFound();
   const products = active ? categoryProducts(active.path) : allProducts;
-  const children = getCategoryChildren(active?.path ?? null);
 
   return (
     <main className="min-h-screen bg-[#f8f4ec]">
       <TrustBar />
       <Header />
+      <CatalogLayout activePath={active?.path}>
 
       <section className="mx-auto w-full max-w-[1440px] px-4 py-10">
         <nav aria-label="Traseu categorie" className="mb-4 flex flex-wrap gap-2 text-sm text-[#3b2d24]/80">
@@ -32,13 +33,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
           {products.length ? `${products.length} produse disponibile.` : "Momentan nu avem produse în această categorie. Colecția va fi completată în curând."}
         </p>
 
-        {children.length ? <details className="shop-subcategories mt-5">
-          <summary>{active ? "Alege subcategoria" : "Alege categoria"} <span>({children.length})</span></summary>
-          <nav aria-label="Subcategorii" className="flex flex-wrap gap-2 p-3">
-            {children.map((category) => <Link key={category.path} href={categoryHref(category.path)} className="rounded-lg border border-[#e5d9c7] bg-white px-3 py-2 text-sm text-[#3b2d24] hover:border-[#3b2d24]">{category.name} ({categoryCount(category.path)})</Link>)}
-          </nav>
-        </details> : null}
-        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
           {products.map((product) => (
             <article
               key={product.id}
@@ -77,6 +72,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
         </div>
       </section>
 
+      </CatalogLayout>
       <Footer />
     </main>
   );

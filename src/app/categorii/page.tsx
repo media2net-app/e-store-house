@@ -1,3 +1,4 @@
+import CatalogLayout from "@/components/layout/CatalogLayout";
 import Link from "next/link";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -21,6 +22,7 @@ function Subcategories({ parent }: { parent: string }) {
 export default function CategoriesPage() {
   return <main className="min-h-screen bg-[#f8f4ec]">
     <TrustBar /><Header />
+      <CatalogLayout>
     <section className="mx-auto max-w-[1440px] px-4 py-10">
       <h1 className="font-[family-name:var(--font-playfair)] text-4xl font-semibold text-[#3b2d24]">Categorii de produse</h1>
       <p className="mt-3 text-[#3b2d24]/80">Deschide o categorie pentru a alege subcategoria dorită.</p>
@@ -32,6 +34,7 @@ export default function CategoriesPage() {
         </details> : <Link key={category.path} href={categoryHref(category.path)} className="category-group category-leaf">{category.name}<span>{categoryCount(category.path)} produse</span></Link>)}
       </div>
     </section>
-    <Footer />
+    </CatalogLayout>
+      <Footer />
   </main>;
 }
