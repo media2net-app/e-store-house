@@ -16894,5 +16894,2984 @@
       }
     ],
     "inStock": true
+  },
+  {
+    "id": 388,
+    "name": "Pernă matlasată Economy",
+    "category": "Perne și protecții pernă",
+    "categoryPath": "perne",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/perne/perna-matlasata-economy/",
+    "description": "Pernă matlasată Economy. Alege dimensiunea pentru a vedea conținutul, specificațiile, prețul și imaginile variantei.",
+    "features": [
+      {
+        "label": "Mărimi",
+        "value": "40 × 40 cm; 50 × 70 cm; 65 × 65 cm / 70 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-388/01.webp",
+      "/products/ralex-388/02.webp",
+      "/products/ralex-388/03.webp",
+      "/products/ralex-388/04.webp"
+    ],
+    "image": "/products/ralex-388/01.webp",
+    "price": 11.7,
+    "inStock": true,
+    "material": "Microfibră; umplutură din puf siliconic.",
+    "variants": [
+      {
+        "id": 388,
+        "sku": "388",
+        "name": "40 × 40 cm",
+        "dimensions": "40 × 40 cm",
+        "contents": "Dimensiuni - 40x40cm țesătură matlasată microfibră umplutură puf siliconic 250g/buc. Dimensiuni – 40x40cm țesătură matlasată microfibră umplutură puf siliconic 250g/buc.",
+        "price": 11.7,
+        "inStock": true,
+        "images": [
+          "/products/ralex-388/01.webp",
+          "/products/ralex-388/02.webp",
+          "/products/ralex-388/03.webp",
+          "/products/ralex-388/04.webp"
+        ]
+      },
+      {
+        "id": 391,
+        "sku": "391",
+        "name": "50 × 70 cm",
+        "dimensions": "50 × 70 cm",
+        "contents": "Dimensiuni - 50x70cm țesătură matlasată microfibră umplutură puf siliconic 250g/buc. Dimensiuni – 50x70cm țesătură matlasată microfibră umplutură puf siliconic 250g/buc.",
+        "price": 35.1,
+        "inStock": true,
+        "images": [
+          "/products/ralex-391/01.webp",
+          "/products/ralex-391/02.webp",
+          "/products/ralex-391/03.webp",
+          "/products/ralex-391/04.webp"
+        ]
+      },
+      {
+        "id": 392,
+        "sku": "392",
+        "name": "65 × 65 cm / 70 × 70 cm",
+        "dimensions": "65 × 65 cm / 70 × 70 cm",
+        "contents": "Dimensiuni - 65x65cm sau 70x70cm țesătură matlasată microfibră umplutură puf siliconic 250g/buc. Dimensiuni – 65x65cm sau 70x70cm țesătură matlasată microfibră umplutură puf siliconic 250g/buc.",
+        "price": 40.3,
+        "inStock": true,
+        "images": [
+          "/products/ralex-392/01.webp",
+          "/products/ralex-392/02.webp",
+          "/products/ralex-392/03.webp",
+          "/products/ralex-392/04.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 440,
+    "name": "Pernă matlasată antiaglomerare",
+    "category": "Perne și protecții pernă",
+    "categoryPath": "perne",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/perne/perna-matlasata-hypoalergenica-antiaglomerare-40x40cm/",
+    "description": "Pernă matlasată antiaglomerare. Alege dimensiunea pentru a vedea conținutul, specificațiile, prețul și imaginile variantei.",
+    "features": [
+      {
+        "label": "Mărimi",
+        "value": "40 × 40 cm; 50 × 70 cm; 65 × 65 cm / 70 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-440/01.webp",
+      "/products/ralex-440/02.webp",
+      "/products/ralex-440/03.webp",
+      "/products/ralex-440/04.webp"
+    ],
+    "image": "/products/ralex-440/01.webp",
+    "price": 15.6,
+    "inStock": true,
+    "material": "Micropercal; umplutură siliconizată antiaglomerare.",
+    "variants": [
+      {
+        "id": 440,
+        "sku": "440",
+        "name": "40 × 40 cm",
+        "dimensions": "40 × 40 cm",
+        "contents": "Dimensiuni - 40x40cm țesătură matlasată micropercal umplutură siliconizată antiaglomerare lavabilă Dimensiuni – 40x40cm țesătură matlasată micropercal umplutură siliconizată antiaglomerare lavabilă",
+        "price": 15.6,
+        "inStock": true,
+        "images": [
+          "/products/ralex-440/01.webp",
+          "/products/ralex-440/02.webp",
+          "/products/ralex-440/03.webp",
+          "/products/ralex-440/04.webp"
+        ]
+      },
+      {
+        "id": 442,
+        "sku": "442",
+        "name": "50 × 70 cm",
+        "dimensions": "50 × 70 cm",
+        "contents": "Dimensiuni - 50x70cm țesătură matlasată micropercal umplutură siliconizată antiaglomerare lavabilă Dimensiuni – 50x70cm țesătură matlasată micropercal umplutură siliconizată antiaglomerare lavabilă",
+        "price": 41.6,
+        "inStock": true,
+        "images": [
+          "/products/ralex-442/01.webp"
+        ]
+      },
+      {
+        "id": 443,
+        "sku": "443",
+        "name": "65 × 65 cm / 70 × 70 cm",
+        "dimensions": "65 × 65 cm / 70 × 70 cm",
+        "contents": "Dimensiuni - 65x65cm sau 70x70cm țesătură matlasată micropercal umplutură siliconizată antiaglomerare lavabilă Dimensiuni – 65x65cm sau 70x70cm țesătură matlasată micropercal umplutură siliconizată antiaglomerare lavabilă",
+        "price": 46.8,
+        "inStock": true,
+        "images": [
+          "/products/ralex-443/01.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 444,
+    "name": "Pernă matlasată cu față detașabilă, lavabilă la 95°C",
+    "category": "Perne și protecții pernă",
+    "categoryPath": "perne",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/perne/perna-matlasata-cu-fata-detasabila-lavabila-la-95-40x40cm/",
+    "description": "Pernă matlasată cu față detașabilă, lavabilă la 95°C. Alege dimensiunea pentru a vedea conținutul, specificațiile, prețul și imaginile variantei.",
+    "features": [
+      {
+        "label": "Mărimi",
+        "value": "40 × 40 cm; 50 × 70 cm; 65 × 65 cm / 70 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-444/01.webp"
+    ],
+    "image": "/products/ralex-444/01.webp",
+    "price": 15.6,
+    "inStock": true,
+    "material": "Micropercal; umplutură antiaglomerare.",
+    "variants": [
+      {
+        "id": 444,
+        "sku": "444",
+        "name": "40 × 40 cm",
+        "dimensions": "40 × 40 cm",
+        "contents": "Dimensiuni - 40x40cm țesătură matlasată micropercal umplutură 250g detașabilă antiaglomerare Dimensiuni – 40x40cm țesătură matlasată micropercal umplutură 250g detașabilă antiaglomerare",
+        "price": 15.6,
+        "inStock": true,
+        "images": [
+          "/products/ralex-444/01.webp"
+        ]
+      },
+      {
+        "id": 446,
+        "sku": "446",
+        "name": "50 × 70 cm",
+        "dimensions": "50 × 70 cm",
+        "contents": "Dimensiuni - 50x70cm țesătură matlasată micropercal umplutură 750g detașabilă antiaglomerare Dimensiuni – 50x70cm țesătură matlasată micropercal umplutură 750g detașabilă antiaglomerare",
+        "price": 39.0,
+        "inStock": true,
+        "images": [
+          "/products/ralex-446/01.webp"
+        ]
+      },
+      {
+        "id": 447,
+        "sku": "447",
+        "name": "65 × 65 cm / 70 × 70 cm",
+        "dimensions": "65 × 65 cm / 70 × 70 cm",
+        "contents": "Dimensiuni - 65x65cm sau 70x70cm țesătură matlasată micropercal umplutură 900g detașabilă antiaglomerare Dimensiuni – 65x65cm sau 70x70cm țesătură matlasată micropercal umplutură 900g detașabilă antiaglomerare",
+        "price": 44.2,
+        "inStock": true,
+        "images": [
+          "/products/ralex-447/01.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 448,
+    "name": "Pilotă matlasată din microfibră — iarnă",
+    "category": "Pilote",
+    "categoryPath": "pilote",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-microfibra-vara-140x210cm/",
+    "description": "Pilotă matlasată din microfibră — iarnă. Alege dimensiunea pentru a vedea conținutul, specificațiile, prețul și imaginile variantei.",
+    "features": [
+      {
+        "label": "Mărimi",
+        "value": "140 × 210 cm; 180 × 210 cm; 200 × 210 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-448/01.webp"
+    ],
+    "image": "/products/ralex-448/01.webp",
+    "price": 100.1,
+    "inStock": true,
+    "material": "Microfibră.",
+    "variants": [
+      {
+        "id": 448,
+        "sku": "448",
+        "name": "140 × 210 cm",
+        "dimensions": "140 × 210 cm",
+        "contents": "Dimensiuni - 140x210cm țesătură microfibră 90g/m² minet alergenic antiaglomerare 200gr/m2",
+        "price": 100.1,
+        "inStock": true,
+        "images": [
+          "/products/ralex-448/01.webp"
+        ]
+      },
+      {
+        "id": 450,
+        "sku": "450",
+        "name": "180 × 210 cm",
+        "dimensions": "180 × 210 cm",
+        "contents": "Dimensiuni - 180x210cm țesătură microfibră 90g/m² minet alergenic antiaglomerare 400gr/m2",
+        "price": 109.2,
+        "inStock": true,
+        "images": [
+          "/products/ralex-450/01.webp"
+        ]
+      },
+      {
+        "id": 451,
+        "sku": "451",
+        "name": "200 × 210 cm",
+        "dimensions": "200 × 210 cm",
+        "contents": "Dimensiuni - 200x210cm țesătură microfibră 90g/m² minet alergenic antiaglomerare 400gr/m2",
+        "price": 118.3,
+        "inStock": true,
+        "images": [
+          "/products/ralex-451/01.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 470,
+    "name": "Pilotă matlasată Ranforce, țesătură 100% bumbac — iarnă",
+    "category": "Pilote",
+    "categoryPath": "pilote",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-ranforceiarna140/",
+    "description": "Pilotă matlasată Ranforce, țesătură 100% bumbac — iarnă. Alege dimensiunea pentru a vedea conținutul, specificațiile, prețul și imaginile variantei.",
+    "features": [
+      {
+        "label": "Mărimi",
+        "value": "140 × 210 cm; 180 × 210 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-470/01.webp",
+      "/products/ralex-470/02.webp",
+      "/products/ralex-470/03.webp",
+      "/products/ralex-470/04.webp"
+    ],
+    "image": "/products/ralex-470/01.webp",
+    "price": 123.5,
+    "inStock": true,
+    "material": "Țesătură Ranforce 100% bumbac; umplutură minet.",
+    "variants": [
+      {
+        "id": 470,
+        "sku": "470",
+        "name": "140 × 210 cm",
+        "dimensions": "140 × 210 cm",
+        "contents": "Dimensiuni - 140x210cm țesătură ranforce 100%bumbac densitate 120gr./m2 compoziție textilă 100%bumbac umplutură minet antialergic cu densitatea de 400gr./m2",
+        "price": 123.5,
+        "inStock": true,
+        "images": [
+          "/products/ralex-470/01.webp",
+          "/products/ralex-470/02.webp",
+          "/products/ralex-470/03.webp",
+          "/products/ralex-470/04.webp"
+        ]
+      },
+      {
+        "id": 476,
+        "sku": "476",
+        "name": "180 × 210 cm",
+        "dimensions": "180 × 210 cm",
+        "contents": "Dimensiuni - 180x210cm țesătură ranforce 100%bumbac densitate 120gr./m2 compoziție textilă 100%bumbac umplutură minet antialergic cu densitatea de 400gr./m2",
+        "price": 143.0,
+        "inStock": true,
+        "images": [
+          "/products/ralex-476/01.webp",
+          "/products/ralex-476/02.webp",
+          "/products/ralex-476/03.webp",
+          "/products/ralex-476/04.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 482,
+    "name": "Protecție matlasată ultrasonic 100gsm",
+    "category": "Produse HoReCa",
+    "categoryPath": "produse-hotel",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/produse-hotel/protectie-matlasata-ultrasonic-100gsm/",
+    "description": "țesătură microfibră cu densitatea de 90g umplutură minet antialergic cu densitatea de 100gr./m2 lavabilă",
+    "features": [
+      {
+        "label": "Dimensiuni",
+        "value": "Alege mărimea pentru dimensiunile și conținutul variantei."
+      }
+    ],
+    "images": [
+      "/products/ralex-482/01.webp",
+      "/products/ralex-482/02.webp",
+      "/products/ralex-482/03.webp",
+      "/products/ralex-482/04.webp"
+    ],
+    "image": "/products/ralex-482/01.webp",
+    "price": 54.6,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 105898,
+        "sku": "105898",
+        "name": "90 × 200 cm",
+        "dimensions": "90 × 200 cm",
+        "contents": "Dimensiuni: 90 × 200 cm. țesătură microfibră cu densitatea de 90g umplutură minet antialergic cu densitatea de 100gr./m2 lavabilă",
+        "price": 54.6,
+        "inStock": true,
+        "images": [
+          "/products/ralex-482/01.webp",
+          "/products/ralex-482/02.webp",
+          "/products/ralex-482/03.webp",
+          "/products/ralex-482/04.webp"
+        ]
+      },
+      {
+        "id": 105895,
+        "sku": "105895",
+        "name": "140 × 200 cm",
+        "dimensions": "140 × 200 cm",
+        "contents": "Dimensiuni: 140 × 200 cm. țesătură microfibră cu densitatea de 90g umplutură minet antialergic cu densitatea de 100gr./m2 lavabilă",
+        "price": 63.7,
+        "inStock": true,
+        "images": [
+          "/products/ralex-482/01.webp",
+          "/products/ralex-482/02.webp",
+          "/products/ralex-482/03.webp",
+          "/products/ralex-482/04.webp"
+        ]
+      },
+      {
+        "id": 105896,
+        "sku": "105896",
+        "name": "160 × 200 cm",
+        "dimensions": "160 × 200 cm",
+        "contents": "Dimensiuni: 160 × 200 cm. țesătură microfibră cu densitatea de 90g umplutură minet antialergic cu densitatea de 100gr./m2 lavabilă",
+        "price": 68.9,
+        "inStock": true,
+        "images": [
+          "/products/ralex-482/01.webp",
+          "/products/ralex-482/02.webp",
+          "/products/ralex-482/03.webp",
+          "/products/ralex-482/04.webp"
+        ]
+      },
+      {
+        "id": 105897,
+        "sku": "105897",
+        "name": "180 × 200 cm",
+        "dimensions": "180 × 200 cm",
+        "contents": "Dimensiuni: 180 × 200 cm. țesătură microfibră cu densitatea de 90g umplutură minet antialergic cu densitatea de 100gr./m2 lavabilă",
+        "price": 74.1,
+        "inStock": true,
+        "images": [
+          "/products/ralex-482/01.webp",
+          "/products/ralex-482/02.webp",
+          "/products/ralex-482/03.webp",
+          "/products/ralex-482/04.webp"
+        ]
+      }
+    ],
+    "material": "Microfibră."
+  },
+  {
+    "id": 505,
+    "name": "Protecție matlasată pentru pernă, cu fermoar",
+    "category": "Perne și protecții pernă",
+    "categoryPath": "perne",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/perne/protectie-matlasata-pernecufermoar70x70/",
+    "description": "Protecție matlasată pentru pernă, cu fermoar. Alege dimensiunea pentru a vedea conținutul, specificațiile, prețul și imaginile variantei.",
+    "features": [
+      {
+        "label": "Mărimi",
+        "value": "70 × 70 cm; 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-505/01.webp",
+      "/products/ralex-505/02.webp",
+      "/products/ralex-505/03.webp",
+      "/products/ralex-505/04.webp"
+    ],
+    "image": "/products/ralex-505/01.webp",
+    "price": 18.2,
+    "inStock": true,
+    "material": "Țesătură microfibră; umplutură minet.",
+    "variants": [
+      {
+        "id": 505,
+        "sku": "505",
+        "name": "70 × 70 cm",
+        "dimensions": "70 × 70 cm",
+        "contents": "Dimensiuni - 70X70cm țesătură microfibră cu densitatea de 90g/m² umplutură minet antialergic cu densitatea de 100gr./m² lavabilă",
+        "price": 20.8,
+        "inStock": true,
+        "images": [
+          "/products/ralex-505/01.webp",
+          "/products/ralex-505/02.webp",
+          "/products/ralex-505/03.webp",
+          "/products/ralex-505/04.webp"
+        ]
+      },
+      {
+        "id": 509,
+        "sku": "509",
+        "name": "50 × 70 cm",
+        "dimensions": "50 × 70 cm",
+        "contents": "Dimensiuni - 50X70cm țesătură microfibră cu densitatea de 90g/m² umplutură minet antialergic cu densitatea de 100gr./m² lavabilă",
+        "price": 18.2,
+        "inStock": true,
+        "images": [
+          "/products/ralex-509/01.webp",
+          "/products/ralex-509/02.webp",
+          "/products/ralex-509/03.webp",
+          "/products/ralex-509/04.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 510,
+    "name": "Protectie pernă impermeabilă",
+    "category": "Perne și protecții pernă",
+    "categoryPath": "perne",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/perne/protectie-matlasata-perna-impermeabila-50x70/",
+    "description": "țesatură microcoton impermeabilă cu fermuar compozitie textila 100% poliester / microfibra densitate 120g/m²",
+    "features": [
+      {
+        "label": "Dimensiuni",
+        "value": "Alege mărimea pentru dimensiunile și conținutul variantei."
+      }
+    ],
+    "images": [
+      "/products/ralex-510/01.webp",
+      "/products/ralex-510/02.webp",
+      "/products/ralex-510/03.webp"
+    ],
+    "image": "/products/ralex-510/01.webp",
+    "price": 19.5,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 102086,
+        "sku": "102086",
+        "name": "40 x 40 cm",
+        "dimensions": "40 × 40 cm",
+        "contents": "Dimensiuni: 40 x 40 cm. țesatură microcoton impermeabilă cu fermuar compozitie textila 100% poliester / microfibra densitate 120g/m²",
+        "price": 19.5,
+        "inStock": true,
+        "images": [
+          "/products/ralex-510/01.webp",
+          "/products/ralex-510/02.webp",
+          "/products/ralex-510/03.webp"
+        ]
+      },
+      {
+        "id": 71995,
+        "sku": "71995",
+        "name": "50 x 70  cm",
+        "dimensions": "50 × 70 cm",
+        "contents": "Dimensiuni: 50 x 70  cm. țesatură microcoton impermeabilă cu fermuar compozitie textila 100% poliester / microfibra densitate 120g/m²",
+        "price": 28.6,
+        "inStock": true,
+        "images": [
+          "/products/ralex-510/01.webp",
+          "/products/ralex-510/02.webp",
+          "/products/ralex-510/03.webp",
+          "/products/ralex-510/04.webp"
+        ]
+      },
+      {
+        "id": 71996,
+        "sku": "71996",
+        "name": "70 x 70 cm",
+        "dimensions": "70 × 70 cm",
+        "contents": "Dimensiuni: 70 x 70 cm. țesatură microcoton impermeabilă cu fermuar compozitie textila 100% poliester / microfibra densitate 120g/m²",
+        "price": 35.1,
+        "inStock": true,
+        "images": [
+          "/products/ralex-510/01.webp",
+          "/products/ralex-510/02.webp",
+          "/products/ralex-510/03.webp"
+        ]
+      }
+    ],
+    "material": "100% poliester."
+  },
+  {
+    "id": 518,
+    "name": "Prosop Greek border - 550g/m2",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-greek-border-550g/",
+    "description": "țesatură 100%bumbac fir dublu densitate 550gr./m2 culoare alb optic",
+    "features": [
+      {
+        "label": "Dimensiuni",
+        "value": "Alege mărimea pentru dimensiunile și conținutul variantei."
+      }
+    ],
+    "images": [
+      "/products/ralex-518/01.webp",
+      "/products/ralex-518/02.webp",
+      "/products/ralex-518/03.webp",
+      "/products/ralex-518/04.webp"
+    ],
+    "image": "/products/ralex-518/01.webp",
+    "price": 7.8,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 105707,
+        "sku": "105707",
+        "name": "30x50 cm",
+        "dimensions": "30 × 50 cm",
+        "contents": "Dimensiuni: 30x50 cm. țesatură 100%bumbac fir dublu densitate 550gr./m2 culoare alb optic",
+        "price": 7.8,
+        "inStock": true,
+        "images": [
+          "/products/ralex-518/01.webp",
+          "/products/ralex-518/02.webp",
+          "/products/ralex-518/03.webp",
+          "/products/ralex-518/04.webp"
+        ]
+      },
+      {
+        "id": 105708,
+        "sku": "105708",
+        "name": "50x90 cm",
+        "dimensions": "50 × 90 cm",
+        "contents": "Dimensiuni: 50x90 cm. țesatură 100%bumbac fir dublu densitate 550gr./m2 culoare alb optic",
+        "price": 23.4,
+        "inStock": true,
+        "images": [
+          "/products/ralex-518/01.webp",
+          "/products/ralex-518/02.webp",
+          "/products/ralex-518/03.webp",
+          "/products/ralex-518/04.webp"
+        ]
+      },
+      {
+        "id": 105709,
+        "sku": "105709",
+        "name": "70x140 cm",
+        "dimensions": "70 × 140 cm",
+        "contents": "Dimensiuni: 70x140 cm. țesatură 100%bumbac fir dublu densitate 550gr./m2 culoare alb optic",
+        "price": 42.9,
+        "inStock": true,
+        "images": [
+          "/products/ralex-518/01.webp",
+          "/products/ralex-518/02.webp",
+          "/products/ralex-518/03.webp",
+          "/products/ralex-518/04.webp"
+        ]
+      }
+    ],
+    "material": "100% bumbac."
+  },
+  {
+    "id": 529,
+    "name": "Covoras baie greek border (50x70cm)",
+    "category": "Articole baie",
+    "categoryPath": "articole-baie",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/covoras-baie-greek-border/",
+    "description": "Dimensiuni - 50X70cm țesatură 100%bumbac fir dublu densitate 650gr./m2 culoare alb optic",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-529/01.webp",
+      "/products/ralex-529/02.webp",
+      "/products/ralex-529/03.webp",
+      "/products/ralex-529/04.webp"
+    ],
+    "image": "/products/ralex-529/01.webp",
+    "price": 27.3,
+    "inStock": true,
+    "sku": "529",
+    "material": "100% bumbac."
+  },
+  {
+    "id": 973,
+    "name": "Lenjerie de pat ranforce Clasy king size (MIDAS V1)",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-midas-v1/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 120gr. Compozitie textila 100%bumbac Ambalaj cutie cadou Colorant reactiv print Lenjeria de pat Ranforce din 100% bumbac, cu colorant reactiv print, este o alegere excelentă pentru cei care caută un nivel înalt de confort și calitate în dormitorul lor. Ranforce este un tip de țesătură de bumbac, cunoscută pentru durabilitatea și rezistența sa, fiind ideală pentru lenjeria de pat, deoarece oferă un somn liniștit și plăcut. Alegerea bumbacului 100% asigură că lenjeria este moale și respirabilă, permițând pielii să respire și reglând temperatura corpului pentru o odihnă confortabilă în orice sezon. De asemenea, bumbacul este un material hipoalergenic, ceea ce înseamnă că este potrivit pentru cei cu pielea sensibilă sau alergii. Printul cu colorant reactiv adaugă un plus de frumusețe și viață lenjeriei de pat. Acest proces de imprimare asigură culori vibrante și rezistente la spălare, menținând aspectul nou și proaspăt al lenjeriei chiar și după multiple spălări. De asemenea, printul este realizat într-un mod care permite țesăturii să-și păstreze textura moale și mătăsoasă, fără a compromite calitatea sau confortul. Lenjeria de pat Ranforce din 100% bumbac cu colorant reactiv print este disponibilă într-o varietate de modele și culori, de la designuri clasice și elegante până la imprimeuri moderne și îndrăznețe. Indiferent de preferințele tale în materie de design interior, vei găsi cu siguranță un set de lenjerie care să se potrivească perfect stilului tău și să aducă un plus de frumusețe în dormitorul tău. Cu această lenjerie de pat, poți să te bucuri de un somn odihnitor și relaxant în fiecare noapte, învăluit într-un confort luxuriant și înconjurat de frumusețe și culoare. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-973/01.webp",
+      "/products/ralex-973/02.webp",
+      "/products/ralex-973/03.webp",
+      "/products/ralex-973/04.webp"
+    ],
+    "image": "/products/ralex-973/01.webp",
+    "price": 315.9,
+    "inStock": true,
+    "sku": "973",
+    "material": "100% bumbac."
+  },
+  {
+    "id": 1075,
+    "name": "Lenjerie de pat satin Clasy king size (KENZO V1)",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-kenzo-v1/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac dublu satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal Lenjeria de pat este fabricată din 100% bumbac satinat, oferind o senzație moale și confortabilă. Imprimeul reactiv conferă culorilor o rezistență sporită la spălare, menținând aspectul proaspăt și vibrant pentru o perioadă mai îndelungată. Această lenjerie de pat este perfectă pentru a aduce un plus de eleganță și confort în dormitorul dumneavoastră. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-1075/01.webp",
+      "/products/ralex-1075/02.webp",
+      "/products/ralex-1075/03.webp",
+      "/products/ralex-1075/04.webp"
+    ],
+    "image": "/products/ralex-1075/01.webp",
+    "price": 418.6,
+    "inStock": true,
+    "sku": "1075",
+    "material": "100% bumbac dublu satin."
+  },
+  {
+    "id": 1105,
+    "name": "Lenjerie de pat satin Clasy king size (MOCHA V1)",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-mocha-v1/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac dublu satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal Lenjeria de pat este fabricată din 100% bumbac satinat, oferind o senzație moale și confortabilă. Imprimeul reactiv conferă culorilor o rezistență sporită la spălare, menținând aspectul proaspăt și vibrant pentru o perioadă mai îndelungată. Această lenjerie de pat este perfectă pentru a aduce un plus de eleganță și confort în dormitorul dumneavoastră. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-1105/01.webp",
+      "/products/ralex-1105/02.webp",
+      "/products/ralex-1105/03.webp",
+      "/products/ralex-1105/04.webp"
+    ],
+    "image": "/products/ralex-1105/01.webp",
+    "price": 418.6,
+    "inStock": true,
+    "sku": "1105",
+    "material": "100% bumbac dublu satin."
+  },
+  {
+    "id": 1109,
+    "name": "Lenjerie de pat satin Clasy king size (NOBEL V1)",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-nobel-v1/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac dublu satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal Lenjeria de pat este fabricată din 100% bumbac satinat, oferind o senzație moale și confortabilă. Imprimeul reactiv conferă culorilor o rezistență sporită la spălare, menținând aspectul proaspăt și vibrant pentru o perioadă mai îndelungată. Această lenjerie de pat este perfectă pentru a aduce un plus de eleganță și confort în dormitorul dumneavoastră. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-1109/01.webp",
+      "/products/ralex-1109/02.webp",
+      "/products/ralex-1109/03.webp",
+      "/products/ralex-1109/04.webp"
+    ],
+    "image": "/products/ralex-1109/01.webp",
+    "price": 418.6,
+    "inStock": true,
+    "sku": "1109",
+    "material": "100% bumbac dublu satin."
+  },
+  {
+    "id": 1111,
+    "name": "Lenjerie de pat satin Clasy king size (NOBEL V2)",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-nobel-v2/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac dublu satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal Lenjeria de pat este fabricată din 100% bumbac satinat, oferind o senzație moale și confortabilă. Imprimeul reactiv conferă culorilor o rezistență sporită la spălare, menținând aspectul proaspăt și vibrant pentru o perioadă mai îndelungată. Această lenjerie de pat este perfectă pentru a aduce un plus de eleganță și confort în dormitorul dumneavoastră. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-1111/01.webp",
+      "/products/ralex-1111/02.webp",
+      "/products/ralex-1111/03.webp",
+      "/products/ralex-1111/04.webp"
+    ],
+    "image": "/products/ralex-1111/01.webp",
+    "price": 418.6,
+    "inStock": true,
+    "sku": "1111",
+    "material": "100% bumbac dublu satin."
+  },
+  {
+    "id": 1616,
+    "name": "Lenjerie de pat poplin - două persoane (QY-1609)",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-poplin-doua-persoane-qy-1609/",
+    "description": "Cearsaf de pat 230x250cm Cearsaf de pilota 200x230cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "230 × 250 cm / 200 × 230 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-1616/01.webp",
+      "/products/ralex-1616/02.webp",
+      "/products/ralex-1616/03.webp",
+      "/products/ralex-1616/04.webp"
+    ],
+    "image": "/products/ralex-1616/01.webp",
+    "price": 318.5,
+    "inStock": true,
+    "sku": "1616",
+    "material": "100% bumbac satin."
+  },
+  {
+    "id": 1639,
+    "name": "Lenjerie de pat poplin - două persoane (QY-1064)",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-poplin-doua-persoane-qy-1064/",
+    "description": "Cearsaf de pat 230x250cm Cearsaf de pilota 200x230cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "230 × 250 cm / 200 × 230 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-1639/01.webp",
+      "/products/ralex-1639/02.webp",
+      "/products/ralex-1639/03.webp",
+      "/products/ralex-1639/04.webp"
+    ],
+    "image": "/products/ralex-1639/01.webp",
+    "price": 318.5,
+    "inStock": true,
+    "sku": "1639",
+    "material": "100% bumbac satin."
+  },
+  {
+    "id": 1645,
+    "name": "Lenjerie de pat poplin - două persoane (QY-849)",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-poplin-doua-persoane-qy-849/",
+    "description": "Cearsaf de pat 230x250cm Cearsaf de pilota 200x230cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "230 × 250 cm / 200 × 230 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-1645/01.webp",
+      "/products/ralex-1645/02.webp",
+      "/products/ralex-1645/03.webp",
+      "/products/ralex-1645/04.webp"
+    ],
+    "image": "/products/ralex-1645/01.webp",
+    "price": 318.5,
+    "inStock": true,
+    "sku": "1645",
+    "material": "100% bumbac satin."
+  },
+  {
+    "id": 2702,
+    "name": "Lenjerie de pat satin Clasy king size (RUMBA V2)",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-rumba-v2/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac dublu satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal Lenjeria de pat este fabricată din 100% bumbac satinat, oferind o senzație moale și confortabilă. Imprimeul reactiv conferă culorilor o rezistență sporită la spălare, menținând aspectul proaspăt și vibrant pentru o perioadă mai îndelungată. Această lenjerie de pat este perfectă pentru a aduce un plus de eleganță și confort în dormitorul dumneavoastră. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-2702/01.webp",
+      "/products/ralex-2702/02.webp",
+      "/products/ralex-2702/03.webp",
+      "/products/ralex-2702/04.webp"
+    ],
+    "image": "/products/ralex-2702/01.webp",
+    "price": 418.6,
+    "inStock": false,
+    "sku": "2702",
+    "material": "100% bumbac dublu satin."
+  },
+  {
+    "id": 5423,
+    "name": "Pernă casetată - puf gâscă",
+    "category": "Perne și protecții pernă",
+    "categoryPath": "perne",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/perne/perna-fagure/",
+    "description": "- tesatură 100%bumbac - umplutură 80 % puf gâscă, 20 % fibra sintatică - greutate 1500 g - dimensiune 50x70",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-5423/01.webp",
+      "/products/ralex-5423/02.webp",
+      "/products/ralex-5423/03.webp",
+      "/products/ralex-5423/04.webp"
+    ],
+    "image": "/products/ralex-5423/01.webp",
+    "price": 197.6,
+    "inStock": true,
+    "sku": "5423",
+    "material": "Țesătură 100% bumbac; umplutură 80% puf de gâscă și 20% fibră sintetică."
+  },
+  {
+    "id": 10447,
+    "name": "Lenjerie de pat satin Clasy king size (ALURA V2)",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-alura-v2/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac dublu satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal Lenjeria de pat este fabricată din 100% bumbac satinat, oferind o senzație moale și confortabilă. Imprimeul reactiv conferă culorilor o rezistență sporită la spălare, menținând aspectul proaspăt și vibrant pentru o perioadă mai îndelungată. Această lenjerie de pat este perfectă pentru a aduce un plus de eleganță și confort în dormitorul dumneavoastră. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-10447/01.webp",
+      "/products/ralex-10447/02.webp",
+      "/products/ralex-10447/03.webp",
+      "/products/ralex-10447/04.webp"
+    ],
+    "image": "/products/ralex-10447/01.webp",
+    "price": 418.6,
+    "inStock": true,
+    "sku": "10447",
+    "material": "100% bumbac dublu satin."
+  },
+  {
+    "id": 10455,
+    "name": "Lenjerie de pat ranforce Clasy king size (ESTE V2)",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-este-v2/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 120gr. Compozitie textila 100%bumbac Ambalaj cutie cadou Colorant reactiv print Lenjeria de pat Ranforce din 100% bumbac, cu colorant reactiv print, este o alegere excelentă pentru cei care caută un nivel înalt de confort și calitate în dormitorul lor. Ranforce este un tip de țesătură de bumbac, cunoscută pentru durabilitatea și rezistența sa, fiind ideală pentru lenjeria de pat, deoarece oferă un somn liniștit și plăcut. Alegerea bumbacului 100% asigură că lenjeria este moale și respirabilă, permițând pielii să respire și reglând temperatura corpului pentru o odihnă confortabilă în orice sezon. De asemenea, bumbacul este un material hipoalergenic, ceea ce înseamnă că este potrivit pentru cei cu pielea sensibilă sau alergii. Printul cu colorant reactiv adaugă un plus de frumusețe și viață lenjeriei de pat. Acest proces de imprimare asigură culori vibrante și rezistente la spălare, menținând aspectul nou și proaspăt al lenjeriei chiar și după multiple spălări. De asemenea, printul este realizat într-un mod care permite țesăturii să-și păstreze textura moale și mătăsoasă, fără a compromite calitatea sau confortul. Lenjeria de pat Ranforce din 100% bumbac cu colorant reactiv print este disponibilă într-o varietate de modele și culori, de la designuri clasice și elegante până la imprimeuri moderne și îndrăznețe. Indiferent de preferințele tale în materie de design interior, vei găsi cu siguranță un set de lenjerie care să se potrivească perfect stilului tău și să aducă un plus de frumusețe în dormitorul tău. Cu această lenjerie de pat, poți să te bucuri de un somn odihnitor și relaxant în fiecare noapte, învăluit într-un confort luxuriant și înconjurat de frumusețe și culoare. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-10455/01.webp",
+      "/products/ralex-10455/02.webp",
+      "/products/ralex-10455/03.webp",
+      "/products/ralex-10455/04.webp"
+    ],
+    "image": "/products/ralex-10455/01.webp",
+    "price": 315.9,
+    "inStock": true,
+    "sku": "10455",
+    "material": "100% bumbac."
+  },
+  {
+    "id": 10479,
+    "name": "Lenjerie de pat ranforce Clasy king size (TURKA V2)",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-turka-v2/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 120gr. Compozitie textila 100%bumbac Ambalaj cutie cadou Colorant reactiv print Lenjeria de pat Ranforce din 100% bumbac, cu colorant reactiv print, este o alegere excelentă pentru cei care caută un nivel înalt de confort și calitate în dormitorul lor. Ranforce este un tip de țesătură de bumbac, cunoscută pentru durabilitatea și rezistența sa, fiind ideală pentru lenjeria de pat, deoarece oferă un somn liniștit și plăcut. Alegerea bumbacului 100% asigură că lenjeria este moale și respirabilă, permițând pielii să respire și reglând temperatura corpului pentru o odihnă confortabilă în orice sezon. De asemenea, bumbacul este un material hipoalergenic, ceea ce înseamnă că este potrivit pentru cei cu pielea sensibilă sau alergii. Printul cu colorant reactiv adaugă un plus de frumusețe și viață lenjeriei de pat. Acest proces de imprimare asigură culori vibrante și rezistente la spălare, menținând aspectul nou și proaspăt al lenjeriei chiar și după multiple spălări. De asemenea, printul este realizat într-un mod care permite țesăturii să-și păstreze textura moale și mătăsoasă, fără a compromite calitatea sau confortul. Lenjeria de pat Ranforce din 100% bumbac cu colorant reactiv print este disponibilă într-o varietate de modele și culori, de la designuri clasice și elegante până la imprimeuri moderne și îndrăznețe. Indiferent de preferințele tale în materie de design interior, vei găsi cu siguranță un set de lenjerie care să se potrivească perfect stilului tău și să aducă un plus de frumusețe în dormitorul tău. Cu această lenjerie de pat, poți să te bucuri de un somn odihnitor și relaxant în fiecare noapte, învăluit într-un confort luxuriant și înconjurat de frumusețe și culoare. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-10479/01.webp",
+      "/products/ralex-10479/02.webp",
+      "/products/ralex-10479/03.webp",
+      "/products/ralex-10479/04.webp"
+    ],
+    "image": "/products/ralex-10479/01.webp",
+    "price": 315.9,
+    "inStock": true,
+    "sku": "10479",
+    "material": "100% bumbac."
+  },
+  {
+    "id": 12625,
+    "name": "Cuvertură de pat Clasy-matlasată 2 persoane (ESTE V2)",
+    "category": "Cuverturi de pat clasy - două persoane",
+    "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-este-v2/",
+    "description": "240x260cm+2 fețe pernă 50x70cm țesatură ranforce 100% bumbac densitate 120gr./m2 umplutură minet 150 gsm reversibilă",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "240 × 260 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-12625/01.webp",
+      "/products/ralex-12625/02.webp",
+      "/products/ralex-12625/03.webp",
+      "/products/ralex-12625/04.webp"
+    ],
+    "image": "/products/ralex-12625/01.webp",
+    "price": 318.5,
+    "inStock": true,
+    "sku": "12625",
+    "material": "Țesătură Ranforce 100% bumbac; umplutură minet."
+  },
+  {
+    "id": 12637,
+    "name": "Cuvertură de pat Clasy-matlasată 2 persoane (MIDAS V1)",
+    "category": "Cuverturi de pat clasy - două persoane",
+    "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-midas-v1/",
+    "description": "240x260cm+2 fețe pernă 50x70cm țesatură ranforce 100% bumbac densitate 120gr./m2 umplutură minet 150 gsm reversibilă",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "240 × 260 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-12637/01.webp",
+      "/products/ralex-12637/02.webp",
+      "/products/ralex-12637/03.webp",
+      "/products/ralex-12637/04.webp"
+    ],
+    "image": "/products/ralex-12637/01.webp",
+    "price": 318.5,
+    "inStock": true,
+    "sku": "12637",
+    "material": "Țesătură Ranforce 100% bumbac; umplutură minet."
+  },
+  {
+    "id": 12642,
+    "name": "Cuvertură de pat Clasy-matlasată 2 persoane (PORTO V2)",
+    "category": "Cuverturi de pat clasy - două persoane",
+    "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-porto-v2/",
+    "description": "240x260cm+2 fețe pernă 50x70cm țesatură ranforce 100% bumbac densitate 120gr./m2 umplutură minet 150 gsm reversibilă",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "240 × 260 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-12642/01.webp",
+      "/products/ralex-12642/02.webp",
+      "/products/ralex-12642/03.webp",
+      "/products/ralex-12642/04.webp"
+    ],
+    "image": "/products/ralex-12642/01.webp",
+    "price": 318.5,
+    "inStock": true,
+    "sku": "12642",
+    "material": "Țesătură Ranforce 100% bumbac; umplutură minet."
+  },
+  {
+    "id": 15535,
+    "name": "Lenjerie de pat satin Clasy king size (IVORE V1)",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-ivore-v1/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac dublu satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal Lenjeria de pat este fabricată din 100% bumbac satinat, oferind o senzație moale și confortabilă. Imprimeul reactiv conferă culorilor o rezistență sporită la spălare, menținând aspectul proaspăt și vibrant pentru o perioadă mai îndelungată. Această lenjerie de pat este perfectă pentru a aduce un plus de eleganță și confort în dormitorul dumneavoastră. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-15535/01.webp",
+      "/products/ralex-15535/02.webp",
+      "/products/ralex-15535/03.webp",
+      "/products/ralex-15535/04.webp"
+    ],
+    "image": "/products/ralex-15535/01.webp",
+    "price": 418.6,
+    "inStock": true,
+    "sku": "15535",
+    "material": "100% bumbac dublu satin."
+  },
+  {
+    "id": 18650,
+    "name": "Lenjerie de pat satin Clasy king size (PERA)",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-pera/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac dublu satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal Lenjeria de pat este fabricată din 100% bumbac satinat, oferind o senzație moale și confortabilă. Imprimeul reactiv conferă culorilor o rezistență sporită la spălare, menținând aspectul proaspăt și vibrant pentru o perioadă mai îndelungată. Această lenjerie de pat este perfectă pentru a aduce un plus de eleganță și confort în dormitorul dumneavoastră. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-18650/01.webp",
+      "/products/ralex-18650/02.webp",
+      "/products/ralex-18650/03.webp",
+      "/products/ralex-18650/04.webp"
+    ],
+    "image": "/products/ralex-18650/01.webp",
+    "price": 418.6,
+    "inStock": true,
+    "sku": "18650",
+    "material": "100% bumbac dublu satin."
+  },
+  {
+    "id": 28442,
+    "name": "Lenjerie de pat satin Clasy king size (GIRALDA V1)",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-giralda-v1/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac dublu satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal Lenjeria de pat este fabricată din 100% bumbac satinat, oferind o senzație moale și confortabilă. Imprimeul reactiv conferă culorilor o rezistență sporită la spălare, menținând aspectul proaspăt și vibrant pentru o perioadă mai îndelungată. Această lenjerie de pat este perfectă pentru a aduce un plus de eleganță și confort în dormitorul dumneavoastră. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-28442/01.webp",
+      "/products/ralex-28442/02.webp",
+      "/products/ralex-28442/03.webp",
+      "/products/ralex-28442/04.webp"
+    ],
+    "image": "/products/ralex-28442/01.webp",
+    "price": 418.6,
+    "inStock": true,
+    "sku": "28442",
+    "material": "100% bumbac dublu satin."
+  },
+  {
+    "id": 32656,
+    "name": "Protecție de pat 100% natural, umplutură de lână",
+    "category": "Protecții saltea",
+    "categoryPath": "protectii-saltea",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/protectii-saltea/protectie-de-pat-100-natural-umplutura-de-lana/",
+    "description": "Compozitie textila 100% bumbac ,densitate 170gr.m2 Umplutura 100% lana Densitate umplutura 400gr.m2 Sistem de prindere elastic la colturile protectiei. Instrictiuni de utilizare: Se spala la 60* Se curata chimic Se usuca normal sau prin centrifugare Nu se calca Se folosesc innalbitori",
+    "features": [
+      {
+        "label": "Dimensiuni",
+        "value": "Alege mărimea pentru dimensiunile și conținutul variantei."
+      }
+    ],
+    "images": [
+      "/products/ralex-32656/01.webp",
+      "/products/ralex-32656/02.webp",
+      "/products/ralex-32656/03.webp",
+      "/products/ralex-32656/04.webp"
+    ],
+    "image": "/products/ralex-32656/01.webp",
+    "price": 169.0,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 32660,
+        "sku": "32660",
+        "name": "Pentru saltea de 180x200 cm",
+        "dimensions": "180 × 200 cm",
+        "contents": "Dimensiuni: Pentru saltea de 180x200 cm. Compozitie textila 100% bumbac ,densitate 170gr.m2 Umplutura 100% lana Densitate umplutura 400gr.m2 Sistem de prindere elastic la colturile protectiei. Instrictiuni de utilizare: Se spala la 60* Se curata chimic Se usuca normal sau prin centrifugare Nu se calca Se folosesc innalbitori",
+        "price": 195.0,
+        "inStock": true,
+        "images": [
+          "/products/ralex-32656/01.webp",
+          "/products/ralex-32656/02.webp",
+          "/products/ralex-32656/03.webp",
+          "/products/ralex-32656/04.webp"
+        ]
+      },
+      {
+        "id": 32661,
+        "sku": "32661",
+        "name": "Pentru saltea de 160x200 cm",
+        "dimensions": "160 × 200 cm",
+        "contents": "Dimensiuni: Pentru saltea de 160x200 cm. Compozitie textila 100% bumbac ,densitate 170gr.m2 Umplutura 100% lana Densitate umplutura 400gr.m2 Sistem de prindere elastic la colturile protectiei. Instrictiuni de utilizare: Se spala la 60* Se curata chimic Se usuca normal sau prin centrifugare Nu se calca Se folosesc innalbitori",
+        "price": 182.0,
+        "inStock": true,
+        "images": [
+          "/products/ralex-32656/01.webp",
+          "/products/ralex-32656/02.webp",
+          "/products/ralex-32656/03.webp",
+          "/products/ralex-32656/04.webp"
+        ]
+      },
+      {
+        "id": 32662,
+        "sku": "32662",
+        "name": "Pentru saltea de 140x200 cm",
+        "dimensions": "140 × 200 cm",
+        "contents": "Dimensiuni: Pentru saltea de 140x200 cm. Compozitie textila 100% bumbac ,densitate 170gr.m2 Umplutura 100% lana Densitate umplutura 400gr.m2 Sistem de prindere elastic la colturile protectiei. Instrictiuni de utilizare: Se spala la 60* Se curata chimic Se usuca normal sau prin centrifugare Nu se calca Se folosesc innalbitori",
+        "price": 169.0,
+        "inStock": true,
+        "images": [
+          "/products/ralex-32656/01.webp",
+          "/products/ralex-32656/02.webp",
+          "/products/ralex-32656/03.webp",
+          "/products/ralex-32656/04.webp"
+        ]
+      }
+    ],
+    "material": "Țesătură 100% bumbac; umplutură 100% lână."
+  },
+  {
+    "id": 34141,
+    "name": "Cuvertură de pat Clasy-matlasată 2 persoane (MONTERA V1)",
+    "category": "Cuverturi de pat clasy - două persoane",
+    "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-montera-v1/",
+    "description": "240x260cm+2 fețe pernă 50x70cm țesatură ranforce 100% bumbac densitate 120gr./m2 umplutură minet 150 gsm reversibilă",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "240 × 260 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-34141/01.webp",
+      "/products/ralex-34141/02.webp",
+      "/products/ralex-34141/03.webp",
+      "/products/ralex-34141/04.webp"
+    ],
+    "image": "/products/ralex-34141/01.webp",
+    "price": 318.5,
+    "inStock": true,
+    "sku": "34141",
+    "material": "Țesătură Ranforce 100% bumbac; umplutură minet."
+  },
+  {
+    "id": 34143,
+    "name": "Cuvertură de pat Clasy-matlasată 2 persoane (PUMA V1)",
+    "category": "Cuverturi de pat clasy - două persoane",
+    "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-puma-v1/",
+    "description": "240x260cm+2 fețe pernă 50x70cm țesatură ranforce 100% bumbac densitate 120gr./m2 umplutură minet 150 gsm reversibilă",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "240 × 260 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-34143/01.webp",
+      "/products/ralex-34143/02.webp",
+      "/products/ralex-34143/03.webp",
+      "/products/ralex-34143/04.webp"
+    ],
+    "image": "/products/ralex-34143/01.webp",
+    "price": 318.5,
+    "inStock": true,
+    "sku": "34143",
+    "material": "Țesătură Ranforce 100% bumbac; umplutură minet."
+  },
+  {
+    "id": 37250,
+    "name": "Lenjerie de pat cocolino - hearts and lips",
+    "category": "Lenjerii de pat cocolino",
+    "categoryPath": "lenjerii-de-pat/lenjerie-de-pat-cocolino",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerie-de-pat-cocolino/lenjerie-de-pat-cocolino-hearts-and-lips/",
+    "description": "dimensiune cearșaf de pat 240x240cm cearșaf de pilotă 200x220cm fețe de pernă 50x70cm compoziție textilă 100% poliester *dimensiunile pot fi cu +/-5% decat cele listate",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "240 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-37250/01.webp",
+      "/products/ralex-37250/02.webp",
+      "/products/ralex-37250/03.webp",
+      "/products/ralex-37250/04.webp"
+    ],
+    "image": "/products/ralex-37250/01.webp",
+    "price": 180.7,
+    "inStock": true,
+    "sku": "37250",
+    "material": "100% poliester."
+  },
+  {
+    "id": 37964,
+    "name": "Pilotă matlasată lână Damasc 100% Natural - iarnă (Alb)",
+    "category": "Pilote",
+    "categoryPath": "pilote",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-lana-damasc-100-natural-de-iarna-alb/",
+    "description": "- țesătură damasc linear 1 cm - densitate 160gr./m2 - umplutură 100%lână cu densitatea 350gr - lavabilă Pilotă Matlasată din Lână Damasc 100% Natural – Iarnă Bucură-te de confortul autentic al iernii cu pilota matlasată din lână Damasc 100% naturală , creată pentru a-ți oferi căldură constantă și un somn profund, chiar și în cele mai reci nopți. Fabricată din lână naturală de înaltă calitate , această pilotă asigură o izolație termică excelentă, menținând temperatura optimă a corpului fără a crea senzația de supraîncălzire. Materialul exterior din Damasc fin este plăcut la atingere, rezistent și elegant, adăugând un plus de rafinament dormitorului tău. Structura matlasată garantează distribuția uniformă a lânii, prevenind deplasarea umpluturii și asigurând un confort de durată. În mod natural respirabilă și hipoalergenică , pilota din lână este ideală pentru persoanele sensibile, contribuind la un mediu de somn sănătos. Beneficii cheie: ✔ 100% lână naturală – căldură eficientă și confort termic superior ✔ Ideală pentru sezonul rece (iarnă) ✔ Material Damasc premium – durabil și elegant ✔ Matlasare uniformă pentru susținere optimă ✔ Respirabilă, antialergică și prietenoasă cu pielea Alege pilota matlasată din lână Damasc și transformă fiecare noapte de iarnă într-o experiență de relaxare naturală și confort desăvârșit.",
+    "features": [
+      {
+        "label": "Dimensiuni",
+        "value": "Alege mărimea pentru dimensiunile și conținutul variantei."
+      }
+    ],
+    "images": [
+      "/products/ralex-37964/01.webp",
+      "/products/ralex-37964/02.webp",
+      "/products/ralex-37964/03.webp",
+      "/products/ralex-37964/04.webp"
+    ],
+    "image": "/products/ralex-37964/01.webp",
+    "price": 236.6,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 37965,
+        "sku": "37965",
+        "name": "140 cm x 210 cm",
+        "dimensions": "140 × 210 cm",
+        "contents": "Dimensiuni: 140 cm x 210 cm. - țesătură damasc linear 1 cm - densitate 160gr./m2 - umplutură 100%lână cu densitatea 350gr - lavabilă Pilotă Matlasată din Lână Damasc 100% Natural – Iarnă Bucură-te de confortul autentic al iernii cu pilota matlasată din lână Damasc 100% naturală , creată pentru a-ți oferi căldură constantă și un somn profund, chiar și în cele mai reci nopți. Fabricată din lână naturală de înaltă calitate , această pilotă asigură o izolație termică excelentă, menținând temperatura optimă a corpului fără a crea senzația de supraîncălzire. Materialul exterior din Damasc fin este plăcut la atingere, rezistent și elegant, adăugând un plus de rafinament dormitorului tău. Structura matlasată garantează distribuția uniformă a lânii, prevenind deplasarea umpluturii și asigurând un confort de durată. În mod natural respirabilă și hipoalergenică , pilota din lână este ideală pentru persoanele sensibile, contribuind la un mediu de somn sănătos. Beneficii cheie: ✔ 100% lână naturală – căldură eficientă și confort termic superior ✔ Ideală pentru sezonul rece (iarnă) ✔ Material Damasc premium – durabil și elegant ✔ Matlasare uniformă pentru susținere optimă ✔ Respirabilă, antialergică și prietenoasă cu pielea Alege pilota matlasată din lână Damasc și transformă fiecare noapte de iarnă într-o experiență de relaxare naturală și confort desăvârșit.",
+        "price": 236.6,
+        "inStock": true,
+        "images": [
+          "/products/ralex-37964/01.webp",
+          "/products/ralex-37964/02.webp",
+          "/products/ralex-37964/03.webp",
+          "/products/ralex-37964/04.webp"
+        ]
+      },
+      {
+        "id": 37966,
+        "sku": "37966",
+        "name": "160 cm x 210 cm",
+        "dimensions": "160 × 210 cm",
+        "contents": "Dimensiuni: 160 cm x 210 cm. - țesătură damasc linear 1 cm - densitate 160gr./m2 - umplutură 100%lână cu densitatea 350gr - lavabilă Pilotă Matlasată din Lână Damasc 100% Natural – Iarnă Bucură-te de confortul autentic al iernii cu pilota matlasată din lână Damasc 100% naturală , creată pentru a-ți oferi căldură constantă și un somn profund, chiar și în cele mai reci nopți. Fabricată din lână naturală de înaltă calitate , această pilotă asigură o izolație termică excelentă, menținând temperatura optimă a corpului fără a crea senzația de supraîncălzire. Materialul exterior din Damasc fin este plăcut la atingere, rezistent și elegant, adăugând un plus de rafinament dormitorului tău. Structura matlasată garantează distribuția uniformă a lânii, prevenind deplasarea umpluturii și asigurând un confort de durată. În mod natural respirabilă și hipoalergenică , pilota din lână este ideală pentru persoanele sensibile, contribuind la un mediu de somn sănătos. Beneficii cheie: ✔ 100% lână naturală – căldură eficientă și confort termic superior ✔ Ideală pentru sezonul rece (iarnă) ✔ Material Damasc premium – durabil și elegant ✔ Matlasare uniformă pentru susținere optimă ✔ Respirabilă, antialergică și prietenoasă cu pielea Alege pilota matlasată din lână Damasc și transformă fiecare noapte de iarnă într-o experiență de relaxare naturală și confort desăvârșit.",
+        "price": 271.7,
+        "inStock": true,
+        "images": [
+          "/products/ralex-37964/01.webp",
+          "/products/ralex-37964/02.webp",
+          "/products/ralex-37964/03.webp",
+          "/products/ralex-37964/04.webp"
+        ]
+      },
+      {
+        "id": 37967,
+        "sku": "37967",
+        "name": "180 cm x 210 cm",
+        "dimensions": "180 × 210 cm",
+        "contents": "Dimensiuni: 180 cm x 210 cm. - țesătură damasc linear 1 cm - densitate 160gr./m2 - umplutură 100%lână cu densitatea 350gr - lavabilă Pilotă Matlasată din Lână Damasc 100% Natural – Iarnă Bucură-te de confortul autentic al iernii cu pilota matlasată din lână Damasc 100% naturală , creată pentru a-ți oferi căldură constantă și un somn profund, chiar și în cele mai reci nopți. Fabricată din lână naturală de înaltă calitate , această pilotă asigură o izolație termică excelentă, menținând temperatura optimă a corpului fără a crea senzația de supraîncălzire. Materialul exterior din Damasc fin este plăcut la atingere, rezistent și elegant, adăugând un plus de rafinament dormitorului tău. Structura matlasată garantează distribuția uniformă a lânii, prevenind deplasarea umpluturii și asigurând un confort de durată. În mod natural respirabilă și hipoalergenică , pilota din lână este ideală pentru persoanele sensibile, contribuind la un mediu de somn sănătos. Beneficii cheie: ✔ 100% lână naturală – căldură eficientă și confort termic superior ✔ Ideală pentru sezonul rece (iarnă) ✔ Material Damasc premium – durabil și elegant ✔ Matlasare uniformă pentru susținere optimă ✔ Respirabilă, antialergică și prietenoasă cu pielea Alege pilota matlasată din lână Damasc și transformă fiecare noapte de iarnă într-o experiență de relaxare naturală și confort desăvârșit.",
+        "price": 283.4,
+        "inStock": true,
+        "images": [
+          "/products/ralex-37964/01.webp",
+          "/products/ralex-37964/02.webp",
+          "/products/ralex-37964/03.webp",
+          "/products/ralex-37964/04.webp"
+        ]
+      },
+      {
+        "id": 37968,
+        "sku": "37968",
+        "name": "200 cm x 215 cm",
+        "dimensions": "200 × 215 cm",
+        "contents": "Dimensiuni: 200 cm x 215 cm. - țesătură damasc linear 1 cm - densitate 160gr./m2 - umplutură 100%lână cu densitatea 350gr - lavabilă Pilotă Matlasată din Lână Damasc 100% Natural – Iarnă Bucură-te de confortul autentic al iernii cu pilota matlasată din lână Damasc 100% naturală , creată pentru a-ți oferi căldură constantă și un somn profund, chiar și în cele mai reci nopți. Fabricată din lână naturală de înaltă calitate , această pilotă asigură o izolație termică excelentă, menținând temperatura optimă a corpului fără a crea senzația de supraîncălzire. Materialul exterior din Damasc fin este plăcut la atingere, rezistent și elegant, adăugând un plus de rafinament dormitorului tău. Structura matlasată garantează distribuția uniformă a lânii, prevenind deplasarea umpluturii și asigurând un confort de durată. În mod natural respirabilă și hipoalergenică , pilota din lână este ideală pentru persoanele sensibile, contribuind la un mediu de somn sănătos. Beneficii cheie: ✔ 100% lână naturală – căldură eficientă și confort termic superior ✔ Ideală pentru sezonul rece (iarnă) ✔ Material Damasc premium – durabil și elegant ✔ Matlasare uniformă pentru susținere optimă ✔ Respirabilă, antialergică și prietenoasă cu pielea Alege pilota matlasată din lână Damasc și transformă fiecare noapte de iarnă într-o experiență de relaxare naturală și confort desăvârșit.",
+        "price": 301.6,
+        "inStock": true,
+        "images": [
+          "/products/ralex-37964/01.webp",
+          "/products/ralex-37964/02.webp",
+          "/products/ralex-37964/03.webp",
+          "/products/ralex-37964/04.webp"
+        ]
+      }
+    ],
+    "material": "Țesătură damasc; umplutură 100% lână."
+  },
+  {
+    "id": 40639,
+    "name": "Lenjerie de pat cocolino (COCO1)",
+    "category": "Lenjerii de pat cocolino",
+    "categoryPath": "lenjerii-de-pat/lenjerie-de-pat-cocolino",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerie-de-pat-cocolino/lenjerie-de-pat-cocolino-coco1/",
+    "description": "dimensiune cearșaf de pat 240x240cm cearșaf de pilotă 200x220cm fețe de pernă 50x70cm compoziție textilă 100% poliester *dimensiunile pot fi cu +/-5% decat cele listate",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "240 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-40639/01.webp",
+      "/products/ralex-40639/02.webp",
+      "/products/ralex-40639/03.webp",
+      "/products/ralex-40639/04.webp"
+    ],
+    "image": "/products/ralex-40639/01.webp",
+    "price": 180.7,
+    "inStock": true,
+    "sku": "40639",
+    "material": "100% poliester."
+  },
+  {
+    "id": 40937,
+    "name": "Lenjerie de pat ranforce Clasy king size (PRESTIGE V1)",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-prestige-v1/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 120gr. Compozitie textila 100%bumbac Ambalaj cutie cadou Colorant reactiv print Lenjeria de pat Ranforce din 100% bumbac, cu colorant reactiv print, este o alegere excelentă pentru cei care caută un nivel înalt de confort și calitate în dormitorul lor. Ranforce este un tip de țesătură de bumbac, cunoscută pentru durabilitatea și rezistența sa, fiind ideală pentru lenjeria de pat, deoarece oferă un somn liniștit și plăcut. Alegerea bumbacului 100% asigură că lenjeria este moale și respirabilă, permițând pielii să respire și reglând temperatura corpului pentru o odihnă confortabilă în orice sezon. De asemenea, bumbacul este un material hipoalergenic, ceea ce înseamnă că este potrivit pentru cei cu pielea sensibilă sau alergii. Printul cu colorant reactiv adaugă un plus de frumusețe și viață lenjeriei de pat. Acest proces de imprimare asigură culori vibrante și rezistente la spălare, menținând aspectul nou și proaspăt al lenjeriei chiar și după multiple spălări. De asemenea, printul este realizat într-un mod care permite țesăturii să-și păstreze textura moale și mătăsoasă, fără a compromite calitatea sau confortul. Lenjeria de pat Ranforce din 100% bumbac cu colorant reactiv print este disponibilă într-o varietate de modele și culori, de la designuri clasice și elegante până la imprimeuri moderne și îndrăznețe. Indiferent de preferințele tale în materie de design interior, vei găsi cu siguranță un set de lenjerie care să se potrivească perfect stilului tău și să aducă un plus de frumusețe în dormitorul tău. Cu această lenjerie de pat, poți să te bucuri de un somn odihnitor și relaxant în fiecare noapte, învăluit într-un confort luxuriant și înconjurat de frumusețe și culoare. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-40937/01.webp",
+      "/products/ralex-40937/02.webp",
+      "/products/ralex-40937/03.webp",
+      "/products/ralex-40937/04.webp"
+    ],
+    "image": "/products/ralex-40937/01.webp",
+    "price": 315.9,
+    "inStock": true,
+    "sku": "40937",
+    "material": "100% bumbac."
+  },
+  {
+    "id": 45068,
+    "name": "Lenjerie de pat satin Clasy king size (ARTESA V1)",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-artesa-v1/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac dublu satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal Lenjeria de pat este fabricată din 100% bumbac satinat, oferind o senzație moale și confortabilă. Imprimeul reactiv conferă culorilor o rezistență sporită la spălare, menținând aspectul proaspăt și vibrant pentru o perioadă mai îndelungată. Această lenjerie de pat este perfectă pentru a aduce un plus de eleganță și confort în dormitorul dumneavoastră. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-45068/01.webp",
+      "/products/ralex-45068/02.webp",
+      "/products/ralex-45068/03.webp",
+      "/products/ralex-45068/04.webp"
+    ],
+    "image": "/products/ralex-45068/01.webp",
+    "price": 418.6,
+    "inStock": true,
+    "sku": "45068",
+    "material": "100% bumbac dublu satin."
+  },
+  {
+    "id": 45079,
+    "name": "Lenjerie de pat satin Clasy king size (OLAVA V2)",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-olava-v2/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac dublu satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal Lenjeria de pat este fabricată din 100% bumbac satinat, oferind o senzație moale și confortabilă. Imprimeul reactiv conferă culorilor o rezistență sporită la spălare, menținând aspectul proaspăt și vibrant pentru o perioadă mai îndelungată. Această lenjerie de pat este perfectă pentru a aduce un plus de eleganță și confort în dormitorul dumneavoastră. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-45079/01.webp",
+      "/products/ralex-45079/02.webp",
+      "/products/ralex-45079/03.webp",
+      "/products/ralex-45079/04.webp"
+    ],
+    "image": "/products/ralex-45079/01.webp",
+    "price": 418.6,
+    "inStock": true,
+    "sku": "45079",
+    "material": "100% bumbac dublu satin."
+  },
+  {
+    "id": 76603,
+    "name": "Cuvertură pat uni + 2 fețe de pernă - bej",
+    "category": "Cuverturi pat uni două persoane",
+    "categoryPath": "cuverturi/cuverturi-pat-uni/cuverturi-pat-uni-2-persoane",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-pat-uni/cuverturi-pat-uni-2-persoane/cuvertura-pat-uni-2-fete-de-perna-bej/",
+    "description": "Descriere: Dimensiuni cuvertură: 230cm x 250cm Dimensiuni fete pernă: 50cm x 70cm Compoziție textilă material: 100% poliester Compoziție textilă umplutură: 100% poliester",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "230 × 250 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76603/01.webp",
+      "/products/ralex-76603/02.webp",
+      "/products/ralex-76603/03.webp",
+      "/products/ralex-76603/04.webp"
+    ],
+    "image": "/products/ralex-76603/01.webp",
+    "price": 223.6,
+    "inStock": true,
+    "sku": "76603",
+    "material": "100% poliester."
+  },
+  {
+    "id": 76880,
+    "name": "Lenjerii de pat damasc-policoton 6 piese — 6DP42",
+    "category": "Lenjerii de pat damasc - policoton 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp42/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Cearsaf pat: 230 x 250 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "230 × 250 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76880/01.webp",
+      "/products/ralex-76880/02.webp",
+      "/products/ralex-76880/03.webp",
+      "/products/ralex-76880/04.webp"
+    ],
+    "image": "/products/ralex-76880/01.webp",
+    "price": 154.7,
+    "inStock": true,
+    "sku": "76880",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76881,
+    "name": "Lenjerii de pat damasc-policoton 6 piese — 6DP43",
+    "category": "Lenjerii de pat damasc - policoton 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp43/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Cearsaf pat: 230 x 250 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "230 × 250 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76881/01.webp",
+      "/products/ralex-76881/02.webp",
+      "/products/ralex-76881/03.webp",
+      "/products/ralex-76881/04.webp"
+    ],
+    "image": "/products/ralex-76881/01.webp",
+    "price": 154.7,
+    "inStock": true,
+    "sku": "76881",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76882,
+    "name": "Lenjerii de pat damasc-policoton 6 piese — 6DP44",
+    "category": "Lenjerii de pat damasc - policoton 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp44/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Cearsaf pat: 230 x 250 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "230 × 250 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76882/01.webp",
+      "/products/ralex-76882/02.webp",
+      "/products/ralex-76882/03.webp",
+      "/products/ralex-76882/04.webp"
+    ],
+    "image": "/products/ralex-76882/01.webp",
+    "price": 154.7,
+    "inStock": true,
+    "sku": "76882",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76883,
+    "name": "Lenjerii de pat damasc-policoton 6 piese — 6DP45",
+    "category": "Lenjerii de pat damasc - policoton 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp45/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Cearsaf pat: 230 x 250 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "230 × 250 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76883/01.webp",
+      "/products/ralex-76883/02.webp",
+      "/products/ralex-76883/03.webp",
+      "/products/ralex-76883/04.webp"
+    ],
+    "image": "/products/ralex-76883/01.webp",
+    "price": 154.7,
+    "inStock": true,
+    "sku": "76883",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76884,
+    "name": "Lenjerii de pat damasc-policoton 6 piese — 6DP46",
+    "category": "Lenjerii de pat damasc - policoton 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp46/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Cearsaf pat: 230 x 250 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "230 × 250 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76884/01.webp",
+      "/products/ralex-76884/02.webp",
+      "/products/ralex-76884/03.webp",
+      "/products/ralex-76884/04.webp"
+    ],
+    "image": "/products/ralex-76884/01.webp",
+    "price": 154.7,
+    "inStock": true,
+    "sku": "76884",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76885,
+    "name": "Lenjerii de pat damasc-policoton 6 piese — 6DP47",
+    "category": "Lenjerii de pat damasc - policoton 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp47/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Cearsaf pat: 230 x 250 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "230 × 250 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76885/01.webp",
+      "/products/ralex-76885/02.webp",
+      "/products/ralex-76885/03.webp",
+      "/products/ralex-76885/04.webp"
+    ],
+    "image": "/products/ralex-76885/01.webp",
+    "price": 154.7,
+    "inStock": true,
+    "sku": "76885",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76887,
+    "name": "Lenjerii de pat damasc-policoton 6 piese — 6DP49",
+    "category": "Lenjerii de pat damasc - policoton 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp49/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Cearsaf pat: 230 x 250 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "230 × 250 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76887/01.webp",
+      "/products/ralex-76887/02.webp",
+      "/products/ralex-76887/03.webp",
+      "/products/ralex-76887/04.webp"
+    ],
+    "image": "/products/ralex-76887/01.webp",
+    "price": 154.7,
+    "inStock": false,
+    "sku": "76887",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76888,
+    "name": "Lenjerii de pat damasc-policoton 6 piese — 6DP50",
+    "category": "Lenjerii de pat damasc - policoton 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp50/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Cearsaf pat: 230 x 250 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "230 × 250 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76888/01.webp",
+      "/products/ralex-76888/02.webp",
+      "/products/ralex-76888/03.webp",
+      "/products/ralex-76888/04.webp"
+    ],
+    "image": "/products/ralex-76888/01.webp",
+    "price": 154.7,
+    "inStock": true,
+    "sku": "76888",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76889,
+    "name": "Lenjerii de pat damasc-policoton 6 piese — 6DP51",
+    "category": "Lenjerii de pat damasc - policoton 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp51/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Cearsaf pat: 230 x 250 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "230 × 250 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76889/01.webp",
+      "/products/ralex-76889/02.webp",
+      "/products/ralex-76889/03.webp",
+      "/products/ralex-76889/04.webp"
+    ],
+    "image": "/products/ralex-76889/01.webp",
+    "price": 154.7,
+    "inStock": false,
+    "sku": "76889",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76895,
+    "name": "Lenjerii de pat damasc-policoton 6 piese — 6DP41",
+    "category": "Lenjerii de pat damasc - policoton 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp41-2/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Cearsaf pat: 230 x 250 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "230 × 250 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76895/01.webp",
+      "/products/ralex-76895/02.webp",
+      "/products/ralex-76895/03.webp",
+      "/products/ralex-76895/04.webp"
+    ],
+    "image": "/products/ralex-76895/01.webp",
+    "price": 154.7,
+    "inStock": true,
+    "sku": "76895",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76898,
+    "name": "Lenjerii de pat damasc-policoton 6 piese cu husa (6DPH4)",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph4/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Husa universala pentru saltea pat de 160x200x24 cm si 180x200x24 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "160 × 200 × 24 cm / 180 × 200 × 24 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76898/01.webp",
+      "/products/ralex-76898/02.webp",
+      "/products/ralex-76898/03.webp",
+      "/products/ralex-76898/04.webp"
+    ],
+    "image": "/products/ralex-76898/01.webp",
+    "price": 169.0,
+    "inStock": true,
+    "sku": "76898",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76899,
+    "name": "Lenjerii de pat damasc-policoton 6 piese cu husa (6DPH5)",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph5/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Husa universala pentru saltea pat de 160x200x24 cm si 180x200x24 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "160 × 200 × 24 cm / 180 × 200 × 24 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76899/01.webp",
+      "/products/ralex-76899/02.webp",
+      "/products/ralex-76899/03.webp",
+      "/products/ralex-76899/04.webp"
+    ],
+    "image": "/products/ralex-76899/01.webp",
+    "price": 169.0,
+    "inStock": true,
+    "sku": "76899",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76902,
+    "name": "Lenjerii de pat damasc-policoton 6 piese cu husa (6DPH8)",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph8/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Husa universala pentru saltea pat de 160x200x24 cm si 180x200x24 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "160 × 200 × 24 cm / 180 × 200 × 24 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76902/01.webp",
+      "/products/ralex-76902/02.webp",
+      "/products/ralex-76902/03.webp",
+      "/products/ralex-76902/04.webp"
+    ],
+    "image": "/products/ralex-76902/01.webp",
+    "price": 169.0,
+    "inStock": true,
+    "sku": "76902",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76903,
+    "name": "Lenjerii de pat damasc-policoton 6 piese cu husa (6DPH9)",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph9/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Husa universala pentru saltea pat de 160x200x24 cm si 180x200x24 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "160 × 200 × 24 cm / 180 × 200 × 24 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76903/01.webp",
+      "/products/ralex-76903/02.webp",
+      "/products/ralex-76903/03.webp",
+      "/products/ralex-76903/04.webp"
+    ],
+    "image": "/products/ralex-76903/01.webp",
+    "price": 169.0,
+    "inStock": true,
+    "sku": "76903",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76904,
+    "name": "Lenjerii de pat damasc-policoton 6 piese cu husa (6DPH10)",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph10/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Husa universala pentru saltea pat de 160x200x24 cm si 180x200x24 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "160 × 200 × 24 cm / 180 × 200 × 24 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76904/01.webp",
+      "/products/ralex-76904/02.webp",
+      "/products/ralex-76904/03.webp",
+      "/products/ralex-76904/04.webp"
+    ],
+    "image": "/products/ralex-76904/01.webp",
+    "price": 169.0,
+    "inStock": true,
+    "sku": "76904",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76905,
+    "name": "Lenjerii de pat damasc-policoton 6 piese cu husa (6DPH11)",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph11/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Husa universala pentru saltea pat de 160x200x24 cm si 180x200x24 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "160 × 200 × 24 cm / 180 × 200 × 24 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76905/01.webp",
+      "/products/ralex-76905/02.webp",
+      "/products/ralex-76905/03.webp",
+      "/products/ralex-76905/04.webp"
+    ],
+    "image": "/products/ralex-76905/01.webp",
+    "price": 169.0,
+    "inStock": true,
+    "sku": "76905",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 76907,
+    "name": "Lenjerii de pat damasc-policoton 6 piese cu husa (6DPH13)",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph13/",
+    "description": "Compoziție textilă: 80% poliester - 20% bumbac Dimensiuni: Husa universala pentru saltea pat de 160x200x24 cm si 180x200x24 cm Cearsaf pilota: 200 x 230 cm Față pernă: 70 x 70 cm - 2 buc Față pernă: 50 x 70 cm - 2 buc Lenjeria de pat damasc policoton este o alegere excelentă pentru a aduce un plus de eleganță și confort dormitorului tău. Realizată dintr-un amestec de poliester și bumbac, această lenjerie combină durabilitatea și rezistența poliesterului cu confortul și respirabilitatea bumbacului. Cu diverse culori disponibile, poți alege lenjeria care se potrivește cel mai bine cu decorul camerei tale. Fie că preferi culori vibrante sau tonuri mai subtile, lenjeria de pat damasc policoton îți va oferi un somn odihnitor și o atmosferă plăcută în dormitorul tău. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 90° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "160 × 200 × 24 cm / 180 × 200 × 24 cm / 200 × 230 cm / 70 × 70 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-76907/01.webp",
+      "/products/ralex-76907/02.webp",
+      "/products/ralex-76907/03.webp",
+      "/products/ralex-76907/04.webp"
+    ],
+    "image": "/products/ralex-76907/01.webp",
+    "price": 169.0,
+    "inStock": true,
+    "sku": "76907",
+    "material": "80% poliester, 20% bumbac."
+  },
+  {
+    "id": 77312,
+    "name": "Lenjerie de pat Finet HoReCa — alb",
+    "category": "Lenjerii policoton",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-finet-o-persoana/lenjerie-pat-finet-horeca-o-persoana/",
+    "description": "Lenjerie de pat Finet HoReCa — alb. Alege dimensiunea pentru a vedea conținutul, specificațiile, prețul și imaginile variantei.",
+    "features": [
+      {
+        "label": "Mărimi",
+        "value": "O persoană; Două persoane; King size"
+      }
+    ],
+    "images": [
+      "/products/ralex-77312/01.webp",
+      "/products/ralex-77312/02.webp",
+      "/products/ralex-77312/03.webp",
+      "/products/ralex-77312/04.webp"
+    ],
+    "image": "/products/ralex-77312/01.webp",
+    "price": 104.0,
+    "inStock": true,
+    "material": "Compoziție neprecizată de furnizor.",
+    "variants": [
+      {
+        "id": 77312,
+        "sku": "77312",
+        "name": "O persoană",
+        "dimensions": "160 × 230 cm / 140 × 215 cm / 50 × 70 cm",
+        "contents": "Descriere produs: Dimensiuni: - cearsaf pat - 160 x 230 cm - cearsaf pilota - 140 x 215 cm - fata perna - 1 buc - 50 x 70cm  Densitate tesatura: - 130g/m2 Lenjeria de pat din finet pentru industria hotelieră (Horeca) este special concepută pentru a satisface cerințele de durabilitate și confort ale mediului hotelier. Această lenjerie este fabricată din materiale de înaltă calitate, rezistente la uzură și multiple spălări, menținându-și aspectul impecabil chiar și în condiții de utilizare intensivă. Finetul folosit este moale și plăcut la atingere, oferind o senzație de confort și relaxare oaspeților tăi. Designul simplu și elegant al lenjeriei de pat din finet Horeca se potrivește perfect în orice tip de cameră de hotel, creând o atmosferă plăcută și relaxantă pentru oaspeți. Instrucțiuni de întreținere: – Înmuiați la 60°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 130° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+        "price": 104.0,
+        "inStock": true,
+        "images": [
+          "/products/ralex-77312/01.webp",
+          "/products/ralex-77312/02.webp",
+          "/products/ralex-77312/03.webp",
+          "/products/ralex-77312/04.webp"
+        ]
+      },
+      {
+        "id": 77316,
+        "sku": "77316",
+        "name": "Două persoane",
+        "dimensions": "220 × 230 cm / 180 × 215 cm / 50 × 70 cm",
+        "contents": "Descriere produs: Dimensiuni: - cearsaf pat - 220 x 230 cm - cearsaf pilota - 180 x 215 cm - fata perna - 2 buc - 50 x 70cm  Densitate tesatura: - 130g/m2 Lenjeria de pat din finet pentru industria hotelieră (Horeca) este special concepută pentru a satisface cerințele de durabilitate și confort ale mediului hotelier. Această lenjerie este fabricată din materiale de înaltă calitate, rezistente la uzură și multiple spălări, menținându-și aspectul impecabil chiar și în condiții de utilizare intensivă. Finetul folosit este moale și plăcut la atingere, oferind o senzație de confort și relaxare oaspeților tăi. Designul simplu și elegant al lenjeriei de pat din finet Horeca se potrivește perfect în orice tip de cameră de hotel, creând o atmosferă plăcută și relaxantă pentru oaspeți. Instrucțiuni de întreținere: – Înmuiați la 60°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 130° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+        "price": 127.4,
+        "inStock": true,
+        "images": [
+          "/products/ralex-77316/01.webp",
+          "/products/ralex-77316/02.webp",
+          "/products/ralex-77316/03.webp",
+          "/products/ralex-77316/04.webp"
+        ]
+      },
+      {
+        "id": 77317,
+        "sku": "77317",
+        "name": "King size",
+        "dimensions": "230 × 260 cm / 200 × 230 cm / 50 × 70 cm",
+        "contents": "Descriere produs: Dimensiuni: - cearsaf pat - 230 x 260 cm - cearsaf pilota - 200 x 230 cm - fata perna - 2 buc - 50 x 70cm  Densitate tesatura: - 130g/m2 Lenjeria de pat din finet pentru industria hotelieră (Horeca) este special concepută pentru a satisface cerințele de durabilitate și confort ale mediului hotelier. Această lenjerie este fabricată din materiale de înaltă calitate, rezistente la uzură și multiple spălări, menținându-și aspectul impecabil chiar și în condiții de utilizare intensivă. Finetul folosit este moale și plăcut la atingere, oferind o senzație de confort și relaxare oaspeților tăi. Designul simplu și elegant al lenjeriei de pat din finet Horeca se potrivește perfect în orice tip de cameră de hotel, creând o atmosferă plăcută și relaxantă pentru oaspeți. Instrucțiuni de întreținere: – Înmuiați la 60°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 130° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+        "price": 136.5,
+        "inStock": true,
+        "images": [
+          "/products/ralex-77317/01.webp",
+          "/products/ralex-77317/02.webp",
+          "/products/ralex-77317/03.webp",
+          "/products/ralex-77317/04.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 77860,
+    "name": "Lenjerie pat percalle alb opera",
+    "category": "Produse HoReCa",
+    "categoryPath": "produse-hotel",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/produse-hotel/lenjerie-pat-percalle-alb-opera/",
+    "description": "Descriere produs: TC - 300 Densitate țesătură: 180GSM Culoare: ALB OPTIC",
+    "features": [
+      {
+        "label": "Dimensiuni",
+        "value": "Alege mărimea pentru dimensiunile și conținutul variantei."
+      }
+    ],
+    "images": [
+      "/products/ralex-77860/01.webp",
+      "/products/ralex-77860/02.webp",
+      "/products/ralex-77860/03.webp",
+      "/products/ralex-77860/04.webp"
+    ],
+    "image": "/products/ralex-77860/01.webp",
+    "price": 291.2,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 77861,
+        "sku": "77861",
+        "name": "O persoană",
+        "dimensions": "160 × 280 cm / 150 × 215 cm / 50 × 70 cm",
+        "contents": "– Cearsaf pat: 160cm x 280cm – Cearsaf pilotă: 150cm x 215cm – Fata perna 1 x 50cm x 70cm",
+        "price": 291.2,
+        "inStock": true,
+        "images": [
+          "/products/ralex-77860/01.webp",
+          "/products/ralex-77860/02.webp",
+          "/products/ralex-77860/03.webp",
+          "/products/ralex-77860/04.webp"
+        ]
+      },
+      {
+        "id": 77862,
+        "sku": "77862",
+        "name": "Două persoane",
+        "dimensions": "200 × 280 cm / 180 × 215 cm / 50 × 70 cm",
+        "contents": "– Cearsaf pat: 200cm x 280cm – Cearsaf pilotă: 180cm x 215cm – Fata perna 2 x 50cm x 70cm",
+        "price": 418.6,
+        "inStock": true,
+        "images": [
+          "/products/ralex-77860/01.webp",
+          "/products/ralex-77860/02.webp",
+          "/products/ralex-77860/03.webp",
+          "/products/ralex-77860/04.webp"
+        ]
+      },
+      {
+        "id": 77863,
+        "sku": "77863",
+        "name": "King size",
+        "dimensions": "280 × 300 cm / 200 × 230 cm / 50 × 70 cm",
+        "contents": "– Cearsaf pat: 280cm x 300cm – Cearsaf pilotă: 200cm x 230cm – Fata perna 2 x 50cm x 70cm",
+        "price": 491.4,
+        "inStock": true,
+        "images": [
+          "/products/ralex-77860/01.webp",
+          "/products/ralex-77860/02.webp",
+          "/products/ralex-77860/03.webp",
+          "/products/ralex-77860/04.webp"
+        ]
+      }
+    ],
+    "material": "Compoziție neprecizată de furnizor."
+  },
+  {
+    "id": 77866,
+    "name": "Lenjerie pat percalle alb 100%bbc",
+    "category": "Produse HoReCa",
+    "categoryPath": "produse-hotel",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/produse-hotel/lenjerie-pat-percalle-alb-100%bbc/",
+    "description": "Descriere produs: 100% BUMBAC Densitate țesătură: 160GSM Culoare: ALB OPTIC",
+    "features": [
+      {
+        "label": "Dimensiuni",
+        "value": "Alege mărimea pentru dimensiunile și conținutul variantei."
+      }
+    ],
+    "images": [
+      "/products/ralex-77866/01.webp",
+      "/products/ralex-77866/02.webp",
+      "/products/ralex-77866/03.webp",
+      "/products/ralex-77866/04.webp"
+    ],
+    "image": "/products/ralex-77866/01.webp",
+    "price": 227.5,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 77867,
+        "sku": "77867",
+        "name": "O persoană",
+        "dimensions": "160 × 240 cm / 150 × 215 cm / 50 × 70 cm",
+        "contents": "– Cearsaf pat: 160cm x 240cm – Cearsaf pilotă: 150cm x 215cm – Fata perna 1 x 50cm x 70cm",
+        "price": 227.5,
+        "inStock": true,
+        "images": [
+          "/products/ralex-77866/01.webp",
+          "/products/ralex-77866/02.webp",
+          "/products/ralex-77866/03.webp",
+          "/products/ralex-77866/04.webp"
+        ]
+      },
+      {
+        "id": 77868,
+        "sku": "77868",
+        "name": "Două persoane",
+        "dimensions": "200 × 240 cm / 180 × 215 cm / 50 × 70 cm",
+        "contents": "– Cearsaf pat: 200cm x 240cm – Cearsaf pilotă: 180cm x 215cm – Fata perna 2 x 50cm x 70cm",
+        "price": 291.2,
+        "inStock": true,
+        "images": [
+          "/products/ralex-77866/01.webp",
+          "/products/ralex-77866/02.webp",
+          "/products/ralex-77866/03.webp",
+          "/products/ralex-77866/04.webp"
+        ]
+      },
+      {
+        "id": 77869,
+        "sku": "77869",
+        "name": "King size",
+        "dimensions": "240 × 260 cm / 200 × 230 cm / 50 × 70 cm",
+        "contents": "– Cearsaf pat: 240cm x 260cm – Cearsaf pilotă: 200cm x 230cm – Fata perna 2 x 50cm x 70cm",
+        "price": 327.6,
+        "inStock": true,
+        "images": [
+          "/products/ralex-77866/01.webp",
+          "/products/ralex-77866/02.webp",
+          "/products/ralex-77866/03.webp",
+          "/products/ralex-77866/04.webp"
+        ]
+      }
+    ],
+    "material": "100% bumbac."
+  },
+  {
+    "id": 77872,
+    "name": "Lenjerie pat percalle alb 50%bbc+50%pes",
+    "category": "Produse HoReCa",
+    "categoryPath": "produse-hotel",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/produse-hotel/lenjerie-pat-percalle-alb-50%bbc50pes/",
+    "description": "Descriere produs: 50% BUMBAC+50% POLIESTER Densitate țesătură: 160GSM Culoare: ALB OPTIC",
+    "features": [
+      {
+        "label": "Dimensiuni",
+        "value": "Alege mărimea pentru dimensiunile și conținutul variantei."
+      }
+    ],
+    "images": [
+      "/products/ralex-77872/01.webp",
+      "/products/ralex-77872/02.webp",
+      "/products/ralex-77872/03.webp",
+      "/products/ralex-77872/04.webp"
+    ],
+    "image": "/products/ralex-77872/01.webp",
+    "price": 209.3,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 77873,
+        "sku": "77873",
+        "name": "O persoană",
+        "dimensions": "160 × 240 cm / 150 × 215 cm / 50 × 70 cm",
+        "contents": "– Cearsaf pat: 160cm x 240cm – Cearsaf pilotă: 150cm x 215cm – Fata perna 1 x 50cm x 70cm",
+        "price": 209.3,
+        "inStock": true,
+        "images": [
+          "/products/ralex-77872/01.webp",
+          "/products/ralex-77872/02.webp",
+          "/products/ralex-77872/03.webp",
+          "/products/ralex-77872/04.webp"
+        ]
+      },
+      {
+        "id": 77874,
+        "sku": "77874",
+        "name": "Două persoane",
+        "dimensions": "200 × 240 cm / 180 × 215 cm / 50 × 70 cm",
+        "contents": "– Cearsaf pat: 200cm x 240cm – Cearsaf pilotă: 180cm x 215cm – Fata perna 2 x 50cm x 70cm",
+        "price": 273.0,
+        "inStock": true,
+        "images": [
+          "/products/ralex-77872/01.webp",
+          "/products/ralex-77872/02.webp",
+          "/products/ralex-77872/03.webp",
+          "/products/ralex-77872/04.webp"
+        ]
+      },
+      {
+        "id": 77875,
+        "sku": "77875",
+        "name": "King size",
+        "dimensions": "240 × 260 cm / 200 × 230 cm / 50 × 70 cm",
+        "contents": "– Cearsaf pat: 240cm x 260cm – Cearsaf pilotă: 200cm x 230cm – Fata perna 2 x 50cm x 70cm",
+        "price": 291.2,
+        "inStock": true,
+        "images": [
+          "/products/ralex-77872/01.webp",
+          "/products/ralex-77872/02.webp",
+          "/products/ralex-77872/03.webp",
+          "/products/ralex-77872/04.webp"
+        ]
+      }
+    ],
+    "material": "50% bumbac, 50% poliester."
+  },
+  {
+    "id": 78592,
+    "name": "Lenjerie de pat ranforce Clasy king size (PUMA)",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-puma/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 120gr. Compozitie textila 100%bumbac Ambalaj cutie cadou Colorant reactiv print Lenjeria de pat Ranforce din 100% bumbac, cu colorant reactiv print, este o alegere excelentă pentru cei care caută un nivel înalt de confort și calitate în dormitorul lor. Ranforce este un tip de țesătură de bumbac, cunoscută pentru durabilitatea și rezistența sa, fiind ideală pentru lenjeria de pat, deoarece oferă un somn liniștit și plăcut. Alegerea bumbacului 100% asigură că lenjeria este moale și respirabilă, permițând pielii să respire și reglând temperatura corpului pentru o odihnă confortabilă în orice sezon. De asemenea, bumbacul este un material hipoalergenic, ceea ce înseamnă că este potrivit pentru cei cu pielea sensibilă sau alergii. Printul cu colorant reactiv adaugă un plus de frumusețe și viață lenjeriei de pat. Acest proces de imprimare asigură culori vibrante și rezistente la spălare, menținând aspectul nou și proaspăt al lenjeriei chiar și după multiple spălări. De asemenea, printul este realizat într-un mod care permite țesăturii să-și păstreze textura moale și mătăsoasă, fără a compromite calitatea sau confortul. Lenjeria de pat Ranforce din 100% bumbac cu colorant reactiv print este disponibilă într-o varietate de modele și culori, de la designuri clasice și elegante până la imprimeuri moderne și îndrăznețe. Indiferent de preferințele tale în materie de design interior, vei găsi cu siguranță un set de lenjerie care să se potrivească perfect stilului tău și să aducă un plus de frumusețe în dormitorul tău. Cu această lenjerie de pat, poți să te bucuri de un somn odihnitor și relaxant în fiecare noapte, învăluit într-un confort luxuriant și înconjurat de frumusețe și culoare. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-78592/01.webp",
+      "/products/ralex-78592/02.webp",
+      "/products/ralex-78592/03.webp",
+      "/products/ralex-78592/04.webp"
+    ],
+    "image": "/products/ralex-78592/01.webp",
+    "price": 315.9,
+    "inStock": true,
+    "sku": "78592",
+    "material": "100% bumbac."
+  },
+  {
+    "id": 78594,
+    "name": "Lenjerie de pat ranforce Clasy king size (LUVI)",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-luvi/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 120gr. Compozitie textila 100%bumbac Ambalaj cutie cadou Colorant reactiv print Lenjeria de pat Ranforce din 100% bumbac, cu colorant reactiv print, este o alegere excelentă pentru cei care caută un nivel înalt de confort și calitate în dormitorul lor. Ranforce este un tip de țesătură de bumbac, cunoscută pentru durabilitatea și rezistența sa, fiind ideală pentru lenjeria de pat, deoarece oferă un somn liniștit și plăcut. Alegerea bumbacului 100% asigură că lenjeria este moale și respirabilă, permițând pielii să respire și reglând temperatura corpului pentru o odihnă confortabilă în orice sezon. De asemenea, bumbacul este un material hipoalergenic, ceea ce înseamnă că este potrivit pentru cei cu pielea sensibilă sau alergii. Printul cu colorant reactiv adaugă un plus de frumusețe și viață lenjeriei de pat. Acest proces de imprimare asigură culori vibrante și rezistente la spălare, menținând aspectul nou și proaspăt al lenjeriei chiar și după multiple spălări. De asemenea, printul este realizat într-un mod care permite țesăturii să-și păstreze textura moale și mătăsoasă, fără a compromite calitatea sau confortul. Lenjeria de pat Ranforce din 100% bumbac cu colorant reactiv print este disponibilă într-o varietate de modele și culori, de la designuri clasice și elegante până la imprimeuri moderne și îndrăznețe. Indiferent de preferințele tale în materie de design interior, vei găsi cu siguranță un set de lenjerie care să se potrivească perfect stilului tău și să aducă un plus de frumusețe în dormitorul tău. Cu această lenjerie de pat, poți să te bucuri de un somn odihnitor și relaxant în fiecare noapte, învăluit într-un confort luxuriant și înconjurat de frumusețe și culoare. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-78594/01.webp",
+      "/products/ralex-78594/02.webp",
+      "/products/ralex-78594/03.webp",
+      "/products/ralex-78594/04.webp"
+    ],
+    "image": "/products/ralex-78594/01.webp",
+    "price": 315.9,
+    "inStock": true,
+    "sku": "78594",
+    "material": "100% bumbac."
+  },
+  {
+    "id": 78596,
+    "name": "Lenjerie de pat ranforce Clasy king size (HENA V1)",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-hena-v1/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 120gr. Compozitie textila 100%bumbac Ambalaj cutie cadou Colorant reactiv print Lenjeria de pat Ranforce din 100% bumbac, cu colorant reactiv print, este o alegere excelentă pentru cei care caută un nivel înalt de confort și calitate în dormitorul lor. Ranforce este un tip de țesătură de bumbac, cunoscută pentru durabilitatea și rezistența sa, fiind ideală pentru lenjeria de pat, deoarece oferă un somn liniștit și plăcut. Alegerea bumbacului 100% asigură că lenjeria este moale și respirabilă, permițând pielii să respire și reglând temperatura corpului pentru o odihnă confortabilă în orice sezon. De asemenea, bumbacul este un material hipoalergenic, ceea ce înseamnă că este potrivit pentru cei cu pielea sensibilă sau alergii. Printul cu colorant reactiv adaugă un plus de frumusețe și viață lenjeriei de pat. Acest proces de imprimare asigură culori vibrante și rezistente la spălare, menținând aspectul nou și proaspăt al lenjeriei chiar și după multiple spălări. De asemenea, printul este realizat într-un mod care permite țesăturii să-și păstreze textura moale și mătăsoasă, fără a compromite calitatea sau confortul. Lenjeria de pat Ranforce din 100% bumbac cu colorant reactiv print este disponibilă într-o varietate de modele și culori, de la designuri clasice și elegante până la imprimeuri moderne și îndrăznețe. Indiferent de preferințele tale în materie de design interior, vei găsi cu siguranță un set de lenjerie care să se potrivească perfect stilului tău și să aducă un plus de frumusețe în dormitorul tău. Cu această lenjerie de pat, poți să te bucuri de un somn odihnitor și relaxant în fiecare noapte, învăluit într-un confort luxuriant și înconjurat de frumusețe și culoare. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-78596/01.webp",
+      "/products/ralex-78596/02.webp",
+      "/products/ralex-78596/03.webp",
+      "/products/ralex-78596/04.webp"
+    ],
+    "image": "/products/ralex-78596/01.webp",
+    "price": 315.9,
+    "inStock": true,
+    "sku": "78596",
+    "material": "100% bumbac."
+  },
+  {
+    "id": 78638,
+    "name": "Lenjerie de pat satin Clasy king size (SILVA)",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-silva/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac dublu satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal Lenjeria de pat este fabricată din 100% bumbac satinat, oferind o senzație moale și confortabilă. Imprimeul reactiv conferă culorilor o rezistență sporită la spălare, menținând aspectul proaspăt și vibrant pentru o perioadă mai îndelungată. Această lenjerie de pat este perfectă pentru a aduce un plus de eleganță și confort în dormitorul dumneavoastră. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-78638/01.webp",
+      "/products/ralex-78638/02.webp",
+      "/products/ralex-78638/03.webp",
+      "/products/ralex-78638/04.webp"
+    ],
+    "image": "/products/ralex-78638/01.webp",
+    "price": 455.0,
+    "inStock": true,
+    "sku": "78638",
+    "material": "100% bumbac dublu satin."
+  },
+  {
+    "id": 78639,
+    "name": "Lenjerie de pat satin Clasy king size (PATAYA)",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-pataya/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac dublu satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal Lenjeria de pat este fabricată din 100% bumbac satinat, oferind o senzație moale și confortabilă. Imprimeul reactiv conferă culorilor o rezistență sporită la spălare, menținând aspectul proaspăt și vibrant pentru o perioadă mai îndelungată. Această lenjerie de pat este perfectă pentru a aduce un plus de eleganță și confort în dormitorul dumneavoastră. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-78639/01.webp",
+      "/products/ralex-78639/02.webp",
+      "/products/ralex-78639/03.webp",
+      "/products/ralex-78639/04.webp"
+    ],
+    "image": "/products/ralex-78639/01.webp",
+    "price": 455.0,
+    "inStock": true,
+    "sku": "78639",
+    "material": "100% bumbac dublu satin."
+  },
+  {
+    "id": 78640,
+    "name": "Lenjerie de pat satin Clasy king size (PAREDES)",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-paredes/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac dublu satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal Lenjeria de pat este fabricată din 100% bumbac satinat, oferind o senzație moale și confortabilă. Imprimeul reactiv conferă culorilor o rezistență sporită la spălare, menținând aspectul proaspăt și vibrant pentru o perioadă mai îndelungată. Această lenjerie de pat este perfectă pentru a aduce un plus de eleganță și confort în dormitorul dumneavoastră. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-78640/01.webp",
+      "/products/ralex-78640/02.webp",
+      "/products/ralex-78640/03.webp",
+      "/products/ralex-78640/04.webp"
+    ],
+    "image": "/products/ralex-78640/01.webp",
+    "price": 455.0,
+    "inStock": true,
+    "sku": "78640",
+    "material": "100% bumbac dublu satin."
+  },
+  {
+    "id": 78643,
+    "name": "Lenjerie de pat satin Clasy king size (LEROS)",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-leros/",
+    "description": "Cearsaf de pat 260x240cm Cearsaf de pilota 200x220cm Fete perna 50x70cm +2 cm tiv Densitate tesatura 140gr. Compozitie textila 100%bumbac dublu satin Ambalaj cutie cadou Colorant reactiv print Instructiuni de intretinere-se spala la 40* mecanic sau manual-se calca max. 150*-se curata chimic-se usuca normal Lenjeria de pat este fabricată din 100% bumbac satinat, oferind o senzație moale și confortabilă. Imprimeul reactiv conferă culorilor o rezistență sporită la spălare, menținând aspectul proaspăt și vibrant pentru o perioadă mai îndelungată. Această lenjerie de pat este perfectă pentru a aduce un plus de eleganță și confort în dormitorul dumneavoastră. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "260 × 240 cm / 200 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-78643/01.webp",
+      "/products/ralex-78643/02.webp",
+      "/products/ralex-78643/03.webp",
+      "/products/ralex-78643/04.webp"
+    ],
+    "image": "/products/ralex-78643/01.webp",
+    "price": 455.0,
+    "inStock": true,
+    "sku": "78643",
+    "material": "100% bumbac dublu satin."
+  },
+  {
+    "id": 79407,
+    "name": "Lenjerii pat finet 3d o persoana (F1P69)",
+    "category": "Lenjerii pat finet o persoană",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-finet-o-persoana",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-finet-o-persoana/lenjerii-pat-finet-3d-o-persoana-f1p69/",
+    "description": "Compoziție textilă: Bumbac: 70%, Poliester: 30% Dimensiuni cearșaf: Cearșaf pat: 160cm x 230cm, Cearșaf pilotă: 150cm x 220cm Dimensiuni față pernă: 50cm x 70cm",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "160 × 230 cm / 150 × 220 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-79407/01.webp",
+      "/products/ralex-79407/02.webp",
+      "/products/ralex-79407/03.webp",
+      "/products/ralex-79407/04.webp"
+    ],
+    "image": "/products/ralex-79407/01.webp",
+    "price": 153.4,
+    "inStock": true,
+    "sku": "79407",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 79514,
+    "name": "Lenjerie de pat finet 3d - 6 piese (FN3D70)",
+    "category": "Lenjerii de pat finet 3D",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d70/",
+    "description": "DIMENSIUNI - cearșaf pat uni: 220cm x 240cm - cearșaf pilotă: 200cm x 230cm (față imprimat 3D, verso uni) - 2 fețe pernă 50cm x 70cm (față imprimat 3D, verso uni) - 2 fețe pernă 70cm x 70cm (față imprimat 3D, verso uni) COMPOZIȚIE TEXTILĂ - 70% BUMBAC + 30% POLIESTER CARACTERISTICI - Imprimată colorant reactiv - antișifonare Lenjeria de pat din finet 3D este o alegere fascinantă pentru cei care doresc să aducă o notă de realitate și profunzime în decorul dormitorului lor. Această lenjerie este realizată dintr-un material finet moale și plăcut la atingere, care oferă confort optim în timpul somnului. Ceea ce face lenjeria de pat din finet 3D specială este efectul 3D al imprimeurilor sale. Aceste imprimeuri sunt create cu tehnologie avansată pentru a da iluzia unei imagini tridimensionale pe suprafața plată a lenjeriei. Astfel, poți găsi lenjerii de pat cu imprimeuri 3D care creează iluzia unui peisaj natural, a unor flori înflorite sau a altor scene spectaculoase. Imaginile 3D sunt vibrante și realiste, aducând un plus de profunzime și viață în dormitorul tău. Această lenjerie poate fi o alegere minunată pentru cei care doresc să aducă un element de originalitate și personalitate în decorul lor, în timp ce se bucură în continuare de confortul oferit de finet. În plus, lenjeria de pat din finet 3D este ușor de întreținut, fiind rezistentă la decolorare și păstrându-și calitatea moale și plăcută la atingere chiar și după multiple spălări. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 120° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "220 × 240 cm / 200 × 230 cm / 50 × 70 cm / 70 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-79514/01.webp",
+      "/products/ralex-79514/02.webp",
+      "/products/ralex-79514/03.webp",
+      "/products/ralex-79514/04.webp"
+    ],
+    "image": "/products/ralex-79514/01.webp",
+    "price": 208.0,
+    "inStock": true,
+    "sku": "79514",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 79515,
+    "name": "Lenjerie de pat finet 3d - 6 piese (FN3D71)",
+    "category": "Lenjerii de pat finet 3D",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d71/",
+    "description": "DIMENSIUNI - cearșaf pat uni: 220cm x 240cm - cearșaf pilotă: 200cm x 230cm (față imprimat 3D, verso uni) - 2 fețe pernă 50cm x 70cm (față imprimat 3D, verso uni) - 2 fețe pernă 70cm x 70cm (față imprimat 3D, verso uni) COMPOZIȚIE TEXTILĂ - 70% BUMBAC + 30% POLIESTER CARACTERISTICI - Imprimată colorant reactiv - antișifonare Lenjeria de pat din finet 3D este o alegere fascinantă pentru cei care doresc să aducă o notă de realitate și profunzime în decorul dormitorului lor. Această lenjerie este realizată dintr-un material finet moale și plăcut la atingere, care oferă confort optim în timpul somnului. Ceea ce face lenjeria de pat din finet 3D specială este efectul 3D al imprimeurilor sale. Aceste imprimeuri sunt create cu tehnologie avansată pentru a da iluzia unei imagini tridimensionale pe suprafața plată a lenjeriei. Astfel, poți găsi lenjerii de pat cu imprimeuri 3D care creează iluzia unui peisaj natural, a unor flori înflorite sau a altor scene spectaculoase. Imaginile 3D sunt vibrante și realiste, aducând un plus de profunzime și viață în dormitorul tău. Această lenjerie poate fi o alegere minunată pentru cei care doresc să aducă un element de originalitate și personalitate în decorul lor, în timp ce se bucură în continuare de confortul oferit de finet. În plus, lenjeria de pat din finet 3D este ușor de întreținut, fiind rezistentă la decolorare și păstrându-și calitatea moale și plăcută la atingere chiar și după multiple spălări. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 120° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "220 × 240 cm / 200 × 230 cm / 50 × 70 cm / 70 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-79515/01.webp",
+      "/products/ralex-79515/02.webp",
+      "/products/ralex-79515/03.webp",
+      "/products/ralex-79515/04.webp"
+    ],
+    "image": "/products/ralex-79515/01.webp",
+    "price": 208.0,
+    "inStock": true,
+    "sku": "79515",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 79518,
+    "name": "Lenjerie de pat finet 3d - 6 piese (FN3D74)",
+    "category": "Lenjerii de pat finet 3D",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d74/",
+    "description": "DIMENSIUNI - cearșaf pat uni: 220cm x 240cm - cearșaf pilotă: 200cm x 230cm (față imprimat 3D, verso uni) - 2 fețe pernă 50cm x 70cm (față imprimat 3D, verso uni) - 2 fețe pernă 70cm x 70cm (față imprimat 3D, verso uni) COMPOZIȚIE TEXTILĂ - 70% BUMBAC + 30% POLIESTER CARACTERISTICI - Imprimată colorant reactiv - antișifonare Lenjeria de pat din finet 3D este o alegere fascinantă pentru cei care doresc să aducă o notă de realitate și profunzime în decorul dormitorului lor. Această lenjerie este realizată dintr-un material finet moale și plăcut la atingere, care oferă confort optim în timpul somnului. Ceea ce face lenjeria de pat din finet 3D specială este efectul 3D al imprimeurilor sale. Aceste imprimeuri sunt create cu tehnologie avansată pentru a da iluzia unei imagini tridimensionale pe suprafața plată a lenjeriei. Astfel, poți găsi lenjerii de pat cu imprimeuri 3D care creează iluzia unui peisaj natural, a unor flori înflorite sau a altor scene spectaculoase. Imaginile 3D sunt vibrante și realiste, aducând un plus de profunzime și viață în dormitorul tău. Această lenjerie poate fi o alegere minunată pentru cei care doresc să aducă un element de originalitate și personalitate în decorul lor, în timp ce se bucură în continuare de confortul oferit de finet. În plus, lenjeria de pat din finet 3D este ușor de întreținut, fiind rezistentă la decolorare și păstrându-și calitatea moale și plăcută la atingere chiar și după multiple spălări. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 120° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "220 × 240 cm / 200 × 230 cm / 50 × 70 cm / 70 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-79518/01.webp",
+      "/products/ralex-79518/02.webp",
+      "/products/ralex-79518/03.webp",
+      "/products/ralex-79518/04.webp"
+    ],
+    "image": "/products/ralex-79518/01.webp",
+    "price": 208.0,
+    "inStock": true,
+    "sku": "79518",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 79520,
+    "name": "Lenjerie de pat finet 3d - 6 piese (FN3D76)",
+    "category": "Lenjerii de pat finet 3D",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d76/",
+    "description": "DIMENSIUNI - cearșaf pat uni: 220cm x 240cm - cearșaf pilotă: 200cm x 230cm (față imprimat 3D, verso uni) - 2 fețe pernă 50cm x 70cm (față imprimat 3D, verso uni) - 2 fețe pernă 70cm x 70cm (față imprimat 3D, verso uni) COMPOZIȚIE TEXTILĂ - 70% BUMBAC + 30% POLIESTER CARACTERISTICI - Imprimată colorant reactiv - antișifonare Lenjeria de pat din finet 3D este o alegere fascinantă pentru cei care doresc să aducă o notă de realitate și profunzime în decorul dormitorului lor. Această lenjerie este realizată dintr-un material finet moale și plăcut la atingere, care oferă confort optim în timpul somnului. Ceea ce face lenjeria de pat din finet 3D specială este efectul 3D al imprimeurilor sale. Aceste imprimeuri sunt create cu tehnologie avansată pentru a da iluzia unei imagini tridimensionale pe suprafața plată a lenjeriei. Astfel, poți găsi lenjerii de pat cu imprimeuri 3D care creează iluzia unui peisaj natural, a unor flori înflorite sau a altor scene spectaculoase. Imaginile 3D sunt vibrante și realiste, aducând un plus de profunzime și viață în dormitorul tău. Această lenjerie poate fi o alegere minunată pentru cei care doresc să aducă un element de originalitate și personalitate în decorul lor, în timp ce se bucură în continuare de confortul oferit de finet. În plus, lenjeria de pat din finet 3D este ușor de întreținut, fiind rezistentă la decolorare și păstrându-și calitatea moale și plăcută la atingere chiar și după multiple spălări. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 120° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "220 × 240 cm / 200 × 230 cm / 50 × 70 cm / 70 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-79520/01.webp",
+      "/products/ralex-79520/02.webp",
+      "/products/ralex-79520/03.webp",
+      "/products/ralex-79520/04.webp"
+    ],
+    "image": "/products/ralex-79520/01.webp",
+    "price": 208.0,
+    "inStock": true,
+    "sku": "79520",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 79521,
+    "name": "Lenjerie de pat finet 3d - 6 piese (FN3D77)",
+    "category": "Lenjerii de pat finet 3D",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d77/",
+    "description": "DIMENSIUNI - cearșaf pat uni: 220cm x 240cm - cearșaf pilotă: 200cm x 230cm (față imprimat 3D, verso uni) - 2 fețe pernă 50cm x 70cm (față imprimat 3D, verso uni) - 2 fețe pernă 70cm x 70cm (față imprimat 3D, verso uni) COMPOZIȚIE TEXTILĂ - 70% BUMBAC + 30% POLIESTER CARACTERISTICI - Imprimată colorant reactiv - antișifonare Lenjeria de pat din finet 3D este o alegere fascinantă pentru cei care doresc să aducă o notă de realitate și profunzime în decorul dormitorului lor. Această lenjerie este realizată dintr-un material finet moale și plăcut la atingere, care oferă confort optim în timpul somnului. Ceea ce face lenjeria de pat din finet 3D specială este efectul 3D al imprimeurilor sale. Aceste imprimeuri sunt create cu tehnologie avansată pentru a da iluzia unei imagini tridimensionale pe suprafața plată a lenjeriei. Astfel, poți găsi lenjerii de pat cu imprimeuri 3D care creează iluzia unui peisaj natural, a unor flori înflorite sau a altor scene spectaculoase. Imaginile 3D sunt vibrante și realiste, aducând un plus de profunzime și viață în dormitorul tău. Această lenjerie poate fi o alegere minunată pentru cei care doresc să aducă un element de originalitate și personalitate în decorul lor, în timp ce se bucură în continuare de confortul oferit de finet. În plus, lenjeria de pat din finet 3D este ușor de întreținut, fiind rezistentă la decolorare și păstrându-și calitatea moale și plăcută la atingere chiar și după multiple spălări. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 120° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "220 × 240 cm / 200 × 230 cm / 50 × 70 cm / 70 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-79521/01.webp",
+      "/products/ralex-79521/02.webp",
+      "/products/ralex-79521/03.webp",
+      "/products/ralex-79521/04.webp"
+    ],
+    "image": "/products/ralex-79521/01.webp",
+    "price": 208.0,
+    "inStock": true,
+    "sku": "79521",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 79522,
+    "name": "Lenjerie de pat finet 3d - 6 piese (FN3D78)",
+    "category": "Lenjerii de pat finet 3D",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d78/",
+    "description": "DIMENSIUNI - cearșaf pat uni: 220cm x 240cm - cearșaf pilotă: 200cm x 230cm (față imprimat 3D, verso uni) - 2 fețe pernă 50cm x 70cm (față imprimat 3D, verso uni) - 2 fețe pernă 70cm x 70cm (față imprimat 3D, verso uni) COMPOZIȚIE TEXTILĂ - 70% BUMBAC + 30% POLIESTER CARACTERISTICI - Imprimată colorant reactiv - antișifonare Lenjeria de pat din finet 3D este o alegere fascinantă pentru cei care doresc să aducă o notă de realitate și profunzime în decorul dormitorului lor. Această lenjerie este realizată dintr-un material finet moale și plăcut la atingere, care oferă confort optim în timpul somnului. Ceea ce face lenjeria de pat din finet 3D specială este efectul 3D al imprimeurilor sale. Aceste imprimeuri sunt create cu tehnologie avansată pentru a da iluzia unei imagini tridimensionale pe suprafața plată a lenjeriei. Astfel, poți găsi lenjerii de pat cu imprimeuri 3D care creează iluzia unui peisaj natural, a unor flori înflorite sau a altor scene spectaculoase. Imaginile 3D sunt vibrante și realiste, aducând un plus de profunzime și viață în dormitorul tău. Această lenjerie poate fi o alegere minunată pentru cei care doresc să aducă un element de originalitate și personalitate în decorul lor, în timp ce se bucură în continuare de confortul oferit de finet. În plus, lenjeria de pat din finet 3D este ușor de întreținut, fiind rezistentă la decolorare și păstrându-și calitatea moale și plăcută la atingere chiar și după multiple spălări. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 120° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "220 × 240 cm / 200 × 230 cm / 50 × 70 cm / 70 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-79522/01.webp",
+      "/products/ralex-79522/02.webp",
+      "/products/ralex-79522/03.webp",
+      "/products/ralex-79522/04.webp"
+    ],
+    "image": "/products/ralex-79522/01.webp",
+    "price": 208.0,
+    "inStock": true,
+    "sku": "79522",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 79524,
+    "name": "Lenjerie de pat finet 3d - 6 piese (FN3D80)",
+    "category": "Lenjerii de pat finet 3D",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d80/",
+    "description": "DIMENSIUNI - cearșaf pat uni: 220cm x 240cm - cearșaf pilotă: 200cm x 230cm (față imprimat 3D, verso uni) - 2 fețe pernă 50cm x 70cm (față imprimat 3D, verso uni) - 2 fețe pernă 70cm x 70cm (față imprimat 3D, verso uni) COMPOZIȚIE TEXTILĂ - 70% BUMBAC + 30% POLIESTER CARACTERISTICI - Imprimată colorant reactiv - antișifonare Lenjeria de pat din finet 3D este o alegere fascinantă pentru cei care doresc să aducă o notă de realitate și profunzime în decorul dormitorului lor. Această lenjerie este realizată dintr-un material finet moale și plăcut la atingere, care oferă confort optim în timpul somnului. Ceea ce face lenjeria de pat din finet 3D specială este efectul 3D al imprimeurilor sale. Aceste imprimeuri sunt create cu tehnologie avansată pentru a da iluzia unei imagini tridimensionale pe suprafața plată a lenjeriei. Astfel, poți găsi lenjerii de pat cu imprimeuri 3D care creează iluzia unui peisaj natural, a unor flori înflorite sau a altor scene spectaculoase. Imaginile 3D sunt vibrante și realiste, aducând un plus de profunzime și viață în dormitorul tău. Această lenjerie poate fi o alegere minunată pentru cei care doresc să aducă un element de originalitate și personalitate în decorul lor, în timp ce se bucură în continuare de confortul oferit de finet. În plus, lenjeria de pat din finet 3D este ușor de întreținut, fiind rezistentă la decolorare și păstrându-și calitatea moale și plăcută la atingere chiar și după multiple spălări. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 120° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "220 × 240 cm / 200 × 230 cm / 50 × 70 cm / 70 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-79524/01.webp",
+      "/products/ralex-79524/02.webp",
+      "/products/ralex-79524/03.webp",
+      "/products/ralex-79524/04.webp"
+    ],
+    "image": "/products/ralex-79524/01.webp",
+    "price": 208.0,
+    "inStock": true,
+    "sku": "79524",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 79626,
+    "name": "Lenjerie de pat finet 3d - 6 piese (FN3D86)",
+    "category": "Lenjerii de pat finet 3D",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d86/",
+    "description": "DIMENSIUNI - cearșaf pat uni: 220cm x 240cm - cearșaf pilotă: 200cm x 230cm (față imprimat 3D, verso uni) - 2 fețe pernă 50cm x 70cm (față imprimat 3D, verso uni) - 2 fețe pernă 70cm x 70cm (față imprimat 3D, verso uni) COMPOZIȚIE TEXTILĂ - 70% BUMBAC + 30% POLIESTER CARACTERISTICI - Imprimată colorant reactiv - antișifonare Lenjeria de pat din finet 3D este o alegere fascinantă pentru cei care doresc să aducă o notă de realitate și profunzime în decorul dormitorului lor. Această lenjerie este realizată dintr-un material finet moale și plăcut la atingere, care oferă confort optim în timpul somnului. Ceea ce face lenjeria de pat din finet 3D specială este efectul 3D al imprimeurilor sale. Aceste imprimeuri sunt create cu tehnologie avansată pentru a da iluzia unei imagini tridimensionale pe suprafața plată a lenjeriei. Astfel, poți găsi lenjerii de pat cu imprimeuri 3D care creează iluzia unui peisaj natural, a unor flori înflorite sau a altor scene spectaculoase. Imaginile 3D sunt vibrante și realiste, aducând un plus de profunzime și viață în dormitorul tău. Această lenjerie poate fi o alegere minunată pentru cei care doresc să aducă un element de originalitate și personalitate în decorul lor, în timp ce se bucură în continuare de confortul oferit de finet. În plus, lenjeria de pat din finet 3D este ușor de întreținut, fiind rezistentă la decolorare și păstrându-și calitatea moale și plăcută la atingere chiar și după multiple spălări. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 120° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "220 × 240 cm / 200 × 230 cm / 50 × 70 cm / 70 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-79626/01.webp",
+      "/products/ralex-79626/02.webp",
+      "/products/ralex-79626/03.webp",
+      "/products/ralex-79626/04.webp"
+    ],
+    "image": "/products/ralex-79626/01.webp",
+    "price": 208.0,
+    "inStock": false,
+    "sku": "79626",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 79628,
+    "name": "Lenjerie de pat finet 3d - 6 piese (FN3D88)",
+    "category": "Lenjerii de pat finet 3D",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d88/",
+    "description": "DIMENSIUNI - cearșaf pat uni: 220cm x 240cm - cearșaf pilotă: 200cm x 230cm (față imprimat 3D, verso uni) - 2 fețe pernă 50cm x 70cm (față imprimat 3D, verso uni) - 2 fețe pernă 70cm x 70cm (față imprimat 3D, verso uni) COMPOZIȚIE TEXTILĂ - 70% BUMBAC + 30% POLIESTER CARACTERISTICI - Imprimată colorant reactiv - antișifonare Lenjeria de pat din finet 3D este o alegere fascinantă pentru cei care doresc să aducă o notă de realitate și profunzime în decorul dormitorului lor. Această lenjerie este realizată dintr-un material finet moale și plăcut la atingere, care oferă confort optim în timpul somnului. Ceea ce face lenjeria de pat din finet 3D specială este efectul 3D al imprimeurilor sale. Aceste imprimeuri sunt create cu tehnologie avansată pentru a da iluzia unei imagini tridimensionale pe suprafața plată a lenjeriei. Astfel, poți găsi lenjerii de pat cu imprimeuri 3D care creează iluzia unui peisaj natural, a unor flori înflorite sau a altor scene spectaculoase. Imaginile 3D sunt vibrante și realiste, aducând un plus de profunzime și viață în dormitorul tău. Această lenjerie poate fi o alegere minunată pentru cei care doresc să aducă un element de originalitate și personalitate în decorul lor, în timp ce se bucură în continuare de confortul oferit de finet. În plus, lenjeria de pat din finet 3D este ușor de întreținut, fiind rezistentă la decolorare și păstrându-și calitatea moale și plăcută la atingere chiar și după multiple spălări. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 120° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "220 × 240 cm / 200 × 230 cm / 50 × 70 cm / 70 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-79628/01.webp",
+      "/products/ralex-79628/02.webp",
+      "/products/ralex-79628/03.webp",
+      "/products/ralex-79628/04.webp"
+    ],
+    "image": "/products/ralex-79628/01.webp",
+    "price": 208.0,
+    "inStock": true,
+    "sku": "79628",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 79831,
+    "name": "Lenjerie de pat finet 3d - 6 piese (FN3D92)",
+    "category": "Lenjerii de pat finet 3D",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d92/",
+    "description": "DIMENSIUNI - cearșaf pat uni: 220cm x 240cm - cearșaf pilotă: 200cm x 230cm (față imprimat 3D, verso uni) - 2 fețe pernă 50cm x 70cm (față imprimat 3D, verso uni) - 2 fețe pernă 70cm x 70cm (față imprimat 3D, verso uni) COMPOZIȚIE TEXTILĂ - 70% BUMBAC + 30% POLIESTER CARACTERISTICI - Imprimată colorant reactiv - antișifonare Lenjeria de pat din finet 3D este o alegere fascinantă pentru cei care doresc să aducă o notă de realitate și profunzime în decorul dormitorului lor. Această lenjerie este realizată dintr-un material finet moale și plăcut la atingere, care oferă confort optim în timpul somnului. Ceea ce face lenjeria de pat din finet 3D specială este efectul 3D al imprimeurilor sale. Aceste imprimeuri sunt create cu tehnologie avansată pentru a da iluzia unei imagini tridimensionale pe suprafața plată a lenjeriei. Astfel, poți găsi lenjerii de pat cu imprimeuri 3D care creează iluzia unui peisaj natural, a unor flori înflorite sau a altor scene spectaculoase. Imaginile 3D sunt vibrante și realiste, aducând un plus de profunzime și viață în dormitorul tău. Această lenjerie poate fi o alegere minunată pentru cei care doresc să aducă un element de originalitate și personalitate în decorul lor, în timp ce se bucură în continuare de confortul oferit de finet. În plus, lenjeria de pat din finet 3D este ușor de întreținut, fiind rezistentă la decolorare și păstrându-și calitatea moale și plăcută la atingere chiar și după multiple spălări. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 120° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "220 × 240 cm / 200 × 230 cm / 50 × 70 cm / 70 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-79831/01.webp",
+      "/products/ralex-79831/02.webp",
+      "/products/ralex-79831/03.webp",
+      "/products/ralex-79831/04.webp"
+    ],
+    "image": "/products/ralex-79831/01.webp",
+    "price": 208.0,
+    "inStock": true,
+    "sku": "79831",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 79880,
+    "name": "Patură tricot cu blăniță - galben-orange",
+    "category": "Paturi tricot cu blanita",
+    "categoryPath": "paturi/paturi-tricot-cu-blanita",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/paturi/paturi-tricot-cu-blanita/patura-tricot-cu-blanita-galben-mustar/",
+    "description": "Descriere produs: Dimensiuni: 200 x 230 cm (+- 5 cm) Greutate: 2.350 g Compoziție textilă: micropolar Această pătură excepțională este fabricată dintr-un material textil micropolar, care oferă o senzație de catifelare și confort extrem. Cu o greutate de 2350g și dimensiunile generoase de 200×230 cm, această pătură este ideală pentru a vă învălui într-un călduros confort. Caracteristicile sale includ o textură tricotată plăcută la atingere și o blăniță moale și luxuriantă care adaugă un plus de căldură și stil. Indiferent dacă vă relaxați pe canapea, citiți o carte în pat sau vă bucurați de o cină la lumina lumânărilor, această pătură vă va învălui într-o îmbrățișare plăcută. Fiind extrem de versatilă, această pătură este un element esențial în orice locuință, fiind potrivită pentru utilizare în camera de zi, dormitor sau chiar în mașină pentru excursii și călătorii. Încântați-vă și bucurați-vă de confortul și căldura pe care o oferă Patura Tricot cu Blăniță în fiecare zi!",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "200 × 230 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-79880/01.webp",
+      "/products/ralex-79880/02.webp",
+      "/products/ralex-79880/03.webp",
+      "/products/ralex-79880/04.webp"
+    ],
+    "image": "/products/ralex-79880/01.webp",
+    "price": 128.7,
+    "inStock": true,
+    "sku": "79880",
+    "material": "Micropolar."
+  },
+  {
+    "id": 79899,
+    "name": "Lenjerie pat finet uni 6 piese (MARO)",
+    "category": "Lenjerii de pat finet uni 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-uni-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-uni-6-piese/lenjerie-pat-finet-uni-6-piese-maro/",
+    "description": "Descriere produs: Cearșaf pat: 240x230 - 1buc Cearșaf pilotă: 230x200 - 1buc Fețe pernă: 50x70 - 2buc Fețe pernă: 70x70 - 2buc Lenjeria de pat din finet uni este o alegere simplă și elegantă pentru dormitorul tău. Finetul este un material moale și plăcut la atingere, se calcă ușor și oferă confort și căldură în timpul somnului. Designul uni, fără imprimeuri sau modele, conferă lenjeriei un aspect clasic și rafinat, potrivindu-se perfect în orice tip de decor. Cu o varietate de culori disponibile, poți alege lenjeria care se potrivește cel mai bine preferințelor tale și culorilor predominante din cameră. Această lenjerie de pat din finet uni este ideală pentru a crea un aspect curat și simplu în dormitorul tău, aducând un plus de eleganță și confort. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 120° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "240 × 230 cm / 230 × 200 cm / 50 × 70 cm / 70 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-79899/01.webp",
+      "/products/ralex-79899/02.webp",
+      "/products/ralex-79899/03.webp",
+      "/products/ralex-79899/04.webp"
+    ],
+    "image": "/products/ralex-79899/01.webp",
+    "price": 197.6,
+    "inStock": true,
+    "sku": "79899",
+    "material": "Compoziție neprecizată de furnizor."
+  },
+  {
+    "id": 80387,
+    "name": "Lenjerie de pat bumbac (RNFN182)",
+    "category": "Lenjerii de pat bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-bumbac/lenjerie-de-pat-bumbac-rnfn182/",
+    "description": "Descriere produs: Compoziție textilă: 70% bumbac, 30%poliester Densitate: 120g/m2 Fetele de pernă cu tiv de 2 cm, închidere cu flep de 25cm Dimensiuni: - Cearșaf pat 240x260cm - Cearșaf pilotă 200x230cm - 2 Fețe pernă: 50x70cm Ambalat în cutie cadou Lenjeria de pat din ranforce este realizată dintr-un amestec de bumbac și poliester, oferind astfel o combinație perfectă între confort și durabilitate. Imprimeurile deosebite adaugă un plus de eleganță și stil dormitorului tău. Această lenjerie este perfectă pentru a crea o atmosferă plăcută și relaxantă în camera ta. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "240 × 260 cm / 200 × 230 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-80387/01.webp",
+      "/products/ralex-80387/02.webp",
+      "/products/ralex-80387/03.webp",
+      "/products/ralex-80387/04.webp"
+    ],
+    "image": "/products/ralex-80387/01.webp",
+    "price": 206.7,
+    "inStock": true,
+    "sku": "80387",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 80394,
+    "name": "Lenjerie de pat bumbac (RNFN189)",
+    "category": "Lenjerii de pat bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-bumbac/lenjerie-de-pat-bumbac-rnfn189/",
+    "description": "Descriere produs: Compoziție textilă: 70% bumbac, 30%poliester Densitate: 120g/m2 Fetele de pernă cu tiv de 2 cm, închidere cu flep de 25cm Dimensiuni: - Cearșaf pat 240x260cm - Cearșaf pilotă 200x230cm - 2 Fețe pernă: 50x70cm Ambalat în cutie cadou Lenjeria de pat din ranforce este realizată dintr-un amestec de bumbac și poliester, oferind astfel o combinație perfectă între confort și durabilitate. Imprimeurile deosebite adaugă un plus de eleganță și stil dormitorului tău. Această lenjerie este perfectă pentru a crea o atmosferă plăcută și relaxantă în camera ta. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "240 × 260 cm / 200 × 230 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-80394/01.webp",
+      "/products/ralex-80394/02.webp",
+      "/products/ralex-80394/03.webp",
+      "/products/ralex-80394/04.webp"
+    ],
+    "image": "/products/ralex-80394/01.webp",
+    "price": 215.8,
+    "inStock": false,
+    "sku": "80394",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 80397,
+    "name": "Lenjerie de pat bumbac (RNFN192)",
+    "category": "Lenjerii de pat bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-bumbac/lenjerie-de-pat-bumbac-rnfn192/",
+    "description": "Descriere produs: Compoziție textilă: 70% bumbac, 30%poliester Densitate: 120g/m2 Fetele de pernă cu tiv de 2 cm, închidere cu flep de 25cm Dimensiuni: - Cearșaf pat 240x260cm - Cearșaf pilotă 200x230cm - 2 Fețe pernă: 50x70cm Ambalat în cutie cadou Lenjeria de pat din ranforce este realizată dintr-un amestec de bumbac și poliester, oferind astfel o combinație perfectă între confort și durabilitate. Imprimeurile deosebite adaugă un plus de eleganță și stil dormitorului tău. Această lenjerie este perfectă pentru a crea o atmosferă plăcută și relaxantă în camera ta. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "240 × 260 cm / 200 × 230 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-80397/01.webp",
+      "/products/ralex-80397/02.webp",
+      "/products/ralex-80397/03.webp",
+      "/products/ralex-80397/04.webp"
+    ],
+    "image": "/products/ralex-80397/01.webp",
+    "price": 215.8,
+    "inStock": false,
+    "sku": "80397",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 80406,
+    "name": "Lenjerie de pat bumbac (RNFN201)",
+    "category": "Lenjerii de pat bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-bumbac/lenjerie-de-pat-bumbac-rnfn201/",
+    "description": "Descriere produs: Compoziție textilă: 70% bumbac, 30%poliester Densitate: 120g/m2 Fetele de pernă cu tiv de 2 cm, închidere cu flep de 25cm Dimensiuni: - Cearșaf pat 240x260cm - Cearșaf pilotă 200x230cm - 2 Fețe pernă: 50x70cm Ambalat în cutie cadou Lenjeria de pat din ranforce este realizată dintr-un amestec de bumbac și poliester, oferind astfel o combinație perfectă între confort și durabilitate. Imprimeurile deosebite adaugă un plus de eleganță și stil dormitorului tău. Această lenjerie este perfectă pentru a crea o atmosferă plăcută și relaxantă în camera ta. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "240 × 260 cm / 200 × 230 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-80406/01.webp",
+      "/products/ralex-80406/02.webp",
+      "/products/ralex-80406/03.webp",
+      "/products/ralex-80406/04.webp"
+    ],
+    "image": "/products/ralex-80406/01.webp",
+    "price": 215.8,
+    "inStock": true,
+    "sku": "80406",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 80411,
+    "name": "Lenjerie de pat bumbac (RNFN206)",
+    "category": "Lenjerii de pat bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-bumbac/lenjerie-de-pat-bumbac-rnfn206/",
+    "description": "Descriere produs: Compoziție textilă: 70% bumbac, 30%poliester Densitate: 120g/m2 Fetele de pernă cu tiv de 2 cm, închidere cu flep de 25cm Dimensiuni: - Cearșaf pat 240x260cm - Cearșaf pilotă 200x230cm - 2 Fețe pernă: 50x70cm Ambalat în cutie cadou Lenjeria de pat din ranforce este realizată dintr-un amestec de bumbac și poliester, oferind astfel o combinație perfectă între confort și durabilitate. Imprimeurile deosebite adaugă un plus de eleganță și stil dormitorului tău. Această lenjerie este perfectă pentru a crea o atmosferă plăcută și relaxantă în camera ta. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "240 × 260 cm / 200 × 230 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-80411/01.webp",
+      "/products/ralex-80411/02.webp",
+      "/products/ralex-80411/03.webp",
+      "/products/ralex-80411/04.webp"
+    ],
+    "image": "/products/ralex-80411/01.webp",
+    "price": 215.8,
+    "inStock": true,
+    "sku": "80411",
+    "material": "70% bumbac, 30% poliester."
+  },
+  {
+    "id": 80412,
+    "name": "Lenjerie de pat bumbac (RNFN207)",
+    "category": "Lenjerii de pat bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "Lei",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-bumbac/lenjerie-de-pat-bumbac-rnfn207/",
+    "description": "Descriere produs: Compoziție textilă: 70% bumbac, 30%poliester Densitate: 120g/m2 Fetele de pernă cu tiv de 2 cm, închidere cu flep de 25cm Dimensiuni: - Cearșaf pat 240x260cm - Cearșaf pilotă 200x230cm - 2 Fețe pernă: 50x70cm Ambalat în cutie cadou Lenjeria de pat din ranforce este realizată dintr-un amestec de bumbac și poliester, oferind astfel o combinație perfectă între confort și durabilitate. Imprimeurile deosebite adaugă un plus de eleganță și stil dormitorului tău. Această lenjerie este perfectă pentru a crea o atmosferă plăcută și relaxantă în camera ta. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 150° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+    "features": [
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "240 × 260 cm / 200 × 230 cm / 50 × 70 cm"
+      }
+    ],
+    "images": [
+      "/products/ralex-80412/01.webp",
+      "/products/ralex-80412/02.webp",
+      "/products/ralex-80412/03.webp",
+      "/products/ralex-80412/04.webp"
+    ],
+    "image": "/products/ralex-80412/01.webp",
+    "price": 215.8,
+    "inStock": true,
+    "sku": "80412",
+    "material": "70% bumbac, 30% poliester."
   }
 ]
