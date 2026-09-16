@@ -32,9 +32,12 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
           {products.length ? `${products.length} produse disponibile.` : "Momentan nu avem produse în această categorie. Colecția va fi completată în curând."}
         </p>
 
-        {children.length ? <nav aria-label="Subcategorii" className="mt-5 flex flex-wrap gap-2">
-          {children.map((category) => <Link key={category.path} href={categoryHref(category.path)} className="rounded-xl border border-[#e5d9c7] bg-white px-4 py-3 text-sm font-medium text-[#3b2d24] hover:border-[#3b2d24]">{category.name} ({categoryCount(category.path)})</Link>)}
-        </nav> : null}
+        {children.length ? <details className="shop-subcategories mt-5">
+          <summary>{active ? "Alege subcategoria" : "Alege categoria"} <span>({children.length})</span></summary>
+          <nav aria-label="Subcategorii" className="flex flex-wrap gap-2 p-3">
+            {children.map((category) => <Link key={category.path} href={categoryHref(category.path)} className="rounded-lg border border-[#e5d9c7] bg-white px-3 py-2 text-sm text-[#3b2d24] hover:border-[#3b2d24]">{category.name} ({categoryCount(category.path)})</Link>)}
+          </nav>
+        </details> : null}
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {products.map((product) => (
             <article

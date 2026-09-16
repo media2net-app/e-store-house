@@ -4,9 +4,9 @@ import Link from "next/link";
 import { useCart } from "@/components/cart/CartProvider";
 
 const shortcuts = [
-  ["Lenjerii 100% bumbac", "lenjerii-de-pat/lenjerii-100-bumbac"],
-  ["Lenjerii Deluxe", "lenjerii-de-pat/lenjeriide-pat-deluxe"],
-  ["Cuverturi", "cuverturi"], ["Perne", "perne"], ["Pilote", "pilote"], ["Articole baie", "articole-baie"], ["Pături", "paturi"],
+  ["Lenjerii de pat", "lenjerii-de-pat"],
+  ["Cuverturi", "cuverturi"], ["Perne", "perne"],
+  ["Saltele & toppere", "saltele-si-toppere"], ["Baie", "articole-baie"],
 ];
 export default function Header() {
   const { totalItems, openCart } = useCart();

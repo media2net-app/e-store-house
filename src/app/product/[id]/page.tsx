@@ -202,7 +202,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               <h3 className="text-lg font-semibold text-[#3b2d24]">Informatii suplimentare</h3>
               <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-[#3b2d24]/85">
                 <li>Produs vandut si livrat de {product.brand || "E-Store House"}.</li>
-                {product.variants ? null : <li>Cod produs: {product.sku || product.id}</li>}
+                {product.variants ? null : product.bundleComponents ? <li>Coduri produse: {product.bundleComponents.map((component) => `${component.sku} (${component.quantity} buc.)`).join(" · ")}</li> : product.sku ? <li>Cod produs: {product.sku}</li> : null}
               </ul>
             </div>
           </div>

@@ -136,3 +136,20 @@ button,a,input { outline-offset:5px; }
 @media (max-width:760px) { .brand-strip { font-size:7px; gap:9px; letter-spacing:.09em; }.header-main { padding:18px 20px; }.wordmark>span { font-size:21px; }.header-links { display:none; }.cart-trigger>span { display:none; }.category-ribbon>a { padding:13px 17px; font-size:10px; }.luxury-hero { grid-template-columns:1fr; padding:40px 24px; gap:25px; }.hero-copy h1 { font-size:51px; }.hero-description { max-width:450px; font-size:13px; }.hero-signature { display:none; }.hero-scene { max-width:460px; width:100%; margin:auto; padding:20px 30px 30px 15px; }.scene-photo { aspect-ratio:1/1; }.scene-seal { top:14%; }.collection-section { padding:40px 20px; }.section-heading { align-items:start; flex-wrap:wrap; }.collection-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }.collection-visual { height:180px; }.collection-caption { padding:14px; }.collection-caption h3 { font-size:21px; }.collection-caption small { font-size:9px; }.round-arrow { width:27px;height:27px;font-size:14px; }.collection-caption p { font-size:9px; }.brand-story { margin-top:45px; grid-template-columns:1fr; gap:35px; padding:35px 28px; }.brand-story h2 { font-size:34px; }.footer-grid { grid-template-columns:1fr 1fr; gap:30px; }.footer-grid>div:first-child { grid-column:1/-1; }.luxury-footer { padding:35px 24px 20px; margin-top:50px; } }
 @media (max-width:430px) { .hero-copy h1 { font-size:43px; }.hero-actions { flex-direction:column; align-items:stretch; }.collection-grid { grid-template-columns:1fr; }.collection-visual { height:220px; }.collection-caption h3 { font-size:26px; }.scene-caption strong { font-size:17px; }.footer-grid { grid-template-columns:1fr; }.footer-bottom { flex-direction:column; gap:8px; } }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { animation:none!important; transition:none!important; }.scene-frame,.collection-card:hover { transform:none!important; } }
+
+/* Compact category navigation, with native keyboard-accessible disclosure. */
+.category-directory { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-top:24px; align-items:start; }
+.category-group { border:1px solid #e5d9c7; border-radius:12px; background:#fffdf8; color:#3b2d24; font-size:15px; }
+.category-group > summary, .category-leaf { padding:15px 18px; font-weight:600; }
+.category-group summary, .shop-subcategories summary { cursor:pointer; }
+.category-group summary span, .category-leaf > span { float:right; margin-left:12px; font-size:12px; font-weight:400; color:#756656; }
+.category-group[open] > summary { border-bottom:1px solid #e5d9c7; }
+.category-children { margin:4px 16px 12px; padding-left:14px; border-left:1px solid #e5d9c7; list-style:none; }
+.category-children li > a, .category-children summary { display:block; padding:8px 0; font-size:13px; }
+.category-children summary { display:list-item; margin-left:14px; }
+.category-children span { color:#756656; }
+.category-view-all { display:inline-block; padding:12px 18px 6px; font-size:12px; color:#765534; text-decoration:underline; text-underline-offset:3px; }
+.category-children a:hover, .category-leaf:hover { color:#92704a; }
+.shop-subcategories { border:1px solid #e5d9c7; border-radius:10px; background:#fffdf8; }
+.shop-subcategories > summary { padding:12px 16px; font-size:14px; color:#3b2d24; }
+@media(max-width:640px) { .category-directory { grid-template-columns:1fr; } .category-group > summary, .category-leaf { padding:13px 14px; } }

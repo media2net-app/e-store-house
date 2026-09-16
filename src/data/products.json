@@ -12121,7 +12121,7 @@
   },
   {
     "id": 94915,
-    "name": "Set 2 perne HoReCa",
+    "name": "Set 4 perne HoReCa — 2 × 50×70 cm + 2 × 70×70 cm",
     "categoryPath": "perne",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
@@ -12136,69 +12136,37 @@
     "features": [
       {
         "label": "Conținut",
-        "value": "2 perne de aceeași dimensiune"
+        "value": "4 perne"
       },
       {
-        "label": "Dimensiuni disponibile",
-        "value": "50 × 70 cm sau 70 × 70 cm"
+        "label": "Dimensiuni",
+        "value": "2 × 50 × 70 cm + 2 × 70 × 70 cm"
       },
       {
         "label": "Material",
         "value": "Percalle 80% bumbac, 20% poliester; umplutură poliester"
       }
     ],
-    "description": "Set de două perne HoReCa. Alege două perne de 50 × 70 cm sau două perne de 70 × 70 cm. Prețul afișat este pentru două bucăți de aceeași dimensiune. Fotografia prezintă ambele dimensiuni; setul ales conține două perne, nu patru. Percalle 80% bumbac, 20% poliester; umplutură poliester.",
+    "description": "Set de patru perne HoReCa: două perne de 50 × 70 cm și două perne de 70 × 70 cm. Prețul afișat este pentru întregul set de patru bucăți. Percalle 80% bumbac, 20% poliester; umplutură poliester.",
     "category": "Perne și protecții pernă",
-    "variants": [
+    "price": 210.6,
+    "inStock": true,
+    "bundleComponents": [
       {
-        "id": 94917,
         "sku": "94917",
-        "name": "Set 2 perne",
-        "dimensions": "50 cm x 70 cm",
-        "price": 93.6,
-        "images": [
-          "/products/perna-horeca/local-36.webp",
-          "/products/perna-horeca/local-37.webp",
-          "/products/perna-horeca/local-38.webp"
-        ],
-        "inStock": true,
-        "contents": "2 perne HoReCa, fiecare de 50 cm x 70 cm. Fotografia prezintă ambele dimensiuni disponibile.",
-        "bundleComponents": [
-          {
-            "sku": "94917",
-            "quantity": 2,
-            "name": "Pernă HoReCa 50 cm x 70 cm"
-          }
-        ]
+        "quantity": 2,
+        "name": "Pernă HoReCa 50 cm x 70 cm"
       },
       {
-        "id": 94918,
         "sku": "94918",
-        "name": "Set 2 perne",
-        "dimensions": "70 cm x 70 cm",
-        "price": 117.0,
-        "images": [
-          "/products/perna-horeca/local-36.webp",
-          "/products/perna-horeca/local-37.webp",
-          "/products/perna-horeca/local-38.webp"
-        ],
-        "inStock": true,
-        "contents": "2 perne HoReCa, fiecare de 70 cm x 70 cm. Fotografia prezintă ambele dimensiuni disponibile.",
-        "bundleComponents": [
-          {
-            "sku": "94918",
-            "quantity": 2,
-            "name": "Pernă HoReCa 70 cm x 70 cm"
-          }
-        ]
+        "quantity": 2,
+        "name": "Pernă HoReCa 70 cm x 70 cm"
       }
-    ],
-    "price": 93.6,
-    "inStock": true
+    ]
   },
   {
     "id": 94906,
-    "name": "Set 2 perne Aloe Vera",
+    "name": "Set 4 perne Aloe Vera — 2 × 50×70 cm + 2 × 70×70 cm",
     "categoryPath": "perne",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
@@ -12212,63 +12180,33 @@
     "features": [
       {
         "label": "Conținut",
-        "value": "2 perne de aceeași dimensiune"
+        "value": "4 perne"
       },
       {
-        "label": "Dimensiuni disponibile",
-        "value": "50 × 70 cm sau 70 × 70 cm"
+        "label": "Dimensiuni",
+        "value": "2 × 50 × 70 cm + 2 × 70 × 70 cm"
       },
       {
         "label": "Material",
         "value": "Microfibră matlasată; umplutură poliester"
       }
     ],
-    "description": "Set de două perne Aloe Vera. Alege două perne de 50 × 70 cm sau două perne de 70 × 70 cm. Prețul afișat este pentru două bucăți de aceeași dimensiune. Fotografia prezintă ambele dimensiuni; setul ales conține două perne, nu patru. Microfibră matlasată; umplutură poliester.",
+    "description": "Set de patru perne Aloe Vera: două perne de 50 × 70 cm și două perne de 70 × 70 cm. Prețul afișat este pentru întregul set de patru bucăți. Microfibră matlasată; umplutură poliester.",
     "category": "Perne și protecții pernă",
-    "variants": [
+    "price": 166.4,
+    "inStock": true,
+    "bundleComponents": [
       {
-        "id": 94910,
         "sku": "94910",
-        "name": "Set 2 perne",
-        "dimensions": "50 cm x 70 cm",
-        "price": 78.0,
-        "images": [
-          "/products/perna-aloe-vera/local-3.webp",
-          "/products/perna-aloe-vera/local-4.webp"
-        ],
-        "inStock": true,
-        "contents": "2 perne Aloe Vera, fiecare de 50 cm x 70 cm. Fotografia prezintă ambele dimensiuni disponibile.",
-        "bundleComponents": [
-          {
-            "sku": "94910",
-            "quantity": 2,
-            "name": "Pernă Aloe Vera 50 cm x 70 cm"
-          }
-        ]
+        "quantity": 2,
+        "name": "Pernă Aloe Vera 50 cm x 70 cm"
       },
       {
-        "id": 94911,
         "sku": "94911",
-        "name": "Set 2 perne",
-        "dimensions": "70 cm x 70 cm",
-        "price": 88.4,
-        "images": [
-          "/products/perna-aloe-vera/local-3.webp",
-          "/products/perna-aloe-vera/local-4.webp"
-        ],
-        "inStock": true,
-        "contents": "2 perne Aloe Vera, fiecare de 70 cm x 70 cm. Fotografia prezintă ambele dimensiuni disponibile.",
-        "bundleComponents": [
-          {
-            "sku": "94911",
-            "quantity": 2,
-            "name": "Pernă Aloe Vera 70 cm x 70 cm"
-          }
-        ]
+        "quantity": 2,
+        "name": "Pernă Aloe Vera 70 cm x 70 cm"
       }
-    ],
-    "price": 78.0,
-    "inStock": true
+    ]
   },
   {
     "id": 159980,
