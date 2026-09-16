@@ -39,7 +39,7 @@ function Gallery({ images, name }: ProductImageGalleryProps) {
               <button
                 key={`${imageUrl}-${index}`}
                 className={`overflow-hidden rounded-lg border ${
-                  index === selectedIndex ? "border-[#251136]" : "border-[#e7def2]"
+                  index === selectedIndex ? "border-[#3b2d24]" : "border-[#e5d9c7]"
                 }`}
                 aria-label={`Vezi imaginea ${index + 1}`}
                 aria-pressed={index === selectedIndex}
@@ -48,7 +48,7 @@ function Gallery({ images, name }: ProductImageGalleryProps) {
                 <img
                   src={imageUrl}
                   alt={`${name} miniatura ${index + 1}`}
-                  className="aspect-square w-full bg-[#f8f5fc] object-contain"
+                  className="aspect-square w-full bg-[#f3ede2] object-contain"
                   loading="lazy"
                 />
               </button>
@@ -60,20 +60,20 @@ function Gallery({ images, name }: ProductImageGalleryProps) {
           <img
             src={galleryImages[selectedIndex]}
             alt={name}
-            className="h-auto max-h-[80vh] w-full rounded-2xl border border-[#e7def2] bg-[#f8f5fc] object-contain"
+            className="h-auto max-h-[80vh] w-full rounded-2xl border border-[#e5d9c7] bg-[#f3ede2] object-contain"
           />
 
           {galleryImages.length > 1 ? (
             <>
               <button
-                className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-white/90 p-2 text-[#251136] shadow transition hover:bg-white"
+                className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-white/90 p-2 text-[#3b2d24] shadow transition hover:bg-white"
                 onClick={prevImage}
                 aria-label="Imaginea anterioara"
               >
                 &#8592;
               </button>
               <button
-                className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-white/90 p-2 text-[#251136] shadow transition hover:bg-white"
+                className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-white/90 p-2 text-[#3b2d24] shadow transition hover:bg-white"
                 onClick={nextImage}
                 aria-label="Imaginea urmatoare"
               >
@@ -90,7 +90,7 @@ function Gallery({ images, name }: ProductImageGalleryProps) {
             <button
               key={`${imageUrl}-${index}`}
               className={`overflow-hidden rounded-lg border ${
-                index === selectedIndex ? "border-[#251136]" : "border-[#e7def2]"
+                index === selectedIndex ? "border-[#3b2d24]" : "border-[#e5d9c7]"
               }`}
               aria-label={`Vezi imaginea ${index + 1}`}
                 aria-pressed={index === selectedIndex}
@@ -99,7 +99,7 @@ function Gallery({ images, name }: ProductImageGalleryProps) {
               <img
                 src={imageUrl}
                 alt={`${name} miniatura ${index + 1}`}
-                className="aspect-square w-full bg-[#f8f5fc] object-contain"
+                className="aspect-square w-full bg-[#f3ede2] object-contain"
                 loading="lazy"
               />
             </button>

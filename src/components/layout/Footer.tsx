@@ -1,32 +1,4 @@
+import Link from "next/link";
 export default function Footer() {
-  return (
-    <footer className="mt-20 bg-[#251136] text-[#f6f2fb]">
-      <div className="mx-auto grid w-full max-w-[1440px] gap-8 px-4 py-10 md:grid-cols-3">
-        <div>
-          <h3 className="font-[family-name:var(--font-playfair)] text-xl font-semibold">
-            E-Store House
-          </h3>
-          <p className="mt-2 text-sm text-[#ede7f5]/90">
-            Magazin online pentru calitate, viteza si servicii.
-          </p>
-        </div>
-        <div>
-          <h4 className="text-sm font-semibold uppercase tracking-wide">Serviciu clienti</h4>
-          <ul className="mt-3 space-y-2 text-sm text-[#ede7f5]/90">
-            <li>Intrebari frecvente</li>
-            <li>Livrare si retur</li>
-            <li>Metode de plata</li>
-          </ul>
-        </div>
-        <div>
-          <h4 className="text-sm font-semibold uppercase tracking-wide">Contact</h4>
-          <ul className="mt-3 space-y-2 text-sm text-[#ede7f5]/90">
-            <li>info@estorehouse.nl</li>
-            <li>+31 (0)20 123 45 67</li>
-            <li>Lun-Vin 09:00 - 17:00</li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-  );
+  return <footer className="luxury-footer" id="contact"><div className="footer-grid"><div><Link href="/" className="wordmark"><span>E-STORE HOUSE</span><small>THE ART OF HOME</small></Link><p>Texturi alese. Momente de tihnă.<br />Un cămin care te reprezintă.</p></div><div><h3>Descoperă</h3><Link href="/shop">Colecția noastră</Link><Link href="/categorii">Toate categoriile</Link><Link href="/#poveste">Universul E-Store House</Link></div><div><h3>Să păstrăm legătura</h3><p>Suntem aici pentru întrebările tale.</p><a href="mailto:estorehouse2025@yahoo.com">estorehouse2025@yahoo.com ↗</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} E-Store House</span><span>Frumusețea începe acasă.</span></div></footer>;
 }

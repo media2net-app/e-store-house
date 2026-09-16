@@ -112,9 +112,9 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
           onClick={(event) => event.stopPropagation()}
         >
             <div className="mb-4 flex items-center justify-between">
-              <h2 className="text-xl font-semibold text-[#251136]">Cosul tau</h2>
+              <h2 className="text-xl font-semibold text-[#3b2d24]">Cosul tau</h2>
               <button
-                className="rounded-full border border-[#251136] px-3 py-1 text-sm text-[#251136]"
+                className="rounded-full border border-[#3b2d24] px-3 py-1 text-sm text-[#3b2d24]"
                 onClick={() => setIsOpen(false)}
               >
                 Inchide
@@ -122,11 +122,11 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
             </div>
 
             {items.length === 0 ? (
-              <p className="text-sm text-[#251136]/70">Cosul este gol.</p>
+              <p className="text-sm text-[#3b2d24]/70">Cosul este gol.</p>
             ) : (
               <div className="space-y-4">
                 {items.map((item) => (
-                  <div key={item.productId} className="rounded-xl border border-[#e7def2] p-3">
+                  <div key={item.productId} className="rounded-xl border border-[#e5d9c7] p-3">
                     <div className="flex gap-3">
                       <img
                         src={item.image}
@@ -134,11 +134,11 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
                         className="h-16 w-16 rounded-md object-cover"
                       />
                       <div className="min-w-0 flex-1">
-                        <p className="line-clamp-2 text-sm font-semibold text-[#251136]">
+                        <p className="line-clamp-2 text-sm font-semibold text-[#3b2d24]">
                           {item.name}
                         </p>
-                        {item.sku ? <p className="mt-1 text-xs text-[#251136]/80">Cod produs: {item.sku}</p> : null}
-                        <p className="mt-1 text-sm text-[#251136]/80">
+                        {item.sku ? <p className="mt-1 text-xs text-[#3b2d24]/80">Cod produs: {item.sku}</p> : null}
+                        <p className="mt-1 text-sm text-[#3b2d24]/80">
                           {formatProductPrice(
                             item.price,
                             item.currency,
@@ -149,21 +149,21 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
                     <div className="mt-3 flex items-center justify-between">
                       <div className="flex items-center gap-2">
                         <button
-                          className="rounded border border-[#251136] px-2"
+                          className="rounded border border-[#3b2d24] px-2"
                           onClick={() => updateQuantity(item.productId, item.quantity - 1)}
                         >
                           -
                         </button>
-                        <span className="text-sm font-semibold text-[#251136]">{item.quantity}</span>
+                        <span className="text-sm font-semibold text-[#3b2d24]">{item.quantity}</span>
                         <button
-                          className="rounded border border-[#251136] px-2"
+                          className="rounded border border-[#3b2d24] px-2"
                           onClick={() => updateQuantity(item.productId, item.quantity + 1)}
                         >
                           +
                         </button>
                       </div>
                       <button
-                        className="text-xs font-semibold text-[#251136]/70 underline"
+                        className="text-xs font-semibold text-[#3b2d24]/70 underline"
                         onClick={() => removeItem(item.productId)}
                       >
                         Sterge
@@ -172,10 +172,10 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
                   </div>
                 ))}
 
-                <div className="rounded-xl bg-[#f6f2fb] p-3">
-                  <p className="text-sm font-semibold text-[#251136]">Subtotal</p>
+                <div className="rounded-xl bg-[#f8f4ec] p-3">
+                  <p className="text-sm font-semibold text-[#3b2d24]">Subtotal</p>
                   {Object.entries(subtotalByCurrency).map(([currency, amount]) => (
-                    <p key={currency} className="text-sm text-[#251136]/85">
+                    <p key={currency} className="text-sm text-[#3b2d24]/85">
                       {formatProductPrice(amount, currency)}
                     </p>
                   ))}

@@ -15,11 +15,11 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "E-Store House - Magazin Online",
+    default: "E-Store House — Arta de a te simți acasă",
     template: "%s | E-Store House",
   },
   description:
-    "Comanda online produse atent selectate de la E-Store House. Livrare rapida si servicii de incredere.",
+    "Descoperă lenjerii din bumbac, Percale și Ranforce Boutique. Texturi fine și nuanțe calde pentru un cămin elegant.",
 };
 
 export default function RootLayout({

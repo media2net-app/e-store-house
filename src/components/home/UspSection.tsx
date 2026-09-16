@@ -1,34 +1,8 @@
-const usps = [
-  {
-    title: "Livrare rapida",
-    text: "Comanda azi si primesti coletul rapid acasa.",
-  },
-  {
-    title: "Calitate premium",
-    text: "Selectam doar produse in care avem incredere.",
-  },
-  {
-    title: "Serviciu personalizat",
-    text: "Echipa noastra te ajuta rapid cu orice intrebare.",
-  },
+const values = [
+  { title: "Texturi de descoperit", text: "Bumbac, percale și ranforce. Alege materialul care îți transformă odihna într-un ritual." },
+  { title: "Spațiul tău, stilul tău", text: "De la nuanțe liniștite la imprimeuri expresive, fiecare dormitor are propria poveste." },
+  { title: "Ales pentru tine", text: "Dimensiuni și variante explicate clar, pentru a găsi setul potrivit casei tale." },
 ];
-
 export default function UspSection() {
-  return (
-    <section className="mx-auto mt-14 w-full max-w-[1440px] px-4">
-      <div className="rounded-3xl bg-[#251136] px-6 py-10 text-white md:px-10">
-        <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold">
-          De ce E-Store House?
-        </h2>
-        <div className="mt-8 grid gap-6 md:grid-cols-3">
-          {usps.map((usp) => (
-            <article key={usp.title}>
-              <h3 className="text-lg font-semibold">{usp.title}</h3>
-              <p className="mt-2 text-sm text-[#ede7f5]">{usp.text}</p>
-            </article>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+  return <section className="brand-story" id="poveste"><div className="story-intro"><p className="eyebrow">FILOSOFIA NOASTRĂ</p><h2>Luxul discret al<br /><em>lucrurilor simple.</em></h2></div><div className="story-values">{values.map((value, index) => <article key={value.title}><span>0{index + 1}</span><div><h3>{value.title}</h3><p>{value.text}</p></div></article>)}</div></section>;
 }

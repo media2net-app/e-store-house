@@ -92,12 +92,12 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
 
   return (
     <ProductSelection key={product.id} variants={product.variants}>
-    <main className="min-h-screen bg-[#f6f2fb]">
+    <main className="min-h-screen bg-[#f8f4ec]">
       <TrustBar />
       <Header />
 
       <section className="mx-auto w-full max-w-[1440px] px-4 py-10">
-        <Link href="/shop" className="text-sm font-semibold text-[#251136] hover:underline">
+        <Link href="/shop" className="text-sm font-semibold text-[#3b2d24] hover:underline">
           ← Inapoi la magazin
         </Link>
 
@@ -106,24 +106,24 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
             <ProductImageGallery images={product.images} name={product.name} />
           </div>
 
-          <div className="rounded-2xl border border-[#e7def2] bg-white p-6">
-            <p className="text-xs font-semibold uppercase tracking-wider text-[#251136]">
+          <div className="rounded-2xl border border-[#e5d9c7] bg-white p-6">
+            <p className="text-xs font-semibold uppercase tracking-wider text-[#3b2d24]">
               {product.brand || "E-Store House"}
             </p>
-            <h1 className="mt-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold text-[#251136]">
+            <h1 className="mt-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold text-[#3b2d24]">
               {product.name}
             </h1>
-            <nav aria-label="Categoria produsului" className="mt-2 flex flex-wrap gap-1 text-sm text-[#251136]/70">
+            <nav aria-label="Categoria produsului" className="mt-2 flex flex-wrap gap-1 text-sm text-[#3b2d24]/70">
               {product.categoryPath ? categoryTrail(product.categoryPath).map((category, index) => <span key={category.path}>{index ? " / " : ""}<Link href={categoryHref(category.path)} className="hover:underline">{category.name}</Link></span>) : product.category}
             </nav>
 
             {product.variants ? <ProductPurchaseActions key={product.id} product={product} /> : (
             <div className="mt-6 flex items-end gap-3">
-              <span className="text-3xl font-bold text-[#251136]">
+              <span className="text-3xl font-bold text-[#3b2d24]">
                 {formatProductPriceRange(product)}
               </span>
               {product.oldPrice ? (
-                <span className="text-lg text-[#251136]/50 line-through">
+                <span className="text-lg text-[#3b2d24]/50 line-through">
                   {formatProductPrice(product.oldPrice, product.currency)}
                 </span>
               ) : null}
@@ -131,7 +131,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
 
             )}
 
-            <div className="mt-6 space-y-2 text-sm text-[#251136]/90">
+            <div className="mt-6 space-y-2 text-sm text-[#3b2d24]/90">
               {product.discount ? <p>Reducere: {product.discount}%</p> : null}
               {product.freeCargo ? <p>Livrare gratuita disponibila</p> : null}
               {product.sameDayShipping ? <p>Expediere in aceeasi zi disponibila</p> : null}
@@ -141,25 +141,25 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
             </div>
 
             <div className="mt-6 grid gap-3 md:grid-cols-2">
-              <div className="rounded-xl border border-[#e7def2] bg-[#faf7fe] p-4">
-                <p className="text-sm font-semibold text-[#251136]">Metode de plata</p>
-                <ul className="mt-2 space-y-1 text-sm text-[#251136]/85">
+              <div className="rounded-xl border border-[#e5d9c7] bg-[#fcf8f0] p-4">
+                <p className="text-sm font-semibold text-[#3b2d24]">Metode de plata</p>
+                <ul className="mt-2 space-y-1 text-sm text-[#3b2d24]/85">
                   <li>Card (Visa / Mastercard)</li>
                   <li>Apple Pay / Google Pay</li>
                   <li>Plata ramburs la livrare</li>
                 </ul>
               </div>
-              <div className="rounded-xl border border-[#e7def2] bg-[#faf7fe] p-4">
-                <p className="text-sm font-semibold text-[#251136]">Livrare estimata</p>
-                <p className="mt-2 text-sm text-[#251136]/85">
+              <div className="rounded-xl border border-[#e5d9c7] bg-[#fcf8f0] p-4">
+                <p className="text-sm font-semibold text-[#3b2d24]">Livrare estimata</p>
+                <p className="mt-2 text-sm text-[#3b2d24]/85">
                   Comanda acum, livrare intre <span className="font-semibold">{deliveryRange}</span>.
                 </p>
               </div>
             </div>
 
-            <div className="mt-6 rounded-xl border border-[#e7def2] bg-white p-4">
-              <p className="text-sm font-semibold text-[#251136]">Caracteristici principale</p>
-              <ul className="mt-2 space-y-1 text-sm text-[#251136]/85">
+            <div className="mt-6 rounded-xl border border-[#e5d9c7] bg-white p-4">
+              <p className="text-sm font-semibold text-[#3b2d24]">Caracteristici principale</p>
+              <ul className="mt-2 space-y-1 text-sm text-[#3b2d24]/85">
                 {highlightedFeatures.map((feature) => (
                   <li key={feature}>- {feature}</li>
                 ))}
@@ -171,7 +171,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
             <div className="mt-4 flex flex-wrap gap-3">
               <Link
                 href="/shop"
-                className="rounded-full bg-[#251136] px-5 py-2 text-sm font-semibold text-white transition hover:bg-[#321747]"
+                className="rounded-full bg-[#3b2d24] px-5 py-2 text-sm font-semibold text-white transition hover:bg-[#6c4e35]"
               >
                 Continua cumparaturile
               </Link>
@@ -179,8 +179,8 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
           </div>
         </div>
 
-        <div className="mt-12 rounded-2xl border border-[#e7def2] bg-white p-6">
-          <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold text-[#251136]">
+        <div className="mt-12 rounded-2xl border border-[#e5d9c7] bg-white p-6">
+          <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold text-[#3b2d24]">
             Detalii produs
           </h2>
 
@@ -189,18 +189,18 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               <img
                 src={product.image}
                 alt={product.name}
-                className="aspect-[2/3] w-28 rounded-xl border border-[#e7def2] bg-[#f8f5fc] object-contain"
+                className="aspect-[2/3] w-28 rounded-xl border border-[#e5d9c7] bg-[#f3ede2] object-contain"
                 loading="lazy"
               />
               <div>
-                <h3 className="text-lg font-semibold text-[#251136]">Descriere produs</h3>
-                <p className="mt-2 text-sm text-[#251136]/85">{productDescription}</p>
+                <h3 className="text-lg font-semibold text-[#3b2d24]">Descriere produs</h3>
+                <p className="mt-2 text-sm text-[#3b2d24]/85">{productDescription}</p>
               </div>
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold text-[#251136]">Informatii suplimentare</h3>
-              <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-[#251136]/85">
+              <h3 className="text-lg font-semibold text-[#3b2d24]">Informatii suplimentare</h3>
+              <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-[#3b2d24]/85">
                 <li>Produs vandut si livrat de {product.brand || "E-Store House"}.</li>
                 {product.variants ? null : <li>Cod produs: {product.sku || product.id}</li>}
               </ul>
@@ -208,27 +208,27 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
           </div>
 
           <div className="mt-8">
-            <h3 className="text-lg font-semibold text-[#251136]">Caracteristici produs</h3>
+            <h3 className="text-lg font-semibold text-[#3b2d24]">Caracteristici produs</h3>
             <div className="mt-3 grid gap-3 md:grid-cols-2 lg:grid-cols-4">
               {productFeatures.map((feature) => (
-                <div key={feature.label} className="rounded-lg bg-[#f7f4fb] p-3">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-[#251136]/70">
+                <div key={feature.label} className="rounded-lg bg-[#f4ecdf] p-3">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-[#3b2d24]/70">
                     {feature.label}
                   </p>
-                  <p className="mt-1 text-sm font-semibold text-[#251136]">{feature.value}</p>
+                  <p className="mt-1 text-sm font-semibold text-[#3b2d24]">{feature.value}</p>
                 </div>
               ))}
             </div>
           </div>
 
           <div className="mt-8 grid gap-4 md:grid-cols-2">
-            <div className="rounded-lg bg-[#f7f4fb] p-4">
-              <h4 className="text-base font-semibold text-[#251136]">Compozitie material</h4>
-              <p className="mt-2 text-sm text-[#251136]/85">{material}</p>
+            <div className="rounded-lg bg-[#f4ecdf] p-4">
+              <h4 className="text-base font-semibold text-[#3b2d24]">Compozitie material</h4>
+              <p className="mt-2 text-sm text-[#3b2d24]/85">{material}</p>
             </div>
-            <div className="rounded-lg bg-[#f7f4fb] p-4">
-              <h4 className="text-base font-semibold text-[#251136]">Instructiuni spalare</h4>
-              <p className="mt-2 text-sm text-[#251136]/85">
+            <div className="rounded-lg bg-[#f4ecdf] p-4">
+              <h4 className="text-base font-semibold text-[#3b2d24]">Instructiuni spalare</h4>
+              <p className="mt-2 text-sm text-[#3b2d24]/85">
                 {product.features ? "Respectați instrucțiunile de pe eticheta produsului." : "Spalare la 40°C, fara inalbitor, uscare normala."}
               </p>
             </div>
@@ -237,30 +237,30 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
 
         {similarProducts.length > 0 ? (
           <div className="mt-12">
-            <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold text-[#251136]">
+            <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold text-[#3b2d24]">
               Produse similare
             </h2>
             <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {similarProducts.map((item) => (
                 <article
                   key={item.id}
-                  className="rounded-2xl border border-[#e7def2] bg-white p-4 transition hover:shadow-md"
+                  className="product-tile rounded-2xl border border-[#e5d9c7] bg-white p-4 transition hover:shadow-md"
                 >
                   <img
                     src={item.image}
                     alt={item.name}
-                    className="aspect-[2/3] w-full rounded-xl bg-[#f8f5fc] object-contain"
+                    className="aspect-[2/3] w-full rounded-xl bg-[#f3ede2] object-contain"
                     loading="lazy"
                   />
-                  <h3 className="title-2-lines mt-3 text-sm font-semibold text-[#251136]">
+                  <h3 className="title-2-lines mt-3 text-sm font-semibold text-[#3b2d24]">
                     {item.name}
                   </h3>
-                  <p className="mt-2 text-sm font-bold text-[#251136]">
+                  <p className="mt-2 text-sm font-bold text-[#3b2d24]">
                     {formatProductPriceRange(item)}
                   </p>
                   <Link
                     href={`/product/${item.id}`}
-                    className="mt-3 block rounded-full bg-[#251136] px-4 py-2 text-center text-sm font-semibold text-white transition hover:bg-[#321747]"
+                    className="mt-3 block rounded-full bg-[#3b2d24] px-4 py-2 text-center text-sm font-semibold text-white transition hover:bg-[#6c4e35]"
                   >
                     Vezi produsul
                   </Link>

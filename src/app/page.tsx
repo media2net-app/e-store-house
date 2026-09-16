@@ -8,7 +8,7 @@ import TrustBar from "@/components/layout/TrustBar";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#f6f2fb]/40">
+    <main className="min-h-screen bg-[#f8f4ec]/40">
       <TrustBar />
       <Header />
       <Hero />
