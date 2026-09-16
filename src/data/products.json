@@ -14782,7 +14782,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -14817,7 +14817,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -14852,7 +14852,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -14887,7 +14887,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -14922,7 +14922,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -14957,7 +14957,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -14992,7 +14992,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -15027,7 +15027,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -15062,7 +15062,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -15097,7 +15097,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -15132,7 +15132,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -15167,7 +15167,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -15202,7 +15202,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -15237,7 +15237,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -15272,7 +15272,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -15307,7 +15307,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -15342,7 +15342,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -15368,7 +15368,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -15407,11 +15407,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106462/Elvo-106462-01-corectat.webp",
+          "/products/elvo-106462/Elvo-106462-02-corectat.webp",
           "/products/elvo-106462/Elvo-106462-04.webp",
           "/products/elvo-106462/Elvo-106462-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -15436,7 +15438,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -15475,11 +15477,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106495/Elvo-106495-01-corectat.webp",
+          "/products/elvo-106495/Elvo-106495-02-corectat.webp",
           "/products/elvo-106495/Elvo-106495-04.webp",
           "/products/elvo-106495/Elvo-106495-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -15504,7 +15508,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -15543,11 +15547,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106446/Elvo-106446-01-corectat.webp",
+          "/products/elvo-106446/Elvo-106446-02-corectat.webp",
           "/products/elvo-106446/Elvo-106446-04.webp",
           "/products/elvo-106446/Elvo-106446-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -15572,7 +15578,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -15611,11 +15617,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106486/Elvo-106486-01-corectat.webp",
+          "/products/elvo-106486/Elvo-106486-02-corectat.webp",
           "/products/elvo-106486/Elvo-106486-04.webp",
           "/products/elvo-106486/Elvo-106486-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -15640,7 +15648,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -15679,11 +15687,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106489/Elvo-106489-01-corectat.webp",
+          "/products/elvo-106489/Elvo-106489-02-corectat.webp",
           "/products/elvo-106489/Elvo-106489-04.webp",
           "/products/elvo-106489/Elvo-106489-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -15708,7 +15718,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -15747,11 +15757,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106501/Elvo-106501-01-corectat.webp",
+          "/products/elvo-106501/Elvo-106501-02-corectat.webp",
           "/products/elvo-106501/Elvo-106501-04.webp",
           "/products/elvo-106501/Elvo-106501-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -15776,7 +15788,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -15815,11 +15827,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106452/Elvo-106452-01-corectat.webp",
+          "/products/elvo-106452/Elvo-106452-02-corectat.webp",
           "/products/elvo-106452/Elvo-106452-04.webp",
           "/products/elvo-106452/Elvo-106452-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -15844,7 +15858,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -15883,11 +15897,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106458/Elvo-106458-01-corectat.webp",
+          "/products/elvo-106458/Elvo-106458-02-corectat.webp",
           "/products/elvo-106458/Elvo-106458-04.webp",
           "/products/elvo-106458/Elvo-106458-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -15912,7 +15928,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -15951,11 +15967,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106480/Elvo-106480-01-corectat.webp",
+          "/products/elvo-106480/Elvo-106480-02-corectat.webp",
           "/products/elvo-106480/Elvo-106480-04.webp",
           "/products/elvo-106480/Elvo-106480-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -15980,7 +15998,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -16019,11 +16037,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106455/Elvo-106455-01-corectat.webp",
+          "/products/elvo-106455/Elvo-106455-02-corectat.webp",
           "/products/elvo-106455/Elvo-106455-04.webp",
           "/products/elvo-106455/Elvo-106455-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -16048,7 +16068,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -16087,11 +16107,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106440/Elvo-106440-01-corectat.webp",
+          "/products/elvo-106440/Elvo-106440-02-corectat.webp",
           "/products/elvo-106440/Elvo-106440-04.webp",
           "/products/elvo-106440/Elvo-106440-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -16116,7 +16138,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -16155,11 +16177,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106430/Elvo-106430-01-corectat.webp",
+          "/products/elvo-106430/Elvo-106430-02-corectat.webp",
           "/products/elvo-106430/Elvo-106430-04.webp",
           "/products/elvo-106430/Elvo-106430-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -16184,7 +16208,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -16223,11 +16247,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106434/Elvo-106434-01-corectat.webp",
+          "/products/elvo-106434/Elvo-106434-02-corectat.webp",
           "/products/elvo-106434/Elvo-106434-04.webp",
           "/products/elvo-106434/Elvo-106434-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -16252,7 +16278,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -16291,11 +16317,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106437/Elvo-106437-01-corectat.webp",
+          "/products/elvo-106437/Elvo-106437-02-corectat.webp",
           "/products/elvo-106437/Elvo-106437-04.webp",
           "/products/elvo-106437/Elvo-106437-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -16320,7 +16348,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -16359,11 +16387,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106492/Elvo-106492-01-corectat.webp",
+          "/products/elvo-106492/Elvo-106492-02-corectat.webp",
           "/products/elvo-106492/Elvo-106492-04.webp",
           "/products/elvo-106492/Elvo-106492-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -16388,7 +16418,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -16427,11 +16457,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106471/Elvo-106471-01-corectat.webp",
+          "/products/elvo-106471/Elvo-106471-02-corectat.webp",
           "/products/elvo-106471/Elvo-106471-04.webp",
           "/products/elvo-106471/Elvo-106471-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -16456,7 +16488,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -16495,11 +16527,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106443/Elvo-106443-01-corectat.webp",
+          "/products/elvo-106443/Elvo-106443-02-corectat.webp",
           "/products/elvo-106443/Elvo-106443-04.webp",
           "/products/elvo-106443/Elvo-106443-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -16524,7 +16558,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -16563,11 +16597,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106449/Elvo-106449-01-corectat.webp",
+          "/products/elvo-106449/Elvo-106449-02-corectat.webp",
           "/products/elvo-106449/Elvo-106449-04.webp",
           "/products/elvo-106449/Elvo-106449-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -16592,7 +16628,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -16631,11 +16667,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106483/Elvo-106483-01-corectat.webp",
+          "/products/elvo-106483/Elvo-106483-02-corectat.webp",
           "/products/elvo-106483/Elvo-106483-04.webp",
           "/products/elvo-106483/Elvo-106483-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -16660,7 +16698,7 @@
     "features": [
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       },
       {
         "label": "Cearșaf de pilotă",
@@ -16699,11 +16737,13 @@
         "dimensions": "Cearșaf 230 × 250 cm",
         "price": 117,
         "images": [
+          "/products/elvo-106474/Elvo-106474-01-corectat.webp",
+          "/products/elvo-106474/Elvo-106474-02-corectat.webp",
           "/products/elvo-106474/Elvo-106474-04.webp",
           "/products/elvo-106474/Elvo-106474-03.webp"
         ],
         "inStock": true,
-        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot."
+        "contents": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C."
       }
     ]
   },
@@ -16737,7 +16777,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -16772,7 +16812,7 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
       }
     ],
     "inStock": true
@@ -16786,14 +16826,16 @@
     "brand": "Elvo",
     "price": 117,
     "currency": "RON",
-    "image": "/products/elvo-106465/Elvo-106465-04.webp",
+    "image": "/products/elvo-106465/Elvo-106465-01-corectat.webp",
     "images": [
+      "/products/elvo-106465/Elvo-106465-01-corectat.webp",
+      "/products/elvo-106465/Elvo-106465-02-corectat.webp",
       "/products/elvo-106465/Elvo-106465-04.webp",
       "/products/elvo-106465/Elvo-106465-03.webp"
     ],
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-elvo/lenjerie-de-pat-elvo-economy-6-piese-lee12/",
     "material": "Microfibră / policoton, în funcție de lot",
-    "description": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot.",
+    "description": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C.",
     "features": [
       {
         "label": "Conținut set",
@@ -16805,7 +16847,11 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
+      },
+      {
+        "label": "Întreținere",
+        "value": "Spălare la mașină la 30–40°C"
       }
     ],
     "inStock": true
@@ -16819,14 +16865,16 @@
     "brand": "Elvo",
     "price": 117,
     "currency": "RON",
-    "image": "/products/elvo-106468/Elvo-106468-04.webp",
+    "image": "/products/elvo-106468/Elvo-106468-01-corectat.webp",
     "images": [
+      "/products/elvo-106468/Elvo-106468-01-corectat.webp",
+      "/products/elvo-106468/Elvo-106468-02-corectat.webp",
       "/products/elvo-106468/Elvo-106468-04.webp",
       "/products/elvo-106468/Elvo-106468-03.webp"
     ],
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-elvo/lenjerie-de-pat-elvo-economy-6-piese-lee13/",
     "material": "Microfibră / policoton, în funcție de lot",
-    "description": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot.",
+    "description": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C.",
     "features": [
       {
         "label": "Conținut set",
@@ -16838,7 +16886,11 @@
       },
       {
         "label": "Cearșaf de pat",
-        "value": "230 × 250 cm, fără elastic"
+        "value": "230 × 250 cm"
+      },
+      {
+        "label": "Întreținere",
+        "value": "Spălare la mașină la 30–40°C"
       }
     ],
     "inStock": true
