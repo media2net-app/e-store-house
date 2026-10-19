@@ -9,6 +9,13 @@ type ProductPurchaseActionsProps = {
   product: Product;
 };
 
+const variantLabel = (variant: NonNullable<Product["variants"]>[number]) => {
+  const compact = (value: string) => value.replace(/\s/g, "").replace(/×/g, "x").toLowerCase();
+  return variant.dimensions && !compact(variant.name).includes(compact(variant.dimensions))
+    ? `${variant.name} — ${variant.dimensions}`
+    : variant.name;
+};
+
 export default function ProductPurchaseActions({ product }: ProductPurchaseActionsProps) {
   const [quantity, setQuantity] = useState(1);
   const { addItem } = useCart();
@@ -18,7 +25,7 @@ export default function ProductPurchaseActions({ product }: ProductPurchaseActio
     ...product, id: selected.id, price: selected.price, sku: selected.sku,
     bundleComponents: selected.bundleComponents ?? product.bundleComponents,
     image: selected.images?.[0] ?? product.image,
-    name: `${product.name} — ${selected.name} (${selected.dimensions})`,
+    name: `${product.name} — ${variantLabel(selected)}`,
   } : product;
 
   return (
@@ -36,7 +43,7 @@ export default function ProductPurchaseActions({ product }: ProductPurchaseActio
                   <input type="radio" name={`size-${product.id}`} value={variant.id}
                     checked={selected?.id === variant.id} onChange={() => selection?.select(variant.id)}
                     className="mr-2 accent-[#92704a]" />
-                  {variant.name} — {variant.dimensions}
+                  {variantLabel(variant)}
                 </label>
               ))}
             </div>

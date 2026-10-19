@@ -478,5 +478,23 @@
     "name": "Oferte",
     "parent": null,
     "sourceUrl": "https://ralexpucioasa.ro/categorie-produs/oferte/"
+  },
+  {
+    "path": "huse-de-pat/huse-pat-jerse-100",
+    "name": "Huse pat jerse / tricot 100% bumbac",
+    "parent": "huse-de-pat",
+    "sourceUrl": "https://ralexpucioasa.ro/categorie-produs/huse-de-pat/huse-pat-jerse-100/"
+  },
+  {
+    "path": "pilote/pilote-pufoase-matlasate",
+    "name": "Pilote pufoase matlasate",
+    "parent": "pilote",
+    "sourceUrl": "https://ralexpucioasa.ro/categorie-produs/pilote/pilote-pufoase-matlasate/"
+  },
+  {
+    "path": "pilote/pilote-finet",
+    "name": "Pilote finet",
+    "parent": "pilote",
+    "sourceUrl": "https://ralexpucioasa.ro/categorie-produs/pilote/pilote-finet/"
   }
 ]

@@ -19,11 +19,6 @@ type ProductDetailPageProps = {
   params: Promise<{ id: string }>;
 };
 
-const getFirstMatch = (text: string, regex: RegExp) => {
-  const match = text.match(regex);
-  return match?.[0];
-};
-
 export default async function ProductDetailPage({ params }: ProductDetailPageProps) {
   const { id } = await params;
   const productId = Number(id);
@@ -42,48 +37,13 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
     .filter((item) => item.id !== product.id && item.brand === product.brand)
     .slice(0, 4);
 
-  const highlightedFeatures = product.features ? product.features.slice(0, 4).map((feature) => `${feature.label}: ${feature.value}`) : [
-    product.brand ? `Brand: ${product.brand}` : "Brand verificat",
-    "Material premium si finisaje de calitate",
-    product.freeCargo ? "Livrare gratuita disponibila" : "Livrare rapida disponibila",
-    product.sameDayShipping ? "Expediere in aceeasi zi" : "Procesare comanda in 24h",
-  ];
-
-  const titleLower = product.name.toLowerCase();
-  const sizeMatch = getFirstMatch(product.name, /\d{2,3}x\d{2,3}(x\d{2})?/i);
-  const piecesMatch = getFirstMatch(product.name, /\d+\s*piese/i);
-  const material = product.material ?? (
-    titleLower.includes("100% bumbac") || titleLower.includes("ranforce")
-      ? "100% bumbac ranforce"
-      : "Bumbac premium");
-  const pattern = titleLower.includes("geometric")
-    ? "Model geometric"
-    : titleLower.includes("floral") || titleLower.includes("lalea")
-      ? "Model floral"
-      : "Model imprimat";
-  const color = titleLower.includes("blue") || titleLower.includes("albastru")
-    ? "Albastru"
-    : titleLower.includes("green") || titleLower.includes("verde")
-      ? "Verde"
-      : titleLower.includes("bej") || titleLower.includes("beige")
-        ? "Bej"
-        : "Multicolor";
-  const setContents = piecesMatch ? piecesMatch : "Set complet pat";
-  const measurements = sizeMatch ? sizeMatch.replace(/x/gi, " x ") : "180 x 200";
-  const productDescription = product.description ?? `${product.name}. Material premium, placut la atingere, potrivit pentru utilizare zilnica. ${
-    sizeMatch ? `Dimensiune principala: ${measurements}. ` : ""
-  }${piecesMatch ? `Setul include ${piecesMatch}.` : ""}`;
-
   const productFeatures = product.features ?? [
-    { label: "Culoare", value: color },
-    { label: "Model", value: pattern },
-    { label: "Material", value: material },
-    { label: "Tip cearsaf", value: "Cearsaf cu elastic" },
-    { label: "Dimensiuni", value: measurements },
-    { label: "Continut pachet", value: setContents },
-    { label: "Brand", value: product.brand || "E-Store House" },
-    { label: "Livrare", value: product.freeCargo ? "Livrare gratuita" : "Standard" },
+    ...(product.brand ? [{ label: "Brand", value: product.brand }] : []),
+    ...(product.material ? [{ label: "Material", value: product.material }] : []),
   ];
+  const highlightedFeatures = productFeatures.slice(0, 4).map((feature) => `${feature.label}: ${feature.value}`);
+  const material = product.material;
+  const productDescription = product.description ?? product.name;
 
   return (
     <ProductSelection key={product.id} variants={product.variants}>
@@ -129,7 +89,6 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
 
             <div className="mt-6 space-y-2 text-sm text-[#3b2d24]/90">
               {product.discount ? <p>Reducere: {product.discount}%</p> : null}
-              {product.freeCargo ? <p>Livrare gratuita disponibila</p> : null}
               {product.sameDayShipping ? <p>Expediere in aceeasi zi disponibila</p> : null}
               {product.hasFastDeliveryTag ? <p>Livrare rapidă disponibilă</p> : null}
               {product.hasFlashSaleTag ? <p>Produs in promotie flash</p> : null}
@@ -145,7 +104,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               <div className="rounded-xl border border-[#e5d9c7] bg-[#fcf8f0] p-4">
                 <p className="text-sm font-semibold text-[#3b2d24]">Livrare E-Store House</p>
                 <p className="mt-2 text-sm text-[#3b2d24]/85">
-                  Livrarea este gestionată de E-Store House. Termenul și costul livrării se confirmă la preluarea comenzii.
+                  Transportul este plătit separat de client. Livrarea este gestionată de E-Store House; costul și termenul se confirmă la preluarea comenzii.
                 </p>
               </div>
             </div>
@@ -187,7 +146,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               />
               <div>
                 <h3 className="text-lg font-semibold text-[#3b2d24]">Descriere produs</h3>
-                <p className="mt-2 text-sm text-[#3b2d24]/85">{productDescription}</p>
+                <p className="mt-2 whitespace-pre-line text-sm text-[#3b2d24]/85">{productDescription}</p>
               </div>
             </div>
 
@@ -215,14 +174,14 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
           </div>
 
           <div className="mt-8 grid gap-4 md:grid-cols-2">
-            <div className="rounded-lg bg-[#f4ecdf] p-4">
-              <h4 className="text-base font-semibold text-[#3b2d24]">Compozitie material</h4>
+            {material ? <div className="rounded-lg bg-[#f4ecdf] p-4">
+              <h4 className="text-base font-semibold text-[#3b2d24]">Compoziție material</h4>
               <p className="mt-2 text-sm text-[#3b2d24]/85">{material}</p>
-            </div>
+            </div> : null}
             <div className="rounded-lg bg-[#f4ecdf] p-4">
               <h4 className="text-base font-semibold text-[#3b2d24]">Instructiuni spalare</h4>
               <p className="mt-2 text-sm text-[#3b2d24]/85">
-                {product.features ? "Respectați instrucțiunile de pe eticheta produsului." : "Spalare la 40°C, fara inalbitor, uscare normala."}
+                Respectați instrucțiunile de pe eticheta produsului.
               </p>
             </div>
           </div>
