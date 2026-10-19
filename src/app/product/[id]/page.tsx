@@ -1,3 +1,5 @@
+import ProductCard from "@/components/product/ProductCard";
+import { recommendations } from "@/lib/discovery";
 import CatalogLayout from "@/components/layout/CatalogLayout";
 import { categoryHref, categoryTrail } from "@/lib/categories";
 import { ProductSelection } from "@/components/product/ProductSelection";
@@ -33,9 +35,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
     notFound();
   }
 
-  const similarProducts = allProducts
-    .filter((item) => item.id !== product.id && item.brand === product.brand)
-    .slice(0, 4);
+  const { similar, complementary, hasCompanions } = recommendations(product, allProducts);
 
   const productFeatures = product.features ?? [
     ...(product.brand ? [{ label: "Brand", value: product.brand }] : []),
@@ -137,7 +137,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
           </h2>
 
           <div className="mt-5 grid gap-6 lg:grid-cols-2">
-            <div className="flex gap-4">
+            <div className="product-description-layout flex gap-4">
               <img
                 src={product.image}
                 alt={product.name}
@@ -187,40 +187,18 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
           </div>
         </div>
 
-        {similarProducts.length > 0 ? (
-          <div className="mt-12">
-            <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold text-[#3b2d24]">
-              Produse similare
-            </h2>
-            <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              {similarProducts.map((item) => (
-                <article
-                  key={item.id}
-                  className="product-tile rounded-2xl border border-[#e5d9c7] bg-white p-4 transition hover:shadow-md"
-                >
-                  <img
-                    src={item.image}
-                    alt={item.name}
-                    className="aspect-[2/3] w-full rounded-xl bg-[#f3ede2] object-contain"
-                    loading="lazy"
-                  />
-                  <h3 className="title-2-lines mt-3 text-sm font-semibold text-[#3b2d24]">
-                    {item.name}
-                  </h3>
-                  <p className="mt-2 text-sm font-bold text-[#3b2d24]">
-                    {formatProductPriceRange(item)}
-                  </p>
-                  <Link
-                    href={`/product/${item.id}`}
-                    className="mt-3 block rounded-full bg-[#3b2d24] px-4 py-2 text-center text-sm font-semibold text-white transition hover:bg-[#6c4e35]"
-                  >
-                    Vezi produsul
-                  </Link>
-                </article>
-              ))}
-            </div>
-          </div>
-        ) : null}
+        {similar.length > 0 ? <section className="recommendation-section">
+          <p className="eyebrow">COMPARĂ ȘI ALEGE</p>
+          <h2>Produse similare</h2>
+          <p className="recommendation-intro">Alte modele din aceeași categorie, ordonate după colecție, material și apropierea de preț.</p>
+          <div className="products-grid">{similar.map((item) => <ProductCard key={item.id} product={item} />)}</div>
+        </section> : null}
+        {complementary.length > 0 ? <section className="recommendation-section">
+          <p className="eyebrow">COMPLETEAZĂ-ȚI SELECȚIA</p>
+          <h2>{hasCompanions ? "Completează confortul casei" : "Descoperă și alte colecții"}</h2>
+          <p className="recommendation-intro">{hasCompanions ? "Produse din categorii complementare. Verifică dimensiunile și nuanțele pentru combinația dorită." : "O selecție din celelalte categorii, pentru mai multă inspirație."}</p>
+          <div className="products-grid">{complementary.map((item) => <ProductCard key={item.id} product={item} />)}</div>
+        </section> : null}
       </section>
 
       </CatalogLayout>

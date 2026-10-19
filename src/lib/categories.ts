@@ -4,7 +4,7 @@ import { allProducts, type Product } from "@/lib/products";
 export const categories = categoryData;
 export type Category = (typeof categories)[number];
 export const getCategory = (path: string) => categories.find((category) => category.path === path);
-export const getCategoryChildren = (path: string | null) => categories.filter((category) => category.parent === path);
+export const getCategoryChildren = (path: string | null) => categories.filter((category) => category.parent === path && categoryCount(category.path) > 0);
 export const categoryHref = (path: string) => `/shop?categorie=${encodeURIComponent(path)}`;
 export const isInCategory = (product: Product, path: string) =>
   product.categoryPath === path || product.categoryPath?.startsWith(`${path}/`) === true;

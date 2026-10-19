@@ -183,3 +183,70 @@ button,a,input { outline-offset:5px; }
 .category-sidebar :focus-visible { outline:2px solid #92704a; outline-offset:-2px; border-radius:4px; }
 @media(min-width:1024px) { .catalog-content .luxury-hero { padding:32px 20px 50px; gap:20px; }.catalog-content .hero-copy h1 { font-size:clamp(40px,4vw,64px); }.catalog-content .collection-section { padding:40px 20px; } }
 @media(max-width:1023px) { .catalog-layout { display:block; padding:16px; }.category-sidebar { position:static; margin-bottom:16px; }.sidebar-heading { display:none; }.sidebar-mobile-toggle { display:flex; justify-content:space-between; width:100%; padding:16px; background:var(--ink); color:var(--paper); font-size:14px; cursor:pointer; }.sidebar-navigation { display:none; max-height:none; }.sidebar-navigation.mobile-open { display:block; } }
+
+/* Mobile-first storefront: explicit category disclosure and compact product cards. */
+.header-search { display:flex; max-width:720px; margin:0 auto 14px; padding:0 20px; }
+.header-search input { min-width:0; flex:1; border:1px solid var(--line); border-right:0; border-radius:10px 0 0 10px; background:#f6f1e9; padding:11px 14px; font-size:16px; }
+.header-search button { display:grid; place-items:center; width:48px; min-height:46px; border:1px solid var(--line); border-left:0; border-radius:0 10px 10px 0; background:#f6f1e9; cursor:pointer; }
+.catalog-layout { display:block; max-width:1440px; padding:20px 24px; }
+.category-sidebar { position:static; margin-bottom:8px; border-radius:12px; box-shadow:none; }
+.sidebar-heading { display:none; }
+.sidebar-mobile-toggle { display:flex; align-items:center; justify-content:space-between; gap:16px; width:100%; min-height:50px; padding:14px 18px; background:var(--paper); color:var(--ink); font-size:14px; font-weight:600; text-align:left; cursor:pointer; }
+.sidebar-navigation { display:none; max-height:none; padding:4px 12px 12px; border-top:1px solid var(--line); }
+.sidebar-navigation.mobile-open { display:block; }
+.sidebar-row>a,.sidebar-category,.sidebar-panel .sidebar-row>a,.sidebar-panel .sidebar-category,.sidebar-view-all { min-height:44px; font-size:14px; }
+.sidebar-all { min-height:44px; }
+.products-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:20px; }
+.catalog-card { min-width:0; overflow:hidden; border:1px solid var(--line); border-radius:14px; background:var(--paper); }
+.catalog-card-link { display:flex; flex-direction:column; height:100%; }
+.catalog-card-image { position:relative; flex-shrink:0; aspect-ratio:1/1; padding:8px; background:#f2ece2; }
+.catalog-card-image img { position:absolute; inset:0; display:block; width:100%; height:100%; padding:8px; object-fit:contain; }
+.catalog-card-copy { display:flex; flex:1; flex-direction:column; padding:14px; }
+.catalog-card-category { font-size:10px; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.catalog-card h3 { display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3; overflow:hidden; font-size:14px; line-height:1.5; font-weight:500; margin:7px 0 12px; }
+.catalog-card-price { margin-top:auto; font-size:16px; font-weight:650; overflow-wrap:anywhere; }
+.catalog-card-action { display:flex; justify-content:space-between; align-items:center; gap:8px; margin-top:12px; min-height:44px; border-top:1px solid var(--line); font-size:12px; }
+.catalog-card-link:hover .catalog-card-action { color:var(--bronze); }
+.recommendation-section { margin:48px auto 0; max-width:1440px; }
+.recommendation-section h2 { font-family:var(--font-playfair),Georgia,serif; font-size:32px; line-height:1.2; margin-top:8px; }
+.recommendation-intro { color:var(--muted); font-size:14px; line-height:1.7; max-width:650px; margin:12px 0 24px; }
+.category-directory { gap:12px; }
+.category-group { border-radius:12px; }
+@media(min-width:900px) { .sidebar-navigation>ul { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:4px 20px; align-items:start; } }
+@media(max-width:900px) { .products-grid { grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; } }
+@media(max-width:600px) {
+  .header-main { padding:12px 16px; gap:12px; }
+  .wordmark>span { font-size:20px; }
+  .wordmark small { font-size:7px; margin-top:4px; }
+  .header-search { margin-bottom:10px; padding:0 12px; }
+  .header-search input { font-size:16px; padding:10px 12px; }
+  .cart-trigger { min-height:44px; min-width:44px; }
+  .catalog-layout { padding:12px; }
+  .catalog-content>section { padding-left:0; padding-right:0; padding-top:24px; }
+  .catalog-content h1 { font-size:29px; line-height:1.2; overflow-wrap:anywhere; }
+  .products-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+  .catalog-card { border-radius:10px; }
+  .catalog-card-copy { padding:10px; }
+  .catalog-card h3 { font-size:13px; margin:6px 0 10px; }
+  .catalog-card-price { font-size:14px; }
+  .catalog-card-action { font-size:11px; margin-top:8px; }
+  .recommendation-section { margin-top:36px; }
+  .recommendation-section h2 { font-size:27px; }
+  .recommendation-intro { font-size:13px; margin-bottom:18px; }
+  .catalog-content form[role="search"] label { min-width:0; width:100%; }
+  .catalog-content form[role="search"] input,.catalog-content form[role="search"] select { width:100%; font-size:16px; }
+  .catalog-content nav[aria-label="Pagini catalog"] { gap:8px; font-size:12px; }
+  .catalog-content nav[aria-label="Pagini catalog"] a { padding:12px; }
+  .product-description-layout { flex-direction:column; }
+  .product-description-layout>img { display:none; }
+  .catalog-content .p-6 { padding:16px; }
+  .collection-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+  .collection-visual { height:auto; aspect-ratio:1/1; }
+  .collection-caption { padding:12px; }
+  .collection-caption h3 { font-size:19px; }
+  .collection-caption small,.collection-caption .round-arrow,.collection-number { display:none; }
+  .collection-caption p { font-size:11px; }
+  .luxury-hero { padding:24px 12px; }
+}
+.catalog-sort select { font-size:16px; max-width:100%; }
+@media(max-width:600px) { .catalog-sort { gap:10px; }.catalog-sort label { min-width:0; flex:1; }.catalog-sort select { width:100%; padding:12px; }.catalog-sort button { min-height:48px; } }

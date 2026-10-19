@@ -1,3 +1,4 @@
+import qualityHold from "@/data/quality-hold.json";
 import productsData from "@/data/products.json";
 
 export type Product = {
@@ -28,7 +29,7 @@ export type Product = {
   tag?: string;
 };
 
-export const allProducts: Product[] = productsData as Product[];
+export const allProducts: Product[] = (productsData as Product[]).filter((product) => !qualityHold.includes(product.id));
 export const featuredProducts: Product[] = [
   ...allProducts.filter((product) => product.categoryPath?.endsWith("/lenjerii-percale-imprimat")).slice(0, 4),
   ...allProducts.filter((product) => product.categoryPath?.endsWith("/lenjerii-de-pat-ranforce-butique")).slice(0, 4),

@@ -13,7 +13,7 @@ export default function CategoryGrid() {
   return <section className="collection-section" id="colectii">
     <div className="section-heading"><div><p className="eyebrow">ALEGE-ȚI STAREA DE BINE</p><h2>Un univers de <em>texturi.</em></h2></div><Link href="/categorii" className="text-link">Toate categoriile <span aria-hidden="true">↗</span></Link></div>
     <div className="collection-grid">
-      {collections.map((category, index) => <Link href={categoryHref(category.path)} key={category.path} className={`collection-card ${category.image ? "with-photo" : "with-sculpture"}`}>
+      {collections.filter((category) => categoryCount(category.path) > 0).map((category, index) => <Link href={categoryHref(category.path)} key={category.path} className={`collection-card ${category.image ? "with-photo" : "with-sculpture"}`}>
         <div className="collection-visual">
           {category.image ? <img src={category.image} alt={category.name} loading="lazy" /> : <div className={`textile-sculpture ${category.kind}`} aria-hidden="true"><i /><i /><i /></div>}
           <span className="collection-number">0{index + 1}</span>

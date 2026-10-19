@@ -7,7 +7,7 @@ export default function CatalogLayout({ children, activePath }: {
 }) {
   const items = categories.map(({ path, name, parent }) => ({
     path, name, parent, count: categoryCount(path),
-  }));
+  })).filter((category) => category.count > 0);
   return <div className="catalog-layout">
     <CategorySidebar key={activePath ?? "all"} items={items} activePath={activePath} />
     <div className="catalog-content">{children}</div>
