@@ -23,9 +23,9 @@ export default function CategoriesPage() {
   return <main className="min-h-screen bg-[#f8f4ec]">
     <TrustBar /><Header />
       <CatalogLayout showSidebar={false}>
-    <section className="mx-auto max-w-[1440px] px-4 py-10">
-      <h1 className="font-[family-name:var(--font-playfair)] text-4xl font-semibold text-[#3b2d24]">Categorii de produse și oferte</h1>
-      <p className="mt-3 text-[#3b2d24]/80">Alege o categorie sau deschide subcategoriile ei. În Oferte găsești pachetele promoționale și produsele reduse, când sunt disponibile.</p>
+    <section className="mx-auto max-w-[1440px] px-4 py-6">
+      <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold text-[#3b2d24]">Categorii de produse și oferte</h1>
+      <p className="mt-2 text-sm text-[#3b2d24]/80">Alege o categorie sau deschide subcategoriile ei. În Oferte găsești pachetele promoționale și produsele reduse, când sunt disponibile.</p>
       <div className="category-directory">
         {getCategoryChildren(null, true).map((category) => getCategoryChildren(category.path, true).length ? <details key={category.path} className="category-group category-tone">
           <summary><span className="category-group-title">{category.name}</span><span className="category-group-count">{categoryCount(category.path) ? `${categoryCount(category.path)} ${categoryCount(category.path) === 1 ? "produs" : "produse"}` : "În pregătire"}</span></summary>
