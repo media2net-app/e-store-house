@@ -496,5 +496,23 @@
     "name": "Pilote finet",
     "parent": "pilote",
     "sourceUrl": "https://ralexpucioasa.ro/categorie-produs/pilote/pilote-finet/"
+  },
+  {
+    "path": "pilote/set-pilota-ranforrce-100-bbc",
+    "name": "Seturi cu pilotă Ranforce",
+    "parent": "pilote",
+    "sourceUrl": "https://ralexpucioasa.ro/categorie-produs/pilote/set-pilota-ranforrce-100-bbc/"
+  },
+  {
+    "path": "lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled",
+    "name": "Seturi de pat cu pled",
+    "parent": "lenjerii-de-pat/lenjeriide-pat-deluxe",
+    "sourceUrl": "https://ralexpucioasa.ro/categorie-produs/lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled/"
+  },
+  {
+    "path": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc",
+    "name": "Lenjerii de pat satin, 100% bumbac",
+    "parent": "lenjerii-de-pat/lenjeriide-pat-deluxe",
+    "sourceUrl": "https://ralexpucioasa.ro/categorie-produs/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/"
   }
 ]

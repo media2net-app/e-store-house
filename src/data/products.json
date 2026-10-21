@@ -24559,39 +24559,41 @@
   },
   {
     "id": 163031,
-    "name": "HUSA PAT JERSE 100% BUMBAC (Copie 1) — Turcoaz",
+    "name": "Set Jersey cu husă de pat cu elastic și fețe de pernă, 100% bumbac, turcoaz — dimensiuni la alegere",
     "category": "HUSE PAT JERSE / TRICOT 100% BUMBAC",
     "categoryPath": "huse-de-pat/huse-pat-jerse-100",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
-    "description": "De ce Husa Pat Jersey 100% Bumbac?\nCalitate Superioară, Confort Excepțional:\nFabricată exclusiv din bumbac 100%, această husă pentru pat oferă o senzație delicată și naturală la atingere. Materialele de cea mai înaltă calitate asigură confortul maxim și un somn odihnitor.\nDesign Elegant și Versatil:\nJersey-ul elastic se mulează perfect pe saltea, oferind o potrivire impecabilă și un aspect elegant. Designul versatil se integrează perfect în orice decor, aducând un plus de stil în camera dumneavoastră.\nConfort pe Tot Parcursul Anului:\nIndiferent de sezon, această husă asigură o temperatură optimă pentru un somn fără întreruperi. Jersey-ul are o structură termoregulatoare care vă îmbracă delicat în orice condiții.\nUșurință în Întreținere și Durabilitate:\nCusăturile rezistente și materialul de înaltă calitate garantează o durabilitate de lungă durată. Întreținerea este simplă – husa poate fi spălată în mașina de spălat, făcându-vă viața mai ușoară.",
-    "externalUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-copie-1/",
+    "description": "Set Jersey cu husă de pat cu elastic și fețe de pernă, 100% bumbac, turcoaz — dimensiuni la alegere.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nPachetul conține, în funcție de varianta selectată:\n• 90 × 200 cm: 1 husă cu elastic + 1 față de pernă.\n• 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă.\n\nSe alege dimensiunea potrivită saltelei.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\nAccesoriile de decor nu sunt incluse.",
+    "externalUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-8/",
     "images": [
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v3-perna-2.png",
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-02.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v3-perna-1.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-03.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-04.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-05.png"
     ],
-    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v3-perna-2.png",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v3-perna-1.png",
     "features": [
       {
-        "label": "Brand",
-        "value": "Ralex Pucioasa"
+        "label": "Material",
+        "value": "100% bumbac, tricot Jersey"
+      },
+      {
+        "label": "Conținut",
+        "value": "Husă cu elastic și fețe de pernă; numărul depinde de dimensiunea selectată."
       }
     ],
     "inStock": true,
     "price": 102.6,
     "variants": [
       {
-        "id": 163033,
-        "sku": "163033",
-        "name": "90x200cm + o fata perna",
-        "dimensions": "90x200cm",
-        "contents": "90x200cm + o fata perna",
+        "id": 163009,
+        "sku": "163009",
+        "name": "90 × 200 cm + 1 față de pernă",
+        "dimensions": "90 × 200 cm",
+        "contents": "1 husă cu elastic + 1 față de pernă.",
         "images": [
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v3-perna-1.png",
-          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-02.png",
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-03.png",
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-04.png",
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-05.png"
@@ -24601,14 +24603,13 @@
         "stock": 100
       },
       {
-        "id": 163035,
-        "sku": "163035",
-        "name": "140x200cm + doua fete perna",
-        "dimensions": "140x200cm",
-        "contents": "140x200cm + doua fete perna",
+        "id": 163011,
+        "sku": "163011",
+        "name": "140 × 200 cm + 2 fețe de pernă",
+        "dimensions": "140 × 200 cm",
+        "contents": "1 husă cu elastic + 2 fețe de pernă.",
         "images": [
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v3-perna-2.png",
-          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-02.png",
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-03.png",
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-04.png",
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-05.png"
@@ -24618,14 +24619,13 @@
         "stock": 100
       },
       {
-        "id": 163037,
-        "sku": "163037",
-        "name": "160x200cm + doua fete perna",
-        "dimensions": "160x200cm",
-        "contents": "160x200cm + doua fete perna",
+        "id": 163013,
+        "sku": "163013",
+        "name": "160 × 200 cm + 2 fețe de pernă",
+        "dimensions": "160 × 200 cm",
+        "contents": "1 husă cu elastic + 2 fețe de pernă.",
         "images": [
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v3-perna-2.png",
-          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-02.png",
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-03.png",
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-04.png",
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-05.png"
@@ -24635,14 +24635,13 @@
         "stock": 100
       },
       {
-        "id": 163039,
-        "sku": "163039",
-        "name": "180x200cm + doua fete perna",
-        "dimensions": "180x200cm",
-        "contents": "180x200cm + doua fete perna",
+        "id": 163015,
+        "sku": "163015",
+        "name": "180 × 200 cm + 2 fețe de pernă",
+        "dimensions": "180 × 200 cm",
+        "contents": "1 husă cu elastic + 2 fețe de pernă.",
         "images": [
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v3-perna-2.png",
-          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-02.png",
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-03.png",
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-04.png",
           "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-05.png"
@@ -24651,7 +24650,9 @@
         "inStock": true,
         "stock": 100
       }
-    ]
+    ],
+    "supplierProductId": 163007,
+    "material": "100% bumbac, tricot Jersey"
   },
   {
     "id": 94317,
@@ -37991,5 +37992,2018 @@
     "price": 525.6,
     "sku": "95953",
     "stock": 100
+  },
+  {
+    "id": 163321,
+    "sku": "163321",
+    "name": "Pilotă Finet Floral Butterflyes, 200 × 220 cm, umplutură microgel și fibră siliconică",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 201.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163321/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163321/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163321/02.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163321/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163321/04.png"
+    ],
+    "description": "Pilotă Finet Floral Butterflyes, 200 × 220 cm, umplutură microgel și fibră siliconică.\n\nDimensiuni: 200 × 220 cm.\nÎnveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nPachetul conține:\n• 1 pilotă, 200 × 220 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele, fețele de pernă, mobilierul și celelalte accesorii din imagini nu sunt incluse.",
+    "material": "Înveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică."
+      },
+      {
+        "label": "Pachet",
+        "value": "1 pilotă, 200 × 220 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-3/"
+  },
+  {
+    "id": 163319,
+    "sku": "163319",
+    "name": "Pilotă Finet Floral Glam, 200 × 220 cm, umplutură microgel și fibră siliconică",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 201.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163319/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163319/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163319/02.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163319/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163319/04.png"
+    ],
+    "description": "Pilotă Finet Floral Glam, 200 × 220 cm, umplutură microgel și fibră siliconică.\n\nDimensiuni: 200 × 220 cm.\nÎnveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nPachetul conține:\n• 1 pilotă, 200 × 220 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele, fețele de pernă, mobilierul și celelalte accesorii din imagini nu sunt incluse.",
+    "material": "Înveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică."
+      },
+      {
+        "label": "Pachet",
+        "value": "1 pilotă, 200 × 220 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-2/"
+  },
+  {
+    "id": 163317,
+    "sku": "163317",
+    "name": "Pilotă Finet Feader, 200 × 220 cm, umplutură microgel și fibră siliconică",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 201.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163317/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163317/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163317/02.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163317/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163317/04.png"
+    ],
+    "description": "Pilotă Finet Feader, 200 × 220 cm, umplutură microgel și fibră siliconică.\n\nDimensiuni: 200 × 220 cm.\nÎnveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nPachetul conține:\n• 1 pilotă, 200 × 220 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele, fețele de pernă, mobilierul și celelalte accesorii din imagini nu sunt incluse.",
+    "material": "Înveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică."
+      },
+      {
+        "label": "Pachet",
+        "value": "1 pilotă, 200 × 220 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet/"
+  },
+  {
+    "id": 163290,
+    "sku": "163290",
+    "name": "Lenjerie de pat Finet, 6 piese, husă cu elastic 160/180 × 200 cm — flori roz și burgundy",
+    "category": "Lenjerii finet 6 piese cu husă pentru saltea",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 228.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163290/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163290/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163290/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163290/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163290/04.jpg"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, husă cu elastic 160/180 × 200 cm — flori roz și burgundy.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 husă de pat cu elastic, pentru saltea de 160 × 200 cm sau 180 × 200 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă de pat cu elastic, pentru saltea de 160 × 200 cm sau 180 × 200 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-128/"
+  },
+  {
+    "id": 163285,
+    "sku": "163285",
+    "name": "Lenjerie de pat Finet, 6 piese, husă cu elastic 160/180 × 200 cm — cercuri pastel multicolore",
+    "category": "Lenjerii finet 6 piese cu husă pentru saltea",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 228.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163285/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163285/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163285/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163285/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163285/04.jpg"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, husă cu elastic 160/180 × 200 cm — cercuri pastel multicolore.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 husă de pat cu elastic, pentru saltea de 160 × 200 cm sau 180 × 200 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă de pat cu elastic, pentru saltea de 160 × 200 cm sau 180 × 200 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-127/"
+  },
+  {
+    "id": 163279,
+    "sku": "163279",
+    "name": "Lenjerie de pat Finet, 6 piese, husă cu elastic 160/180 × 200 cm — floral verde salvie",
+    "category": "Lenjerii finet 6 piese cu husă pentru saltea",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 228.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163279/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163279/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163279/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163279/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163279/04.png"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, husă cu elastic 160/180 × 200 cm — floral verde salvie.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 husă de pat cu elastic, pentru saltea de 160 × 200 cm sau 180 × 200 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă de pat cu elastic, pentru saltea de 160 × 200 cm sau 180 × 200 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-126/"
+  },
+  {
+    "id": 163274,
+    "sku": "163274",
+    "name": "Lenjerie de pat Finet, 6 piese, husă cu elastic 160/180 × 200 cm — flori albe și frunze verzi",
+    "category": "Lenjerii finet 6 piese cu husă pentru saltea",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 228.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163274/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163274/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163274/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163274/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163274/04.png"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, husă cu elastic 160/180 × 200 cm — flori albe și frunze verzi.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 husă de pat cu elastic, pentru saltea de 160 × 200 cm sau 180 × 200 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă de pat cu elastic, pentru saltea de 160 × 200 cm sau 180 × 200 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-125/"
+  },
+  {
+    "id": 163270,
+    "sku": "163270",
+    "name": "Lenjerie de pat Finet, 6 piese, husă cu elastic 160/180 × 200 cm — gri cu buline albe",
+    "category": "Lenjerii finet 6 piese cu husă pentru saltea",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 228.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163270/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163270/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163270/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163270/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163270/04.jpg"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, husă cu elastic 160/180 × 200 cm — gri cu buline albe.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 husă de pat cu elastic, pentru saltea de 160 × 200 cm sau 180 × 200 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă de pat cu elastic, pentru saltea de 160 × 200 cm sau 180 × 200 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-101/"
+  },
+  {
+    "id": 163263,
+    "sku": "163263",
+    "name": "Lenjerie de pat Finet, 6 piese, husă cu elastic 160/180 × 200 cm — floral roz pudrat",
+    "category": "Lenjerii finet 6 piese cu husă pentru saltea",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 228.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163263/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163263/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163263/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163263/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163263/04.jpg"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, husă cu elastic 160/180 × 200 cm — floral roz pudrat.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 husă de pat cu elastic, pentru saltea de 160 × 200 cm sau 180 × 200 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă de pat cu elastic, pentru saltea de 160 × 200 cm sau 180 × 200 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-100/"
+  },
+  {
+    "id": 163258,
+    "sku": "163258",
+    "name": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — flori roz și burgundy",
+    "category": "Lenjerii de pat finet 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 221.4,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163258/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163258/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163258/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163258/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163258/04.jpg"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — flori roz și burgundy.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 cearșaf de pat simplu, 220 × 240 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat simplu, 220 × 240 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese/lenjerie-de-pat-finet-6-piese-cu-cearsaf-57/"
+  },
+  {
+    "id": 163253,
+    "sku": "163253",
+    "name": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — geometric floral mov",
+    "category": "Lenjerii de pat finet 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 221.4,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163253/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163253/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163253/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163253/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163253/04.jpg"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — geometric floral mov.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 cearșaf de pat simplu, 220 × 240 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat simplu, 220 × 240 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese/lenjerie-de-pat-finet-6-piese-cu-cearsaf-56/"
+  },
+  {
+    "id": 163247,
+    "sku": "163247",
+    "name": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — cercuri pastel multicolore",
+    "category": "Lenjerii de pat finet 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 221.4,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163247/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163247/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163247/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163247/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163247/04.jpg"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — cercuri pastel multicolore.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 cearșaf de pat simplu, 220 × 240 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat simplu, 220 × 240 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese/lenjerie-de-pat-finet-6-piese-cu-cearsaf-55/"
+  },
+  {
+    "id": 163241,
+    "sku": "163241",
+    "name": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — zebră alb-negru",
+    "category": "Lenjerii de pat finet 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 221.4,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163241/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163241/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163241/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163241/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163241/04.jpg"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — zebră alb-negru.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 cearșaf de pat simplu, 220 × 240 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat simplu, 220 × 240 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese/lenjerie-de-pat-finet-6-piese-cu-cearsaf-54/"
+  },
+  {
+    "id": 163236,
+    "sku": "163236",
+    "name": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — abstract bleumarin și cărămiziu",
+    "category": "Lenjerii de pat finet 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 221.4,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163236/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163236/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163236/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163236/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163236/04.jpg"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — abstract bleumarin și cărămiziu.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 cearșaf de pat simplu, 220 × 240 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat simplu, 220 × 240 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese/lenjerie-de-pat-finet-6-piese-cu-cearsaf-53/"
+  },
+  {
+    "id": 163230,
+    "sku": "163230",
+    "name": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — geometric verde",
+    "category": "Lenjerii de pat finet 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 221.4,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163230/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163230/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163230/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163230/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163230/04.png"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — geometric verde.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 cearșaf de pat simplu, 220 × 240 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat simplu, 220 × 240 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese/lenjerie-de-pat-finet-6-piese-cu-cearsaf-52/"
+  },
+  {
+    "id": 163225,
+    "sku": "163225",
+    "name": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — cercuri verzi și negre",
+    "category": "Lenjerii de pat finet 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 221.4,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163225/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163225/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163225/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163225/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163225/04.jpg"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — cercuri verzi și negre.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 cearșaf de pat simplu, 220 × 240 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat simplu, 220 × 240 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese/lenjerie-de-pat-finet-6-piese-cu-cearsaf-51/"
+  },
+  {
+    "id": 163220,
+    "sku": "163220",
+    "name": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — galaxie albastră",
+    "category": "Lenjerii de pat finet 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 221.4,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163220/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163220/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163220/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163220/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163220/04.jpg"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — galaxie albastră.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 cearșaf de pat simplu, 220 × 240 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat simplu, 220 × 240 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese/lenjerie-de-pat-finet-6-piese-cu-cearsaf-50/"
+  },
+  {
+    "id": 163215,
+    "sku": "163215",
+    "name": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — nori pastel",
+    "category": "Lenjerii de pat finet 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 221.4,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163215/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163215/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163215/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163215/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163215/04.jpg"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — nori pastel.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 cearșaf de pat simplu, 220 × 240 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat simplu, 220 × 240 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese/lenjerie-de-pat-finet-6-piese-cu-cearsaf-49/"
+  },
+  {
+    "id": 163210,
+    "sku": "163210",
+    "name": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — planete și nori",
+    "category": "Lenjerii de pat finet 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 221.4,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163210/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163210/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163210/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163210/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163210/04.jpg"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — planete și nori.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 cearșaf de pat simplu, 220 × 240 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat simplu, 220 × 240 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese/lenjerie-de-pat-finet-6-piese-cu-cearsaf-48/"
+  },
+  {
+    "id": 163206,
+    "sku": "163206",
+    "name": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — fluturi albaștri",
+    "category": "Lenjerii de pat finet 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 221.4,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163206/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163206/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163206/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163206/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163206/04.png"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — fluturi albaștri.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 cearșaf de pat simplu, 220 × 240 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat simplu, 220 × 240 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese/lenjerie-de-pat-finet-6-piese-cu-cearsaf-47/"
+  },
+  {
+    "id": 163202,
+    "sku": "163202",
+    "name": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — gri cu buline albe",
+    "category": "Lenjerii de pat finet 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 221.4,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163202/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163202/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163202/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163202/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163202/04.jpg"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — gri cu buline albe.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 cearșaf de pat simplu, 220 × 240 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat simplu, 220 × 240 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese/lenjerie-de-pat-finet-6-piese-cu-cearsaf-46/"
+  },
+  {
+    "id": 163195,
+    "sku": "163195",
+    "name": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — pene albastre",
+    "category": "Lenjerii de pat finet 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 221.4,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163195/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163195/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163195/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163195/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163195/04.jpg"
+    ],
+    "description": "Lenjerie de pat Finet, 6 piese, cearșaf 220 × 240 cm — pene albastre.\n\nMaterial: Finet, 70% bumbac, 30% poliester.\n\nPachetul conține:\n• 1 cearșaf de pat simplu, 220 × 240 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pernuțele decorative, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "70% bumbac, 30% poliester",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat simplu, 220 × 240 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese/lenjerie-de-pat-finet-6-piese-cu-cearsaf-45/"
+  },
+  {
+    "id": 163189,
+    "sku": "163189",
+    "name": "Set Ranforce Semeran, pilotă 195 × 215 cm, husă 160 × 200 × 30 cm și 4 fețe de pernă",
+    "category": "Seturi cu pilotă Ranforce",
+    "categoryPath": "pilote/set-pilota-ranforrce-100-bbc",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 945.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163189/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163189/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163189/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163189/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163189/04.png"
+    ],
+    "description": "Set Ranforce Semeran, pilotă 195 × 215 cm, husă 160 × 200 × 30 cm și 4 fețe de pernă.\n\nȚesătură Ranforce, 100% bumbac, conform denumirii produsului la furnizor.\n\nPachetul conține:\n• 1 pilotă cu două fețe, 195 × 215 cm;\n• 1 husă de pat cu elastic, 160 × 200 × 30 cm;\n• 2 fețe de pernă uni, 50 × 70 cm;\n• 2 fețe de pernă imprimate, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură și accesoriile de decor nu sunt incluse. Compoziția umpluturii pilotei nu este precizată în sursa consultată.",
+    "material": "Țesătură Ranforce, 100% bumbac, conform denumirii produsului la furnizor.",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură Ranforce, 100% bumbac, conform denumirii produsului la furnizor."
+      },
+      {
+        "label": "Pachet",
+        "value": "1 pilotă cu două fețe, 195 × 215 cm; 1 husă de pat cu elastic, 160 × 200 × 30 cm; 2 fețe de pernă uni, 50 × 70 cm; 2 fețe de pernă imprimate, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/set-pilota-ranforrce-100-bbc/set-pilota-ranforce-100-bumbac-cu-doua-fete-husa-de-pat-cu-elastic-si-4-fete-de-perna-semeran/"
+  },
+  {
+    "id": 163187,
+    "sku": "163187",
+    "name": "Set Ranforce Samba, pilotă 195 × 215 cm, husă 160 × 200 × 30 cm și 4 fețe de pernă",
+    "category": "Seturi cu pilotă Ranforce",
+    "categoryPath": "pilote/set-pilota-ranforrce-100-bbc",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 945.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163187/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163187/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163187/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163187/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163187/04.png"
+    ],
+    "description": "Set Ranforce Samba, pilotă 195 × 215 cm, husă 160 × 200 × 30 cm și 4 fețe de pernă.\n\nȚesătură Ranforce, 100% bumbac, conform denumirii produsului la furnizor.\n\nPachetul conține:\n• 1 pilotă cu două fețe, 195 × 215 cm;\n• 1 husă de pat cu elastic, 160 × 200 × 30 cm;\n• 2 fețe de pernă uni, 50 × 70 cm;\n• 2 fețe de pernă imprimate, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură și accesoriile de decor nu sunt incluse. Compoziția umpluturii pilotei nu este precizată în sursa consultată.",
+    "material": "Țesătură Ranforce, 100% bumbac, conform denumirii produsului la furnizor.",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură Ranforce, 100% bumbac, conform denumirii produsului la furnizor."
+      },
+      {
+        "label": "Pachet",
+        "value": "1 pilotă cu două fețe, 195 × 215 cm; 1 husă de pat cu elastic, 160 × 200 × 30 cm; 2 fețe de pernă uni, 50 × 70 cm; 2 fețe de pernă imprimate, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/set-pilota-ranforrce-100-bbc/set-pilota-ranforce-100-bumbac-cu-doua-fete-husa-de-pat-cu-elastic-si-4-fete-de-perna-samba/"
+  },
+  {
+    "id": 163185,
+    "sku": "163185",
+    "name": "Set Ranforce Putto, pilotă 195 × 215 cm, husă 160 × 200 × 30 cm și 4 fețe de pernă",
+    "category": "Seturi cu pilotă Ranforce",
+    "categoryPath": "pilote/set-pilota-ranforrce-100-bbc",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 945.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163185/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163185/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163185/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163185/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163185/04.png"
+    ],
+    "description": "Set Ranforce Putto, pilotă 195 × 215 cm, husă 160 × 200 × 30 cm și 4 fețe de pernă.\n\nȚesătură Ranforce, 100% bumbac, conform denumirii produsului la furnizor.\n\nPachetul conține:\n• 1 pilotă cu două fețe, 195 × 215 cm;\n• 1 husă de pat cu elastic, 160 × 200 × 30 cm;\n• 2 fețe de pernă uni, 50 × 70 cm;\n• 2 fețe de pernă imprimate, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură și accesoriile de decor nu sunt incluse. Compoziția umpluturii pilotei nu este precizată în sursa consultată.",
+    "material": "Țesătură Ranforce, 100% bumbac, conform denumirii produsului la furnizor.",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură Ranforce, 100% bumbac, conform denumirii produsului la furnizor."
+      },
+      {
+        "label": "Pachet",
+        "value": "1 pilotă cu două fețe, 195 × 215 cm; 1 husă de pat cu elastic, 160 × 200 × 30 cm; 2 fețe de pernă uni, 50 × 70 cm; 2 fețe de pernă imprimate, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/set-pilota-ranforrce-100-bbc/set-pilota-ranforce-100-bumbac-cu-doua-fete-husa-de-pat-cu-elastic-si-4-fete-de-perna-putto/"
+  },
+  {
+    "id": 163183,
+    "sku": "163183",
+    "name": "Set Ranforce Elara v3, pilotă 195 × 215 cm, husă 160 × 200 × 30 cm și 4 fețe de pernă",
+    "category": "Seturi cu pilotă Ranforce",
+    "categoryPath": "pilote/set-pilota-ranforrce-100-bbc",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 945.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163183/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163183/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163183/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163183/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163183/04.png"
+    ],
+    "description": "Set Ranforce Elara v3, pilotă 195 × 215 cm, husă 160 × 200 × 30 cm și 4 fețe de pernă.\n\nȚesătură Ranforce, 100% bumbac, conform denumirii produsului la furnizor.\n\nPachetul conține:\n• 1 pilotă cu două fețe, 195 × 215 cm;\n• 1 husă de pat cu elastic, 160 × 200 × 30 cm;\n• 2 fețe de pernă uni, 50 × 70 cm;\n• 2 fețe de pernă imprimate, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură și accesoriile de decor nu sunt incluse. Compoziția umpluturii pilotei nu este precizată în sursa consultată.",
+    "material": "Țesătură Ranforce, 100% bumbac, conform denumirii produsului la furnizor.",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură Ranforce, 100% bumbac, conform denumirii produsului la furnizor."
+      },
+      {
+        "label": "Pachet",
+        "value": "1 pilotă cu două fețe, 195 × 215 cm; 1 husă de pat cu elastic, 160 × 200 × 30 cm; 2 fețe de pernă uni, 50 × 70 cm; 2 fețe de pernă imprimate, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/set-pilota-ranforrce-100-bbc/set-pilota-ranforce-100-bumbac-cu-doua-fete-husa-de-pat-cu-elastic-si-4-fete-de-perna-elara-v3/"
+  },
+  {
+    "id": 163181,
+    "sku": "163181",
+    "name": "Set Ranforce Azura, pilotă 195 × 215 cm, husă 160 × 200 × 30 cm și 4 fețe de pernă",
+    "category": "Seturi cu pilotă Ranforce",
+    "categoryPath": "pilote/set-pilota-ranforrce-100-bbc",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 945.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163181/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163181/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163181/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163181/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163181/04.png"
+    ],
+    "description": "Set Ranforce Azura, pilotă 195 × 215 cm, husă 160 × 200 × 30 cm și 4 fețe de pernă.\n\nȚesătură Ranforce, 100% bumbac, conform denumirii produsului la furnizor.\n\nPachetul conține:\n• 1 pilotă cu două fețe, 195 × 215 cm;\n• 1 husă de pat cu elastic, 160 × 200 × 30 cm;\n• 2 fețe de pernă uni, 50 × 70 cm;\n• 2 fețe de pernă imprimate, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură și accesoriile de decor nu sunt incluse. Compoziția umpluturii pilotei nu este precizată în sursa consultată.",
+    "material": "Țesătură Ranforce, 100% bumbac, conform denumirii produsului la furnizor.",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură Ranforce, 100% bumbac, conform denumirii produsului la furnizor."
+      },
+      {
+        "label": "Pachet",
+        "value": "1 pilotă cu două fețe, 195 × 215 cm; 1 husă de pat cu elastic, 160 × 200 × 30 cm; 2 fețe de pernă uni, 50 × 70 cm; 2 fețe de pernă imprimate, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/set-pilota-ranforrce-100-bbc/set-pilota-ranforce-100-bumbac-cu-doua-fete-husa-de-pat-cu-elastic-si-4-fete-de-perna-azura/"
+  },
+  {
+    "id": 163178,
+    "sku": "163178",
+    "name": "Set de pat Muselină Panthera, 4 piese, 100% bumbac, pătură 220 × 240 cm",
+    "category": "Seturi de pat cu pled",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 945.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163178/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163178/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163178/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163178/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163178/04.png"
+    ],
+    "description": "Set de pat Muselină Panthera, 4 piese, 100% bumbac, pătură 220 × 240 cm.\n\nMaterial: 100% bumbac.\n\nPachetul conține:\n• 1 cearșaf de pat, 240 × 260 cm;\n• 1 pătură din muselină cu două fețe, 220 × 240 cm;\n• 2 fețe de pernă, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură și accesoriile de decor nu sunt incluse.",
+    "material": "100% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat, 240 × 260 cm; 1 pătură din muselină cu două fețe, 220 × 240 cm; 2 fețe de pernă, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled/set-de-pat-muselina-100-bumbac-4-piese-cearsaf-240x260-cm-patura-dubla-fata-220x240-cm-panthera/"
+  },
+  {
+    "id": 163177,
+    "sku": "163177",
+    "name": "Set de pat Muselină Farva, 4 piese, 100% bumbac, pătură 220 × 240 cm",
+    "category": "Seturi de pat cu pled",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 945.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163177/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163177/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163177/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163177/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163177/04.png"
+    ],
+    "description": "Set de pat Muselină Farva, 4 piese, 100% bumbac, pătură 220 × 240 cm.\n\nMaterial: 100% bumbac.\n\nPachetul conține:\n• 1 cearșaf de pat, 240 × 260 cm;\n• 1 pătură din muselină cu două fețe, 220 × 240 cm;\n• 2 fețe de pernă, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură și accesoriile de decor nu sunt incluse.",
+    "material": "100% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat, 240 × 260 cm; 1 pătură din muselină cu două fețe, 220 × 240 cm; 2 fețe de pernă, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled/set-de-pat-muselina-100-bumbac-4-piese-cearsaf-240x260-cm-patura-dubla-fata-220x240-cm-farva/"
+  },
+  {
+    "id": 163175,
+    "sku": "163175",
+    "name": "Set de pat Muselină Daisora, 4 piese, 100% bumbac, pătură 220 × 240 cm",
+    "category": "Seturi de pat cu pled",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 945.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163175/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163175/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163175/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163175/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163175/04.png"
+    ],
+    "description": "Set de pat Muselină Daisora, 4 piese, 100% bumbac, pătură 220 × 240 cm.\n\nMaterial: 100% bumbac.\n\nPachetul conține:\n• 1 cearșaf de pat, 240 × 260 cm;\n• 1 pătură din muselină cu două fețe, 220 × 240 cm;\n• 2 fețe de pernă, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură și accesoriile de decor nu sunt incluse.",
+    "material": "100% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat, 240 × 260 cm; 1 pătură din muselină cu două fețe, 220 × 240 cm; 2 fețe de pernă, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled/set-de-pat-muselina-100-bumbac-4-piese-cearsaf-240x260-cm-patura-dubla-fata-220x240-cm-daisora/"
+  },
+  {
+    "id": 163165,
+    "sku": "163165",
+    "name": "Lenjerie de pat Satin Digital Elaris, 6 piese, 100% bumbac, cearșaf 240 × 260 cm",
+    "category": "Lenjerii de pat satin, 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 864.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163165/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163165/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163165/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163165/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163165/04.png"
+    ],
+    "description": "Lenjerie de pat Satin Digital Elaris, 6 piese, 100% bumbac, cearșaf 240 × 260 cm.\n\nMaterial: 100% bumbac, țesătură Satin.\n\nPachetul conține:\n• 1 cearșaf de pat, 240 × 260 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă imprimate, 50 × 70 cm;\n• 2 fețe de pernă uni, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "100% bumbac, țesătură Satin",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, țesătură Satin"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat, 240 × 260 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă imprimate, 50 × 70 cm; 2 fețe de pernă uni, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-elaris/"
+  },
+  {
+    "id": 163164,
+    "sku": "163164",
+    "name": "Lenjerie de pat Satin Digital Farya, 6 piese, 100% bumbac, cearșaf 240 × 260 cm",
+    "category": "Lenjerii de pat satin, 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 864.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163164/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163164/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163164/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163164/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163164/04.png"
+    ],
+    "description": "Lenjerie de pat Satin Digital Farya, 6 piese, 100% bumbac, cearșaf 240 × 260 cm.\n\nMaterial: 100% bumbac, țesătură Satin.\n\nPachetul conține:\n• 1 cearșaf de pat, 240 × 260 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă imprimate, 50 × 70 cm;\n• 2 fețe de pernă uni, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "100% bumbac, țesătură Satin",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, țesătură Satin"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat, 240 × 260 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă imprimate, 50 × 70 cm; 2 fețe de pernă uni, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-farya/"
+  },
+  {
+    "id": 163163,
+    "sku": "163163",
+    "name": "Lenjerie de pat Satin Digital Harvin, 6 piese, 100% bumbac, cearșaf 240 × 260 cm",
+    "category": "Lenjerii de pat satin, 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 864.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163163/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163163/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163163/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163163/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163163/04.png"
+    ],
+    "description": "Lenjerie de pat Satin Digital Harvin, 6 piese, 100% bumbac, cearșaf 240 × 260 cm.\n\nMaterial: 100% bumbac, țesătură Satin.\n\nPachetul conține:\n• 1 cearșaf de pat, 240 × 260 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă imprimate, 50 × 70 cm;\n• 2 fețe de pernă uni, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "100% bumbac, țesătură Satin",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, țesătură Satin"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat, 240 × 260 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă imprimate, 50 × 70 cm; 2 fețe de pernă uni, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-harvin/"
+  },
+  {
+    "id": 163162,
+    "sku": "163162",
+    "name": "Lenjerie de pat Satin Digital Lumina, 6 piese, 100% bumbac, cearșaf 240 × 260 cm",
+    "category": "Lenjerii de pat satin, 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 864.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163162/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163162/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163162/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163162/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163162/04.png"
+    ],
+    "description": "Lenjerie de pat Satin Digital Lumina, 6 piese, 100% bumbac, cearșaf 240 × 260 cm.\n\nMaterial: 100% bumbac, țesătură Satin.\n\nPachetul conține:\n• 1 cearșaf de pat, 240 × 260 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă imprimate, 50 × 70 cm;\n• 2 fețe de pernă uni, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "100% bumbac, țesătură Satin",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, țesătură Satin"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat, 240 × 260 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă imprimate, 50 × 70 cm; 2 fețe de pernă uni, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-lumina/"
+  },
+  {
+    "id": 163161,
+    "sku": "163161",
+    "name": "Lenjerie de pat Satin Digital Merisa, 6 piese, 100% bumbac, cearșaf 240 × 260 cm",
+    "category": "Lenjerii de pat satin, 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 864.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163161/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163161/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163161/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163161/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163161/04.png"
+    ],
+    "description": "Lenjerie de pat Satin Digital Merisa, 6 piese, 100% bumbac, cearșaf 240 × 260 cm.\n\nMaterial: 100% bumbac, țesătură Satin.\n\nPachetul conține:\n• 1 cearșaf de pat, 240 × 260 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă imprimate, 50 × 70 cm;\n• 2 fețe de pernă uni, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "100% bumbac, țesătură Satin",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, țesătură Satin"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat, 240 × 260 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă imprimate, 50 × 70 cm; 2 fețe de pernă uni, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-merisa/"
+  },
+  {
+    "id": 163160,
+    "sku": "163160",
+    "name": "Lenjerie de pat Satin Digital Nora, 6 piese, 100% bumbac, cearșaf 240 × 260 cm",
+    "category": "Lenjerii de pat satin, 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 864.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163160/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163160/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163160/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163160/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163160/04.png"
+    ],
+    "description": "Lenjerie de pat Satin Digital Nora, 6 piese, 100% bumbac, cearșaf 240 × 260 cm.\n\nMaterial: 100% bumbac, țesătură Satin.\n\nPachetul conține:\n• 1 cearșaf de pat, 240 × 260 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă imprimate, 50 × 70 cm;\n• 2 fețe de pernă uni, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "100% bumbac, țesătură Satin",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, țesătură Satin"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat, 240 × 260 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă imprimate, 50 × 70 cm; 2 fețe de pernă uni, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-nora/"
+  },
+  {
+    "id": 163159,
+    "sku": "163159",
+    "name": "Lenjerie de pat Satin Digital Panera, 6 piese, 100% bumbac, cearșaf 240 × 260 cm",
+    "category": "Lenjerii de pat satin, 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 864.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163159/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163159/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163159/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163159/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163159/04.png"
+    ],
+    "description": "Lenjerie de pat Satin Digital Panera, 6 piese, 100% bumbac, cearșaf 240 × 260 cm.\n\nMaterial: 100% bumbac, țesătură Satin.\n\nPachetul conține:\n• 1 cearșaf de pat, 240 × 260 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă imprimate, 50 × 70 cm;\n• 2 fețe de pernă uni, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "100% bumbac, țesătură Satin",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, țesătură Satin"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat, 240 × 260 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă imprimate, 50 × 70 cm; 2 fețe de pernă uni, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-panera/"
+  },
+  {
+    "id": 163158,
+    "sku": "163158",
+    "name": "Lenjerie de pat Satin Digital Puerto, 6 piese, 100% bumbac, cearșaf 240 × 260 cm",
+    "category": "Lenjerii de pat satin, 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 864.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163158/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163158/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163158/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163158/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163158/04.png"
+    ],
+    "description": "Lenjerie de pat Satin Digital Puerto, 6 piese, 100% bumbac, cearșaf 240 × 260 cm.\n\nMaterial: 100% bumbac, țesătură Satin.\n\nPachetul conține:\n• 1 cearșaf de pat, 240 × 260 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă imprimate, 50 × 70 cm;\n• 2 fețe de pernă uni, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "100% bumbac, țesătură Satin",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, țesătură Satin"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat, 240 × 260 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă imprimate, 50 × 70 cm; 2 fețe de pernă uni, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-puerto/"
+  },
+  {
+    "id": 163157,
+    "sku": "163157",
+    "name": "Lenjerie de pat Satin Digital Sopron, 6 piese, 100% bumbac, cearșaf 240 × 260 cm",
+    "category": "Lenjerii de pat satin, 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 864.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163157/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163157/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163157/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163157/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163157/04.png"
+    ],
+    "description": "Lenjerie de pat Satin Digital Sopron, 6 piese, 100% bumbac, cearșaf 240 × 260 cm.\n\nMaterial: 100% bumbac, țesătură Satin.\n\nPachetul conține:\n• 1 cearșaf de pat, 240 × 260 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă imprimate, 50 × 70 cm;\n• 2 fețe de pernă uni, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "100% bumbac, țesătură Satin",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, țesătură Satin"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat, 240 × 260 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă imprimate, 50 × 70 cm; 2 fețe de pernă uni, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-sopron/"
+  },
+  {
+    "id": 163155,
+    "sku": "163155",
+    "name": "Lenjerie de pat Satin Digital Vessan, 6 piese, 100% bumbac, cearșaf 240 × 260 cm",
+    "category": "Lenjerii de pat satin, 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 864.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163155/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163155/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163155/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163155/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163155/04.png"
+    ],
+    "description": "Lenjerie de pat Satin Digital Vessan, 6 piese, 100% bumbac, cearșaf 240 × 260 cm.\n\nMaterial: 100% bumbac, țesătură Satin.\n\nPachetul conține:\n• 1 cearșaf de pat, 240 × 260 cm;\n• 1 husă de pilotă, 200 × 220 cm;\n• 2 fețe de pernă imprimate, 50 × 70 cm;\n• 2 fețe de pernă uni, 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele de umplutură, pilota și accesoriile de decor nu sunt incluse.",
+    "material": "100% bumbac, țesătură Satin",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, țesătură Satin"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 cearșaf de pat, 240 × 260 cm; 1 husă de pilotă, 200 × 220 cm; 2 fețe de pernă imprimate, 50 × 70 cm; 2 fețe de pernă uni, 50 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac/"
+  },
+  {
+    "id": 163152,
+    "sku": "163152",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — turcoaz",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 210.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163152/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163152/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163152/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163152/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163152/04.png"
+    ],
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — turcoaz.\n\nMaterial: Damasc policoton, 80% poliester, 20% bumbac.\n\nPachetul conține:\n• 1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pilota, pledul și celelalte accesorii de decor nu sunt incluse.",
+    "material": "80% poliester, 20% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-14/"
+  },
+  {
+    "id": 163151,
+    "sku": "163151",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — bej",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 210.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163151/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163151/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163151/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163151/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163151/04.png"
+    ],
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — bej.\n\nMaterial: Damasc policoton, 80% poliester, 20% bumbac.\n\nPachetul conține:\n• 1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pilota, pledul și celelalte accesorii de decor nu sunt incluse.",
+    "material": "80% poliester, 20% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-13/"
+  },
+  {
+    "id": 163150,
+    "sku": "163150",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — roz",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 210.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163150/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163150/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163150/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163150/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163150/04.png"
+    ],
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — roz.\n\nMaterial: Damasc policoton, 80% poliester, 20% bumbac.\n\nPachetul conține:\n• 1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pilota, pledul și celelalte accesorii de decor nu sunt incluse.",
+    "material": "80% poliester, 20% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-12/"
+  },
+  {
+    "id": 163149,
+    "sku": "163149",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — gri",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 210.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163149/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163149/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163149/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163149/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163149/04.png"
+    ],
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — gri.\n\nMaterial: Damasc policoton, 80% poliester, 20% bumbac.\n\nPachetul conține:\n• 1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pilota, pledul și celelalte accesorii de decor nu sunt incluse.",
+    "material": "80% poliester, 20% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-11/"
+  },
+  {
+    "id": 163148,
+    "sku": "163148",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — piersică",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 210.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163148/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163148/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163148/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163148/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163148/04.png"
+    ],
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — piersică.\n\nMaterial: Damasc policoton, 80% poliester, 20% bumbac.\n\nPachetul conține:\n• 1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pilota, pledul și celelalte accesorii de decor nu sunt incluse.",
+    "material": "80% poliester, 20% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-10/"
+  },
+  {
+    "id": 163147,
+    "sku": "163147",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — portocaliu",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 210.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163147/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163147/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163147/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163147/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163147/04.png"
+    ],
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — portocaliu.\n\nMaterial: Damasc policoton, 80% poliester, 20% bumbac.\n\nPachetul conține:\n• 1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pilota, pledul și celelalte accesorii de decor nu sunt incluse.",
+    "material": "80% poliester, 20% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-9/"
+  },
+  {
+    "id": 163146,
+    "sku": "163146",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — gri deschis",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 210.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163146/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163146/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163146/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163146/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163146/04.png"
+    ],
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — gri deschis.\n\nMaterial: Damasc policoton, 80% poliester, 20% bumbac.\n\nPachetul conține:\n• 1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pilota, pledul și celelalte accesorii de decor nu sunt incluse.",
+    "material": "80% poliester, 20% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-8/"
+  },
+  {
+    "id": 163145,
+    "sku": "163145",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — gri perlat",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 210.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163145/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163145/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163145/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163145/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163145/04.png"
+    ],
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — gri perlat.\n\nMaterial: Damasc policoton, 80% poliester, 20% bumbac.\n\nPachetul conține:\n• 1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pilota, pledul și celelalte accesorii de decor nu sunt incluse.",
+    "material": "80% poliester, 20% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-7/"
+  },
+  {
+    "id": 163144,
+    "sku": "163144",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — roșu",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 210.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163144/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163144/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163144/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163144/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163144/04.png"
+    ],
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — roșu.\n\nMaterial: Damasc policoton, 80% poliester, 20% bumbac.\n\nPachetul conține:\n• 1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pilota, pledul și celelalte accesorii de decor nu sunt incluse.",
+    "material": "80% poliester, 20% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-6/"
+  },
+  {
+    "id": 163143,
+    "sku": "163143",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — alb",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 210.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163143/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163143/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163143/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163143/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163143/04.png"
+    ],
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — alb.\n\nMaterial: Damasc policoton, 80% poliester, 20% bumbac.\n\nPachetul conține:\n• 1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pilota, pledul și celelalte accesorii de decor nu sunt incluse.",
+    "material": "80% poliester, 20% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-5/"
+  },
+  {
+    "id": 163142,
+    "sku": "163142",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — crem",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 210.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163142/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163142/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163142/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163142/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163142/04.png"
+    ],
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — crem.\n\nMaterial: Damasc policoton, 80% poliester, 20% bumbac.\n\nPachetul conține:\n• 1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pilota, pledul și celelalte accesorii de decor nu sunt incluse.",
+    "material": "80% poliester, 20% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-4/"
+  },
+  {
+    "id": 163141,
+    "sku": "163141",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — mov",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 210.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163141/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163141/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163141/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163141/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163141/04.png"
+    ],
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — mov.\n\nMaterial: Damasc policoton, 80% poliester, 20% bumbac.\n\nPachetul conține:\n• 1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pilota, pledul și celelalte accesorii de decor nu sunt incluse.",
+    "material": "80% poliester, 20% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-3/"
+  },
+  {
+    "id": 163140,
+    "sku": "163140",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — gri-verzui",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 210.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163140/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163140/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163140/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163140/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163140/04.png"
+    ],
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — gri-verzui.\n\nMaterial: Damasc policoton, 80% poliester, 20% bumbac.\n\nPachetul conține:\n• 1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pilota, pledul și celelalte accesorii de decor nu sunt incluse.",
+    "material": "80% poliester, 20% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-2/"
+  },
+  {
+    "id": 163125,
+    "sku": "163125",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — verde deschis",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 210.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163125/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163125/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163125/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163125/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163125/04.png"
+    ],
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic 160/180 × 200 × 24 cm — verde deschis.\n\nMaterial: Damasc policoton, 80% poliester, 20% bumbac.\n\nPachetul conține:\n• 1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm;\n• 1 husă de pilotă, 200 × 230 cm;\n• 2 fețe de pernă, 50 × 70 cm;\n• 2 fețe de pernă, 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nSetul conține numai cele 6 piese enumerate. Pernele de umplutură, pilota, pledul și celelalte accesorii de decor nu sunt incluse.",
+    "material": "80% poliester, 20% bumbac",
+    "features": [
+      {
+        "label": "Material",
+        "value": "80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Pachet",
+        "value": "1 husă universală cu elastic, pentru saltea de 160 × 200 × 24 cm sau 180 × 200 × 24 cm; 1 husă de pilotă, 200 × 230 cm; 2 fețe de pernă, 50 × 70 cm; 2 fețe de pernă, 70 × 70 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo/"
+  },
+  {
+    "id": 163119,
+    "sku": "163119",
+    "name": "Pilotă Luxury casetată, 200 × 230 cm, înveliș din bumbac, umplutură din puf de gâscă",
+    "category": "Pilote",
+    "categoryPath": "pilote",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 1350.0,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163119/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163119/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163119/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163119/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163119/04.jpg"
+    ],
+    "description": "Pilotă Luxury casetată, 200 × 230 cm, înveliș din bumbac, umplutură din puf de gâscă.\n\nÎnveliș: 100% bumbac. Umplutură: 100% puf de gâscă, conform datelor furnizorului.\nGreutate declarată de furnizor: 3,1 kg.\n\nPachetul conține:\n• 1 pilotă, 200 × 230 cm.\n\nÎntreținere: se recomandă curățare chimică. Evitați spălarea la mașina automată, conform furnizorului.\n\nPernele, fețele de pernă și accesoriile din fotografii nu sunt incluse.",
+    "material": "Înveliș: 100% bumbac. Umplutură: 100% puf de gâscă, conform datelor furnizorului.",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș: 100% bumbac. Umplutură: 100% puf de gâscă, conform datelor furnizorului."
+      },
+      {
+        "label": "Pachet",
+        "value": "1 pilotă, 200 × 230 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilota-casetata-luxury-cu-puf-de-gasca-100-bumbac-natural-200x230-cm/"
+  },
+  {
+    "id": 163118,
+    "sku": "163118",
+    "name": "Pilotă Finet Zebra, 200 × 220 cm, umplutură microgel și fibră siliconică",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 201.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163118/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163118/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163118/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163118/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163118/04.jpg"
+    ],
+    "description": "Pilotă Finet Zebra, 200 × 220 cm, umplutură microgel și fibră siliconică.\n\nDimensiuni: 200 × 220 cm.\nÎnveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nPachetul conține:\n• 1 pilotă, 200 × 220 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele, fețele de pernă, mobilierul și celelalte accesorii din imagini nu sunt incluse.",
+    "material": "Înveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică."
+      },
+      {
+        "label": "Pachet",
+        "value": "1 pilotă, 200 × 220 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-blue-garden-4/"
+  },
+  {
+    "id": 163115,
+    "sku": "163115",
+    "name": "Pilotă Finet Floral, 200 × 220 cm, umplutură microgel și fibră siliconică",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 201.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163115/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163115/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163115/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163115/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163115/04.jpg"
+    ],
+    "description": "Pilotă Finet Floral, 200 × 220 cm, umplutură microgel și fibră siliconică.\n\nDimensiuni: 200 × 220 cm.\nÎnveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nPachetul conține:\n• 1 pilotă, 200 × 220 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele, fețele de pernă, mobilierul și celelalte accesorii din imagini nu sunt incluse.",
+    "material": "Înveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică."
+      },
+      {
+        "label": "Pachet",
+        "value": "1 pilotă, 200 × 220 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-blue-garden-3/"
+  },
+  {
+    "id": 163112,
+    "sku": "163112",
+    "name": "Pilotă Finet Butterfly, 200 × 220 cm, umplutură microgel și fibră siliconică",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 201.6,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163112/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163112/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163112/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163112/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163112/04.jpg"
+    ],
+    "description": "Pilotă Finet Butterfly, 200 × 220 cm, umplutură microgel și fibră siliconică.\n\nDimensiuni: 200 × 220 cm.\nÎnveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nPachetul conține:\n• 1 pilotă, 200 × 220 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nPernele, fețele de pernă, mobilierul și celelalte accesorii din imagini nu sunt incluse.",
+    "material": "Înveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică."
+      },
+      {
+        "label": "Pachet",
+        "value": "1 pilotă, 200 × 220 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-blue-garden-2/"
+  },
+  {
+    "id": 162739,
+    "sku": "162739",
+    "name": "Set 4 perne pentru scaun Happy Lines, 40 × 40 × 7 cm, pentru interior și exterior",
+    "category": "Pernuțe scaun interior / exterior",
+    "categoryPath": "terasa-si-gradina/pernute-scaun",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 97.2,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/162739/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/162739/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/162739/02.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/162739/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/162739/04.png"
+    ],
+    "description": "Set 4 perne pentru scaun Happy Lines, 40 × 40 × 7 cm, pentru interior și exterior.\n\nÎnveliș: țesătură Oxford din poliester, 300 g/m². Umplutură: fulgi de poliuretan.\nUtilizare: interior și exterior, conform furnizorului.\n\nPachetul conține:\n• 4 perne pentru scaun, fiecare de 40 × 40 × 7 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nScaunele, masa și accesoriile de decor nu sunt incluse. Nu este declarată impermeabilitatea produsului.",
+    "material": "Înveliș: țesătură Oxford din poliester, 300 g/m². Umplutură: fulgi de poliuretan.",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș: țesătură Oxford din poliester, 300 g/m². Umplutură: fulgi de poliuretan."
+      },
+      {
+        "label": "Pachet",
+        "value": "4 perne pentru scaun, fiecare de 40 × 40 × 7 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-happy-lines/"
+  },
+  {
+    "id": 162735,
+    "sku": "162735",
+    "name": "Set 4 perne pentru scaun Brown Harmony, 40 × 40 × 7 cm, pentru interior și exterior",
+    "category": "Pernuțe scaun interior / exterior",
+    "categoryPath": "terasa-si-gradina/pernute-scaun",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 97.2,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/162735/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/162735/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/162735/02.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/162735/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/162735/04.png"
+    ],
+    "description": "Set 4 perne pentru scaun Brown Harmony, 40 × 40 × 7 cm, pentru interior și exterior.\n\nÎnveliș: țesătură Oxford din poliester, 300 g/m². Umplutură: fulgi de poliuretan.\nUtilizare: interior și exterior, conform furnizorului.\n\nPachetul conține:\n• 4 perne pentru scaun, fiecare de 40 × 40 × 7 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nScaunele, masa și accesoriile de decor nu sunt incluse. Nu este declarată impermeabilitatea produsului.",
+    "material": "Înveliș: țesătură Oxford din poliester, 300 g/m². Umplutură: fulgi de poliuretan.",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș: țesătură Oxford din poliester, 300 g/m². Umplutură: fulgi de poliuretan."
+      },
+      {
+        "label": "Pachet",
+        "value": "4 perne pentru scaun, fiecare de 40 × 40 × 7 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-brown-harmony/"
+  },
+  {
+    "id": 162731,
+    "sku": "162731",
+    "name": "Set 4 perne pentru scaun mov, 40 × 40 × 7 cm, pentru interior și exterior",
+    "category": "Pernuțe scaun interior / exterior",
+    "categoryPath": "terasa-si-gradina/pernute-scaun",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "price": 97.2,
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/162731/01.png",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/162731/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/162731/02.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/162731/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/162731/04.png"
+    ],
+    "description": "Set 4 perne pentru scaun mov, 40 × 40 × 7 cm, pentru interior și exterior.\n\nÎnveliș: țesătură Oxford din poliester, 300 g/m². Umplutură: fulgi de poliuretan.\nUtilizare: interior și exterior, conform furnizorului.\n\nPachetul conține:\n• 4 perne pentru scaun, fiecare de 40 × 40 × 7 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\n\nScaunele, masa și accesoriile de decor nu sunt incluse. Nu este declarată impermeabilitatea produsului.",
+    "material": "Înveliș: țesătură Oxford din poliester, 300 g/m². Umplutură: fulgi de poliuretan.",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș: țesătură Oxford din poliester, 300 g/m². Umplutură: fulgi de poliuretan."
+      },
+      {
+        "label": "Pachet",
+        "value": "4 perne pentru scaun, fiecare de 40 × 40 × 7 cm."
+      }
+    ],
+    "inStock": true,
+    "stock": 100,
+    "vatRate": 0,
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-mov-3/"
   }
 ]
