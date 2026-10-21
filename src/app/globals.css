@@ -319,8 +319,6 @@ button,a,input { outline-offset:5px; }
 }
 
 /* Customer information stays readable and reachable on phones. */
-.customer-help-nav { display:flex; justify-content:center; flex-wrap:wrap; gap:4px 20px; padding:0 16px; border-top:1px solid #e5d9c7; font-size:12px; color:#65533d; }
-.customer-help-nav a { display:flex; align-items:center; min-height:44px; text-decoration:underline; text-underline-offset:4px; }
 .legal-page { width:100%; max-width:820px; margin:0 auto; padding:36px 24px 20px; color:#3b2d24; overflow-wrap:anywhere; }
 .legal-page h1 { font:600 34px/1.2 var(--font-playfair),Georgia,serif; margin:22px 0 30px; }
 .legal-page h2 { font-size:20px; font-weight:600; line-height:1.4; margin:28px 0 12px; }
@@ -338,7 +336,7 @@ button,a,input { outline-offset:5px; }
 .legal-guarantee-reminder p { font-size:13px; line-height:1.8; margin:12px 0; max-width:600px; }
 .legal-guarantee-reminder a { font-size:13px; text-decoration:underline; text-underline-offset:3px; }
 .legal-guarantee-reminder img { width:160px; height:auto; }
-@media(max-width:600px) { .legal-page { padding:24px 20px 12px; }.legal-page h1 { font-size:29px; }.legal-page p,.legal-page li { font-size:14px; }.customer-help-nav { gap:4px 14px; font-size:11px; }.legal-guarantee-reminder { grid-template-columns:1fr; }.legal-guarantee-reminder img { width:180px; }.footer-grid { grid-template-columns:1fr; } }
+@media(max-width:600px) { .legal-page { padding:24px 20px 12px; }.legal-page h1 { font-size:29px; }.legal-page p,.legal-page li { font-size:14px; }.legal-guarantee-reminder { grid-template-columns:1fr; }.legal-guarantee-reminder img { width:180px; }.footer-grid { grid-template-columns:1fr; } }
 
 /* The supplier's category tree is shared by the home page, directory and catalog sidebar. */
 .category-tone { --category-bg:#563b30; --category-accent:#f3e4d6; }
