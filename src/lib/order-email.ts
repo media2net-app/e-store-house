@@ -10,6 +10,25 @@ export function hasTransactionalEmail() {
   return smtpReady || !!process.env.RESEND_API_KEY && !!process.env.STORE_MAIL_FROM;
 }
 
+export async function verifySmtpConnection() {
+  if (!process.env.SMTP_HOST || !process.env.SMTP_PORT || !process.env.SMTP_USER
+      || !process.env.SMTP_PASS || !process.env.SMTP_FROM) {
+    throw new Error("SMTP nu este configurat.");
+  }
+  const port = Number(process.env.SMTP_PORT);
+  if (!Number.isInteger(port) || port < 1 || port > 65535) throw new Error("Port SMTP invalid.");
+  const secure = process.env.SMTP_SECURE === "true";
+  const transport = nodemailer.createTransport({
+    host: process.env.SMTP_HOST, port, secure, requireTLS: !secure,
+    auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASS },
+  });
+  try {
+    await transport.verify();
+  } finally {
+    transport.close();
+  }
+}
+
 function merchantInbox() {
   return process.env.ORDER_NOTIFICATION_EMAIL || "orders@estorehouse.ro";
 }
