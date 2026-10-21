@@ -317,3 +317,25 @@ button,a,input { outline-offset:5px; }
   .cart-drawer-summary { padding:12px 16px max(14px,env(safe-area-inset-bottom)); }
   .cart-summary-total { font-size:17px; }
 }
+
+/* Customer information stays readable and reachable on phones. */
+.customer-help-nav { display:flex; justify-content:center; flex-wrap:wrap; gap:4px 20px; padding:0 16px; border-top:1px solid #e5d9c7; font-size:12px; color:#65533d; }
+.customer-help-nav a { display:flex; align-items:center; min-height:44px; text-decoration:underline; text-underline-offset:4px; }
+.legal-page { width:100%; max-width:820px; margin:0 auto; padding:36px 24px 20px; color:#3b2d24; overflow-wrap:anywhere; }
+.legal-page h1 { font:600 34px/1.2 var(--font-playfair),Georgia,serif; margin:22px 0 30px; }
+.legal-page h2 { font-size:20px; font-weight:600; line-height:1.4; margin:28px 0 12px; }
+.legal-page p,.legal-page li { font-size:15px; line-height:1.85; margin:12px 0; }
+.legal-page a { text-decoration:underline; text-underline-offset:3px; }
+.legal-back,.legal-updated { font-size:12px!important; color:#75634d; }
+.legal-updated { margin-top:35px!important; }
+.legal-page form input,.legal-page form textarea { font-size:16px; min-height:44px; }
+.legal-page form button,.legal-page .form-action { min-height:44px; cursor:pointer; }
+.footer-grid>div>a:not(.wordmark) { min-height:44px; display:flex; align-items:center; line-height:1.6; padding:7px 0; }
+.sal-badge { width:250px; max-width:100%; margin-top:12px; }
+.sal-badge img { width:250px; height:50px; max-width:none; }
+.legal-guarantee-reminder { display:grid; grid-template-columns:minmax(0,1fr) 160px; gap:24px; max-width:1368px; margin:36px auto 0; border-top:1px solid #d6c7af; padding-top:26px; align-items:center; }
+.legal-guarantee-reminder h2 { font-size:18px; font-weight:600; line-height:1.5; }
+.legal-guarantee-reminder p { font-size:13px; line-height:1.8; margin:12px 0; max-width:600px; }
+.legal-guarantee-reminder a { font-size:13px; text-decoration:underline; text-underline-offset:3px; }
+.legal-guarantee-reminder img { width:160px; height:auto; }
+@media(max-width:600px) { .legal-page { padding:24px 20px 12px; }.legal-page h1 { font-size:29px; }.legal-page p,.legal-page li { font-size:14px; }.customer-help-nav { gap:4px 14px; font-size:11px; }.legal-guarantee-reminder { grid-template-columns:1fr; }.legal-guarantee-reminder img { width:180px; }.footer-grid { grid-template-columns:1fr; } }
