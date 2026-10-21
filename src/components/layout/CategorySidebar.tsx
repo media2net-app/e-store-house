@@ -7,14 +7,14 @@ type CategoryItem = { path: string; name: string; parent: string | null; count: 
 type SidebarProps = { items: CategoryItem[]; activePath?: string };
 const href = (path: string) => `/shop?categorie=${encodeURIComponent(path)}`;
 
-function CategoryBranch({ category, items, activePath, tone }: SidebarProps & { category: CategoryItem; tone?: number }) {
+function CategoryBranch({ category, items, activePath, root = false }: SidebarProps & { category: CategoryItem; root?: boolean }) {
   const children = items.filter((item) => item.parent === category.path);
   const selected = activePath === category.path;
   const ancestor = activePath?.startsWith(`${category.path}/`) ?? false;
   const [open, setOpen] = useState(ancestor || selected);
   const panelId = useId();
 
-  return <li className={`sidebar-branch${tone ? ` sidebar-root category-tone-${tone}` : ""}${selected ? " is-selected" : ""}${ancestor ? " is-ancestor" : ""}`}>
+  return <li className={`sidebar-branch${root ? " sidebar-root category-tone" : ""}${selected ? " is-selected" : ""}${ancestor ? " is-ancestor" : ""}`}>
     <div className="sidebar-row">
       {children.length ? <button type="button" className="sidebar-category" aria-expanded={open} aria-controls={panelId}
         onClick={() => setOpen(!open)}>
@@ -36,13 +36,13 @@ export default function CategorySidebar({ items, activePath }: SidebarProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const navId = useId();
   return <aside className="category-sidebar">
-    <div className="sidebar-heading"><span aria-hidden="true">☷</span> Categorii de produse și oferte</div>
+    <div className="sidebar-heading"><span aria-hidden="true">☷</span> Catalog</div>
     <button type="button" className="sidebar-mobile-toggle" aria-expanded={mobileOpen} aria-controls={navId} onClick={() => setMobileOpen(!mobileOpen)}>
       <span>☷ {items.find((item) => item.path === activePath)?.name ?? "Alege o categorie"}</span><span aria-hidden="true">{mobileOpen ? "−" : "+"}</span>
     </button>
     <nav id={navId} aria-label="Catalog de produse" className={`sidebar-navigation${mobileOpen ? " mobile-open" : ""}`}>
       <Link href="/shop" className="sidebar-all">Toate produsele <span aria-hidden="true">↗</span></Link>
-      <ul>{items.filter((item) => item.parent === null).map((category, index) => <CategoryBranch key={category.path} category={category} items={items} activePath={activePath} tone={index + 1} />)}</ul>
+      <ul>{items.filter((item) => item.parent === null).map((category) => <CategoryBranch key={category.path} category={category} items={items} activePath={activePath} root />)}</ul>
 
     </nav>
   </aside>;

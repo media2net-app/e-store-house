@@ -1,15 +1,16 @@
 import { categories, categoryCount } from "@/lib/categories";
 import CategorySidebar from "./CategorySidebar";
 
-export default function CatalogLayout({ children, activePath }: {
+export default function CatalogLayout({ children, activePath, showSidebar = true }: {
   children: React.ReactNode;
   activePath?: string;
+  showSidebar?: boolean;
 }) {
-  const items = categories.map(({ path, name, parent }) => ({
+  const items = showSidebar ? categories.map(({ path, name, parent }) => ({
     path, name, parent, count: categoryCount(path),
-  }));
+  })) : [];
   return <div className="catalog-layout">
-    <CategorySidebar key={activePath ?? "all"} items={items} activePath={activePath} />
+    {showSidebar ? <CategorySidebar key={activePath ?? "all"} items={items} activePath={activePath} /> : null}
     <div className="catalog-content">{children}</div>
   </div>;
 }
