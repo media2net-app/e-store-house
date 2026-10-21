@@ -2,6 +2,7 @@
 
 import { useProductSelection } from "./ProductSelection";
 import { useState } from "react";
+import ProductOffer from "./ProductOffer";
 import { useCart } from "@/components/cart/CartProvider";
 import { formatProductPrice, formatProductPriceRange, type Product } from "@/lib/products";
 
@@ -35,6 +36,7 @@ export default function ProductPurchaseActions({ product }: ProductPurchaseActio
           <p aria-live="polite" aria-atomic="true" className="text-3xl font-bold text-[#3b2d24]">
             {selected ? formatProductPrice(selected.price, product.currency) : formatProductPriceRange(product)}
           </p>
+          <ProductOffer />
           <fieldset className="mt-5">
             <legend className="text-sm font-semibold text-[#3b2d24]">Alege varianta</legend>
             <div className="mt-2 flex flex-wrap gap-2">
@@ -51,7 +53,7 @@ export default function ProductPurchaseActions({ product }: ProductPurchaseActio
           <p className="mt-3 text-sm text-[#3b2d24]/85">{selected ? selected.contents : "Selectează varianta pentru prețul exact."}</p>
           {selected ? <p className="mt-2 text-sm text-[#3b2d24]" aria-live="polite">Cod produs (SKU / cod de bare): <strong>{selected.sku}</strong></p> : null}
         </>
-      ) : null}
+      ) : <ProductOffer />}
       {cartProduct.bundleComponents ? <div className="mt-3 text-sm text-[#3b2d24]/85"><p className="font-semibold">Preț pentru un set. Conținut:</p>{cartProduct.bundleComponents.map((component) => <p key={component.sku}>{component.quantity} × {component.name} · Cod: {component.sku}</p>)}</div> : null}
       {product.inStock === false || selected?.inStock === false ? <p className="mt-3 text-sm font-semibold text-[#3b2d24]" role="status">Momentan indisponibil</p> : null}
     <div className="mt-4 flex flex-wrap items-center gap-3">
