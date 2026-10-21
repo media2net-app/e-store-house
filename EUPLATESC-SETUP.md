@@ -22,6 +22,7 @@ Confirm these values in the hosting project. Keep signing keys, database write k
 Customer-facing build-time values now confirmed in Preview are `NEXT_PUBLIC_STORE_SUPPORT_EMAIL=contact@estorehouse.ro`, `NEXT_PUBLIC_STORE_SUPPORT_PHONE=0729758396`, and `NEXT_PUBLIC_STORE_VAT_STATUS=not_registered`. The phone is temporary until the dedicated WhatsApp number is ready. Still needed: `NEXT_PUBLIC_STORE_SHIPPING_DESCRIPTION` (the same confirmed fee shown in checkout) and `NEXT_PUBLIC_STORE_DELIVERY_ESTIMATE`. Both new mailboxes appear in Apple Mail and received initial messages; SMTP sending and delivery of transactional mail remain untested. The shipping fee and timeframe must come from actual Sameday terms. A zero fee must mean genuinely free shipping under the threshold. The Sameday eAWB page currently reports the account inactive due to unpaid invoices, despite also showing a zero invoice balance; clarify this directly with Sameday before relying on that account for fulfillment.
 
 `STORE_PUBLIC_URL` is set to the exact branch-preview origin in Preview only. It is deliberately absent from Production until the live domain and end-to-end flow are verified.
+The EuPlătesc merchant ID and signing key from the 24 June email were saved as Vercel **Secret** values in Preview only, with `EU_PLATESC_MODE=test`. Their contents were not added to the repository. Checkout remains disabled until storage, email, shipping, provider status, and an end-to-end test are ready.
 
 Activation checklist:
 
