@@ -1,5 +1,5 @@
 import ProductCard from "@/components/product/ProductCard";
-import { recommendations } from "@/lib/discovery";
+import { recommendations, recommendationReason } from "@/lib/discovery";
 import CatalogLayout from "@/components/layout/CatalogLayout";
 import { categoryHref, categoryTrail } from "@/lib/categories";
 import { ProductSelection } from "@/components/product/ProductSelection";
@@ -35,7 +35,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
     notFound();
   }
 
-  const { similar, complementary, hasCompanions } = recommendations(product, allProducts);
+  const { similar, complementary } = recommendations(product, allProducts);
 
   const productFeatures = product.features ?? [
     ...(product.brand ? [{ label: "Brand", value: product.brand }] : []),
@@ -73,7 +73,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               {product.categoryPath ? categoryTrail(product.categoryPath).map((category, index) => <span key={category.path}>{index ? " / " : ""}<Link href={categoryHref(category.path)} className="hover:underline">{category.name}</Link></span>) : product.category}
             </nav>
 
-            {product.variants ? <ProductPurchaseActions key={product.id} product={product} /> : (
+            {!product.variants ? (
             <div className="mt-6 flex items-end gap-3">
               <span className="text-3xl font-bold text-[#3b2d24]">
                 {formatProductPriceRange(product)}
@@ -85,7 +85,8 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               ) : null}
             </div>
 
-            )}
+            ) : null}
+            <ProductPurchaseActions key={product.id} product={product} />
 
             <div className="mt-6 space-y-2 text-sm text-[#3b2d24]/90">
               {product.discount ? <p>Reducere: {product.discount}%</p> : null}
@@ -104,7 +105,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               <div className="rounded-xl border border-[#e5d9c7] bg-[#fcf8f0] p-4">
                 <p className="text-sm font-semibold text-[#3b2d24]">Livrare E-Store House</p>
                 <p className="mt-2 text-sm text-[#3b2d24]/85">
-                  Transportul este plătit separat de client. Livrarea este gestionată de E-Store House; costul și termenul se confirmă la preluarea comenzii.
+                  Transport gratuit pentru produse de minimum 900 lei, după reduceri. Sub acest prag, costul transportului și termenul de livrare se confirmă la preluarea comenzii.
                 </p>
               </div>
             </div>
@@ -118,7 +119,6 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               </ul>
             </div>
 
-            {!product.variants ? <ProductPurchaseActions key={product.id} product={product} /> : null}
 
             <div className="mt-4 flex flex-wrap gap-3">
               <Link
@@ -130,6 +130,20 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
             </div>
           </div>
         </div>
+
+        {similar.length > 0 ? <section className="recommendation-section">
+          <p className="eyebrow">COMPARĂ ȘI ALEGE</p>
+          <h2>Produse asemănătoare</h2>
+          <p className="recommendation-intro">Compară alte modele, materiale și dimensiuni înainte să alegi.</p>
+          <p className="recommendation-swipe-hint">Glisează pentru a vedea cele 3 recomandări →</p>
+          <div className="products-grid recommendations-similar-grid">{similar.map((item) => <ProductCard key={item.id} product={item} reason={recommendationReason(product, item)} />)}</div>
+        </section> : null}
+        {complementary.length > 0 ? <section className="recommendation-section">
+          <p className="eyebrow">COMPLETEAZĂ-ȚI SELECȚIA</p>
+          <h2>S-ar putea să-ți placă și…</h2>
+          <p className="recommendation-intro">Alte alegeri pentru confortul casei tale. Verifică dimensiunile și nuanțele pentru combinația dorită.</p>
+          <div className="products-grid">{complementary.map((item) => <ProductCard key={item.id} product={item} />)}</div>
+        </section> : null}
 
         <div className="mt-12 rounded-2xl border border-[#e5d9c7] bg-white p-6">
           <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold text-[#3b2d24]">
@@ -187,18 +201,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
           </div>
         </div>
 
-        {similar.length > 0 ? <section className="recommendation-section">
-          <p className="eyebrow">COMPARĂ ȘI ALEGE</p>
-          <h2>Produse similare</h2>
-          <p className="recommendation-intro">Alte modele din aceeași categorie, ordonate după colecție, material și apropierea de preț.</p>
-          <div className="products-grid">{similar.map((item) => <ProductCard key={item.id} product={item} />)}</div>
-        </section> : null}
-        {complementary.length > 0 ? <section className="recommendation-section">
-          <p className="eyebrow">COMPLETEAZĂ-ȚI SELECȚIA</p>
-          <h2>{hasCompanions ? "Completează confortul casei" : "Descoperă și alte colecții"}</h2>
-          <p className="recommendation-intro">{hasCompanions ? "Produse din categorii complementare. Verifică dimensiunile și nuanțele pentru combinația dorită." : "O selecție din celelalte categorii, pentru mai multă inspirație."}</p>
-          <div className="products-grid">{complementary.map((item) => <ProductCard key={item.id} product={item} />)}</div>
-        </section> : null}
+
       </section>
 
       </CatalogLayout>
