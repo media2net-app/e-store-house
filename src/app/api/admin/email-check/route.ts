@@ -1,6 +1,6 @@
 import { createHash, timingSafeEqual } from "node:crypto";
 import { NextResponse } from "next/server";
-import { verifySmtpConnection } from "@/lib/order-email";
+import { sendPreviewEmailTest, verifySmtpConnection } from "@/lib/order-email";
 
 export const runtime = "nodejs";
 
@@ -16,6 +16,8 @@ export async function POST(request: Request) {
   }
   try {
     await verifySmtpConnection();
+    const body = await request.json().catch(() => ({})) as { sendTest?: boolean };
+    if (body.sendTest === true) await sendPreviewEmailTest();
     return NextResponse.json({ ok: true }, { headers: { "Cache-Control": "no-store" } });
   } catch {
     return NextResponse.json({ error: "Conexiunea SMTP a eșuat. Verifică serverul și parola." }, { status: 503 });

@@ -2,6 +2,7 @@ import type { ComplaintRequest, StoreOrder, WithdrawalRequest } from "./orders";
 import { store } from "./store-info";
 import { formatLeiCents } from "./money";
 import nodemailer from "nodemailer";
+import { randomUUID } from "node:crypto";
 
 export function hasTransactionalEmail() {
   const port = Number(process.env.SMTP_PORT);
@@ -27,6 +28,16 @@ export async function verifySmtpConnection() {
   } finally {
     transport.close();
   }
+}
+
+export async function sendPreviewEmailTest() {
+  const id = randomUUID();
+  await send(
+    "orders@estorehouse.ro",
+    `TEST integrare email E-Store House — ${id}`,
+    `Acesta este un test al emailurilor din Preview. Nu există comandă, plată sau livrare.\n\nID test: ${id}`,
+    `preview-email-test-${id}`,
+  );
 }
 
 function merchantInbox() {
