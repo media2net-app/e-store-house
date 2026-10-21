@@ -1,6 +1,7 @@
 import { createSupabaseComplaint, createSupabaseOrder, createSupabaseWithdrawal, getSupabaseOrder,
   hasSupabaseStorage, listSupabaseComplaints, listSupabaseOrders, listSupabaseWithdrawals,
   markSupabasePaymentEmailSent, recordSupabasePayment, supabasePaymentEmailSent } from "./supabase-orders";
+import type { ShippingCarrier } from "./shipping";
 
 export type OrderStatus = "pending_payment" | "payment_failed" | "paid_review";
 
@@ -30,6 +31,7 @@ export type StoreOrder = {
   subtotalCents: number;
   discountCents: number;
   shippingCents: number;
+  shippingCarrier?: ShippingCarrier;
   totalCents: number;
   paymentId?: string;
 };

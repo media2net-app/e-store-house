@@ -4,12 +4,14 @@ import { quoteCart } from "@/lib/cart-quote";
 import { createPaymentFields, paymentCallbackUrl } from "@/lib/euplatesc";
 import { createOrder, getOrder, type StoreOrder } from "@/lib/orders";
 import { checkoutConfiguration } from "@/lib/checkout-config";
+import { quoteShipping } from "@/lib/shipping";
 
 export const runtime = "nodejs";
 
 type CheckoutInput = {
   items?: { productId?: number; quantity?: number }[];
   customer?: Record<string, unknown>;
+  carrier?: string;
   acceptedTerms?: boolean;
   intentId?: string;
 };
@@ -29,7 +31,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Plata cu cardul nu este încă disponibilă." }, { status: 503 });
   }
   const config = checkoutConfiguration();
-  if (!config.ready || config.shippingRon === null || !config.publicUrl) {
+  if (!config.ready || !config.publicUrl) {
     return NextResponse.json({ error: "Checkout-ul nu este configurat complet." }, { status: 503 });
   }
   if (new URL(request.url).origin !== config.publicUrl) {
@@ -46,6 +48,7 @@ export async function POST(request: Request) {
   try { input = await request.json() as CheckoutInput; }
   catch { return NextResponse.json({ error: "Cerere invalidă." }, { status: 400 }); }
   const customer = input.customer ?? {};
+  const selectedShipping = config.shippingOptions.find((option) => option.carrier === input.carrier);
   const firstName = text(customer.firstName, 80);
   const lastName = text(customer.lastName, 80);
   const email = text(customer.email, 120);
@@ -62,7 +65,7 @@ export async function POST(request: Request) {
   const billingPostalCode = separateBilling ? text(customer.billingPostalCode, 15) : postalCode;
   const billingCompany = text(customer.billingCompany, 160) || undefined;
   const billingCui = text(customer.billingCui, 24) || undefined;
-  if (!input.acceptedTerms || !firstName || !lastName || !email || !phone || !address || !city || !county || !postalCode
+  if (!input.acceptedTerms || !selectedShipping || !firstName || !lastName || !email || !phone || !address || !city || !county || !postalCode
       || !billingName || !billingAddress || !billingCity || !billingCounty || !billingPostalCode
       || typeof input.intentId !== "string" || !/^[0-9a-f-]{36}$/i.test(input.intentId)
       || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || !Array.isArray(input.items)
@@ -77,7 +80,7 @@ export async function POST(request: Request) {
     productId: line.productId, sku: line.sku, name: line.name,
     quantity: line.quantity, unitPriceCents: priceInCents(line.price),
   }));
-  const shippingCents = quote.totals.freeShipping ? 0 : priceInCents(config.shippingRon);
+  const shippingCents = quoteShipping(config.shippingOptions, input.carrier, quote.totals.freeShipping)!.cents;
   const totalCents = quote.totals.totalCents + shippingCents;
   if (totalCents < 1 || totalCents > 9_999_999) {
     return NextResponse.json({ error: "Valoarea comenzii este invalidă." }, { status: 400 });
@@ -93,7 +96,7 @@ export async function POST(request: Request) {
       billingName, billingAddress, billingCity, billingCounty, billingPostalCode,
       ...(separateBilling ? { billingCompany, billingCui } : {}) },
     items: lines, subtotalCents: quote.totals.subtotalCents,
-    discountCents: quote.totals.discountCents, shippingCents, totalCents,
+    discountCents: quote.totals.discountCents, shippingCents, shippingCarrier: selectedShipping.carrier, totalCents,
   };
   const origin = config.publicUrl;
   const fields = createPaymentFields({

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { ComplaintRequest, StoreOrder, WithdrawalRequest } from "@/lib/orders";
 import { formatLeiCents } from "@/lib/money";
+import { shippingCarrierLabels } from "@/lib/shipping";
 
 export default function AdminOrdersPage() {
   const [token, setToken] = useState("");
@@ -130,6 +131,7 @@ export default function AdminOrdersPage() {
       <h2 className="font-semibold">{order.testOrder ? "TEST — NU EXPEDIAȚI · " : ""}Comanda {order.id} · {order.status === "paid_review" ? "Plătită — verifică permisiunea de livrare în EuPlătesc" : order.status === "payment_failed" ? "Plată eșuată" : "În așteptarea plății"}</h2>
       <p className="mt-2 text-sm">{order.customer.firstName} {order.customer.lastName} · {order.customer.email} · {order.customer.phone}</p>
       <p className="text-sm">{order.customer.address}, {order.customer.city}, {order.customer.county}, {order.customer.postalCode}</p>
+      <p className="text-sm">Curier: {order.shippingCarrier ? shippingCarrierLabels[order.shippingCarrier] : "de confirmat"} · Transport: {formatLeiCents(order.shippingCents)} lei</p>
       <ul className="mt-3 text-sm">{order.items.map((item) => <li key={item.productId}>{item.quantity} × {item.name} · {formatLeiCents(item.unitPriceCents)} lei</li>)}</ul>
       <p className="mt-2 font-medium">Total: {formatLeiCents(order.totalCents)} lei</p>
       {order.status === "pending_payment" && <button onClick={() => void checkPayment(order.id)} className="mt-3 rounded-lg border border-[#3b2d24] px-3 py-2">Verifică plata la EuPlătesc</button>}

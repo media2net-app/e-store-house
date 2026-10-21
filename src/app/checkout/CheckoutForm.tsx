@@ -6,6 +6,7 @@ import { useCart } from "@/components/cart/CartProvider";
 import { formatProductPrice } from "@/lib/products";
 import { cartOffers } from "@/lib/cart-offers";
 import { store } from "@/lib/store-info";
+import { quoteShipping, type ShippingCarrier, type ShippingOption } from "@/lib/shipping";
 
 const fields = [
   ["firstName", "Prenume"], ["lastName", "Nume"], ["email", "E-mail"],
@@ -13,13 +14,16 @@ const fields = [
   ["city", "Localitate"], ["county", "Județ"], ["postalCode", "Cod poștal"],
 ] as const;
 
-export default function CheckoutForm({ shippingRon, enabled }: { shippingRon: number | null; enabled: boolean }) {
+export default function CheckoutForm({ shippingOptions, enabled }: { shippingOptions: ShippingOption[]; enabled: boolean }) {
   const { items } = useCart();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [separateBilling, setSeparateBilling] = useState(false);
+  const [carrier, setCarrier] = useState<ShippingCarrier | null>(shippingOptions[0]?.carrier ?? null);
   const totals = cartOffers(items);
-  const shippingCents = totals.freeShipping ? 0 : shippingRon === null ? null : Math.round(shippingRon * 100);
+  const shippingQuote = quoteShipping(shippingOptions, carrier, totals.freeShipping);
+  const selectedShipping = shippingQuote?.option;
+  const shippingCents = shippingQuote?.cents ?? null;
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -28,7 +32,7 @@ export default function CheckoutForm({ shippingRon, enabled }: { shippingRon: nu
     const customer = { ...Object.fromEntries(fields.map(([name]) => [name, String(data.get(name) ?? "")])),
       separateBilling, ...Object.fromEntries(["billingName", "billingAddress", "billingCity", "billingCounty", "billingPostalCode", "billingCompany", "billingCui"]
         .map((name) => [name, String(data.get(name) ?? "")])) };
-    const checkoutKey = JSON.stringify({ customer, items: items.map(({ productId, quantity }) => ({ productId, quantity })) });
+    const checkoutKey = JSON.stringify({ customer, carrier, items: items.map(({ productId, quantity }) => ({ productId, quantity })) });
     let intent: { checkoutKey: string; id: string } | null = null;
     try { intent = JSON.parse(sessionStorage.getItem("estore-checkout-intent") || "null"); } catch { /* make a new intent */ }
     if (!intent || intent.checkoutKey !== checkoutKey) {
@@ -39,7 +43,7 @@ export default function CheckoutForm({ shippingRon, enabled }: { shippingRon: nu
       const response = await fetch("/api/checkout", {
         method: "POST", headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          customer, acceptedTerms: data.get("acceptedTerms") === "on", intentId: intent.id,
+          customer, carrier, acceptedTerms: data.get("acceptedTerms") === "on", intentId: intent.id,
           items: items.map((item) => ({ productId: item.productId, quantity: item.quantity })),
         }),
       });
@@ -73,6 +77,13 @@ export default function CheckoutForm({ shippingRon, enabled }: { shippingRon: nu
               autoComplete={name === "email" ? "email" : name === "phone" ? "tel" : undefined} required maxLength={name === "address" ? 200 : 120} />
           </label>)}
         </div>
+        <fieldset className="rounded-xl border border-[#c9bda9] p-4">
+          <legend className="px-1 text-sm font-semibold">Alege curierul</legend>
+          {shippingOptions.length ? shippingOptions.map((option) => <label key={option.carrier} className="mt-2 flex items-center justify-between gap-3 text-sm">
+            <span className="flex items-center gap-2"><input type="radio" name="carrier" value={option.carrier} checked={carrier === option.carrier} onChange={() => setCarrier(option.carrier)} required />{option.label}</span>
+            <span>{totals.freeShipping ? "Gratuit" : formatProductPrice(option.priceRon, "RON")}</span>
+          </label>) : <p className="text-sm">Opțiunile de livrare sunt în curs de stabilire.</p>}
+        </fieldset>
         <label className="flex items-center gap-3 text-sm"><input type="checkbox" checked={separateBilling} onChange={(event) => setSeparateBilling(event.target.checked)} /> Datele de facturare diferă de cele de livrare</label>
         {separateBilling ? <div className="grid gap-4 rounded-xl border border-[#c9bda9] p-4 sm:grid-cols-2">
           {[["billingName", "Nume pentru facturare"], ["billingAddress", "Adresă de facturare"], ["billingCity", "Localitate"], ["billingCounty", "Județ"], ["billingPostalCode", "Cod poștal"], ["billingCompany", "Denumire firmă (opțional)"], ["billingCui", "CUI (opțional)"]].map(([name, label]) => <label key={name} className="block text-sm font-medium">{label}<input name={name} required={!name.endsWith("Company") && !name.endsWith("Cui")} maxLength={name === "billingCui" ? 24 : 200} className="mt-1 w-full rounded-lg border border-[#c9bda9] bg-white px-3 py-3" /></label>)}
@@ -93,7 +104,7 @@ export default function CheckoutForm({ shippingRon, enabled }: { shippingRon: nu
         <p className="mt-5 border-t border-[#c9bda9] pt-3 text-sm">Produse: {formatProductPrice(totals.subtotalCents / 100, "RON")}</p>
         {totals.discountCents ? <p className="mt-1 text-sm">Reducere −10%: −{formatProductPrice(totals.discountCents / 100, "RON")}</p> : null}
         {store.taxNotice ? <p className="mt-1 text-xs">{store.taxNotice}</p> : null}
-        <p className="mt-1 text-sm">Transport: {shippingCents === null ? "în curs de stabilire" : shippingCents === 0 ? "Gratuit" : formatProductPrice(shippingCents / 100, "RON")}</p>
+        <p className="mt-1 text-sm">Transport{selectedShipping ? ` prin ${selectedShipping.label}` : ""}: {shippingCents === null ? "în curs de stabilire" : shippingCents === 0 ? "Gratuit" : formatProductPrice(shippingCents / 100, "RON")}</p>
         {store.deliveryEstimate ? <p className="mt-1 text-sm">Termen estimat de livrare: {store.deliveryEstimate}</p> : null}
         {shippingCents !== null && <p className="mt-3 border-t border-[#c9bda9] pt-3 text-lg font-semibold">Total de plată: {formatProductPrice((totals.totalCents + shippingCents) / 100, "RON")}</p>}
       </aside>
