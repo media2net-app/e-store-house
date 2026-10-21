@@ -1,6 +1,7 @@
 "use client";
 
 import { createContext, useContext, useState } from "react";
+import Link from "next/link";
 import type { Product } from "@/lib/products";
 import {
   formatProductPrice,
@@ -183,6 +184,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
                     </p>
                   ))}
                 </div>
+                <Link href="/checkout" onClick={() => setIsOpen(false)} className="block rounded-full bg-[#3b2d24] px-5 py-3 text-center text-sm font-semibold text-white">Finalizează comanda</Link>
               </div>
             )}
         </aside>
