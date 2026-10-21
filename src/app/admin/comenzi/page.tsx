@@ -30,7 +30,10 @@ export default function AdminOrdersPage() {
       const response = await fetch("/api/admin/euplatesc-test", {
         method: "POST", headers: { Authorization: `Bearer ${token}` }, cache: "no-store",
       });
-      if (!response.ok) throw new Error("Testul privat nu este disponibil încă.");
+      if (!response.ok) {
+        const failure = await response.json().catch(() => ({})) as { error?: string };
+        throw new Error(failure.error || "Testul privat nu este disponibil încă.");
+      }
       const body = await response.json() as { url: string; fields: Record<string, string> };
       if (body.url !== "https://secure.euplatesc.ro/tdsprocess/tranzactd.php") throw new Error("Destinație de plată invalidă.");
       const form = document.createElement("form");

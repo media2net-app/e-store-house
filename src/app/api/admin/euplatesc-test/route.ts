@@ -22,10 +22,18 @@ export async function POST(request: Request) {
   const origin = process.env.STORE_PUBLIC_URL;
   const merchantId = process.env.EU_PLATESC_MERCHANT_ID;
   const key = process.env.EU_PLATESC_KEY;
-  if (process.env.VERCEL_ENV !== "preview" || process.env.EU_PLATESC_MODE !== "test"
-      || !origin || new URL(request.url).origin !== origin || !merchantId || !key
-      || !hasRedisStorage() || !hasTransactionalEmail()) {
-    return NextResponse.json({ error: "Testul privat nu este configurat complet." }, { status: 503 });
+  const missing = [
+    process.env.VERCEL_ENV === "preview" ? null : "mediu Preview",
+    process.env.EU_PLATESC_MODE === "test" ? null : "mod EuPlătesc test",
+    origin ? null : "STORE_PUBLIC_URL",
+    origin && new URL(request.url).origin === origin ? null : "originea STORE_PUBLIC_URL",
+    merchantId ? null : "identificator comerciant",
+    key ? null : "cheie EuPlătesc",
+    hasRedisStorage() ? null : "Redis",
+    hasTransactionalEmail() ? null : "email tranzacțional",
+  ].filter(Boolean);
+  if (missing.length > 0 || !origin || !merchantId || !key) {
+    return NextResponse.json({ error: `Testul privat nu este configurat complet: ${missing.join(", ")}.` }, { status: 503 });
   }
 
   const email = process.env.ORDER_NOTIFICATION_EMAIL || "orders@estorehouse.ro";
