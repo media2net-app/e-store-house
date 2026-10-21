@@ -14,6 +14,7 @@ Configure these **server-only** environment variables in the Vercel project (nev
 | `STORE_PUBLIC_URL` | `https://www.estorehouse.ro` (exact public origin, without trailing slash) |
 | `STORE_SHIPPING_RON` | Confirmed customer-facing flat courier fee in RON; `0` only if shipping is truly free |
 | `STORE_SUPPORT_PHONE` | Commercial customer support telephone shown on the website |
+| `NEXT_PUBLIC_STORE_SUPPORT_EMAIL` | Customer-facing mailbox for contact, order and withdrawal notifications; set at build time after confirming the address |
 | `STORE_ADMIN_TOKEN` | New long random secret for `/admin/comenzi` |
 | `RESEND_API_KEY` | Transactional email API key; sending domain must be verified |
 | `STORE_MAIL_FROM` | Verified sender such as `E-Store House <comenzi@estorehouse.ro>` |

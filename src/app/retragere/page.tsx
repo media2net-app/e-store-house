@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import { store } from "@/lib/store-info";
 
 export default function WithdrawalPage() {
   const [pending, setPending] = useState(false);
@@ -36,6 +37,6 @@ export default function WithdrawalPage() {
       {error && <p role="alert" className="rounded-lg bg-red-50 p-3 text-sm text-red-800">{error}</p>}
       <button disabled={pending} className="rounded-full bg-[#3b2d24] px-5 py-3 text-white disabled:opacity-50">{pending ? "Se transmite..." : "Confirmați retragerea"}</button>
     </form>}
-    <p className="mt-7 text-sm">Poți comunica retragerea și printr-o declarație clară trimisă la <a className="underline" href="mailto:estorehouse2025@yahoo.com">estorehouse2025@yahoo.com</a>.</p>
+    <p className="mt-7 text-sm">Poți comunica retragerea și printr-o declarație clară trimisă la <a className="underline" href={`mailto:${store.email}`}>{store.email}</a>.</p>
   </main>;
 }

@@ -8,6 +8,7 @@ import ProductPurchaseActions from "@/components/product/ProductPurchaseActions"
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import TrustBar from "@/components/layout/TrustBar";
+import { store } from "@/lib/store-info";
 import {
   allProducts,
   formatProductPrice,
@@ -140,12 +141,12 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               <div className="rounded-xl border border-[#e5d9c7] bg-[#fcf8f0] p-4">
                 <p className="text-sm font-semibold text-[#3b2d24]">Vândut de E-Store House</p>
                 <p className="mt-2 text-sm text-[#3b2d24]/85">Pentru întrebări despre produs sau comandă, contactează echipa E-Store House.</p>
-                <a className="mt-2 block break-all text-sm underline" href="mailto:estorehouse2025@yahoo.com">estorehouse2025@yahoo.com</a>
+                <a className="mt-2 block break-all text-sm underline" href={`mailto:${store.email}`}>{store.email}</a>
               </div>
               <div className="rounded-xl border border-[#e5d9c7] bg-[#fcf8f0] p-4">
                 <p className="text-sm font-semibold text-[#3b2d24]">Livrare E-Store House</p>
                 <p className="mt-2 text-sm text-[#3b2d24]/85">
-                  Livrarea este gestionată de E-Store House. Termenul și costul livrării se confirmă la preluarea comenzii.
+                  Livrarea este gestionată de E-Store House. Costul transportului este afișat înainte de plata comenzii.
                 </p>
               </div>
             </div>

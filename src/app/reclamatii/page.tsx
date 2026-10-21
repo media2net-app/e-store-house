@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import { store } from "@/lib/store-info";
 
 export default function ComplaintsPage() {
   const [message, setMessage] = useState("");
@@ -9,7 +10,7 @@ export default function ComplaintsPage() {
     const data = new FormData(event.currentTarget);
     const value = (key: string) => String(data.get(key) ?? "").trim();
     const body = `Bună ziua,\n\nVă rog să analizați reclamația mea pentru comanda ${value("order")}.\n\nProblema: ${value("issue")}\n\nNume: ${value("name")}\nE-mail: ${value("email")}\nTelefon: ${value("phone")}\n\nVă rog să îmi răspundeți la această adresă de e-mail.`;
-    setMessage(`mailto:estorehouse2025@yahoo.com?subject=${encodeURIComponent(`Reclamație comandă ${value("order")}`)}&body=${encodeURIComponent(body)}`);
+    setMessage(`mailto:${store.email}?subject=${encodeURIComponent(`Reclamație comandă ${value("order")}`)}&body=${encodeURIComponent(body)}`);
   }
   return <main className="mx-auto max-w-2xl px-6 py-12 text-[#3b2d24]">
     <h1 className="text-3xl font-semibold">Reclamație către magazin</h1>

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { store } from "@/lib/store-info";
 
 export default function PaymentResultPage() {
   const [status, setStatus] = useState("Se verifică plata...");
@@ -37,7 +38,7 @@ export default function PaymentResultPage() {
   return <main className="mx-auto max-w-2xl px-6 py-20 text-[#3b2d24]">
     <h1 className="text-3xl font-semibold">Statusul comenzii</h1>
     <p className="mt-6" role="status">{status}</p>
-    <p className="mt-4 text-sm">Pentru ajutor, scrie la <a className="underline" href="mailto:estorehouse2025@yahoo.com">estorehouse2025@yahoo.com</a>.</p>
+    <p className="mt-4 text-sm">Pentru ajutor, scrie la <a className="underline" href={`mailto:${store.email}`}>{store.email}</a>.</p>
     <Link className="mt-8 inline-block underline" href="/">Înapoi la magazin</Link>
   </main>;
 }
