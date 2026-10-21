@@ -1,5 +1,5 @@
 const values = [
-  { title: "Texturi de descoperit", text: "Bumbac, percale și ranforce. Alege materialul care îți transformă odihna într-un ritual." },
+  { title: "Texturi de descoperit", text: "Textile alese pentru casa ta. Consultă compoziția fiecărui produs și alege materialul potrivit." },
   { title: "Spațiul tău, stilul tău", text: "De la nuanțe liniștite la imprimeuri expresive, fiecare dormitor are propria poveste." },
   { title: "Ales pentru tine", text: "Dimensiuni și variante explicate clar, pentru a găsi setul potrivit casei tale." },
 ];
