@@ -1,0 +1,7 @@
+import LegalLayout from "@/components/layout/LegalLayout";
+export const metadata = { title: "Cookie-uri și stocarea în browser" };
+export default function Page() { return <LegalLayout><h1>Cookie-uri și stocarea în browser</h1>
+<section><h2>Ce folosește magazinul</h2><p>În versiunea actuală, magazinul nu integrează instrumente de publicitate sau analiză a audienței care să instaleze cookie-uri opționale. Coșul este ținut temporar în memoria paginii, pe durata navigării; nu este salvat de magazin în localStorage sau într-un cookie de coș. La reîncărcarea completă a paginii, coșul se poate goli.</p><p>Serviciile de găzduire și securitate pot prelucra date tehnice strict necesare pentru afișarea și protejarea site-ului. Nu activăm instrumente opționale de urmărire pe baza simplei continuări a navigării.</p></section>
+<section><h2>Legături către alte site-uri</h2><p>ANPC, SAL și alte pagini externe au propriile politici. Accesarea lor are loc numai dacă alegi legătura respectivă. Unele imagini de produs pot fi încărcate de la furnizori externi, care pot primi datele tehnice ale conexiunii.</p></section>
+<section><h2>Controlul din browser</h2><p>Poți gestiona cookie-urile și datele site-urilor în setările browserului. Dacă vor fi introduse instrumente opționale de analiză sau marketing, acestea vor necesita o alegere separată, cu posibilitatea refuzului și retragerii acordului.</p></section>
+</LegalLayout>; }
