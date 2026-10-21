@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { createHmac } from "node:crypto";
-import { createPaymentFields, paymentCallbackUrl, verifyPaymentResponse } from "../src/lib/euplatesc.ts";
+import { createPaymentFields, createStatusQuery, paymentCallbackUrl, verifyPaymentResponse } from "../src/lib/euplatesc.ts";
 
 const key = "00112233445566778899AABBCCDDEEFF";
 const merchantId = "testaccount";
@@ -12,6 +12,13 @@ test("Preview callback includes only its deployment-protection bypass", () => {
   assert.equal(paymentCallbackUrl(origin, true, "abc+/="),
     `${origin}/api/euplatesc/callback?x-vercel-protection-bypass=abc%2B%2F%3D`);
   assert.throws(() => paymentCallbackUrl(origin, true), /bypass/);
+});
+
+test("transaction status query signs the documented fields", () => {
+  const query = createStatusQuery("abc123", merchantId, key, "20261022000000", "0123456789abcdef0123456789abcdef");
+  const fields = ["method", "mid", "invoice_id", "timestamp", "nonce"];
+  const bytes = fields.map((name) => `${Buffer.byteLength(query[name])}${query[name]}`).join("");
+  assert.equal(query.fp_hash, createHmac("md5", Buffer.from(key, "hex")).update(bytes).digest("hex").toUpperCase());
 });
 
 test("checkout signs only the prescribed EuPlătesc fields in their order", () => {

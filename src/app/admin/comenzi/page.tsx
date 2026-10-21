@@ -14,6 +14,7 @@ export default function AdminOrdersPage() {
   const [checkingEmail, setCheckingEmail] = useState(false);
   const [sendingEmailTest, setSendingEmailTest] = useState(false);
   const [emailStatus, setEmailStatus] = useState("");
+  const [paymentChecks, setPaymentChecks] = useState<Record<string, string>>({});
   async function loadOrders() {
     setError("");
     const response = await fetch("/api/admin/orders", { headers: { Authorization: `Bearer ${token}` }, cache: "no-store" });
@@ -84,6 +85,24 @@ export default function AdminOrdersPage() {
       setSendingEmailTest(false);
     }
   }
+  async function checkPayment(orderId: string) {
+    setPaymentChecks((current) => ({ ...current, [orderId]: "Se verifică la EuPlătesc…" }));
+    try {
+      const response = await fetch("/api/admin/payment-status", {
+        method: "POST", headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+        body: JSON.stringify({ orderId }), cache: "no-store",
+      });
+      if (!response.ok) throw new Error();
+      const body = await response.json() as { expectedAmount: string; transactions: { action: string; amount?: string; captured?: string; refunded?: string }[] };
+      const approved = body.transactions.some((item) => item.action === "0" && item.amount === body.expectedAmount
+        && item.refunded !== "1");
+      setPaymentChecks((current) => ({ ...current, [orderId]: approved
+        ? "EuPlătesc confirmă plata. Comanda nu este încă reconciliată în magazin."
+        : `Nu există o plată aprobată, nerambursată, de ${body.expectedAmount} lei pentru această comandă.` }));
+    } catch {
+      setPaymentChecks((current) => ({ ...current, [orderId]: "Statusul nu a putut fi verificat la EuPlătesc." }));
+    }
+  }
   return <main className="mx-auto max-w-5xl px-6 py-12 text-[#3b2d24]">
     <h1 className="text-3xl font-semibold">Comenzi magazin</h1>
     <p className="mt-3 text-sm">Introdu cheia de administrare. Nu este memorată în browser.</p>
@@ -97,6 +116,8 @@ export default function AdminOrdersPage() {
       <p className="text-sm">{order.customer.address}, {order.customer.city}, {order.customer.county}, {order.customer.postalCode}</p>
       <ul className="mt-3 text-sm">{order.items.map((item) => <li key={item.productId}>{item.quantity} × {item.name} · {formatLeiCents(item.unitPriceCents)} lei</li>)}</ul>
       <p className="mt-2 font-medium">Total: {formatLeiCents(order.totalCents)} lei</p>
+      {order.status === "pending_payment" && <button onClick={() => void checkPayment(order.id)} className="mt-3 rounded-lg border border-[#3b2d24] px-3 py-2">Verifică plata la EuPlătesc</button>}
+      {paymentChecks[order.id] && <p className="mt-2" role="status">{paymentChecks[order.id]}</p>}
     </article>)}</div>}
   </main>;
 }
