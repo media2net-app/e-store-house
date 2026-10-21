@@ -18,7 +18,9 @@ export async function POST(request: Request) {
     if (!order || fields.curr !== "RON" || fields.amount !== (order.totalCents / 100).toFixed(2)) {
       return new Response("Unknown order", { status: 400 });
     }
-    await recordPayment(order.id, fields.action === "0" ? "0" : "failed", fields.ep_id);
+    if (!await recordPayment(order.id, fields.action === "0" ? "0" : "failed", fields.ep_id)) {
+      return new Response("Retry", { status: 503 });
+    }
     if (fields.action === "0" && !await paymentEmailSent(order.id)) {
       await sendPaymentConfirmation(order);
       await markPaymentEmailSent(order.id);
