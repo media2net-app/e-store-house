@@ -56,7 +56,7 @@ export function recommendations(product: Product, catalog: Product[]) {
   const ranked = [...candidates].sort((a, b) => score(product, b) - score(product, a) || a.id - b.id);
   const similar = ranked.filter((item) => root(item) === root(product)).slice(0, 3);
   const relatedRoots = companions[root(product)] ?? [];
-  const complementary = diverseProducts(ranked.filter((item) => !similar.some((p) => p.id === item.id)
-    && (relatedRoots.length ? relatedRoots.includes(root(item)) : root(item) !== root(product))), 4);
-  return { similar, complementary, hasCompanions: relatedRoots.length > 0 };
+  const companionCandidates = ranked.filter((item) => relatedRoots.includes(root(item)) && !similar.some((p) => p.id === item.id));
+  const complementary = diverseProducts(companionCandidates.length ? companionCandidates : ranked.filter((item) => root(item) !== root(product) && !similar.some((p) => p.id === item.id)), 4);
+  return { similar, complementary, hasCompanions: companionCandidates.length > 0 };
 }

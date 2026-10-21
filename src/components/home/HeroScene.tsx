@@ -3,7 +3,7 @@
 import { useState, type PointerEvent } from "react";
 import Link from "next/link";
 
-export default function HeroScene({ href, image }: { href: string; image: string }) {
+export default function HeroScene({ href, image, name }: { href: string; image: string; name: string }) {
   const [tilt, setTilt] = useState({ x: 0, y: 0 });
   function move(event: PointerEvent<HTMLDivElement>) {
     if (event.pointerType !== "mouse" || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -14,10 +14,10 @@ export default function HeroScene({ href, image }: { href: string; image: string
     <div className="scene-halo" aria-hidden="true" />
     <div className="scene-outline" aria-hidden="true" />
     <div className="scene-frame" style={{ transform: `rotateX(${tilt.x}deg) rotateY(${tilt.y - 4}deg) rotateZ(1deg)` }}>
-      <img src={image} alt="Lenjerie în nuanțe ivory, cu textură fină și detalii decorative" className="scene-photo" fetchPriority="high" />
+      <img src={image} alt={name} className="scene-photo" fetchPriority="high" />
       <Link href={href} className="scene-caption"><span><small>ÎN CENTRUL ATENȚIEI</small><strong>Frumusețea detaliilor.</strong></span><span aria-hidden="true">↗</span></Link>
     </div>
-    <div className="scene-seal"><span>ATELIER DE CONFORT</span><strong>100%</strong><span>BUMBAC</span></div>
+    <div className="scene-seal"><span>SELECȚIA NOASTRĂ</span><strong>E-STORE</strong><span>HOUSE</span></div>
     <span className="scene-note">O invitație la tihnă.</span>
   </div>;
 }

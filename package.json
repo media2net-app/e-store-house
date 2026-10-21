@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run check:catalog && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check:catalog": "node scripts/validate-catalog.mjs"
   },
   "dependencies": {
     "next": "16.2.4",
