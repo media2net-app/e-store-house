@@ -1,0 +1,48 @@
+import "server-only";
+
+import { cartOffers } from "@/lib/cart-offers";
+import { allProducts, type Product } from "@/lib/products";
+
+export type RequestedCartLine = { productId: number; quantity: number };
+export type QuotedCartLine = {
+  productId: number;
+  sku?: string;
+  bundleComponents?: Product["bundleComponents"];
+  name: string;
+  price: number;
+  currency: string;
+  image: string;
+  quantity: number;
+};
+
+export function quoteCart(requested: unknown) {
+  if (!Array.isArray(requested) || requested.length === 0 || requested.length > 30) {
+    throw new Error("Coșul este gol sau prea mare.");
+  }
+  const seen = new Set<number>();
+  const lines: QuotedCartLine[] = requested.map((entry: unknown) => {
+    if (!entry || typeof entry !== "object") throw new Error("Produs invalid în coș.");
+    const { productId, quantity } = entry as Partial<RequestedCartLine>;
+    if (!Number.isSafeInteger(productId) || !Number.isSafeInteger(quantity)
+      || !productId || !quantity || quantity < 1 || quantity > 20 || seen.has(productId)) {
+      throw new Error("Produs sau cantitate invalidă în coș.");
+    }
+    seen.add(productId);
+    const product = allProducts.find((item) => item.id === productId || item.variants?.some((variant) => variant.id === productId));
+    const variant = product?.variants?.find((item) => item.id === productId);
+    if (!product || product.inStock === false || (product.variants?.length && !variant)
+      || variant?.inStock === false || !["RON", "Lei"].includes(product.currency)) {
+      throw new Error("Un produs din coș nu mai este disponibil.");
+    }
+    const price = variant?.price ?? product.price;
+    if (!Number.isFinite(price) || price <= 0) throw new Error("Prețul unui produs nu este valid.");
+    return {
+      productId, quantity, price, currency: product.currency,
+      sku: variant?.sku ?? product.sku,
+      bundleComponents: variant?.bundleComponents ?? product.bundleComponents,
+      name: variant ? `${product.name} — ${variant.name}` : product.name,
+      image: variant?.images?.[0] ?? product.image,
+    };
+  });
+  return { lines, totals: cartOffers(lines) };
+}

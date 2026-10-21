@@ -14,6 +14,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.estorehouse.ro"),
   title: {
     default: "E-Store House — Arta de a te simți acasă",
     template: "%s | E-Store House",
