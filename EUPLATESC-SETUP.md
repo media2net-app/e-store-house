@@ -2,6 +2,8 @@
 
 This branch prepares a signed EuPlătesc redirect, verified server callback, order storage, customer/merchant email, order-status page, and private order list. **Payment is disabled by default.** The public catalog has 37 reviewed models; 815 held IDs cannot be exposed just to test checkout. The test account was reported to permit transactions of at most 1 RON, below current product prices. Do not create a public 1 RON product or place a real order to work around that limit.
 
+EuPlătesc confirmed by email on 24 June 2026 that the merchant account was opened and its access/integration instructions were sent separately. On 29 June they confirmed receipt of the signed contract and said live activation follows payment integration and publication of the merchant's legal identity and contacts, consumer-authority complaint path, complaint handling, delivery/return policy, and terms accepted at checkout. The branch includes these pages and a required terms checkbox, but the final public email, phone, shipping terms, VAT status, and an end-to-end payment check still need confirmation. Do not describe the account as live until EuPlătesc confirms it.
+
 Confirm these values in the hosting project. Keep signing keys, database write keys, SMTP passwords and admin tokens server-only; never commit them or add `NEXT_PUBLIC_` to their names:
 
 | Variable | Purpose |
@@ -11,13 +13,13 @@ Confirm these values in the hosting project. Keep signing keys, database write k
 | `NEXT_PUBLIC_SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` | Existing public database URL and server-only write key; apply `supabase/migrations/20261021_estore_checkout.sql` to the matching Supabase project first |
 | `STORE_PUBLIC_URL` | Exact HTTPS origin for payment callbacks |
 | `STORE_SHIPPING_RON` | Confirmed shipping fee under 900 lei, allowing two decimals |
-| `STORE_SUPPORT_PHONE` | Confirmed customer support number |
+| `NEXT_PUBLIC_STORE_SUPPORT_PHONE` | Confirmed customer support number displayed to customers |
 | `STORE_ADMIN_TOKEN` | Long random secret for the private order/request view and intent IDs |
 | `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM` | Existing SMTP service, subject to a real connection/delivery check |
 | `ORDER_NOTIFICATION_EMAIL` | Existing business inbox for paid orders and customer requests |
 | `STORE_CHECKOUT_ENABLED` | `true` only after all checks below |
 
-Customer-facing build-time values also need verification: `NEXT_PUBLIC_STORE_SUPPORT_EMAIL`, `NEXT_PUBLIC_STORE_VAT_STATUS` (`included` or `not_registered`), and `NEXT_PUBLIC_STORE_DELIVERY_ESTIMATE`. Accounting must confirm VAT status. The shipping fee and timeframe must come from actual Sameday terms. A zero fee must mean genuinely free shipping under the threshold.
+Customer-facing build-time values also need verification: `NEXT_PUBLIC_STORE_SUPPORT_EMAIL`, `NEXT_PUBLIC_STORE_SHIPPING_DESCRIPTION` (the same confirmed fee shown in checkout), `NEXT_PUBLIC_STORE_VAT_STATUS` (`included` or `not_registered`), and `NEXT_PUBLIC_STORE_DELIVERY_ESTIMATE`. Accounting must confirm VAT status. The shipping fee and timeframe must come from actual Sameday terms. A zero fee must mean genuinely free shipping under the threshold.
 
 Activation checklist:
 

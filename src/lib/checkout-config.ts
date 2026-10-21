@@ -14,8 +14,9 @@ export function checkoutConfiguration() {
     && (hasSupabaseStorage() || !!process.env.UPSTASH_REDIS_REST_URL && !!process.env.UPSTASH_REDIS_REST_TOKEN)
     && hasTransactionalEmail()
     && !!process.env.STORE_ADMIN_TOKEN
-    && !!process.env.STORE_SUPPORT_PHONE
+    && !!process.env.NEXT_PUBLIC_STORE_SUPPORT_PHONE?.trim()
     && !!process.env.NEXT_PUBLIC_STORE_SUPPORT_EMAIL?.trim()
+    && !!process.env.NEXT_PUBLIC_STORE_SHIPPING_DESCRIPTION?.trim()
     && ["included", "not_registered"].includes(process.env.NEXT_PUBLIC_STORE_VAT_STATUS || "")
     && !!process.env.NEXT_PUBLIC_STORE_DELIVERY_ESTIMATE?.trim()
     && Number.isFinite(shippingRon) && shippingRon >= 0
