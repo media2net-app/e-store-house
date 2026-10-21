@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import type { StoreOrder, WithdrawalRequest } from "@/lib/orders";
+import { formatLeiCents } from "@/lib/money";
 
 export default function AdminOrdersPage() {
   const [token, setToken] = useState("");
@@ -25,8 +26,8 @@ export default function AdminOrdersPage() {
       <h2 className="font-semibold">Comanda {order.id} · {order.status === "paid_review" ? "Plătită — verifică permisiunea de livrare în EuPlătesc" : order.status === "payment_failed" ? "Plată eșuată" : "În așteptarea plății"}</h2>
       <p className="mt-2 text-sm">{order.customer.firstName} {order.customer.lastName} · {order.customer.email} · {order.customer.phone}</p>
       <p className="text-sm">{order.customer.address}, {order.customer.city}, {order.customer.county}, {order.customer.postalCode}</p>
-      <ul className="mt-3 text-sm">{order.items.map((item) => <li key={item.productId}>{item.quantity} × {item.name} · {(item.unitPriceCents / 100).toFixed(2)} lei</li>)}</ul>
-      <p className="mt-2 font-medium">Total: {(order.totalCents / 100).toFixed(2)} lei</p>
+      <ul className="mt-3 text-sm">{order.items.map((item) => <li key={item.productId}>{item.quantity} × {item.name} · {formatLeiCents(item.unitPriceCents)} lei</li>)}</ul>
+      <p className="mt-2 font-medium">Total: {formatLeiCents(order.totalCents)} lei</p>
     </article>)}</div>}
   </main>;
 }

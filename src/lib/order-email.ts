@@ -1,5 +1,6 @@
 import type { StoreOrder, WithdrawalRequest } from "./orders";
 import { store } from "./store-info";
+import { formatLeiCents } from "./money";
 
 async function send(to: string, subject: string, body: string, idempotencyKey: string) {
   const apiKey = process.env.RESEND_API_KEY;
@@ -19,12 +20,12 @@ async function send(to: string, subject: string, body: string, idempotencyKey: s
 
 export async function sendPaymentConfirmation(order: StoreOrder) {
   const lines = order.items.map((item) =>
-    `${item.quantity} × ${item.name}: ${(item.quantity * item.unitPriceCents / 100).toFixed(2)} lei`,
+    `${item.quantity} × ${item.name}: ${formatLeiCents(item.quantity * item.unitPriceCents)} lei`,
   ).join("\n");
-  const total = (order.totalCents / 100).toFixed(2);
+  const total = formatLeiCents(order.totalCents);
   const base = process.env.STORE_PUBLIC_URL;
-  const customerText = `Bună ziua, ${order.customer.firstName},\n\nPlata pentru comanda ${order.id} a fost confirmată.\n\n${lines}\nTransport: ${(order.shippingCents / 100).toFixed(2)} lei\nTotal: ${total} lei\n\nVom verifica tranzacția în EuPlătesc înainte de expediere. Vă vom contacta dacă sunt necesare clarificări.\n\nLivrare și retur: ${base}/livrare-retur\nTermeni și condiții: ${base}/termeni-si-conditii\nContact: ${store.email}\n\nE-Store House`;
-  const merchantText = `Comandă plătită ${order.id}\n\n${lines}\nTransport: ${(order.shippingCents / 100).toFixed(2)} lei\nTotal: ${total} lei\n\nClient: ${order.customer.firstName} ${order.customer.lastName}\nE-mail: ${order.customer.email}\nTelefon: ${order.customer.phone}\nAdresă: ${order.customer.address}, ${order.customer.city}, ${order.customer.county}, ${order.customer.postalCode}\n\nVerifică statusul verde „Livrare permisă” în EuPlătesc înainte de expediere.\nComenzi: ${base}/admin/comenzi`;
+  const customerText = `Bună ziua, ${order.customer.firstName},\n\nPlata pentru comanda ${order.id} a fost confirmată.\n\n${lines}\nTransport: ${formatLeiCents(order.shippingCents)} lei\nTotal: ${total} lei\n\nVom verifica tranzacția în EuPlătesc înainte de expediere. Vă vom contacta dacă sunt necesare clarificări.\n\nLivrare și retur: ${base}/livrare-retur\nTermeni și condiții: ${base}/termeni-si-conditii\nContact: ${store.email}\n\nE-Store House`;
+  const merchantText = `Comandă plătită ${order.id}\n\n${lines}\nTransport: ${formatLeiCents(order.shippingCents)} lei\nTotal: ${total} lei\n\nClient: ${order.customer.firstName} ${order.customer.lastName}\nE-mail: ${order.customer.email}\nTelefon: ${order.customer.phone}\nAdresă: ${order.customer.address}, ${order.customer.city}, ${order.customer.county}, ${order.customer.postalCode}\n\nVerifică statusul verde „Livrare permisă” în EuPlătesc înainte de expediere.\nComenzi: ${base}/admin/comenzi`;
   await Promise.all([
     send(order.customer.email, `Confirmare plată E-Store House — ${order.id}`, customerText, `customer-paid-${order.id}`),
     send(store.email, `Comandă plătită ${order.id}`, merchantText, `merchant-paid-${order.id}`),

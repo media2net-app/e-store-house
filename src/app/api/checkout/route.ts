@@ -31,7 +31,7 @@ export async function POST(request: Request) {
   const shippingRon = Number(process.env.STORE_SHIPPING_RON);
   if (!merchantId || !key || !process.env.STORE_SUPPORT_PHONE || !process.env.STORE_ADMIN_TOKEN
       || !process.env.RESEND_API_KEY || !process.env.STORE_MAIL_FROM
-      || !Number.isFinite(shippingRon) || shippingRon < 0 || !process.env.STORE_SHIPPING_RON) {
+      || !Number.isInteger(shippingRon) || shippingRon < 0 || !process.env.STORE_SHIPPING_RON) {
     return NextResponse.json({ error: "Checkout-ul nu este configurat complet." }, { status: 503 });
   }
 
