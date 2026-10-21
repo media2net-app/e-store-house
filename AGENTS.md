@@ -12,3 +12,10 @@ This version has breaking changes — APIs, conventions, and file structure may 
 - Verify model, contents and dimensions against supplier data and the provided image set before publishing.
 - Match each product to the supplier category path in `src/data/categories.json`; preserve the Ralex parent/subcategory hierarchy. Parent category listings must include products from descendants.
 - Supplier product descriptions are the source of truth for material/composition, piece counts, dimensions and care instructions. Check each supplier barcode against its own page; do not infer composition from another range, file names, or promotional image text. Correct conflicting image captions before publication. If supplier information is contradictory, leave the disputed claim unpublished until resolved. Preserve the photographed product pattern when editing captions.
+
+## Public catalog approval
+
+- Keep only products with complete reviewed E-Store House galleries and accurate Romanian copy in src/data/products.json. Supplier originals serve as references, not as substitutes for the requested E-Store galleries. Four files alone do not prove four distinct views.
+- Preserve unverified or rejected records unchanged in catalog-review/products-on-hold.json, with reason codes; do not import this archive into the storefront. Unverified does not necessarily mean defective.
+- A model and every published variant need at least four reviewed distinct product photographs, numeric supplier SKU verification, source-backed composition/contents and a matching entry in src/data/catalog-approvals.json. Visually review actual output files against that model’s sources; do not approve a listing just to pass the build.
+- npm run check:catalog blocks publication of unapproved models and changes to reviewed copy/gallery/variant details. Re-review those changes before updating the approval fingerprint and media evidence. Price/stock changes do not invalidate a visual review.

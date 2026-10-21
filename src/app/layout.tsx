@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | E-Store House",
   },
   description:
-    "Descoperă lenjerii din bumbac, Percale și Ranforce Boutique. Texturi fine și nuanțe calde pentru un cămin elegant.",
+    "Descoperă lenjerii de pat, pilote și textile alese pentru casă. Texturi fine și nuanțe calde pentru un cămin elegant.",
 };
 
 export default function RootLayout({

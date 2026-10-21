@@ -135,7 +135,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
           <p className="eyebrow">COMPARĂ ȘI ALEGE</p>
           <h2>Produse asemănătoare</h2>
           <p className="recommendation-intro">Compară alte modele, materiale și dimensiuni înainte să alegi.</p>
-          <p className="recommendation-swipe-hint">Glisează pentru a vedea cele 3 recomandări →</p>
+          <p className="recommendation-swipe-hint">Glisează pentru a vedea cele {similar.length} recomandări →</p>
           <div className="products-grid recommendations-similar-grid">{similar.map((item) => <ProductCard key={item.id} product={item} reason={recommendationReason(product, item)} />)}</div>
         </section> : null}
         {complementary.length > 0 ? <section className="recommendation-section">

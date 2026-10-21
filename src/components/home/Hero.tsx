@@ -3,7 +3,7 @@ import { allProducts } from "@/lib/products";
 import HeroScene from "./HeroScene";
 
 export default function Hero() {
-  const product = allProducts.find((item) => item.image.includes("arsida-v6")) ?? allProducts[0];
+  const product = allProducts.find((item) => item.inStock !== false) ?? allProducts[0];
   return <section className="luxury-hero">
     <div className="hero-copy">
       <p className="eyebrow"><span /> E-STORE HOUSE · HOME COLLECTION</p>
@@ -12,6 +12,6 @@ export default function Hero() {
       <div className="hero-actions"><Link href="/shop" className="button-bronze">Descoperă colecția <span aria-hidden="true">↗</span></Link></div>
       <div className="hero-signature"><span aria-hidden="true">✧</span><p>Confortul se simte.<br /><strong>Eleganța se vede.</strong></p></div>
     </div>
-    {product ? <HeroScene href={`/product/${product.id}`} image="/products/arsida-v6/standard-04.webp" /> : null}
+    {product ? <HeroScene href={`/product/${product.id}`} image={product.image} name={product.name} /> : null}
   </section>;
 }

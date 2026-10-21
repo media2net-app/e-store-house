@@ -45,11 +45,11 @@ test("RON and Lei use the same promotion; invalid money and quantities are rejec
 const catalog = JSON.parse(readFileSync(new URL("../src/data/products.json", import.meta.url), "utf8"));
 const held = JSON.parse(readFileSync(new URL("../src/data/quality-hold.json", import.meta.url), "utf8"));
 const active = catalog.filter((p) => !held.includes(p.id));
-test("real catalog returns exactly 3 similar models and separate complementary choices", () => {
-  for (const id of [163290, 163152, 163165, 163321]) {
+test("curated catalog returns up to 3 available similar models and separate complementary choices", () => {
+  for (const id of [81336, 110194, 163321, 162739]) {
     const source = active.find((p) => p.id === id);
     const { similar, complementary } = recommendations(source, active);
-    assert.equal(similar.length, 3);
+    assert.equal(similar.length, Math.min(3, active.filter((p) => p.id !== id && p.inStock !== false && p.categoryPath.split("/")[0] === source.categoryPath.split("/")[0]).length));
     assert.ok(complementary.length > 0 && complementary.length <= 4);
     const all = [...similar, ...complementary];
     assert.equal(new Set(all.map((p) => p.id)).size, all.length);
@@ -58,7 +58,7 @@ test("real catalog returns exactly 3 similar models and separate complementary c
   }
 });
 test("recommendations exclude unavailable models even when the category and price match", () => {
-  const source = active.find((p) => p.id === 163290);
+  const source = active.find((p) => p.id === 81336);
   const unavailable = { ...source, id: 99999999, inStock: false };
   const result = recommendations(source, [unavailable, ...active]);
   assert.ok([...result.similar, ...result.complementary].every((p) => p.id !== unavailable.id));
