@@ -47,4 +47,10 @@ test("callback accepts an authentic payment and rejects altered amount or mercha
   assert.equal(verifyPaymentResponse({ ...response, fp_hash }, key, merchantId), true);
   assert.equal(verifyPaymentResponse({ ...response, amount: "10.00", fp_hash }, key, merchantId), false);
   assert.equal(verifyPaymentResponse({ ...response, merch_id: "other", fp_hash }, key, merchantId), false);
+  const extended = { ...response, sec_status: "9", rrn: "415584961828", email: "test@example.com" };
+  const extendedFields = [...order, "sec_status", "rrn", "email"];
+  const extendedBytes = extendedFields.map((name) => `${Buffer.byteLength(extended[name])}${extended[name]}`).join("");
+  const extendedHash = createHmac("md5", Buffer.from(key, "hex")).update(extendedBytes).digest("hex").toUpperCase();
+  assert.equal(verifyPaymentResponse({ ...extended, fp_hash: extendedHash }, key, merchantId), true);
+  assert.equal(verifyPaymentResponse({ ...extended, rrn: "000000000000", fp_hash: extendedHash }, key, merchantId), false);
 });

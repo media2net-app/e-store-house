@@ -18,6 +18,10 @@ const responseFields = [
   "amount", "curr", "invoice_id", "ep_id", "merch_id", "action", "message",
   "approval", "timestamp", "nonce",
 ] as const;
+const optionalResponseFields = [
+  "sec_status", "rrn", "mcard", "card_exp", "discount_amount", "payment_channel",
+  "card_type", "bin", "rate", "card_holder", "email", "rtype", "cce",
+] as const;
 const statusFields = ["method", "mid", "invoice_id", "timestamp", "nonce"] as const;
 
 export type PaymentStatus = {
@@ -83,7 +87,8 @@ export function verifyPaymentResponse(
   data: Record<string, string>, key: string, merchantId: string,
 ): data is PaymentResponse {
   if (data.merch_id !== merchantId || !/^[a-f\d]{32}$/i.test(data.fp_hash ?? "")) return false;
-  const expected = Buffer.from(fingerprint(responseFields, data, key), "hex");
+  const signedFields = [...responseFields, ...optionalResponseFields.filter((field) => field in data)];
+  const expected = Buffer.from(fingerprint(signedFields, data, key), "hex");
   const received = Buffer.from(data.fp_hash, "hex");
   return expected.length === received.length && timingSafeEqual(expected, received);
 }
