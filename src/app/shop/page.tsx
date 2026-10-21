@@ -50,6 +50,9 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
         <p className="mt-2 text-sm text-[#3b2d24]/80">
           {products.length ? `${products.length} ${products.length === 1 ? "produs" : "produse"}. Afișăm ${(page - 1) * pageSize + 1}–${Math.min(page * pageSize, products.length)}.` : "Nu am găsit produse pentru această selecție."}
         </p>
+        {active?.path === "oferte" ? <p className="mt-4 rounded-xl border border-[#d8c4a0] bg-[#fcf7ee] px-5 py-4 text-sm leading-relaxed text-[#3b2d24]">
+          Aici găsești pachetele promoționale disponibile și produsele cu preț redus. Reducerea de 10% la al doilea produs se aplică automat în coș la toate produsele eligibile. <Link href="/promotii" className="font-semibold underline">Vezi condițiile ofertei</Link>.
+        </p> : null}
 
         <form action="/shop" method="get" className="catalog-sort mt-6 flex flex-wrap items-end gap-3">
           {categorie ? <input type="hidden" name="categorie" value={categorie} /> : null}
