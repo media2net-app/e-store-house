@@ -1,5 +1,4 @@
 import CatalogLayout from "@/components/layout/CatalogLayout";
-import CategoryGrid from "@/components/home/CategoryGrid";
 import Hero from "@/components/home/Hero";
 import ProductGrid from "@/components/home/ProductGrid";
 import UspSection from "@/components/home/UspSection";
@@ -14,7 +13,6 @@ export default function Home() {
       <Header />
       <CatalogLayout showSidebar={false}>
       <Hero />
-      <CategoryGrid />
       <ProductGrid />
       <UspSection />
       </CatalogLayout>
