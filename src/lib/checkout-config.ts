@@ -1,5 +1,6 @@
 import "server-only";
 import { hasSupabaseStorage } from "./supabase-orders";
+import { hasRedisStorage } from "./orders";
 import { hasTransactionalEmail } from "./order-email";
 
 export function checkoutConfiguration() {
@@ -11,7 +12,7 @@ export function checkoutConfiguration() {
     && !!process.env.EU_PLATESC_MERCHANT_ID
     && !!process.env.EU_PLATESC_KEY
     && ["test", "live"].includes(process.env.EU_PLATESC_MODE || "")
-    && (hasSupabaseStorage() || !!process.env.UPSTASH_REDIS_REST_URL && !!process.env.UPSTASH_REDIS_REST_TOKEN)
+    && (hasSupabaseStorage() || hasRedisStorage())
     && hasTransactionalEmail()
     && !!process.env.STORE_ADMIN_TOKEN
     && !!process.env.NEXT_PUBLIC_STORE_SUPPORT_PHONE?.trim()

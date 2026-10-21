@@ -8,6 +8,7 @@ export type StoreOrder = {
   id: string;
   createdAt: string;
   status: OrderStatus;
+  testOrder?: boolean;
   customer: {
     firstName: string;
     lastName: string;
@@ -54,9 +55,19 @@ export type ComplaintRequest = {
   submittedAt: string;
 };
 
+function redisCredentials() {
+  const url = process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL;
+  const token = process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN;
+  return { url, token };
+}
+
+export function hasRedisStorage() {
+  const { url, token } = redisCredentials();
+  return !!url && /^https:\/\//.test(url) && !!token;
+}
+
 function config() {
-  const url = process.env.UPSTASH_REDIS_REST_URL;
-  const token = process.env.UPSTASH_REDIS_REST_TOKEN;
+  const { url, token } = redisCredentials();
   if (!url || !token || !/^https:\/\//.test(url)) throw new Error("Stocarea comenzilor nu este configurată.");
   return { url, token };
 }
