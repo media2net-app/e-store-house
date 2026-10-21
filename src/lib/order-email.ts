@@ -11,7 +11,7 @@ export function hasTransactionalEmail() {
 }
 
 function merchantInbox() {
-  return process.env.ORDER_NOTIFICATION_EMAIL || store.email;
+  return process.env.ORDER_NOTIFICATION_EMAIL || "orders@estorehouse.ro";
 }
 
 async function send(to: string, subject: string, body: string, idempotencyKey: string) {

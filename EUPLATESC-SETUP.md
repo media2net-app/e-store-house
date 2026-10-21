@@ -16,10 +16,10 @@ Confirm these values in the hosting project. Keep signing keys, database write k
 | `NEXT_PUBLIC_STORE_SUPPORT_PHONE` | Confirmed customer support number displayed to customers |
 | `STORE_ADMIN_TOKEN` | Long random secret for the private order/request view and intent IDs |
 | `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM` | Existing SMTP service, subject to a real connection/delivery check |
-| `ORDER_NOTIFICATION_EMAIL` | Existing business inbox for paid orders and customer requests |
+| `ORDER_NOTIFICATION_EMAIL` | `orders@estorehouse.ro` for paid orders and customer requests; code also uses this address as the fallback |
 | `STORE_CHECKOUT_ENABLED` | `true` only after all checks below |
 
-Customer-facing build-time values also need verification: `NEXT_PUBLIC_STORE_SUPPORT_EMAIL`, `NEXT_PUBLIC_STORE_SHIPPING_DESCRIPTION` (the same confirmed fee shown in checkout), `NEXT_PUBLIC_STORE_VAT_STATUS` (`included` or `not_registered`), and `NEXT_PUBLIC_STORE_DELIVERY_ESTIMATE`. Accounting must confirm VAT status. The shipping fee and timeframe must come from actual Sameday terms. A zero fee must mean genuinely free shipping under the threshold.
+Customer-facing build-time values also need verification: `NEXT_PUBLIC_STORE_SUPPORT_EMAIL` (`contact@estorehouse.ro`; also the code fallback), `NEXT_PUBLIC_STORE_SHIPPING_DESCRIPTION` (the same confirmed fee shown in checkout), `NEXT_PUBLIC_STORE_VAT_STATUS` (`included` or `not_registered`), and `NEXT_PUBLIC_STORE_DELIVERY_ESTIMATE`. Both new mailboxes appear in Apple Mail and received initial messages; SMTP sending and delivery of transactional mail remain untested. Accounting must confirm VAT status. The shipping fee and timeframe must come from actual Sameday terms. A zero fee must mean genuinely free shipping under the threshold.
 
 Activation checklist:
 
