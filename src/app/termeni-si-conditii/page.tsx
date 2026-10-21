@@ -9,6 +9,7 @@ export default function TermsPage() {
     </section>
     <section><h2 className="text-xl font-semibold">Produse, prețuri și comenzi</h2>
       <p>Caracteristicile produselor și prețurile sunt afișate pe paginile lor. Înainte de plata cu cardul, clientul vede produsele, cantitățile, costul transportului și suma totală. Introducerea unei comenzi presupune furnizarea unor date de contact și livrare corecte și acceptarea acestor termeni.</p>
+      {store.taxNotice ? <p>{store.taxNotice} Costul transportului este afișat separat înainte de plată.</p> : null}
       <p>Dacă un produs nu mai este disponibil sau datele comenzii necesită clarificări, contactăm clientul înainte de expediere. O comandă plătită și nelivrabilă este tratată prin anulare sau rambursare, după caz.</p>
     </section>
     <section><h2 className="text-xl font-semibold">Plata și livrarea</h2>
@@ -16,7 +17,7 @@ export default function TermsPage() {
       <p>Condițiile de livrare și dreptul de retragere sunt descrise în <Link href="/livrare-retur" className="underline">pagina Livrare și retur</Link>.</p>
     </section>
     <section><h2 className="text-xl font-semibold">Reclamații și drepturile clientului</h2>
-      <p>Ne poți contacta pentru comenzi, retururi și reclamații la <a className="underline" href={`mailto:${store.email}`}>{store.email}</a>. Ai acces și la <Link href="/informatii-clienti" className="underline">informațiile despre ANPC și SAL</Link>. Acești termeni nu limitează drepturile legale ale consumatorului.</p>
+      <p>Ne poți contacta pentru comenzi, retururi și reclamații la <a className="underline" href={`mailto:${store.email}`}>{store.email}</a>. Produsele beneficiază de garanția legală de conformitate de minimum 2 ani; <Link href="/garantie-legala" className="underline">vezi notificarea oficială UE și remediile disponibile</Link>. Ai acces și la <Link href="/informatii-clienti" className="underline">informațiile despre ANPC și SAL</Link>. Acești termeni nu limitează drepturile legale ale consumatorului.</p>
     </section>
   </main>;
 }

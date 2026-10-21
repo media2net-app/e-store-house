@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState, type FormEvent } from "react";
 import { useCart } from "@/components/cart/CartProvider";
 import { formatProductPrice } from "@/lib/products";
+import { store } from "@/lib/store-info";
 
 const fields = [
   ["firstName", "Prenume"], ["lastName", "Nume"], ["email", "E-mail"],
@@ -64,6 +65,7 @@ export default function CheckoutForm({ shippingRon, enabled }: { shippingRon: nu
           <input className="mt-1" name="acceptedTerms" type="checkbox" required />
           <span>Am citit și accept <Link href="/termeni-si-conditii" className="underline" target="_blank">termenii și condițiile</Link> și am consultat <Link href="/livrare-retur" className="underline" target="_blank">livrarea și returul</Link>.</span>
         </label>
+        <p className="text-sm">Produsele beneficiază de garanția legală de conformitate de minimum 2 ani. <Link href="/garantie-legala" target="_blank" className="underline">Vezi notificarea oficială UE și drepturile tale</Link>.</p>
         {error && <p role="alert" className="rounded-lg bg-red-50 p-3 text-sm text-red-800">{error}</p>}
         {!enabled && <p className="rounded-lg bg-amber-50 p-3 text-sm">Plata cu cardul este în pregătire. Te rugăm să revii după activare.</p>}
         <button disabled={busy || !enabled} className="rounded-full bg-[#3b2d24] px-6 py-3 font-semibold text-white disabled:opacity-50">{busy ? "Se pregătește plata..." : "Plătesc comanda cu cardul"}</button>
@@ -73,7 +75,9 @@ export default function CheckoutForm({ shippingRon, enabled }: { shippingRon: nu
         <h2 className="text-xl font-semibold">Comanda ta</h2>
         <ul className="mt-4 space-y-3">{items.map((item) => <li key={item.productId} className="flex justify-between gap-3 text-sm"><span>{item.name} × {item.quantity}</span><strong>{formatProductPrice(item.price * item.quantity, item.currency)}</strong></li>)}</ul>
         <p className="mt-5 border-t border-[#c9bda9] pt-3 text-sm">Produse: {formatProductPrice(subtotal, "RON")}</p>
+        {store.taxNotice ? <p className="mt-1 text-xs">{store.taxNotice}</p> : null}
         <p className="mt-1 text-sm">Transport: {shippingRon === null ? "în curs de stabilire" : formatProductPrice(shippingRon, "RON")}</p>
+        {store.deliveryEstimate ? <p className="mt-1 text-sm">Termen estimat de livrare: {store.deliveryEstimate}</p> : null}
         {shippingRon !== null && <p className="mt-3 border-t border-[#c9bda9] pt-3 text-lg font-semibold">Total de plată: {formatProductPrice(subtotal + shippingRon, "RON")}</p>}
       </aside>
     </div>}

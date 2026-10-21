@@ -13,6 +13,7 @@ export default function CustomerInfoPage() {
     <section><h2 className="text-xl font-semibold">Reclamații și asistență</h2>
       <p>Pentru o problemă cu o comandă, folosește <Link href="/reclamatii" className="underline">formularul de reclamație</Link> sau trimite-ne numărul comenzii și descrierea situației la <a className="underline" href={`mailto:${store.email}`}>{store.email}</a>. Vom analiza sesizarea și vom răspunde la adresa de e-mail folosită.</p>
       <p>Poți consulta și <Link className="underline" href="/livrare-retur">livrarea și returul</Link> sau <Link className="underline" href="/retragere">formularul de retragere</Link>.</p>
+      <p>Produsele beneficiază de garanția legală de conformitate de minimum 2 ani. <Link className="underline" href="/garantie-legala">Consultă notificarea oficială UE și pașii de urmat</Link>.</p>
     </section>
     <section><h2 className="text-xl font-semibold">Protecția consumatorilor</h2>
       <p>Poți sesiza Autoritatea Națională pentru Protecția Consumatorilor prin <a className="underline" href="https://eservicii.anpc.ro/" target="_blank" rel="noopener noreferrer">formularul oficial ANPC</a>. Telefonul Consumatorului: <a className="underline" href="tel:+40219551">021 9551</a>.</p>

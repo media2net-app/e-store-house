@@ -15,6 +15,8 @@ Configure these **server-only** environment variables in the Vercel project (nev
 | `STORE_SHIPPING_RON` | Confirmed customer-facing flat courier fee in whole RON; `0` only if shipping is truly free |
 | `STORE_SUPPORT_PHONE` | Commercial customer support telephone shown on the website |
 | `NEXT_PUBLIC_STORE_SUPPORT_EMAIL` | Customer-facing mailbox for contact, order and withdrawal notifications; set at build time after confirming the address |
+| `NEXT_PUBLIC_STORE_VAT_STATUS` | `included` if catalog prices include VAT, or `not_registered` if the company is not VAT-registered; confirm with accounting before setting |
+| `NEXT_PUBLIC_STORE_DELIVERY_ESTIMATE` | Confirmed customer-facing delivery timeframe, shown on product, delivery and checkout pages |
 | `STORE_ADMIN_TOKEN` | New long random secret for `/admin/comenzi` |
 | `RESEND_API_KEY` | Transactional email API key; sending domain must be verified |
 | `STORE_MAIL_FROM` | Verified sender such as `E-Store House <comenzi@estorehouse.ro>` |
@@ -22,7 +24,7 @@ Configure these **server-only** environment variables in the Vercel project (nev
 
 Activation sequence:
 
-1. Verify the legal company identity, support phone, return address, shipping price and delivery timeframe shown on the site. The recorded return address is Str. Târgului nr. 8, sat Dragodana, Dâmbovița.
+1. Verify the legal company identity, VAT status, support phone, return address, shipping price and delivery timeframe shown on the site. The recorded return address is Str. Târgului nr. 8, sat Dragodana, Dâmbovița. Checkout refuses to open until the VAT status and delivery estimate are set.
 2. Create the order database and set its REST URL/token. Restrict who can access the token. Verify the sending domain in Resend and set its API key and sender.
 3. Set the EuPlătesc merchant values from the account email as Vercel environment secrets. Check the merchant account's live/test status in Manager.
 4. Configure EuPlătesc callback to `https://www.estorehouse.ro/api/euplatesc/callback` in Manager. Do not enable unsigned optional response fields without updating signature verification.
@@ -32,3 +34,5 @@ Activation sequence:
 EuPlătesc's callback signature includes amount, currency, invoice ID, payment ID, merchant ID, action, message, approval, timestamp and nonce in that order. A valid approved callback moves an order to `paid_review`; shipment still requires the green **Livrare permisă** status in Manager. A browser return never marks an order paid.
 
 Official references: [EuPlătesc transaction documentation](https://manager.euplatesc.ro/v3/?page=docs), [ANPC SAL pictogram](https://www.anpc.ro/public/sal), [ANPC SAL update](https://anpc.ro/comunicat-sal/), [OUG 34/2014](https://legislatie.just.ro/Public/DetaliiDocument/307805).
+
+The customer-rights pages include the official Romanian, colour EU legal-guarantee notice from the [European Commission](https://commission.europa.eu/publications/practical-guidelines-and-high-resolution-vector-files-eu-notice-and-label-product-guarantees_en). It must remain unedited. The site uses the current SAL pictogram and link required by [ANPC Order 270/2026](https://legislatie.just.ro/Public/FormaPrintabila/00000G0K0YLLUC7CBTD3DWGHD0X5LTRZ). The merchant phone and exact VAT/delivery claims still require business verification before activation.
