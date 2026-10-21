@@ -1001,5 +1001,86 @@
       }
     ],
     "fingerprint": "1798ae2e30f3366b3c0f7a8bde32a1e779c28d7552ef662f937dbc55b33b2ebe"
+  },
+  {
+    "id": 101328,
+    "reviewedAt": "2026-10-22",
+    "source": "supplier-page-and-gallery-review-20261022",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-economy/lenjerie-pat-economy-ecn28/",
+    "visualReview": "Reviewed all four E-Store House photographs against this model’s supplier image: angled full-set view, frontal full-set view, close detail, and overhead view. Print and color match; captions and copy match the supplier’s composition, contents and dimensions.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "/products/economy-101328/01.webp",
+        "sha256": "ec6c9870f0e071945d6fa7660a46f43a588449ece6858c098e6399fde6ff213b"
+      },
+      {
+        "url": "/products/economy-101328/02.webp",
+        "sha256": "ce80c86e2736724265b726bb0f5dc4ca67d2d1550ba037cd040cabc5e9b9b129"
+      },
+      {
+        "url": "/products/economy-101328/03.webp",
+        "sha256": "f238073c2bca6c6ea47a2af679790d305a6062e01f85aecf6c6ae86e927cd579"
+      },
+      {
+        "url": "/products/economy-101328/04.webp",
+        "sha256": "0d2926df50a4e78e15894da68de11fbae3c12c4e66d029bb311b0f7e1e5e2e65"
+      }
+    ],
+    "fingerprint": "eeab2edd29f0f313185ac4645315eee71a57175642b8ddab888483036b49b57d"
+  },
+  {
+    "id": 101368,
+    "reviewedAt": "2026-10-22",
+    "source": "supplier-page-and-gallery-review-20261022",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-economy/lenjerie-pat-economy-ecn30/",
+    "visualReview": "Reviewed all four E-Store House photographs against this model’s supplier image: angled full-set view, frontal full-set view, close detail, and overhead view. Print and color match; captions and copy match the supplier’s composition, contents and dimensions.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "/products/economy-101368/01.webp",
+        "sha256": "d21aef287e092f1183a97839be31f96e7c893c5a64708a4772af9cf55868a098"
+      },
+      {
+        "url": "/products/economy-101368/02.webp",
+        "sha256": "5e9a6a103a9f6df3a9b5d0ffda36f20e0ac2f2c5e1c0ab6eb66890896da19c21"
+      },
+      {
+        "url": "/products/economy-101368/03.webp",
+        "sha256": "72b58b09c794e5b4ba28dce6fa67fc6c4ea4324ec093ef6c6259c7381a50c77d"
+      },
+      {
+        "url": "/products/economy-101368/04.webp",
+        "sha256": "d634c99e73618baf90257f470b2d5b584e6ea778a38116d345361bcf68370151"
+      }
+    ],
+    "fingerprint": "23399068975fd8b3191c419575eb5cdb4fb21a8c7d3e0fe7c6320a31ee04c16c"
+  },
+  {
+    "id": 101369,
+    "reviewedAt": "2026-10-22",
+    "source": "supplier-page-and-gallery-review-20261022",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-economy/lenjerie-pat-economy-ecn31/",
+    "visualReview": "Reviewed all four E-Store House photographs against this model’s supplier image: angled full-set view, frontal full-set view, close detail, and overhead view. Print and color match; captions and copy match the supplier’s composition, contents and dimensions.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "/products/economy-101369/01.webp",
+        "sha256": "dab980e5dd045d1e21c84ea7d05270e70cd141b9cb6164ce62913739d45f94ee"
+      },
+      {
+        "url": "/products/economy-101369/02.webp",
+        "sha256": "89ad5a20d279e52b29b066db684c30fe901660f4ca01e470135b23753956e899"
+      },
+      {
+        "url": "/products/economy-101369/03.webp",
+        "sha256": "610a75b549ae524719df0d7e7d92f85d90fcdbafc096fce895c1fae5e92e720b"
+      },
+      {
+        "url": "/products/economy-101369/04.webp",
+        "sha256": "97b31949bff887c9715a8577d80409d66a08215f267a5ee12e8db9b1624ada64"
+      }
+    ],
+    "fingerprint": "9c013d0c16e19360c10f80171148d7bc0b85e65f951d0c0257cee89bdaf1d528"
   }
 ]
