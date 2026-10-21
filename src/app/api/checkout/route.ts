@@ -1,7 +1,7 @@
 import { createHmac } from "node:crypto";
 import { NextResponse } from "next/server";
 import { quoteCart } from "@/lib/cart-quote";
-import { createPaymentFields } from "@/lib/euplatesc";
+import { createPaymentFields, paymentCallbackUrl } from "@/lib/euplatesc";
 import { createOrder, getOrder, type StoreOrder } from "@/lib/orders";
 import { checkoutConfiguration } from "@/lib/checkout-config";
 
@@ -37,6 +37,10 @@ export async function POST(request: Request) {
   }
   const merchantId = process.env.EU_PLATESC_MERCHANT_ID;
   const key = process.env.EU_PLATESC_KEY;
+  const preview = process.env.VERCEL_ENV === "preview";
+  if (preview && !process.env.VERCEL_AUTOMATION_BYPASS_SECRET) {
+    return NextResponse.json({ error: "Notificările de plată nu sunt configurate pentru Preview." }, { status: 503 });
+  }
 
   let input: CheckoutInput;
   try { input = await request.json() as CheckoutInput; }
@@ -95,7 +99,7 @@ export async function POST(request: Request) {
   const fields = createPaymentFields({
     amount: (totalCents / 100).toFixed(2), invoiceId: id,
     description: `Comanda E-Store House ${id}`, email, firstName, lastName,
-    callbackUrl: `${origin}/api/euplatesc/callback`,
+    callbackUrl: paymentCallbackUrl(origin, preview, process.env.VERCEL_AUTOMATION_BYPASS_SECRET),
     returnUrl: `${origin}/plata/rezultat?order=${id}`,
     merchantId: merchantId!, key: key!,
   });

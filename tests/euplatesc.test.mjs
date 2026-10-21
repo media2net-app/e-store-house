@@ -1,10 +1,18 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { createHmac } from "node:crypto";
-import { createPaymentFields, verifyPaymentResponse } from "../src/lib/euplatesc.ts";
+import { createPaymentFields, paymentCallbackUrl, verifyPaymentResponse } from "../src/lib/euplatesc.ts";
 
 const key = "00112233445566778899AABBCCDDEEFF";
 const merchantId = "testaccount";
+
+test("Preview callback includes only its deployment-protection bypass", () => {
+  const origin = "https://preview.example.com";
+  assert.equal(paymentCallbackUrl(origin, false), `${origin}/api/euplatesc/callback`);
+  assert.equal(paymentCallbackUrl(origin, true, "abc+/="),
+    `${origin}/api/euplatesc/callback?x-vercel-protection-bypass=abc%2B%2F%3D`);
+  assert.throws(() => paymentCallbackUrl(origin, true), /bypass/);
+});
 
 test("checkout signs only the prescribed EuPlătesc fields in their order", () => {
   const fields = createPaymentFields({

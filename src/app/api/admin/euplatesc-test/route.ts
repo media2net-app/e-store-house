@@ -1,6 +1,6 @@
 import { createHash, createHmac, randomUUID, timingSafeEqual } from "node:crypto";
 import { NextResponse } from "next/server";
-import { createPaymentFields, EU_PLATESC_URL } from "@/lib/euplatesc";
+import { createPaymentFields, EU_PLATESC_URL, paymentCallbackUrl } from "@/lib/euplatesc";
 import { hasTransactionalEmail } from "@/lib/order-email";
 import { createOrder, hasRedisStorage, type StoreOrder } from "@/lib/orders";
 
@@ -31,6 +31,7 @@ export async function POST(request: Request) {
     key ? null : "cheie EuPlătesc",
     hasRedisStorage() ? null : "Redis",
     hasTransactionalEmail() ? null : "email tranzacțional",
+    process.env.VERCEL_AUTOMATION_BYPASS_SECRET ? null : "accesul EuPlătesc la callback-ul Preview",
   ].filter(Boolean);
   if (missing.length > 0 || !origin || !merchantId || !key) {
     return NextResponse.json({ error: `Testul privat nu este configurat complet: ${missing.join(", ")}.` }, { status: 503 });
@@ -58,7 +59,7 @@ export async function POST(request: Request) {
     const fields = createPaymentFields({
       amount: "1.00", invoiceId: id, description: `Test integrare E-Store House ${id}`,
       email, firstName: "E-Store", lastName: "House",
-      callbackUrl: `${origin}/api/euplatesc/callback`,
+      callbackUrl: paymentCallbackUrl(origin, true, process.env.VERCEL_AUTOMATION_BYPASS_SECRET),
       returnUrl: `${origin}/plata/rezultat?order=${id}`,
       merchantId, key,
     });

@@ -2,6 +2,15 @@ import { createHmac, randomBytes, timingSafeEqual } from "node:crypto";
 
 export const EU_PLATESC_URL = "https://secure.euplatesc.ro/tdsprocess/tranzactd.php";
 
+export function paymentCallbackUrl(origin: string, preview: boolean, bypassSecret?: string) {
+  const url = new URL("/api/euplatesc/callback", origin);
+  if (preview) {
+    if (!bypassSecret) throw new Error("Preview callback bypass is not configured.");
+    url.searchParams.set("x-vercel-protection-bypass", bypassSecret);
+  }
+  return url.toString();
+}
+
 const requestFields = [
   "amount", "curr", "invoice_id", "order_desc", "merch_id", "timestamp", "nonce",
 ] as const;
