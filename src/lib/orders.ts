@@ -1,3 +1,7 @@
+import { createSupabaseComplaint, createSupabaseOrder, createSupabaseWithdrawal, getSupabaseOrder,
+  hasSupabaseStorage, listSupabaseComplaints, listSupabaseOrders, listSupabaseWithdrawals,
+  markSupabasePaymentEmailSent, recordSupabasePayment, supabasePaymentEmailSent } from "./supabase-orders";
+
 export type OrderStatus = "pending_payment" | "payment_failed" | "paid_review";
 
 export type StoreOrder = {
@@ -75,6 +79,7 @@ const key = (id: string) => `estore:order:${id}`;
 const retentionSeconds = 7 * 365 * 24 * 60 * 60;
 
 export async function createOrder(order: StoreOrder) {
+  if (hasSupabaseStorage()) return createSupabaseOrder(order);
   const script = `if redis.call('SET', KEYS[1], ARGV[1], 'NX', 'EX', ARGV[4]) then
   redis.call('ZADD', KEYS[2], ARGV[2], ARGV[3])
   return 1
@@ -85,12 +90,14 @@ return 0`;
 }
 
 export async function getOrder(id: string): Promise<StoreOrder | null> {
+  if (hasSupabaseStorage()) return getSupabaseOrder(id);
   if (!/^[a-f0-9]{24}$/.test(id)) return null;
   const value = await redis(["GET", key(id)]);
   return typeof value === "string" ? JSON.parse(value) as StoreOrder : null;
 }
 
 export async function recordPayment(id: string, action: "0" | "failed", paymentId: string) {
+  if (hasSupabaseStorage()) return recordSupabasePayment(id, action, paymentId);
   // Atomic update: a later failed or duplicate notification cannot undo an approved payment.
   const script = `local raw = redis.call('GET', KEYS[1])
 if not raw then return 0 end
@@ -108,6 +115,7 @@ return 1`;
 }
 
 export async function listOrders(): Promise<StoreOrder[]> {
+  if (hasSupabaseStorage()) return listSupabaseOrders();
   const ids = await redis(["ZREVRANGE", "estore:orders", "0", "49"]);
   if (!Array.isArray(ids) || ids.length === 0) return [];
   const values = await redis(["MGET", ...ids.map((id) => key(String(id)))]);
@@ -116,14 +124,17 @@ export async function listOrders(): Promise<StoreOrder[]> {
 }
 
 export async function paymentEmailSent(id: string) {
+  if (hasSupabaseStorage()) return supabasePaymentEmailSent(id);
   return await redis(["GET", `estore:payment-email:${id}`]) === "1";
 }
 
 export async function markPaymentEmailSent(id: string) {
+  if (hasSupabaseStorage()) return markSupabasePaymentEmailSent(id);
   await redis(["SET", `estore:payment-email:${id}`, "1"]);
 }
 
 export async function createWithdrawal(request: WithdrawalRequest): Promise<WithdrawalRequest> {
+  if (hasSupabaseStorage()) return createSupabaseWithdrawal(request);
   const withdrawalKey = `estore:withdrawal:${request.id}`;
   const script = `local existing = redis.call('GET', KEYS[1])
 if existing then return existing end
@@ -136,6 +147,7 @@ return ARGV[1]`;
 }
 
 export async function listWithdrawals(): Promise<WithdrawalRequest[]> {
+  if (hasSupabaseStorage()) return listSupabaseWithdrawals();
   const ids = await redis(["ZREVRANGE", "estore:withdrawals", "0", "49"]);
   if (!Array.isArray(ids) || ids.length === 0) return [];
   const values = await redis(["MGET", ...ids.map((id) => `estore:withdrawal:${id}`)]);
@@ -144,6 +156,7 @@ export async function listWithdrawals(): Promise<WithdrawalRequest[]> {
 }
 
 export async function createComplaint(request: ComplaintRequest): Promise<ComplaintRequest> {
+  if (hasSupabaseStorage()) return createSupabaseComplaint(request);
   const script = `local existing = redis.call('GET', KEYS[1])
 if existing then return existing end
 redis.call('SET', KEYS[1], ARGV[1], 'EX', ARGV[4])
@@ -156,6 +169,7 @@ return ARGV[1]`;
 }
 
 export async function listComplaints(): Promise<ComplaintRequest[]> {
+  if (hasSupabaseStorage()) return listSupabaseComplaints();
   const ids = await redis(["ZREVRANGE", "estore:complaints", "0", "49"]);
   if (!Array.isArray(ids) || ids.length === 0) return [];
   const values = await redis(["MGET", ...ids.map((id) => `estore:complaint:${id}`)]);

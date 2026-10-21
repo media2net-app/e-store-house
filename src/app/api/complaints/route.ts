@@ -2,6 +2,7 @@ import { createHmac } from "node:crypto";
 import { NextResponse } from "next/server";
 import { createComplaint, type ComplaintRequest } from "@/lib/orders";
 import { sendComplaintReceipt } from "@/lib/order-email";
+import { hasTransactionalEmail } from "@/lib/order-email";
 
 export const runtime = "nodejs";
 
@@ -16,7 +17,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Completează datele reclamației." }, { status: 400 });
   }
   const secret = process.env.STORE_ADMIN_TOKEN;
-  if (!secret || !process.env.RESEND_API_KEY || !process.env.STORE_MAIL_FROM) {
+  if (!secret || !hasTransactionalEmail()) {
     return NextResponse.json({ error: "Formularul online nu este disponibil acum. Poți trimite reclamația pe e-mail." }, { status: 503 });
   }
   try {

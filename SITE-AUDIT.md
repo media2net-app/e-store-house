@@ -13,10 +13,12 @@ Scope: a reviewable preview of the storefront improvements requested in the Yaho
 
 ## Evidence and limits
 
-- Local production build, lint and 18 automated tests pass. The catalog validator confirms **37 reviewed public models** and no held models. The quality-hold file contains **815 IDs**. These are intentionally not bulk-imported or merged into the public catalog.
+- Local production build, lint and 19 automated tests pass. The catalog validator confirms **37 reviewed public models** and no held models. The quality-hold file contains **815 IDs**. These are intentionally not bulk-imported or merged into the public catalog.
 - In Safari, a 160 × 200 cm variant remained in the cart after refresh with its exact 149 lei price and SKU 163013. A two-unit 319 lei API quote produced 638 lei subtotal, 31.90 lei discount and 606.10 lei merchandise total; shipping remained chargeable because the after-discount total was under 900 lei.
 - Disabled checkout and customer-request APIs returned 503 without writing an order or sending a message. No payment, order, shipping-label, or email end-to-end test has been made against real services.
 - There is no reliable stock feed or Sameday integration in this storefront code. Availability is checked against the reviewed catalog snapshot, so real-time stock reservation, courier labels, tracking, and invoicing remain separate integration work.
+- The Vercel `e-store-house` project has existing Production-only Supabase and SMTP variable names. The checkout branch now supports them, avoiding mandatory new Redis/Resend accounts. The linked database, table migration, mail delivery and Preview isolation still need verification; no production secret was revealed or changed.
+- Next.js and its ESLint package were updated from 16.2.4 to 16.4.2 in the preview branch after npm audit identified a critical advisory. The updated local build passes; npm audit now reports no critical findings, with 11 lower-severity dependency findings still present.
 - The signed-in Sameday eAWB account currently displays an inactivity notice for unpaid invoices. The invoice list shows two items marked "Facturat" totaling 82.09 lei (39.66 + 42.43); it also shows "Sold facturi: 0", so the accounting state needs clarification with Sameday rather than assuming a balance or making a payment. The contract-documents view is empty. An active account and confirmed tariff/API terms are prerequisites for courier integration.
 - Exact 360/390/430/1440-pixel visual comparison, Core Web Vitals, analytics events and actual conversion effects have not been measured. Image byte reduction alone is not a page-speed claim.
 
@@ -24,7 +26,7 @@ Scope: a reviewable preview of the storefront improvements requested in the Yaho
 
 1. Confirm the Sameday tariff charged to a customer below 900 lei, the delivery estimate, and the contractual/API route for labels and tracking. Do not advertise a numeric fee until verified.
 2. Confirm VAT status with accounting; the site currently avoids an unverified VAT claim. Confirm the final customer-support email and telephone number. The existing Yahoo address is the current fallback.
-3. Complete the EuPlătesc, order-storage and transactional-email setup in [EUPLATESC-SETUP.md](EUPLATESC-SETUP.md), then perform an approved sandbox test. The current test-transaction limit and reviewed product prices do not allow a normal public test checkout.
+3. Complete the EuPlătesc, Supabase-table and SMTP setup in [EUPLATESC-SETUP.md](EUPLATESC-SETUP.md), then perform an approved sandbox test. The current test-transaction limit and reviewed product prices do not allow a normal public test checkout.
 4. Review every held product with supplier evidence, preserving model, variant, SKU and image identity before extending the 37-model catalog. No older price, false scarcity or unverified marketing claim should be generated.
 5. Verify legal pages and operational response procedures with the business's legal/accounting advisers before turning on customer-facing online forms and checkout. Confirm a person will monitor and respond to complaints and withdrawal requests.
 

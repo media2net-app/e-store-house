@@ -19,7 +19,7 @@ export default function CheckoutForm({ shippingRon, enabled }: { shippingRon: nu
   const [error, setError] = useState("");
   const [separateBilling, setSeparateBilling] = useState(false);
   const totals = cartOffers(items);
-  const shippingCents = totals.freeShipping ? 0 : shippingRon === null ? null : shippingRon * 100;
+  const shippingCents = totals.freeShipping ? 0 : shippingRon === null ? null : Math.round(shippingRon * 100);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
