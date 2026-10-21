@@ -34,6 +34,10 @@ export type PaymentStatus = {
   refunded?: string;
 };
 
+export function approvedPaymentForAmount(transactions: PaymentStatus[], amount: string) {
+  return transactions.find((item) => item.action === "0" && item.amount === amount && item.refunded === "0");
+}
+
 export type PaymentResponse = Record<(typeof responseFields)[number] | "fp_hash", string>;
 
 function fingerprint(fields: readonly string[], data: Record<string, string>, key: string) {

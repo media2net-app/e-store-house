@@ -15,6 +15,7 @@ export default function AdminOrdersPage() {
   const [sendingEmailTest, setSendingEmailTest] = useState(false);
   const [emailStatus, setEmailStatus] = useState("");
   const [paymentChecks, setPaymentChecks] = useState<Record<string, string>>({});
+  const [verifiedPayments, setVerifiedPayments] = useState<Record<string, boolean>>({});
   async function loadOrders() {
     setError("");
     const response = await fetch("/api/admin/orders", { headers: { Authorization: `Bearer ${token}` }, cache: "no-store" });
@@ -95,12 +96,27 @@ export default function AdminOrdersPage() {
       if (!response.ok) throw new Error();
       const body = await response.json() as { expectedAmount: string; transactions: { action: string; amount?: string; captured?: string; refunded?: string }[] };
       const approved = body.transactions.some((item) => item.action === "0" && item.amount === body.expectedAmount
-        && item.refunded !== "1");
+        && item.refunded === "0");
+      setVerifiedPayments((current) => ({ ...current, [orderId]: approved }));
       setPaymentChecks((current) => ({ ...current, [orderId]: approved
         ? "EuPlătesc confirmă plata. Comanda nu este încă reconciliată în magazin."
         : `Nu există o plată aprobată, nerambursată, de ${body.expectedAmount} lei pentru această comandă.` }));
     } catch {
       setPaymentChecks((current) => ({ ...current, [orderId]: "Statusul nu a putut fi verificat la EuPlătesc." }));
+    }
+  }
+  async function reconcileTestPayment(orderId: string) {
+    setPaymentChecks((current) => ({ ...current, [orderId]: "Se sincronizează comanda de test…" }));
+    try {
+      const response = await fetch("/api/admin/reconcile-test-payment", {
+        method: "POST", headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+        body: JSON.stringify({ orderId }), cache: "no-store",
+      });
+      if (!response.ok) throw new Error();
+      setPaymentChecks((current) => ({ ...current, [orderId]: "Plata este sincronizată în magazin." }));
+      await loadOrders();
+    } catch {
+      setPaymentChecks((current) => ({ ...current, [orderId]: "Sincronizarea a eșuat. Nu repeta plata." }));
     }
   }
   return <main className="mx-auto max-w-5xl px-6 py-12 text-[#3b2d24]">
@@ -117,6 +133,7 @@ export default function AdminOrdersPage() {
       <ul className="mt-3 text-sm">{order.items.map((item) => <li key={item.productId}>{item.quantity} × {item.name} · {formatLeiCents(item.unitPriceCents)} lei</li>)}</ul>
       <p className="mt-2 font-medium">Total: {formatLeiCents(order.totalCents)} lei</p>
       {order.status === "pending_payment" && <button onClick={() => void checkPayment(order.id)} className="mt-3 rounded-lg border border-[#3b2d24] px-3 py-2">Verifică plata la EuPlătesc</button>}
+      {order.testOrder && order.status === "pending_payment" && verifiedPayments[order.id] && <button onClick={() => void reconcileTestPayment(order.id)} className="ml-2 mt-3 rounded-lg bg-[#3b2d24] px-3 py-2 text-white">Sincronizează plata de test</button>}
       {paymentChecks[order.id] && <p className="mt-2" role="status">{paymentChecks[order.id]}</p>}
     </article>)}</div>}
   </main>;

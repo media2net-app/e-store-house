@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { createHmac } from "node:crypto";
-import { createPaymentFields, createStatusQuery, paymentCallbackUrl, verifyPaymentResponse } from "../src/lib/euplatesc.ts";
+import { approvedPaymentForAmount, createPaymentFields, createStatusQuery, paymentCallbackUrl, verifyPaymentResponse } from "../src/lib/euplatesc.ts";
 
 const key = "00112233445566778899AABBCCDDEEFF";
 const merchantId = "testaccount";
@@ -19,6 +19,14 @@ test("transaction status query signs the documented fields", () => {
   const fields = ["method", "mid", "invoice_id", "timestamp", "nonce"];
   const bytes = fields.map((name) => `${Buffer.byteLength(query[name])}${query[name]}`).join("");
   assert.equal(query.fp_hash, createHmac("md5", Buffer.from(key, "hex")).update(bytes).digest("hex").toUpperCase());
+});
+
+test("reconciliation requires an exact approved and unrefunded amount", () => {
+  const base = { merchantId, invoiceId: "abc", paymentId: "A".repeat(40), action: "0", amount: "1.00", refunded: "0" };
+  assert.deepEqual(approvedPaymentForAmount([base], "1.00"), base);
+  assert.equal(approvedPaymentForAmount([{ ...base, amount: "10.00" }], "1.00"), undefined);
+  assert.equal(approvedPaymentForAmount([{ ...base, refunded: "1" }], "1.00"), undefined);
+  assert.equal(approvedPaymentForAmount([{ ...base, action: "1" }], "1.00"), undefined);
 });
 
 test("checkout signs only the prescribed EuPlătesc fields in their order", () => {
