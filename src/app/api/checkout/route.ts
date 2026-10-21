@@ -31,7 +31,9 @@ export async function POST(request: Request) {
   const shippingRon = Number(process.env.STORE_SHIPPING_RON);
   if (!merchantId || !key || !process.env.STORE_SUPPORT_PHONE || !process.env.STORE_ADMIN_TOKEN
       || !process.env.RESEND_API_KEY || !process.env.STORE_MAIL_FROM
-      || !Number.isInteger(shippingRon) || shippingRon < 0 || !process.env.STORE_SHIPPING_RON) {
+      || !Number.isInteger(shippingRon) || shippingRon < 0 || !process.env.STORE_SHIPPING_RON
+      || !["included", "not_registered"].includes(process.env.NEXT_PUBLIC_STORE_VAT_STATUS || "")
+      || !process.env.NEXT_PUBLIC_STORE_DELIVERY_ESTIMATE?.trim()) {
     return NextResponse.json({ error: "Checkout-ul nu este configurat complet." }, { status: 503 });
   }
 

@@ -127,6 +127,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
             </div>
 
             )}
+            {store.taxNotice ? <p className="mt-2 text-sm text-[#3b2d24]/75">{store.taxNotice} Costul transportului se afișează separat înainte de plată.</p> : null}
 
             <div className="mt-6 space-y-2 text-sm text-[#3b2d24]/90">
               {product.discount ? <p>Reducere: {product.discount}%</p> : null}
@@ -148,8 +149,10 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
                 <p className="mt-2 text-sm text-[#3b2d24]/85">
                   Livrarea este gestionată de E-Store House. Costul transportului este afișat înainte de plata comenzii.
                 </p>
+                {store.deliveryEstimate ? <p className="mt-2 text-sm text-[#3b2d24]/85">Termen estimat: {store.deliveryEstimate}.</p> : null}
               </div>
             </div>
+            <p className="mt-4 text-sm text-[#3b2d24]">Garanție legală de conformitate de minimum 2 ani. <Link href="/garantie-legala" className="underline">Vezi notificarea oficială UE și cum poți cere remedierea unei neconformități</Link>.</p>
 
             <div className="mt-6 rounded-xl border border-[#e5d9c7] bg-white p-4">
               <p className="text-sm font-semibold text-[#3b2d24]">Caracteristici principale</p>
