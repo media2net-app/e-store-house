@@ -1,7 +1,9 @@
+import CatalogPosition from "@/components/catalog/CatalogPosition";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import { CartProvider } from "@/components/cart/CartProvider";
 import "./globals.css";
+import "./comfort.css";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -34,7 +36,7 @@ export default function RootLayout({
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <CartProvider>{children}</CartProvider>
+        <CartProvider><CatalogPosition/>{children}</CartProvider>
       </body>
     </html>
   );

@@ -4,7 +4,7 @@ import { store } from "@/lib/store-info";
 export default function Footer() {
   return <footer className="luxury-footer" id="contact">
     <div className="footer-grid">
-      <div><Link href="/" className="wordmark"><span>E-STORE HOUSE</span><small>THE ART OF HOME</small></Link>
+      <div><Link href="/" className="wordmark"><span>E-STORE HOUSE</span><small>CONFORT BINE ALES</small></Link>
         <p>{store.name}<br />CUI: {store.cui}<br />Registrul Comerțului: {store.registration}<br />Sediu social: {store.address}</p>
         <a href={`mailto:${store.email}`}>{store.email}</a>
         {store.phone ? <a href={`tel:${store.phone.replace(/\s/g, "")}`}>{store.phone}</a> : null}

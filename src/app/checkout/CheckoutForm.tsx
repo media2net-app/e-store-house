@@ -23,6 +23,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
   const [paymentMethod, setPaymentMethod] = useState<PaymentMethod>(codEnabled && !cardEnabled ? "cod" : "card");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
+  const [fieldErrors, setFieldErrors] = useState<Record<string,string>>({});
   const [separateBilling, setSeparateBilling] = useState(false);
   const defaultShipping = shippingOptions.find((option) => shippingPaymentAvailable(option, cardEnabled, codEnabled)) || shippingOptions[0];
   const [carrier, setCarrier] = useState<ShippingCarrier | null>(defaultShipping?.carrier ?? null);
@@ -124,20 +125,23 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
     }
   }
 
-  return <main className="mx-auto w-full max-w-5xl px-6 py-12 text-[#3b2d24]">
+  return <main className="checkout-page">
     <h1 className="text-3xl font-semibold">Finalizarea comenzii</h1>
     {!items.length ? <p className="mt-6">Coșul este gol. <Link href="/shop" className="underline">Vezi produsele</Link></p> :
-    <div className="mt-8 grid gap-10 md:grid-cols-[1fr_330px]">
+    <div className="mt-8">
       <form onSubmit={submit} className="space-y-5">
         <h2 className="text-xl font-semibold">Date de contact și livrare</h2>
-        <div className="grid gap-4 sm:grid-cols-2">
+        <div className="grid gap-4">
           {fields.map(([name, label]) => <label key={name} className="block text-sm font-medium">{label}
             <input className="mt-1 w-full rounded-lg border border-[#c9bda9] bg-white px-3 py-3" name={name}
               type={name === "email" ? "email" : name === "phone" ? "tel" : "text"}
               autoComplete={({ firstName: "given-name", lastName: "family-name", email: "email", phone: "tel", address: "street-address", city: "address-level2", county: "address-level1", postalCode: "postal-code" })[name]}
-              onChange={(event) => setCustomerDraft((value) => ({ ...value, [name]: event.target.value }))}
+              aria-invalid={Boolean(fieldErrors[name])} aria-describedby={fieldErrors[name] ? `error-${name}` : undefined}
+              onInvalid={event => {const field=event.currentTarget;setFieldErrors(prev=>({...prev,[name]:field.validity.valueMissing?'Completează acest câmp.':field.validity.typeMismatch?'Verifică formatul introdus.':field.validity.patternMismatch?'Introdu un cod poștal din 6 cifre.':'Verifică valoarea introdusă.'}));}}
+              onChange={(event) => {setCustomerDraft((value) => ({ ...value, [name]: event.target.value }));setFieldErrors(prev=>({...prev,[name]:''}));}}
               inputMode={name === "postalCode" ? "numeric" : undefined} pattern={name === "postalCode" ? "[0-9]{6}" : undefined}
               required maxLength={name === "address" ? 200 : name === "phone" ? 30 : name === "postalCode" ? 15 : name === "email" ? 120 : 80} />
+            {fieldErrors[name] && <span id={`error-${name}`} className="field-error">{fieldErrors[name]}</span>}
           </label>)}
         </div>
         <fieldset className="rounded-xl border border-[#c9bda9] p-4">
@@ -161,9 +165,19 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
           {carrier !== "sameday" && <p className="mt-3 text-xs">Pentru plata ramburs, alege livrarea Sameday la domiciliu sau la easybox.</p>}
         </fieldset>
         <label className="flex items-center gap-3 text-sm"><input type="checkbox" checked={separateBilling} onChange={(event) => setSeparateBilling(event.target.checked)} /> Datele de facturare diferă de cele de livrare</label>
-        {separateBilling ? <div className="grid gap-4 rounded-xl border border-[#c9bda9] p-4 sm:grid-cols-2">
+        {separateBilling ? <div className="grid gap-4 rounded-xl border border-[#c9bda9] p-4">
           {[["billingName", "Nume pentru facturare"], ["billingAddress", "Adresă de facturare"], ["billingCity", "Localitate"], ["billingCounty", "Județ"], ["billingPostalCode", "Cod poștal"], ["billingCompany", "Denumire firmă (opțional)"], ["billingCui", "CUI (opțional)"]].map(([name, label]) => <label key={name} className="block text-sm font-medium">{label}<input name={name} required={!name.endsWith("Company") && !name.endsWith("Cui")} maxLength={name === "billingCui" ? 24 : 200} className="mt-1 w-full rounded-lg border border-[#c9bda9] bg-white px-3 py-3" /></label>)}
         </div> : null}
+      <section className="self-start rounded-xl bg-[#f8f4ec] p-5">
+        <h2 className="text-xl font-semibold">Comanda ta</h2>
+        <ul className="mt-4 space-y-3">{items.map((item) => <li key={item.productId} className="flex justify-between gap-3 text-sm"><span>{item.name} × {item.quantity}</span><strong>{formatProductPrice(item.price * item.quantity, item.currency)}</strong></li>)}</ul>
+        <p className="mt-5 border-t border-[#c9bda9] pt-3 text-sm">Produse: {formatProductPrice(totals.subtotalCents / 100, "RON")}</p>
+        {totals.discountCents ? <p className="mt-1 text-sm">Reducere −10%: −{formatProductPrice(totals.discountCents / 100, "RON")}</p> : null}
+        {store.taxNotice ? <p className="mt-1 text-xs">{store.taxNotice}</p> : null}
+        <p className="mt-1 text-sm">Transport{selectedShipping ? ` prin ${selectedShipping.label}` : ""}: {shippingCents === null ? "în curs de stabilire" : shippingCents === 0 ? "Gratuit" : formatProductPrice(shippingCents / 100, "RON")}</p>
+        {store.deliveryEstimate ? <p className="mt-1 text-sm">Termen estimat de livrare: {store.deliveryEstimate}</p> : null}
+        {shippingCents !== null && <p className="mt-3 border-t border-[#c9bda9] pt-3 text-lg font-semibold">Total de plată: {formatProductPrice((totals.totalCents + shippingCents) / 100, "RON")}</p>}
+      </section>
         <label className="flex items-start gap-3 text-sm">
           <input className="mt-1" name="acceptedTerms" type="checkbox" required />
           <span>Am citit și accept <Link href="/termeni-si-conditii" className="underline" target="_blank">termenii și condițiile</Link> și am consultat <Link href="/livrare-retur" className="underline" target="_blank">livrarea și returul</Link>.</span>
@@ -174,16 +188,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         <button disabled={busy || !paymentEnabled || shippingCents === null || !currentRate?.token || (method === "easybox" && (!easyboxEligible || !locker))} className="rounded-full bg-[#3b2d24] px-6 py-3 font-semibold text-white disabled:opacity-50">{busy ? "Se înregistrează comanda..." : paymentMethod === "cod" ? "Plasează comanda cu plata ramburs" : "Plătesc comanda cu cardul"}</button>
         <p className="text-xs">{paymentMethod === "cod" ? (method === "easybox" ? "Prin trimiterea comenzii te obligi să achiți totalul afișat cu cardul la easybox, la ridicarea coletului. Nu se acceptă numerar la easybox." : "Prin trimiterea comenzii te obligi să achiți totalul afișat, la curier, la livrare.") : "Datele cardului se introduc pe pagina securizată EuPlătesc. Expediem comanda după confirmarea plății."}</p>
       </form>
-      <aside className="self-start rounded-xl bg-[#f8f4ec] p-5">
-        <h2 className="text-xl font-semibold">Comanda ta</h2>
-        <ul className="mt-4 space-y-3">{items.map((item) => <li key={item.productId} className="flex justify-between gap-3 text-sm"><span>{item.name} × {item.quantity}</span><strong>{formatProductPrice(item.price * item.quantity, item.currency)}</strong></li>)}</ul>
-        <p className="mt-5 border-t border-[#c9bda9] pt-3 text-sm">Produse: {formatProductPrice(totals.subtotalCents / 100, "RON")}</p>
-        {totals.discountCents ? <p className="mt-1 text-sm">Reducere −10%: −{formatProductPrice(totals.discountCents / 100, "RON")}</p> : null}
-        {store.taxNotice ? <p className="mt-1 text-xs">{store.taxNotice}</p> : null}
-        <p className="mt-1 text-sm">Transport{selectedShipping ? ` prin ${selectedShipping.label}` : ""}: {shippingCents === null ? "în curs de stabilire" : shippingCents === 0 ? "Gratuit" : formatProductPrice(shippingCents / 100, "RON")}</p>
-        {store.deliveryEstimate ? <p className="mt-1 text-sm">Termen estimat de livrare: {store.deliveryEstimate}</p> : null}
-        {shippingCents !== null && <p className="mt-3 border-t border-[#c9bda9] pt-3 text-lg font-semibold">Total de plată: {formatProductPrice((totals.totalCents + shippingCents) / 100, "RON")}</p>}
-      </aside>
+
     </div>}
   </main>;
 }

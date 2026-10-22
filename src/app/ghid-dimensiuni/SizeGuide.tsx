@@ -1,0 +1,12 @@
+'use client';
+import { useState } from 'react';
+import Link from 'next/link';
+import type {Product} from '@/lib/products';
+import ProductCard from '@/components/product/ProductCard';
+import {matchingBedding,type BedMeasurements} from '@/lib/size-guide';
+const empty:BedMeasurements={mattressWidth:'',mattressLength:'',duvetWidth:'',duvetLength:'',pillowWidth:'',pillowLength:''};
+export default function SizeGuide({products}:{products:Product[]}) {
+ const [values,setValues]=useState(empty),[submitted,setSubmitted]=useState<BedMeasurements|null>(null);
+ const results=submitted?matchingBedding(products,submitted):[];
+ return <><form className="size-guide-form" onSubmit={e=>{e.preventDefault();setSubmitted({...values});}}>{([['Salteaua','mattressWidth','mattressLength'],['Pilota','duvetWidth','duvetLength'],['Perna','pillowWidth','pillowLength']] as const).map(([title,width,length])=><fieldset key={title}><legend>{title}</legend><label>Lățime (cm)<input type="number" min="20" max="300" step="1" required inputMode="numeric" value={values[width]} onChange={e=>setValues({...values,[width]:e.target.value})}/></label><label>Lungime (cm)<input type="number" min="20" max="300" step="1" required inputMode="numeric" value={values[length]} onChange={e=>setValues({...values,[length]:e.target.value})}/></label></fieldset>)}<p className="secondary-copy">Pentru cearșaful cu elastic, verifică și înălțimea saltelei în fișa produsului. Pentru cearșaful simplu, verifică rezerva necesară pe laterale.</p><button className="button-primary">Găsește setul potrivit</button></form>{submitted&&<section className="home-section" aria-live="polite"><h2>{results.length?`${results.length} variante de verificat`:'Nu am găsit o potrivire confirmată'}</h2><p>Comparăm numai dimensiunile menționate explicit pentru fiecare piesă. Verifică toate piesele și înălțimea saltelei înainte de alegere.</p>{results.length?<div className="products-grid">{results.map(result=><div key={result.variantId}><p className="guide-variant">{result.label}</p><ProductCard product={result.product}/></div>)}</div>:<div className="empty-state"><p>Poți modifica dimensiunile sau ne poți cere ajutorul. Nu îți recomandăm o dimensiune aproximativă.</p><Link className="section-link" href="/informatii-clienti">Ai nevoie de ajutor? →</Link><Link className="section-link" href="/shop?categorie=lenjerii-de-pat">Vezi toate lenjeriile →</Link></div>}</section>}</>;
+}

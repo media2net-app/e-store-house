@@ -1,3 +1,4 @@
+import CatalogReturn from "@/components/catalog/CatalogReturn";
 import ProductCard from "@/components/product/ProductCard";
 import { recommendations, recommendationReason } from "@/lib/discovery";
 import CatalogLayout from "@/components/layout/CatalogLayout";
@@ -87,18 +88,16 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
 
   return (
     <ProductSelection key={product.id} variants={product.variants}>
-    <main className="min-h-screen bg-[#f8f4ec]">
+    <main className="min-h-screen product-page">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([structuredProduct, breadcrumb]).replace(/</g, "\\u003c") }} />
-      <TrustBar />
       <Header />
-      <CatalogLayout activePath={product.categoryPath}>
+      <CatalogLayout activePath={product.categoryPath} showSidebar={false}>
 
       <section className="mx-auto w-full max-w-[1440px] px-4 py-10">
-        <Link href="/shop" className="text-sm font-semibold text-[#3b2d24] hover:underline">
-          ← Inapoi la magazin
-        </Link>
+        <CatalogReturn />
 
-        <div className="mt-5 grid gap-8 lg:grid-cols-2">
+        <h1 className="mobile-product-title">{product.name}</h1>
+        <div className="product-overview mt-5 grid gap-8 lg:grid-cols-2">
           <div>
             <ProductImageGallery images={product.images} name={product.name} />
           </div>
@@ -107,82 +106,18 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
             <p className="text-xs font-semibold uppercase tracking-wider text-[#3b2d24]">
               {product.brand || "E-Store House"}
             </p>
-            <h1 className="mt-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold text-[#3b2d24]">
+            <h1 className="desktop-product-title mt-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold text-[#3b2d24]">
               {product.name}
             </h1>
             <nav aria-label="Categoria produsului" className="mt-2 flex flex-wrap gap-1 text-sm text-[#3b2d24]/70">
               {product.categoryPath ? categoryTrail(product.categoryPath).map((category, index) => <span key={category.path}>{index ? " / " : ""}<Link href={categoryHref(category.path)} className="hover:underline">{category.name}</Link></span>) : product.category}
             </nav>
 
-            {!product.variants ? (
-            <div className="mt-6 flex items-end gap-3">
-              <span className="text-3xl font-bold text-[#3b2d24]">
-                {formatProductPriceRange(product)}
-              </span>
-              {product.oldPrice ? (
-                <span className="text-lg text-[#3b2d24]/50 line-through">
-                  {formatProductPrice(product.oldPrice, product.currency)}
-                </span>
-              ) : null}
-            </div>
-
-            ) : null}
             <ProductPurchaseActions key={product.id} product={product} />
 
-            <div className="mt-5 rounded-xl border border-[#e5d9c7] bg-[#fcf8f0] p-4 text-sm text-[#3b2d24]">
-              <p className="font-semibold">Ce primești</p>
-              <p className="mt-2 whitespace-pre-line leading-6">{productDescription}</p>
-              {Boolean(product.variants?.length || sizeLines.length) ? <details className="mt-3 rounded-lg border border-[#d8c9b1] bg-white p-3">
-                <summary className="cursor-pointer font-semibold">Ghidul dimensiunilor acestui produs</summary>
-                <ul className="mt-2 list-disc space-y-1 pl-5">{product.variants?.length
-                  ? product.variants.map((variant) => <li key={variant.id}>{variant.name}: {variant.dimensions}. {variant.contents}</li>)
-                  : sizeLines.map((line) => <li key={line}>{line.replace(/^•\s*/, "")}</li>)}</ul>
-              </details> : null}
-              <p className="mt-3">Disponibilitate: {product.inStock === false ? "momentan indisponibil" : "verificată din nou înainte de comandă"}.</p>
-              <p className="mt-2">Transport gratuit de la 900 lei după reduceri. {store.shippingCost || "Costul sub acest prag se comunică înainte de acceptarea comenzii."} {store.deliveryEstimate ? `Termen estimat: ${store.deliveryEstimate}.` : "Termenul concret se confirmă înainte de acceptarea comenzii."}</p>
-              <Link href="/livrare-retur" className="mt-2 inline-block underline">Livrare, plată și retur</Link>
-            </div>
+            <details className="product-detail-copy"><summary>Descriere și întreținere</summary><p>{productDescription}</p></details>
+            <p className="purchase-delivery">Ai nevoie de ajutor? <a href={`mailto:${store.email}`}>{store.email}</a></p>
 
-            <div className="mt-6 space-y-2 text-sm text-[#3b2d24]/90">
-              {product.discount ? <p>Reducere: {product.discount}%</p> : null}
-              {product.sameDayShipping ? <p>Expediere in aceeasi zi disponibila</p> : null}
-              {product.hasFastDeliveryTag ? <p>Livrare rapidă disponibilă</p> : null}
-              {product.hasFlashSaleTag ? <p>Produs in promotie flash</p> : null}
-              {product.socialProof ? <p>{product.socialProof}</p> : null}
-            </div>
-
-            <div className="mt-6 grid gap-3 md:grid-cols-2">
-              <div className="rounded-xl border border-[#e5d9c7] bg-[#fcf8f0] p-4">
-                <p className="text-sm font-semibold text-[#3b2d24]">Vândut de E-Store House</p>
-                <p className="mt-2 text-sm text-[#3b2d24]/85">Pentru întrebări despre produs sau comandă, contactează echipa E-Store House.</p>
-                <a className="mt-2 block break-all text-sm underline" href={`mailto:${store.email}`}>{store.email}</a>
-              </div>
-              <div className="rounded-xl border border-[#e5d9c7] bg-[#fcf8f0] p-4">
-                <p className="text-sm font-semibold text-[#3b2d24]">Livrare E-Store House</p>
-                <p className="mt-2 text-sm text-[#3b2d24]/85">
-                  Transport gratuit pentru produse de minimum 900 lei, după reduceri. Sub acest prag, {store.shippingCost || "costul transportului se confirmă înainte de acceptarea comenzii"}. {store.deliveryEstimate ? `Termen estimat: ${store.deliveryEstimate}.` : "Termenul de livrare se confirmă înainte de acceptarea comenzii."}
-                </p>
-              </div>
-            </div>
-
-            <div className="mt-6 rounded-xl border border-[#e5d9c7] bg-white p-4">
-              <p className="text-sm font-semibold text-[#3b2d24]">Caracteristici principale</p>
-              <ul className="mt-2 space-y-1 text-sm text-[#3b2d24]/85">
-                {highlightedFeatures.map((feature) => (
-                  <li key={feature}>- {feature}</li>
-                ))}
-              </ul>
-            </div>
-
-
-            <div className="mt-4 flex flex-wrap gap-3">
-              <Link
-                href="/shop"
-                className="rounded-full bg-[#3b2d24] px-5 py-2 text-sm font-semibold text-white transition hover:bg-[#6c4e35]"
-              >
-                Continua cumparaturile
-              </Link>
-            </div>
           </div>
         </div>
 

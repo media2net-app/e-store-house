@@ -1,8 +1,9 @@
+import FilterPanel from "@/components/catalog/FilterPanel";
 import ProductCard from "@/components/product/ProductCard";
 import { matchesSearch } from "@/lib/discovery";
 import CatalogLayout from "@/components/layout/CatalogLayout";
 import { notFound } from "next/navigation";
-import { categoryHref, categoryProducts, categoryTrail, getCategory } from "@/lib/categories";
+import { categoryHref, categoryProducts, categoryTrail, getCategory, getCategoryChildren } from "@/lib/categories";
 import Link from "next/link";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
@@ -65,7 +66,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
     <main className="min-h-screen bg-[#f8f4ec]">
       <TrustBar />
       <Header query={query} />
-      <CatalogLayout activePath={active?.path}>
+      <CatalogLayout activePath={active?.path} showSidebar={false}>
 
       <section className="mx-auto w-full max-w-[1440px] px-4 py-10">
         <nav aria-label="Traseu categorie" className="mb-4 flex flex-wrap gap-2 text-sm text-[#3b2d24]/80">
@@ -83,22 +84,8 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
           Toate produsele afișate sunt eligibile pentru reducerea automată de 10% la o singură bucată, cea mai ieftină, când adaugi cel puțin două articole în coș. Nu afișăm prețuri anterioare inventate. <Link href="/promotii" className="font-semibold underline">Vezi condițiile ofertei</Link>.
         </p> : null}
 
-        <details className="mt-6 rounded-xl border border-[#e5d9c7] bg-white p-4 text-[#3b2d24]">
-          <summary className="cursor-pointer text-sm font-semibold">Filtrează produsele</summary>
-          <form action="/shop" method="get" className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            {categorie ? <input type="hidden" name="categorie" value={categorie} /> : null}
-            {query ? <input type="hidden" name="q" value={query} /> : null}
-            <input type="hidden" name="sortare" value={sort} />
-            {([ ["material", "Material", options.material, filters.material], ["culoare", "Culoare", options.culoare, filters.culoare],
-              ["dimensiune", "Dimensiune", options.dimensiune, filters.dimensiune], ["cearsaf", "Tip cearșaf", options.cearsaf, filters.cearsaf] ] as const)
-              .filter(([, , values]) => values.length > 1).map(([name, label, values, selected]) =>
-                <label key={name} className="flex flex-col gap-1 text-sm">{label}<select name={name} defaultValue={selected} className="rounded-lg border border-[#c9bda9] bg-white px-3 py-2"><option value="">Toate</option>{values.map((value) => <option key={value} value={value}>{value}</option>)}</select></label>)}
-            <label className="flex flex-col gap-1 text-sm">Preț minim (lei)<input name="pret_min" type="number" min="0" step="1" defaultValue={filters.pretMin} className="rounded-lg border border-[#c9bda9] px-3 py-2" /></label>
-            <label className="flex flex-col gap-1 text-sm">Preț maxim (lei)<input name="pret_max" type="number" min="0" step="1" defaultValue={filters.pretMax} className="rounded-lg border border-[#c9bda9] px-3 py-2" /></label>
-            <label className="flex items-center gap-2 text-sm"><input name="stoc" type="checkbox" value="da" defaultChecked={filters.stoc === "da"} /> Doar disponibile</label>
-            <div className="flex items-end gap-3"><button className="rounded-lg bg-[#3b2d24] px-4 py-2 text-sm font-semibold text-white">Aplică filtrele</button><Link href={active ? categoryHref(active.path) : "/shop"} className="py-2 text-sm underline">Resetează</Link></div>
-          </form>
-        </details>
+        {active && <nav className="subcategory-links" aria-label="Subcategorii">{getCategoryChildren(active.path).map(c=><Link key={c.path} href={categoryHref(c.path)}>{c.name}</Link>)}</nav>}
+        <FilterPanel key={JSON.stringify(filters)+query+(categorie??'')} products={categoryItems.filter(p=>matchesSearch(p,query))} initial={filters} category={categorie} query={query} sort={sort}/>
 
         <form action="/shop" method="get" className="catalog-sort mt-6 flex flex-wrap items-end gap-3">
           {categorie ? <input type="hidden" name="categorie" value={categorie} /> : null}
@@ -118,6 +105,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
           {query ? <Link href={active ? categoryHref(active.path) : "/shop"} className="px-3 py-3 text-sm text-[#3b2d24] underline">Șterge căutarea</Link> : null}
         </form>
 
+        {!products.length && <div className="empty-state"><h2>Niciun produs pentru această selecție</h2><p>Încearcă să elimini un filtru sau să folosești un termen mai scurt.</p><Link className="section-link" href={`/shop?${new URLSearchParams({...categorie?{categorie}:{},...query?{q:query}:{}})}`}>Elimină filtrele →</Link></div>}
         <div className="products-grid mt-8">{visibleProducts.map((product) => <ProductCard key={product.id} product={product} />)}</div>
         {pageCount > 1 ? <nav aria-label="Pagini catalog" className="mt-8 flex items-center justify-center gap-5 text-sm text-[#3b2d24]">
           {page > 1 ? <Link href={pageHref(page - 1)} className="rounded-full border border-[#3b2d24] px-4 py-2">← Înapoi</Link> : null}

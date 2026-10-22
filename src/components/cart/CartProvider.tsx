@@ -63,6 +63,9 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   }, [items, cartLoaded]);
   const addItem = (product: Product, quantity: number) => {
     if (!Number.isSafeInteger(quantity) || quantity < 1 || quantity > 20) return;
+    const current = items.find(item => item.productId === product.id);
+    if ((current?.quantity ?? 0) + quantity > 20 || (!current && items.length >= 30)) {setCartNotice("Cantitatea maximă este de 20 de bucăți per produs și 30 de produse diferite în coș.");setIsOpen(true);return;}
+    setCartNotice(`Adăugat în coș: ${product.name}, ${quantity} ${quantity === 1 ? 'bucată' : 'bucăți'}, ${formatProductPrice(product.price, product.currency)} / buc.`);
     setItems((prev) => {
       const existing = prev.find((item) => item.productId === product.id);
       if (existing?.quantity && existing.quantity + quantity > 20) return prev;
@@ -114,7 +117,6 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
         {cartNotice ? <p className="cart-offer-note" role="status">{cartNotice}</p> : null}
         {!items.length ? <div className="cart-empty"><p>Coșul tău așteaptă ceva frumos.</p><p>Adaugă două articole și primești 10% reducere la cel mai ieftin.</p><Link href="/shop" onClick={() => setIsOpen(false)} className="cart-shop-link">Descoperă colecția →</Link></div> : <>
           <div className="cart-drawer-items">
-            <FreeShippingProgress totalCents={totals.totalCents} />
             <p className="cart-offer-note">{totals.discountCents ? "Reducerea de 10% este aplicată automat." : "Adaugă încă un articol pentru 10% reducere la cel mai ieftin."}</p>
             {items.map((item) => <div key={item.productId} className="cart-item">
               <div className="cart-item-main"><img src={item.image} alt={item.name} width={72} height={90} /><div><p className="cart-item-name">{item.name}</p>{item.sku ? <p className="cart-item-code">Cod: {item.sku}</p> : null}
@@ -124,6 +126,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
               </div></div>
               <div className="cart-item-controls"><div className="cart-quantity"><button onClick={() => updateQuantity(item.productId, item.quantity - 1)} aria-label={"Scade cantitatea pentru " + item.name}>−</button><span aria-label="Cantitate">{item.quantity}</span><button onClick={() => updateQuantity(item.productId, item.quantity + 1)} aria-label={"Crește cantitatea pentru " + item.name}>+</button></div><button className="cart-remove" onClick={() => removeItem(item.productId)} aria-label={"Șterge " + item.name}>Șterge</button></div>
             </div>)}
+            <FreeShippingProgress totalCents={totals.totalCents} />
             <details className="cart-promotion-terms"><summary>Cum se aplică oferta?</summary><p>{SECOND_ITEM_TERMS} O singură reducere per comandă.</p></details>
           </div>
           <div className="cart-drawer-summary" aria-live="polite" aria-atomic="true">
@@ -131,7 +134,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
             {totals.discountCents > 0 ? <div className="cart-summary-row cart-discount-row"><span>{SECOND_ITEM_OFFER}</span><strong>−{money(totals.discountCents)}</strong></div> : null}
             <div className="cart-summary-row"><span>Transport</span><span>{totals.freeShipping ? "Gratuit" : "Se confirmă separat"}</span></div>
             <div className="cart-summary-total"><span>Total produse</span><strong>{money(totals.totalCents)}</strong></div>
-            <Link href="/checkout" onClick={() => setIsOpen(false)} className="cart-shop-link">Finalizează comanda →</Link>
+            <Link href="/cos" onClick={() => setIsOpen(false)} className="cart-shop-link">Vezi coșul →</Link>
             <Link href="/shop" onClick={() => setIsOpen(false)} className="cart-shop-link">Continuă cumpărăturile →</Link>
           </div>
         </>}

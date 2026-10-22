@@ -1,83 +1,43 @@
 "use client";
-
+import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import { useProductSelection } from "./ProductSelection";
-import { useState } from "react";
-import ProductOffer from "./ProductOffer";
 import { useCart } from "@/components/cart/CartProvider";
 import { formatProductPrice, formatProductPriceRange, type Product } from "@/lib/products";
-
-type ProductPurchaseActionsProps = {
-  product: Product;
+const variantLabel = (variant: NonNullable<Product['variants']>[number]) => {
+  const compact = (s:string) => s.replace(/\s/g,'').replace(/×/g,'x').toLowerCase();
+  return variant.dimensions && !compact(variant.name).includes(compact(variant.dimensions)) ? `${variant.name} — ${variant.dimensions}` : variant.name;
 };
-
-const variantLabel = (variant: NonNullable<Product["variants"]>[number]) => {
-  const compact = (value: string) => value.replace(/\s/g, "").replace(/×/g, "x").toLowerCase();
-  return variant.dimensions && !compact(variant.name).includes(compact(variant.dimensions))
-    ? `${variant.name} — ${variant.dimensions}`
-    : variant.name;
-};
-
-export default function ProductPurchaseActions({ product }: ProductPurchaseActionsProps) {
-  const [quantity, setQuantity] = useState(1);
-  const { addItem } = useCart();
-  const selection = useProductSelection();
-  const selected = selection?.selected;
-  const cartProduct = selected ? {
-    ...product, id: selected.id, price: selected.price, sku: selected.sku,
-    bundleComponents: selected.bundleComponents ?? product.bundleComponents,
-    image: selected.images?.[0] ?? product.image,
-    name: `${product.name} — ${variantLabel(selected)}`,
-  } : product;
-
-  return (
-    <div className="mt-6">
-      {product.variants?.length ? (
-        <>
-          <p aria-live="polite" aria-atomic="true" className="text-3xl font-bold text-[#3b2d24]">
-            {selected ? formatProductPrice(selected.price, product.currency) : formatProductPriceRange(product)}
-          </p>
-          <ProductOffer />
-          <fieldset className="mt-5">
-            <legend className="text-sm font-semibold text-[#3b2d24]">Alege varianta</legend>
-            <div className="mt-2 flex flex-wrap gap-2">
-              {product.variants?.map((variant) => (
-                <label key={variant.id} className={`cursor-pointer rounded-xl border px-4 py-3 text-sm ${selected?.id === variant.id ? "border-[#3b2d24] bg-[#3b2d24] text-white" : "border-[#e5d9c7] text-[#3b2d24]"}`}>
-                  <input type="radio" name={`size-${product.id}`} value={variant.id}
-                    checked={selected?.id === variant.id} onChange={() => selection?.select(variant.id)}
-                    className="mr-2 accent-[#92704a]" />
-                  {variantLabel(variant)}
-                </label>
-              ))}
-            </div>
-          </fieldset>
-          <p className="mt-3 text-sm text-[#3b2d24]/85">{selected ? selected.contents : "Selectează varianta pentru prețul exact."}</p>
-          {selected ? <p className="mt-2 text-sm text-[#3b2d24]" aria-live="polite">Cod produs (SKU / cod de bare): <strong>{selected.sku}</strong></p> : null}
-        </>
-      ) : <ProductOffer />}
-      {cartProduct.bundleComponents ? <div className="mt-3 text-sm text-[#3b2d24]/85"><p className="font-semibold">Preț pentru un set. Conținut:</p>{cartProduct.bundleComponents.map((component) => <p key={component.sku}>{component.quantity} × {component.name} · Cod: {component.sku}</p>)}</div> : null}
-      {product.inStock === false || selected?.inStock === false ? <p className="mt-3 text-sm font-semibold text-[#3b2d24]" role="status">Momentan indisponibil</p> : null}
-    <div className="mt-4 flex flex-wrap items-center gap-3">
-      <div className="flex items-center rounded-full border border-[#3b2d24]">
-        <button
-          className="px-4 py-2 text-[#3b2d24]"
-          onClick={() => setQuantity((prev) => Math.max(1, prev - 1))}
-        >
-          -
-        </button>
-        <span className="min-w-10 text-center text-sm font-semibold text-[#3b2d24]">{quantity}</span>
-        <button className="px-4 py-2 text-[#3b2d24]" onClick={() => setQuantity((prev) => prev + 1)}>
-          +
-        </button>
-      </div>
-
-      <button
-        className="disabled:cursor-not-allowed disabled:opacity-50 rounded-full bg-[#3b2d24] px-5 py-2 text-sm font-semibold text-white transition hover:bg-[#6c4e35]"
-        disabled={Boolean((product.variants?.length && !selected) || selected?.inStock === false || product.inStock === false)}
-        onClick={() => { if ((!product.variants?.length || selected) && selected?.inStock !== false && product.inStock !== false) addItem(cartProduct, quantity); }}
-      >
-        Adauga in cos
-      </button>
-    </div>
-    </div>
-  );
+export default function ProductPurchaseActions({product}: {product: Product}) {
+  const [quantity,setQuantity] = useState(1);
+  const [showSticky,setShowSticky] = useState(false);
+  const [keyboard,setKeyboard] = useState(false);
+  const mainButton = useRef<HTMLButtonElement>(null);
+  const selector = useRef<HTMLFieldSetElement>(null);
+  const guide = useRef<HTMLDialogElement>(null);
+  const {addItem,isOpen} = useCart();
+  const selection = useProductSelection(), selected = selection?.selected;
+  const needsVariant = Boolean(product.variants?.length && !selected);
+  const unavailable = product.inStock===false || selected?.inStock===false;
+  const price = selected ? formatProductPrice(selected.price, product.currency) : formatProductPriceRange(product);
+  const choose = () => { selector.current?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'}); selector.current?.querySelector<HTMLInputElement>('input:not(:disabled)')?.focus({preventScroll:true}); };
+  const purchase = () => {if(needsVariant){choose();return;} if(unavailable)return; addItem(selected ? {...product,id:selected.id,price:selected.price,sku:selected.sku,bundleComponents:selected.bundleComponents??product.bundleComponents,image:selected.images?.[0]??product.image,name:`${product.name} — ${variantLabel(selected)}`} : product,quantity);};
+  useEffect(() => {const observer = new IntersectionObserver(([entry]) => setShowSticky(!entry.isIntersecting),{threshold:0}); if(mainButton.current)observer.observe(mainButton.current); return () => observer.disconnect();},[]);
+  useEffect(() => {const check = () => setKeyboard(Boolean(window.visualViewport && window.innerHeight-window.visualViewport.height>150));window.visualViewport?.addEventListener('resize',check);return () => window.visualViewport?.removeEventListener('resize',check);},[]);
+  const bundleComponents = selected?.bundleComponents ?? product.bundleComponents;
+  const contents = selected?.contents ?? (!product.variants?.length ? product.description?.split('\n').filter(line => /^\s*[•*-]/.test(line)) .join('\n') : 'Alege dimensiunea pentru a vedea conținutul exact.');
+  return <div className="purchase-actions">
+    <p className="purchase-price" aria-live="polite" aria-atomic="true">{price}</p>
+    {product.material && <p className="product-composition"><strong>Material:</strong> {product.material}</p>}
+    {product.variants?.length ? <fieldset ref={selector} className="variant-selector"><legend>Alege dimensiunea</legend><div>{product.variants.map(v => <label key={v.id} className={selected?.id===v.id?'variant-selected':v.inStock===false?'variant-unavailable':''}><input type="radio" name={`variant-${product.id}`} checked={selected?.id===v.id} disabled={v.inStock===false} onChange={() => selection?.select(v.id)}/>{variantLabel(v)}{v.inStock===false?' — indisponibil':''}</label>)}</div></fieldset> : null}
+    <button className="section-link" onClick={() => guide.current?.showModal()}>Verifică dacă se potrivește</button>
+    {contents && <div className="product-contents" aria-live="polite"><h2>Ce primești</h2><ul>{contents.split('\n').filter(Boolean).map((line,i) => <li key={i}>{line.replace(/^\s*[•*-]\s*/, '')}</li>)}</ul></div>}
+    {bundleComponents?.length ? <div className="product-contents"><h2>Componentele setului</h2><ul>{bundleComponents.map(component => <li key={component.sku}>{component.quantity} × {component.name} · Cod: {component.sku}</li>)}</ul></div> : null}
+    <p className="availability" role="status">{unavailable?'Momentan indisponibil':needsVariant?'Selectează varianta dorită.':'Disponibilitate verificată din nou înainte de comandă.'}</p>
+    <div className="purchase-controls"><div className="quantity-control"><button aria-label="Scade cantitatea" disabled={quantity===1} onClick={() => setQuantity(n=>Math.max(1,n-1))}>−</button><output aria-label="Cantitate">{quantity}</output><button aria-label="Crește cantitatea" disabled={quantity===20} onClick={() => setQuantity(n=>Math.min(20,n+1))}>+</button></div><button ref={mainButton} className="button-primary" disabled={unavailable} onClick={purchase}>{needsVariant?'Alege dimensiunea':'Adaugă în coș'}</button></div>
+    <p className="purchase-delivery">Transportul se calculează în checkout. Gratuit de la 900 lei după reduceri. <Link href="/livrare-retur">Livrare și retur</Link></p>
+    <p className="purchase-promotion">La cel puțin două articole: −10% la o singură bucată, cea mai ieftină. <Link href="/promotii">Condiții</Link></p>
+    {showSticky && !isOpen && !keyboard && <div className="sticky-purchase"><strong>{price}</strong><button className="button-primary" disabled={unavailable} onClick={purchase}>{needsVariant?'Alege dimensiunea':'Adaugă în coș'}</button></div>}
+    <dialog ref={guide} className="store-dialog" aria-labelledby="fit-title"><div className="dialog-heading"><h2 id="fit-title">Verifică dacă se potrivește</h2><button onClick={() => guide.current?.close()} aria-label="Închide ghidul">✕</button></div><p>Compară dimensiunile saltelei, pilotei și pernelor cu piesele incluse. Dimensiunea husei de pilotă nu este dimensiunea saltelei.</p>{product.variants?.length ? <ul className="fit-list">{product.variants.map(v => <li key={v.id}><strong>{variantLabel(v)}</strong><p>{v.contents}</p></li>)}</ul> : <p className="fit-list">{product.description}</p>}<Link className="section-link" href="/ghid-dimensiuni">Deschide ghidul de alegere →</Link></dialog>
+  </div>;
 }

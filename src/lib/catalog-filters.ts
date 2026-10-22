@@ -30,7 +30,7 @@ export function facetOptions(products: Product[]) {
   return {
     material: unique(facets.map((facet) => facet.material)),
     culoare: unique(facets.map((facet) => facet.culoare)),
-    dimensiune: unique(facets.flatMap((facet) => facet.dimensiuni)),
+    dimensiune: unique(facets.flatMap((facet) => facet.dimensiuni).filter(value => value.length <= 60 && !/[;\n]/.test(value))),
     cearsaf: unique(facets.map((facet) => facet.cearsaf)),
   };
 }

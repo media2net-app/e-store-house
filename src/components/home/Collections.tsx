@@ -1,9 +1,11 @@
 import Link from "next/link";
-import { getCategoryChildren, categoryProducts, categoryHref } from "@/lib/categories";
+import Image from "next/image";
+import { categoryProducts } from "@/lib/categories";
+import { navigationGroups, groupHref } from "@/lib/navigation-groups";
 export default function Collections() {
- const categories = getCategoryChildren(null).filter((c) => c.path !== "oferte");
- return <section className="maison-collections" aria-labelledby="collections-title"><div className="maison-section-heading"><div><p className="eyebrow">O CASĂ, ATÂTEA POSIBILITĂȚI</p><h2 id="collections-title">Colecții de explorat</h2></div><Link href="/categorii">Toate categoriile ↗</Link></div><div className="maison-category-grid">{categories.map((category, i) => {
- const products = categoryProducts(category.path), cover = products.find((p) => p.inStock !== false) ?? products[0];
- return <Link href={categoryHref(category.path)} key={category.path} className="maison-category"><div><img src={cover.image} alt="" loading="lazy" /><span>{String(i + 1).padStart(2, "0")}</span></div><h3>{category.name}<span aria-hidden="true">↗</span></h3><p>{products.length} {products.length === 1 ? "model de descoperit" : "modele de descoperit"}</p></Link>;
- })}</div></section>;
+  return <section className="home-section" aria-labelledby="collections-title"><div className="home-section-heading"><h2 id="collections-title">Ce cauți pentru casa ta?</h2></div><div className="home-category-grid">{navigationGroups.map(group => {
+    const products = group.paths.flatMap(categoryProducts);
+    const cover = products.find(p => p.inStock !== false) ?? products[0];
+    return <Link href={groupHref(group.slug)} key={group.slug} className="home-category">{cover ? <Image src={cover.image} alt="" width={400} height={400} sizes="(max-width: 600px) 45vw, (max-width: 1000px) 30vw, 200px" /> : <div className="image-placeholder">{group.name}</div>}<h3>{group.name}<span aria-hidden="true">↗</span></h3></Link>;
+  })}</div><Link className="section-link" href="/categorii">Vezi toate categoriile →</Link></section>;
 }
