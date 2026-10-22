@@ -18,7 +18,9 @@ export async function GET(request: Request) {
     const orderId = url.searchParams.get("orderId");
     if (orderId) {
       const shipment = await getShipment(orderId);
-      if (url.searchParams.get("label") === "1" && shipment?.awbNumber) {
+      if (url.searchParams.get("label") === "1") {
+        const order = await getOrder(orderId);
+        if (!order || order.cancellation || shipment?.state !== "created" || !shipment.awbNumber) return NextResponse.json({ error: "AWB-ul nu este disponibil pentru imprimare." }, { status: 409, headers });
         const pdf = await samedayLabel(shipment.awbNumber);
         return new Response(pdf as BodyInit, { headers: { ...headers, "Content-Type": "application/pdf", "Content-Disposition": `attachment; filename="sameday-${shipment.awbNumber}.pdf"` } });
       }

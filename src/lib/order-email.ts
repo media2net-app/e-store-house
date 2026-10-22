@@ -132,3 +132,23 @@ export async function sendComplaintReceipt(request: ComplaintRequest) {
     send(merchantInbox(), `Reclamație primită — ${request.id}`, text, `complaint-merchant-${request.id}`),
   ]);
 }
+
+export async function sendCancellationConfirmation(order: StoreOrder) {
+  if (order.status !== "cancelled" || !order.cancellation) throw new Error("Anularea nu este confirmată.");
+  const payment = order.cancellation.refundReviewRequired
+    ? "Plata cu cardul necesită verificarea separată a rambursării. Acest email nu confirmă restituirea banilor."
+    : order.paymentMethod === "cod" ? "Comanda nu mai urmează să fie încasată ramburs la livrare." : "Nu iniția o nouă plată pentru această comandă. Dacă ai fost debitat, contactează magazinul pentru verificarea rambursării.";
+  const body = `Comanda ${order.id} a fost anulată.\n\nMotiv: ${order.cancellation.reason}\nTotal comandă: ${formatLeiCents(order.totalCents)} lei\n${payment}\n\nContact: ${store.email}\nE-Store House`;
+  await Promise.all([
+    send(order.customer.email, `Comandă anulată E-Store House — ${order.id}`, body, `customer-cancel-${order.id}`),
+    send(merchantInbox(), `Comandă ANULATĂ ${order.id}`, `${body}\n\nNu expedia comanda. ${order.cancellation.refundReviewRequired ? "Verifică și efectuează separat rambursarea plății cu cardul." : ""}`, `merchant-cancel-${order.id}`),
+  ]);
+}
+
+export async function sendCancelledPaymentNotice(order: StoreOrder) {
+  const body = `Pentru comanda ${order.id}, aflată în anulare/anulată, a fost primită o confirmare de plată cu cardul de ${formatLeiCents(order.totalCents)} lei.\n\nComanda nu este reactivată pentru expediere. Rambursarea trebuie verificată și procesată separat; acest mesaj nu confirmă restituirea banilor.\n\nContact: ${store.email}`;
+  await Promise.all([
+    send(order.customer.email, `Verificare plată pentru comanda anulată — ${order.id}`, body, `customer-cancel-payment-${order.id}`),
+    send(merchantInbox(), `ATENȚIE: plată la o comandă anulată ${order.id}`, body, `merchant-cancel-payment-${order.id}`),
+  ]);
+}

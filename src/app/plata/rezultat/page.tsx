@@ -23,6 +23,12 @@ export default function PaymentResultPage() {
         const order = await response.json() as { id: string; status: string; paymentMethod: string; totalCents: number };
         if (cancelled) return;
         setOrderNumber(order.id);
+        if (order.status === "cancelled") {
+          setStatus("Comanda a fost anulată. Eventuala rambursare a unei plăți cu cardul se verifică separat cu magazinul."); return;
+        }
+        if (order.status === "cancel_requested") {
+          setStatus("Anularea comenzii este în verificare. Contactează magazinul pentru confirmare; nu iniția o nouă plată."); return;
+        }
         if (order.paymentMethod === "cod" && order.status === "pending_cod") {
           setStatus(`Comanda a fost înregistrată. Vei achita ${formatProductPrice(order.totalCents / 100, "RON")} la curier, la livrarea la domiciliu.`);
           return;
