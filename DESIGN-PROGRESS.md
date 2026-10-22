@@ -50,3 +50,14 @@ Original working copy and its uncommitted catalog work are preserved.
 
 ## Publication authorization
 User explicitly authorized publishing the redesign and then all Ralex Pucioasa Control products on 23 October 2026. This supersedes the preview-only gate. Product evidence requirements and pending EuPlatesc activation still apply.
+
+## Production result — 23 October 2026
+- Redesign commit 67908be deployed successfully to https://www.estorehouse.ro; live homepage and product page verified in Chrome.
+- 70 additional Economy models published in commit 0612a7e. All 70 live product pages returned correct SKU and polyester composition. Live public API confirms 257 models and correct new prices/availability.
+- Current published catalog: 257 models, 421 configurations; 417 of 1337 exported Control records covered, 920 pending. Control UI excludes one rework record and therefore shows 1336 active records.
+- Exact prior Economy gallery hashes verified; supplier numeric barcodes checked from individual evidence and live costs/stock refreshed. Original held records preserved in released-economy-originals-20261023.json; unresolved held records unchanged.
+- Full tests: 64 passed / one archive consistency failure / two skipped initially. Moved the 70 released records into their recoverable release archive and reran all seven catalog quality/pricing checks: passed. No test expectations weakened.
+- Final production build passed after improving the visible contents of simple products. Deployment commit b5ef73c.
+- Control connection fixed: Cloudflare supports manual redirects, not redirect:error. Private Sites deployment appgdep_6adaa165a83c8191ad27b2b6194018de succeeded; UI now shows 257 approved models. Audience and Control prices unchanged.
+- Percale batch not imported: own descriptions mention cotton but do not substantiate existing 100% claims. Seventeen models / 23 Control variants require composition confirmation or accurate copy/image corrections. Overhead detail outputs reviewed but do not constitute complete publication approval.
+- Not complete: remaining Control catalog needs individual source/gallery/copy work; some Finet composition and Romania/Pucioasa manufacturing claims need supplier confirmation. Card payment still pending EuPlatesc. Real-phone and participant checks not performed.
