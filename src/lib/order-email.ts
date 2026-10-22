@@ -121,7 +121,7 @@ export async function sendCodConfirmation(order: StoreOrder) {
 
 export async function sendWithdrawalReceipt(request: WithdrawalRequest) {
   const submitted = new Date(request.submittedAt).toLocaleString("ro-RO", { timeZone: "Europe/Bucharest", dateStyle: "medium", timeStyle: "short" });
-  const text = `Cererea de retragere a fost primită la ${submitted}.\n\nNumăr cerere: ${request.id}\nComandă / data comenzii: ${request.orderId || "nespecificată"}\nData primirii produselor: ${request.receivedAt || "nespecificată"}\nNume: ${request.name}\nE-mail: ${request.email}\nProduse: ${request.products}\nAdresă: ${request.address}\n\nVom analiza cererea și îți vom comunica pașii pentru retur. Aceasta este confirmarea primirii declarației de retragere, nu confirmarea rambursării.\n\nE-Store House`;
+  const text = `Cererea de retragere a fost primită la ${submitted}.\n\nNumăr cerere: ${request.id}\nComandă / data comenzii: ${request.orderId || "nespecificată"}\nData primirii produselor: ${request.receivedAt || "nespecificată"}\nNume: ${request.name}\nE-mail: ${request.email}\nProduse: ${request.products}\nAdresă: ${request.address}\n\nAdresa pentru returnarea coletului: ${store.name}, ${store.returnAddress || store.address}.\nReturnează produsele în cel mult 14 zile de la comunicarea retragerii. Condiții, costuri și rambursare: ${process.env.STORE_PUBLIC_URL}/livrare-retur\nPentru ajutor: ${store.email}.\n\nAceasta este confirmarea primirii declarației de retragere, nu confirmarea rambursării.\n\nE-Store House`;
   await Promise.all([
     send(request.email, `Confirmare primire retragere — ${request.id}`, text, `withdrawal-customer-${request.id}`),
     send(merchantInbox(), `Cerere retragere ${request.orderId}`, text, `withdrawal-merchant-${request.id}`),
