@@ -48,7 +48,7 @@ test("API authentication stays server-side, reuses token and never retries an un
     calls.push({ url, init });
     if (url.endsWith("authenticate")) return Response.json({ token: "server-only-token" });
     if (url.endsWith("/api/awb")) throw new Error("timeout after provider may have created AWB");
-    return Response.json({ amount: 17.45, currency: "RON", time: 24 });
+    return Response.json({ amount: 17.45, currency: "Ron", time: 24 });
   } });
   const payload = api.samedayPayload(order, { weight: 2, width: 30, length: 30, height: 10 });
   assert.equal(payload.awbRecipient.email, "client@example.test");

@@ -2,6 +2,7 @@ import "server-only";
 import { encodeSamedayForm, parseLocker, validParcel, fitsEasybox, type Parcel, type SamedayLocker } from "./sameday-protocol";
 import type { StoreOrder } from "./orders";
 
+const clientHeaders = { "User-Agent": "EStoreHouse/1.0", "X-Platform": "EStoreHouse/1.0", Accept: "application/json" };
 const hosts = { live: "https://api.sameday.ro", test: "https://sameday-api.demo.zitec.com" };
 export function samedayConfiguration() {
   const mode = process.env.SAMEDAY_MODE;
@@ -28,7 +29,7 @@ async function token(): Promise<string> {
   if (authentication) return authentication;
   authentication = (async () => {
     const response = await fetch(`${config.host}/api/authenticate`, { method: "POST", cache: "no-store", redirect: "error",
-      signal: AbortSignal.timeout(15000), headers: { "X-AUTH-USERNAME": config.username!, "X-AUTH-PASSWORD": config.password!,
+      signal: AbortSignal.timeout(15000), headers: { ...clientHeaders, "X-AUTH-USERNAME": config.username!, "X-AUTH-PASSWORD": config.password!,
         "Content-Type": "application/x-www-form-urlencoded" }, body: "remember_me=1" });
     if (!response.ok) throw new Error(`Autentificarea API Sameday a eșuat (${response.status}).`);
     const result = await response.json() as { token?: string };
@@ -43,7 +44,7 @@ async function token(): Promise<string> {
 async function api(path: string, body?: Record<string, unknown>, retry = true): Promise<Response> {
   const response = await fetch(`${samedayConfiguration().host}${path}`, {
     method: body ? "POST" : "GET", cache: "no-store", redirect: "error", signal: AbortSignal.timeout(20000),
-    headers: { "X-AUTH-TOKEN": await token(), ...(body ? { "Content-Type": "application/x-www-form-urlencoded" } : {}) },
+    headers: { ...clientHeaders, "X-AUTH-TOKEN": await token(), ...(body ? { "Content-Type": "application/x-www-form-urlencoded" } : {}) },
     ...(body ? { body: encodeSamedayForm(body) } : {}),
   });
   if (response.status === 401 && !body && retry) { access = null; return api(path, undefined, false); }
@@ -98,7 +99,7 @@ export function samedayPayload(order: StoreOrder, parcel: Parcel, locker?: Samed
 
 export async function estimateSameday(payload: Record<string, unknown>) {
   const result = await (await api("/api/awb/estimate-cost", payload)).json() as { amount?: number; currency?: string; time?: number };
-  if (!Number.isFinite(Number(result.amount)) || Number(result.amount) < 0 || result.currency !== "RON") throw new Error("Estimarea Sameday nu este validă.");
+  if (!Number.isFinite(Number(result.amount)) || Number(result.amount) < 0 || String(result.currency).toUpperCase() !== "RON") throw new Error("Estimarea Sameday nu este validă.");
   return { amount: Number(result.amount), currency: "RON", estimatedTime: result.time };
 }
 

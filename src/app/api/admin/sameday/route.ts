@@ -27,7 +27,7 @@ export async function GET(request: Request) {
     return NextResponse.json({ connected: true, mode: config.mode, homeReady: config.homeReady, lockerReady: config.lockerReady,
       configuredPickupPoint: config.pickupPoint || null, configuredContactPerson: config.contactPerson || null,
       services: services.map(({ id, name, serviceCode }) => ({ id, name, serviceCode })),
-      pickupPoints: pickupPoints.map(({ id, alias, address, city, county, contactPersons }) => ({ id, alias, address, city, county, contactPersons })) }, { headers });
+      pickupPoints: pickupPoints.map(({ id, alias, address, city, county, pickupPointContactPerson }) => ({ id, alias, address, city, county, contactPersons: pickupPointContactPerson })) }, { headers });
   } catch { return NextResponse.json({ error: "Conexiunea API Sameday a eșuat. Verifică datele de acces și drepturile API." }, { status: 503, headers }); }
 }
 
