@@ -60,3 +60,7 @@ The owner explicitly requested immediate home-delivery cash on delivery. This is
 ## Production mail configuration
 
 Store-specific Config overrides `STORE_SMTP_HOST`, `STORE_SMTP_PORT`, `STORE_SMTP_SECURE`, `STORE_SMTP_USER`, `STORE_SMTP_FROM`, and `STORE_ORDER_NOTIFICATION_EMAIL` take precedence over legacy project settings. They use smtp.hostinger.com:465 with TLS, orders@estorehouse.ro as the existing authenticated mailbox/sender and merchant inbox, and the existing server-only `SMTP_PASS` secret. Legacy configuration remains intact. Readiness, SMTP diagnostics, and actual delivery use the same configuration.
+
+## Private E-Store Control order view
+
+`GET /api/control/orders` paginates Production orders with existing Sameday shipment records (50 per page). `GET /api/control/label?orderId=…` returns only an already-confirmed, live, non-test order's label. Both require a fresh ECDSA P-256 signature bound to method/path/query; `STORE_CONTROL_PUBLIC_KEY` is the base64 SPKI verification key. The private signing key stays in E-Store Control's server-only secret `STORE_CONTROL_PRIVATE_KEY` (base64 PKCS8). Neither route accepts mutations, courier credentials or the admin token. No payment state, order, AWB or collection is created by this connection. Responses are private/no-store. The separate Control app requires ChatGPT sign-in and keeps its existing private audience. It can combine selected existing PDF labels for printing without issuing AWBs.
