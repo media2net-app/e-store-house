@@ -9,6 +9,7 @@ import { formatProductPrice } from "@/lib/products";
 import { cartOffers } from "@/lib/cart-offers";
 import { store } from "@/lib/store-info";
 import { type ShippingCarrier, type ShippingMethod, type ShippingOption } from "@/lib/shipping";
+import { shippingPaymentAvailable } from "@/lib/checkout-payment-options";
 import type { PaymentMethod } from "@/lib/payment-methods";
 
 const fields = [
@@ -23,8 +24,9 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [separateBilling, setSeparateBilling] = useState(false);
-  const [carrier, setCarrier] = useState<ShippingCarrier | null>(shippingOptions[0]?.carrier ?? null);
-  const [method, setMethod] = useState<ShippingMethod>(shippingOptions[0]?.method || "home");
+  const defaultShipping = shippingOptions.find((option) => shippingPaymentAvailable(option, cardEnabled, codEnabled)) || shippingOptions[0];
+  const [carrier, setCarrier] = useState<ShippingCarrier | null>(defaultShipping?.carrier ?? null);
+  const [method, setMethod] = useState<ShippingMethod>(defaultShipping?.method || "home");
   const [locker, setLocker] = useState<SamedayLocker | null>(null);
   const [easyboxCartKey, setEasyboxCartKey] = useState("");
   const [customerDraft, setCustomerDraft] = useState<Record<string, string>>({});
@@ -141,7 +143,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         <fieldset className="rounded-xl border border-[#c9bda9] p-4">
           <legend className="px-1 text-sm font-semibold">Alege curierul</legend>
           {shippingOptions.length ? shippingOptions.map((option) => <label key={`${option.carrier}-${option.method || "home"}`} className="mt-2 flex items-center justify-between gap-3 text-sm">
-            <span className="flex items-center gap-2"><input type="radio" name="carrier" value={option.carrier} checked={carrier === option.carrier && method === (option.method || "home")} disabled={option.method === "easybox" && !easyboxEligible} onChange={() => { setCarrier(option.carrier); setMethod(option.method || "home"); setLocker(null); if (option.method === "easybox" || option.carrier !== "sameday") setPaymentMethod("card"); }} required />{option.label}{option.method === "easybox" && !easyboxEligible ? " — indisponibil pentru acest coș" : ""}</span>
+            <span className="flex items-center gap-2"><input type="radio" name="carrier" value={option.carrier} checked={carrier === option.carrier && method === (option.method || "home")} disabled={!shippingPaymentAvailable(option, cardEnabled, codEnabled) || option.method === "easybox" && !easyboxEligible} onChange={() => { setCarrier(option.carrier); setMethod(option.method || "home"); setLocker(null); if (option.method === "easybox" || option.carrier !== "sameday") setPaymentMethod("card"); else if (!cardEnabled && codEnabled) setPaymentMethod("cod"); }} required />{option.label}{!shippingPaymentAvailable(option, cardEnabled, codEnabled) ? " — disponibil după activarea plății cu cardul" : option.method === "easybox" && !easyboxEligible ? " — indisponibil pentru acest coș" : ""}</span>
             <span>{totals.freeShipping ? "Gratuit" : option.dynamic ? (carrier === option.carrier && method === (option.method || "home") && shippingCents !== null ? formatProductPrice(shippingCents / 100, "RON") : "După completarea datelor") : formatProductPrice(option.priceRon, "RON")}</span>
           </label>) : <p className="text-sm">Opțiunile de livrare sunt în curs de stabilire.</p>}
           {shippingOptions.some((option) => option.method === "easybox") && <p className="mt-3 text-xs">Easybox este disponibil pentru colete mici, cu maximum 3 lenjerii. Topperele și saltelele se livrează la domiciliu.</p>}
