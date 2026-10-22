@@ -10,7 +10,7 @@ export async function GET(request: Request) {
   if (!/^[a-f0-9]{24}$/.test(id)) return Response.json({ error: "Comandă invalidă." }, { status: 400, headers });
   try {
     const [order, shipment] = await Promise.all([getOrder(id), getShipment(id)]);
-    if (!order || order.testOrder || !shipment?.awbNumber || shipment.state !== "created" || shipment.mode !== "live") {
+    if (!order || order.testOrder || order.cancellation || !shipment?.awbNumber || shipment.state !== "created" || shipment.mode !== "live") {
       return Response.json({ error: "Comanda nu are încă un AWB confirmat." }, { status: 404, headers });
     }
     const pdf = await samedayLabel(shipment.awbNumber);

@@ -102,6 +102,8 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
       if (result.refreshShipping) { setRateResult(null); setRateRefresh((value) => value + 1); }
       if (response.ok && paymentMethod === "cod" && result.redirectUrl && /^\/plata\/rezultat\?order=[a-f0-9]{24}$/.test(result.redirectUrl)) {
         try { localStorage.removeItem("estore-cart-v1"); } catch { /* The in-memory cart can still be cleared. */ }
+        try { sessionStorage.removeItem("estore-checkout-intent"); } catch { /* A subsequent order uses a fresh intent when storage is available. */ }
+        intentRef.current = null;
         clearCart(); window.location.assign(result.redirectUrl); return;
       }
       if (!response.ok || result.url !== "https://secure.euplatesc.ro/tdsprocess/tranzactd.php" || !result.fields) throw new Error(result.error || "Comanda nu poate fi trimisă acum.");

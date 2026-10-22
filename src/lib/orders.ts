@@ -3,7 +3,7 @@ import { createSupabaseComplaint, createSupabaseOrder, createSupabaseWithdrawal,
   markSupabasePaymentEmailSent, recordSupabasePayment, supabasePaymentEmailSent } from "./supabase-orders";
 import type { ShippingCarrier, ShippingMethod } from "./shipping";
 
-export type OrderStatus = "pending_payment" | "payment_failed" | "paid_review" | "pending_cod";
+export type OrderStatus = "pending_payment" | "payment_failed" | "paid_review" | "pending_cod" | "cancel_requested" | "cancelled";
 
 export type StoreOrder = {
   id: string;
@@ -12,6 +12,10 @@ export type StoreOrder = {
   testOrder?: boolean;
   paymentMethod?: import("./payment-methods").PaymentMethod;
   checkoutFingerprint?: string;
+  cancellation?: { requestedAt: string; completedAt?: string; reason: string; actor: "E-Store Control";
+    state: "processing" | "cancelled" | "review_required"; note: string; refundReviewRequired: boolean;
+    emailSentAt?: string; paymentReceivedAfterCancellation?: boolean };
+
   customer: {
     firstName: string;
     lastName: string;
@@ -122,6 +126,17 @@ export async function recordPayment(id: string, action: "0" | "failed", paymentI
 if not raw then return 0 end
 local order = cjson.decode(raw)
 if order.paymentMethod == 'cod' or order.status == 'pending_cod' then return 0 end
+if order.status == 'cancelled' or order.status == 'cancel_requested' then
+  if ARGV[1] == '0' then
+    order.paymentId = ARGV[2]
+    if order.cancellation then
+      order.cancellation.refundReviewRequired = true
+      order.cancellation.paymentReceivedAfterCancellation = true
+    end
+    redis.call('SET', KEYS[1], cjson.encode(order), 'KEEPTTL')
+  end
+  return 1
+end
 if order.status == 'paid_review' then return 1 end
 if ARGV[1] == '0' then
   order.status = 'paid_review'

@@ -3,6 +3,8 @@ import { verifyPaymentResponse } from "@/lib/euplatesc";
 import { getOrder, markPaymentEmailSent, paymentEmailSent, recordPayment } from "@/lib/orders";
 import { sendPaymentConfirmation } from "@/lib/order-email";
 
+import { notifyCancelledPayment } from "@/lib/order-cancellation";
+
 export const runtime = "nodejs";
 
 export async function POST(request: Request) {
@@ -21,8 +23,14 @@ export async function POST(request: Request) {
     if (!await recordPayment(order.id, fields.action === "0" ? "0" : "failed", fields.ep_id)) {
       return new Response("Retry", { status: 503 });
     }
+    const fresh = await getOrder(order.id);
+    if (!fresh) return new Response("Retry", { status: 503 });
+    if (fresh.status === "cancelled" || fresh.status === "cancel_requested") {
+      if (fields.action === "0" && !await notifyCancelledPayment(fresh)) return new Response("Retry", { status: 503 });
+      return new Response("OK");
+    }
     if (fields.action === "0" && !await paymentEmailSent(order.id)) {
-      await sendPaymentConfirmation(order);
+      await sendPaymentConfirmation(fresh);
       await markPaymentEmailSent(order.id);
     }
     return new Response("OK", { headers: { "Content-Type": "text/plain; charset=utf-8" } });

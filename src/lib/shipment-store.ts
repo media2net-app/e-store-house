@@ -1,7 +1,7 @@
 import "server-only";
 import { orderStorageCommand, orderStoragePrefix } from "./orders";
 import { hasSupabaseStorage, supabaseQuery } from "./supabase-orders";
-export type ShipmentRecord = { orderId: string; state: "creating" | "created" | "unknown"; createdAt: string;
+export type ShipmentRecord = { orderId: string; state: "creating" | "created" | "unknown" | "cancelled"; createdAt: string;
   awbNumber?: string; costRon?: number | null; mode: "live" | "test" };
 const key = (id: string) => `${orderStoragePrefix()}:sameday-shipment:${id}`;
 const path = (id: string) => `estore_shipments?order_id=eq.${id}`;
@@ -26,7 +26,13 @@ export async function claimShipment(record: ShipmentRecord) {
       throw error;
     }
   }
-  return await orderStorageCommand(["SET", key(record.orderId), JSON.stringify(record), "NX"]) === "OK";
+  const script = `local raw = redis.call('GET', KEYS[1])
+if not raw then return 0 end
+local o = cjson.decode(raw)
+if o.cancellation or (o.status ~= 'pending_cod' and o.status ~= 'paid_review') then return 0 end
+if redis.call('SET', KEYS[2], ARGV[1], 'NX') then return 1 end
+return 0`;
+  return await orderStorageCommand(["EVAL", script, "2", `${orderStoragePrefix()}:order:${record.orderId}`, key(record.orderId), JSON.stringify(record)]) === 1;
 }
 export async function saveShipment(record: ShipmentRecord) {
   if (hasSupabaseStorage()) {

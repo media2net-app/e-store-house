@@ -41,13 +41,13 @@ async function token(): Promise<string> {
   try { return await authentication; } finally { authentication = null; }
 }
 
-async function api(path: string, body?: Record<string, unknown>, retry = true): Promise<Response> {
+async function api(path: string, body?: Record<string, unknown>, retry = true, method?: "DELETE"): Promise<Response> {
   const response = await fetch(`${samedayConfiguration().host}${path}`, {
-    method: body ? "POST" : "GET", cache: "no-store", redirect: "error", signal: AbortSignal.timeout(20000),
+    method: method || (body ? "POST" : "GET"), cache: "no-store", redirect: "error", signal: AbortSignal.timeout(20000),
     headers: { ...clientHeaders, "X-AUTH-TOKEN": await token(), ...(body ? { "Content-Type": "application/x-www-form-urlencoded" } : {}) },
     ...(body ? { body: encodeSamedayForm(body) } : {}),
   });
-  if (response.status === 401 && !body && retry) { access = null; return api(path, undefined, false); }
+  if (response.status === 401 && !body && !method && retry) { access = null; return api(path, undefined, false); }
   // Never retry an AWB creation: a timeout or ambiguous response can already have created it.
   if (!response.ok) throw new Error(`Serviciul API Sameday a răspuns cu ${response.status}.`);
   return response;
@@ -117,4 +117,18 @@ export async function samedayLabel(awb: string) {
   const bytes = new Uint8Array(await response.arrayBuffer());
   if (new TextDecoder().decode(bytes.slice(0, 5)) !== "%PDF-") throw new Error("Eticheta Sameday nu este un PDF valid.");
   return bytes;
+}
+
+export async function samedayAwbStatus(awb: string) {
+  if (!/^[a-z0-9]{6,40}$/i.test(awb)) throw new Error("AWB invalid.");
+  const result = await (await api(`/api/client/awb/${encodeURIComponent(awb)}/status`)).json() as { expeditionSummary?: { delivered?: boolean; canceled?: boolean; awbNumber?: string } };
+  const s = result.expeditionSummary;
+  if (!s || typeof s.delivered !== "boolean" || typeof s.canceled !== "boolean" || s.awbNumber !== awb) throw new Error("Statusul AWB nu a putut fi verificat.");
+  return { delivered: s.delivered, cancelled: s.canceled };
+}
+
+export async function cancelSamedayAwb(awb: string) {
+  if (!/^[a-z0-9]{6,40}$/i.test(awb) || samedayConfiguration().mode !== "live") throw new Error("AWB sau mediu invalid.");
+  // A transport mutation is never automatically retried.
+  await api(`/api/awb/${encodeURIComponent(awb)}`, undefined, false, "DELETE");
 }
