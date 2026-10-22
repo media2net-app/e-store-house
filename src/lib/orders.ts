@@ -127,7 +127,7 @@ if not raw then return 0 end
 local order = cjson.decode(raw)
 if order.paymentMethod == 'cod' or order.status == 'pending_cod' then return 0 end
 if order.status == 'cancelled' or order.status == 'cancel_requested' then
-  if ARGV[1] == '0' then
+  if ARGV[1] == '0' and order.paymentId ~= ARGV[2] then
     order.paymentId = ARGV[2]
     if order.cancellation then
       order.cancellation.refundReviewRequired = true

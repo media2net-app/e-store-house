@@ -20,6 +20,7 @@ test('real Redis: cancellation is atomic with AWB issuance, idempotent, preserve
  await reset();assert.equal(await shipments.claimShipment({orderId:id,state:'creating',mode:'live',createdAt:'now'}),true);r=await engine.cancelOrder(id,'Solicitare client','cancel');assert.equal(r.status,'cancel_requested');assert.equal(deletes,0);
  await reset('pending_cod','created');await Promise.all([engine.cancelOrder(id,'Solicitare client','cancel'),engine.cancelOrder(id,'Solicitare client','cancel')]);assert.equal(deletes,1);assert.equal(emails,1);
  await reset('paid_review');await engine.cancelOrder(id,'Solicitare client','cancel');const orders=mod('src/lib/orders.ts',{'./supabase-orders':{hasSupabaseStorage:()=>false}},{process:{env:{KV_REST_API_URL:'https://redis.test',KV_REST_API_TOKEN:'test-only'}},fetch:async(_url,init)=>Response.json({result:await command(JSON.parse(init.body))})});assert.equal(await orders.recordPayment(id,'0','late-payment-id'),true);assert.equal((await getOrder()).status,'cancelled');assert.equal((await getOrder()).cancellation.refundReviewRequired,true);assert.equal((await getOrder()).paymentId,'late-payment-id');
+ const duplicate=await getOrder();duplicate.cancellation.paymentReceivedAfterCancellation=false;await command(['SET',key,JSON.stringify(duplicate)]);await orders.recordPayment(id,'0','late-payment-id');assert.equal((await getOrder()).cancellation.paymentReceivedAfterCancellation,false);
  await command(['FLUSHDB']);
 });
 test('cancellation signature binds exact POST body; tampering reason or confirmation fails',async()=>{
