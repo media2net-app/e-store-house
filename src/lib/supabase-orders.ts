@@ -98,3 +98,5 @@ export const createSupabaseWithdrawal = (request: WithdrawalRequest) => createRe
 export const createSupabaseComplaint = (request: ComplaintRequest) => createRequest("complaint", request);
 export const listSupabaseWithdrawals = () => listRequests<WithdrawalRequest>("withdrawal");
 export const listSupabaseComplaints = () => listRequests<ComplaintRequest>("complaint");
+
+export const supabaseQuery = query;

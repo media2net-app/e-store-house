@@ -4,6 +4,9 @@ import { quoteCart } from "@/lib/cart-quote";
 import { createPaymentFields, paymentCallbackUrl } from "@/lib/euplatesc";
 import { createOrder, getOrder, type StoreOrder } from "@/lib/orders";
 import { checkoutConfiguration } from "@/lib/checkout-config";
+import { samedayLocker } from "@/lib/sameday";
+import { easyboxEligibility, type PackingProfile } from "@/lib/sameday-protocol";
+import profiles from "@/data/shipping-packages.json";
 import { quoteShipping } from "@/lib/shipping";
 
 export const runtime = "nodejs";
@@ -12,6 +15,8 @@ type CheckoutInput = {
   items?: { productId?: number; quantity?: number }[];
   customer?: Record<string, unknown>;
   carrier?: string;
+  shippingMethod?: "home" | "easybox";
+  lockerId?: number;
   acceptedTerms?: boolean;
   intentId?: string;
 };
@@ -47,8 +52,10 @@ export async function POST(request: Request) {
   let input: CheckoutInput;
   try { input = await request.json() as CheckoutInput; }
   catch { return NextResponse.json({ error: "Cerere invalidă." }, { status: 400 }); }
+  if (!input || typeof input !== "object") return NextResponse.json({ error: "Cerere invalidă." }, { status: 400 });
   const customer = input.customer ?? {};
-  const selectedShipping = config.shippingOptions.find((option) => option.carrier === input.carrier);
+  const shippingMethod = input.shippingMethod ?? "home";
+  const selectedShipping = config.shippingOptions.find((option) => option.carrier === input.carrier && (option.method || "home") === shippingMethod);
   const firstName = text(customer.firstName, 80);
   const lastName = text(customer.lastName, 80);
   const email = text(customer.email, 120);
@@ -76,11 +83,19 @@ export async function POST(request: Request) {
   let quote: ReturnType<typeof quoteCart>;
   try { quote = quoteCart(input.items); }
   catch (error) { return NextResponse.json({ error: error instanceof Error ? error.message : "Coș invalid." }, { status: 400 }); }
+  let locker: StoreOrder["shippingLocker"];
+  if (shippingMethod === "easybox") {
+    if (input.carrier !== "sameday" || !easyboxEligibility(quote.lines, profiles as Record<string, PackingProfile>)) {
+      return NextResponse.json({ error: "Produsele din coș nu sunt confirmate pentru livrarea la easybox. Alege livrarea la domiciliu." }, { status: 400 });
+    }
+    try { locker = await samedayLocker(input.lockerId!); }
+    catch { return NextResponse.json({ error: "Easybox-ul ales nu este disponibil. Alege din nou lockerul." }, { status: 400 }); }
+  }
   const lines: StoreOrder["items"] = quote.lines.map((line) => ({
     productId: line.productId, sku: line.sku, name: line.name,
     quantity: line.quantity, unitPriceCents: priceInCents(line.price),
   }));
-  const shippingCents = quoteShipping(config.shippingOptions, input.carrier, quote.totals.freeShipping)!.cents;
+  const shippingCents = quoteShipping(config.shippingOptions, input.carrier, quote.totals.freeShipping, shippingMethod)!.cents;
   const totalCents = quote.totals.totalCents + shippingCents;
   if (totalCents < 1 || totalCents > 9_999_999) {
     return NextResponse.json({ error: "Valoarea comenzii este invalidă." }, { status: 400 });
@@ -96,7 +111,7 @@ export async function POST(request: Request) {
       billingName, billingAddress, billingCity, billingCounty, billingPostalCode,
       ...(separateBilling ? { billingCompany, billingCui } : {}) },
     items: lines, subtotalCents: quote.totals.subtotalCents,
-    discountCents: quote.totals.discountCents, shippingCents, shippingCarrier: selectedShipping.carrier, totalCents,
+    discountCents: quote.totals.discountCents, shippingCents, shippingCarrier: selectedShipping.carrier, shippingMethod, ...(locker ? { shippingLocker: locker } : {}), totalCents,
   };
   const origin = config.publicUrl;
   const fields = createPaymentFields({

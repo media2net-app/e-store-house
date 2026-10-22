@@ -9,6 +9,8 @@ export type QuotedCartLine = {
   sku?: string;
   bundleComponents?: Product["bundleComponents"];
   name: string;
+  category: string;
+  categoryPath?: string;
   price: number;
   currency: string;
   image: string;
@@ -37,6 +39,7 @@ export function quoteCart(requested: unknown) {
     const price = variant?.price ?? product.price;
     if (!Number.isFinite(price) || price <= 0) throw new Error("Prețul unui produs nu este valid.");
     return {
+      category: product.category, categoryPath: product.categoryPath,
       productId, quantity, price, currency: product.currency,
       sku: variant?.sku ?? product.sku,
       bundleComponents: variant?.bundleComponents ?? product.bundleComponents,

@@ -1,4 +1,5 @@
 import "server-only";
+import { samedayConfiguration } from "./sameday";
 import { hasSupabaseStorage } from "./supabase-orders";
 import { hasRedisStorage } from "./orders";
 import { hasTransactionalEmail } from "./order-email";
@@ -7,12 +8,18 @@ import { shippingCarrierLabels, type ShippingCarrier, type ShippingOption } from
 function shippingOption(carrier: ShippingCarrier): ShippingOption | null {
   const prefix = carrier === "fan" ? "FAN" : "SAMEDAY";
   const raw = process.env[`STORE_${prefix}_SHIPPING_RON`];
-  if (process.env[`STORE_${prefix}_ENABLED`] !== "true" || !raw || !/^\d+(?:\.\d{1,2})?$/.test(raw)) return null;
+  if (process.env[`STORE_${prefix}_ENABLED`] !== "true" || !raw || !/^\d+(?:\.\d{1,2})?$/.test(raw) || !Number.isFinite(Number(raw)) || Number(raw) > 9999) return null;
+  if (carrier === "sameday" && !samedayConfiguration().homeReady) return null;
   return { carrier, label: shippingCarrierLabels[carrier], priceRon: Number(raw) };
 }
 
 export function checkoutConfiguration() {
   const shippingOptions = ([shippingOption("fan"), shippingOption("sameday")].filter(Boolean)) as ShippingOption[];
+  const lockerPrice = process.env.STORE_SAMEDAY_EASYBOX_SHIPPING_RON;
+  if (process.env.STORE_SAMEDAY_ENABLED === "true" && samedayConfiguration().lockerReady
+      && lockerPrice && /^\d+(?:\.\d{1,2})?$/.test(lockerPrice) && Number.isFinite(Number(lockerPrice)) && Number(lockerPrice) <= 9999) {
+    shippingOptions.push({ carrier: "sameday", method: "easybox", label: "Sameday easybox", priceRon: Number(lockerPrice) });
+  }
   const publicUrl = process.env.STORE_PUBLIC_URL;
   const ready = process.env.STORE_CHECKOUT_ENABLED === "true"
     && !!process.env.EU_PLATESC_MERCHANT_ID

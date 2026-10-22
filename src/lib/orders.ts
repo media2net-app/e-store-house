@@ -1,7 +1,7 @@
 import { createSupabaseComplaint, createSupabaseOrder, createSupabaseWithdrawal, getSupabaseOrder,
   hasSupabaseStorage, listSupabaseComplaints, listSupabaseOrders, listSupabaseWithdrawals,
   markSupabasePaymentEmailSent, recordSupabasePayment, supabasePaymentEmailSent } from "./supabase-orders";
-import type { ShippingCarrier } from "./shipping";
+import type { ShippingCarrier, ShippingMethod } from "./shipping";
 
 export type OrderStatus = "pending_payment" | "payment_failed" | "paid_review";
 
@@ -32,6 +32,8 @@ export type StoreOrder = {
   discountCents: number;
   shippingCents: number;
   shippingCarrier?: ShippingCarrier;
+  shippingMethod?: ShippingMethod;
+  shippingLocker?: import("./sameday-protocol").SamedayLocker;
   totalCents: number;
   paymentId?: string;
 };
@@ -189,3 +191,6 @@ export async function listComplaints(): Promise<ComplaintRequest[]> {
   return Array.isArray(values) ? values.filter((value): value is string => typeof value === "string")
     .map((value) => JSON.parse(value) as ComplaintRequest) : [];
 }
+
+// Shared durable storage for courier idempotency records; server-side only.
+export const orderStorageCommand = redis;

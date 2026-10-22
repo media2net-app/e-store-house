@@ -1,12 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { useState, type FormEvent } from "react";
+import EasyboxSelector from "@/components/cart/EasyboxSelector";
+import type { SamedayLocker } from "@/lib/sameday-protocol";
+import { useEffect, useState, type FormEvent } from "react";
 import { useCart } from "@/components/cart/CartProvider";
 import { formatProductPrice } from "@/lib/products";
 import { cartOffers } from "@/lib/cart-offers";
 import { store } from "@/lib/store-info";
-import { quoteShipping, type ShippingCarrier, type ShippingOption } from "@/lib/shipping";
+import { quoteShipping, type ShippingCarrier, type ShippingMethod, type ShippingOption } from "@/lib/shipping";
 
 const fields = [
   ["firstName", "Prenume"], ["lastName", "Nume"], ["email", "E-mail"],
@@ -20,19 +22,34 @@ export default function CheckoutForm({ shippingOptions, enabled }: { shippingOpt
   const [error, setError] = useState("");
   const [separateBilling, setSeparateBilling] = useState(false);
   const [carrier, setCarrier] = useState<ShippingCarrier | null>(shippingOptions[0]?.carrier ?? null);
+  const [method, setMethod] = useState<ShippingMethod>(shippingOptions[0]?.method || "home");
+  const [locker, setLocker] = useState<SamedayLocker | null>(null);
+  const [easyboxCartKey, setEasyboxCartKey] = useState("");
+  const cartKey = JSON.stringify(items.map(({ productId, quantity }) => ({ productId, quantity })));
+  const easyboxEligible = easyboxCartKey === cartKey;
+  useEffect(() => {
+    if (!shippingOptions.some((option) => option.method === "easybox")) return;
+    const controller = new AbortController();
+    void fetch("/api/shipping/sameday", { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ items: JSON.parse(cartKey) }), signal: controller.signal })
+      .then((response) => response.json()).then((result) => { if (result.easyboxEligible) setEasyboxCartKey(cartKey); })
+      .catch(() => {});
+    return () => controller.abort();
+  }, [cartKey, shippingOptions]);
   const totals = cartOffers(items);
-  const shippingQuote = quoteShipping(shippingOptions, carrier, totals.freeShipping);
+  const shippingQuote = quoteShipping(shippingOptions, carrier, totals.freeShipping, method);
   const selectedShipping = shippingQuote?.option;
-  const shippingCents = shippingQuote?.cents ?? null;
+  const shippingCents = method === "easybox" && !easyboxEligible ? null : shippingQuote?.cents ?? null;
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    if (method === "easybox" && (!easyboxEligible || !locker)) { setError("Alege un easybox disponibil sau livrarea la domiciliu."); return; }
     setBusy(true); setError("");
     const data = new FormData(event.currentTarget);
     const customer = { ...Object.fromEntries(fields.map(([name]) => [name, String(data.get(name) ?? "")])),
       separateBilling, ...Object.fromEntries(["billingName", "billingAddress", "billingCity", "billingCounty", "billingPostalCode", "billingCompany", "billingCui"]
         .map((name) => [name, String(data.get(name) ?? "")])) };
-    const checkoutKey = JSON.stringify({ customer, carrier, items: items.map(({ productId, quantity }) => ({ productId, quantity })) });
+    const checkoutKey = JSON.stringify({ customer, carrier, method, lockerId: locker?.id, items: items.map(({ productId, quantity }) => ({ productId, quantity })) });
     let intent: { checkoutKey: string; id: string } | null = null;
     try { intent = JSON.parse(sessionStorage.getItem("estore-checkout-intent") || "null"); } catch { /* make a new intent */ }
     if (!intent || intent.checkoutKey !== checkoutKey) {
@@ -43,7 +60,7 @@ export default function CheckoutForm({ shippingOptions, enabled }: { shippingOpt
       const response = await fetch("/api/checkout", {
         method: "POST", headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          customer, carrier, acceptedTerms: data.get("acceptedTerms") === "on", intentId: intent.id,
+          customer, carrier, shippingMethod: method, lockerId: method === "easybox" ? locker?.id : undefined, acceptedTerms: data.get("acceptedTerms") === "on", intentId: intent.id,
           items: items.map((item) => ({ productId: item.productId, quantity: item.quantity })),
         }),
       });
@@ -79,10 +96,12 @@ export default function CheckoutForm({ shippingOptions, enabled }: { shippingOpt
         </div>
         <fieldset className="rounded-xl border border-[#c9bda9] p-4">
           <legend className="px-1 text-sm font-semibold">Alege curierul</legend>
-          {shippingOptions.length ? shippingOptions.map((option) => <label key={option.carrier} className="mt-2 flex items-center justify-between gap-3 text-sm">
-            <span className="flex items-center gap-2"><input type="radio" name="carrier" value={option.carrier} checked={carrier === option.carrier} onChange={() => setCarrier(option.carrier)} required />{option.label}</span>
+          {shippingOptions.length ? shippingOptions.map((option) => <label key={`${option.carrier}-${option.method || "home"}`} className="mt-2 flex items-center justify-between gap-3 text-sm">
+            <span className="flex items-center gap-2"><input type="radio" name="carrier" value={option.carrier} checked={carrier === option.carrier && method === (option.method || "home")} disabled={option.method === "easybox" && !easyboxEligible} onChange={() => { setCarrier(option.carrier); setMethod(option.method || "home"); setLocker(null); }} required />{option.label}{option.method === "easybox" && !easyboxEligible ? " — indisponibil pentru acest coș" : ""}</span>
             <span>{totals.freeShipping ? "Gratuit" : formatProductPrice(option.priceRon, "RON")}</span>
           </label>) : <p className="text-sm">Opțiunile de livrare sunt în curs de stabilire.</p>}
+          {shippingOptions.some((option) => option.method === "easybox") && <p className="mt-3 text-xs">Easybox este disponibil pentru colete mici, cu maximum 3 lenjerii. Topperele și saltelele se livrează la domiciliu.</p>}
+          {method === "easybox" && easyboxEligible && <EasyboxSelector value={locker} onChange={setLocker} />}
         </fieldset>
         <label className="flex items-center gap-3 text-sm"><input type="checkbox" checked={separateBilling} onChange={(event) => setSeparateBilling(event.target.checked)} /> Datele de facturare diferă de cele de livrare</label>
         {separateBilling ? <div className="grid gap-4 rounded-xl border border-[#c9bda9] p-4 sm:grid-cols-2">
@@ -95,7 +114,7 @@ export default function CheckoutForm({ shippingOptions, enabled }: { shippingOpt
         <p className="text-sm">Produsele beneficiază de garanția legală de conformitate de minimum 2 ani. <Link href="/garantie-legala" target="_blank" className="underline">Vezi notificarea oficială UE și drepturile tale</Link>.</p>
         {error && <p role="alert" className="rounded-lg bg-red-50 p-3 text-sm text-red-800">{error}</p>}
         {!enabled && <p className="rounded-lg bg-amber-50 p-3 text-sm">Plata cu cardul este în pregătire. Te rugăm să revii după activare.</p>}
-        <button disabled={busy || !enabled} className="rounded-full bg-[#3b2d24] px-6 py-3 font-semibold text-white disabled:opacity-50">{busy ? "Se pregătește plata..." : "Plătesc comanda cu cardul"}</button>
+        <button disabled={busy || !enabled || (method === "easybox" && (!easyboxEligible || !locker))} className="rounded-full bg-[#3b2d24] px-6 py-3 font-semibold text-white disabled:opacity-50">{busy ? "Se pregătește plata..." : "Plătesc comanda cu cardul"}</button>
         <p className="text-xs">Datele cardului se introduc pe pagina securizată EuPlătesc. Nu expediem produsele până la confirmarea tranzacției și verificarea permisiunii de livrare.</p>
       </form>
       <aside className="self-start rounded-xl bg-[#f8f4ec] p-5">
