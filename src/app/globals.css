@@ -363,19 +363,15 @@ button,a,input { outline-offset:5px; }
 .maison-stage { position:relative; display:grid; grid-template-columns:1fr 1fr; align-items:center; gap:24px; padding:24px; overflow:hidden; background:#f0e9e1; isolation:isolate; }
 .maison-copy { grid-column:1; grid-row:1; padding:14px 8px 34px; }
 .maison-copy .eyebrow { color:#896b60; font-size:9px; letter-spacing:.2em; }
-.maison-copy h1 { font-family:var(--font-playfair),Georgia,serif; font-size:clamp(36px,3.3vw,48px); line-height:1.13; font-weight:400; margin:20px 0; letter-spacing:-.045em; }
-.maison-copy h1 em { font-weight:400; color:#786070; }
+.maison-copy h1 { font-family:var(--font-playfair),Georgia,serif; font-size:clamp(34px,3vw,45px); line-height:1.13; font-weight:400; margin:20px 0; letter-spacing:-.045em; }
+.maison-copy h1 em { font-weight:400; color:#806b50; }
 .maison-copy>p:not(.eyebrow) { max-width:340px; font-size:13px; line-height:1.8; color:#66584f; margin-bottom:23px; }
-.maison-copy .button-bronze { background:#68505d; border-color:#68505d; color:#fff8ed; padding:15px 20px; font-size:12px; }
+.maison-copy .button-bronze { background:#735337; border-color:#735337; color:#fff8ed; padding:15px 20px; font-size:12px; }
 .maison-all { display:block; margin-top:20px; font-size:11px; text-decoration:underline; text-underline-offset:6px; }
 .maison-edition { position:absolute; left:32px; bottom:16px; font-size:7px; letter-spacing:.15em; color:#816b63; pointer-events:none; }
 .maison-scene { position:relative; grid-column:2; grid-row:1; aspect-ratio:3/2; min-width:0; overflow:hidden; background:#e2d1b9; border-radius:3px; }
-.maison-scene img { display:block; width:100%; height:100%; object-fit:contain; transform-origin:55% 55%; animation:maison-camera 24s ease-in-out infinite alternate; }
-.maison-daylight { position:absolute; inset:0; pointer-events:none; background:linear-gradient(115deg,#fff3db12,transparent 65%); animation:maison-light 18s ease-in-out infinite alternate; }
-.maison-scene.is-paused img,.maison-scene.is-paused .maison-daylight { animation-play-state:paused; }
-.maison-scene-controls { position:absolute; bottom:10px; right:10px; }
-.maison-scene-controls button { display:flex; align-items:center; justify-content:center; gap:7px; cursor:pointer; min-height:40px; min-width:40px; padding:8px 12px; background:#352a30d9; border:1px solid #fff6; border-radius:2px; color:#fff9f1; font-size:13px; }
-.maison-scene-controls span { font-size:10px; }
+.maison-scene img { display:block; width:100%; height:100%; object-fit:contain; transform-origin:55% 55%; animation:maison-arrival 4.8s cubic-bezier(.22,.61,.36,1) both; }
+.maison-daylight { position:absolute; inset:0; pointer-events:none; background:linear-gradient(115deg,#fff3db12,transparent 65%); animation:maison-arrival-light 4.8s ease-out both; }
 .maison-selection { padding:30px 0; border-bottom:1px solid var(--line); scroll-margin-top:24px; }
 .maison-selection-title { display:flex; align-items:baseline; flex-wrap:wrap; gap:12px 24px; margin-bottom:22px; }
 .maison-selection-title small { font-size:8px; letter-spacing:.18em; color:#8c6d47; }
@@ -398,9 +394,14 @@ button,a,input { outline-offset:5px; }
 .maison-category>div>span { position:absolute; top:12px; left:12px; background:#fff9edeb; padding:7px; font-size:10px; }
 .maison-category h3 { display:flex; justify-content:space-between; gap:15px; font-family:var(--font-playfair),Georgia,serif; font-size:23px; margin-top:14px; }
 .maison-category p { font-size:11px; color:var(--muted); margin-top:6px; }
-.maison-hero a:focus-visible,.maison-scene-controls button:focus-visible,.maison-category:focus-visible { outline:3px solid #b9925b; outline-offset:4px; }
-@keyframes maison-camera { from { transform:scale(1); } to { transform:scale(1.015); } }
-@keyframes maison-light { from { opacity:.2; } to { opacity:.55; } }
+.maison-hero a:focus-visible,.maison-category:focus-visible { outline:3px solid #b9925b; outline-offset:4px; }
+@keyframes maison-arrival { from { transform:scale(1.09) translateX(-.6%); } to { transform:scale(1) translateX(0); } }
+@keyframes maison-arrival-light { from { opacity:.8; } to { opacity:0; } }
 @media(max-width:1100px) { .maison-products { grid-template-columns:repeat(4,minmax(0,1fr)); gap:24px 16px; }.maison-category-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }.maison-stage { gap:16px; padding:20px; }.maison-copy h1 { font-size:37px; }.maison-copy>p:not(.eyebrow) { font-size:12px; } }
 @media(max-width:600px) { .maison-heading>span { display:none; }.maison-heading { padding:8px 0 16px; }.maison-stage { grid-template-columns:1fr; gap:22px; padding:24px 16px 16px; }.maison-copy { grid-column:1; grid-row:1; padding:0 8px; }.catalog-content .maison-copy h1 { font-size:36px; margin:15px 0; }.maison-copy>p:not(.eyebrow) { font-size:13px; max-width:100%; }.maison-scene { grid-column:1; grid-row:2; }.maison-edition { display:none; }.maison-selection { padding:26px 0; }.maison-selection-title { display:block; }.maison-selection-title h2 { margin:10px 0; }.maison-products { grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px 14px; }.catalog-content .maison-collections { padding-top:40px; }.maison-section-heading { align-items:start; flex-direction:column; gap:15px; }.maison-section-heading h2 { font-size:31px; }.maison-category-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px 14px; }.maison-category h3 { font-size:19px; } }
-@media(prefers-reduced-motion:reduce) { .maison-scene img { animation:none; transform:none; }.maison-daylight { animation:none; opacity:0; }.maison-scene-controls { display:none; } }
+@media(prefers-reduced-motion:reduce) { .maison-scene img { animation:none; transform:none; }.maison-daylight { animation:none; opacity:0; } }
+
+.maison-copy>p.maison-portfolio { font-size:17px; line-height:1.4; margin:0 0 24px; color:#49382a; }
+.maison-portfolio strong { display:block; font:500 clamp(24px,2.1vw,32px)/1.2 var(--font-playfair),Georgia,serif; margin-top:4px; }
+.maison-portfolio small { display:block; font-size:11px; color:var(--muted); margin-top:8px; }
+@media(max-width:600px) { .maison-copy>p.maison-portfolio { font-size:16px; }.maison-portfolio strong { font-size:27px; } }

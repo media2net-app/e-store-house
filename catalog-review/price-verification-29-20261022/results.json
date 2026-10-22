@@ -1,0 +1,2387 @@
+[
+  {
+    "id": 163031,
+    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-8/",
+    "costs": {
+      "163009": 57,
+      "163011": 81,
+      "163013": 81,
+      "163015": 81
+    },
+    "availability": {
+      "163009": true,
+      "163011": true,
+      "163013": true,
+      "163015": true
+    },
+    "checkedAt": "2026-10-22T20:13:14.568487+00:00"
+  },
+  {
+    "id": 81336,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-cearsaf-cappucino/",
+    "costs": {
+      "81336": 177.0
+    },
+    "availability": {
+      "81336": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.812112+00:00"
+  },
+  {
+    "id": 81348,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-husa-turcoaz/",
+    "costs": {
+      "81348": 193.0
+    },
+    "availability": {
+      "81348": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.812319+00:00"
+  },
+  {
+    "id": 81345,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-husa-antracit/",
+    "costs": {
+      "81345": 193.0
+    },
+    "availability": {
+      "81345": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.812702+00:00"
+  },
+  {
+    "id": 81342,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-husa-bej/",
+    "costs": {
+      "81342": 193.0
+    },
+    "availability": {
+      "81342": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.812767+00:00"
+  },
+  {
+    "id": 81340,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-husa-alb/",
+    "costs": {
+      "81340": 193.0
+    },
+    "availability": {
+      "81340": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.812774+00:00"
+  },
+  {
+    "id": 81341,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-husa-mov/",
+    "costs": {
+      "81341": 193.0
+    },
+    "availability": {
+      "81341": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.812778+00:00"
+  },
+  {
+    "id": 81343,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-husa-negru/",
+    "costs": {
+      "81343": 193.0
+    },
+    "availability": {
+      "81343": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813265+00:00"
+  },
+  {
+    "id": 81347,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-husa-rosu/",
+    "costs": {
+      "81347": 193.0
+    },
+    "availability": {
+      "81347": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813273+00:00"
+  },
+  {
+    "id": 81344,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-husa-verde/",
+    "costs": {
+      "81344": 193.0
+    },
+    "availability": {
+      "81344": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813279+00:00"
+  },
+  {
+    "id": 81338,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-cearsaf-turcoaz/",
+    "costs": {
+      "81338": 177.0
+    },
+    "availability": {
+      "81338": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813284+00:00"
+  },
+  {
+    "id": 81335,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-cearsaf-antracit/",
+    "costs": {
+      "81335": 177.0
+    },
+    "availability": {
+      "81335": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813290+00:00"
+  },
+  {
+    "id": 81334,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-cearsaf-verde/",
+    "costs": {
+      "81334": 177.0
+    },
+    "availability": {
+      "81334": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813295+00:00"
+  },
+  {
+    "id": 81333,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-cearsaf-negru/",
+    "costs": {
+      "81333": 177.0
+    },
+    "availability": {
+      "81333": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813300+00:00"
+  },
+  {
+    "id": 81331,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-cearsaf-mov/",
+    "costs": {
+      "81331": 177.0
+    },
+    "availability": {
+      "81331": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813306+00:00"
+  },
+  {
+    "id": 81310,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-cearsaf-alb/",
+    "costs": {
+      "81310": 177.0
+    },
+    "availability": {
+      "81310": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813311+00:00"
+  },
+  {
+    "id": 81337,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-cearsaf-rosu/",
+    "costs": {
+      "81337": 177.0
+    },
+    "availability": {
+      "81337": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813316+00:00"
+  },
+  {
+    "id": 110208,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-de-pat-finet-6-piese-cu-husa-promo-11/",
+    "costs": {
+      "110208": 111.0
+    },
+    "availability": {
+      "110208": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813323+00:00"
+  },
+  {
+    "id": 110194,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-de-pat-finet-6-piese-cu-husa-promo-6/",
+    "costs": {
+      "110194": 111.0
+    },
+    "availability": {
+      "110194": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813329+00:00"
+  },
+  {
+    "id": 107387,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-de-pat-finet-6-piese-cu-husa-promo/",
+    "costs": {
+      "107387": 111.0
+    },
+    "availability": {
+      "107387": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813333+00:00"
+  },
+  {
+    "id": 110207,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-de-pat-finet-6-piese-cu-husa-promo-10/",
+    "costs": {
+      "110207": 111.0
+    },
+    "availability": {
+      "110207": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813337+00:00"
+  },
+  {
+    "id": 110201,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-de-pat-finet-6-piese-cu-husa-promo-9/",
+    "costs": {
+      "110201": 111.0
+    },
+    "availability": {
+      "110201": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813341+00:00"
+  },
+  {
+    "id": 110198,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-de-pat-finet-6-piese-cu-husa-promo-8/",
+    "costs": {
+      "110198": 111.0
+    },
+    "availability": {
+      "110198": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813345+00:00"
+  },
+  {
+    "id": 107383,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-de-pat-finet-6-piese-cu-husa-promo-copie-a19/",
+    "costs": {
+      "107383": 111.0
+    },
+    "availability": {
+      "107383": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813349+00:00"
+  },
+  {
+    "id": 107370,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-de-pat-finet-6-piese-cu-husa-promo-a13/",
+    "costs": {
+      "107370": 111.0
+    },
+    "availability": {
+      "107370": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813354+00:00"
+  },
+  {
+    "id": 107368,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-de-pat-finet-6-piese-cu-husa-promo-a12/",
+    "costs": {
+      "107368": 111.0
+    },
+    "availability": {
+      "107368": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813358+00:00"
+  },
+  {
+    "id": 107359,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-de-pat-finet-6-piese-cu-husa-promo-a5/",
+    "costs": {
+      "107359": 111.0
+    },
+    "availability": {
+      "107359": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813362+00:00"
+  },
+  {
+    "id": 107363,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-de-pat-finet-6-piese-cu-husa-promo-a7/",
+    "costs": {
+      "107363": 111.0
+    },
+    "availability": {
+      "107363": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813367+00:00"
+  },
+  {
+    "id": 107361,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-de-pat-finet-6-piese-cu-husa-promo-a6/",
+    "costs": {
+      "107361": 111.0
+    },
+    "availability": {
+      "107361": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813371+00:00"
+  },
+  {
+    "id": 107357,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-de-pat-finet-6-piese-cu-husa-promo-a4/",
+    "costs": {
+      "107357": 111.0
+    },
+    "availability": {
+      "107357": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813376+00:00"
+  },
+  {
+    "id": 107355,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-de-pat-finet-6-piese-cu-husa-promo-a3/",
+    "costs": {
+      "107355": 111.0
+    },
+    "availability": {
+      "107355": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813380+00:00"
+  },
+  {
+    "id": 163321,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-3/",
+    "costs": {
+      "163321": 112.0
+    },
+    "availability": {
+      "163321": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813384+00:00"
+  },
+  {
+    "id": 163319,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-2/",
+    "costs": {
+      "163319": 112.0
+    },
+    "availability": {
+      "163319": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813388+00:00"
+  },
+  {
+    "id": 163317,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet/",
+    "costs": {
+      "163317": 112.0
+    },
+    "availability": {
+      "163317": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813394+00:00"
+  },
+  {
+    "id": 162739,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-happy-lines/",
+    "costs": {
+      "162739": 54.0
+    },
+    "availability": {
+      "162739": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813399+00:00"
+  },
+  {
+    "id": 162735,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-brown-harmony/",
+    "costs": {
+      "162735": 54.0
+    },
+    "availability": {
+      "162735": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813403+00:00"
+  },
+  {
+    "id": 162731,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-mov-3/",
+    "costs": {
+      "162731": 54.0
+    },
+    "availability": {
+      "162731": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813407+00:00"
+  },
+  {
+    "id": 101369,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-economy/lenjerie-pat-economy-ecn31/",
+    "costs": {
+      "101369": 82.0
+    },
+    "availability": {
+      "101369": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813411+00:00"
+  },
+  {
+    "id": 101368,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-economy/lenjerie-pat-economy-ecn30/",
+    "costs": {
+      "101368": 82.0
+    },
+    "availability": {
+      "101368": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813416+00:00"
+  },
+  {
+    "id": 101328,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-economy/lenjerie-pat-economy-ecn28/",
+    "costs": {
+      "101328": 82.0
+    },
+    "availability": {
+      "101328": true
+    },
+    "checkedAt": "2026-10-22T20:13:13.813420+00:00"
+  },
+  {
+    "id": 104126,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-lana-damasc-100-natural-iarna-antracit/",
+    "costs": {
+      "104127": 195,
+      "104128": 223,
+      "104129": 234,
+      "104130": 249
+    },
+    "availability": {
+      "104127": true,
+      "104128": true,
+      "104129": true,
+      "104130": true
+    },
+    "checkedAt": "2026-10-22T20:13:14.505536+00:00"
+  },
+  {
+    "id": 104120,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-lana-damasc-100-natural-iarna-pudra/",
+    "costs": {
+      "104121": 195,
+      "104122": 223,
+      "104123": 234,
+      "104124": 249
+    },
+    "availability": {
+      "104121": true,
+      "104122": true,
+      "104123": true,
+      "104124": true
+    },
+    "checkedAt": "2026-10-22T20:13:14.453025+00:00"
+  },
+  {
+    "id": 104115,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-lana-damasc-100-natural-iarna-turcoaz/",
+    "costs": {
+      "104116": 195,
+      "104117": 223,
+      "104118": 234,
+      "104119": 249
+    },
+    "availability": {
+      "104116": true,
+      "104117": true,
+      "104118": true,
+      "104119": true
+    },
+    "checkedAt": "2026-10-22T20:13:14.526771+00:00"
+  },
+  {
+    "id": 104108,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-lana-damasc-100-natural-iarna-mint/",
+    "costs": {
+      "104109": 195,
+      "104110": 223,
+      "104111": 234,
+      "104112": 249
+    },
+    "availability": {
+      "104109": true,
+      "104110": true,
+      "104111": true,
+      "104112": true
+    },
+    "checkedAt": "2026-10-22T20:13:15.040850+00:00"
+  },
+  {
+    "id": 102981,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-horeca/",
+    "costs": {
+      "102984": 121,
+      "102985": 145,
+      "102986": 160
+    },
+    "availability": {
+      "102984": true,
+      "102985": true,
+      "102986": true
+    },
+    "checkedAt": "2026-10-22T20:13:15.048717+00:00"
+  },
+  {
+    "id": 98809,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-ranforce-100-bumbac-unt/",
+    "costs": {
+      "98810": 195,
+      "98811": 223,
+      "98812": 234,
+      "98813": 249
+    },
+    "availability": {
+      "98810": true,
+      "98811": true,
+      "98812": true,
+      "98813": true
+    },
+    "checkedAt": "2026-10-22T20:13:15.079515+00:00"
+  },
+  {
+    "id": 98785,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-ranforce-100-bumbac-gri/",
+    "costs": {
+      "98786": 195,
+      "98787": 223,
+      "98788": 234,
+      "98789": 249
+    },
+    "availability": {
+      "98786": true,
+      "98787": true,
+      "98788": true,
+      "98789": true
+    },
+    "checkedAt": "2026-10-22T20:13:15.166552+00:00"
+  },
+  {
+    "id": 98797,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-ranforce-100-bumbac-pudra/",
+    "costs": {
+      "98798": 195,
+      "98799": 223,
+      "98800": 234,
+      "98801": 249
+    },
+    "availability": {
+      "98798": true,
+      "98799": true,
+      "98800": true,
+      "98801": true
+    },
+    "checkedAt": "2026-10-22T20:13:15.625216+00:00"
+  },
+  {
+    "id": 98768,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-ranforce-100-bumbac-alb/",
+    "costs": {
+      "98770": 195,
+      "98771": 223,
+      "98772": 234,
+      "98773": 249
+    },
+    "availability": {
+      "98770": true,
+      "98771": true,
+      "98772": true,
+      "98773": true
+    },
+    "checkedAt": "2026-10-22T20:13:15.573971+00:00"
+  },
+  {
+    "id": 90801,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-pudra/",
+    "costs": {
+      "100983": 145,
+      "100984": 145
+    },
+    "availability": {
+      "100983": true,
+      "100984": true
+    },
+    "checkedAt": "2026-10-22T20:13:15.738740+00:00"
+  },
+  {
+    "id": 90796,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-verde/",
+    "costs": {
+      "92906": 145,
+      "92907": 145
+    },
+    "availability": {
+      "92906": true,
+      "92907": true
+    },
+    "checkedAt": "2026-10-22T20:13:15.889308+00:00"
+  },
+  {
+    "id": 90787,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-mov/",
+    "costs": {
+      "92908": 145,
+      "92909": 145
+    },
+    "availability": {
+      "92908": true,
+      "92909": true
+    },
+    "checkedAt": "2026-10-22T20:13:16.332829+00:00"
+  },
+  {
+    "id": 90781,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-crem/",
+    "costs": {
+      "92911": 145,
+      "92912": 145
+    },
+    "availability": {
+      "92911": true,
+      "92912": true
+    },
+    "checkedAt": "2026-10-22T20:13:16.451435+00:00"
+  },
+  {
+    "id": 90776,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-cappucino/",
+    "costs": {
+      "92913": 145,
+      "92914": 145
+    },
+    "availability": {
+      "92913": true,
+      "92914": true
+    },
+    "checkedAt": "2026-10-22T20:13:16.451082+00:00"
+  },
+  {
+    "id": 90769,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-bleu/",
+    "costs": {
+      "92915": 145,
+      "92916": 145
+    },
+    "availability": {
+      "92915": true,
+      "92916": true
+    },
+    "checkedAt": "2026-10-22T20:13:16.624608+00:00"
+  },
+  {
+    "id": 90762,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-gri/",
+    "costs": {
+      "100993": 145,
+      "100994": 145
+    },
+    "availability": {
+      "100993": true,
+      "100994": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.005061+00:00"
+  },
+  {
+    "id": 90756,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-rosu/",
+    "costs": {
+      "100991": 145,
+      "100992": 145
+    },
+    "availability": {
+      "100991": true,
+      "100992": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184074+00:00"
+  },
+  {
+    "id": 75523,
+    "supplierUrl": "https://ralexpucioasa.ro/store/produse-hotel/protectie-frotir-bumbac-100-impermeabila-saltea-de-90x200x25cm/",
+    "costs": {
+      "105860": 64,
+      "105856": 81,
+      "105857": 88,
+      "105858": 97,
+      "105859": 112
+    },
+    "availability": {
+      "105860": true,
+      "105856": true,
+      "105857": true,
+      "105858": true,
+      "105859": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.105973+00:00"
+  },
+  {
+    "id": 60275,
+    "supplierUrl": "https://ralexpucioasa.ro/store/protectii-saltea/protectie-matlasata-percalle-roz-pudra/",
+    "costs": {
+      "60277": 160,
+      "60278": 160
+    },
+    "availability": {
+      "60277": true,
+      "60278": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.257678+00:00"
+  },
+  {
+    "id": 482,
+    "supplierUrl": "https://ralexpucioasa.ro/store/produse-hotel/protectie-matlasata-ultrasonic-100gsm/",
+    "costs": {
+      "105898": 49,
+      "105895": 57,
+      "105896": 61,
+      "105897": 66
+    },
+    "availability": {
+      "105898": true,
+      "105895": true,
+      "105896": true,
+      "105897": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614014+00:00"
+  },
+  {
+    "id": 69981,
+    "supplierUrl": "https://ralexpucioasa.ro/store/produse-hotel/protectie-matlasata-ultrasonic-imperial-impermeabila-200x200cm/",
+    "costs": {
+      "101931": 67,
+      "105869": 57,
+      "101409": 73,
+      "101410": 81,
+      "101411": 88
+    },
+    "availability": {
+      "101931": true,
+      "105869": true,
+      "101409": true,
+      "101410": true,
+      "101411": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.845753+00:00"
+  },
+  {
+    "id": 92652,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-ioana/",
+    "costs": {
+      "92652": 129.0
+    },
+    "availability": {
+      "92652": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184219+00:00"
+  },
+  {
+    "id": 92651,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-cristina/",
+    "costs": {
+      "92651": 129.0
+    },
+    "availability": {
+      "92651": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184243+00:00"
+  },
+  {
+    "id": 95974,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-30/",
+    "costs": {
+      "95974": 292.0
+    },
+    "availability": {
+      "95974": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184259+00:00"
+  },
+  {
+    "id": 95973,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-29/",
+    "costs": {
+      "95973": 292.0
+    },
+    "availability": {
+      "95973": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184274+00:00"
+  },
+  {
+    "id": 95972,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-28/",
+    "costs": {
+      "95972": 292.0
+    },
+    "availability": {
+      "95972": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184288+00:00"
+  },
+  {
+    "id": 95971,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-27/",
+    "costs": {
+      "95971": 292.0
+    },
+    "availability": {
+      "95971": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184302+00:00"
+  },
+  {
+    "id": 95970,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-26/",
+    "costs": {
+      "95970": 292.0
+    },
+    "availability": {
+      "95970": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184316+00:00"
+  },
+  {
+    "id": 95969,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-25/",
+    "costs": {
+      "95969": 292.0
+    },
+    "availability": {
+      "95969": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184336+00:00"
+  },
+  {
+    "id": 95968,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-24/",
+    "costs": {
+      "95968": 292.0
+    },
+    "availability": {
+      "95968": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184384+00:00"
+  },
+  {
+    "id": 95967,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-23/",
+    "costs": {
+      "95967": 292.0
+    },
+    "availability": {
+      "95967": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184423+00:00"
+  },
+  {
+    "id": 95966,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-22/",
+    "costs": {
+      "95966": 292.0
+    },
+    "availability": {
+      "95966": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184442+00:00"
+  },
+  {
+    "id": 95965,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-21/",
+    "costs": {
+      "95965": 292.0
+    },
+    "availability": {
+      "95965": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184461+00:00"
+  },
+  {
+    "id": 158276,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-premium-din-muselina-nomada-v2/",
+    "costs": {
+      "158276": 457.0
+    },
+    "availability": {
+      "158276": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184484+00:00"
+  },
+  {
+    "id": 158272,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-premium-din-muselina-nomada-v1/",
+    "costs": {
+      "158272": 457.0
+    },
+    "availability": {
+      "158272": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184502+00:00"
+  },
+  {
+    "id": 34143,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-puma-v1/",
+    "costs": {
+      "34143": 282.0
+    },
+    "availability": {
+      "34143": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184525+00:00"
+  },
+  {
+    "id": 34141,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-montera-v1/",
+    "costs": {
+      "34141": 282.0
+    },
+    "availability": {
+      "34141": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184541+00:00"
+  },
+  {
+    "id": 12642,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-porto-v2/",
+    "costs": {
+      "12642": 282.0
+    },
+    "availability": {
+      "12642": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184555+00:00"
+  },
+  {
+    "id": 12637,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-midas-v1/",
+    "costs": {
+      "12637": 282.0
+    },
+    "availability": {
+      "12637": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184570+00:00"
+  },
+  {
+    "id": 12625,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-este-v2/",
+    "costs": {
+      "12625": 282.0
+    },
+    "availability": {
+      "12625": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184584+00:00"
+  },
+  {
+    "id": 96547,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-o-persoana/cuvertura-de-pat-clasy-matlasata-o-persoana-ballerina/",
+    "costs": {
+      "96547": 249.0
+    },
+    "availability": {
+      "96547": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.184598+00:00"
+  },
+  {
+    "id": 90646,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-greek-border-500g-m2-crem/",
+    "costs": {
+      "105749": 9,
+      "105750": 21,
+      "105751": 40
+    },
+    "availability": {
+      "105749": true,
+      "105750": true,
+      "105751": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.864044+00:00"
+  },
+  {
+    "id": 106764,
+    "supplierUrl": "https://ralexpucioasa.ro/store/saltele-si-toppere/saltea-seven-zone/",
+    "costs": {
+      "106765": 481,
+      "106766": 601,
+      "106767": 678,
+      "106768": 822,
+      "106769": 837
+    },
+    "availability": {
+      "106765": true,
+      "106766": true,
+      "106767": true,
+      "106768": true,
+      "106769": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.968302+00:00"
+  },
+  {
+    "id": 138600,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-zemi/",
+    "costs": {
+      "138600": 261.0
+    },
+    "availability": {
+      "138600": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614180+00:00"
+  },
+  {
+    "id": 138598,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-pavone/",
+    "costs": {
+      "138598": 261.0
+    },
+    "availability": {
+      "138598": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614211+00:00"
+  },
+  {
+    "id": 138594,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-leo/",
+    "costs": {
+      "138594": 261.0
+    },
+    "availability": {
+      "138594": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614228+00:00"
+  },
+  {
+    "id": 138593,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-hena-v2/",
+    "costs": {
+      "138593": 261.0
+    },
+    "availability": {
+      "138593": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614279+00:00"
+  },
+  {
+    "id": 138591,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-betina-2/",
+    "costs": {
+      "138591": 261.0
+    },
+    "availability": {
+      "138591": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614303+00:00"
+  },
+  {
+    "id": 102826,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-arnor-v1/",
+    "costs": {
+      "102826": 261.0
+    },
+    "availability": {
+      "102826": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614321+00:00"
+  },
+  {
+    "id": 102015,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-vinta/",
+    "costs": {
+      "102015": 261.0
+    },
+    "availability": {
+      "102015": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614349+00:00"
+  },
+  {
+    "id": 102013,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-tole/",
+    "costs": {
+      "102013": 261.0
+    },
+    "availability": {
+      "102013": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614365+00:00"
+  },
+  {
+    "id": 102011,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-tabula/",
+    "costs": {
+      "102011": 261.0
+    },
+    "availability": {
+      "102011": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614384+00:00"
+  },
+  {
+    "id": 102009,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-roselin/",
+    "costs": {
+      "102009": 261.0
+    },
+    "availability": {
+      "102009": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614402+00:00"
+  },
+  {
+    "id": 102003,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-mirante/",
+    "costs": {
+      "102003": 261.0
+    },
+    "availability": {
+      "102003": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614418+00:00"
+  },
+  {
+    "id": 102001,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-lilyum/",
+    "costs": {
+      "102001": 261.0
+    },
+    "availability": {
+      "102001": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614520+00:00"
+  },
+  {
+    "id": 101997,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-latina-2/",
+    "costs": {
+      "101997": 261.0
+    },
+    "availability": {
+      "101997": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614545+00:00"
+  },
+  {
+    "id": 101995,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-galya/",
+    "costs": {
+      "101995": 261.0
+    },
+    "availability": {
+      "101995": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614562+00:00"
+  },
+  {
+    "id": 101993,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-floral/",
+    "costs": {
+      "101993": 261.0
+    },
+    "availability": {
+      "101993": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614606+00:00"
+  },
+  {
+    "id": 101991,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-diba/",
+    "costs": {
+      "101991": 261.0
+    },
+    "availability": {
+      "101991": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614627+00:00"
+  },
+  {
+    "id": 101985,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-angola/",
+    "costs": {
+      "101985": 261.0
+    },
+    "availability": {
+      "101985": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614655+00:00"
+  },
+  {
+    "id": 101965,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-jaquard-100-bumbac/lenjerie-de-pat-jaquard-100-bumbac-marlet-v5/",
+    "costs": {
+      "101965": 456.0
+    },
+    "availability": {
+      "101965": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614674+00:00"
+  },
+  {
+    "id": 101963,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-jaquard-100-bumbac/lenjerie-de-pat-jaquard-100-bumbac-marlet-v4/",
+    "costs": {
+      "101963": 456.0
+    },
+    "availability": {
+      "101963": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614693+00:00"
+  },
+  {
+    "id": 101961,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-jaquard-100-bumbac/lenjerie-de-pat-jaquard-100-bumbac-marlet-v3/",
+    "costs": {
+      "101961": 456.0
+    },
+    "availability": {
+      "101961": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614713+00:00"
+  },
+  {
+    "id": 101959,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-jaquard-100-bumbac/lenjerie-de-pat-jaquard-100-bumbac-marlet-v2/",
+    "costs": {
+      "101959": 456.0
+    },
+    "availability": {
+      "101959": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614730+00:00"
+  },
+  {
+    "id": 101957,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-jaquard-100-bumbac/lenjerie-de-pat-jaquard-100-bumbac-marlet-v1/",
+    "costs": {
+      "101957": 456.0
+    },
+    "availability": {
+      "101957": true
+    },
+    "checkedAt": "2026-10-22T20:13:17.614748+00:00"
+  },
+  {
+    "id": 102523,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-pat-creponata-100/",
+    "costs": {
+      "102524": 187,
+      "102525": 271,
+      "102526": 292
+    },
+    "availability": {
+      "102524": true,
+      "102525": true,
+      "102526": true
+    },
+    "checkedAt": "2026-10-22T20:13:18.320867+00:00"
+  },
+  {
+    "id": 102518,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep72/",
+    "costs": {
+      "102519": 187,
+      "102520": 271,
+      "102521": 292
+    },
+    "availability": {
+      "102519": true,
+      "102520": true,
+      "102521": true
+    },
+    "checkedAt": "2026-10-22T20:13:18.544208+00:00"
+  },
+  {
+    "id": 102501,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep71/",
+    "costs": {
+      "102502": 187,
+      "102503": 271,
+      "102504": 292
+    },
+    "availability": {
+      "102502": true,
+      "102503": true,
+      "102504": true
+    },
+    "checkedAt": "2026-10-22T20:13:18.512576+00:00"
+  },
+  {
+    "id": 102497,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep70/",
+    "costs": {
+      "102498": 187,
+      "102499": 271,
+      "102500": 292
+    },
+    "availability": {
+      "102498": true,
+      "102499": true,
+      "102500": true
+    },
+    "checkedAt": "2026-10-22T20:13:18.618257+00:00"
+  },
+  {
+    "id": 102488,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep68/",
+    "costs": {
+      "102489": 187,
+      "102490": 271,
+      "102491": 292
+    },
+    "availability": {
+      "102489": true,
+      "102490": true,
+      "102491": true
+    },
+    "checkedAt": "2026-10-22T20:13:19.049461+00:00"
+  },
+  {
+    "id": 102484,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep67/",
+    "costs": {
+      "102485": 187,
+      "102486": 271,
+      "102487": 292
+    },
+    "availability": {
+      "102485": true,
+      "102486": true,
+      "102487": true
+    },
+    "checkedAt": "2026-10-22T20:13:19.261973+00:00"
+  },
+  {
+    "id": 102480,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep66/",
+    "costs": {
+      "102481": 187,
+      "102482": 271,
+      "102483": 292
+    },
+    "availability": {
+      "102481": true,
+      "102482": true,
+      "102483": true
+    },
+    "checkedAt": "2026-10-22T20:13:19.279984+00:00"
+  },
+  {
+    "id": 102476,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep65/",
+    "costs": {
+      "102477": 187,
+      "102478": 271,
+      "102479": 292
+    },
+    "availability": {
+      "102477": true,
+      "102478": true,
+      "102479": true
+    },
+    "checkedAt": "2026-10-22T20:13:19.370327+00:00"
+  },
+  {
+    "id": 102472,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep64/",
+    "costs": {
+      "102473": 187,
+      "102474": 271,
+      "102475": 292
+    },
+    "availability": {
+      "102473": true,
+      "102474": true,
+      "102475": true
+    },
+    "checkedAt": "2026-10-22T20:13:19.829379+00:00"
+  },
+  {
+    "id": 102468,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep63/",
+    "costs": {
+      "102469": 187,
+      "102470": 271,
+      "102471": 292
+    },
+    "availability": {
+      "102469": true,
+      "102470": true,
+      "102471": true
+    },
+    "checkedAt": "2026-10-22T20:13:20.168257+00:00"
+  },
+  {
+    "id": 102463,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep62/",
+    "costs": {
+      "102464": 187,
+      "102465": 271,
+      "102466": 292
+    },
+    "availability": {
+      "102464": true,
+      "102465": true,
+      "102466": true
+    },
+    "checkedAt": "2026-10-22T20:13:20.248335+00:00"
+  },
+  {
+    "id": 102459,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac/",
+    "costs": {
+      "102460": 187,
+      "102461": 271,
+      "102462": 292
+    },
+    "availability": {
+      "102460": true,
+      "102461": true,
+      "102462": true
+    },
+    "checkedAt": "2026-10-22T20:13:20.260302+00:00"
+  },
+  {
+    "id": 102455,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep60/",
+    "costs": {
+      "102456": 187,
+      "102457": 271,
+      "102458": 292
+    },
+    "availability": {
+      "102456": true,
+      "102457": true,
+      "102458": true
+    },
+    "checkedAt": "2026-10-22T20:13:20.771521+00:00"
+  },
+  {
+    "id": 102438,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep59/",
+    "costs": {
+      "102439": 187,
+      "102440": 271,
+      "102441": 292
+    },
+    "availability": {
+      "102439": true,
+      "102440": true,
+      "102441": true
+    },
+    "checkedAt": "2026-10-22T20:13:20.799984+00:00"
+  },
+  {
+    "id": 161998,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-cozy-fern-patterned/",
+    "costs": {
+      "161999": 177,
+      "162000": 193,
+      "162001": 241,
+      "162002": 258,
+      "162003": 289,
+      "162004": 306
+    },
+    "availability": {
+      "161999": true,
+      "162000": true,
+      "162001": true,
+      "162002": true,
+      "162003": true,
+      "162004": true
+    },
+    "checkedAt": "2026-10-22T20:13:21.091327+00:00"
+  },
+  {
+    "id": 161991,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-cozy-teddy-bear/",
+    "costs": {
+      "161992": 177,
+      "161993": 193,
+      "161994": 241,
+      "161995": 258,
+      "161996": 289,
+      "161997": 306
+    },
+    "availability": {
+      "161992": true,
+      "161993": true,
+      "161994": true,
+      "161995": true,
+      "161996": true,
+      "161997": true
+    },
+    "checkedAt": "2026-10-22T20:13:20.964333+00:00"
+  },
+  {
+    "id": 161984,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-cozy-dog-print/",
+    "costs": {
+      "161985": 177,
+      "161986": 193,
+      "161987": 241,
+      "161988": 258,
+      "161989": 289,
+      "161990": 306
+    },
+    "availability": {
+      "161985": true,
+      "161986": true,
+      "161987": true,
+      "161988": true,
+      "161989": true,
+      "161990": true
+    },
+    "checkedAt": "2026-10-22T20:13:21.628314+00:00"
+  },
+  {
+    "id": 161977,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-cozy-norning-with-red/",
+    "costs": {
+      "161978": 177,
+      "161979": 193,
+      "161980": 241,
+      "161981": 258,
+      "161982": 289,
+      "161983": 306
+    },
+    "availability": {
+      "161978": true,
+      "161979": true,
+      "161980": true,
+      "161981": true,
+      "161982": true,
+      "161983": true
+    },
+    "checkedAt": "2026-10-22T20:13:21.706723+00:00"
+  },
+  {
+    "id": 158693,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-armonique/",
+    "costs": {
+      "158694": 177,
+      "158695": 193,
+      "158696": 241,
+      "158697": 258,
+      "158698": 289,
+      "158699": 306
+    },
+    "availability": {
+      "158694": true,
+      "158695": true,
+      "158696": true,
+      "158697": true,
+      "158698": true,
+      "158699": true
+    },
+    "checkedAt": "2026-10-22T20:13:21.802987+00:00"
+  },
+  {
+    "id": 158669,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-lumiere/",
+    "costs": {
+      "158670": 177,
+      "158671": 193,
+      "158672": 241,
+      "158673": 258,
+      "158674": 289,
+      "158675": 306
+    },
+    "availability": {
+      "158670": true,
+      "158671": true,
+      "158672": true,
+      "158673": true,
+      "158674": true,
+      "158675": true
+    },
+    "checkedAt": "2026-10-22T20:13:21.803190+00:00"
+  },
+  {
+    "id": 109532,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-java-hearts/",
+    "costs": {
+      "109533": 177,
+      "109534": 193,
+      "109535": 241,
+      "109536": 258,
+      "109537": 289,
+      "109538": 306
+    },
+    "availability": {
+      "109533": true,
+      "109534": true,
+      "109535": true,
+      "109536": true,
+      "109537": true,
+      "109538": true
+    },
+    "checkedAt": "2026-10-22T20:13:22.388664+00:00"
+  },
+  {
+    "id": 109247,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-vogue-vault/",
+    "costs": {
+      "109248": 177,
+      "109249": 193,
+      "109250": 241,
+      "109251": 258,
+      "109252": 289,
+      "109253": 306
+    },
+    "availability": {
+      "109248": true,
+      "109249": true,
+      "109250": true,
+      "109251": true,
+      "109252": true,
+      "109253": true
+    },
+    "checkedAt": "2026-10-22T20:13:22.462586+00:00"
+  },
+  {
+    "id": 109235,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-velvet-muse/",
+    "costs": {
+      "109236": 177,
+      "109237": 193,
+      "109238": 241,
+      "109239": 258,
+      "109240": 289,
+      "109241": 306
+    },
+    "availability": {
+      "109236": true,
+      "109237": true,
+      "109238": true,
+      "109239": true,
+      "109240": true,
+      "109241": true
+    },
+    "checkedAt": "2026-10-22T20:13:22.703433+00:00"
+  },
+  {
+    "id": 109224,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-urban-cozy/",
+    "costs": {
+      "109225": 177,
+      "109226": 193,
+      "109227": 241,
+      "109228": 258,
+      "109229": 289,
+      "109230": 306
+    },
+    "availability": {
+      "109225": true,
+      "109226": true,
+      "109227": true,
+      "109228": true,
+      "109229": true,
+      "109230": true
+    },
+    "checkedAt": "2026-10-22T20:13:22.696647+00:00"
+  },
+  {
+    "id": 109203,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-statemint/",
+    "costs": {
+      "109204": 177,
+      "109205": 193,
+      "109206": 241,
+      "109207": 258,
+      "109208": 289,
+      "109209": 306
+    },
+    "availability": {
+      "109204": true,
+      "109205": true,
+      "109206": true,
+      "109207": true,
+      "109208": true,
+      "109209": true
+    },
+    "checkedAt": "2026-10-22T20:13:23.071219+00:00"
+  },
+  {
+    "id": 109193,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-silk-whisper/",
+    "costs": {
+      "109194": 177,
+      "109195": 193,
+      "109196": 241,
+      "109197": 258,
+      "109198": 289,
+      "109199": 306
+    },
+    "availability": {
+      "109194": true,
+      "109195": true,
+      "109196": true,
+      "109197": true,
+      "109198": true,
+      "109199": true
+    },
+    "checkedAt": "2026-10-22T20:13:23.319267+00:00"
+  },
+  {
+    "id": 109181,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-shadow-play/",
+    "costs": {
+      "109182": 177,
+      "109183": 193,
+      "109184": 241,
+      "109185": 258,
+      "109186": 289,
+      "109187": 306
+    },
+    "availability": {
+      "109182": true,
+      "109183": true,
+      "109184": true,
+      "109185": true,
+      "109186": true,
+      "109187": true
+    },
+    "checkedAt": "2026-10-22T20:13:23.439757+00:00"
+  },
+  {
+    "id": 109159,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-satin-story/",
+    "costs": {
+      "109160": 177,
+      "109161": 193,
+      "109162": 241,
+      "109163": 258,
+      "109164": 289,
+      "109165": 306
+    },
+    "availability": {
+      "109160": true,
+      "109161": true,
+      "109162": true,
+      "109163": true,
+      "109164": true,
+      "109165": true
+    },
+    "checkedAt": "2026-10-22T20:13:23.456763+00:00"
+  },
+  {
+    "id": 162808,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-estiva/",
+    "costs": {
+      "162808": 261.0
+    },
+    "availability": {
+      "162808": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773202+00:00"
+  },
+  {
+    "id": 162807,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-irma-2/",
+    "costs": {
+      "162807": 261.0
+    },
+    "availability": {
+      "162807": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773363+00:00"
+  },
+  {
+    "id": 162805,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-nivora/",
+    "costs": {
+      "162805": 261.0
+    },
+    "availability": {
+      "162805": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773370+00:00"
+  },
+  {
+    "id": 162802,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-samba/",
+    "costs": {
+      "162802": 261.0
+    },
+    "availability": {
+      "162802": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773375+00:00"
+  },
+  {
+    "id": 162801,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-semeran/",
+    "costs": {
+      "162801": 261.0
+    },
+    "availability": {
+      "162801": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773379+00:00"
+  },
+  {
+    "id": 162800,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-vinya/",
+    "costs": {
+      "162800": 261.0
+    },
+    "availability": {
+      "162800": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773383+00:00"
+  },
+  {
+    "id": 162728,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-blue-garden/",
+    "costs": {
+      "162728": 112.0
+    },
+    "availability": {
+      "162728": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773387+00:00"
+  },
+  {
+    "id": 162721,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-13/",
+    "costs": {
+      "162721": 73.0
+    },
+    "availability": {
+      "162721": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773391+00:00"
+  },
+  {
+    "id": 162720,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-12/",
+    "costs": {
+      "162720": 73.0
+    },
+    "availability": {
+      "162720": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773395+00:00"
+  },
+  {
+    "id": 162719,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-11/",
+    "costs": {
+      "162719": 73.0
+    },
+    "availability": {
+      "162719": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773400+00:00"
+  },
+  {
+    "id": 162718,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-10/",
+    "costs": {
+      "162718": 73.0
+    },
+    "availability": {
+      "162718": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773404+00:00"
+  },
+  {
+    "id": 162717,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-9/",
+    "costs": {
+      "162717": 73.0
+    },
+    "availability": {
+      "162717": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773410+00:00"
+  },
+  {
+    "id": 162716,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-8/",
+    "costs": {
+      "162716": 73.0
+    },
+    "availability": {
+      "162716": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773415+00:00"
+  },
+  {
+    "id": 162715,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-7/",
+    "costs": {
+      "162715": 73.0
+    },
+    "availability": {
+      "162715": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773420+00:00"
+  },
+  {
+    "id": 162714,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-6/",
+    "costs": {
+      "162714": 73.0
+    },
+    "availability": {
+      "162714": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773424+00:00"
+  },
+  {
+    "id": 162713,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-5/",
+    "costs": {
+      "162713": 73.0
+    },
+    "availability": {
+      "162713": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773428+00:00"
+  },
+  {
+    "id": 162712,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-4/",
+    "costs": {
+      "162712": 73.0
+    },
+    "availability": {
+      "162712": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773432+00:00"
+  },
+  {
+    "id": 162711,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-3/",
+    "costs": {
+      "162711": 73.0
+    },
+    "availability": {
+      "162711": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773436+00:00"
+  },
+  {
+    "id": 162710,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-2/",
+    "costs": {
+      "162710": 73.0
+    },
+    "availability": {
+      "162710": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773440+00:00"
+  },
+  {
+    "id": 162709,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-1/",
+    "costs": {
+      "162709": 73.0
+    },
+    "availability": {
+      "162709": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773444+00:00"
+  },
+  {
+    "id": 94029,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-9/",
+    "costs": {
+      "94029": 88.0
+    },
+    "availability": {
+      "94029": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773448+00:00"
+  },
+  {
+    "id": 94028,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-8/",
+    "costs": {
+      "94028": 88.0
+    },
+    "availability": {
+      "94028": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773453+00:00"
+  },
+  {
+    "id": 94027,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-7/",
+    "costs": {
+      "94027": 88.0
+    },
+    "availability": {
+      "94027": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773457+00:00"
+  },
+  {
+    "id": 94026,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-6/",
+    "costs": {
+      "94026": 88.0
+    },
+    "availability": {
+      "94026": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773461+00:00"
+  },
+  {
+    "id": 94025,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-5/",
+    "costs": {
+      "94025": 88.0
+    },
+    "availability": {
+      "94025": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773465+00:00"
+  },
+  {
+    "id": 159496,
+    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-de-pat-finet-2-fete-perna/husa-de-pat-finet-2-fete-perna-51/",
+    "costs": {
+      "159496": 64.0
+    },
+    "availability": {
+      "159496": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773469+00:00"
+  },
+  {
+    "id": 159495,
+    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-de-pat-finet-2-fete-perna/husa-de-pat-finet-2-fete-perna-50/",
+    "costs": {
+      "159495": 64.0
+    },
+    "availability": {
+      "159495": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773473+00:00"
+  },
+  {
+    "id": 159494,
+    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-de-pat-finet-2-fete-perna/husa-de-pat-finet-2-fete-perna-49/",
+    "costs": {
+      "159494": 64.0
+    },
+    "availability": {
+      "159494": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773477+00:00"
+  },
+  {
+    "id": 159493,
+    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-de-pat-finet-2-fete-perna/husa-de-pat-finet-2-fete-perna-48/",
+    "costs": {
+      "159493": 64.0
+    },
+    "availability": {
+      "159493": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773481+00:00"
+  },
+  {
+    "id": 92689,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-cocolino-line/lenjerie-de-pat-cocolino-line-simona/",
+    "costs": {
+      "92689": 213.0
+    },
+    "availability": {
+      "92689": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773485+00:00"
+  },
+  {
+    "id": 92688,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-cocolino-line/lenjerie-de-pat-cocolino-line-mihaela/",
+    "costs": {
+      "92688": 213.0
+    },
+    "availability": {
+      "92688": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773489+00:00"
+  },
+  {
+    "id": 92685,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-cocolino-line/lenjerie-de-pat-cocolino-line-ioana/",
+    "costs": {
+      "92685": 213.0
+    },
+    "availability": {
+      "92685": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773493+00:00"
+  },
+  {
+    "id": 92684,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-cocolino-line/lenjerie-de-pat-cocolino-line-cristina/",
+    "costs": {
+      "92684": 213.0
+    },
+    "availability": {
+      "92684": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773498+00:00"
+  },
+  {
+    "id": 92681,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-cocolino-line/lenjerie-de-pat-cocolino-line-alina/",
+    "costs": {
+      "92681": 213.0
+    },
+    "availability": {
+      "92681": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773502+00:00"
+  },
+  {
+    "id": 92668,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-cocolino-line/lenjerie-de-pat-cocolino-line-adriana/",
+    "costs": {
+      "92668": 213.0
+    },
+    "availability": {
+      "92668": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773506+00:00"
+  },
+  {
+    "id": 92656,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-simona/",
+    "costs": {
+      "92656": 129.0
+    },
+    "availability": {
+      "92656": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773511+00:00"
+  },
+  {
+    "id": 92654,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-maria/",
+    "costs": {
+      "92654": 129.0
+    },
+    "availability": {
+      "92654": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773515+00:00"
+  },
+  {
+    "id": 92653,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-laura/",
+    "costs": {
+      "92653": 129.0
+    },
+    "availability": {
+      "92653": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773520+00:00"
+  },
+  {
+    "id": 92649,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-ana/",
+    "costs": {
+      "92649": 129.0
+    },
+    "availability": {
+      "92649": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773525+00:00"
+  },
+  {
+    "id": 92647,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-alexandra/",
+    "costs": {
+      "92647": 129.0
+    },
+    "availability": {
+      "92647": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773529+00:00"
+  },
+  {
+    "id": 92625,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-violeta/",
+    "costs": {
+      "92625": 129.0
+    },
+    "availability": {
+      "92625": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773533+00:00"
+  },
+  {
+    "id": 89429,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-fluturi/patura-cocolino-fluturi-11/",
+    "costs": {
+      "89429": 73.0
+    },
+    "availability": {
+      "89429": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773538+00:00"
+  },
+  {
+    "id": 89428,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-fluturi/patura-cocolino-fluturi-10/",
+    "costs": {
+      "89428": 73.0
+    },
+    "availability": {
+      "89428": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773542+00:00"
+  },
+  {
+    "id": 98777,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-ranforce-100-bumbac-crem/",
+    "costs": {
+      "98778": 195,
+      "98779": 223,
+      "98780": 234,
+      "98781": 249
+    },
+    "availability": {
+      "98778": true,
+      "98779": true,
+      "98780": true,
+      "98781": true
+    },
+    "checkedAt": "2026-10-22T20:25:43.449209+00:00"
+  },
+  {
+    "id": 102893,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-pufoasa-ralex-microgel-50cm-x-70cm/",
+    "costs": {
+      "102893": 105.0
+    },
+    "availability": {
+      "102893": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773778+00:00"
+  },
+  {
+    "id": 102537,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-umplutura-microgel-fata-100-bumbac-zen-microgel-50cm-x-70cm/",
+    "costs": {
+      "102537": 121.0
+    },
+    "availability": {
+      "102537": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773792+00:00"
+  },
+  {
+    "id": 160977,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-puf-gasca-ralex-50x70cm/",
+    "costs": {
+      "160977": 108.0
+    },
+    "availability": {
+      "160977": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773799+00:00"
+  },
+  {
+    "id": 103393,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/protectie-perna-impermeabila-aquastop-50cm-x-70cm/",
+    "costs": {
+      "103393": 16.0
+    },
+    "availability": {
+      "103393": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773805+00:00"
+  },
+  {
+    "id": 509,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/protectie-matlasata-perne-cu-fermoar-50x70cm-copiaza/",
+    "costs": {
+      "509": 16.0
+    },
+    "availability": {
+      "509": true
+    },
+    "checkedAt": "2026-10-22T20:25:42.773810+00:00"
+  },
+  {
+    "id": 103411,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-greek-border-500g-m2-alb/",
+    "costs": {
+      "105729": 9,
+      "105730": 21,
+      "105731": 40
+    },
+    "availability": {
+      "105729": true,
+      "105730": true,
+      "105731": true
+    },
+    "checkedAt": "2026-10-22T20:25:43.449395+00:00"
+  },
+  {
+    "id": 90640,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-greek-border-500g-m2-gri/",
+    "costs": {
+      "110226": 40,
+      "105762": 21,
+      "105761": 9
+    },
+    "availability": {
+      "110226": true,
+      "105762": true,
+      "105761": true
+    },
+    "checkedAt": "2026-10-22T20:25:43.494168+00:00"
+  },
+  {
+    "id": 104425,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-greek-border-700g-m2/",
+    "costs": {
+      "105702": 10,
+      "105703": 30,
+      "105704": 60
+    },
+    "availability": {
+      "105702": true,
+      "105703": true,
+      "105704": true
+    },
+    "checkedAt": "2026-10-22T20:25:43.435690+00:00"
+  },
+  {
+    "id": 159985,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-horeca-greek-border-500g-cappucino-new/",
+    "costs": {
+      "159986": 9,
+      "159987": 21,
+      "159988": 40
+    },
+    "availability": {
+      "159986": true,
+      "159987": true,
+      "159988": true
+    },
+    "checkedAt": "2026-10-22T20:25:44.271374+00:00"
+  },
+  {
+    "id": 158241,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-premium-heritage/lenjerie-de-pat-premium-eveya-v3-clasy-cu-patura-decorativa-100-bumbac-7-piese/",
+    "costs": {
+      "158241": 631.0
+    },
+    "availability": {
+      "158241": true
+    },
+    "checkedAt": "2026-10-22T20:25:43.449308+00:00"
+  }
+]

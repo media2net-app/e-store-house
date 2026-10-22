@@ -1943,5 +1943,6 @@
     "94023",
     "94024"
   ],
-  "status": "approved_for_storefront"
+  "status": "approved_for_storefront",
+  "pricingSnapshotSupersededBy": "pricing-29-20261022.json"
 }
