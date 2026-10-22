@@ -1,7 +1,7 @@
 import { createHmac } from "node:crypto";
 import { NextResponse } from "next/server";
 import { createWithdrawal, type WithdrawalRequest } from "@/lib/orders";
-import { sendWithdrawalReceipt } from "@/lib/order-email";
+import { requestNotification } from "@/lib/request-notification";
 import { hasTransactionalEmail } from "@/lib/order-email";
 
 export const runtime = "nodejs";
@@ -10,6 +10,7 @@ export async function POST(request: Request) {
   let body: Record<string, unknown>;
   try { body = await request.json() as Record<string, unknown>; }
   catch { return NextResponse.json({ error: "Cerere invalidă." }, { status: 400 }); }
+  if (!body || typeof body !== "object" || Array.isArray(body)) return NextResponse.json({ error: "Cerere invalidă." }, { status: 400 });
   const orderId = typeof body.orderId === "string" ? body.orderId.trim() : "";
   const email = typeof body.email === "string" ? body.email.trim().toLowerCase() : "";
   const name = typeof body.name === "string" ? body.name.trim() : "";
@@ -33,8 +34,9 @@ export async function POST(request: Request) {
       submittedAt: new Date().toISOString(),
     };
     const stored = await createWithdrawal(withdrawal);
-    await sendWithdrawalReceipt(stored);
-    return NextResponse.json({ id: stored.id, submittedAt: stored.submittedAt });
+    let notificationPending = false;
+    try { await requestNotification("withdrawal", stored); } catch { notificationPending = true; }
+    return NextResponse.json({ id: stored.id, submittedAt: stored.submittedAt, notificationPending });
   } catch {
     return NextResponse.json({ error: "Cererea nu poate fi transmisă acum. Scrie-ne direct pe e-mail." }, { status: 503 });
   }
