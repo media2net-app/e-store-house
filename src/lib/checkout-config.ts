@@ -10,7 +10,7 @@ function shippingOption(carrier: ShippingCarrier): ShippingOption | null {
   const raw = process.env[`STORE_${prefix}_SHIPPING_RON`];
   if (process.env[`STORE_${prefix}_ENABLED`] !== "true" || !raw || !/^\d+(?:\.\d{1,2})?$/.test(raw) || !Number.isFinite(Number(raw)) || Number(raw) > 9999) return null;
   if (carrier === "sameday" && !samedayConfiguration().homeReady) return null;
-  return { carrier, label: shippingCarrierLabels[carrier], priceRon: Number(raw) };
+  return { carrier, label: shippingCarrierLabels[carrier], priceRon: Number(raw), ...(carrier === "sameday" ? { dynamic: process.env.STORE_SAMEDAY_DYNAMIC_RATES === "true" } : {}) };
 }
 
 export function checkoutConfiguration() {
@@ -18,13 +18,14 @@ export function checkoutConfiguration() {
   const lockerPrice = process.env.STORE_SAMEDAY_EASYBOX_SHIPPING_RON;
   if (process.env.STORE_SAMEDAY_ENABLED === "true" && samedayConfiguration().lockerReady
       && lockerPrice && /^\d+(?:\.\d{1,2})?$/.test(lockerPrice) && Number.isFinite(Number(lockerPrice)) && Number(lockerPrice) <= 9999) {
-    shippingOptions.push({ carrier: "sameday", method: "easybox", label: "Sameday easybox", priceRon: Number(lockerPrice) });
+    shippingOptions.push({ carrier: "sameday", method: "easybox", label: "Sameday easybox", priceRon: Number(lockerPrice), dynamic: process.env.STORE_SAMEDAY_DYNAMIC_RATES === "true" });
   }
   const publicUrl = process.env.STORE_PUBLIC_URL;
   const ready = process.env.STORE_CHECKOUT_ENABLED === "true"
     && !!process.env.EU_PLATESC_MERCHANT_ID
     && !!process.env.EU_PLATESC_KEY
     && ["test", "live"].includes(process.env.EU_PLATESC_MODE || "")
+    && (process.env.VERCEL_ENV !== "production" || process.env.EU_PLATESC_MODE === "live")
     && (hasSupabaseStorage() || hasRedisStorage())
     && hasTransactionalEmail()
     && !!process.env.STORE_ADMIN_TOKEN

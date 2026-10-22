@@ -82,7 +82,7 @@ export async function samedayLocker(id: number) {
   return locker;
 }
 
-export function samedayPayload(order: StoreOrder, parcel: Parcel, locker?: SamedayLocker) {
+export function samedayPayload(order: { id: string; customer: Pick<StoreOrder["customer"], "firstName" | "lastName" | "phone" | "email" | "address" | "city" | "county" | "postalCode"> }, parcel: Parcel, locker?: SamedayLocker) {
   const config = samedayConfiguration();
   if (!(locker ? config.lockerReady : config.homeReady) || !validParcel(parcel) || (locker && !fitsEasybox(parcel))) throw new Error("Serviciul sau coletul Sameday nu este configurat corect.");
   const c = order.customer;
@@ -99,7 +99,7 @@ export function samedayPayload(order: StoreOrder, parcel: Parcel, locker?: Samed
 
 export async function estimateSameday(payload: Record<string, unknown>) {
   const result = await (await api("/api/awb/estimate-cost", payload)).json() as { amount?: number; currency?: string; time?: number };
-  if (!Number.isFinite(Number(result.amount)) || Number(result.amount) < 0 || String(result.currency).toUpperCase() !== "RON") throw new Error("Estimarea Sameday nu este validă.");
+  if (result.amount === null || result.amount === undefined || String(result.amount).trim() === "" || !Number.isFinite(Number(result.amount)) || Number(result.amount) < 0 || String(result.currency).toUpperCase() !== "RON") throw new Error("Estimarea Sameday nu este validă.");
   return { amount: Number(result.amount), currency: "RON", estimatedTime: result.time };
 }
 

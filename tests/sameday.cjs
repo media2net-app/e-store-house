@@ -71,6 +71,11 @@ test("easybox payload preserves the validated locker ID and rejects an oversized
   assert.equal(payload.awbRecipient.address, "Locker street");
   assert.throws(() => api.samedayPayload(order, { weight: 2, width: 70, length: 60, height: 10 }, locker));
 });
+test("a missing provider amount cannot be interpreted as free shipping", async () => {
+  const api = moduleAt("src/lib/sameday.ts", { "./sameday-protocol": protocol }, { process: { env }, fetch: async (url) =>
+    url.endsWith("authenticate") ? Response.json({ token: "token" }) : Response.json({ amount: null, currency: "Ron" }) });
+  await assert.rejects(api.estimateSameday({}));
+});
 test("API refreshes expired token only on reads and fully paginates locker data", async () => {
   let authCalls = 0, reads = 0;
   const api = moduleAt("src/lib/sameday.ts", { "./sameday-protocol": protocol }, { process: { env }, fetch: async (url) => {
@@ -127,9 +132,13 @@ test("checkout independently rechecks the cart limit and provider locker, ignori
     "@/lib/checkout-config": { checkoutConfiguration: () => ({ ready: true, publicUrl: "https://estore.test", shippingOptions: [{ carrier: "sameday", method: "easybox", priceRon: 19 }] }) },
     "@/lib/sameday": { samedayLocker: async (id) => { checkedLocker++; if (id !== 123) throw new Error(); return locker; } },
     "@/lib/sameday-protocol": protocol, "@/data/shipping-packages.json": {}, "@/lib/shipping": shipping,
+    "@/lib/checkout-shipping": { shippingQuoteBinding: () => "verified-binding" },
+    "@/lib/shipping-quote-token": moduleAt("src/lib/shipping-quote-token.ts", { "node:crypto": require("node:crypto") }, { Buffer }),
   }, { process: { env: { STORE_CHECKOUT_ENABLED: "true", STORE_ADMIN_TOKEN: "test-only", EU_PLATESC_MODE: "live" } } });
   function request(lockerId) { return new Request("https://estore.test/api/checkout", { method: "POST", body: JSON.stringify({ items: [{ productId: 1, quantity }], customer: order.customer, carrier: "sameday", shippingMethod: "easybox", lockerId,
-    shippingLocker: { id: 999, address: "attacker address" }, shippingCents: 0, acceptedTerms: true, intentId: "12345678-1234-1234-1234-123456789012" }) }); }
+    shippingLocker: { id: 999, address: "attacker address" }, shippingCents: 0,
+    shippingQuoteToken: moduleAt("src/lib/shipping-quote-token.ts", { "node:crypto": require("node:crypto") }, { Buffer }).issueShippingQuote("verified-binding", { cents: 1900, source: "fixed" }, "test-only").token,
+    acceptedTerms: true, intentId: "12345678-1234-1234-1234-123456789012" }) }); }
   assert.equal((await route.POST(request(123))).status, 400);
   assert.equal(checkedLocker, 0);
   quantity = 3;

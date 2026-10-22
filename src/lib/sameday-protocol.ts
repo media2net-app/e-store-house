@@ -12,6 +12,11 @@ export function validParcel(value: unknown): value is Parcel {
 // Conservative single-box stacking of measured, already packed SKU units.
 // No weight or dimensions are inferred from bedding sizes or product photographs.
 export function easyboxParcel(lines: { sku?: string; quantity: number }[], profiles: Record<string, PackingProfile>): Parcel | null {
+  const parcel = packedParcel(lines, profiles);
+  return parcel && fitsEasybox(parcel) ? parcel : null;
+}
+
+export function packedParcel(lines: { sku?: string; quantity: number }[], profiles: Record<string, PackingProfile>): Parcel | null {
   if (!lines.length) return null;
   const parcel: Parcel = { weight: 0, width: 0, length: 0, height: 0 };
   for (const line of lines) {
@@ -23,7 +28,7 @@ export function easyboxParcel(lines: { sku?: string; quantity: number }[], profi
     parcel.width = Math.max(parcel.width, edges[1]);
     parcel.length = Math.max(parcel.length, edges[2]);
   }
-  return fitsEasybox(parcel) ? parcel : null;
+  return validParcel(parcel) ? parcel : null;
 }
 
 export function fitsEasybox(parcel: Parcel) {

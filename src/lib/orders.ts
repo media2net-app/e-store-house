@@ -31,6 +31,7 @@ export type StoreOrder = {
   subtotalCents: number;
   discountCents: number;
   shippingCents: number;
+  shippingRateSource?: "fixed" | "sameday" | "free";
   shippingCarrier?: ShippingCarrier;
   shippingMethod?: ShippingMethod;
   shippingLocker?: import("./sameday-protocol").SamedayLocker;

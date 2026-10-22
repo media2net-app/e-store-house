@@ -10,6 +10,14 @@ The actual TypeScript adapter authenticated and read services/pickups, revalidat
 
 Store paid-order email already goes to `orders@estorehouse.ro`; the new Sameday website pickup contact now uses the same email. Global account-login/ticket notification settings still belong to the existing Yahoo identity; changing that login is not necessary for this integration.
 
+## Checkout update — 22 October 2026
+
+The owner accepted fixed customer fees of **27.72 lei home / 17.50 lei easybox**, and confirmed delivery in **1–3 business days**. These fees, `STORE_SAMEDAY_ENABLED=true`, `STORE_SAMEDAY_DYNAMIC_RATES=true`, and the delivery/shipping public text are now saved as Config values for **Production and Preview** in Vercel. Public card-payment checkout remains gated by its separate readiness/activation settings and EuPlătesc live approval.
+
+`POST /api/shipping/quote` requotes catalog prices on the server, validates customer contact/address and the actual provider locker, then returns the final transport charge with a signed ten-minute confirmation. Checkout independently verifies that confirmation against current catalog prices, quantities, customer data, method and locker; expired, modified or stale confirmations cannot start payment. The UI refreshes expired quotes and hides a stale total while recalculating. Shipping and merchandise totals displayed immediately before payment come from the server quote.
+
+For complete, source-labelled packed SKU profiles, Sameday rate estimation is available directly at checkout. Incomplete profiles use only the accepted fixed fee; a provider failure when estimating a measured parcel does not silently substitute another price. The current SKU profiles file is empty because packed weights have not been confirmed, so current customer quotes use the accepted fixed fees. Actual packed weight/dimensions remain mandatory for AWB creation. No inferred weights are sent to Sameday. Free shipping at 900 lei after discount and the three-set easybox cap remain enforced.
+
 ## Vercel environment configuration
 
 Set secrets through Project Settings → Environment Variables. Never put passwords in GitHub or a public `NEXT_PUBLIC_` variable.
@@ -22,8 +30,9 @@ Set secrets through Project Settings → Environment Variables. Never put passwo
 | `SAMEDAY_CONTACT_PERSON_ID` | `707870`, contact email `orders@estorehouse.ro` |
 | `SAMEDAY_HOME_SERVICE_ID` | `7` (24H), returned for this API account |
 | `SAMEDAY_LOCKER_SERVICE_ID` | `15` (Locker NextDay), returned for this API account |
-| `STORE_SAMEDAY_SHIPPING_RON` | Confirmed final customer home-delivery fee, including any applicable charges |
-| `STORE_SAMEDAY_EASYBOX_SHIPPING_RON` | Confirmed final customer easybox fee |
+| `STORE_SAMEDAY_SHIPPING_RON` | `27.72`, owner-accepted final customer home-delivery fee |
+| `STORE_SAMEDAY_EASYBOX_SHIPPING_RON` | `17.50`, owner-accepted final customer easybox fee |
+| `STORE_SAMEDAY_DYNAMIC_RATES` | `true`; live quotes only when all packed SKU profiles are complete |
 | `STORE_SAMEDAY_ENABLED` | `true` after credentials, IDs and fees have been verified |
 | `SAMEDAY_AWB_ENABLED` | `true` after a successful connection/rate check and durable shipment storage setup |
 
@@ -49,7 +58,7 @@ A durable reservation is created **before** calling Sameday. Concurrent/repeated
 
 ## Validation and remaining activation work
 
-Local TypeScript, lint, production build and automated tests cover the packing rules, server checkout enforcement, locker validation, PHP-compatible nested form encoding, token refresh on reads, and duplicate/uncertain AWB outcomes. All provider traffic in automated tests is mocked. Live authentication, account metadata, locker validation and sample price estimates are now verified. The final customer-facing fees await the owner’s choice. A paid end-to-end checkout, AWB creation and real label download remain untested against production services.
+Local TypeScript, lint, production build and automated tests cover the packing rules, server checkout enforcement, locker validation, PHP-compatible nested form encoding, token refresh on reads, and duplicate/uncertain AWB outcomes. All provider traffic in automated tests is mocked. Live authentication, account metadata, locker validation and sample price estimates are now verified. The owner-accepted customer fees and delivery timeframe are configured in Production and Preview. A paid end-to-end checkout, AWB creation and real label download remain untested against production services.
 
 Official protocol reference: [Sameday Courier PHP SDK](https://github.com/sameday-courier/php-sdk), particularly `SamedayAuthenticateRequest`, `SamedayPostAwbRequest`, `SamedayPostAwbEstimationRequest` and `SamedayGetLockersRequest`.
 

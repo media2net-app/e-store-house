@@ -31,3 +31,7 @@ Scope: a reviewable preview of the storefront improvements requested in the Yaho
 5. Verify legal pages and operational response procedures with the business's legal/accounting advisers before turning on customer-facing online forms and checkout. Confirm a person will monitor and respond to complaints and withdrawal requests.
 
 The site has no configured analytics provider. A consent-aware funnel (product view → add to cart → checkout → approved payment) can be instrumented after the tracking provider and privacy basis are chosen. No tracking code was added to avoid collecting customer data without that decision.
+
+## Checkout shipping confirmation — 22 October
+
+Added a public shipping quote endpoint and signed ten-minute checkout confirmation, bound to the server-priced cart, customer destination, carrier/method and actual easybox ID. Stale/modified confirmations require recalculation before payment; the UI displays canonical merchandise and transport totals. Complete packed SKU profiles can request the provider estimate; missing weights retain only the owner-approved fixed customer fees. The accepted fees (27.72 lei home / 17.50 lei easybox) and delivery estimate (1–3 business days) are saved in Vercel Production and Preview. Sameday delivery/rate flags are configured, but public card-payment activation still depends on EuPlătesc live approval and the remaining production setup. No stock/prices/catalog records were changed.

@@ -8,6 +8,8 @@ import { samedayLocker } from "@/lib/sameday";
 import { easyboxEligibility, type PackingProfile } from "@/lib/sameday-protocol";
 import profiles from "@/data/shipping-packages.json";
 import { quoteShipping } from "@/lib/shipping";
+import { shippingQuoteBinding } from "@/lib/checkout-shipping";
+import { verifyShippingQuote } from "@/lib/shipping-quote-token";
 
 export const runtime = "nodejs";
 
@@ -19,6 +21,7 @@ type CheckoutInput = {
   lockerId?: number;
   acceptedTerms?: boolean;
   intentId?: string;
+  shippingQuoteToken?: string;
 };
 
 function text(value: unknown, max: number) {
@@ -72,7 +75,7 @@ export async function POST(request: Request) {
   const billingPostalCode = separateBilling ? text(customer.billingPostalCode, 15) : postalCode;
   const billingCompany = text(customer.billingCompany, 160) || undefined;
   const billingCui = text(customer.billingCui, 24) || undefined;
-  if (!input.acceptedTerms || !selectedShipping || !firstName || !lastName || !email || !phone || !address || !city || !county || !postalCode
+  if (input.acceptedTerms !== true || !selectedShipping || !firstName || !lastName || !email || !phone || !address || !city || !county || !postalCode
       || !billingName || !billingAddress || !billingCity || !billingCounty || !billingPostalCode
       || typeof input.intentId !== "string" || !/^[0-9a-f-]{36}$/i.test(input.intentId)
       || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || !Array.isArray(input.items)
@@ -95,7 +98,17 @@ export async function POST(request: Request) {
     productId: line.productId, sku: line.sku, name: line.name,
     quantity: line.quantity, unitPriceCents: priceInCents(line.price),
   }));
-  const shippingCents = quoteShipping(config.shippingOptions, input.carrier, quote.totals.freeShipping, shippingMethod)!.cents;
+  const confirmedRate = verifyShippingQuote(input.shippingQuoteToken,
+    shippingQuoteBinding(quote, { firstName, lastName, email, phone, address, city, county, postalCode }, input.carrier, shippingMethod, input.lockerId), process.env.STORE_ADMIN_TOKEN!);
+  if (!confirmedRate) return NextResponse.json({ error: "Cotația de transport a expirat sau coșul/datele s-au schimbat. Recalculează transportul înainte de plată.", refreshShipping: true }, { status: 409 });
+  const fixedRate = quoteShipping(config.shippingOptions, input.carrier, quote.totals.freeShipping, shippingMethod)!;
+  if ((quote.totals.freeShipping && confirmedRate.cents !== 0)
+    || (confirmedRate.source === "sameday" && (input.carrier !== "sameday" || !selectedShipping.dynamic))
+    || (confirmedRate.source === "fixed" && confirmedRate.cents !== fixedRate.cents)
+    || (confirmedRate.source === "free" && !quote.totals.freeShipping)) {
+    return NextResponse.json({ error: "Tariful de livrare s-a schimbat. Recalculează transportul.", refreshShipping: true }, { status: 409 });
+  }
+  const shippingCents = confirmedRate.cents;
   const totalCents = quote.totals.totalCents + shippingCents;
   if (totalCents < 1 || totalCents > 9_999_999) {
     return NextResponse.json({ error: "Valoarea comenzii este invalidă." }, { status: 400 });
@@ -111,7 +124,7 @@ export async function POST(request: Request) {
       billingName, billingAddress, billingCity, billingCounty, billingPostalCode,
       ...(separateBilling ? { billingCompany, billingCui } : {}) },
     items: lines, subtotalCents: quote.totals.subtotalCents,
-    discountCents: quote.totals.discountCents, shippingCents, shippingCarrier: selectedShipping.carrier, shippingMethod, ...(locker ? { shippingLocker: locker } : {}), totalCents,
+    discountCents: quote.totals.discountCents, shippingCents, shippingRateSource: confirmedRate.source, shippingCarrier: selectedShipping.carrier, shippingMethod, ...(locker ? { shippingLocker: locker } : {}), totalCents,
   };
   const origin = config.publicUrl;
   const fields = createPaymentFields({
