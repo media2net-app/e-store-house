@@ -25,7 +25,8 @@ export default function ProductPurchaseActions({product}: {product: Product}) {
   useEffect(() => {const observer = new IntersectionObserver(([entry]) => setShowSticky(!entry.isIntersecting),{threshold:0}); if(mainButton.current)observer.observe(mainButton.current); return () => observer.disconnect();},[]);
   useEffect(() => {const check = () => setKeyboard(Boolean(window.visualViewport && window.innerHeight-window.visualViewport.height>150));window.visualViewport?.addEventListener('resize',check);return () => window.visualViewport?.removeEventListener('resize',check);},[]);
   const bundleComponents = selected?.bundleComponents ?? product.bundleComponents;
-  const contents = selected?.contents ?? (!product.variants?.length ? product.description?.split('\n').filter(line => /^\s*[•*-]/.test(line)) .join('\n') : 'Alege dimensiunea pentru a vedea conținutul exact.');
+  const contentFeatures = product.features?.filter(feature => /cearsaf|husa|fete|continut|numar piese|dimensiuni/.test(feature.label.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase())).map(feature => `${feature.label}: ${feature.value}`).join('\n');
+  const contents = selected?.contents ?? (!product.variants?.length ? contentFeatures || product.description?.split('\n').filter(line => /^\s*[•*-]/.test(line)).join('\n') : 'Alege dimensiunea pentru a vedea conținutul exact.');
   return <div className="purchase-actions">
     <p className="purchase-price" aria-live="polite" aria-atomic="true">{price}</p>
     {product.material && <p className="product-composition"><strong>Material:</strong> {product.material}</p>}

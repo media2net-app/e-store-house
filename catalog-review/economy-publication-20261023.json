@@ -1,5 +1,5 @@
 {
-  "status": "validated_pending_deployment",
+  "status": "live_verified",
   "releaseReason": "Prior individual source and gallery reviews verified against exact current file hashes; original held archive preserved unchanged.",
   "models": [
     {
@@ -3012,5 +3012,6 @@
         ]
       }
     }
-  ]
+  ],
+  "liveVerifiedAt": "2026-10-22T23:50:40.627198+00:00"
 }
