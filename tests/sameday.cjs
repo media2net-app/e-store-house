@@ -84,9 +84,12 @@ test("COD AWB collects the full stored order total, while card AWBs collect zero
   assert.equal(payload.cashOnDelivery, 346.72); assert.equal(payload.cashOnDeliveryReturns, 1); assert.equal(payload.awbPayment, 1);
   assert.equal(api.samedayPayload({ ...order, paymentMethod: "card", totalCents: 34672 }, parcel).cashOnDelivery, 0);
   assert.throws(() => api.samedayPayload({ ...order, paymentMethod: "cod", totalCents: 0 }, parcel));
-  assert.throws(() => api.samedayPayload({ ...order, paymentMethod: "cod", totalCents: 34672 }, parcel, { id: 2 }));
+  const lockerPayload = api.samedayPayload({ ...order, paymentMethod: "cod", totalCents: 34672 }, parcel, { id: 2, address: "Box street", city: "Town", county: "County", postalCode: "123456" });
+  assert.equal(lockerPayload.cashOnDelivery, 346.72); assert.equal(lockerPayload.cashOnDeliveryReturns, 1); assert.equal(lockerPayload.service, 15); assert.equal(lockerPayload.lockerLastMile, 2);
+  assert.throws(() => api.samedayPayload({ ...order, paymentMethod: "cod", totalCents: 500001 }, parcel));
+  assert.throws(() => api.samedayPayload({ ...order, paymentMethod: "cod", totalCents: 1000001 }, parcel, { id: 2 }));
   assert.equal(methods.canShipOrder({ ...order, paymentMethod: "cod", status: "pending_cod", shippingMethod: "home" }), true);
-  assert.equal(methods.canShipOrder({ ...order, paymentMethod: "cod", status: "pending_cod", shippingMethod: "easybox" }), false);
+  assert.equal(methods.canShipOrder({ ...order, paymentMethod: "cod", status: "pending_cod", shippingMethod: "easybox" }), true);
   assert.equal(methods.canShipOrder({ ...order, paymentMethod: "cod", status: "paid_review" }), false);
 });
 test("API refreshes expired token only on reads and fully paginates locker data", async () => {

@@ -17,7 +17,7 @@ export async function POST(request: Request) {
   const method = input.shippingMethod ?? "home";
   const paymentMethod = input.paymentMethod ?? "card";
   if (!customer || !["home", "easybox"].includes(method)
-    || !["card", "cod"].includes(paymentMethod) || (paymentMethod === "cod" && (input.carrier !== "sameday" || method !== "home"))
+    || !["card", "cod"].includes(paymentMethod) || (paymentMethod === "cod" && input.carrier !== "sameday")
     || !config.shippingOptions.some((option) => option.carrier === input.carrier && (option.method || "home") === method)) {
     return NextResponse.json({ error: "Completează datele de livrare și alege curierul." }, { status: 400 });
   }

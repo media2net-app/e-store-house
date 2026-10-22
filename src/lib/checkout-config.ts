@@ -36,6 +36,6 @@ export function checkoutConfiguration() {
     && process.env.EU_PLATESC_MODE === "live"
     && (process.env.VERCEL_ENV !== "preview" || !!process.env.VERCEL_AUTOMATION_BYPASS_SECRET);
   const codReady = operational && process.env.STORE_COD_ENABLED === "true" && samedayConfiguration().mode === "live"
-    && shippingOptions.some((option) => option.carrier === "sameday" && (option.method || "home") === "home");
+    && shippingOptions.some((option) => option.carrier === "sameday");
   return { ready: cardReady || codReady, cardReady, codReady, shippingOptions, publicUrl };
 }

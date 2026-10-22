@@ -45,7 +45,7 @@ export async function POST(request: Request) {
   try {
     const order = await getOrder(input.orderId);
     if (!order || !canShipOrder(order)) {
-      return NextResponse.json({ error: "Este necesară o comandă Sameday plătită cu cardul sau ramburs la domiciliu, care nu este de test." }, { status: 409, headers });
+      return NextResponse.json({ error: "Este necesară o comandă Sameday plătită cu cardul sau ramburs la domiciliu / easybox, care nu este de test." }, { status: 409, headers });
     }
     if (config.mode !== "live") return NextResponse.json({ error: "Comenzile reale necesită API Sameday în modul live." }, { status: 409, headers });
     const locker = order.shippingMethod === "easybox" ? await samedayLocker(order.shippingLocker?.id || 0) : undefined;

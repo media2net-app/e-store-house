@@ -20,7 +20,7 @@ export default function PaymentResultPage() {
       try {
         const response = await fetch(`/api/orders/${id}`, { cache: "no-store" });
         if (!response.ok) throw new Error();
-        const order = await response.json() as { id: string; status: string; paymentMethod: string; totalCents: number };
+        const order = await response.json() as { id: string; status: string; paymentMethod: string; shippingMethod: string; totalCents: number };
         if (cancelled) return;
         setOrderNumber(order.id);
         if (order.status === "cancelled") {
@@ -30,7 +30,7 @@ export default function PaymentResultPage() {
           setStatus("Anularea comenzii este în verificare. Contactează magazinul pentru confirmare; nu iniția o nouă plată."); return;
         }
         if (order.paymentMethod === "cod" && order.status === "pending_cod") {
-          setStatus(`Comanda a fost înregistrată. Vei achita ${formatProductPrice(order.totalCents / 100, "RON")} la curier, la livrarea la domiciliu.`);
+          setStatus(`Comanda a fost înregistrată. Vei achita ${formatProductPrice(order.totalCents / 100, "RON")} ${order.shippingMethod === "easybox" ? "cu cardul la easybox, la ridicarea coletului. Nu se acceptă numerar la easybox." : "la curier, la livrarea la domiciliu."}`);
           return;
         }
         if (order.status === "paid_review") {

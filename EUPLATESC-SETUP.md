@@ -64,3 +64,8 @@ Store-specific Config overrides `STORE_SMTP_HOST`, `STORE_SMTP_PORT`, `STORE_SMT
 ## Private E-Store Control order view
 
 `GET /api/control/orders` paginates Production orders with existing Sameday shipment records (50 per page). `GET /api/control/label?orderId=…` returns only an already-confirmed, live, non-test order's label. Both require a fresh ECDSA P-256 signature bound to method/path/query; `STORE_CONTROL_PUBLIC_KEY` is the base64 SPKI verification key. The private signing key stays in E-Store Control's server-only secret `STORE_CONTROL_PRIVATE_KEY` (base64 PKCS8). Neither route accepts mutations, courier credentials or the admin token. No payment state, order, AWB or collection is created by this connection. Responses are private/no-store. The separate Control app requires ChatGPT sign-in and keeps its existing private audience. It can combine selected existing PDF labels for printing without issuing AWBs.
+
+
+## Activation correspondence correction — 22 October
+
+The original LIVE activation request sent from orders@estorehouse.ro to office@euplatesc.ro at 17:27 was subsequently returned by the recipient server: 552 5.2.2 mailbox full. It was not delivered. The official technical-support address is support@euplatesc.ro (https://mail.euplatesc.ro/contact.php). The request was resent from orders@estorehouse.ro to support@euplatesc.ro at 19:35 Europe/Bucharest and verified in that mailbox’s Sent folder. This confirms sending, not final delivery or LIVE approval. Obtaining LIVE approval remains pending; public online card payment must stay disabled. Card-at-easybox collection is Sameday COD and does not require EuPlătesc LIVE approval.

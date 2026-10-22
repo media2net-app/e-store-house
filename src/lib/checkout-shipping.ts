@@ -32,7 +32,7 @@ export function shippingQuoteBinding(quote: ReturnType<typeof quoteCart>, custom
 }
 
 export async function checkoutShippingRate(quote: ReturnType<typeof quoteCart>, customer: ShippingCustomer, options: ShippingOption[], carrier: unknown, method: ShippingMethod, lockerId?: number, paymentMethod: PaymentMethod = "card"): Promise<ShippingRate> {
-  if (paymentMethod === "cod" && (carrier !== "sameday" || method !== "home")) throw new Error("Rambursul este disponibil la domiciliu prin Sameday.");
+  if (paymentMethod === "cod" && (carrier !== "sameday" || !["home", "easybox"].includes(method))) throw new Error("Rambursul este disponibil prin Sameday, la domiciliu sau la easybox (cu cardul la ridicare).");
   const fixed = quoteShipping(options, carrier, quote.totals.freeShipping, method);
   if (!fixed) throw new Error("Alege o metodă de livrare disponibilă.");
   let locker;
