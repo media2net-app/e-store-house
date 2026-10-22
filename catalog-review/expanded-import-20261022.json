@@ -1,0 +1,1584 @@
+{
+  "models": [
+    {
+      "id": 162811,
+      "status": "held",
+      "reason": "supplier-original hero or insufficient distinct changed camera views; existing held record preserved"
+    },
+    {
+      "id": 162810,
+      "status": "held",
+      "reason": "supplier-original hero or insufficient distinct changed camera views; existing held record preserved"
+    },
+    {
+      "id": 162809,
+      "status": "held",
+      "reason": "supplier-original hero or insufficient distinct changed camera views; existing held record preserved"
+    },
+    {
+      "id": 162808,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162808"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-estiva/",
+      "material": "100% bumbac, țesătură Ranforce",
+      "media": [
+        {
+          "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162808-hero.jpg",
+          "sha256": "cb02204bf3bfabb8a83cb78b14ef3b0e5ee4b04bc442aee8f5e75f0bfc3ae92c"
+        },
+        {
+          "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162808-1.jpg",
+          "sha256": "4277baf11563fa3c4fbf4ad29eadd20060f0f202cc5d84e6e5eb1ec418724fff"
+        },
+        {
+          "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162808-2.jpg",
+          "sha256": "0706ae09e913321bfc7a12ac175b09e8da6d9286dfdc02340469f9a8e041d40f"
+        },
+        {
+          "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162808-3.jpg",
+          "sha256": "a30fbaf83c806c6440a937596b38ff1b322857583514ed8dc47b56035427aa9e"
+        }
+      ]
+    },
+    {
+      "id": 162807,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162807"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-irma-2/",
+      "material": "100% bumbac, țesătură Ranforce",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162807/01.webp",
+          "sha256": "46e0653beee4aee639701386cd77418d3cacf74cb1308c6d9f7cd53fa98595f6"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162807/02.webp",
+          "sha256": "fb5f6b527ecbbea4333f4ed39b6c7688d3e4467f73dff26cb63add07613721e3"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162807/03.webp",
+          "sha256": "2787420dfba6ed8ab77162e48a296adf1eff62bae27d3de1a1d687c28bc20747"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162807/04.webp",
+          "sha256": "a470cd9243b6416f83d11ca398968bd5d4224b3da90cee5724ab0c4c0cc446c8"
+        }
+      ]
+    },
+    {
+      "id": 162806,
+      "status": "held",
+      "reason": "supplier-original hero or insufficient distinct changed camera views; existing held record preserved"
+    },
+    {
+      "id": 162805,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162805"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-nivora/",
+      "material": "100% bumbac, țesătură Ranforce",
+      "media": [
+        {
+          "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162805-hero.jpg",
+          "sha256": "34d98fe2b63b3ebcfa9ff9e1b30fb0c793573d08bf6a378abd1949b7c865295a"
+        },
+        {
+          "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162805-1.jpg",
+          "sha256": "9affc79beded5f65883ded3df9cfb597c4a4f6152e8ed8f268baf3eccb0415e0"
+        },
+        {
+          "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162805-2.jpg",
+          "sha256": "f4cc7cd41b4054586d4d189cd4998377d97aec776ad007163fe2ee0747f9c714"
+        },
+        {
+          "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162805-3.jpg",
+          "sha256": "957c0da45df4c538c5eee6daf85f58599b487c542e1c905c3304bbfda6bf2ee7"
+        }
+      ]
+    },
+    {
+      "id": 162804,
+      "status": "held",
+      "reason": "supplier-original hero or insufficient distinct changed camera views; existing held record preserved"
+    },
+    {
+      "id": 162803,
+      "status": "held",
+      "reason": "supplier-original hero or insufficient distinct changed camera views; existing held record preserved"
+    },
+    {
+      "id": 162802,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162802"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-samba/",
+      "material": "100% bumbac, țesătură Ranforce",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162802/01.webp",
+          "sha256": "f5d501269af6c75d2fae36362ac27240533b2883801847a957621b43ce18245a"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162802/02.webp",
+          "sha256": "29775d92becc4faaaf543a48cf258393c617555852b94ede30228eda2af1e81b"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162802/03.webp",
+          "sha256": "679b8d2201dd583a40f7ab8e210e56787e568b1846690ff87f7cb86669101ca0"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162802/04.webp",
+          "sha256": "1f3cde74c86f8d9c34ffcf54b1d20c424008e28c1b109c957bafef54725dfad0"
+        }
+      ]
+    },
+    {
+      "id": 162801,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162801"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-semeran/",
+      "material": "100% bumbac, țesătură Ranforce",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162801/01.webp",
+          "sha256": "6704fb984cfd0e520793f392af6dbbfebbf22a7e62fe35d5baa9d3721db77edc"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162801/02.webp",
+          "sha256": "2ceecac74610f1dd841ef5e249063f5b54a2bd479ab0ac85df14f5332fe3ef80"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162801/03.webp",
+          "sha256": "7c17a53e2113c5ead6137345053e52d7f293a34f9bbad8f6d8cb57ce954b556c"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162801/04.webp",
+          "sha256": "42c500aec17e05a5cff79a8ebd8bc0db853868af6c68e13a8dc1c65141516eaa"
+        }
+      ]
+    },
+    {
+      "id": 162800,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162800"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-vinya/",
+      "material": "100% bumbac, țesătură Ranforce",
+      "media": [
+        {
+          "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162800-hero.jpg",
+          "sha256": "4925b34202504165d464501bb55d0e51c0076b7a23475c229813847de36b5c0f"
+        },
+        {
+          "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162800-1.jpg",
+          "sha256": "474ccd0ded3aac893819dadeb1dc7cdf2b3e4e2a0343a510eec16b6cec31657e"
+        },
+        {
+          "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162800-2.jpg",
+          "sha256": "d4ad1a79dddce128dce36f5d5346eff048aa8adec366c18ae44fd6c89bc7d4ee"
+        },
+        {
+          "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162800-3.jpg",
+          "sha256": "31a4ccdd3ad16ce202d86663450b2af42e23f89e6a15cba12223d2d84f4d7589"
+        }
+      ]
+    },
+    {
+      "id": 162799,
+      "status": "held",
+      "reason": "supplier-original hero or insufficient distinct changed camera views; existing held record preserved"
+    },
+    {
+      "id": 162728,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162728"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-blue-garden/",
+      "material": "Înveliș finet: 50% bumbac, 50% poliester; umplutură: 50% fibră microgel, 50% fibră siliconică.",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162728/01.webp",
+          "sha256": "db7842b32215822a6f4fb98f1e3451030049ff99a5d0d5e9ae08c59499078d13"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162728/02.webp",
+          "sha256": "d841512840613ddd7f737ddb987013582e23e363ae842fb5eee81924472dc200"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162728/03.webp",
+          "sha256": "0b819f48c6f5ac607a9719a3e964b8d73325dd934c281c65bc24a72817507f89"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162728/04.webp",
+          "sha256": "2e179a05157e1c9e3f1a310a5a42eb6436dbd2a7c6804af45acf5a58347525c8"
+        }
+      ]
+    },
+    {
+      "id": 162721,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162721"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-13/",
+      "material": "Față: 100% poliester (microfibră); umplutură: 100% poliester (microfibră).",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162721/01.webp",
+          "sha256": "d480dd89e2311cd4a0e5a53f76086151a1784264b89ddba80de09bd4ee6a3886"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162721/02.webp",
+          "sha256": "6b4dac7afded0d5a8a54006a1a173cb6e3adc23b32b30a1c03999d0628d1e8ea"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162721/03.webp",
+          "sha256": "1402bce28449345eaca15ea8093ec51a4e4354d0f07400b81edac1f53d2ed69b"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162721/04.webp",
+          "sha256": "b1aabc71064e7eb46cc936f102654695d50096e1175f78460f26bb939c7bd5e0"
+        }
+      ]
+    },
+    {
+      "id": 162720,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162720"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-12/",
+      "material": "Față: 100% poliester (microfibră); umplutură: 100% poliester (microfibră).",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162720/01.webp",
+          "sha256": "a6f9bee4e51ec2dab4fe7cb1efe86e84a1633a085e40c6bc18872590b1bc45b5"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162720/02.webp",
+          "sha256": "eb47fc3c88455b265421eec90173a3b1fc3b7ebbbe7a9e0c60086fbe98130c13"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162720/03.webp",
+          "sha256": "6a3b1f336b521f3067db5db068345a276bad384246b5efa7a71a1332907e3299"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162720/04.webp",
+          "sha256": "c43ef6ed9fba886a05b265ef24ed58fdb5a964e5426cea1d20ad9f430cac7493"
+        }
+      ]
+    },
+    {
+      "id": 162719,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162719"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-11/",
+      "material": "Față: 100% poliester (microfibră); umplutură: 100% poliester (microfibră).",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162719/01.webp",
+          "sha256": "88a633276b44b0b0e6152afaf3f13a14d2e449463288e4afa217a828a846c625"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162719/02.webp",
+          "sha256": "06f640a2d4c5a42ae42ffda13b2e42bb6f43a4004263c353af03a524cd428058"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162719/03.webp",
+          "sha256": "5a1facfffefe29adf8b3d333f217da2e5b5c34cd7ab8dbb6eea55452a402f10f"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162719/04.webp",
+          "sha256": "52a5d00499968407e510e423bcccbf3dc72e77e44438ec8f3e6c9cd76c697fe7"
+        }
+      ]
+    },
+    {
+      "id": 162718,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162718"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-10/",
+      "material": "Față: 100% poliester (microfibră); umplutură: 100% poliester (microfibră).",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162718/01.webp",
+          "sha256": "4981a8d28b37027ab5fc09428a52e1d9f1f87215443b5cc4ea41f024bb23a3ca"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162718/02.webp",
+          "sha256": "a81bdaa7f3cf3966bb04f8991d5f878dd7dc7b605553a255737c55373033f016"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162718/03.webp",
+          "sha256": "2bde944c65605477a4366bf0f4cae69abb99665d3cdb8ce1446be6ace09611d2"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162718/04.webp",
+          "sha256": "f1c7d940f36e6e145f80acb0aac96036d6d1ef91c9df609bca42be2aa1ae607e"
+        }
+      ]
+    },
+    {
+      "id": 162717,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162717"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-9/",
+      "material": "Față: 100% poliester (microfibră); umplutură: 100% poliester (microfibră).",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162717/01.webp",
+          "sha256": "37c826f7f01c3bda48dd3e4263726040d2d8597715b099c1b49888767b8c732f"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162717/02.webp",
+          "sha256": "9d58ca2b71568ffd32dbf91129c394fd95271dd0ea8a0de55f400cbdc5c9d031"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162717/03.webp",
+          "sha256": "5b5bd98cbe8bf408e00ac1661082f2595aac22552b0168c0fd43cb09431cfa6e"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162717/04.webp",
+          "sha256": "87ff8bb486d95684e24e6b785e545df66300212a51bbb8de5699e3dc28ded7ac"
+        }
+      ]
+    },
+    {
+      "id": 162716,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162716"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-8/",
+      "material": "Față: 100% poliester (microfibră); umplutură: 100% poliester (microfibră).",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162716/01.webp",
+          "sha256": "fd19bb2005879a3c442726bc274a7ba9fbe237a7613f1f222599be3bc40e4c33"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162716/02.webp",
+          "sha256": "f2f02774bf4bb344ac38654f25bff992aa0eefec59d5fa434febdba5daa0356c"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162716/03.webp",
+          "sha256": "2a240098e07473fbb25dc3ce98e0e34c8e0d4fbab632e072a429e0253a8006c9"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162716/04.webp",
+          "sha256": "de8fdf7db475275b100e0f02edd9d35274b3d187b86a04a5e0b287d43c01019d"
+        }
+      ]
+    },
+    {
+      "id": 162715,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162715"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-7/",
+      "material": "Față: 100% poliester (microfibră); umplutură: 100% poliester (microfibră).",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162715/01.webp",
+          "sha256": "bae2fcf025814357340e7006ff614b32778cd49c7b8516cefc20f76bf446cb65"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162715/02.webp",
+          "sha256": "558b550b87bf6dbf1c90d427e9288e9b2580053e0ff809feb9630f4fa678a641"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162715/03.webp",
+          "sha256": "e87933ebe896e824aa593891468bc2892d1b9eef4ea4da7d79539bdae87e46fa"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162715/04.webp",
+          "sha256": "44ae9056083d11462a47c1a25dfc9ed7984ba1dc276272a62e57c25e43c2219f"
+        }
+      ]
+    },
+    {
+      "id": 162714,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162714"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-6/",
+      "material": "Față: 100% poliester (microfibră); umplutură: 100% poliester (microfibră).",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162714/01.webp",
+          "sha256": "88145e3bcbbee6aedc95c51c8d6bfafc801044245dc2c7e801966c0a9733f3d7"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162714/02.webp",
+          "sha256": "ded552e534694513cb7cb6c611f75b861c00f08385db41eabf8615aa248f11dd"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162714/03.webp",
+          "sha256": "fe37c6298696091f58204192f7b866804399083baa9c66d729ff6a0f8bd654f5"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162714/04.webp",
+          "sha256": "b81e4925b716e0957e1d5a4dfdb94fa85d87b078dae8c222c3980617a6294116"
+        }
+      ]
+    },
+    {
+      "id": 162713,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162713"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-5/",
+      "material": "Față: 100% poliester (microfibră); umplutură: 100% poliester (microfibră).",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162713/01.webp",
+          "sha256": "197d492c050538224dfb76e06805bfb9c1eef6a46b1cd6b0d05a6303b5a0a3d6"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162713/02.webp",
+          "sha256": "eeda45c91e7a9c477f4e6d94b07e9e0c41fc00476fd047da3712a9f820bc143f"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162713/03.webp",
+          "sha256": "44e3b4cd346823ad6451b2e3c66e6d628564c8a57bc5d79f34072856897a5aeb"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162713/04.webp",
+          "sha256": "3ace129d40538fcc8bc86af59e6176b8422b530031c4a8fca81200642cb25cab"
+        }
+      ]
+    },
+    {
+      "id": 162712,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162712"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-4/",
+      "material": "Față: 100% poliester (microfibră); umplutură: 100% poliester (microfibră).",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162712/01.webp",
+          "sha256": "8822aaeb062ca60e3c08b22436c5ceab17589384400d0cc2205543ece78bcce8"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162712/02.webp",
+          "sha256": "9d440e6e1f086fd86b911d3656f0e7cd437d1bd7df9bf9476a3bd926cbe11148"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162712/03.webp",
+          "sha256": "fe7549d4b86410f2f04bb62a1464b9c7315b5bc7c1adc1ab0eeae80f6fbb8be6"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162712/04.webp",
+          "sha256": "5ce004dc7490b333d957b24d326953ce6a0d39d92633b2ddde35721eab70967b"
+        }
+      ]
+    },
+    {
+      "id": 162711,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162711"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-3/",
+      "material": "Față: 100% poliester (microfibră); umplutură: 100% poliester (microfibră).",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162711/01.webp",
+          "sha256": "ebcb7ff893270f6cb1f6ac4b8de8b92cc815301127e47f6512d45693db9b150a"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162711/02.webp",
+          "sha256": "ed2be5f2b1bf78d2b3e617d1c4cb77454ea9d22bff56f9b8bc903961469ba9d8"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162711/03.webp",
+          "sha256": "fe46fcb2507fba244942eca7d9cdf3858f16f9ee3188c08b7354e27af1d848c9"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162711/04.webp",
+          "sha256": "b36cb95dcc83f66d990ee6ae79789e468f67c0337112035a54a841fbb751e6b5"
+        }
+      ]
+    },
+    {
+      "id": 162710,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162710"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-2/",
+      "material": "Față: 100% poliester (microfibră); umplutură: 100% poliester (microfibră).",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162710/01.webp",
+          "sha256": "e0dd09cda3529abb3fe99278ba8ebc5b9cdf7c47028eecb9d0057c2888c6d9f7"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162710/02.webp",
+          "sha256": "fb9526fa3a50c0d278c21753bc47854885ce966a3b52320d291566be06ede647"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162710/03.webp",
+          "sha256": "56d11e25d639dec454889fd2c812b00916bf3d65febc632a57393922e839ca2f"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162710/04.webp",
+          "sha256": "89004ea259c0816e3021d1355bf2467b6fd3789852687c0e9fc7a65d26e48f10"
+        }
+      ]
+    },
+    {
+      "id": 162709,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "162709"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-3-locuri-doua-fete-copie-1/",
+      "material": "Față: 100% poliester (microfibră); umplutură: 100% poliester (microfibră).",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162709/01.webp",
+          "sha256": "53d4c8fe3f72ca72d4b380b3046f4fb4d4841c3d62a8d1a02a76409a9178ee81"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162709/02.webp",
+          "sha256": "0a3389f845bc08e387e71d99e288927a1cc40006c721449d2255509ed92e7cc0"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162709/03.webp",
+          "sha256": "49ceaa89a4fdc0572b1653b6bfc3bd063226f0d914fd54b6b9c5e54c5d772c81"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-162709/04.webp",
+          "sha256": "182baf274c33aa18b11230e99cd7914a88de3c62c8892bdc617af4fad61b9517"
+        }
+      ]
+    },
+    {
+      "id": 94029,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "94029"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-9/",
+      "material": "100% poliester",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94029/01.webp",
+          "sha256": "eff30505d1eed0021d42d5a891e4f0fccd086ad5f362014e2cec8a1e3baf448c"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94029/02.webp",
+          "sha256": "49cf628b929a62866ac7d2cc18e7e4fa4cccb7aa79f7563a30059fd65f2610f8"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94029/03.webp",
+          "sha256": "d5e134e1b2891395debcd7ed3d641362d6832bcc6170727ba1a6df49cdf9502a"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94029/04.webp",
+          "sha256": "369e002702fb22706b897214a4643f94f019635ec2c517692e0fe32703652700"
+        }
+      ]
+    },
+    {
+      "id": 94028,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "94028"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-8/",
+      "material": "100% poliester",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94028/01.webp",
+          "sha256": "32f9b11aaa821ee57417e36d7f8cdd2b0e649f3c716eed5695dff26361510277"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94028/02.webp",
+          "sha256": "68a1fcc8769490009e238587de79b763db5c93320acef2920c107a535e74a252"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94028/03.webp",
+          "sha256": "dd32fdfb24c932871b2f5361fca11c9c8e8c1d646175515e9887284de855fd30"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94028/04.webp",
+          "sha256": "6c8b6cecf983debf1427ff7609eab08238280c012aa7c7dab26b497c61ce0794"
+        }
+      ]
+    },
+    {
+      "id": 94027,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "94027"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-7/",
+      "material": "100% poliester",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94027/01.webp",
+          "sha256": "d725a674476f0e959d419726cbf08d3e4bd647fd5bd88b32d82b65e459ba84c4"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94027/02.webp",
+          "sha256": "152b53985153352df76610704e477a39df8758fe88272433901bf9a7e4ff49d1"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94027/03.webp",
+          "sha256": "103a88f0704e4e409751220e665a9333a0c6edcfc50322a0c9a1432135b8b19b"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94027/04.webp",
+          "sha256": "4627ffd73736033c398d3698761eba9a64bd385090b35edfe6a15a6401e01d89"
+        }
+      ]
+    },
+    {
+      "id": 94026,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "94026"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-6/",
+      "material": "100% poliester",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94026/01.webp",
+          "sha256": "4436cf1aa42a70312ff5f08d5bfa58193a11540f67ae36f550db4a2b317741e5"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94026/02.webp",
+          "sha256": "9b8dd4efe13900648b0e23dfd158391826ed71ba7a94b8c7dfeae247ef219502"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94026/03.webp",
+          "sha256": "2b8e145650983053d936fa8d1ecdf56cd619f134facee8f95bea55752b76d70a"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94026/04.webp",
+          "sha256": "1631c5e0aa1449a625812a58c191d9e02757b5e966bf9dc80e36ad9641f0177b"
+        }
+      ]
+    },
+    {
+      "id": 94025,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "94025"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-5/",
+      "material": "100% poliester",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94025/01.webp",
+          "sha256": "9061a21e2105dda715b76bdd3d1c7512f245f641ed3c979342203773029d9743"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94025/02.webp",
+          "sha256": "a4b778e52faa22283aac1dba132ce90e8931e65e41d427466790a6da4bf40feb"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94025/03.webp",
+          "sha256": "e2a1c942ed6a0aad9d576129efb2d1606ec6b407e3578b90bffda34c75993941"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-94025/04.webp",
+          "sha256": "96f97bdc75b6cf793f9fa6335b2ae8fd156417de150ca9ef09056e5633c24185"
+        }
+      ]
+    },
+    {
+      "id": 159496,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "159496"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-de-pat-finet-2-fete-perna/husa-de-pat-finet-2-fete-perna-51/",
+      "material": "70% bumbac, 30% poliester",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159496/01.webp",
+          "sha256": "daaa3ffb0da3a00b2a8387b72c0b4102286e1975e2088658fd76265bbeaf8ca7"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159496/02.webp",
+          "sha256": "e16516df027b3a2a87a02b0102c4828ebeac284776dbc33a6b575b061f1cf9b9"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159496/03.webp",
+          "sha256": "71898668fa0e460fe851f416cebc6384b7445ebd4664c4b8a1f22134733d31dd"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159496/04.webp",
+          "sha256": "f6a81de6ef80e4d31033cf5b31ec4377a78adff4b557eedfa6414c62e7fcf2ef"
+        }
+      ]
+    },
+    {
+      "id": 159495,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "159495"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-de-pat-finet-2-fete-perna/husa-de-pat-finet-2-fete-perna-50/",
+      "material": "70% bumbac, 30% poliester",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159495/01.webp",
+          "sha256": "cce9f9109cd5e038e1a0f5c9d02f5d84651b69a7bba1590f9207ca57d8367250"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159495/02.webp",
+          "sha256": "a1253a185e1f3bbe4298956fc2c9932ce0e9946a072e79706e0ba58cea8fce25"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159495/03.webp",
+          "sha256": "af67ffee17f3c9d1d8f59fe8d528b35907aafd45e9dd00fc767028b4c5628591"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159495/04.webp",
+          "sha256": "2881fd953885284c08831bd51b77d37c31febd59b9c9ddd0760e06a930f5ca2b"
+        }
+      ]
+    },
+    {
+      "id": 159494,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "159494"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-de-pat-finet-2-fete-perna/husa-de-pat-finet-2-fete-perna-49/",
+      "material": "70% bumbac, 30% poliester",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159494/01.webp",
+          "sha256": "d5eff23cf33322317f6e0ec9307d1b9161869f52d88f6259c434d80b35b7936c"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159494/02.webp",
+          "sha256": "47fba3ab41b48ab8f2e3766ecc723f9de296c7b99f290b11e468d2d22eb62d15"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159494/03.webp",
+          "sha256": "7378dd3b2acdcbb8bdceeed53edf071d51b34136bc0e8d80344881078689a454"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159494/04.webp",
+          "sha256": "f9b798e71a950d0134d44a581294a7d46aa700a1710c017eabc164ba13e804fe"
+        }
+      ]
+    },
+    {
+      "id": 159493,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "159493"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/50 produse noi - Ralex - 2026-10-19/plan-publicare.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-de-pat-finet-2-fete-perna/husa-de-pat-finet-2-fete-perna-48/",
+      "material": "70% bumbac, 30% poliester",
+      "media": [
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159493/01.webp",
+          "sha256": "9d5ba5fcdb1c19f3f59dd9bd528651edd38d37925403053c0d36e87b267d8518"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159493/02.webp",
+          "sha256": "e56df52358bad939d2926c3eea318f4236aa0a2a9e87279def705b7e097ccf03"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159493/03.webp",
+          "sha256": "d5ffa6c68a176655823d011f4b0da2bbcdf6d3f378dbaddc970e43f1213ae46c"
+        },
+        {
+          "url": "https://www.estorehouse.ro/products/ralex-159493/04.webp",
+          "sha256": "e0200118e98b41d9837685dfa4759a6953914c9a58147afc651fc64ec67834c8"
+        }
+      ]
+    },
+    {
+      "id": 92689,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "92689"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-cocolino-line/lenjerie-de-pat-cocolino-line-simona/",
+      "material": "Compoziție: 100% poliester",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92689/01-principala.jpg",
+          "sha256": "4dc0c3f9c37f618d43ad3d7183a06b34fc13d9b4a846b2d125a8ce7e519b2aaa"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92689/02-lateral.jpg",
+          "sha256": "614de374c2749afb769700fb033d68cabe4f239d0638230464f0831535dbdefc"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92689/03-detaliu.jpg",
+          "sha256": "799a3f14d17ddf0c49082f2ff33e2d73ea327130b388c9753c89b6209f553596"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92689/04-de-sus.jpg",
+          "sha256": "d42fefd0be851fc0cf6275db21e3268cb468a303f64be5f041512c19c8c8a7af"
+        }
+      ]
+    },
+    {
+      "id": 92688,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "92688"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-cocolino-line/lenjerie-de-pat-cocolino-line-mihaela/",
+      "material": "Compoziție: 100% poliester",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92688/01-principala.jpg",
+          "sha256": "7e51a9ba40520b35497b8df042133ed3ab0cfd923ae005bee0913febaed97af0"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92688/02-lateral.jpg",
+          "sha256": "6037b77d6b9382fde785c15797bd1e3269c056b307eed03cd877ff702ac8bf2b"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92688/03-detaliu.jpg",
+          "sha256": "a6ac226d16a366fb637c1a69c349b2252fc72fefbc4297d41c0cbe1328ad50ac"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92688/04-de-sus.jpg",
+          "sha256": "47288f50e9453b463695ba05e8cfb77f949b235cfb7506b7b4efa0a86635d3bb"
+        }
+      ]
+    },
+    {
+      "id": 92685,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "92685"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-cocolino-line/lenjerie-de-pat-cocolino-line-ioana/",
+      "material": "Compoziție: 100% poliester",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92685/01-principala.jpg",
+          "sha256": "3c50d31d4319f73b4cfdc57bc664f0ec6870fb889e1c41dab7a756b90c788ea9"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92685/02-lateral.jpg",
+          "sha256": "2be0496a0cfa41addb1caa36a6dc7d2cdd1183b6dd1598182786827dfc65fba9"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92685/03-detaliu.jpg",
+          "sha256": "66f04d3654582fe060616052b1e871cab561c6b22af8c5ecab05a648922e7f0d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92685/04-de-sus.jpg",
+          "sha256": "50efa544e5b7166aa861de974abbcca1e55fa887820f93cc0ce0590e02ef1f4b"
+        }
+      ]
+    },
+    {
+      "id": 92684,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "92684"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-cocolino-line/lenjerie-de-pat-cocolino-line-cristina/",
+      "material": "Compoziție: 100% poliester",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92684/01-principala.jpg",
+          "sha256": "6aa6b19edaae2f82e09c745df9acb426c75f0c14f337120fda5bdfcdbbcb3dcc"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92684/02-lateral.jpg",
+          "sha256": "162c6a551b53f2ba006a90b752f03672e8ebf32d91487545400bc36b003eeb9b"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92684/03-detaliu.jpg",
+          "sha256": "233d0dc80e0d4ac83a8ef2d12f938ac2c2a4e3e83bc03e0285684c6e4172138f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92684/04-de-sus.jpg",
+          "sha256": "10e9473f6a5b27ded2e45665abfef2aa05920b80bde7b2343848a023bb9d7b50"
+        }
+      ]
+    },
+    {
+      "id": 92681,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "92681"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-cocolino-line/lenjerie-de-pat-cocolino-line-alina/",
+      "material": "Compoziție: 100% poliester",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92681/01-principala.jpg",
+          "sha256": "8d0fc57f6751574add25574efc3f846c289b56b414cc4dc2dd1e431db722a081"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92681/02-lateral.jpg",
+          "sha256": "eb89c2fca6bc9232301c41bdbf2b4d37675b412b537d488c2d15d6ca4d2ae7aa"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92681/03-detaliu.jpg",
+          "sha256": "90f0b25198eae7f33b31c4b60d49c3e8f7c61373d4d8fde91037be143362e5bf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92681/04-de-sus.jpg",
+          "sha256": "ea2fad323927be74fb73d6d5981949f7fbf274f9dc1cb3d66885529ff60ed3d5"
+        }
+      ]
+    },
+    {
+      "id": 92668,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "92668"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-cocolino-line/lenjerie-de-pat-cocolino-line-adriana/",
+      "material": "Compoziție: 100% poliester",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92668/01-principala.jpg",
+          "sha256": "515cb655b093ac5424fe7bb5edf9867006ad956e0fc3a9978335ecd86a6791fc"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92668/02-lateral.jpg",
+          "sha256": "f45a618bf59aec0ab16835f2705af229fa0ec150e83f788c79bfabf9a87b0ca3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92668/03-detaliu.jpg",
+          "sha256": "899419e1dc3d6b1a561b4ee8e7edb07a31dcf384c4df0e94c2a62f522c7460ed"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92668/04-de-sus.jpg",
+          "sha256": "652c66adb2e4e72dc4b9188ce9f492f0a605be79fce1cf7454a0f35c32e4cf19"
+        }
+      ]
+    },
+    {
+      "id": 92656,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "92656"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-simona/",
+      "material": "Compoziție: 100% poliester",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92656/01-principala.jpg",
+          "sha256": "fe8720bc4b8ef406409ff06888b9c4b68929241538ca70824a98e0c61401c8de"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92656/02-lateral.jpg",
+          "sha256": "a587a60851487476950cbf179b308c8f652f11e7eff4c4d2796118e10c798985"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92656/03-detaliu.jpg",
+          "sha256": "476913680ca42e2ed323d2f0fdd389470923952a45a913f9cbdbbb75f0caa903"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92656/04-de-sus.jpg",
+          "sha256": "a3c34a265c18a7b655585a28cefcdfe56ab905ef6334297284625bb5ca43f866"
+        }
+      ]
+    },
+    {
+      "id": 92654,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "92654"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-maria/",
+      "material": "Compoziție: 100% poliester",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92654/01-principala.jpg",
+          "sha256": "da8cab120d4a62ea15b62b82b2cca0c275a41664dd0a4c3971c35ad8dce57022"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92654/02-lateral.jpg",
+          "sha256": "8a9d0604552f532473f316ea8295768972c570532e780b560ae274efe117a788"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92654/03-detaliu.jpg",
+          "sha256": "a1f36a01e38d0c7bbe6f0fb004bff31d82d36ce4b779ef22b02747a0a536940d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92654/04-de-sus.jpg",
+          "sha256": "063537cf37ddbd1ba47652997d3293ff8992f078d501dac7653494b011d598f3"
+        }
+      ]
+    },
+    {
+      "id": 92653,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "92653"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-laura/",
+      "material": "Compoziție: 100% poliester",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92653/01-principala.jpg",
+          "sha256": "4eecf9b282ebc435066bd43a2b1769e5fcb3dbfae3eb209ed0cb51c66cf1bb37"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92653/02-lateral.jpg",
+          "sha256": "3a939d3c25a9b795dbc92d5af033649a3d1f43137318ded8796566fea26f3074"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92653/03-detaliu.jpg",
+          "sha256": "a3978d75f1baba353646dd51e73da1dfd0abe43f4ce55e5286b1edfbe48f3587"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92653/04-de-sus.jpg",
+          "sha256": "fb43331ad21cee3177efa582ea2b398b1b57c235fab7eea59f244d57fad55572"
+        }
+      ]
+    },
+    {
+      "id": 92649,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "92649"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-ana/",
+      "material": "Compoziție: 100% poliester",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92649/01-principala.jpg",
+          "sha256": "807c3264b7fac0344b5cdbbe82254083571cd83f37ed70ef318514e15531f7a4"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92649/02-lateral.jpg",
+          "sha256": "c685317643687ea5e3151b13f5c1158f12dededc08bc9c9080817cf29631f72a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92649/03-detaliu.jpg",
+          "sha256": "98cb723159b55dfda0644cb1328cd4fc9ce4230055c6ad75543ce06c68908893"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92649/04-de-sus.jpg",
+          "sha256": "af74e5cfc7cfab390ea50202d5cca40be0c4dea48b9387e3744795644a59cb28"
+        }
+      ]
+    },
+    {
+      "id": 92647,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "92647"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-alexandra/",
+      "material": "Compoziție: 100% poliester",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92647/01-principala.jpg",
+          "sha256": "d1bcbd00179ed4c8ae8caf2f6d397f6a8c61df3b38bf73333e3f70d0f2abedb5"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92647/02-lateral.jpg",
+          "sha256": "00736532d2b9e685bd3bb0a420ce865ab8f83be9ae06adaffb6d275634bbecf7"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92647/03-detaliu.jpg",
+          "sha256": "098ef5dc4759ea9b12bc7b6568c18b32eeef8fc0efd1d321eae76462131f3cce"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92647/04-de-sus.jpg",
+          "sha256": "8bb89aac9b68fbdce965512b69b2e4c4b0e9be7348faa5f6c1a3f74b773572e0"
+        }
+      ]
+    },
+    {
+      "id": 92625,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "92625"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-violeta/",
+      "material": "Compoziție: 100% poliester",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92625/01-principala.jpg",
+          "sha256": "3b68f496becb23f36269bb31b8e0abc916077d536b1d7471b73056ce9f8da1fb"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92625/02-lateral.jpg",
+          "sha256": "b02349c59710d56d8d17b961a7e735b0b41d5a21cd7e55123db993e1e615f73c"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92625/03-detaliu.jpg",
+          "sha256": "3fb89955283e35fefa2ea78873cbdf488acebfdb6c6d4ca2bb2da96bb0ed6c19"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/92625/04-de-sus.jpg",
+          "sha256": "87ac3a5ec77366bf6a7c411dbd87bcba69674cc4ed4140bbdb249aa68a7bc430"
+        }
+      ]
+    },
+    {
+      "id": 89429,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "89429"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-fluturi/patura-cocolino-fluturi-11/",
+      "material": "Compoziție: 100% poliester",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/89429/01-principala.jpg",
+          "sha256": "32e83fccc84071c1e19b9e5b1ec1799d74cf14a5bc3fe6e52ab7a8b45b105040"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/89429/02-lateral.jpg",
+          "sha256": "e98c14b3f39dfbf0a15883c28841357643fcb72cea20e0d511a0695db9e47aaa"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/89429/03-detaliu.jpg",
+          "sha256": "8b00006864efae2024ae754a36808c363b8dc9123be4d95be02e7e284e2fd0d5"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/89429/04-de-sus.jpg",
+          "sha256": "129573f47d1e1edbeac0e9e9d1dacbe7cbecbafeba5b3a8dedda00b8d78de929"
+        }
+      ]
+    },
+    {
+      "id": 89428,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "89428"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-fluturi/patura-cocolino-fluturi-10/",
+      "material": "Compoziție: 100% poliester",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/89428/01-principala.jpg",
+          "sha256": "f5773ae240d24e5623af09fcb53a7d5852dd9ad390878be2a854d9de820415d6"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/89428/02-lateral.jpg",
+          "sha256": "a05ea4eb664d13c5468215e224526dc3012dbb6a4a13c6d2e9398d98cc32dbb2"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/89428/03-detaliu.jpg",
+          "sha256": "bfeddd8c31827a770b6a02a883affaffc5e6a98713b6a849119105ec8c172564"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/89428/04-de-sus.jpg",
+          "sha256": "995e3fbd3372565d243828204f1fe02dfc363cc7fad145533f2a1dfabf4a21fa"
+        }
+      ]
+    },
+    {
+      "id": 98777,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "98778",
+        "98779",
+        "98780",
+        "98781"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-ranforce-100-bumbac-crem/",
+      "material": "Înveliș: Ranforce, 100% bumbac; Umplutură: lână",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98777/01-principala.jpg",
+          "sha256": "f9d1c89f9c7228d6ebae3054c67f5bf09d8f0200bb1dbecf22ef0c7383b7041d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98777/02-lateral.jpg",
+          "sha256": "9e2f32c79e98f7c85cf461df1a19e264ace531b7c42825d288f473ad33366848"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98777/03-detaliu.jpg",
+          "sha256": "ec2e3bace2e623946f3fcdcca713cbe1d894d57ea593776c0f05abe86e7e183e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98777/04-de-sus.jpg",
+          "sha256": "918e9adceedf6d77d64d2c36403ae641053e6ab7e022b0465ecc9f8b5c548b5b"
+        }
+      ]
+    },
+    {
+      "id": 102893,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "102893"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-pufoasa-ralex-microgel-50cm-x-70cm/",
+      "material": "Înveliș: microfibră",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102893/01-principala.jpg",
+          "sha256": "2b9c1d0053d3d3faab3b86e1bfb0e960f5edb99677915b363510ef619999422b"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102893/02-lateral.jpg",
+          "sha256": "86e095a97a12f34368bfa88806356723446c1ebbb2655037732f18249ad758ff"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102893/03-detaliu.jpg",
+          "sha256": "908101e71727912825403ee31d9716c3e4a5a1c7697326bfd51fcaaffa2c76e5"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102893/04-de-sus.jpg",
+          "sha256": "f8c692a870c05c7edb8d3282a8b19a431e966ec85b26e31ac3a07ee5354d0cf8"
+        }
+      ]
+    },
+    {
+      "id": 102537,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "102537"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-umplutura-microgel-fata-100-bumbac-zen-microgel-50cm-x-70cm/",
+      "material": "Înveliș: 100% bumbac; Umplutură: microgel",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102537/01-principala.jpg",
+          "sha256": "51dedd991d274005a9800423a396a12c5bd23acf09e21f7b1cd060dfdfb15e9f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102537/02-lateral.jpg",
+          "sha256": "4a6c2d1802bd73d090e89c0640cc0d853102ca504e48b8670edfb4ce9053f5ae"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102537/03-detaliu.jpg",
+          "sha256": "0e6b1cccee9f03250a6a0a7797836830a4c8d256d8e2e9001fa8685ccd5b2008"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102537/04-de-sus.jpg",
+          "sha256": "5a27e60ea974a8dd4681355bf062076c4704e7e4f29b2ef7a9b8973009fcac7a"
+        }
+      ]
+    },
+    {
+      "id": 160977,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "160977"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-puf-gasca-ralex-50x70cm/",
+      "material": "Înveliș: percale TC300, 100% bumbac, cu inserție de poliuretan; Umplutură: 50% puf gâscă, 50% puf siliconic",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/160977/01-principala.jpg",
+          "sha256": "6ed2a7766e4789771fbd8fafc944917e2e6020e71408c909dae5df478bab9b72"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/160977/02-lateral.jpg",
+          "sha256": "99411459779cea991bdd40d545a60f5e58a2ab1b49ab5fbe4ae95de7b300f0c6"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/160977/03-detaliu.jpg",
+          "sha256": "e78911a562d8e8dddbb75dd93ac39969bcdf0f465473054f26642465d85faa15"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/160977/04-de-sus.jpg",
+          "sha256": "1a0e5550a553d9d5fbe2033ab9998199f8d1eb95ee32e205a99fb3f593a0ad6d"
+        }
+      ]
+    },
+    {
+      "id": 103393,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "103393"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/perne/protectie-perna-impermeabila-aquastop-50cm-x-70cm/",
+      "material": "Tricot impermeabil: 100% poliester, 160 g/m²",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/103393/01-principala.jpg",
+          "sha256": "f36470c633d9f1a01048011c00740de8fa51ac22999046904404d44a6682ba61"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/103393/02-lateral.jpg",
+          "sha256": "457f4ba4e696847cfaca340ae946be7877cc67723a8c7ed905846a52ae1a48e1"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/103393/03-detaliu.jpg",
+          "sha256": "8f4778b026096b1dd922d8eb7b106b917f3117355d6e2a1a52c733191d2c0067"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/103393/04-de-sus.jpg",
+          "sha256": "9e04a73eab376e018a1230d8afa2c9f6bacac2464a39a145c72306ea13848ec5"
+        }
+      ]
+    },
+    {
+      "id": 509,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "509"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/perne/protectie-matlasata-perne-cu-fermoar-50x70cm-copiaza/",
+      "material": "Înveliș: microfibră, 90 g/m²; Umplutură: minet, 100 g/m²",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/509/01-principala.jpg",
+          "sha256": "cb1994cb643763266fc08f84a2db5c815da14c4242d90df5867182dc7916dd06"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/509/02-lateral.jpg",
+          "sha256": "7dc5722a9b6ee9d5560f694a6ba132c82deb814643f8306273623b6ee47ea2dc"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/509/03-detaliu.jpg",
+          "sha256": "1359a5b9481b64707b840f3a11b58e43dadfb0b1952b57e7199f975e63f99c1e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/509/04-de-sus.jpg",
+          "sha256": "729c413814178d817d649a9a35a7d629f5b7b7818c190df4c8efa9f35ce6fde2"
+        }
+      ]
+    },
+    {
+      "id": 103411,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "105729",
+        "105730",
+        "105731"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-greek-border-500g-m2-alb/",
+      "material": "Compoziție: 100% bumbac",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/103411/01-principala.jpg",
+          "sha256": "ecf47eeb110ed14fb8470564dad8d8c7fe7a622cece509f1f609a505cbb6f521"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/103411/02-lateral.jpg",
+          "sha256": "934183cdb7a61dbef6a202c41d20e76f3ed83686b199a17a1bbda74957763cf6"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/103411/03-detaliu.jpg",
+          "sha256": "2eb4eebfd42fac1fd0d3c34eda218bb6c79a4f6a735ecd0bd7f891eadfc10df3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/103411/04-de-sus.jpg",
+          "sha256": "257d17a75d1fb1cddaa16d41c2b1ec4ebddff3f41677f993dc2effdb73c8b1df"
+        }
+      ]
+    },
+    {
+      "id": 90640,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "110226",
+        "105762",
+        "105761"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-greek-border-500g-m2-gri/",
+      "material": "Compoziție: 100% bumbac",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90640/01-principala.jpg",
+          "sha256": "cd36b86c5e9e4d4fa1bf4b1b302b00053204f0916e32c2e979974bb64987ad25"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90640/02-lateral.jpg",
+          "sha256": "7f36ad6f5c30f292c4c02da80e3047e070173326e8db86468db18ad912dd4a46"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90640/03-detaliu.jpg",
+          "sha256": "554212d09b0426df8f6dab7d7dee6b88f3f62a9c00f8fa0c48279468a9089205"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90640/04-de-sus.jpg",
+          "sha256": "e1348d657efe949ae3da4ab9912e54f4e071cacc83562f3fc12804c312f8913e"
+        }
+      ]
+    },
+    {
+      "id": 104425,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "105702",
+        "105703",
+        "105704"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-greek-border-700g-m2/",
+      "material": "Compoziție: 100% bumbac",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/104425/01-principala.jpg",
+          "sha256": "e68da04c5dc8c6da3582ee86479c529c0e1fcde7a1f519d825f142606f4606c1"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/104425/02-lateral.jpg",
+          "sha256": "5e2f4f171550daa3712a3f09fb8e84310b742ae0b3fe93efdec9fc4882baf6cd"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/104425/03-detaliu.jpg",
+          "sha256": "73f6150aafe6600f22e0cd59d23230e32a0d4674e7118aaeba568bc61f670dc3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/104425/04-de-sus.jpg",
+          "sha256": "62797a9ecd335473ebed1db8c65e856619692f3ac6abe29b17b46bf68c044aba"
+        }
+      ]
+    },
+    {
+      "id": 159985,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "159986",
+        "159987",
+        "159988"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-horeca-greek-border-500g-cappucino-new/",
+      "material": "Compoziție: 100% bumbac",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/159985/01-principala.jpg",
+          "sha256": "a4387b2ae705eecf3d987e7a8f293dbcb189d8a76d43d0eb6bec7880bc008969"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/159985/02-lateral.jpg",
+          "sha256": "b836e40e6a4f2cddb56d67ce3517f0e2c37f34603bd379edb4c329ad35105b7f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/159985/03-detaliu.jpg",
+          "sha256": "3703d48e4377fb859785106c7a5ebb11a602c45d4f668b4ca0d9e098b3ccd709"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/159985/04-de-sus.jpg",
+          "sha256": "49a89a98662ac684103ae5f9df73f0541cd56c2813b6d05b759ebd790fcb1303"
+        }
+      ]
+    },
+    {
+      "id": 162655,
+      "status": "held",
+      "reason": "supplier-original hero or insufficient distinct changed camera views; existing held record preserved"
+    },
+    {
+      "id": 162671,
+      "status": "held",
+      "reason": "supplier-original hero or insufficient distinct changed camera views; existing held record preserved"
+    },
+    {
+      "id": 162665,
+      "status": "held",
+      "reason": "supplier-original hero or insufficient distinct changed camera views; existing held record preserved"
+    },
+    {
+      "id": 162651,
+      "status": "held",
+      "reason": "supplier-original hero or insufficient distinct changed camera views; existing held record preserved"
+    },
+    {
+      "id": 158241,
+      "status": "reviewed_ready_for_price_verification",
+      "appSkus": [
+        "158241"
+      ],
+      "sourceManifest": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 21 octombrie 2026/pregatire-estore/manifest.json",
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-premium-heritage/lenjerie-de-pat-premium-eveya-v3-clasy-cu-patura-decorativa-100-bumbac-7-piese/",
+      "material": "Compoziție declarată: 100% bumbac",
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158241/01-principala.jpg",
+          "sha256": "7623af5b93b4ab622165988b4acadd804f15b66d9bd1cb43902f27e42de45169"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158241/02-lateral.jpg",
+          "sha256": "17c913ba3f3249b5ef5cafffbaf66b4fdf387dc71fc850ba15b124d35eabc457"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158241/03-detaliu.jpg",
+          "sha256": "e53c08a86b59d2888b8d709f237ec4d079b751ead5c2f85e570e9f5936df52f1"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158241/04-de-sus.jpg",
+          "sha256": "e8af3e29232849c33def1cc45f6319f0d6b5874e2e678857a5adb5e96a4f71d5"
+        }
+      ]
+    }
+  ],
+  "prepared": 54,
+  "excluded": 11
+}
