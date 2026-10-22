@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "npm run check:catalog && next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && npm run check:catalog && next build",
+    "start": "node init && next start",
     "lint": "eslint",
     "check:catalog": "node scripts/validate-catalog.mjs"
   },
