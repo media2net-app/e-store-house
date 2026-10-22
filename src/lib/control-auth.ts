@@ -1,6 +1,6 @@
 import "server-only";
 
-// Dedicated read-only integration. No store admin or courier credentials leave the store.
+// Dedicated signed integration. No store admin or courier credentials leave the store.
 export async function isStoreControl(request: Request, body?: string) {
   try {
     const publicKey = process.env.STORE_CONTROL_PUBLIC_KEY;

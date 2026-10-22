@@ -8,7 +8,7 @@ export default function ComplaintsPage() {
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
   const [pending, setPending] = useState(false);
-  const [receipt, setReceipt] = useState<{ id: string; submittedAt: string } | null>(null);
+  const [receipt, setReceipt] = useState<{ id: string; submittedAt: string; notificationPending?: boolean } | null>(null);
   const form = useRef<HTMLFormElement>(null);
   const intent = useRef<string | null>(null);
   const values = () => {
@@ -31,9 +31,9 @@ export default function ComplaintsPage() {
         method: "POST", headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...values(), intentId: intent.current }),
       });
-      const result = await response.json() as { error?: string; id?: string; submittedAt?: string };
+      const result = await response.json() as { error?: string; id?: string; submittedAt?: string; notificationPending?: boolean };
       if (!response.ok || !result.id || !result.submittedAt) throw new Error(result.error || "Reclamația nu a putut fi trimisă.");
-      setReceipt({ id: result.id, submittedAt: result.submittedAt });
+      setReceipt({ id: result.id, submittedAt: result.submittedAt, notificationPending: result.notificationPending });
     } catch (reason) {
       setError(reason instanceof Error ? reason.message : "Reclamația nu a putut fi trimisă.");
     } finally { setPending(false); }
@@ -41,7 +41,7 @@ export default function ComplaintsPage() {
   return <LegalLayout>
     <h1>Reclamație către magazin</h1>
     <p>Completează datele comenzii și descrie problema. Formularul online o transmite direct când serviciul este disponibil. Poți pregăti și un e-mail către E-Store House.</p>
-    {receipt ? <section role="status" className="mt-7 rounded-xl border border-green-300 bg-green-50 p-5"><h2>Reclamația a fost primită</h2><p>Număr de înregistrare: {receipt.id}</p><p>Data și ora: {new Date(receipt.submittedAt).toLocaleString("ro-RO", { timeZone: "Europe/Bucharest" })}</p><p>Confirmarea a fost trimisă pe e-mail.</p></section> :
+    {receipt ? <section role="status" className="mt-7 rounded-xl border border-green-300 bg-green-50 p-5"><h2>Reclamația a fost primită</h2><p>Număr de înregistrare: {receipt.id}</p><p>Data și ora: {new Date(receipt.submittedAt).toLocaleString("ro-RO", { timeZone: "Europe/Bucharest" })}</p><p>{receipt.notificationPending ? "Reclamația este înregistrată. Confirmarea prin e-mail este în așteptare; păstrează numărul și data de mai sus." : "Confirmarea a fost trimisă pe e-mail."}</p></section> :
       <form ref={form} className="mt-7 space-y-4" onSubmit={submit} onChange={() => { setMessage(""); setError(""); intent.current = null; }}>
         {[["name", "Nume și prenume"], ["email", "E-mail"], ["phone", "Telefon (opțional)"], ["order", "Numărul comenzii (dacă îl cunoști)"]].map(([name, label]) =>
           <label key={name} className="block text-sm">{label}<input name={name} maxLength={300} required={name !== "phone" && name !== "order"} type={name === "email" ? "email" : "text"} className="mt-1 block w-full rounded-lg border border-[#c9bda9] px-3 py-2" /></label>)}
