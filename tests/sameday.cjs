@@ -8,7 +8,7 @@ function moduleAt(file, dependencies = {}, extra = {}) {
   const exports = {};
   const compiled = ts.transpileModule(fs.readFileSync(file, "utf8"), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText;
   vm.runInNewContext(compiled, { exports, URLSearchParams, URL, Response, Uint8Array, TextDecoder, AbortSignal, console, process: { env: {} },
-    require: (name) => { if (name === "server-only") return {}; if (name in dependencies) return dependencies[name]; throw new Error(name); }, ...extra });
+    require: (name) => { if (name === "server-only") return {}; if (name in dependencies) return dependencies[name]; if (name === "@/lib/shipment-action") return moduleAt("src/lib/shipment-action.ts", dependencies, extra); throw new Error(name); }, ...extra });
   return exports;
 }
 const protocol = moduleAt("src/lib/sameday-protocol.ts");
