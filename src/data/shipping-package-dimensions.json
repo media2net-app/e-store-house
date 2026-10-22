@@ -1,0 +1,16 @@
+{
+  "beddingSet": {
+    "lengthCm": 40,
+    "widthCm": 40,
+    "heightCm": 10,
+    "weightKg": null,
+    "source": "Merchant confirmation in conversation, 2026-10-22",
+    "scope": "One packed bedding set; not other product categories",
+    "maxEasyboxSets": 3
+  },
+  "requiresSeparateMeasurements": [
+    "toppers",
+    "mattresses",
+    "sun-lounger covers"
+  ]
+}

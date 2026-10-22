@@ -1,8 +1,13 @@
 import type { Product } from "./products";
 
-export const normalizeSearch = (text: string) => text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("ro-RO");
+export const normalizeSearch = (text: string) => text.normalize("NFD")
+  .replace(/[\u0300-\u036f]/g, "")
+  .toLocaleLowerCase("ro-RO")
+  .replace(/(\d)\s*[x×]\s*(\d)/g, "$1x$2");
 export function matchesSearch(product: Product, query: string) {
-  const text = normalizeSearch([product.name, product.category, product.brand, product.material, product.sku, ...(product.variants?.flatMap((variant) => [variant.sku, variant.name, variant.dimensions]) ?? [])].join(" "));
+  const text = normalizeSearch([product.name, product.category, product.brand, product.material, product.sku,
+    ...(product.features?.flatMap((feature) => [feature.label, feature.value]) ?? []),
+    ...(product.variants?.flatMap((variant) => [variant.sku, variant.name, variant.dimensions, variant.contents]) ?? [])].join(" "));
   return normalizeSearch(query).split(/\s+/).filter(Boolean).every((word) => text.includes(word));
 }
 const root = (product: Product) => product.categoryPath?.split("/")[0] ?? product.category;

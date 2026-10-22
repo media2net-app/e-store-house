@@ -6,7 +6,7 @@ export default function CatalogLayout({ children, activePath, showSidebar = true
   activePath?: string;
   showSidebar?: boolean;
 }) {
-  const items = showSidebar ? categories.map(({ path, name, parent }) => ({
+  const items = showSidebar ? categories.filter(({ path }) => categoryCount(path) > 0).map(({ path, name, parent }) => ({
     path, name, parent, count: categoryCount(path),
   })) : [];
   return <div className="catalog-layout">

@@ -22,18 +22,51 @@ type CartContextValue = {
   addItem: (product: Product, quantity: number) => void;
   removeItem: (productId: number) => void;
   updateQuantity: (productId: number, quantity: number) => void;
+  clearCart: () => void;
   openCart: () => void; closeCart: () => void;
 };
 const CartContext = createContext<CartContextValue | null>(null);
 
 export function CartProvider({ children }: { children: React.ReactNode }) {
   const [items, setItems] = useState<CartItem[]>([]);
+  const [cartLoaded, setCartLoaded] = useState(false);
+  const [cartNotice, setCartNotice] = useState("");
   const [isOpen, setIsOpen] = useState(false);
   const drawer = useRef<HTMLElement>(null);
+  useEffect(() => {
+    let cancelled = false;
+    async function restoreCart() {
+      try {
+        const saved = JSON.parse(localStorage.getItem("estore-cart-v1") || "[]") as unknown;
+        if (!Array.isArray(saved) || saved.length === 0) return;
+        const response = await fetch("/api/cart/quote", {
+          method: "POST", headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ items: saved }), cache: "no-store",
+        });
+        if (!response.ok) throw new Error("Coșul salvat nu mai este disponibil.");
+        const quote = await response.json() as { lines: CartItem[] };
+        if (!cancelled) setItems((previous) => previous.length ? previous : quote.lines);
+      } catch {
+        if (!cancelled) setCartNotice("Coșul salvat nu a putut fi restaurat. Adaugă din nou produsele dorite.");
+      } finally {
+        if (!cancelled) setCartLoaded(true);
+      }
+    }
+    void restoreCart();
+    return () => { cancelled = true; };
+  }, []);
+  useEffect(() => {
+    if (cartLoaded) {
+      try { localStorage.setItem("estore-cart-v1", JSON.stringify(items.map(({ productId, quantity }) => ({ productId, quantity })))); }
+      catch { /* Shopping remains usable when browser storage is unavailable. */ }
+    }
+  }, [items, cartLoaded]);
   const addItem = (product: Product, quantity: number) => {
-    if (!Number.isSafeInteger(quantity) || quantity < 1) return;
+    if (!Number.isSafeInteger(quantity) || quantity < 1 || quantity > 20) return;
     setItems((prev) => {
       const existing = prev.find((item) => item.productId === product.id);
+      if (existing?.quantity && existing.quantity + quantity > 20) return prev;
+      if (!existing && prev.length >= 30) return prev;
       return existing
         ? prev.map((item) => item.productId === product.id ? { ...item, quantity: item.quantity + quantity } : item)
         : [...prev, { productId: product.id, sku: product.sku, bundleComponents: product.bundleComponents,
@@ -43,7 +76,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   };
   const removeItem = (productId: number) => setItems((prev) => prev.filter((item) => item.productId !== productId));
   const updateQuantity = (productId: number, quantity: number) => {
-    if (!Number.isSafeInteger(quantity)) return;
+    if (!Number.isSafeInteger(quantity) || quantity > 20) return;
     if (quantity <= 0) { removeItem(productId); return; }
     setItems((prev) => prev.map((item) => item.productId === productId ? { ...item, quantity } : item));
   };
@@ -72,12 +105,13 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const totalItems = items.reduce((sum, item) => sum + item.quantity, 0);
   const totals = cartOffers(items);
   const money = (cents: number) => formatProductPrice(cents / 100, "RON");
-  return <CartContext.Provider value={{ items, isOpen, totalItems, addItem, removeItem, updateQuantity,
+  return <CartContext.Provider value={{ items, isOpen, totalItems, addItem, removeItem, updateQuantity, clearCart: () => setItems([]),
     openCart: () => setIsOpen(true), closeCart: () => setIsOpen(false) }}>
     {children}
     <div className={"cart-overlay " + (isOpen ? "cart-overlay-open" : "")} onClick={() => setIsOpen(false)} aria-hidden={!isOpen} inert={!isOpen}>
       <aside ref={drawer} className="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" onClick={(event) => event.stopPropagation()}>
         <div className="cart-drawer-header"><div><small>E-STORE HOUSE</small><h2 id="cart-title">Coșul tău <span>({totalItems})</span></h2></div><button className="cart-close" onClick={() => setIsOpen(false)} aria-label="Închide coșul">✕</button></div>
+        {cartNotice ? <p className="cart-offer-note" role="status">{cartNotice}</p> : null}
         {!items.length ? <div className="cart-empty"><p>Coșul tău așteaptă ceva frumos.</p><p>Adaugă două articole și primești 10% reducere la cel mai ieftin.</p><Link href="/shop" onClick={() => setIsOpen(false)} className="cart-shop-link">Descoperă colecția →</Link></div> : <>
           <div className="cart-drawer-items">
             <FreeShippingProgress totalCents={totals.totalCents} />
@@ -97,6 +131,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
             {totals.discountCents > 0 ? <div className="cart-summary-row cart-discount-row"><span>{SECOND_ITEM_OFFER}</span><strong>−{money(totals.discountCents)}</strong></div> : null}
             <div className="cart-summary-row"><span>Transport</span><span>{totals.freeShipping ? "Gratuit" : "Se confirmă separat"}</span></div>
             <div className="cart-summary-total"><span>Total produse</span><strong>{money(totals.totalCents)}</strong></div>
+            <Link href="/checkout" onClick={() => setIsOpen(false)} className="cart-shop-link">Finalizează comanda →</Link>
             <Link href="/shop" onClick={() => setIsOpen(false)} className="cart-shop-link">Continuă cumpărăturile →</Link>
           </div>
         </>}
