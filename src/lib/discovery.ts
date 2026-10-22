@@ -11,6 +11,8 @@ export function matchesSearch(product: Product, query: string) {
   return normalizeSearch(query).split(/\s+/).filter(Boolean).every((word) => text.includes(word));
 }
 const root = (product: Product) => product.categoryPath?.split("/")[0] ?? product.category;
+const sameKind = (a: Product, b: Product) => root(a) === root(b)
+  && (root(a) !== "articole-baie" || a.categoryPath === b.categoryPath);
 const available = (product: Product) => product.inStock !== false
   && new Set(product.images.filter(Boolean)).size >= 4
   && (!product.variants?.length || product.variants.some((variant) => variant.inStock !== false));
@@ -25,6 +27,7 @@ const companions: Record<string, string[]> = {
   "huse-de-pat": ["lenjerii-de-pat", "perne", "protectii-saltea"],
   "oferte": ["lenjerii-de-pat", "protectii-saltea", "cuverturi"],
   "produse-hotel": ["articole-baie", "protectii-saltea", "perne"],
+  "articole-baie": ["articole-baie", "produse-hotel", "huse-de-pat", "protectii-saltea"],
   "terasa-si-gradina": ["fete-de-masa", "paturi"],
   "fete-de-masa": ["terasa-si-gradina"],
 };
@@ -59,9 +62,10 @@ export function recommendationReason(product: Product, item: Product) {
 export function recommendations(product: Product, catalog: Product[]) {
   const candidates = catalog.filter((item) => item.id !== product.id && available(item));
   const ranked = [...candidates].sort((a, b) => score(product, b) - score(product, a) || a.id - b.id);
-  const similar = ranked.filter((item) => root(item) === root(product)).slice(0, 3);
+  const similar = ranked.filter((item) => sameKind(product, item)).slice(0, 5);
   const relatedRoots = companions[root(product)] ?? [];
-  const companionCandidates = ranked.filter((item) => relatedRoots.includes(root(item)) && !similar.some((p) => p.id === item.id));
-  const complementary = diverseProducts(companionCandidates.length ? companionCandidates : ranked.filter((item) => root(item) !== root(product) && !similar.some((p) => p.id === item.id)), 4);
+  const otherCategories = ranked.filter((item) => !sameKind(product, item));
+  const companionCandidates = otherCategories.filter((item) => relatedRoots.includes(root(item)));
+  const complementary = diverseProducts([...companionCandidates, ...otherCategories.filter((item) => !companionCandidates.some((p) => p.id === item.id))], 8);
   return { similar, complementary, hasCompanions: companionCandidates.length > 0 };
 }
