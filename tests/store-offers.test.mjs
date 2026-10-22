@@ -45,12 +45,12 @@ test("RON and Lei use the same promotion; invalid money and quantities are rejec
 const catalog = JSON.parse(readFileSync(new URL("../src/data/products.json", import.meta.url), "utf8"));
 const held = JSON.parse(readFileSync(new URL("../src/data/quality-hold.json", import.meta.url), "utf8"));
 const active = catalog.filter((p) => !held.includes(p.id));
-test("curated catalog returns up to 3 available similar models and separate complementary choices", () => {
+test("curated catalog returns up to 5 available similar models and separate complementary choices", () => {
   for (const id of [81336, 110194, 163321, 162739]) {
     const source = active.find((p) => p.id === id);
     const { similar, complementary } = recommendations(source, active);
-    assert.equal(similar.length, Math.min(3, active.filter((p) => p.id !== id && p.inStock !== false && p.categoryPath.split("/")[0] === source.categoryPath.split("/")[0]).length));
-    assert.ok(complementary.length > 0 && complementary.length <= 4);
+    assert.equal(similar.length, Math.min(5, active.filter((p) => p.id !== id && p.inStock !== false && p.categoryPath.split("/")[0] === source.categoryPath.split("/")[0]).length));
+    assert.ok(complementary.length > 0 && complementary.length <= 8);
     const all = [...similar, ...complementary];
     assert.equal(new Set(all.map((p) => p.id)).size, all.length);
     assert.ok(all.every((p) => p.id !== id && p.inStock !== false && new Set(p.images).size >= 4));
@@ -80,4 +80,39 @@ test("psychological prices remain exact when discount and shipping progress are 
   assert.equal(result.totalCents, 43510);
   assert.equal(result.remainingShippingCents, 46490);
   assert.equal(cartOffers([item(1, 229, 5)]).freeShipping, true);
+});
+
+test("application imports use supplier cost plus 80%, rounded up to a whole leu ending in 9", () => {
+  const audit = JSON.parse(readFileSync(new URL("../catalog-review/app-import-20261022.json", import.meta.url), "utf8"));
+  const codes = new Set();
+  for (const model of audit.models) {
+    const product = catalog.find((p) => p.id === model.id);
+    assert.ok(product, `Imported model missing: ${model.id}`);
+    for (const entry of product.variants ?? [product]) {
+      const cost = model.supplierPrices[entry.sku];
+      assert.ok(cost > 0 && Number.isFinite(cost));
+      const expected = Math.ceil((Math.round(cost * 180) - 900) / 1000) * 10 + 9;
+      assert.equal(entry.price, expected, `Wrong markup for ${entry.sku}`);
+      assert.equal(codes.has(entry.sku), false, `Repeated variant ${entry.sku}`);
+      codes.add(entry.sku);
+      assert.equal(new Set(entry.images).size, 4);
+    }
+  }
+});
+
+test("complementary recommendations fill eight slots across available categories", () => {
+  const source = active.find((p) => p.id === 95974);
+  const { similar, complementary } = recommendations(source, active);
+  assert.equal(similar.length, 5);
+  assert.equal(complementary.length, 8);
+  assert.equal(new Set(complementary.map((p) => p.categoryPath.split('/')[0])).size, 8);
+  assert.ok(complementary.every((p) => p.categoryPath.split('/')[0] !== source.categoryPath.split('/')[0]));
+});
+
+test("robes complement towels without being labelled as similar towels", () => {
+  const towel = active.find((p) => p.id === 90646);
+  const { similar, complementary } = recommendations(towel, active);
+  assert.ok(similar.every((p) => p.categoryPath === towel.categoryPath));
+  assert.ok(complementary.some((p) => p.categoryPath === 'articole-baie/halate-baie'));
+  assert.equal(complementary.length, 8);
 });

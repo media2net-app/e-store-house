@@ -689,5 +689,175 @@
     },
     "merchantBeddingDimensions": null,
     "requiresPackedMeasurement": true
+  },
+  "95974": {
+    "supplierProductId": 95974,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-30/",
+    "checkedAt": "2026-10-22T17:45:03.569054+00:00",
+    "declaredProductWeightKg": null,
+    "supplierDimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "merchantBeddingDimensions": {
+      "length": 40,
+      "width": 40,
+      "height": 10
+    },
+    "requiresPackedMeasurement": true
+  },
+  "95973": {
+    "supplierProductId": 95973,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-29/",
+    "checkedAt": "2026-10-22T17:45:04.009435+00:00",
+    "declaredProductWeightKg": null,
+    "supplierDimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "merchantBeddingDimensions": {
+      "length": 40,
+      "width": 40,
+      "height": 10
+    },
+    "requiresPackedMeasurement": true
+  },
+  "95972": {
+    "supplierProductId": 95972,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-28/",
+    "checkedAt": "2026-10-22T17:45:03.947504+00:00",
+    "declaredProductWeightKg": null,
+    "supplierDimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "merchantBeddingDimensions": {
+      "length": 40,
+      "width": 40,
+      "height": 10
+    },
+    "requiresPackedMeasurement": true
+  },
+  "95971": {
+    "supplierProductId": 95971,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-27/",
+    "checkedAt": "2026-10-22T17:45:04.072455+00:00",
+    "declaredProductWeightKg": null,
+    "supplierDimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "merchantBeddingDimensions": {
+      "length": 40,
+      "width": 40,
+      "height": 10
+    },
+    "requiresPackedMeasurement": true
+  },
+  "95970": {
+    "supplierProductId": 95970,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-26/",
+    "checkedAt": "2026-10-22T17:45:04.148548+00:00",
+    "declaredProductWeightKg": null,
+    "supplierDimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "merchantBeddingDimensions": {
+      "length": 40,
+      "width": 40,
+      "height": 10
+    },
+    "requiresPackedMeasurement": true
+  },
+  "95969": {
+    "supplierProductId": 95969,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-25/",
+    "checkedAt": "2026-10-22T17:45:04.477031+00:00",
+    "declaredProductWeightKg": null,
+    "supplierDimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "merchantBeddingDimensions": {
+      "length": 40,
+      "width": 40,
+      "height": 10
+    },
+    "requiresPackedMeasurement": true
+  },
+  "95968": {
+    "supplierProductId": 95968,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-24/",
+    "checkedAt": "2026-10-22T17:45:04.543494+00:00",
+    "declaredProductWeightKg": null,
+    "supplierDimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "merchantBeddingDimensions": {
+      "length": 40,
+      "width": 40,
+      "height": 10
+    },
+    "requiresPackedMeasurement": true
+  },
+  "95967": {
+    "supplierProductId": 95967,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-23/",
+    "checkedAt": "2026-10-22T17:45:04.620069+00:00",
+    "declaredProductWeightKg": null,
+    "supplierDimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "merchantBeddingDimensions": {
+      "length": 40,
+      "width": 40,
+      "height": 10
+    },
+    "requiresPackedMeasurement": true
+  },
+  "95966": {
+    "supplierProductId": 95966,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-22/",
+    "checkedAt": "2026-10-22T17:45:04.703279+00:00",
+    "declaredProductWeightKg": null,
+    "supplierDimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "merchantBeddingDimensions": {
+      "length": 40,
+      "width": 40,
+      "height": 10
+    },
+    "requiresPackedMeasurement": true
+  },
+  "95965": {
+    "supplierProductId": 95965,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-21/",
+    "checkedAt": "2026-10-22T17:45:04.957343+00:00",
+    "declaredProductWeightKg": null,
+    "supplierDimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "merchantBeddingDimensions": {
+      "length": 40,
+      "width": 40,
+      "height": 10
+    },
+    "requiresPackedMeasurement": true
   }
 }

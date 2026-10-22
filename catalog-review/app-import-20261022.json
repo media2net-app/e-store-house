@@ -1,0 +1,1947 @@
+{
+  "appExportedAt": "2026-10-22T17:11:34.744Z",
+  "markupPercent": 80,
+  "roundUpEnding": 9,
+  "models": [
+    {
+      "id": 104126,
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-lana-damasc-100-natural-iarna-antracit/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-104126.html",
+      "appBarcodes": [
+        "104127",
+        "104128",
+        "104129",
+        "104130"
+      ],
+      "supplierPrices": {
+        "104127": 195,
+        "104128": 223,
+        "104129": 234,
+        "104130": 249
+      },
+      "salePrices": {
+        "104127": 359,
+        "104128": 409,
+        "104129": 429,
+        "104130": 449
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/01.jpg",
+          "sha256": "f190054a8c5e0c15ebb268e810229a2dd58884ab4d317fbe3465a48d02e81fcf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/02.jpg",
+          "sha256": "ae89ca69e68b100025b8fc65233e31e39c9f1db56c0332a07879c3c29e37832c"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/03.jpg",
+          "sha256": "7994876daf8ded3505227623cc2a0accc564ab2c286943d2d97ccd0258430a54"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/04.jpg",
+          "sha256": "a698e8ac7c9d41e9d924fc0d3155a0a0a8d5200f566637cce59da358237fd5e7"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "104127": true,
+        "104128": true,
+        "104129": true,
+        "104130": true
+      },
+      "checkedAt": "2026-10-22T17:44:59.938518+00:00"
+    },
+    {
+      "id": 104120,
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-lana-damasc-100-natural-iarna-pudra/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-104120.html",
+      "appBarcodes": [
+        "104121",
+        "104122",
+        "104123",
+        "104124"
+      ],
+      "supplierPrices": {
+        "104121": 195,
+        "104122": 223,
+        "104123": 234,
+        "104124": 249
+      },
+      "salePrices": {
+        "104121": 359,
+        "104122": 409,
+        "104123": 429,
+        "104124": 449
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/01.jpg",
+          "sha256": "e48522defd5bb1df395080313ae0880d5d25454cc4a41058f7ba26439857ea62"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/02.jpg",
+          "sha256": "d86560b6c1ed78e095f75dcfe105dd599430f70f75e1074dd2800be1aef2bea8"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/03.jpg",
+          "sha256": "9b1fabb6cc432c1a2c7429b07875383829ceec221d98d081f2b3bd7f40480239"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/04.jpg",
+          "sha256": "15712c87d2e70f6d049b59f61a92633edaf2eda2eb3f92227b0dc0e82598a129"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "104121": true,
+        "104122": true,
+        "104123": true,
+        "104124": true
+      },
+      "checkedAt": "2026-10-22T17:44:59.941844+00:00"
+    },
+    {
+      "id": 104115,
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-lana-damasc-100-natural-iarna-turcoaz/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-104115.html",
+      "appBarcodes": [
+        "104116",
+        "104117",
+        "104118",
+        "104119"
+      ],
+      "supplierPrices": {
+        "104116": 195,
+        "104117": 223,
+        "104118": 234,
+        "104119": 249
+      },
+      "salePrices": {
+        "104116": 359,
+        "104117": 409,
+        "104118": 429,
+        "104119": 449
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/01.jpg",
+          "sha256": "dc2aa86fd05487954e37dff24d772047a524bc7b70d1a4c7f5df17a82e0109fa"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/02.jpg",
+          "sha256": "a8ccb3bcf8651584f3bac89f73148f59d0b2161b9ca42c54a2bb1f5ff4c08a2a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/03.jpg",
+          "sha256": "a60e711ac6d30c4f5bc4c4f89e7a8e4e9f0a40058131cd2be7b313b6242743af"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/04.jpg",
+          "sha256": "88c26fe445df58a3d2c9c5f5dc1ba1bbbb3cb99f7667ba735c4cdec57221c4e3"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "104116": true,
+        "104117": true,
+        "104118": true,
+        "104119": true
+      },
+      "checkedAt": "2026-10-22T17:44:59.862714+00:00"
+    },
+    {
+      "id": 104108,
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-lana-damasc-100-natural-iarna-mint/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-104108.html",
+      "appBarcodes": [
+        "104109",
+        "104110",
+        "104111",
+        "104112"
+      ],
+      "supplierPrices": {
+        "104109": 195,
+        "104110": 223,
+        "104111": 234,
+        "104112": 249
+      },
+      "salePrices": {
+        "104109": 359,
+        "104110": 409,
+        "104111": 429,
+        "104112": 449
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/01.jpg",
+          "sha256": "987c5946eb41da3a3bf5b7ee50e278eaaf5a90f21be0b7bdc2923bbf0367be01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/02.jpg",
+          "sha256": "8514ee0f513a962fcd4b922726de0b600a97241a568965b9429f45911c96b37f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/03.jpg",
+          "sha256": "3c8168a751b255cccd2560a9bff6aa474708bd1d19873a39bd9ac1bdc1125c7a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/04.jpg",
+          "sha256": "c8e9b64756d824e34f3cd309d845876c091a5fea6d75185b74e19688c289223b"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "104109": true,
+        "104110": true,
+        "104111": true,
+        "104112": true
+      },
+      "checkedAt": "2026-10-22T17:44:59.885426+00:00"
+    },
+    {
+      "id": 102981,
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-horeca/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-102981.html",
+      "appBarcodes": [
+        "102984",
+        "102985",
+        "102986"
+      ],
+      "supplierPrices": {
+        "102984": 121,
+        "102985": 145,
+        "102986": 160
+      },
+      "salePrices": {
+        "102984": 219,
+        "102985": 269,
+        "102986": 289
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/01.jpg",
+          "sha256": "0e8bbafd1b9273d41bd30de6c01faaefabaca370b1fdb0af0aae4eda89760473"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/02.jpg",
+          "sha256": "5972de8f33b4a13b14260f2a735b2b7aa7e44f92654db0d0c1f4a6fff79a1f8a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/03.jpg",
+          "sha256": "59b889c55b50c3b4bd6ce8584e8273056740181896d238c0a28cd93e63e7553d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/04.jpg",
+          "sha256": "5030f208159718a4b2af29fbe9ce36736c1cf205e80fea59d45b8ae49a44e1b2"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "102984": true,
+        "102985": true,
+        "102986": true
+      },
+      "checkedAt": "2026-10-22T17:45:00.547120+00:00"
+    },
+    {
+      "id": 98809,
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-ranforce-100-bumbac-unt/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-98809.html",
+      "appBarcodes": [
+        "98810",
+        "98811",
+        "98812",
+        "98813"
+      ],
+      "supplierPrices": {
+        "98810": 195,
+        "98811": 223,
+        "98812": 234,
+        "98813": 249
+      },
+      "salePrices": {
+        "98810": 359,
+        "98811": 409,
+        "98812": 429,
+        "98813": 449
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/01.jpg",
+          "sha256": "7e5e9f67339380eb38dddeb2d9db2afdf40bf47f303fd19714db6d46e4d2d3b4"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/02.jpg",
+          "sha256": "293d5675be4deff42a4c5b929ff76afc2f62d3688b7076b61cedf21ea07a3d5d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/03.jpg",
+          "sha256": "958873770df083ba1fa8e709b5486ba56b66b825164ad10a3e69905990591bbb"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/04.jpg",
+          "sha256": "9210fec84fd4fcf8fa63f5845555dbdfd2958a594cd960470cb8a4643864ee31"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "98810": true,
+        "98811": true,
+        "98812": true,
+        "98813": true
+      },
+      "checkedAt": "2026-10-22T17:45:00.668346+00:00"
+    },
+    {
+      "id": 98785,
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-ranforce-100-bumbac-gri/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-98785.html",
+      "appBarcodes": [
+        "98786",
+        "98787",
+        "98788",
+        "98789"
+      ],
+      "supplierPrices": {
+        "98786": 195,
+        "98787": 223,
+        "98788": 234,
+        "98789": 249
+      },
+      "salePrices": {
+        "98786": 359,
+        "98787": 409,
+        "98788": 429,
+        "98789": 449
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/01.jpg",
+          "sha256": "81665194856854e0c109148f84c70d231a6ea68b2b2d9e122f7dcccec8d06332"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/02.jpg",
+          "sha256": "3bc5b8acae8ceceba00d1a98cb1c421d035e29c458141cadbe377567dab8cc9f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/03.jpg",
+          "sha256": "bcc5fdccc39614fa2b9c4ae66367065d2aed93876e009803c3b1aa1c3f49a4d8"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/04.jpg",
+          "sha256": "296587e3166cb4a6979206003ae742e51914b36b8198416a1d5f09330d0fcecf"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "98786": true,
+        "98787": true,
+        "98788": true,
+        "98789": true
+      },
+      "checkedAt": "2026-10-22T17:45:00.555875+00:00"
+    },
+    {
+      "id": 98797,
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-ranforce-100-bumbac-pudra/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-98797.html",
+      "appBarcodes": [
+        "98798",
+        "98799",
+        "98800",
+        "98801"
+      ],
+      "supplierPrices": {
+        "98798": 195,
+        "98799": 223,
+        "98800": 234,
+        "98801": 249
+      },
+      "salePrices": {
+        "98798": 359,
+        "98799": 409,
+        "98800": 429,
+        "98801": 449
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/01.jpg",
+          "sha256": "7f3944befb4349a87c79d0b1f430a64ac5bdfd08c8cbaff15f5ebce6b23f87f5"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/02.jpg",
+          "sha256": "d66d4baae8c22cba6f620344350a4e1c7d63bdbd457a7fa7eb27251a85e1847e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/03.jpg",
+          "sha256": "a3639883525083424c88f1ffae0b3eeb6f1b364021900cfa4537afbd5009f952"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/04.jpg",
+          "sha256": "3417422161d8f478c4a77c3825c456505b8421d180808e983d97ea396e0b55f0"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "98798": true,
+        "98799": true,
+        "98800": true,
+        "98801": true
+      },
+      "checkedAt": "2026-10-22T17:45:00.664861+00:00"
+    },
+    {
+      "id": 98768,
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-ranforce-100-bumbac-alb/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-98768.html",
+      "appBarcodes": [
+        "98770",
+        "98771",
+        "98772",
+        "98773"
+      ],
+      "supplierPrices": {
+        "98770": 195,
+        "98771": 223,
+        "98772": 234,
+        "98773": 249
+      },
+      "salePrices": {
+        "98770": 359,
+        "98771": 409,
+        "98772": 429,
+        "98773": 449
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/01.jpg",
+          "sha256": "93b097687046f027cd174197dba6d054024b203f4598121664701f2c29bbdd88"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/02.jpg",
+          "sha256": "c96e7c94c30211e01c6db1e9802300f060f37b3333eb287b08188a38ddefcb14"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/03.jpg",
+          "sha256": "025d49529766a5ada29868a270278faa4bdab73bba967fef1300e7443a0d9c2d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/04.jpg",
+          "sha256": "9baa37e6aaf5bddb4add20011fe1d14adc7f2f434d2e64aa3c628754e248304a"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "98770": true,
+        "98771": true,
+        "98772": true,
+        "98773": true
+      },
+      "checkedAt": "2026-10-22T17:45:01.287032+00:00"
+    },
+    {
+      "id": 90801,
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-pudra/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-90801.html",
+      "appBarcodes": [
+        "100983",
+        "100984"
+      ],
+      "supplierPrices": {
+        "100983": 145,
+        "100984": 145
+      },
+      "salePrices": {
+        "100983": 269,
+        "100984": 269
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/01.jpg",
+          "sha256": "1166d796ef2a32d530b7c6f4fb028744c4e87d63a7b1eea7c59308edcfd94a6b"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/02.jpg",
+          "sha256": "57b2987bedf6a0a200cb23582c5ae13c95f99da8f0c5b5a70e2b161d1815b153"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/03.jpg",
+          "sha256": "1f23d1d9ae858636214d0b64f7d3920b1f9c69f4a5780e8f23eac2c6d29e9755"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/04.jpg",
+          "sha256": "c51534405e1e00370edb651a824dc4084142302c0c5bf7e7a0700ec5126123b9"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "100983": true,
+        "100984": true
+      },
+      "checkedAt": "2026-10-22T17:45:01.266199+00:00"
+    },
+    {
+      "id": 90796,
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-verde/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-90796.html",
+      "appBarcodes": [
+        "92906",
+        "92907"
+      ],
+      "supplierPrices": {
+        "92906": 145,
+        "92907": 145
+      },
+      "salePrices": {
+        "92906": 269,
+        "92907": 269
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/01.jpg",
+          "sha256": "f07037c1a613c6912042ab5ba42ca2d36694d36455782a070e1b751a77fdb7c9"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/02.jpg",
+          "sha256": "e12ff2bedb2fb80b955ebfeefb1bb83f6b50ade879758985d434ebefd9cb0c17"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/03.jpg",
+          "sha256": "ce757412c0dc77697ac01d8e4249167198ac329bbf86952d3b3dd9ea2b0ed4cd"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/04.jpg",
+          "sha256": "9fdbbe78581ae0930dc48df98bbd03a02a683c997e11d706df78aacce29f74a6"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "92906": true,
+        "92907": true
+      },
+      "checkedAt": "2026-10-22T17:45:01.379450+00:00"
+    },
+    {
+      "id": 90787,
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-mov/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-90787.html",
+      "appBarcodes": [
+        "92908",
+        "92909"
+      ],
+      "supplierPrices": {
+        "92908": 145,
+        "92909": 145
+      },
+      "salePrices": {
+        "92908": 269,
+        "92909": 269
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/01.jpg",
+          "sha256": "3722959ea16dbbc89e608f98f1d083bd12b00fcbc74bee603c590aa3ffea6a22"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/02.jpg",
+          "sha256": "982f018a29510ef91ba66f6d6d8e4bfdb817956099581bb42f3a51131859577a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/03.jpg",
+          "sha256": "2c76f732acb354acfa15042653d6deef500f214bb897f6808709f4bfd57026ec"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/04.jpg",
+          "sha256": "9b812cf84de05b9b544d0608ede2fcc21c339f576291e443c58eeae9e8fe8bac"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "92908": true,
+        "92909": true
+      },
+      "checkedAt": "2026-10-22T17:45:01.382578+00:00"
+    },
+    {
+      "id": 90781,
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-crem/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-90781.html",
+      "appBarcodes": [
+        "92911",
+        "92912"
+      ],
+      "supplierPrices": {
+        "92911": 145,
+        "92912": 145
+      },
+      "salePrices": {
+        "92911": 269,
+        "92912": 269
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/01.jpg",
+          "sha256": "fa1a71baba5528bd75f7600ed91bf297c66b610a037e4b3aca328d19b0814420"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/02.jpg",
+          "sha256": "fec2b6f26eebdea244bf6c63520f69ab4c626aa86f7149bcff385bc794a53a34"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/03.jpg",
+          "sha256": "cf98aa059c4a639d6adfdbf186d8e0fe160801908ecb70a1b7770952b607d0e3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/04.jpg",
+          "sha256": "2eaf82ae1b75eabebe32abd5e94153d8e23c75383495f176521ac5dc73c99be7"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "92911": true,
+        "92912": true
+      },
+      "checkedAt": "2026-10-22T17:45:01.924181+00:00"
+    },
+    {
+      "id": 90776,
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-cappucino/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-90776.html",
+      "appBarcodes": [
+        "92913",
+        "92914"
+      ],
+      "supplierPrices": {
+        "92913": 145,
+        "92914": 145
+      },
+      "salePrices": {
+        "92913": 269,
+        "92914": 269
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/01.jpg",
+          "sha256": "9e17b5bc6b2a5cd1e86236615734605272f96fc7b4de2238afbc30b3a08b5941"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/02.jpg",
+          "sha256": "77331d15f261e22b422dd969ffb2c9d2a74c2db45265253160257aae5374fb37"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/03.jpg",
+          "sha256": "f14adefc1e4d818f6fb54fadb5e345f8b729930efdb9c7b3e3d5b174f4d20d36"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/04.jpg",
+          "sha256": "b7de3aa6b078f363e9de24c953ffd8912c5573d4fc0f2a8bbadc9fc9c3493afa"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "92913": true,
+        "92914": true
+      },
+      "checkedAt": "2026-10-22T17:45:01.989153+00:00"
+    },
+    {
+      "id": 90769,
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-bleu/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-90769.html",
+      "appBarcodes": [
+        "92915",
+        "92916"
+      ],
+      "supplierPrices": {
+        "92915": 145,
+        "92916": 145
+      },
+      "salePrices": {
+        "92915": 269,
+        "92916": 269
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/01.jpg",
+          "sha256": "2e7ff909288f73e843439c1a1570b7ca89233f6179ab74d80529374c8e19b339"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/02.jpg",
+          "sha256": "136d83173bab9f34c6fa500f9b2a63af0b164e970b3caceb896c71cde170aa10"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/03.jpg",
+          "sha256": "98561caec0e26fbe6ce1920d77595b807e02ca8f6abfaf2c1e07a75baf09f130"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/04.jpg",
+          "sha256": "aad1bffe621b3ee803c22f3e3d5197865caa109fdcc9092f637fcd07a2bfe86f"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "92915": true,
+        "92916": true
+      },
+      "checkedAt": "2026-10-22T17:45:02.126426+00:00"
+    },
+    {
+      "id": 90762,
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-gri/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-90762.html",
+      "appBarcodes": [
+        "100993",
+        "100994"
+      ],
+      "supplierPrices": {
+        "100993": 145,
+        "100994": 145
+      },
+      "salePrices": {
+        "100993": 269,
+        "100994": 269
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/01.jpg",
+          "sha256": "2f6cb40dfc8acd01e08096cd4ed947f6a566f93555e1fa1eea7c6b3a4305376d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/02.jpg",
+          "sha256": "4acf79202bad246c7be7e554dbecf695d9f3f264f11502ab2d93d8601ce8d558"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/03.jpg",
+          "sha256": "cfc783f80cb7de350f3df199b07b9321c4f32bad0ed54560fe9d416bd06280d0"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/04.jpg",
+          "sha256": "b7b411fce87583cbb39f72885c7ac52f182501236183463153a454dd5149f093"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "100993": true,
+        "100994": true
+      },
+      "checkedAt": "2026-10-22T17:45:02.125746+00:00"
+    },
+    {
+      "id": 90756,
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-rosu/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-90756.html",
+      "appBarcodes": [
+        "100991",
+        "100992"
+      ],
+      "supplierPrices": {
+        "100991": 145,
+        "100992": 145
+      },
+      "salePrices": {
+        "100991": 269,
+        "100992": 269
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/01.jpg",
+          "sha256": "c3f22e622866be88fb37cccd6b40215d06e53c72f218212fbf66f6f346cf8198"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/02.jpg",
+          "sha256": "c99787ca1629ee5628da5cc8613ce5eff58d7f1d23bc2985898cff20223f3cbe"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/03.jpg",
+          "sha256": "fe81d84111e7e2d7b77e21468733d121d12dce28e33af502ff922df1fe63b565"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/04.jpg",
+          "sha256": "31a8be8cef3b39e0ff63e92754821b108cb55fe13c74641f16eaf37dac905004"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "100991": true,
+        "100992": true
+      },
+      "checkedAt": "2026-10-22T17:45:02.809562+00:00"
+    },
+    {
+      "id": 75523,
+      "supplierUrl": "https://ralexpucioasa.ro/store/produse-hotel/protectie-frotir-bumbac-100-impermeabila-saltea-de-90x200x25cm/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-75523.html",
+      "appBarcodes": [
+        "105860",
+        "105856",
+        "105857",
+        "105858",
+        "105859"
+      ],
+      "supplierPrices": {
+        "105860": 64,
+        "105856": 81,
+        "105857": 88,
+        "105858": 97,
+        "105859": 112
+      },
+      "salePrices": {
+        "105860": 119,
+        "105856": 149,
+        "105857": 159,
+        "105858": 179,
+        "105859": 209
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/01.jpg",
+          "sha256": "84f0b6522d791cba879c02da7b4a42b28210f36487b694899f1c527a510fd1f5"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/02.jpg",
+          "sha256": "34123d09c0abdae4a9bbb07423121a6a0fca92db5496527b3b11c298c5e603be"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/03.jpg",
+          "sha256": "79a5b2f688ea45d5f6bd026376339c4341a8385371aed721c7cf0f807270e264"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/04.jpg",
+          "sha256": "5b4bebd1ff25e6c66c495ee541f012cab164bb594c9ed787e070977e284e2998"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "105860": true,
+        "105856": true,
+        "105857": true,
+        "105858": true,
+        "105859": true
+      },
+      "checkedAt": "2026-10-22T17:45:02.759893+00:00"
+    },
+    {
+      "id": 60275,
+      "supplierUrl": "https://ralexpucioasa.ro/store/protectii-saltea/protectie-matlasata-percalle-roz-pudra/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-60275.html",
+      "appBarcodes": [
+        "60277",
+        "60278"
+      ],
+      "supplierPrices": {
+        "60277": 160,
+        "60278": 160
+      },
+      "salePrices": {
+        "60277": 289,
+        "60278": 289
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/01.jpg",
+          "sha256": "bf4a52b9413c983854014d78ebef4ca88923d562ecfc17218b2fc6aaaa9bf818"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/02.jpg",
+          "sha256": "72532168f4149627f8a50b1a35f88f9130523ebdfb7cf22dcaf926952d434fe5"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/03.jpg",
+          "sha256": "c92cb427b000e227622f4be4e8293df767b2eb84fcec5074cf4d81e41e8b9cbb"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/04.jpg",
+          "sha256": "6bc0774b6ff2d2af178baa0ef4e27011cb50f4d80a5dfbf297add9d829626454"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "60277": true,
+        "60278": true
+      },
+      "checkedAt": "2026-10-22T17:45:02.867731+00:00"
+    },
+    {
+      "id": 482,
+      "supplierUrl": "https://ralexpucioasa.ro/store/produse-hotel/protectie-matlasata-ultrasonic-100gsm/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-482.html",
+      "appBarcodes": [
+        "105898",
+        "105895",
+        "105896",
+        "105897"
+      ],
+      "supplierPrices": {
+        "105898": 49,
+        "105895": 57,
+        "105896": 61,
+        "105897": 66
+      },
+      "salePrices": {
+        "105898": 89,
+        "105895": 109,
+        "105896": 119,
+        "105897": 119
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/01.jpg",
+          "sha256": "902ced2b45f068e3e7829f8ea7be0d05013dce4940aa87849d6ed40f902a6061"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/02.jpg",
+          "sha256": "fc5b82465823db59df5086854bb3bc6791ebb8c400255d98a2aba33af55f3e6c"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/03.jpg",
+          "sha256": "a170861d48b88e3413b743c8240197a55a45247f5d22f628b08a549207db1c74"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/04.jpg",
+          "sha256": "1382eb01ea1cc08f26763e52f32fb75a2fe3f44e0819a8ab08b021e07e057f2c"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "105898": true,
+        "105895": true,
+        "105896": true,
+        "105897": true
+      },
+      "checkedAt": "2026-10-22T17:45:02.965075+00:00"
+    },
+    {
+      "id": 69981,
+      "supplierUrl": "https://ralexpucioasa.ro/store/produse-hotel/protectie-matlasata-ultrasonic-imperial-impermeabila-200x200cm/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-69981.html",
+      "appBarcodes": [
+        "101931",
+        "105869",
+        "101409",
+        "101410",
+        "101411"
+      ],
+      "supplierPrices": {
+        "101931": 67,
+        "105869": 57,
+        "101409": 73,
+        "101410": 81,
+        "101411": 88
+      },
+      "salePrices": {
+        "101931": 129,
+        "105869": 109,
+        "101409": 139,
+        "101410": 149,
+        "101411": 159
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/01.jpg",
+          "sha256": "0db420cfb591955fefa9400561e7b7c6994398c02fa5765550cc59c8cb4c0639"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/02.jpg",
+          "sha256": "e4945a8a11e06595a4529064041435f03f91cf284670b6bb2a6e905b01f89378"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/03.jpg",
+          "sha256": "b1e23d1a57d0ee3bc058025c98cfa4862460d3d8add693d0dd68c8d1573a7c86"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/04.jpg",
+          "sha256": "d9ced1d0a1c1a561ccfe69208181e19db56fc3a686baaacf9cf0272bc969ba8d"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "101931": true,
+        "105869": true,
+        "101409": true,
+        "101410": true,
+        "101411": true
+      },
+      "checkedAt": "2026-10-22T17:45:03.431775+00:00"
+    },
+    {
+      "id": 92652,
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-ioana/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-92652.html",
+      "appBarcodes": [
+        "92652"
+      ],
+      "supplierPrices": {
+        "92652": 129.0
+      },
+      "salePrices": {
+        "92652": 239
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92652/01.jpg",
+          "sha256": "7faf1731f3aced1a7acd1b7db128a13efdd9836e36094b566089923bb6849ecd"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92652/02.jpg",
+          "sha256": "1c3606f57a7330a254293520218b716eb1364cb768624a280dff3282391da0bd"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92652/03.jpg",
+          "sha256": "e6c35d1cf080aba75fce354ba540576d2a2c14e516370cb5fe3e398da9e0376a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92652/04.jpg",
+          "sha256": "dafc0111df5a1af193d50e1d6018f40991cee287ccdb235aa5ac34f15726cf7f"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "92652": true
+      },
+      "checkedAt": "2026-10-22T17:45:03.430883+00:00"
+    },
+    {
+      "id": 92651,
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-cristina/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-92651.html",
+      "appBarcodes": [
+        "92651"
+      ],
+      "supplierPrices": {
+        "92651": 129.0
+      },
+      "salePrices": {
+        "92651": 239
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92651/01.jpg",
+          "sha256": "e73add03a21ce4a471df606688d2f32cde7b0f00270c5c28c3f8ba0de3c26d32"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92651/02.jpg",
+          "sha256": "bb3f0a935a181a7cc630aa42de5cbf4afa7fdbf6fedce35af3adcd1f02b6a2e5"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92651/03.jpg",
+          "sha256": "1b1cb6369dbbd121986ed510492380abd93166a3d77973900809ec92ffb6d9ba"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92651/04.jpg",
+          "sha256": "093f4bf534549e5ee59b0963f6ab2ac1cb20252b2e7d04c62ddfaab4383eba62"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "92651": true
+      },
+      "checkedAt": "2026-10-22T17:45:03.516955+00:00"
+    },
+    {
+      "id": 95974,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-30/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-95974.html",
+      "appBarcodes": [
+        "95974"
+      ],
+      "supplierPrices": {
+        "95974": 292.0
+      },
+      "salePrices": {
+        "95974": 529
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95974/01.jpg",
+          "sha256": "995ab21e19474bca1f4e0dbaf5c718f3c3e315f39abe16b1a2d698e81cbe75a1"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95974/02.jpg",
+          "sha256": "698ae0938517b02c5c3867a61bad9ef042bc4d6c43a0e12c8a165a328b89ddd0"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95974/03.jpg",
+          "sha256": "9966f952786b758837eaf5c8251c02a3ae21305651994b3c1ba4daf51efd9984"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95974/04.jpg",
+          "sha256": "2f4bef21fa01c33bd84704e068224284fbf759a747a36faf736b898ed3ca0b18"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "95974": true
+      },
+      "checkedAt": "2026-10-22T17:45:03.569054+00:00"
+    },
+    {
+      "id": 95973,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-29/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-95973.html",
+      "appBarcodes": [
+        "95973"
+      ],
+      "supplierPrices": {
+        "95973": 292.0
+      },
+      "salePrices": {
+        "95973": 529
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95973/01.jpg",
+          "sha256": "be394a292e55e7be60d44ed41f6c6c637ccdb7fc84f4983813de9a1dba6c0838"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95973/02.jpg",
+          "sha256": "b3a3e8a1608cb7964c581a0a74bb799981226373b8aaa00317ff3a98d5910524"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95973/03.jpg",
+          "sha256": "6798fdc8b986dbc9968f6c65a72d689c0e80a75b87fccba37e4d7f16a3402a10"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95973/04.jpg",
+          "sha256": "68b3a9f00e56a082f7d2af359d93fa6fcc6ab624dd844a8c8df9b9c4668b7445"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "95973": true
+      },
+      "checkedAt": "2026-10-22T17:45:04.009435+00:00"
+    },
+    {
+      "id": 95972,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-28/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-95972.html",
+      "appBarcodes": [
+        "95972"
+      ],
+      "supplierPrices": {
+        "95972": 292.0
+      },
+      "salePrices": {
+        "95972": 529
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95972/01.jpg",
+          "sha256": "dd3de5cf7ac993d9d588902650187250347a5ff222c9c6f1af6e4415c39717cc"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95972/02.jpg",
+          "sha256": "bef495de0bfa57f1bfcd0495721232ac18b688eeeb6159dc1140ed94b1ad05c7"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95972/03.jpg",
+          "sha256": "c5739d535b1ad9e4189f2c57b40dd9fdb66192f2b314492f9d75bbde2ea67889"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95972/04.jpg",
+          "sha256": "ae461ecbdec6b46c3b022fca615db50482888afc829da38b474e498dd324ccbf"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "95972": true
+      },
+      "checkedAt": "2026-10-22T17:45:03.947504+00:00"
+    },
+    {
+      "id": 95971,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-27/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-95971.html",
+      "appBarcodes": [
+        "95971"
+      ],
+      "supplierPrices": {
+        "95971": 292.0
+      },
+      "salePrices": {
+        "95971": 529
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95971/01.jpg",
+          "sha256": "20e1b011d045d2cedbef143be3eb865f5dbd78a6be939980ba7ae8d8ba8457dd"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95971/02.jpg",
+          "sha256": "c070fdfbd0018089baa13939a4cc33785aa70b11057e2688f2a50243b30af2a2"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95971/03.jpg",
+          "sha256": "4e47bedb558001be985eb9d0e3095932ca60101bf102285a0ae222fdc8fc9cb9"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95971/04.jpg",
+          "sha256": "c18bc40e7fcd418f6c2906a774be8eee83b2d8ee33bcfbb0cf6b805772cd6f3f"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "95971": true
+      },
+      "checkedAt": "2026-10-22T17:45:04.072455+00:00"
+    },
+    {
+      "id": 95970,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-26/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-95970.html",
+      "appBarcodes": [
+        "95970"
+      ],
+      "supplierPrices": {
+        "95970": 292.0
+      },
+      "salePrices": {
+        "95970": 529
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95970/01.jpg",
+          "sha256": "9f27859c36392222666cc47a858240cdcca352ef7248a42d15064a5442f7ed1d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95970/02.jpg",
+          "sha256": "b21d55efd31d3f2593acb6be4af39e29799419b29b44e876805a916af632f928"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95970/03.jpg",
+          "sha256": "3e572d6be860fafb17a89143c6f29d2b792a70a42426f8ba4cdc1c57a6c25c9e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95970/04.jpg",
+          "sha256": "7f47df890b17ff9b3e6176abd749fc1d8452dd6db4abeac3f9f9bf44d7930d5c"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "95970": true
+      },
+      "checkedAt": "2026-10-22T17:45:04.148548+00:00"
+    },
+    {
+      "id": 95969,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-25/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-95969.html",
+      "appBarcodes": [
+        "95969"
+      ],
+      "supplierPrices": {
+        "95969": 292.0
+      },
+      "salePrices": {
+        "95969": 529
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95969/01.jpg",
+          "sha256": "2efbdb1ecdd66c427141ac7ea9698bdb8d85866b5b8f8f5c6b3d7a263cf6a245"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95969/02.jpg",
+          "sha256": "e89f6ab39eb52ae12765000786ad018b2d0cec444a7b31810905337bac45d9d0"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95969/03.jpg",
+          "sha256": "7240ec4ca02b0ee6feac22f6224b69ee34cc04927240cbc4822a088cb2579149"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95969/04.jpg",
+          "sha256": "e3c94b09f66185fce06f198c76000f90e7580820ce3b8b8e7bee3e3059dfad8d"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "95969": true
+      },
+      "checkedAt": "2026-10-22T17:45:04.477031+00:00"
+    },
+    {
+      "id": 95968,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-24/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-95968.html",
+      "appBarcodes": [
+        "95968"
+      ],
+      "supplierPrices": {
+        "95968": 292.0
+      },
+      "salePrices": {
+        "95968": 529
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95968/01.jpg",
+          "sha256": "b5bf32e32e7b4516964536711da32067983258d042cc91b73384681cbec7c204"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95968/02.jpg",
+          "sha256": "8253c4c24a349a930ccaa1034ed22f00e60b4ba1fca6abd034bea3472faa1510"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95968/03.jpg",
+          "sha256": "59082b85f5b1c0cf410c2efa44ba5ef5968596df3551c2296036e05e382f660a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95968/04.jpg",
+          "sha256": "925637a0557c7687467afaa95ffdf23c792f6bfde019131779da1266e593e978"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "95968": true
+      },
+      "checkedAt": "2026-10-22T17:45:04.543494+00:00"
+    },
+    {
+      "id": 95967,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-23/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-95967.html",
+      "appBarcodes": [
+        "95967"
+      ],
+      "supplierPrices": {
+        "95967": 292.0
+      },
+      "salePrices": {
+        "95967": 529
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95967/01.jpg",
+          "sha256": "c7f1349fef2459b410bdb5ed8f81beac4733e646e5a98de09f309d54fd8765ed"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95967/02.jpg",
+          "sha256": "47fc0fa8553a94c46ea861a00e7a50aa81ff47d5a771e92a4eac9b5bdc21972f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95967/03.jpg",
+          "sha256": "0381f7d18a8c2c60506beb10916e6e6e967486d7495c5925ff539f5ab482de74"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95967/04.jpg",
+          "sha256": "68e19b55f383e39db3497a07b7727396a01d1c474e312703cab1b9961651da91"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "95967": true
+      },
+      "checkedAt": "2026-10-22T17:45:04.620069+00:00"
+    },
+    {
+      "id": 95966,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-22/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-95966.html",
+      "appBarcodes": [
+        "95966"
+      ],
+      "supplierPrices": {
+        "95966": 292.0
+      },
+      "salePrices": {
+        "95966": 529
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95966/01.jpg",
+          "sha256": "4ae53fd7bf01bd5bf696bb3fa6a9c69e9094b50acbc691bcd83b09175687ac1e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95966/02.jpg",
+          "sha256": "47c658117e032a2afed117737c210495d6ae2aa72ad9217673342034d4de8ad4"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95966/03.jpg",
+          "sha256": "c0677998027176839401a39df17e89bb1e4da7d663082caf4d5b10b233be565d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95966/04.jpg",
+          "sha256": "8a1fe32a018119ad42f8f6e1678dfe00fea03034f4dd692f48a3da606615210f"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "95966": true
+      },
+      "checkedAt": "2026-10-22T17:45:04.703279+00:00"
+    },
+    {
+      "id": 95965,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-21/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-95965.html",
+      "appBarcodes": [
+        "95965"
+      ],
+      "supplierPrices": {
+        "95965": 292.0
+      },
+      "salePrices": {
+        "95965": 529
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95965/01.jpg",
+          "sha256": "88add1b756109d1c778bb7082485913602cd8023d1762bb370ee6ebf3cc30239"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95965/02.jpg",
+          "sha256": "a803f2add8de5fd30793e825d6416fe8120e20b75362180c18732f8cc9ba6939"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95965/03.jpg",
+          "sha256": "302da23b33e54fb3c4f21432a587cfde6a7ba4c2ed6ddb0b7022dcd2c460b312"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95965/04.jpg",
+          "sha256": "338f1acef296bbde0f6f81e68b1124f153f86f3bf4d00e1d6aebdea20ce91581"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "95965": true
+      },
+      "checkedAt": "2026-10-22T17:45:04.957343+00:00"
+    },
+    {
+      "id": 158276,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-premium-din-muselina-nomada-v2/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-158276.html",
+      "appBarcodes": [
+        "158276"
+      ],
+      "supplierPrices": {
+        "158276": 457.0
+      },
+      "salePrices": {
+        "158276": 829
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158276/01.jpg",
+          "sha256": "94b91ce467d811ed6ac37c2b3604215a4c4f5453d26f7d9235883920cb6add83"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158276/02.jpg",
+          "sha256": "4bb895b98eb69dd469458e39a607a4dc38dbd10c4c1d7d9ec9c54152006349aa"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158276/03.jpg",
+          "sha256": "44c2c0af51ff31cb86029a79f6367bfaea5d5623898ccf57a9f8781599c4e450"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158276/04.jpg",
+          "sha256": "7b33911e86769889959e658df371ee244475f9d045d4f22593d0aea857573e71"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "158276": true
+      },
+      "checkedAt": "2026-10-22T17:45:05.122564+00:00"
+    },
+    {
+      "id": 158272,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-premium-din-muselina-nomada-v1/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-158272.html",
+      "appBarcodes": [
+        "158272"
+      ],
+      "supplierPrices": {
+        "158272": 457.0
+      },
+      "salePrices": {
+        "158272": 829
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158272/01.jpg",
+          "sha256": "60436b184b839c50676f1001dea614e5daac7515adb0a804e4e6a36562dfbfa7"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158272/02.jpg",
+          "sha256": "dd4e3794c4d0412c4aae31e3f067e3beecdef7a9c62b5d49cbb5fed6d3bba162"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158272/03.jpg",
+          "sha256": "7aba022a73b16dbcfbb7746c48859f917b8eeb31e05893ebb64b644a9bfe5744"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158272/04.jpg",
+          "sha256": "69d040785e5af57d89ff000fe454e2a5bf2496679e59543d6cc44194b8a59b59"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "158272": true
+      },
+      "checkedAt": "2026-10-22T17:45:05.165641+00:00"
+    },
+    {
+      "id": 34143,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-puma-v1/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-34143.html",
+      "appBarcodes": [
+        "34143"
+      ],
+      "supplierPrices": {
+        "34143": 282.0
+      },
+      "salePrices": {
+        "34143": 509
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34143/01.jpg",
+          "sha256": "eeb4d90d47eb144b216814c11ed0c8de4c45b87f83488cb898215f3f522fd28f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34143/02.jpg",
+          "sha256": "8849527d60b164fffb1089d77e5ff57cc06645406895fde693a87317d1690b9a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34143/03.jpg",
+          "sha256": "84f516e84923382ea3ec6262ac3da0ae8cfdf281b197190c5534b4d06b078850"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34143/04.jpg",
+          "sha256": "8ddc815889979288c841e187bcd5e978cd202093baf94882817ebd7c002fdcbb"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "34143": true
+      },
+      "checkedAt": "2026-10-22T17:45:05.272700+00:00"
+    },
+    {
+      "id": 34141,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-montera-v1/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-34141.html",
+      "appBarcodes": [
+        "34141"
+      ],
+      "supplierPrices": {
+        "34141": 282.0
+      },
+      "salePrices": {
+        "34141": 509
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34141/01.jpg",
+          "sha256": "58699459e3e41b160d8cb24f0c0eb1241a15a0f33a1ed82d9a3da4d2d83f8124"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34141/02.jpg",
+          "sha256": "7c3866b1a875a651d157d3e136d6b1e8e9466d328777931e4c8698fd9a978cde"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34141/03.jpg",
+          "sha256": "97d116acb85828317aa33254382abf3a75b0d0e974edd6d27566343121d98bac"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34141/04.jpg",
+          "sha256": "85923cc84ed31869ee0efb37d1116e016818aa5bedd99d9c4dfb9f72d45a6176"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "34141": true
+      },
+      "checkedAt": "2026-10-22T17:45:05.479781+00:00"
+    },
+    {
+      "id": 12642,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-porto-v2/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-12642.html",
+      "appBarcodes": [
+        "12642"
+      ],
+      "supplierPrices": {
+        "12642": 282.0
+      },
+      "salePrices": {
+        "12642": 509
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12642/01.jpg",
+          "sha256": "da4f19d34cfa6ef60d08a8d23c4300ef8374ea51842207cbb28d15764db758a1"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12642/02.jpg",
+          "sha256": "cb30cf0351ad4a54408532ac984a01f2fe20b75447b5bded46c6197981e2839f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12642/03.jpg",
+          "sha256": "33731bfe9672bd0ea41a9e937f3477606186fb96fb0870ce89a5e86940bb3fbf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12642/04.jpg",
+          "sha256": "399693c255e33b8441056913b3f96107f84e15bc7035784b7e88b47127a8b57f"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "12642": true
+      },
+      "checkedAt": "2026-10-22T17:45:05.632166+00:00"
+    },
+    {
+      "id": 12637,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-midas-v1/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-12637.html",
+      "appBarcodes": [
+        "12637"
+      ],
+      "supplierPrices": {
+        "12637": 282.0
+      },
+      "salePrices": {
+        "12637": 509
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12637/01.jpg",
+          "sha256": "7fd42950fa32b85ef1da79964b44dd9dfe6c8ea765ae4b85f3ae01efdf2047ed"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12637/02.jpg",
+          "sha256": "fe94722e27be1f3755071e2967149d2a1479b1b03ef1ea0b54f9c3b12b2b7773"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12637/03.jpg",
+          "sha256": "62ec82ece52f8a8666e09f279d5a9c9baf430a02e7426617f1fb67b9437a4c6c"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12637/04.jpg",
+          "sha256": "d64fb5978f45e5f8f6a56e862db0dda8314792e08bc347042b339ed880992a29"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "12637": true
+      },
+      "checkedAt": "2026-10-22T17:45:05.643226+00:00"
+    },
+    {
+      "id": 12625,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-este-v2/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-12625.html",
+      "appBarcodes": [
+        "12625"
+      ],
+      "supplierPrices": {
+        "12625": 282.0
+      },
+      "salePrices": {
+        "12625": 509
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12625/01.jpg",
+          "sha256": "1f1d89eac392302c2dada18adf3c338c8558d5369489dfe4fba5a33036a32f7a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12625/02.jpg",
+          "sha256": "081d655b3ca6ebc143a5cc17f8147e6f8bfe559dd58d465ff55daae3e7f01f81"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12625/03.jpg",
+          "sha256": "47bd5945e349477193f640050c60d1be275dff47092bb2efadef3991adbc7e87"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12625/04.jpg",
+          "sha256": "d7f474f5924e40c298ec5a3239d2b802ab84e5ac53c776d2386622a161d16ac5"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "12625": true
+      },
+      "checkedAt": "2026-10-22T17:45:05.763373+00:00"
+    },
+    {
+      "id": 96547,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-o-persoana/cuvertura-de-pat-clasy-matlasata-o-persoana-ballerina/",
+      "supplierEvidence": "/Users/mihaipopescu/Desktop/untitled folder/Ralex - 50 propuneri noi - 22 octombrie 2026/pregatire-estore/publicare/supplier-96547.html",
+      "appBarcodes": [
+        "96547"
+      ],
+      "supplierPrices": {
+        "96547": 249.0
+      },
+      "salePrices": {
+        "96547": 449
+      },
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/96547/01.jpg",
+          "sha256": "552c1fed3d5e16e6d2a8f19a8f44238b420ce1bdaf3c1dbbfdf86cf957e348e3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/96547/02.jpg",
+          "sha256": "3498d839bcd4e570275ee928bff67228f98b8cafeac9e2f2e751b2ab2abcb869"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/96547/03.jpg",
+          "sha256": "f94990907c4687b1a51948eadd59d6488479b06d6fb542a1d2d8ba2e99a84a4e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/96547/04.jpg",
+          "sha256": "339fbb110e5b4861120711f2eb4c3787758a8a1e806dd5e2358cbc2a0c6fd06b"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-reviewed-20261022",
+      "photographicViews": 4,
+      "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
+      "availability": {
+        "96547": true
+      },
+      "checkedAt": "2026-10-22T17:45:05.987430+00:00"
+    },
+    {
+      "id": 90646,
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-home-edit-20261022",
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-greek-border-500g-m2-crem/",
+      "visualReview": "Four prepared towel photos compared with individual supplier reference: folded, rail, textile detail and overhead, matching cream Greek-border terry; copy verified.",
+      "photographicViews": 4,
+      "media": [
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/01-principala.jpg",
+          "sha256": "eea61ec9614868efd6a706636354e16fd3cb548742d6f7f996cb2b38c6c8fe5c"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/02-lateral.jpg",
+          "sha256": "7505e807ada5125673b99e8842144815f704bf5db16e9c66a3992996ee524615"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/03-detaliu.jpg",
+          "sha256": "b852d65afecf9c83eeb40abd5c7a1e6cf2f75ce71f9e2fe057df374150b896e9"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/04-de-sus.jpg",
+          "sha256": "a1568215c4db8b1a63ceeffb1ccab5cba339f36553d9178d015c9515f591d5cd"
+        }
+      ],
+      "supplierEvidence": "catalog-review/hero-references/towel-source.html",
+      "appBarcodes": [
+        "105749",
+        "105750",
+        "105751"
+      ],
+      "supplierPrices": {
+        "105749": 9,
+        "105750": 21,
+        "105751": 40
+      },
+      "salePrices": {
+        "105749": 19,
+        "105750": 39,
+        "105751": 79
+      },
+      "availability": {
+        "105749": true,
+        "105750": true,
+        "105751": true
+      },
+      "checkedAt": "2026-10-22T17:45:06.154296+00:00"
+    },
+    {
+      "id": 106764,
+      "reviewedAt": "2026-10-22",
+      "source": "app-catalog-home-edit-20261022",
+      "supplierUrl": "https://ralexpucioasa.ro/store/saltele-si-toppere/saltea-seven-zone/",
+      "visualReview": "Actual generated output photos compared with supplier RLX4 square-quilted ivory microfibre reference; room view, merchant-described vacuum roll, corner fabric detail and overhead are distinct. Rejected alternate images with unsupported wavy side quilting excluded. Numeric variant barcodes and current prices verified on individual supplier page.",
+      "photographicViews": 4,
+      "media": [
+        {
+          "url": "/products/maison-106764/01.webp",
+          "sha256": "21b513e7c3061f7a09b8d1e0a302b6d66adc159556136079dc4666f70870f6e7"
+        },
+        {
+          "url": "/products/maison-106764/02.webp",
+          "sha256": "54e835500f4b61f92688edf87407104e73944ec64933343f519befc45bc2c18e"
+        },
+        {
+          "url": "/products/maison-106764/03.webp",
+          "sha256": "73b75de0ab4f6010c61f43fc1ad6d3ac662673fbe63e896afbb73b54ff253009"
+        },
+        {
+          "url": "/products/maison-106764/04.webp",
+          "sha256": "86878bca3a97812c82b62079a66345bbdfa4565ffe1c8f8c4f12fa8bf2d67a05"
+        }
+      ],
+      "supplierEvidence": "catalog-review/hero-references/rlx4-source.html",
+      "appBarcodes": [
+        "3173098UXAKF88IFK",
+        "31730998G3YNXTM3A",
+        "3173100BXQDDLFUY5",
+        "3173101HBIVM5UOY5",
+        "3173102S32JHHADDG"
+      ],
+      "supplierPrices": {
+        "106765": 481,
+        "106766": 601,
+        "106767": 678,
+        "106768": 822,
+        "106769": 837
+      },
+      "salePrices": {
+        "106765": 869,
+        "106766": 1089,
+        "106767": 1229,
+        "106768": 1489,
+        "106769": 1509
+      },
+      "availability": {
+        "106765": true,
+        "106766": true,
+        "106767": true,
+        "106768": true,
+        "106769": true
+      },
+      "checkedAt": "2026-10-22T17:45:06.206332+00:00"
+    }
+  ],
+  "heldModels": [
+    "75521",
+    "91225",
+    "91227",
+    "91228",
+    "91229",
+    "91230",
+    "94008",
+    "94023",
+    "94024"
+  ],
+  "status": "approved_for_storefront"
+}

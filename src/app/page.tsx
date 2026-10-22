@@ -7,6 +7,8 @@ import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import TrustBar from "@/components/layout/TrustBar";
 
+import Collections from "@/components/home/Collections";
+
 export const metadata: Metadata = { alternates: { canonical: "/" } };
 
 export default function Home() {
@@ -16,6 +18,7 @@ export default function Home() {
       <Header />
       <CatalogLayout showSidebar={false}>
       <Hero />
+      <Collections />
       <ProductGrid />
       <UspSection />
       </CatalogLayout>
