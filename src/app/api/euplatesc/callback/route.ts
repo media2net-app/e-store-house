@@ -26,7 +26,7 @@ export async function POST(request: Request) {
     const fresh = await getOrder(order.id);
     if (!fresh) return new Response("Retry", { status: 503 });
     if (fresh.status === "cancelled" || fresh.status === "cancel_requested") {
-      if (fields.action === "0" && !await notifyCancelledPayment(fresh)) return new Response("Retry", { status: 503 });
+      if (fields.action === "0" && fresh.cancellation?.paymentReceivedAfterCancellation && !await notifyCancelledPayment(fresh)) return new Response("Retry", { status: 503 });
       return new Response("OK");
     }
     if (fields.action === "0" && !await paymentEmailSent(order.id)) {
