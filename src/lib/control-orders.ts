@@ -1,4 +1,5 @@
 import "server-only";
+import { packingSuggestion } from "./packing-suggestion";
 import { orderStorageCommand, orderStoragePrefix, type StoreOrder } from "./orders";
 import { hasSupabaseStorage } from "./supabase-orders";
 import { getShipment } from "./shipment-store";
@@ -19,11 +20,13 @@ export async function controlOrders(after: string | null) {
   if (!Array.isArray(raw)) throw new Error("Comenzile nu sunt disponibile.");
   const shipments = await orderStorageCommand(["MGET", ...page.map((id) => `${orderStoragePrefix()}:sameday-shipment:${id}`)]);
   if (!Array.isArray(shipments)) throw new Error("AWB-urile nu sunt disponibile.");
+  const markers = await orderStorageCommand(["MGET", ...page.map(id => `${orderStoragePrefix()}:payment-email:${id}`)]);
+  if (!Array.isArray(markers)) throw new Error("Confirmările nu sunt disponibile.");
   const orders = raw.flatMap((value, i) => {
     if (typeof value !== "string") return [];
     const order = JSON.parse(value) as StoreOrder;
     const shipment = typeof shipments[i] === "string" ? JSON.parse(shipments[i]) as Awaited<ReturnType<typeof getShipment>> : null;
-    return [{ id: order.id, createdAt: order.createdAt, status: order.status, testOrder: order.testOrder === true,
+    return [{ confirmationEmailSent: markers[i] === "1", packingSuggestion: packingSuggestion(order.items), id: order.id, createdAt: order.createdAt, status: order.status, testOrder: order.testOrder === true,
       cancellation: order.cancellation, paymentMethod: order.paymentMethod || "card", customer: order.customer, items: order.items,
       subtotalCents: order.subtotalCents, discountCents: order.discountCents, shippingCents: order.shippingCents, totalCents: order.totalCents,
       shippingCarrier: order.shippingCarrier, shippingMethod: order.shippingMethod || "home", shippingLocker: order.shippingLocker,
