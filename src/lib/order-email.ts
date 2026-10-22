@@ -5,24 +5,33 @@ import nodemailer from "nodemailer";
 import { randomUUID } from "node:crypto";
 import { shippingCarrierLabels } from "./shipping";
 
+// Store-specific non-secret overrides preserve legacy project mail configuration.
+function smtpConfiguration() {
+  return {
+    host: process.env.STORE_SMTP_HOST || process.env.SMTP_HOST,
+    port: Number(process.env.STORE_SMTP_PORT || process.env.SMTP_PORT),
+    secure: (process.env.STORE_SMTP_SECURE || process.env.SMTP_SECURE) === "true",
+    user: process.env.STORE_SMTP_USER || process.env.SMTP_USER,
+    pass: process.env.SMTP_PASS,
+    from: process.env.STORE_SMTP_FROM || process.env.SMTP_FROM,
+  };
+}
+
+function smtpReady(config: ReturnType<typeof smtpConfiguration>) {
+  return !!config.host && Number.isInteger(config.port) && config.port > 0 && config.port <= 65535
+    && !!config.user && !!config.pass && !!config.from;
+}
+
 export function hasTransactionalEmail() {
-  const port = Number(process.env.SMTP_PORT);
-  const smtpReady = !!process.env.SMTP_HOST && Number.isInteger(port) && port > 0 && port <= 65535
-    && !!process.env.SMTP_USER && !!process.env.SMTP_PASS && !!process.env.SMTP_FROM;
-  return smtpReady || !!process.env.RESEND_API_KEY && !!process.env.STORE_MAIL_FROM;
+  return smtpReady(smtpConfiguration()) || !!process.env.RESEND_API_KEY && !!process.env.STORE_MAIL_FROM;
 }
 
 export async function verifySmtpConnection() {
-  if (!process.env.SMTP_HOST || !process.env.SMTP_PORT || !process.env.SMTP_USER
-      || !process.env.SMTP_PASS || !process.env.SMTP_FROM) {
-    throw new Error("SMTP nu este configurat.");
-  }
-  const port = Number(process.env.SMTP_PORT);
-  if (!Number.isInteger(port) || port < 1 || port > 65535) throw new Error("Port SMTP invalid.");
-  const secure = process.env.SMTP_SECURE === "true";
+  const config = smtpConfiguration();
+  if (!smtpReady(config)) throw new Error("SMTP nu este configurat.");
   const transport = nodemailer.createTransport({
-    host: process.env.SMTP_HOST, port, secure, requireTLS: !secure,
-    auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASS },
+    host: config.host, port: config.port, secure: config.secure, requireTLS: !config.secure,
+    auth: { user: config.user, pass: config.pass },
   });
   try {
     await transport.verify();
@@ -42,21 +51,22 @@ export async function sendPreviewEmailTest() {
 }
 
 function merchantInbox() {
-  return process.env.ORDER_NOTIFICATION_EMAIL || "orders@estorehouse.ro";
+  return process.env.STORE_ORDER_NOTIFICATION_EMAIL || process.env.ORDER_NOTIFICATION_EMAIL || "orders@estorehouse.ro";
 }
 
 async function send(to: string, subject: string, body: string, idempotencyKey: string) {
-  if (process.env.SMTP_HOST && process.env.SMTP_PORT && process.env.SMTP_USER
-      && process.env.SMTP_PASS && process.env.SMTP_FROM) {
-    const port = Number(process.env.SMTP_PORT);
-    if (!Number.isInteger(port) || port < 1 || port > 65535) throw new Error("Port SMTP invalid.");
-    const secure = process.env.SMTP_SECURE === "true";
+  const config = smtpConfiguration();
+  if (smtpReady(config)) {
     const transport = nodemailer.createTransport({
-      host: process.env.SMTP_HOST, port, secure, requireTLS: !secure,
-      auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASS },
+      host: config.host, port: config.port, secure: config.secure, requireTLS: !config.secure,
+      auth: { user: config.user, pass: config.pass },
     });
-    await transport.sendMail({ from: process.env.SMTP_FROM, to, subject, text: body,
-      headers: { "X-Estore-Message": idempotencyKey } });
+    try {
+      await transport.sendMail({ from: config.from, to, subject, text: body,
+        headers: { "X-Estore-Message": idempotencyKey } });
+    } finally {
+      transport.close();
+    }
     return;
   }
   const apiKey = process.env.RESEND_API_KEY;
