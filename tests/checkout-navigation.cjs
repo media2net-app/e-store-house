@@ -12,6 +12,6 @@ test('only the retired public preview redirects to the real store; private callb
 test('COD-only checkout never offers a shipping method that forces unavailable card payment',()=>{
  const {shippingPaymentAvailable:f}=mod('src/lib/checkout-payment-options.ts');
  const home={carrier:'sameday'},locker={carrier:'sameday',method:'easybox'},fan={carrier:'fan'};
- assert.equal(f(home,false,true),true);assert.equal(f(locker,false,true),false);assert.equal(f(fan,false,true),false);
+ assert.equal(f(home,false,true),true);assert.equal(f(locker,false,true),true);assert.equal(f(fan,false,true),false);
  assert.equal(f(locker,true,true),true);assert.equal(f(fan,true,false),true);assert.equal(f(home,false,false),false);
 });

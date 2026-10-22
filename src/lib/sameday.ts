@@ -87,7 +87,7 @@ export function samedayPayload(order: { id: string; paymentMethod?: StoreOrder["
   if (!(locker ? config.lockerReady : config.homeReady) || !validParcel(parcel) || (locker && !fitsEasybox(parcel))) throw new Error("Serviciul sau coletul Sameday nu este configurat corect.");
   const c = order.customer;
   const cod = order.paymentMethod === "cod";
-  if (cod && (locker || !Number.isSafeInteger(order.totalCents) || order.totalCents! <= 0 || order.totalCents! > 9_999_999)) throw new Error("Comanda ramburs necesită un total valid și livrare la domiciliu.");
+  if (cod && (!Number.isSafeInteger(order.totalCents) || order.totalCents! <= 0 || order.totalCents! > (locker ? 1_000_000 : 500_000))) throw new Error("Totalul ramburs trebuie să fie de maximum 5.000 lei la domiciliu sau 10.000 lei la easybox.");
   return { pickupPoint: config.pickupPoint, contactPerson: config.contactPerson, packageType: 0, packageNumber: 1,
     packageWeight: parcel.weight, service: locker ? config.lockerService : config.homeService,
     awbPayment: 1, cashOnDelivery: cod ? order.totalCents! / 100 : 0, ...(cod ? { cashOnDeliveryReturns: 1 } : {}), insuredValue: 0, thirdPartyPickup: 0, currency: "RON",

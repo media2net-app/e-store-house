@@ -146,3 +146,54 @@ test("COD readiness is independent of online card activation", () => {
   assert.equal(config.checkoutConfiguration().codReady, true);
   assert.equal(config.checkoutConfiguration().cardReady, false);
 });
+
+
+test("easybox COD confirms the fixed fee, persists unpaid with a server-validated locker, and collects the full total", async () => {
+  const helpers = resolver();
+  const locker = { id: 2, name: "Verified locker", address: "Locker street", city: "Bucuresti", county: "Bucuresti", postalCode: "010101" };
+  const deps = {
+    "next/server": { NextResponse: Response }, "@/lib/cart-quote": { quoteCart: () => quote },
+    "@/lib/checkout-config": { checkoutConfiguration: () => ({ ready: true, codReady: true, cardReady: false, publicUrl: "https://estore.test", shippingOptions: options }) },
+    "@/lib/checkout-shipping": helpers, "@/lib/shipping-quote-token": tokens,
+  };
+  const env = { process: { env: { STORE_ADMIN_TOKEN: "secret", VERCEL_ENV: "production" } } };
+  const request = extra => new Request("https://estore.test/api/checkout", { method: "POST", body: JSON.stringify({ items: [{ productId: 1, quantity: 2 }], customer, carrier: "sameday", shippingMethod: "easybox", paymentMethod: "cod", lockerId: 2, acceptedTerms: true, intentId: "12345678-1234-1234-1234-123456789012", ...extra }) });
+  const quoteRoute = moduleAt("src/app/api/shipping/quote/route.ts", deps, env);
+  const confirmed = await quoteRoute.POST(request());
+  assert.equal(confirmed.status, 200);
+  const rate = await confirmed.json(); assert.equal(rate.cents, 1750); assert.equal(rate.source, "fixed");
+  let stored, emails = 0;
+  const checkout = moduleAt("src/app/api/checkout/route.ts", { ...deps,
+    "node:crypto": require("node:crypto"), "@/lib/shipping": shipping,
+    "@/lib/euplatesc": { createPaymentFields: () => { throw new Error("Locker COD must never use online payment"); } },
+    "@/lib/orders": { createOrder: async o => { stored = o; }, markPaymentEmailSent: async () => {} },
+    "@/lib/order-email": { sendCodConfirmation: async o => { emails++; assert.equal(o.shippingLocker.id, 2); } },
+    "@/lib/sameday": { samedayLocker: async id => { if (id !== 2) throw new Error(); return locker; } },
+    "@/lib/sameday-protocol": protocol, "@/data/shipping-packages.json": { default: {} },
+  }, env);
+  assert.equal((await checkout.POST(request({ shippingQuoteToken: rate.token, lockerId: 999 }))).status, 400);
+  assert.equal(stored, undefined);
+  const result = await checkout.POST(request({ shippingQuoteToken: rate.token, shippingCents: 1, shippingLocker: { id: 999 } }));
+  assert.equal(result.status, 200); assert.equal(stored.status, "pending_cod"); assert.equal(stored.paymentMethod, "cod");
+  assert.equal(stored.shippingMethod, "easybox"); assert.equal(stored.shippingLocker.address, "Locker street");
+  assert.equal(stored.totalCents, 24360); assert.equal(stored.shippingCents, 1750); assert.equal(emails, 1);
+  const api = moduleAt("src/lib/sameday.ts", { "./sameday-protocol": protocol }, { process: { env: { SAMEDAY_MODE: "live", SAMEDAY_API_USERNAME: "test", SAMEDAY_API_PASSWORD: "test", SAMEDAY_PICKUP_POINT_ID: "1", SAMEDAY_CONTACT_PERSON_ID: "1", SAMEDAY_LOCKER_SERVICE_ID: "15" } } });
+  const payload = api.samedayPayload(stored, { weight: 2, width: 40, length: 40, height: 20 }, locker);
+  assert.equal(payload.cashOnDelivery, 243.6); assert.equal(payload.service, 15); assert.equal(payload.lockerLastMile, 2);
+  assert.equal(payload.cashOnDeliveryReturns, 1); assert.equal(payload.awbPayment, 1);
+});
+
+test("easybox COD emails state card at collection, unpaid total and the selected locker", async () => {
+  const messages = [];
+  const mail = moduleAt("src/lib/order-email.ts", {
+    "./store-info": { store: { deliveryEstimate: "1–3 zile lucrătoare" } },
+    "./money": { formatLeiCents: n => (n / 100).toFixed(2) },
+    "./shipping": shipping, "node:crypto": require("node:crypto"),
+    nodemailer: { default: { createTransport: () => ({ sendMail: async m => messages.push(m), close: () => {} }) } },
+  }, { process: { env: { STORE_SMTP_HOST: "smtp.test", STORE_SMTP_PORT: "465", STORE_SMTP_USER: "orders@test", SMTP_PASS: "test", STORE_SMTP_FROM: "orders@test", STORE_PUBLIC_URL: "https://estore.test" } } });
+  await mail.sendCodConfirmation({ id: "a".repeat(24), paymentMethod: "cod", status: "pending_cod", shippingMethod: "easybox", customer,
+    shippingLocker: { id: 2, name: "Verified locker", address: "Locker street", city: "Bucuresti", county: "Bucuresti" }, items: [], discountCents: 1190, shippingCents: 1750, totalCents: 24360 });
+  assert.equal(messages.length, 2);
+  for (const m of messages) { assert.match(m.text, /243.60/); assert.match(m.text, /cu cardul la ridicare/); assert.match(m.text, /Verified locker/); assert.doesNotMatch(m.text, /achită curierului/); }
+  assert.match(messages[0].text, /numerarul nu este acceptat/); assert.match(messages[1].text, /neîncasată/);
+});

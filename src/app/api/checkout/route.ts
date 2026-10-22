@@ -55,10 +55,10 @@ export async function POST(request: Request) {
   if (!input || typeof input !== "object") return NextResponse.json({ error: "Cerere invalidă." }, { status: 400 });
   const paymentMethod = input.paymentMethod ?? "card";
   if (!["card", "cod"].includes(paymentMethod)) return NextResponse.json({ error: "Alege plata cu cardul sau ramburs." }, { status: 400 });
-  if (!(paymentMethod === "cod" ? config.codReady : config.cardReady)) return NextResponse.json({ error: paymentMethod === "cod" ? "Plata ramburs nu este disponibilă momentan." : "Plata cu cardul este în curs de activare. Poți alege ramburs la domiciliu." }, { status: 503 });
+  if (!(paymentMethod === "cod" ? config.codReady : config.cardReady)) return NextResponse.json({ error: paymentMethod === "cod" ? "Plata ramburs nu este disponibilă momentan." : "Plata cu cardul este în curs de activare. Poți alege plata la livrare sau cu cardul la easybox." }, { status: 503 });
   const customer = input.customer ?? {};
   const shippingMethod = input.shippingMethod ?? "home";
-  if (paymentMethod === "cod" && (input.carrier !== "sameday" || shippingMethod !== "home")) return NextResponse.json({ error: "Plata ramburs este disponibilă numai la domiciliu prin Sameday." }, { status: 400 });
+  if (paymentMethod === "cod" && (input.carrier !== "sameday" || !["home", "easybox"].includes(shippingMethod))) return NextResponse.json({ error: "Plata ramburs este disponibilă prin Sameday, la domiciliu sau cu cardul la easybox." }, { status: 400 });
   if (paymentMethod === "card" && preview && !process.env.VERCEL_AUTOMATION_BYPASS_SECRET) return NextResponse.json({ error: "Notificările de plată nu sunt configurate pentru Preview." }, { status: 503 });
   const selectedShipping = config.shippingOptions.find((option) => option.carrier === input.carrier && (option.method || "home") === shippingMethod);
   const firstName = text(customer.firstName, 80);
@@ -114,6 +114,9 @@ export async function POST(request: Request) {
   const totalCents = quote.totals.totalCents + shippingCents;
   if (totalCents < 1 || totalCents > 9_999_999) {
     return NextResponse.json({ error: "Valoarea comenzii este invalidă." }, { status: 400 });
+  }
+  if (paymentMethod === "cod" && totalCents > (shippingMethod === "easybox" ? 1_000_000 : 500_000)) {
+    return NextResponse.json({ error: "Totalul ramburs poate fi de maximum 5.000 lei la domiciliu sau 10.000 lei la easybox." }, { status: 400 });
   }
   if (paymentMethod === "card" && process.env.EU_PLATESC_MODE !== "live" && totalCents > 100) {
     return NextResponse.json({ error: "Contul EuPlătesc acceptă momentan doar tranzacții de test de maximum 1 leu." }, { status: 503 });
