@@ -82,13 +82,15 @@ export async function samedayLocker(id: number) {
   return locker;
 }
 
-export function samedayPayload(order: { id: string; customer: Pick<StoreOrder["customer"], "firstName" | "lastName" | "phone" | "email" | "address" | "city" | "county" | "postalCode"> }, parcel: Parcel, locker?: SamedayLocker) {
+export function samedayPayload(order: { id: string; paymentMethod?: StoreOrder["paymentMethod"]; totalCents?: number; customer: Pick<StoreOrder["customer"], "firstName" | "lastName" | "phone" | "email" | "address" | "city" | "county" | "postalCode"> }, parcel: Parcel, locker?: SamedayLocker) {
   const config = samedayConfiguration();
   if (!(locker ? config.lockerReady : config.homeReady) || !validParcel(parcel) || (locker && !fitsEasybox(parcel))) throw new Error("Serviciul sau coletul Sameday nu este configurat corect.");
   const c = order.customer;
+  const cod = order.paymentMethod === "cod";
+  if (cod && (locker || !Number.isSafeInteger(order.totalCents) || order.totalCents! <= 0 || order.totalCents! > 9_999_999)) throw new Error("Comanda ramburs necesită un total valid și livrare la domiciliu.");
   return { pickupPoint: config.pickupPoint, contactPerson: config.contactPerson, packageType: 0, packageNumber: 1,
     packageWeight: parcel.weight, service: locker ? config.lockerService : config.homeService,
-    awbPayment: 1, cashOnDelivery: 0, insuredValue: 0, thirdPartyPickup: 0, currency: "RON",
+    awbPayment: 1, cashOnDelivery: cod ? order.totalCents! / 100 : 0, ...(cod ? { cashOnDeliveryReturns: 1 } : {}), insuredValue: 0, thirdPartyPickup: 0, currency: "RON",
     parcels: [parcel], clientInternalReference: `estore-${order.id}`,
     awbRecipient: { name: `${c.firstName} ${c.lastName}`, phoneNumber: c.phone, email: c.email, personType: 0,
       address: locker?.address || c.address, cityString: locker?.city || c.city, countyString: locker?.county || c.county,

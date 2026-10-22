@@ -4,6 +4,7 @@ import { getOrder } from "@/lib/orders";
 import { claimShipment, getShipment, saveShipment, type ShipmentRecord } from "@/lib/shipment-store";
 import { createSamedayAwb, estimateSameday, samedayConfiguration, samedayLabel, samedayList, samedayLocker, samedayPayload } from "@/lib/sameday";
 import { validParcel } from "@/lib/sameday-protocol";
+import { canShipOrder, isCodOrder } from "@/lib/payment-methods";
 export const runtime = "nodejs";
 const headers = { "Cache-Control": "no-store" };
 const denied = () => NextResponse.json({ error: "Acces interzis." }, { status: 401, headers });
@@ -41,14 +42,14 @@ export async function POST(request: Request) {
   const config = samedayConfiguration();
   try {
     const order = await getOrder(input.orderId);
-    if (!order || order.shippingCarrier !== "sameday" || order.testOrder || order.status !== "paid_review") {
-      return NextResponse.json({ error: "Expedierea este permisă numai pentru o comandă Sameday plătită, care nu este de test." }, { status: 409, headers });
+    if (!order || !canShipOrder(order)) {
+      return NextResponse.json({ error: "Este necesară o comandă Sameday plătită cu cardul sau ramburs la domiciliu, care nu este de test." }, { status: 409, headers });
     }
     if (config.mode !== "live") return NextResponse.json({ error: "Comenzile reale necesită API Sameday în modul live." }, { status: 409, headers });
     const locker = order.shippingMethod === "easybox" ? await samedayLocker(order.shippingLocker?.id || 0) : undefined;
     const payload = samedayPayload(order, input.parcel, locker);
     if (input.action === "estimate") return NextResponse.json(await estimateSameday(payload), { headers });
-    if (input.deliveryPermissionVerified !== true) return NextResponse.json({ error: "Verifică în EuPlătesc că livrarea este permisă înainte de emiterea AWB-ului." }, { status: 400, headers });
+    if (input.deliveryPermissionVerified !== true) return NextResponse.json({ error: isCodOrder(order) ? "Confirmă datele comenzii și suma de încasat la livrare." : "Verifică în EuPlătesc că livrarea este permisă înainte de emiterea AWB-ului." }, { status: 400, headers });
     if (process.env.SAMEDAY_AWB_ENABLED !== "true") return NextResponse.json({ error: "Emiterea AWB se activează separat după verificarea conexiunii și tarifelor." }, { status: 503, headers });
     const record: ShipmentRecord = { orderId: order.id, state: "creating", createdAt: new Date().toISOString(), mode: "live" };
     if (!await claimShipment(record)) {

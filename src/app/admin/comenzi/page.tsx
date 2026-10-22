@@ -5,6 +5,7 @@ import { useState } from "react";
 import type { ComplaintRequest, StoreOrder, WithdrawalRequest } from "@/lib/orders";
 import { formatLeiCents } from "@/lib/money";
 import { shippingCarrierLabels } from "@/lib/shipping";
+import { paymentMethodLabels } from "@/lib/payment-methods";
 
 export default function AdminOrdersPage() {
   const [token, setToken] = useState("");
@@ -18,6 +19,16 @@ export default function AdminOrdersPage() {
   const [emailStatus, setEmailStatus] = useState("");
   const [paymentChecks, setPaymentChecks] = useState<Record<string, string>>({});
   const [verifiedPayments, setVerifiedPayments] = useState<Record<string, boolean>>({});
+  const [notifyingCod, setNotifyingCod] = useState<string | null>(null);
+  async function notifyCod(orderId: string) {
+    setNotifyingCod(orderId);
+    try {
+      const response = await fetch("/api/admin/cod-notification", { method: "POST", headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" }, body: JSON.stringify({ orderId }) });
+      if (!response.ok) throw new Error();
+      setPaymentChecks((current) => ({ ...current, [orderId]: "Confirmarea ramburs a fost trimisă clientului și magazinului." }));
+    } catch { setPaymentChecks((current) => ({ ...current, [orderId]: "Emailul nu a putut fi confirmat. Comanda este salvată; verifică SMTP." })); }
+    finally { setNotifyingCod(null); }
+  }
   async function loadOrders() {
     setError("");
     const response = await fetch("/api/admin/orders", { headers: { Authorization: `Bearer ${token}` }, cache: "no-store" });
@@ -130,12 +141,14 @@ export default function AdminOrdersPage() {
     {orders && <section className="mt-7 rounded-lg border p-4 text-sm"><h2 className="font-semibold">Emailuri pentru comenzi: orders@estorehouse.ro</h2><div className="mt-3 flex flex-wrap gap-3"><button onClick={() => void checkEmail()} disabled={checkingEmail} className="rounded-lg bg-[#3b2d24] px-4 py-2 text-white disabled:opacity-50">{checkingEmail ? "Se verifică…" : "Verifică conexiunea SMTP"}</button><button onClick={() => void sendEmailTest()} disabled={sendingEmailTest} className="rounded-lg border border-[#3b2d24] px-4 py-2 disabled:opacity-50">{sendingEmailTest ? "Se trimite…" : "Trimite email de test"}</button></div>{emailStatus && <p className="mt-3" role="status">{emailStatus}</p>}</section>}
     {orders && <section className="mt-7 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm"><h2 className="font-semibold">Test privat EuPlătesc — 1 leu</h2><p className="mt-2">Disponibil numai pe Preview, în modul test. Creează o comandă marcată „NU EXPEDIAȚI” și te duce la pagina securizată EuPlătesc. Plata efectivă se confirmă acolo de titularul cardului.</p><button onClick={() => void startPaymentTest()} disabled={startingTest} className="mt-3 rounded-lg bg-[#3b2d24] px-4 py-2 text-white disabled:opacity-50">{startingTest ? "Se pregătește…" : "Pregătește plata de test de 1 leu"}</button></section>}
     {orders && <div className="mt-8 space-y-4"><h2 className="text-xl font-semibold">Cereri de retragere</h2>{withdrawals.length === 0 ? <p>Nu există cereri de retragere.</p> : withdrawals.map((item) => <article key={item.id} className="rounded-lg border border-amber-300 p-4"><strong>Comanda {item.orderId || "nespecificată"}</strong><p>{item.name} · {item.email}</p><p>Produse: {item.products}</p><p>Adresă: {item.address}</p><p>Primită la {new Date(item.submittedAt).toLocaleString("ro-RO")}</p></article>)}<h2 className="pt-5 text-xl font-semibold">Reclamații</h2>{complaints.length === 0 ? <p>Nu există reclamații.</p> : complaints.map((item) => <article key={item.id} className="rounded-lg border border-amber-300 p-4"><strong>Reclamația {item.id}</strong><p>{item.name} · {item.email} · {item.phone}</p><p>Comanda: {item.orderId || "nespecificată"}</p><p>{item.issue}</p><p>Primită la {new Date(item.submittedAt).toLocaleString("ro-RO")}</p></article>)}<h2 className="pt-5 text-xl font-semibold">Comenzi</h2>{orders.length === 0 ? <p>Nu există comenzi.</p> : orders.map((order) => <article key={order.id} className="rounded-lg border p-4">
-      <h2 className="font-semibold">{order.testOrder ? "TEST — NU EXPEDIAȚI · " : ""}Comanda {order.id} · {order.status === "paid_review" ? "Plătită — verifică permisiunea de livrare în EuPlătesc" : order.status === "payment_failed" ? "Plată eșuată" : "În așteptarea plății"}</h2>
+      <h2 className="font-semibold">{order.testOrder ? "TEST — NU EXPEDIAȚI · " : ""}Comanda {order.id} · {order.status === "pending_cod" ? "RAMBURS — de încasat la livrare" : order.status === "paid_review" ? "Plătită — verifică permisiunea de livrare în EuPlătesc" : order.status === "payment_failed" ? "Plată eșuată" : "În așteptarea plății"}</h2>
+      <p className="mt-2 text-sm">Metodă de plată: {paymentMethodLabels[order.paymentMethod || "card"]}</p>
       <p className="mt-2 text-sm">{order.customer.firstName} {order.customer.lastName} · {order.customer.email} · {order.customer.phone}</p>
       <p className="text-sm">{order.customer.address}, {order.customer.city}, {order.customer.county}, {order.customer.postalCode}</p>
       <p className="text-sm">Curier: {order.shippingCarrier ? shippingCarrierLabels[order.shippingCarrier] : "de confirmat"} {order.shippingMethod === "easybox" ? "easybox" : "domiciliu"} · Transport: {formatLeiCents(order.shippingCents)} lei</p>
       <ul className="mt-3 text-sm">{order.items.map((item) => <li key={item.productId}>{item.quantity} × {item.name} · {formatLeiCents(item.unitPriceCents)} lei</li>)}</ul>
       <p className="mt-2 font-medium">Total: {formatLeiCents(order.totalCents)} lei</p>
+      {order.status === "pending_cod" && <button disabled={notifyingCod === order.id} onClick={() => void notifyCod(order.id)} className="mt-3 rounded-lg border border-[#3b2d24] px-3 py-2 disabled:opacity-50">{notifyingCod === order.id ? "Se verifică…" : "Verifică / trimite confirmarea ramburs"}</button>}
       {order.status === "pending_payment" && <button onClick={() => void checkPayment(order.id)} className="mt-3 rounded-lg border border-[#3b2d24] px-3 py-2">Verifică plata la EuPlătesc</button>}
       {order.testOrder && order.status === "pending_payment" && verifiedPayments[order.id] && <button onClick={() => void reconcileTestPayment(order.id)} className="ml-2 mt-3 rounded-lg bg-[#3b2d24] px-3 py-2 text-white">Sincronizează plata de test</button>}
       {paymentChecks[order.id] && <p className="mt-2" role="status">{paymentChecks[order.id]}</p>}

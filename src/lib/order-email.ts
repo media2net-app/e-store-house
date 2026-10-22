@@ -91,6 +91,20 @@ export async function sendPaymentConfirmation(order: StoreOrder) {
   ]);
 }
 
+export async function sendCodConfirmation(order: StoreOrder) {
+  if (order.paymentMethod !== "cod" || order.status !== "pending_cod") throw new Error("Comanda nu este ramburs.");
+  const lines = order.items.map((item) => `${item.quantity} × ${item.name}: ${formatLeiCents(item.quantity * item.unitPriceCents)} lei`).join("\n");
+  const total = formatLeiCents(order.totalCents);
+  const base = process.env.STORE_PUBLIC_URL;
+  const summary = `${lines}\nReducere: ${formatLeiCents(order.discountCents)} lei\nTransport Sameday la domiciliu: ${formatLeiCents(order.shippingCents)} lei\nTotal de achitat la curier: ${total} lei\nPlată: ramburs la domiciliu\nTermen estimat: ${store.deliveryEstimate ?? "de comunicat"}`;
+  const customerText = `Bună ziua, ${order.customer.firstName},\n\nAm înregistrat comanda ${order.id}, cu plata ramburs la domiciliu. Plata nu se face online; suma de ${total} lei se achită curierului la livrare.\n\n${summary}\n${store.taxNotice ?? ""}\n\nAdresă livrare: ${order.customer.address}, ${order.customer.city}, ${order.customer.county}, ${order.customer.postalCode}\n\nStatus comandă: ${base}/plata/rezultat?order=${order.id}\nLivrare și retur: ${base}/livrare-retur\nRetragere: ${base}/retragere\nGaranția legală: ${base}/garantie-legala\nTermeni: ${base}/termeni-si-conditii\n\n${store.name}, CUI ${store.cui}, ${store.registration}\n${store.address}\nContact: ${store.email}`;
+  const merchantText = `Comandă RAMBURS ${order.id} — neîncasată\n\n${summary}\n\nClient: ${order.customer.firstName} ${order.customer.lastName}\nEmail: ${order.customer.email}\nTelefon: ${order.customer.phone}\nAdresă: ${order.customer.address}, ${order.customer.city}, ${order.customer.county}, ${order.customer.postalCode}\nFacturare: ${order.customer.billingName}, ${order.customer.billingAddress}, ${order.customer.billingCity}, ${order.customer.billingCounty}, ${order.customer.billingPostalCode}${order.customer.billingCompany ? `\nFirmă: ${order.customer.billingCompany}` : ""}${order.customer.billingCui ? `\nCUI: ${order.customer.billingCui}` : ""}\n\nLa emiterea AWB, Sameday trebuie să încaseze ${total} lei. Verifică datele comenzii și coletul înainte de expediere.\nComenzi: ${base}/admin/comenzi`;
+  await Promise.all([
+    send(order.customer.email, `Confirmare comandă ramburs E-Store House — ${order.id}`, customerText, `customer-cod-${order.id}`),
+    send(merchantInbox(), `Comandă RAMBURS ${order.id}`, merchantText, `merchant-cod-${order.id}`),
+  ]);
+}
+
 export async function sendWithdrawalReceipt(request: WithdrawalRequest) {
   const submitted = new Date(request.submittedAt).toLocaleString("ro-RO", { timeZone: "Europe/Bucharest", dateStyle: "medium", timeStyle: "short" });
   const text = `Cererea de retragere a fost primită la ${submitted}.\n\nNumăr cerere: ${request.id}\nComandă / data comenzii: ${request.orderId || "nespecificată"}\nData primirii produselor: ${request.receivedAt || "nespecificată"}\nNume: ${request.name}\nE-mail: ${request.email}\nProduse: ${request.products}\nAdresă: ${request.address}\n\nVom analiza cererea și îți vom comunica pașii pentru retur. Aceasta este confirmarea primirii declarației de retragere, nu confirmarea rambursării.\n\nE-Store House`;

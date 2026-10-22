@@ -22,6 +22,7 @@ type CartContextValue = {
   addItem: (product: Product, quantity: number) => void;
   removeItem: (productId: number) => void;
   updateQuantity: (productId: number, quantity: number) => void;
+  clearCart: () => void;
   openCart: () => void; closeCart: () => void;
 };
 const CartContext = createContext<CartContextValue | null>(null);
@@ -104,7 +105,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const totalItems = items.reduce((sum, item) => sum + item.quantity, 0);
   const totals = cartOffers(items);
   const money = (cents: number) => formatProductPrice(cents / 100, "RON");
-  return <CartContext.Provider value={{ items, isOpen, totalItems, addItem, removeItem, updateQuantity,
+  return <CartContext.Provider value={{ items, isOpen, totalItems, addItem, removeItem, updateQuantity, clearCart: () => setItems([]),
     openCart: () => setIsOpen(true), closeCart: () => setIsOpen(false) }}>
     {children}
     <div className={"cart-overlay " + (isOpen ? "cart-overlay-open" : "")} onClick={() => setIsOpen(false)} aria-hidden={!isOpen} inert={!isOpen}>

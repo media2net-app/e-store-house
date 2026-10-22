@@ -3,13 +3,15 @@ import { createSupabaseComplaint, createSupabaseOrder, createSupabaseWithdrawal,
   markSupabasePaymentEmailSent, recordSupabasePayment, supabasePaymentEmailSent } from "./supabase-orders";
 import type { ShippingCarrier, ShippingMethod } from "./shipping";
 
-export type OrderStatus = "pending_payment" | "payment_failed" | "paid_review";
+export type OrderStatus = "pending_payment" | "payment_failed" | "paid_review" | "pending_cod";
 
 export type StoreOrder = {
   id: string;
   createdAt: string;
   status: OrderStatus;
   testOrder?: boolean;
+  paymentMethod?: import("./payment-methods").PaymentMethod;
+  checkoutFingerprint?: string;
   customer: {
     firstName: string;
     lastName: string;
@@ -91,7 +93,8 @@ async function redis(command: unknown[]) {
   return result.result;
 }
 
-const key = (id: string) => `estore:order:${id}`;
+export const orderStoragePrefix = () => process.env.VERCEL_ENV === "production" ? "estore:production" : "estore";
+const key = (id: string) => `${orderStoragePrefix()}:order:${id}`;
 const retentionSeconds = 7 * 365 * 24 * 60 * 60;
 
 export async function createOrder(order: StoreOrder) {
@@ -101,7 +104,7 @@ export async function createOrder(order: StoreOrder) {
   return 1
 end
 return 0`;
-  const result = await redis(["EVAL", script, "2", key(order.id), "estore:orders", JSON.stringify(order), Date.parse(order.createdAt), order.id, retentionSeconds]);
+  const result = await redis(["EVAL", script, "2", key(order.id), `${orderStoragePrefix()}:orders`, JSON.stringify(order), Date.parse(order.createdAt), order.id, retentionSeconds]);
   if (result !== 1) throw new Error("Numărul comenzii este deja folosit.");
 }
 
@@ -118,6 +121,7 @@ export async function recordPayment(id: string, action: "0" | "failed", paymentI
   const script = `local raw = redis.call('GET', KEYS[1])
 if not raw then return 0 end
 local order = cjson.decode(raw)
+if order.paymentMethod == 'cod' or order.status == 'pending_cod' then return 0 end
 if order.status == 'paid_review' then return 1 end
 if ARGV[1] == '0' then
   order.status = 'paid_review'
@@ -132,7 +136,7 @@ return 1`;
 
 export async function listOrders(): Promise<StoreOrder[]> {
   if (hasSupabaseStorage()) return listSupabaseOrders();
-  const ids = await redis(["ZREVRANGE", "estore:orders", "0", "49"]);
+  const ids = await redis(["ZREVRANGE", `${orderStoragePrefix()}:orders`, "0", "49"]);
   if (!Array.isArray(ids) || ids.length === 0) return [];
   const values = await redis(["MGET", ...ids.map((id) => key(String(id)))]);
   return Array.isArray(values) ? values.filter((value): value is string => typeof value === "string")
@@ -141,32 +145,32 @@ export async function listOrders(): Promise<StoreOrder[]> {
 
 export async function paymentEmailSent(id: string) {
   if (hasSupabaseStorage()) return supabasePaymentEmailSent(id);
-  return await redis(["GET", `estore:payment-email:${id}`]) === "1";
+  return await redis(["GET", `${orderStoragePrefix()}:payment-email:${id}`]) === "1";
 }
 
 export async function markPaymentEmailSent(id: string) {
   if (hasSupabaseStorage()) return markSupabasePaymentEmailSent(id);
-  await redis(["SET", `estore:payment-email:${id}`, "1"]);
+  await redis(["SET", `${orderStoragePrefix()}:payment-email:${id}`, "1"]);
 }
 
 export async function createWithdrawal(request: WithdrawalRequest): Promise<WithdrawalRequest> {
   if (hasSupabaseStorage()) return createSupabaseWithdrawal(request);
-  const withdrawalKey = `estore:withdrawal:${request.id}`;
+  const withdrawalKey = `${orderStoragePrefix()}:withdrawal:${request.id}`;
   const script = `local existing = redis.call('GET', KEYS[1])
 if existing then return existing end
 redis.call('SET', KEYS[1], ARGV[1], 'EX', ARGV[4])
 redis.call('ZADD', KEYS[2], ARGV[2], ARGV[3])
 return ARGV[1]`;
-  const result = await redis(["EVAL", script, "2", withdrawalKey, "estore:withdrawals", JSON.stringify(request), Date.parse(request.submittedAt), request.id, retentionSeconds]);
+  const result = await redis(["EVAL", script, "2", withdrawalKey, `${orderStoragePrefix()}:withdrawals`, JSON.stringify(request), Date.parse(request.submittedAt), request.id, retentionSeconds]);
   if (typeof result !== "string") throw new Error("Cererea nu a putut fi înregistrată.");
   return JSON.parse(result) as WithdrawalRequest;
 }
 
 export async function listWithdrawals(): Promise<WithdrawalRequest[]> {
   if (hasSupabaseStorage()) return listSupabaseWithdrawals();
-  const ids = await redis(["ZREVRANGE", "estore:withdrawals", "0", "49"]);
+  const ids = await redis(["ZREVRANGE", `${orderStoragePrefix()}:withdrawals`, "0", "49"]);
   if (!Array.isArray(ids) || ids.length === 0) return [];
-  const values = await redis(["MGET", ...ids.map((id) => `estore:withdrawal:${id}`)]);
+  const values = await redis(["MGET", ...ids.map((id) => `${orderStoragePrefix()}:withdrawal:${id}`)]);
   return Array.isArray(values) ? values.filter((value): value is string => typeof value === "string")
     .map((value) => JSON.parse(value) as WithdrawalRequest) : [];
 }
@@ -178,7 +182,7 @@ if existing then return existing end
 redis.call('SET', KEYS[1], ARGV[1], 'EX', ARGV[4])
 redis.call('ZADD', KEYS[2], ARGV[2], ARGV[3])
 return ARGV[1]`;
-  const result = await redis(["EVAL", script, "2", `estore:complaint:${request.id}`, "estore:complaints",
+  const result = await redis(["EVAL", script, "2", `${orderStoragePrefix()}:complaint:${request.id}`, `${orderStoragePrefix()}:complaints`,
     JSON.stringify(request), Date.parse(request.submittedAt), request.id, retentionSeconds]);
   if (typeof result !== "string") throw new Error("Reclamația nu a putut fi înregistrată.");
   return JSON.parse(result) as ComplaintRequest;
@@ -186,9 +190,9 @@ return ARGV[1]`;
 
 export async function listComplaints(): Promise<ComplaintRequest[]> {
   if (hasSupabaseStorage()) return listSupabaseComplaints();
-  const ids = await redis(["ZREVRANGE", "estore:complaints", "0", "49"]);
+  const ids = await redis(["ZREVRANGE", `${orderStoragePrefix()}:complaints`, "0", "49"]);
   if (!Array.isArray(ids) || ids.length === 0) return [];
-  const values = await redis(["MGET", ...ids.map((id) => `estore:complaint:${id}`)]);
+  const values = await redis(["MGET", ...ids.map((id) => `${orderStoragePrefix()}:complaint:${id}`)]);
   return Array.isArray(values) ? values.filter((value): value is string => typeof value === "string")
     .map((value) => JSON.parse(value) as ComplaintRequest) : [];
 }

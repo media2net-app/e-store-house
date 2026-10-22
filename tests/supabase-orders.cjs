@@ -51,6 +51,10 @@ test("Supabase order writes are idempotent and payment state cannot regress", as
   assert.equal(await exports.recordSupabasePayment(id, "0", "payment-1"), true);
   assert.equal(await exports.recordSupabasePayment(id, "failed", "payment-2"), true);
   assert.equal((await exports.getSupabaseOrder(id)).status, "paid_review");
+  const cod = { ...order, id: "c".repeat(24), status: "pending_cod", paymentMethod: "cod" };
+  await exports.createSupabaseOrder(cod);
+  assert.equal(await exports.recordSupabasePayment(cod.id, "0", "wrong-card-payment"), false);
+  assert.equal((await exports.getSupabaseOrder(cod.id)).status, "pending_cod");
   await exports.markSupabasePaymentEmailSent(id);
   assert.equal(await exports.supabasePaymentEmailSent(id), true);
   const request = { id: "b".repeat(24), orderId: id, submittedAt: order.createdAt,

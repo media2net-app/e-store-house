@@ -1,9 +1,9 @@
 import "server-only";
-import { orderStorageCommand } from "./orders";
+import { orderStorageCommand, orderStoragePrefix } from "./orders";
 import { hasSupabaseStorage, supabaseQuery } from "./supabase-orders";
 export type ShipmentRecord = { orderId: string; state: "creating" | "created" | "unknown"; createdAt: string;
   awbNumber?: string; costRon?: number | null; mode: "live" | "test" };
-const key = (id: string) => `estore:sameday-shipment:${id}`;
+const key = (id: string) => `${orderStoragePrefix()}:sameday-shipment:${id}`;
 const path = (id: string) => `estore_shipments?order_id=eq.${id}`;
 
 export async function getShipment(id: string): Promise<ShipmentRecord | null> {

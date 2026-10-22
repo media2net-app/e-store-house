@@ -15,7 +15,7 @@ export async function POST(request: Request) {
   if (!verifyPaymentResponse(fields, key, merchantId)) return new Response("Invalid signature", { status: 400 });
   try {
     const order = await getOrder(fields.invoice_id);
-    if (!order || fields.curr !== "RON" || fields.amount !== (order.totalCents / 100).toFixed(2)) {
+    if (!order || order.paymentMethod === "cod" || order.status === "pending_cod" || fields.curr !== "RON" || fields.amount !== (order.totalCents / 100).toFixed(2)) {
       return new Response("Unknown order", { status: 400 });
     }
     if (!await recordPayment(order.id, fields.action === "0" ? "0" : "failed", fields.ep_id)) {

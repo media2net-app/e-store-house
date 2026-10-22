@@ -82,9 +82,10 @@ test("checkout charges the signed total, rejects stale address and preserves ord
   const route = moduleAt("src/app/api/checkout/route.ts", {
     "node:crypto": require("node:crypto"), "next/server": { NextResponse: Response },
     "@/lib/cart-quote": { quoteCart: () => quote },
+    "@/lib/order-email": { sendCodConfirmation: async () => {} },
     "@/lib/euplatesc": { createPaymentFields: (value) => { assert.equal(value.amount, "253.82"); return { amount: value.amount }; }, paymentCallbackUrl: () => "https://estore.test/api/euplatesc/callback" },
     "@/lib/orders": { createOrder: async (value) => { if (stored) throw new Error("duplicate"); stored = value; }, getOrder: async () => stored },
-    "@/lib/checkout-config": { checkoutConfiguration: () => ({ ready: true, publicUrl: "https://estore.test", shippingOptions: options }) },
+    "@/lib/checkout-config": { checkoutConfiguration: () => ({ ready: true, cardReady: true, codReady: true, publicUrl: "https://estore.test", shippingOptions: options }) },
     "@/lib/sameday": {}, "@/lib/sameday-protocol": protocol, "@/data/shipping-packages.json": { default: {} },
     "@/lib/shipping": shipping, "@/lib/checkout-shipping": helpers, "@/lib/shipping-quote-token": tokens,
   }, { process: { env: { STORE_CHECKOUT_ENABLED: "true", STORE_ADMIN_TOKEN: "secret", EU_PLATESC_MODE: "live" } } });
@@ -107,4 +108,41 @@ test("production checkout cannot become ready with test payment credentials", ()
   assert.equal(config.checkoutConfiguration().ready, false);
   environment.EU_PLATESC_MODE = "live";
   assert.equal(config.checkoutConfiguration().ready, true);
+});
+
+test("COD places one unpaid home-delivery order without any EuPlatesc credentials or calls", async () => {
+  const helpers = resolver();
+  const signed = tokens.issueShippingQuote(helpers.shippingQuoteBinding(quote, customer, "sameday", "home", undefined, "cod"), { cents: 2772, source: "fixed" }, "secret");
+  let stored, notifications = 0;
+  const route = moduleAt("src/app/api/checkout/route.ts", {
+    "node:crypto": require("node:crypto"), "next/server": { NextResponse: Response }, "@/lib/cart-quote": { quoteCart: () => quote },
+    "@/lib/euplatesc": { createPaymentFields: () => { throw new Error("COD must not contact EuPlatesc"); } },
+    "@/lib/order-email": { sendCodConfirmation: async () => { notifications++; } },
+    "@/lib/orders": { createOrder: async (value) => { if (stored) throw new Error("duplicate"); stored = value; }, getOrder: async () => stored, markPaymentEmailSent: async () => {} },
+    "@/lib/checkout-config": { checkoutConfiguration: () => ({ ready: true, codReady: true, cardReady: false, publicUrl: "https://estore.test", shippingOptions: options }) },
+    "@/lib/sameday": {}, "@/lib/sameday-protocol": protocol, "@/data/shipping-packages.json": { default: {} },
+    "@/lib/shipping": shipping, "@/lib/checkout-shipping": helpers, "@/lib/shipping-quote-token": tokens,
+  }, { process: { env: { STORE_ADMIN_TOKEN: "secret", VERCEL_ENV: "preview" } } });
+  const request = (extra = {}) => new Request("https://estore.test/api/checkout", { method: "POST", body: JSON.stringify({ items: [{ productId: 1, quantity: 2 }], customer, carrier: "sameday", shippingMethod: "home", paymentMethod: "cod", shippingQuoteToken: signed.token, acceptedTerms: true, intentId: "12345678-1234-1234-1234-123456789012", ...extra }) });
+  assert.equal((await route.POST(request({ shippingMethod: "easybox" }))).status, 400);
+  assert.equal((await route.POST(request({ paymentMethod: "card" }))).status, 503);
+  const first = await route.POST(request());
+  assert.equal(first.status, 200);
+  const result = await first.json();
+  assert.equal(result.fields, undefined); assert.equal(result.redirectUrl, `/plata/rezultat?order=${stored.id}`);
+  assert.equal(stored.status, "pending_cod"); assert.equal(stored.paymentMethod, "cod"); assert.equal(stored.totalCents, 25382);
+  assert.equal((await route.POST(request())).status, 200);
+  assert.equal(notifications, 1);
+  assert.equal(tokens.verifyShippingQuote(signed.token, helpers.shippingQuoteBinding(quote, customer, "sameday", "home", undefined, "card"), "secret"), null);
+});
+
+test("COD readiness is independent of online card activation", () => {
+  const environment = { STORE_COD_ENABLED: "true", VERCEL_ENV: "production", STORE_SAMEDAY_ENABLED: "true", STORE_SAMEDAY_SHIPPING_RON: "27.72", STORE_PUBLIC_URL: "https://estore.test", STORE_ADMIN_TOKEN: "secret",
+    NEXT_PUBLIC_STORE_SUPPORT_PHONE: "0729758396", NEXT_PUBLIC_STORE_SUPPORT_EMAIL: "contact@estore.test", NEXT_PUBLIC_STORE_SHIPPING_DESCRIPTION: "Shown at checkout", NEXT_PUBLIC_STORE_VAT_STATUS: "not_registered", NEXT_PUBLIC_STORE_DELIVERY_ESTIMATE: "1–3 zile lucrătoare" };
+  const config = moduleAt("src/lib/checkout-config.ts", { "./sameday": { samedayConfiguration: () => ({ mode: "live", homeReady: true, lockerReady: true }) }, "./supabase-orders": { hasSupabaseStorage: () => false },
+    "./orders": { hasRedisStorage: () => true }, "./order-email": { hasTransactionalEmail: () => true }, "./shipping": shipping,
+  }, { process: { env: environment } });
+  assert.equal(config.checkoutConfiguration().ready, true);
+  assert.equal(config.checkoutConfiguration().codReady, true);
+  assert.equal(config.checkoutConfiguration().cardReady, false);
 });

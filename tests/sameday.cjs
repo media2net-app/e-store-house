@@ -12,6 +12,7 @@ function moduleAt(file, dependencies = {}, extra = {}) {
   return exports;
 }
 const protocol = moduleAt("src/lib/sameday-protocol.ts");
+const methods = moduleAt("src/lib/payment-methods.ts");
 const bedding = (quantity, extra = {}) => ({ name: "Lenjerie cu husă pentru saltea", category: "LENJERII DE PAT", sku: "123", quantity, ...extra });
 test("easybox permits 1–3 bedding sets, counts mixed SKUs and bundle sets", () => {
   assert.equal(protocol.easyboxEligibility([bedding(3)], {}), true);
@@ -76,6 +77,18 @@ test("a missing provider amount cannot be interpreted as free shipping", async (
     url.endsWith("authenticate") ? Response.json({ token: "token" }) : Response.json({ amount: null, currency: "Ron" }) });
   await assert.rejects(api.estimateSameday({}));
 });
+test("COD AWB collects the full stored order total, while card AWBs collect zero", () => {
+  const api = moduleAt("src/lib/sameday.ts", { "./sameday-protocol": protocol }, { process: { env } });
+  const parcel = { weight: 2.4, width: 40, length: 40, height: 10 };
+  const payload = api.samedayPayload({ ...order, paymentMethod: "cod", totalCents: 34672 }, parcel);
+  assert.equal(payload.cashOnDelivery, 346.72); assert.equal(payload.cashOnDeliveryReturns, 1); assert.equal(payload.awbPayment, 1);
+  assert.equal(api.samedayPayload({ ...order, paymentMethod: "card", totalCents: 34672 }, parcel).cashOnDelivery, 0);
+  assert.throws(() => api.samedayPayload({ ...order, paymentMethod: "cod", totalCents: 0 }, parcel));
+  assert.throws(() => api.samedayPayload({ ...order, paymentMethod: "cod", totalCents: 34672 }, parcel, { id: 2 }));
+  assert.equal(methods.canShipOrder({ ...order, paymentMethod: "cod", status: "pending_cod", shippingMethod: "home" }), true);
+  assert.equal(methods.canShipOrder({ ...order, paymentMethod: "cod", status: "pending_cod", shippingMethod: "easybox" }), false);
+  assert.equal(methods.canShipOrder({ ...order, paymentMethod: "cod", status: "paid_review" }), false);
+});
 test("API refreshes expired token only on reads and fully paginates locker data", async () => {
   let authCalls = 0, reads = 0;
   const api = moduleAt("src/lib/sameday.ts", { "./sameday-protocol": protocol }, { process: { env }, fetch: async (url) => {
@@ -93,7 +106,7 @@ test("admin AWB flow rejects test/unpaid orders, reserves durably and blocks a d
   let claimed = false, creations = 0, stored = null, currentOrder = { ...order, testOrder: true };
   const route = moduleAt("src/app/api/admin/sameday/route.ts", {
     "next/server": { NextResponse: Response }, "@/lib/admin-auth": { isStoreAdmin: () => true },
-    "@/lib/orders": { getOrder: async () => currentOrder }, "@/lib/sameday-protocol": protocol,
+    "@/lib/payment-methods": methods, "@/lib/orders": { getOrder: async () => currentOrder }, "@/lib/sameday-protocol": protocol,
     "@/lib/shipment-store": { claimShipment: async () => { if (claimed) return false; claimed = true; return true; }, getShipment: async () => stored, saveShipment: async (r) => { stored = r; } },
     "@/lib/sameday": { samedayConfiguration: () => ({ mode: "live" }), samedayPayload: () => ({}), createSamedayAwb: async () => { creations++; return { awbNumber: "TEST123456" }; } },
   }, { process: { env: { SAMEDAY_AWB_ENABLED: "true" } } });
@@ -110,7 +123,7 @@ test("uncertain AWB outcome remains reserved and requires manual eAWB reconcilia
   let stored, creations = 0;
   const route = moduleAt("src/app/api/admin/sameday/route.ts", {
     "next/server": { NextResponse: Response }, "@/lib/admin-auth": { isStoreAdmin: () => true },
-    "@/lib/orders": { getOrder: async () => order }, "@/lib/sameday-protocol": protocol,
+    "@/lib/payment-methods": methods, "@/lib/orders": { getOrder: async () => order }, "@/lib/sameday-protocol": protocol,
     "@/lib/shipment-store": { claimShipment: async () => !stored, getShipment: async () => stored, saveShipment: async (r) => { stored = r; } },
     "@/lib/sameday": { samedayConfiguration: () => ({ mode: "live" }), samedayPayload: () => ({}), createSamedayAwb: async () => { creations++; throw new Error("timeout"); } },
   }, { process: { env: { SAMEDAY_AWB_ENABLED: "true" } } });
@@ -127,9 +140,10 @@ test("checkout independently rechecks the cart limit and provider locker, ignori
   const route = moduleAt("src/app/api/checkout/route.ts", {
     "node:crypto": require("node:crypto"), "next/server": { NextResponse: Response },
     "@/lib/cart-quote": { quoteCart: () => ({ lines: [{ ...bedding(quantity), productId: 1, price: 119 }], totals: { totalCents: 11900 * quantity, subtotalCents: 11900 * quantity, discountCents: 0, freeShipping: false } }) },
+    "@/lib/order-email": { sendCodConfirmation: async () => {} },
     "@/lib/euplatesc": { createPaymentFields: () => ({}), paymentCallbackUrl: () => "https://estore.test/api/euplatesc/callback" },
     "@/lib/orders": { createOrder: async (value) => { stored = value; } },
-    "@/lib/checkout-config": { checkoutConfiguration: () => ({ ready: true, publicUrl: "https://estore.test", shippingOptions: [{ carrier: "sameday", method: "easybox", priceRon: 19 }] }) },
+    "@/lib/checkout-config": { checkoutConfiguration: () => ({ ready: true, cardReady: true, codReady: true, publicUrl: "https://estore.test", shippingOptions: [{ carrier: "sameday", method: "easybox", priceRon: 19 }] }) },
     "@/lib/sameday": { samedayLocker: async (id) => { checkedLocker++; if (id !== 123) throw new Error(); return locker; } },
     "@/lib/sameday-protocol": protocol, "@/data/shipping-packages.json": {}, "@/lib/shipping": shipping,
     "@/lib/checkout-shipping": { shippingQuoteBinding: () => "verified-binding" },

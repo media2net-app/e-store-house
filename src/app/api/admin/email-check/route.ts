@@ -11,12 +11,10 @@ export async function POST(request: Request) {
     createHash("sha256").update(configured).digest(),
     createHash("sha256").update(supplied).digest(),
   )) return NextResponse.json({ error: "Acces interzis." }, { status: 401 });
-  if (process.env.VERCEL_ENV !== "preview") {
-    return NextResponse.json({ error: "Disponibil doar în Preview." }, { status: 404 });
-  }
   try {
-    await verifySmtpConnection();
     const body = await request.json().catch(() => ({})) as { sendTest?: boolean };
+    if (body.sendTest === true && process.env.VERCEL_ENV !== "preview") return NextResponse.json({ error: "Trimiterea de test este disponibilă doar în Preview." }, { status: 404 });
+    await verifySmtpConnection();
     if (body.sendTest === true) await sendPreviewEmailTest();
     return NextResponse.json({ ok: true }, { headers: { "Cache-Control": "no-store" } });
   } catch {

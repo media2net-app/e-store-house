@@ -21,12 +21,7 @@ export function checkoutConfiguration() {
     shippingOptions.push({ carrier: "sameday", method: "easybox", label: "Sameday easybox", priceRon: Number(lockerPrice), dynamic: process.env.STORE_SAMEDAY_DYNAMIC_RATES === "true" });
   }
   const publicUrl = process.env.STORE_PUBLIC_URL;
-  const ready = process.env.STORE_CHECKOUT_ENABLED === "true"
-    && !!process.env.EU_PLATESC_MERCHANT_ID
-    && !!process.env.EU_PLATESC_KEY
-    && ["test", "live"].includes(process.env.EU_PLATESC_MODE || "")
-    && (process.env.VERCEL_ENV !== "production" || process.env.EU_PLATESC_MODE === "live")
-    && (hasSupabaseStorage() || hasRedisStorage())
+  const operational = (hasSupabaseStorage() || hasRedisStorage())
     && hasTransactionalEmail()
     && !!process.env.STORE_ADMIN_TOKEN
     && !!process.env.NEXT_PUBLIC_STORE_SUPPORT_PHONE?.trim()
@@ -36,5 +31,11 @@ export function checkoutConfiguration() {
     && !!process.env.NEXT_PUBLIC_STORE_DELIVERY_ESTIMATE?.trim()
     && shippingOptions.length > 0
     && !!publicUrl && /^https:\/\/[^/]+$/.test(publicUrl);
-  return { ready, shippingOptions, publicUrl };
+  const cardReady = operational && process.env.STORE_CHECKOUT_ENABLED === "true"
+    && !!process.env.EU_PLATESC_MERCHANT_ID && !!process.env.EU_PLATESC_KEY
+    && process.env.EU_PLATESC_MODE === "live"
+    && (process.env.VERCEL_ENV !== "preview" || !!process.env.VERCEL_AUTOMATION_BYPASS_SECRET);
+  const codReady = operational && process.env.STORE_COD_ENABLED === "true" && samedayConfiguration().mode === "live"
+    && shippingOptions.some((option) => option.carrier === "sameday" && (option.method || "home") === "home");
+  return { ready: cardReady || codReady, cardReady, codReady, shippingOptions, publicUrl };
 }

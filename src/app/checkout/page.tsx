@@ -8,5 +8,5 @@ export const metadata = { title: "Finalizarea comenzii", robots: { index: false,
 
 export default function CheckoutPage() {
   const config = checkoutConfiguration();
-  return <><TrustBar /><Header /><CheckoutForm shippingOptions={config.shippingOptions} enabled={config.ready} /><Footer /></>;
+  return <><TrustBar /><Header /><CheckoutForm shippingOptions={config.shippingOptions} cardEnabled={config.cardReady} codEnabled={config.codReady} /><Footer /></>;
 }

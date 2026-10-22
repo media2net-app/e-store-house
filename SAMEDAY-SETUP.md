@@ -63,3 +63,13 @@ Local TypeScript, lint, production build and automated tests cover the packing r
 Official protocol reference: [Sameday Courier PHP SDK](https://github.com/sameday-courier/php-sdk), particularly `SamedayAuthenticateRequest`, `SamedayPostAwbRequest`, `SamedayPostAwbEstimationRequest` and `SamedayGetLockersRequest`.
 
 The API identifies currency as `Ron`; the adapter normalizes it to `RON`. Authenticated requests identify the integration with `User-Agent` and `X-Platform` headers, following the official SDK pattern. These details were verified by the live adapter smoke check.
+
+## COD update — 22 October
+
+The owner explicitly requested **cash on delivery at the home address**, usable immediately without EuPlătesc live approval. Checkout now offers separate `card` and `cod` methods. `STORE_COD_ENABLED=true` enables COD independently when durable storage, notifications, merchant contact/delivery information, public origin and live Sameday home delivery are ready. `STORE_CHECKOUT_ENABLED` remains the card-activation flag and cannot enable test-mode card payments. COD is rejected for easybox and other couriers in the server API, not only in the interface.
+
+A COD order is saved as `pending_cod`, never as paid, and returns its order number/status page without generating EuPlătesc fields. A repeat of the same unchanged COD intent returns the existing order instead of creating or emailing twice. A notification failure does not lose the saved order; an authenticated admin can retry its confirmation using `/api/admin/cod-notification`. Receipts clearly state the total payable to the courier. The signed shipping confirmation also binds the payment method. COD currently retains the approved fixed home fee (or free transport above the threshold), so the estimator cannot silently omit/add a COD commission.
+
+Sameday AWBs set `cashOnDelivery` to the persisted **whole order total including customer shipping**, `cashOnDeliveryReturns=1` (client), and `awbPayment=1` (sender pays the carrier, so the client is not charged shipping twice). Card AWBs retain zero COD. COD dispatch requires manual verification of the order/address/amount, without a EuPlătesc permission checkbox; actual package measurements and durable duplicate-AWB protection still apply.
+
+Redis production records use `estore:production:*`; Preview keeps the existing `estore:*` test namespace. `STORE_ORDER_STORAGE=redis` explicitly selects the verified Redis store, bypassing the obsolete unrelated Supabase checkout configuration. Supabase installations must apply `20261022_estore_cod.sql` before accepting the new status. EuPlătesc callbacks/storage updates cannot mark a COD order paid.

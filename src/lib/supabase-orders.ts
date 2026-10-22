@@ -5,7 +5,7 @@ type OrderRow = { payload: StoreOrder; status: StoreOrder["status"]; payment_id:
 type RequestRow = { payload: WithdrawalRequest | ComplaintRequest };
 
 export function hasSupabaseStorage() {
-  return !!process.env.NEXT_PUBLIC_SUPABASE_URL && !!process.env.SUPABASE_SERVICE_ROLE_KEY;
+  return process.env.STORE_ORDER_STORAGE !== "redis" && !!process.env.NEXT_PUBLIC_SUPABASE_URL && !!process.env.SUPABASE_SERVICE_ROLE_KEY;
 }
 
 async function query<T>(path: string, init: RequestInit = {}): Promise<T> {
@@ -46,6 +46,8 @@ export async function getSupabaseOrder(id: string): Promise<StoreOrder | null> {
 }
 
 export async function recordSupabasePayment(id: string, action: "0" | "failed", paymentId: string) {
+  const current = await getSupabaseOrder(id);
+  if (current?.paymentMethod === "cod" || current?.status === "pending_cod") return false;
   const status = action === "0" ? "paid_review" : "payment_failed";
   const filter = action === "0" ? "status=neq.paid_review" : "status=eq.pending_payment";
   const rows = await query<OrderRow[]>(`${orderPath}?id=eq.${encodeURIComponent(id)}&${filter}&select=payload,status,payment_id,payment_email_sent`, {

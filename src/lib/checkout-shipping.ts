@@ -6,6 +6,7 @@ import { easyboxEligibility, packedParcel, fitsEasybox, type PackingProfile } fr
 import { samedayLocker, samedayPayload, estimateSameday } from "./sameday";
 import { quoteShipping, type ShippingMethod, type ShippingOption } from "./shipping";
 import type { ShippingRate } from "./shipping-quote-token";
+import type { PaymentMethod } from "./payment-methods";
 
 export const shippingCustomerFields = ["firstName", "lastName", "email", "phone", "address", "city", "county", "postalCode"] as const;
 type ShippingCustomer = Pick<StoreOrder["customer"], (typeof shippingCustomerFields)[number]>;
@@ -24,13 +25,14 @@ export function shippingCustomer(input: unknown): ShippingCustomer | null {
   return result;
 }
 
-export function shippingQuoteBinding(quote: ReturnType<typeof quoteCart>, customer: ShippingCustomer, carrier: unknown, method: ShippingMethod, lockerId?: number) {
+export function shippingQuoteBinding(quote: ReturnType<typeof quoteCart>, customer: ShippingCustomer, carrier: unknown, method: ShippingMethod, lockerId?: number, paymentMethod: PaymentMethod = "card") {
   return JSON.stringify({ items: quote.lines.map((line) => [line.productId, line.sku, line.quantity, line.price]).sort((a, b) => Number(a[0]) - Number(b[0])),
     totalCents: quote.totals.totalCents, customer: shippingCustomerFields.map((key) => customer[key]), carrier, method,
-    lockerId: method === "easybox" ? lockerId : null });
+    lockerId: method === "easybox" ? lockerId : null, paymentMethod });
 }
 
-export async function checkoutShippingRate(quote: ReturnType<typeof quoteCart>, customer: ShippingCustomer, options: ShippingOption[], carrier: unknown, method: ShippingMethod, lockerId?: number): Promise<ShippingRate> {
+export async function checkoutShippingRate(quote: ReturnType<typeof quoteCart>, customer: ShippingCustomer, options: ShippingOption[], carrier: unknown, method: ShippingMethod, lockerId?: number, paymentMethod: PaymentMethod = "card"): Promise<ShippingRate> {
+  if (paymentMethod === "cod" && (carrier !== "sameday" || method !== "home")) throw new Error("Rambursul este disponibil la domiciliu prin Sameday.");
   const fixed = quoteShipping(options, carrier, quote.totals.freeShipping, method);
   if (!fixed) throw new Error("Alege o metodă de livrare disponibilă.");
   let locker;
@@ -41,7 +43,7 @@ export async function checkoutShippingRate(quote: ReturnType<typeof quoteCart>, 
   const parcel = packedParcel(quote.lines, profiles as Record<string, PackingProfile>);
   if (locker && parcel && !fitsEasybox(parcel)) throw new Error("Coletul depășește limitele easybox. Alege livrarea la domiciliu.");
   if (quote.totals.freeShipping) return { cents: 0, source: "free" };
-  if (carrier === "sameday" && fixed.option.dynamic && parcel) {
+  if (paymentMethod !== "cod" && carrier === "sameday" && fixed.option.dynamic && parcel) {
     const estimate = await estimateSameday(samedayPayload({ id: "checkout-estimate", customer }, parcel, locker));
     const cents = Math.round(estimate.amount * 100);
     if (!Number.isSafeInteger(cents) || cents < 0 || cents > 999900) throw new Error("Tariful Sameday nu este disponibil momentan.");
