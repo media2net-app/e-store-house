@@ -1529,5 +1529,2694 @@
     ],
     "image": "/products/economy-101328/01.webp",
     "stock": 100
+  },
+  {
+    "id": 104126,
+    "name": "Pilotă de iarnă Damasc cu umplutură din lână, antracit",
+    "category": "Pilote",
+    "categoryPath": "pilote",
+    "brand": "RALEX PUCIOASA",
+    "price": 359,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-lana-damasc-100-natural-iarna-antracit/",
+    "description": "Pilotă de iarnă Damasc cu umplutură din lână, antracit.\nȚesătură Damasc cu dungi de 1 cm, 160 g/m².\nUmplutură: 100% lână, 350 g/m².\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Țesătură Damasc cu dungi de 1 cm, 160 g/m². Umplutură: 100% lână, 350 g/m².",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Țesătură Damasc cu dungi de 1 cm, 160 g/m²."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură: 100% lână, 350 g/m²."
+      }
+    ],
+    "variants": [
+      {
+        "id": 104127,
+        "sku": "104127",
+        "name": "140 × 210 cm",
+        "dimensions": "140 × 210 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 359,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 104128,
+        "sku": "104128",
+        "name": "160 × 210 cm",
+        "dimensions": "160 × 210 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 409,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 104129,
+        "sku": "104129",
+        "name": "180 × 210 cm",
+        "dimensions": "180 × 210 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 429,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 104130,
+        "sku": "104130",
+        "name": "200 × 215 cm",
+        "dimensions": "200 × 215 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 449,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104126/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 104120,
+    "name": "Pilotă de iarnă Damasc cu umplutură din lână, roz pudră",
+    "category": "Pilote",
+    "categoryPath": "pilote",
+    "brand": "RALEX PUCIOASA",
+    "price": 359,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-lana-damasc-100-natural-iarna-pudra/",
+    "description": "Pilotă de iarnă Damasc cu umplutură din lână, roz pudră.\nȚesătură Damasc cu dungi de 1 cm, 160 g/m².\nUmplutură: 100% lână, 350 g/m².\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Țesătură Damasc cu dungi de 1 cm, 160 g/m². Umplutură: 100% lână, 350 g/m².",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Țesătură Damasc cu dungi de 1 cm, 160 g/m²."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură: 100% lână, 350 g/m²."
+      }
+    ],
+    "variants": [
+      {
+        "id": 104121,
+        "sku": "104121",
+        "name": "140 × 210 cm",
+        "dimensions": "140 × 210 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 359,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 104122,
+        "sku": "104122",
+        "name": "160 × 210 cm",
+        "dimensions": "160 × 210 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 409,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 104123,
+        "sku": "104123",
+        "name": "180 × 210 cm",
+        "dimensions": "180 × 210 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 429,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 104124,
+        "sku": "104124",
+        "name": "200 × 215 cm",
+        "dimensions": "200 × 215 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 449,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104120/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 104115,
+    "name": "Pilotă de iarnă Damasc cu umplutură din lână, turcoaz",
+    "category": "Pilote",
+    "categoryPath": "pilote",
+    "brand": "RALEX PUCIOASA",
+    "price": 359,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-lana-damasc-100-natural-iarna-turcoaz/",
+    "description": "Pilotă de iarnă Damasc cu umplutură din lână, turcoaz.\nȚesătură Damasc cu dungi de 1 cm, 160 g/m².\nUmplutură: 100% lână, 350 g/m².\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Țesătură Damasc cu dungi de 1 cm, 160 g/m². Umplutură: 100% lână, 350 g/m².",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Țesătură Damasc cu dungi de 1 cm, 160 g/m²."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură: 100% lână, 350 g/m²."
+      }
+    ],
+    "variants": [
+      {
+        "id": 104116,
+        "sku": "104116",
+        "name": "140 × 210 cm",
+        "dimensions": "140 × 210 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 359,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 104117,
+        "sku": "104117",
+        "name": "160 × 210 cm",
+        "dimensions": "160 × 210 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 409,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 104118,
+        "sku": "104118",
+        "name": "180 × 210 cm",
+        "dimensions": "180 × 210 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 429,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 104119,
+        "sku": "104119",
+        "name": "200 × 215 cm",
+        "dimensions": "200 × 215 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 449,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104115/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 104108,
+    "name": "Pilotă de iarnă Damasc cu umplutură din lână, mentă",
+    "category": "Pilote",
+    "categoryPath": "pilote",
+    "brand": "RALEX PUCIOASA",
+    "price": 359,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-lana-damasc-100-natural-iarna-mint/",
+    "description": "Pilotă de iarnă Damasc cu umplutură din lână, mentă.\nȚesătură Damasc cu dungi de 1 cm, 160 g/m².\nUmplutură: 100% lână, 350 g/m².\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Țesătură Damasc cu dungi de 1 cm, 160 g/m². Umplutură: 100% lână, 350 g/m².",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Țesătură Damasc cu dungi de 1 cm, 160 g/m²."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură: 100% lână, 350 g/m²."
+      }
+    ],
+    "variants": [
+      {
+        "id": 104109,
+        "sku": "104109",
+        "name": "140 × 210 cm",
+        "dimensions": "140 × 210 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 359,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 104110,
+        "sku": "104110",
+        "name": "160 × 210 cm",
+        "dimensions": "160 × 210 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 409,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 104111,
+        "sku": "104111",
+        "name": "180 × 210 cm",
+        "dimensions": "180 × 210 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 429,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 104112,
+        "sku": "104112",
+        "name": "200 × 215 cm",
+        "dimensions": "200 × 215 cm",
+        "contents": "Țesătură Damasc cu dungi de 1 cm, 160 g/m².; Umplutură: 100% lână, 350 g/m².",
+        "price": 449,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/104108/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 102981,
+    "name": "Pilotă matlasată HORECA",
+    "category": "Produse HoReCa",
+    "categoryPath": "produse-hotel",
+    "brand": "RALEX PUCIOASA",
+    "price": 219,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-horeca/",
+    "description": "Pilotă matlasată HORECA.\nȚesătură ranforsată, 200 g/m².\nUmplutură tip minet, 350 g/m².\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Țesătură ranforsată, 200 g/m². Umplutură tip minet, 350 g/m².",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Țesătură ranforsată, 200 g/m²."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură tip minet, 350 g/m²."
+      }
+    ],
+    "variants": [
+      {
+        "id": 102984,
+        "sku": "102984",
+        "name": "140 × 200 cm",
+        "dimensions": "140 × 200 cm",
+        "contents": "Țesătură ranforsată, 200 g/m².; Umplutură tip minet, 350 g/m².",
+        "price": 219,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 102985,
+        "sku": "102985",
+        "name": "180 × 200 cm",
+        "dimensions": "180 × 200 cm",
+        "contents": "Țesătură ranforsată, 200 g/m².; Umplutură tip minet, 350 g/m².",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 102986,
+        "sku": "102986",
+        "name": "200 × 215 cm",
+        "dimensions": "200 × 215 cm",
+        "contents": "Țesătură ranforsată, 200 g/m².; Umplutură tip minet, 350 g/m².",
+        "price": 289,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/102981/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 98809,
+    "name": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, unt",
+    "category": "Pilote",
+    "categoryPath": "pilote",
+    "brand": "RALEX PUCIOASA",
+    "price": 359,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilota-ranforce-100-bumbac-unt/",
+    "description": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, unt.\nÎnveliș: Ranforce 100% bumbac.\nUmplutură: lână.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Înveliș: Ranforce 100% bumbac. Umplutură: lână.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Înveliș: Ranforce 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură: lână."
+      }
+    ],
+    "variants": [
+      {
+        "id": 98810,
+        "sku": "98810",
+        "name": "140 × 210 cm",
+        "dimensions": "140 × 210 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 359,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 98811,
+        "sku": "98811",
+        "name": "160 × 210 cm",
+        "dimensions": "160 × 210 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 409,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 98812,
+        "sku": "98812",
+        "name": "180 × 210 cm",
+        "dimensions": "180 × 210 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 429,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 98813,
+        "sku": "98813",
+        "name": "200 × 215 cm",
+        "dimensions": "200 × 215 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 449,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98809/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 98785,
+    "name": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, gri",
+    "category": "Pilote",
+    "categoryPath": "pilote",
+    "brand": "RALEX PUCIOASA",
+    "price": 359,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilota-ranforce-100-bumbac-gri/",
+    "description": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, gri.\nÎnveliș: Ranforce 100% bumbac.\nUmplutură: lână.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Înveliș: Ranforce 100% bumbac. Umplutură: lână.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Înveliș: Ranforce 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură: lână."
+      }
+    ],
+    "variants": [
+      {
+        "id": 98786,
+        "sku": "98786",
+        "name": "140 × 210 cm",
+        "dimensions": "140 × 210 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 359,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 98787,
+        "sku": "98787",
+        "name": "160 × 210 cm",
+        "dimensions": "160 × 210 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 409,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 98788,
+        "sku": "98788",
+        "name": "180 × 210 cm",
+        "dimensions": "180 × 210 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 429,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 98789,
+        "sku": "98789",
+        "name": "200 × 215 cm",
+        "dimensions": "200 × 215 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 449,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98785/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 98797,
+    "name": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, roz pudră",
+    "category": "Pilote",
+    "categoryPath": "pilote",
+    "brand": "RALEX PUCIOASA",
+    "price": 359,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilota-ranforce-100-bumbac-pudra/",
+    "description": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, roz pudră.\nÎnveliș: Ranforce 100% bumbac.\nUmplutură: lână.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Înveliș: Ranforce 100% bumbac. Umplutură: lână.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Înveliș: Ranforce 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură: lână."
+      }
+    ],
+    "variants": [
+      {
+        "id": 98798,
+        "sku": "98798",
+        "name": "140 × 210 cm",
+        "dimensions": "140 × 210 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 359,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 98799,
+        "sku": "98799",
+        "name": "160 × 210 cm",
+        "dimensions": "160 × 210 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 409,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 98800,
+        "sku": "98800",
+        "name": "180 × 210 cm",
+        "dimensions": "180 × 210 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 429,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 98801,
+        "sku": "98801",
+        "name": "200 × 215 cm",
+        "dimensions": "200 × 215 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 449,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98797/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 98768,
+    "name": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, alb",
+    "category": "Pilote",
+    "categoryPath": "pilote",
+    "brand": "RALEX PUCIOASA",
+    "price": 359,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilota-ranforce-100-bumbac-alb/",
+    "description": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, alb.\nÎnveliș: Ranforce 100% bumbac.\nUmplutură: lână.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Înveliș: Ranforce 100% bumbac. Umplutură: lână.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Înveliș: Ranforce 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură: lână."
+      }
+    ],
+    "variants": [
+      {
+        "id": 98770,
+        "sku": "98770",
+        "name": "140 × 210 cm",
+        "dimensions": "140 × 210 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 359,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 98771,
+        "sku": "98771",
+        "name": "160 × 210 cm",
+        "dimensions": "160 × 210 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 409,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 98772,
+        "sku": "98772",
+        "name": "180 × 210 cm",
+        "dimensions": "180 × 210 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 429,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 98773,
+        "sku": "98773",
+        "name": "200 × 215 cm",
+        "dimensions": "200 × 215 cm",
+        "contents": "Înveliș: Ranforce 100% bumbac.; Umplutură: lână.",
+        "price": 449,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/98768/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 90801,
+    "name": "Halat de baie din velur, 100% bumbac, roz pudră",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "RALEX PUCIOASA",
+    "price": 269,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-pudra/",
+    "description": "Halat de baie din velur, 100% bumbac, roz pudră.\nCompoziție: 100% bumbac.\nDensitate: 420 g/m².\nConținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Compoziție: 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Densitate: 420 g/m²."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus."
+      }
+    ],
+    "variants": [
+      {
+        "id": 100983,
+        "sku": "100983",
+        "name": "L-XL",
+        "dimensions": "L-XL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 100984,
+        "sku": "100984",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90801/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 90796,
+    "name": "Halat de baie din velur, 100% bumbac, verde",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "RALEX PUCIOASA",
+    "price": 269,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-verde/",
+    "description": "Halat de baie din velur, 100% bumbac, verde.\nCompoziție: 100% bumbac.\nDensitate: 420 g/m².\nConținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Compoziție: 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Densitate: 420 g/m²."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus."
+      }
+    ],
+    "variants": [
+      {
+        "id": 92906,
+        "sku": "92906",
+        "name": "L-XL",
+        "dimensions": "L-XL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 92907,
+        "sku": "92907",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90796/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 90787,
+    "name": "Halat de baie din velur, 100% bumbac, mov",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "RALEX PUCIOASA",
+    "price": 269,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-mov/",
+    "description": "Halat de baie din velur, 100% bumbac, mov.\nCompoziție: 100% bumbac.\nDensitate: 420 g/m².\nConținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Compoziție: 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Densitate: 420 g/m²."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus."
+      }
+    ],
+    "variants": [
+      {
+        "id": 92908,
+        "sku": "92908",
+        "name": "L-XL",
+        "dimensions": "L-XL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 92909,
+        "sku": "92909",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90787/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 90781,
+    "name": "Halat de baie din velur, 100% bumbac, crem",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "RALEX PUCIOASA",
+    "price": 269,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-crem/",
+    "description": "Halat de baie din velur, 100% bumbac, crem.\nCompoziție: 100% bumbac.\nDensitate: 420 g/m².\nConținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Compoziție: 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Densitate: 420 g/m²."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus."
+      }
+    ],
+    "variants": [
+      {
+        "id": 92911,
+        "sku": "92911",
+        "name": "L-XL",
+        "dimensions": "L-XL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 92912,
+        "sku": "92912",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90781/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 90776,
+    "name": "Halat de baie din velur, 100% bumbac, cappuccino",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "RALEX PUCIOASA",
+    "price": 269,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-cappucino/",
+    "description": "Halat de baie din velur, 100% bumbac, cappuccino.\nCompoziție: 100% bumbac.\nDensitate: 420 g/m².\nConținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Compoziție: 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Densitate: 420 g/m²."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus."
+      }
+    ],
+    "variants": [
+      {
+        "id": 92913,
+        "sku": "92913",
+        "name": "L-XL",
+        "dimensions": "L-XL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 92914,
+        "sku": "92914",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90776/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 90769,
+    "name": "Halat de baie din velur, 100% bumbac, bleu",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "RALEX PUCIOASA",
+    "price": 269,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-bleu/",
+    "description": "Halat de baie din velur, 100% bumbac, bleu.\nCompoziție: 100% bumbac.\nDensitate: 420 g/m².\nConținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Compoziție: 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Densitate: 420 g/m²."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus."
+      }
+    ],
+    "variants": [
+      {
+        "id": 92915,
+        "sku": "92915",
+        "name": "L-XL",
+        "dimensions": "L-XL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 92916,
+        "sku": "92916",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90769/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 90762,
+    "name": "Halat de baie din velur, 100% bumbac, gri",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "RALEX PUCIOASA",
+    "price": 269,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-gri/",
+    "description": "Halat de baie din velur, 100% bumbac, gri.\nCompoziție: 100% bumbac.\nDensitate: 420 g/m².\nConținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Compoziție: 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Densitate: 420 g/m²."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus."
+      }
+    ],
+    "variants": [
+      {
+        "id": 100993,
+        "sku": "100993",
+        "name": "L-XL",
+        "dimensions": "L-XL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 100994,
+        "sku": "100994",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90762/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 90756,
+    "name": "Halat de baie din velur, 100% bumbac, roșu",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "RALEX PUCIOASA",
+    "price": 269,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-rosu/",
+    "description": "Halat de baie din velur, 100% bumbac, roșu.\nCompoziție: 100% bumbac.\nDensitate: 420 g/m².\nConținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Compoziție: 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Densitate: 420 g/m²."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus."
+      }
+    ],
+    "variants": [
+      {
+        "id": 100991,
+        "sku": "100991",
+        "name": "L-XL",
+        "dimensions": "L-XL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 100992,
+        "sku": "100992",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "Compoziție: 100% bumbac.; Densitate: 420 g/m².; Conținut: un halat cu cordon; prosopul din fotografia furnizorului nu este inclus.",
+        "price": 269,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/90756/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 75523,
+    "name": "Husă de saltea impermeabilă cu suprafață din frotir de bumbac",
+    "category": "Protecții saltea",
+    "categoryPath": "protectii-saltea",
+    "brand": "RALEX PUCIOASA",
+    "price": 119,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/produse-hotel/protectie-frotir-bumbac-100-impermeabila-saltea-de-90x200x25cm/",
+    "description": "Husă de saltea impermeabilă cu suprafață din frotir de bumbac.\nSuprafață: frotir 100% bumbac, 90 g/m².\nDos: poliuretan.\nPentru saltele cu înălțimea de 25 cm.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Suprafață: frotir 100% bumbac, 90 g/m². Dos: poliuretan.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Suprafață: frotir 100% bumbac, 90 g/m²."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Dos: poliuretan."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Pentru saltele cu înălțimea de 25 cm."
+      }
+    ],
+    "variants": [
+      {
+        "id": 105860,
+        "sku": "105860",
+        "name": "90 × 200 cm",
+        "dimensions": "90 × 200 cm",
+        "contents": "Suprafață: frotir 100% bumbac, 90 g/m².; Dos: poliuretan.; Pentru saltele cu înălțimea de 25 cm.",
+        "price": 119,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 105856,
+        "sku": "105856",
+        "name": "140 × 200 cm",
+        "dimensions": "140 × 200 cm",
+        "contents": "Suprafață: frotir 100% bumbac, 90 g/m².; Dos: poliuretan.; Pentru saltele cu înălțimea de 25 cm.",
+        "price": 149,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 105857,
+        "sku": "105857",
+        "name": "160 × 200 cm",
+        "dimensions": "160 × 200 cm",
+        "contents": "Suprafață: frotir 100% bumbac, 90 g/m².; Dos: poliuretan.; Pentru saltele cu înălțimea de 25 cm.",
+        "price": 159,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 105858,
+        "sku": "105858",
+        "name": "180 × 200 cm",
+        "dimensions": "180 × 200 cm",
+        "contents": "Suprafață: frotir 100% bumbac, 90 g/m².; Dos: poliuretan.; Pentru saltele cu înălțimea de 25 cm.",
+        "price": 179,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 105859,
+        "sku": "105859",
+        "name": "200 × 200 cm",
+        "dimensions": "200 × 200 cm",
+        "contents": "Suprafață: frotir 100% bumbac, 90 g/m².; Dos: poliuretan.; Pentru saltele cu înălțimea de 25 cm.",
+        "price": 209,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75523/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 60275,
+    "name": "Protecție de saltea matlasată Percalle, roz pudră",
+    "category": "Protecții saltea",
+    "categoryPath": "protectii-saltea",
+    "brand": "RALEX PUCIOASA",
+    "price": 289,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/protectii-saltea/protectie-matlasata-percalle-roz-pudra/",
+    "description": "Protecție de saltea matlasată Percalle, roz pudră.\nȚesătură Percalle, 100% bumbac.\nUmplutură: vatelină 100% poliester.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Țesătură Percalle, 100% bumbac. Umplutură: vatelină 100% poliester.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Țesătură Percalle, 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură: vatelină 100% poliester."
+      }
+    ],
+    "variants": [
+      {
+        "id": 60277,
+        "sku": "60277",
+        "name": "160 × 200 cm",
+        "dimensions": "160 × 200 cm",
+        "contents": "Țesătură Percalle, 100% bumbac.; Umplutură: vatelină 100% poliester.",
+        "price": 289,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 60278,
+        "sku": "60278",
+        "name": "180 × 200 cm",
+        "dimensions": "180 × 200 cm",
+        "contents": "Țesătură Percalle, 100% bumbac.; Umplutură: vatelină 100% poliester.",
+        "price": 289,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/60275/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 482,
+    "name": "Protecție de saltea matlasată ultrasonic, 100 g/m²",
+    "category": "Protecții saltea",
+    "categoryPath": "protectii-saltea",
+    "brand": "RALEX PUCIOASA",
+    "price": 89,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/produse-hotel/protectie-matlasata-ultrasonic-100gsm/",
+    "description": "Protecție de saltea matlasată ultrasonic, 100 g/m².\nȚesătură microfibră, 90 g/m².\nUmplutură tip minet, 100 g/m².\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Țesătură microfibră, 90 g/m². Umplutură tip minet, 100 g/m².",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Țesătură microfibră, 90 g/m²."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură tip minet, 100 g/m²."
+      }
+    ],
+    "variants": [
+      {
+        "id": 105898,
+        "sku": "105898",
+        "name": "90 × 200 cm",
+        "dimensions": "90 × 200 cm",
+        "contents": "Țesătură microfibră, 90 g/m².; Umplutură tip minet, 100 g/m².",
+        "price": 89,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 105895,
+        "sku": "105895",
+        "name": "140 × 200 cm",
+        "dimensions": "140 × 200 cm",
+        "contents": "Țesătură microfibră, 90 g/m².; Umplutură tip minet, 100 g/m².",
+        "price": 109,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 105896,
+        "sku": "105896",
+        "name": "160 × 200 cm",
+        "dimensions": "160 × 200 cm",
+        "contents": "Țesătură microfibră, 90 g/m².; Umplutură tip minet, 100 g/m².",
+        "price": 119,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 105897,
+        "sku": "105897",
+        "name": "180 × 200 cm",
+        "dimensions": "180 × 200 cm",
+        "contents": "Țesătură microfibră, 90 g/m².; Umplutură tip minet, 100 g/m².",
+        "price": 119,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/482/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 69981,
+    "name": "Protecție de saltea matlasată Imperial, cu strat din poliuretan",
+    "category": "Protecții saltea",
+    "categoryPath": "protectii-saltea",
+    "brand": "RALEX PUCIOASA",
+    "price": 109,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/produse-hotel/protectie-matlasata-ultrasonic-imperial-impermeabila-200x200cm/",
+    "description": "Protecție de saltea matlasată Imperial, cu strat din poliuretan.\nȚesătură microfibră, 90 g/m².\nUmplutură tip minet, 150 g/m².\nDos din microfibră tratată cu poliuretan.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.\nAlege dimensiunea sau mărimea înainte de adăugarea în coș.",
+    "material": "Țesătură microfibră, 90 g/m². Umplutură tip minet, 150 g/m².",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Țesătură microfibră, 90 g/m²."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură tip minet, 150 g/m²."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Dos din microfibră tratată cu poliuretan."
+      }
+    ],
+    "variants": [
+      {
+        "id": 101931,
+        "sku": "101931",
+        "name": "140 × 200 cm",
+        "dimensions": "140 × 200 cm",
+        "contents": "Țesătură microfibră, 90 g/m².; Umplutură tip minet, 150 g/m².; Dos din microfibră tratată cu poliuretan.",
+        "price": 129,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 105869,
+        "sku": "105869",
+        "name": "90 × 200 cm",
+        "dimensions": "90 × 200 cm",
+        "contents": "Țesătură microfibră, 90 g/m².; Umplutură tip minet, 150 g/m².; Dos din microfibră tratată cu poliuretan.",
+        "price": 109,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 101409,
+        "sku": "101409",
+        "name": "160 × 200 cm",
+        "dimensions": "160 × 200 cm",
+        "contents": "Țesătură microfibră, 90 g/m².; Umplutură tip minet, 150 g/m².; Dos din microfibră tratată cu poliuretan.",
+        "price": 139,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 101410,
+        "sku": "101410",
+        "name": "180 × 200 cm",
+        "dimensions": "180 × 200 cm",
+        "contents": "Țesătură microfibră, 90 g/m².; Umplutură tip minet, 150 g/m².; Dos din microfibră tratată cu poliuretan.",
+        "price": 149,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/04.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 101411,
+        "sku": "101411",
+        "name": "200 × 200 cm",
+        "dimensions": "200 × 200 cm",
+        "contents": "Țesătură microfibră, 90 g/m².; Umplutură tip minet, 150 g/m².; Dos din microfibră tratată cu poliuretan.",
+        "price": 159,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/69981/04.jpg"
+        ],
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 92652,
+    "name": "Pătură Cocolino Line Ioana, 200 × 230 cm, verde deschis",
+    "category": "Pături cocolino line",
+    "categoryPath": "paturi/paturi-cocolino-line",
+    "brand": "RALEX PUCIOASA",
+    "price": 239,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92652/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92652/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92652/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92652/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92652/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-ioana/",
+    "description": "Pătură Cocolino Line Ioana, 200 × 230 cm, verde deschis.\nDimensiuni: 200 × 230 cm.\nConținut: o pătură.\nCompoziție: 100% poliester.\nSpălare la 40°C, conform furnizorului.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Compoziție: 100% poliester.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Dimensiuni: 200 × 230 cm."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Conținut: o pătură."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Compoziție: 100% poliester."
+      },
+      {
+        "label": "Specificație 4",
+        "value": "Spălare la 40°C, conform furnizorului."
+      }
+    ],
+    "sku": "92652"
+  },
+  {
+    "id": 92651,
+    "name": "Pătură Cocolino Line Cristina, 200 × 230 cm, albastru",
+    "category": "Pături cocolino line",
+    "categoryPath": "paturi/paturi-cocolino-line",
+    "brand": "RALEX PUCIOASA",
+    "price": 239,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92651/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92651/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92651/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92651/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/92651/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-line/patura-cocolino-line-cristina/",
+    "description": "Pătură Cocolino Line Cristina, 200 × 230 cm, albastru.\nDimensiuni: 200 × 230 cm.\nConținut: o pătură.\nCompoziție: 100% poliester.\nSpălare la 40°C, conform furnizorului.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Compoziție: 100% poliester.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Dimensiuni: 200 × 230 cm."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Conținut: o pătură."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Compoziție: 100% poliester."
+      },
+      {
+        "label": "Specificație 4",
+        "value": "Spălare la 40°C, conform furnizorului."
+      }
+    ],
+    "sku": "92651"
+  },
+  {
+    "id": 95974,
+    "name": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu floral delicat",
+    "category": "Lenjerii de pat tricot ”răsfăț natural”",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural",
+    "brand": "RALEX PUCIOASA",
+    "price": 529,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95974/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95974/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95974/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95974/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95974/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-30/",
+    "description": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu floral delicat.\nCompoziție: tricot 100% bumbac.\nHusă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm.\nCearșaf pentru pilotă imprimat: 200 × 230 cm.\nDouă fețe de pernă imprimate: 50 × 70 cm.\nPledurile și accesoriile de decor nu sunt incluse.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Compoziție: tricot 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: tricot 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Husă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cearșaf pentru pilotă imprimat: 200 × 230 cm."
+      },
+      {
+        "label": "Specificație 4",
+        "value": "Două fețe de pernă imprimate: 50 × 70 cm."
+      },
+      {
+        "label": "Specificație 5",
+        "value": "Pledurile și accesoriile de decor nu sunt incluse."
+      }
+    ],
+    "sku": "95974"
+  },
+  {
+    "id": 95973,
+    "name": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu floral mic",
+    "category": "Lenjerii de pat tricot ”răsfăț natural”",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural",
+    "brand": "RALEX PUCIOASA",
+    "price": 529,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95973/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95973/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95973/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95973/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95973/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-29/",
+    "description": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu floral mic.\nCompoziție: tricot 100% bumbac.\nHusă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm.\nCearșaf pentru pilotă imprimat: 200 × 230 cm.\nDouă fețe de pernă imprimate: 50 × 70 cm.\nPledurile și accesoriile de decor nu sunt incluse.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Compoziție: tricot 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: tricot 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Husă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cearșaf pentru pilotă imprimat: 200 × 230 cm."
+      },
+      {
+        "label": "Specificație 4",
+        "value": "Două fețe de pernă imprimate: 50 × 70 cm."
+      },
+      {
+        "label": "Specificație 5",
+        "value": "Pledurile și accesoriile de decor nu sunt incluse."
+      }
+    ],
+    "sku": "95973"
+  },
+  {
+    "id": 95972,
+    "name": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu discret pe fond deschis",
+    "category": "Lenjerii de pat tricot ”răsfăț natural”",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural",
+    "brand": "RALEX PUCIOASA",
+    "price": 529,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95972/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95972/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95972/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95972/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95972/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-28/",
+    "description": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu discret pe fond deschis.\nCompoziție: tricot 100% bumbac.\nHusă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm.\nCearșaf pentru pilotă imprimat: 200 × 230 cm.\nDouă fețe de pernă imprimate: 50 × 70 cm.\nPledurile și accesoriile de decor nu sunt incluse.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Compoziție: tricot 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: tricot 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Husă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cearșaf pentru pilotă imprimat: 200 × 230 cm."
+      },
+      {
+        "label": "Specificație 4",
+        "value": "Două fețe de pernă imprimate: 50 × 70 cm."
+      },
+      {
+        "label": "Specificație 5",
+        "value": "Pledurile și accesoriile de decor nu sunt incluse."
+      }
+    ],
+    "sku": "95972"
+  },
+  {
+    "id": 95971,
+    "name": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu verde",
+    "category": "Lenjerii de pat tricot ”răsfăț natural”",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural",
+    "brand": "RALEX PUCIOASA",
+    "price": 529,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95971/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95971/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95971/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95971/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95971/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-27/",
+    "description": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu verde.\nCompoziție: tricot 100% bumbac.\nHusă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm.\nCearșaf pentru pilotă imprimat: 200 × 230 cm.\nDouă fețe de pernă imprimate: 50 × 70 cm.\nPledurile și accesoriile de decor nu sunt incluse.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Compoziție: tricot 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: tricot 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Husă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cearșaf pentru pilotă imprimat: 200 × 230 cm."
+      },
+      {
+        "label": "Specificație 4",
+        "value": "Două fețe de pernă imprimate: 50 × 70 cm."
+      },
+      {
+        "label": "Specificație 5",
+        "value": "Pledurile și accesoriile de decor nu sunt incluse."
+      }
+    ],
+    "sku": "95971"
+  },
+  {
+    "id": 95970,
+    "name": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu vegetal",
+    "category": "Lenjerii de pat tricot ”răsfăț natural”",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural",
+    "brand": "RALEX PUCIOASA",
+    "price": 529,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95970/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95970/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95970/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95970/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95970/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-26/",
+    "description": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu vegetal.\nCompoziție: tricot 100% bumbac.\nHusă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm.\nCearșaf pentru pilotă imprimat: 200 × 230 cm.\nDouă fețe de pernă imprimate: 50 × 70 cm.\nPledurile și accesoriile de decor nu sunt incluse.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Compoziție: tricot 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: tricot 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Husă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cearșaf pentru pilotă imprimat: 200 × 230 cm."
+      },
+      {
+        "label": "Specificație 4",
+        "value": "Două fețe de pernă imprimate: 50 × 70 cm."
+      },
+      {
+        "label": "Specificație 5",
+        "value": "Pledurile și accesoriile de decor nu sunt incluse."
+      }
+    ],
+    "sku": "95970"
+  },
+  {
+    "id": 95969,
+    "name": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu cu dinozauri",
+    "category": "Lenjerii de pat tricot ”răsfăț natural”",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural",
+    "brand": "RALEX PUCIOASA",
+    "price": 529,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95969/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95969/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95969/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95969/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95969/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-25/",
+    "description": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu cu dinozauri.\nCompoziție: tricot 100% bumbac.\nHusă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm.\nCearșaf pentru pilotă imprimat: 200 × 230 cm.\nDouă fețe de pernă imprimate: 50 × 70 cm.\nPledurile și accesoriile de decor nu sunt incluse.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Compoziție: tricot 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: tricot 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Husă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cearșaf pentru pilotă imprimat: 200 × 230 cm."
+      },
+      {
+        "label": "Specificație 4",
+        "value": "Două fețe de pernă imprimate: 50 × 70 cm."
+      },
+      {
+        "label": "Specificație 5",
+        "value": "Pledurile și accesoriile de decor nu sunt incluse."
+      }
+    ],
+    "sku": "95969"
+  },
+  {
+    "id": 95968,
+    "name": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, dungi decorative",
+    "category": "Lenjerii de pat tricot ”răsfăț natural”",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural",
+    "brand": "RALEX PUCIOASA",
+    "price": 529,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95968/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95968/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95968/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95968/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95968/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-24/",
+    "description": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, dungi decorative.\nCompoziție: tricot 100% bumbac.\nHusă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm.\nCearșaf pentru pilotă imprimat: 200 × 230 cm.\nDouă fețe de pernă imprimate: 50 × 70 cm.\nPledurile și accesoriile de decor nu sunt incluse.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Compoziție: tricot 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: tricot 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Husă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cearșaf pentru pilotă imprimat: 200 × 230 cm."
+      },
+      {
+        "label": "Specificație 4",
+        "value": "Două fețe de pernă imprimate: 50 × 70 cm."
+      },
+      {
+        "label": "Specificație 5",
+        "value": "Pledurile și accesoriile de decor nu sunt incluse."
+      }
+    ],
+    "sku": "95968"
+  },
+  {
+    "id": 95967,
+    "name": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, ursuleți pe fond gri",
+    "category": "Lenjerii de pat tricot ”răsfăț natural”",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural",
+    "brand": "RALEX PUCIOASA",
+    "price": 529,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95967/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95967/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95967/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95967/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95967/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-23/",
+    "description": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, ursuleți pe fond gri.\nCompoziție: tricot 100% bumbac.\nHusă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm.\nCearșaf pentru pilotă imprimat: 200 × 230 cm.\nDouă fețe de pernă imprimate: 50 × 70 cm.\nPledurile și accesoriile de decor nu sunt incluse.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Compoziție: tricot 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: tricot 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Husă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cearșaf pentru pilotă imprimat: 200 × 230 cm."
+      },
+      {
+        "label": "Specificație 4",
+        "value": "Două fețe de pernă imprimate: 50 × 70 cm."
+      },
+      {
+        "label": "Specificație 5",
+        "value": "Pledurile și accesoriile de decor nu sunt incluse."
+      }
+    ],
+    "sku": "95967"
+  },
+  {
+    "id": 95966,
+    "name": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, carouri",
+    "category": "Lenjerii de pat tricot ”răsfăț natural”",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural",
+    "brand": "RALEX PUCIOASA",
+    "price": 529,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95966/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95966/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95966/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95966/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95966/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-22/",
+    "description": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, carouri.\nCompoziție: tricot 100% bumbac.\nHusă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm.\nCearșaf pentru pilotă imprimat: 200 × 230 cm.\nDouă fețe de pernă imprimate: 50 × 70 cm.\nPledurile și accesoriile de decor nu sunt incluse.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Compoziție: tricot 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: tricot 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Husă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cearșaf pentru pilotă imprimat: 200 × 230 cm."
+      },
+      {
+        "label": "Specificație 4",
+        "value": "Două fețe de pernă imprimate: 50 × 70 cm."
+      },
+      {
+        "label": "Specificație 5",
+        "value": "Pledurile și accesoriile de decor nu sunt incluse."
+      }
+    ],
+    "sku": "95966"
+  },
+  {
+    "id": 95965,
+    "name": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu delicat",
+    "category": "Lenjerii de pat tricot ”răsfăț natural”",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural",
+    "brand": "RALEX PUCIOASA",
+    "price": 529,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95965/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95965/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95965/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95965/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/95965/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural/lenjerie-pat-cu-husa-pentru-saltea-rasfat-natural-tricot-100-bumbac-21/",
+    "description": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu delicat.\nCompoziție: tricot 100% bumbac.\nHusă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm.\nCearșaf pentru pilotă imprimat: 200 × 230 cm.\nDouă fețe de pernă imprimate: 50 × 70 cm.\nPledurile și accesoriile de decor nu sunt incluse.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Compoziție: tricot 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: tricot 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Husă de saltea uni, universală pentru 160 × 200 cm / 180 × 200 cm."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cearșaf pentru pilotă imprimat: 200 × 230 cm."
+      },
+      {
+        "label": "Specificație 4",
+        "value": "Două fețe de pernă imprimate: 50 × 70 cm."
+      },
+      {
+        "label": "Specificație 5",
+        "value": "Pledurile și accesoriile de decor nu sunt incluse."
+      }
+    ],
+    "sku": "95965"
+  },
+  {
+    "id": 158276,
+    "name": "Cuvertură Clasy din muselină Nomada V2, 3 piese",
+    "category": "Cuverturi de pat clasy - două persoane",
+    "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+    "brand": "Clasy",
+    "price": 829,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158276/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158276/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158276/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158276/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158276/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-premium-din-muselina-nomada-v2/",
+    "description": "Cuvertură Clasy din muselină Nomada V2, 3 piese.\nCompoziție: 100% bumbac.\nCuvertură: 250 × 230 cm.\nDouă fețe de pernă: 50 × 70 cm.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Compoziție: 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Cuvertură: 250 × 230 cm."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Două fețe de pernă: 50 × 70 cm."
+      }
+    ],
+    "sku": "158276"
+  },
+  {
+    "id": 158272,
+    "name": "Cuvertură Clasy din muselină Nomada V1, 3 piese",
+    "category": "Cuverturi de pat clasy - două persoane",
+    "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+    "brand": "Clasy",
+    "price": 829,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158272/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158272/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158272/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158272/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/158272/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-premium-din-muselina-nomada-v1/",
+    "description": "Cuvertură Clasy din muselină Nomada V1, 3 piese.\nCompoziție: 100% bumbac.\nCuvertură: 250 × 230 cm.\nDouă fețe de pernă: 50 × 70 cm.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Compoziție: 100% bumbac.",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Compoziție: 100% bumbac."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Cuvertură: 250 × 230 cm."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Două fețe de pernă: 50 × 70 cm."
+      }
+    ],
+    "sku": "158272"
+  },
+  {
+    "id": 34143,
+    "name": "Cuvertură matlasată Clasy PUMA V1, 3 piese",
+    "category": "Cuverturi de pat clasy - două persoane",
+    "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+    "brand": "Clasy",
+    "price": 509,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34143/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34143/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34143/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34143/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34143/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-puma-v1/",
+    "description": "Cuvertură matlasată Clasy PUMA V1, 3 piese.\nȚesătură Ranforce, 100% bumbac, 120 g/m².\nUmplutură tip minet, 150 g/m².\nCuvertură: 240 × 260 cm; două fețe de pernă 50 × 70 cm.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Țesătură Ranforce, 100% bumbac, 120 g/m². Umplutură tip minet, 150 g/m².",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Țesătură Ranforce, 100% bumbac, 120 g/m²."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură tip minet, 150 g/m²."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cuvertură: 240 × 260 cm; două fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "sku": "34143"
+  },
+  {
+    "id": 34141,
+    "name": "Cuvertură matlasată Clasy MONTERA V1, 3 piese",
+    "category": "Cuverturi de pat clasy - două persoane",
+    "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+    "brand": "Clasy",
+    "price": 509,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34141/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34141/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34141/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34141/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/34141/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-montera-v1/",
+    "description": "Cuvertură matlasată Clasy MONTERA V1, 3 piese.\nȚesătură Ranforce, 100% bumbac, 120 g/m².\nUmplutură tip minet, 150 g/m².\nCuvertură: 240 × 260 cm; două fețe de pernă 50 × 70 cm.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Țesătură Ranforce, 100% bumbac, 120 g/m². Umplutură tip minet, 150 g/m².",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Țesătură Ranforce, 100% bumbac, 120 g/m²."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură tip minet, 150 g/m²."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cuvertură: 240 × 260 cm; două fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "sku": "34141"
+  },
+  {
+    "id": 12642,
+    "name": "Cuvertură matlasată Clasy PORTO V2, 3 piese",
+    "category": "Cuverturi de pat clasy - două persoane",
+    "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+    "brand": "Clasy",
+    "price": 509,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12642/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12642/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12642/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12642/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12642/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-porto-v2/",
+    "description": "Cuvertură matlasată Clasy PORTO V2, 3 piese.\nȚesătură Ranforce, 100% bumbac, 120 g/m².\nUmplutură tip minet, 150 g/m².\nCuvertură: 240 × 260 cm; două fețe de pernă 50 × 70 cm.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Țesătură Ranforce, 100% bumbac, 120 g/m². Umplutură tip minet, 150 g/m².",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Țesătură Ranforce, 100% bumbac, 120 g/m²."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură tip minet, 150 g/m²."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cuvertură: 240 × 260 cm; două fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "sku": "12642"
+  },
+  {
+    "id": 12637,
+    "name": "Cuvertură matlasată Clasy MIDAS V1, 3 piese",
+    "category": "Cuverturi de pat clasy - două persoane",
+    "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+    "brand": "Clasy",
+    "price": 509,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12637/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12637/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12637/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12637/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12637/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-midas-v1/",
+    "description": "Cuvertură matlasată Clasy MIDAS V1, 3 piese.\nȚesătură Ranforce, 100% bumbac, 120 g/m².\nUmplutură tip minet, 150 g/m².\nCuvertură: 240 × 260 cm; două fețe de pernă 50 × 70 cm.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Țesătură Ranforce, 100% bumbac, 120 g/m². Umplutură tip minet, 150 g/m².",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Țesătură Ranforce, 100% bumbac, 120 g/m²."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură tip minet, 150 g/m²."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cuvertură: 240 × 260 cm; două fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "sku": "12637"
+  },
+  {
+    "id": 12625,
+    "name": "Cuvertură matlasată Clasy ESTE V2, 3 piese",
+    "category": "Cuverturi de pat clasy - două persoane",
+    "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+    "brand": "Clasy",
+    "price": 509,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12625/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12625/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12625/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12625/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/12625/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-este-v2/",
+    "description": "Cuvertură matlasată Clasy ESTE V2, 3 piese.\nȚesătură Ranforce, 100% bumbac, 120 g/m².\nUmplutură tip minet, 150 g/m².\nCuvertură: 240 × 260 cm; două fețe de pernă 50 × 70 cm.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Țesătură Ranforce, 100% bumbac, 120 g/m². Umplutură tip minet, 150 g/m².",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Țesătură Ranforce, 100% bumbac, 120 g/m²."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură tip minet, 150 g/m²."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cuvertură: 240 × 260 cm; două fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "sku": "12625"
+  },
+  {
+    "id": 96547,
+    "name": "Cuvertură matlasată Clasy BALLERINA, 2 piese",
+    "category": "Cuverturi de pat clasy - o persoană",
+    "categoryPath": "cuverturi/cuverturi-de-pat-clasy-o-persoana",
+    "brand": "Clasy",
+    "price": 449,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/96547/01.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/96547/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/96547/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/96547/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/96547/04.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-o-persoana/cuvertura-de-pat-clasy-matlasata-o-persoana-ballerina/",
+    "description": "Cuvertură matlasată Clasy BALLERINA, 2 piese.\nȚesătură Ranforce, 100% bumbac, 120 g/m².\nUmplutură tip minet, 150 g/m².\nCuvertură: 180 × 240 cm; o față de pernă 50 × 70 cm.\nMobilierul și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "Țesătură Ranforce, 100% bumbac, 120 g/m². Umplutură tip minet, 150 g/m².",
+    "inStock": true,
+    "features": [
+      {
+        "label": "Specificație 1",
+        "value": "Țesătură Ranforce, 100% bumbac, 120 g/m²."
+      },
+      {
+        "label": "Specificație 2",
+        "value": "Umplutură tip minet, 150 g/m²."
+      },
+      {
+        "label": "Specificație 3",
+        "value": "Cuvertură: 180 × 240 cm; o față de pernă 50 × 70 cm."
+      }
+    ],
+    "sku": "96547"
+  },
+  {
+    "id": 90646,
+    "name": "Prosop Greek Border, 100% bumbac, 500 g/m², crem",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "RALEX PUCIOASA",
+    "price": 19,
+    "currency": "RON",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/01-principala.jpg",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/01-principala.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/02-lateral.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/03-detaliu.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/04-de-sus.jpg"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-greek-border-500g-m2-crem/",
+    "description": "Un prosop din bumbac cu fir dublu și bordură grecească, în nuanța crem.\nPachetul conține 1 prosop, în dimensiunea aleasă.\nCompoziție: 100% bumbac. Densitate: 500 g/m².\nRespectați instrucțiunile de pe eticheta produsului.\nMobilierul, celelalte prosoape și accesoriile de decor din imagini nu sunt incluse.",
+    "material": "100% bumbac, fir dublu, 500 g/m².",
+    "inStock": true,
+    "variants": [
+      {
+        "id": 105749,
+        "sku": "105749",
+        "name": "30 × 50 cm",
+        "dimensions": "30 × 50 cm",
+        "contents": "1 prosop, dimensiunea aleasă.",
+        "price": 19,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/01-principala.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/02-lateral.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/03-detaliu.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/04-de-sus.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 105750,
+        "sku": "105750",
+        "name": "50 × 90 cm",
+        "dimensions": "50 × 90 cm",
+        "contents": "1 prosop, dimensiunea aleasă.",
+        "price": 39,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/01-principala.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/02-lateral.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/03-detaliu.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/04-de-sus.jpg"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 105751,
+        "sku": "105751",
+        "name": "70 × 140 cm",
+        "dimensions": "70 × 140 cm",
+        "contents": "1 prosop, dimensiunea aleasă.",
+        "price": 79,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/01-principala.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/02-lateral.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/03-detaliu.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/90646/04-de-sus.jpg"
+        ],
+        "inStock": true
+      }
+    ],
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu, 500 g/m²."
+      },
+      {
+        "label": "Pachet",
+        "value": "1 prosop, dimensiunea aleasă."
+      }
+    ]
+  },
+  {
+    "id": 106764,
+    "name": "Saltea Seven Zone RLX4, miez de spumă 17 cm, dimensiuni la alegere",
+    "category": "Saltele și toppere",
+    "categoryPath": "saltele-si-toppere",
+    "brand": "RALEX PUCIOASA",
+    "price": 869,
+    "currency": "RON",
+    "image": "/products/maison-106764/01.webp",
+    "images": [
+      "/products/maison-106764/01.webp",
+      "/products/maison-106764/02.webp",
+      "/products/maison-106764/03.webp",
+      "/products/maison-106764/04.webp"
+    ],
+    "externalUrl": "https://ralexpucioasa.ro/store/saltele-si-toppere/saltea-seven-zone/",
+    "description": "Saltea Seven Zone RLX4, cu miez din spumă poliuretanică albă, de fermitate medie.\nMiezul are grosimea de 17 cm, densitatea de 25 kg/m³ și debitare în 7 zone. Furnizorul indică o înălțime totală de aproximativ 18 cm.\nHusă din microfibră matlasată cu vatelină 100 g/m²; bordură din microfibră matlasată cu vatelină 60 g/m².\nPachetul conține 1 saltea, în dimensiunea aleasă.\nLivrare comprimată și rulată în folie, conform formatului confirmat de magazin. După despachetare, lăsați salteaua întinsă 24–48 de ore, conform instrucțiunilor furnizorului. Desfaceți ambalajul cu grijă, fără a tăia materialul.\nPatul, pernele, textilele și mobilierul din fotografii nu sunt incluse.",
+    "material": "Miez: spumă poliuretanică, 25 kg/m³, fermitate medie. Husă: microfibră matlasată cu vatelină 100 g/m². Bordură: microfibră matlasată cu vatelină 60 g/m².",
+    "inStock": true,
+    "variants": [
+      {
+        "id": 106765,
+        "sku": "106765",
+        "name": "90 × 200 cm",
+        "dimensions": "90 × 200 cm",
+        "contents": "1 saltea RLX4, în dimensiunea aleasă.",
+        "price": 869,
+        "images": [
+          "/products/maison-106764/01.webp",
+          "/products/maison-106764/02.webp",
+          "/products/maison-106764/03.webp",
+          "/products/maison-106764/04.webp"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 106766,
+        "sku": "106766",
+        "name": "120 × 200 cm",
+        "dimensions": "120 × 200 cm",
+        "contents": "1 saltea RLX4, în dimensiunea aleasă.",
+        "price": 1089,
+        "images": [
+          "/products/maison-106764/01.webp",
+          "/products/maison-106764/02.webp",
+          "/products/maison-106764/03.webp",
+          "/products/maison-106764/04.webp"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 106767,
+        "sku": "106767",
+        "name": "140 × 200 cm",
+        "dimensions": "140 × 200 cm",
+        "contents": "1 saltea RLX4, în dimensiunea aleasă.",
+        "price": 1229,
+        "images": [
+          "/products/maison-106764/01.webp",
+          "/products/maison-106764/02.webp",
+          "/products/maison-106764/03.webp",
+          "/products/maison-106764/04.webp"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 106768,
+        "sku": "106768",
+        "name": "160 × 200 cm",
+        "dimensions": "160 × 200 cm",
+        "contents": "1 saltea RLX4, în dimensiunea aleasă.",
+        "price": 1489,
+        "images": [
+          "/products/maison-106764/01.webp",
+          "/products/maison-106764/02.webp",
+          "/products/maison-106764/03.webp",
+          "/products/maison-106764/04.webp"
+        ],
+        "inStock": true
+      },
+      {
+        "id": 106769,
+        "sku": "106769",
+        "name": "180 × 200 cm",
+        "dimensions": "180 × 200 cm",
+        "contents": "1 saltea RLX4, în dimensiunea aleasă.",
+        "price": 1509,
+        "images": [
+          "/products/maison-106764/01.webp",
+          "/products/maison-106764/02.webp",
+          "/products/maison-106764/03.webp",
+          "/products/maison-106764/04.webp"
+        ],
+        "inStock": true
+      }
+    ],
+    "features": [
+      {
+        "label": "Material",
+        "value": "Miez: spumă poliuretanică, 25 kg/m³, fermitate medie. Husă: microfibră matlasată cu vatelină 100 g/m². Bordură: microfibră matlasată cu vatelină 60 g/m²."
+      },
+      {
+        "label": "Pachet",
+        "value": "1 saltea RLX4, în dimensiunea aleasă."
+      }
+    ]
   }
 ]

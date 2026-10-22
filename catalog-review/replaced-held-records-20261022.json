@@ -1,0 +1,934 @@
+{
+  "reason": "Original records retained unchanged; replaced by reviewed application galleries and supplier-verified copy in app-import-20261022.json.",
+  "products": [
+    {
+      "status": "awaiting_rework_or_verification",
+      "reasonCodes": [
+        "fewer_than_four_images",
+        "variant_gallery_incomplete"
+      ],
+      "product": {
+        "id": 90762,
+        "name": "HALAT DE BAIE VELUR 100% BUMBAC (GRI)",
+        "categoryPath": "articole-baie/halate-baie",
+        "brand": "Ralex Pucioasa",
+        "currency": "RON",
+        "image": "/products/halat-de-baie-velur-100-bumbac-gri/local-117.webp",
+        "images": [
+          "/products/halat-de-baie-velur-100-bumbac-gri/local-117.webp",
+          "/products/halat-de-baie-velur-100-bumbac-gri/local-116.webp"
+        ],
+        "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-gri/",
+        "material": "Velur 100% bumbac",
+        "features": [
+          {
+            "label": "Compoziție",
+            "value": "100% bumbac"
+          },
+          {
+            "label": "Densitate",
+            "value": "420 g/m²"
+          },
+          {
+            "label": "Mărimi",
+            "value": "L–XL și XXL"
+          },
+          {
+            "label": "Conținut",
+            "value": "1 halat cu cordon"
+          }
+        ],
+        "description": "HALAT DE BAIE VELUR 100% BUMBAC (GRI). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+        "category": "Halate baie",
+        "variants": [
+          {
+            "id": 100993,
+            "sku": "100993",
+            "name": "Mărime",
+            "dimensions": "L–XL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-gri/local-117.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — L–XL"
+          },
+          {
+            "id": 100994,
+            "sku": "100994",
+            "name": "Mărime",
+            "dimensions": "XXL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-gri/local-116.webp",
+              "/products/halat-de-baie-velur-100-bumbac-gri/local-117.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — XXL"
+          }
+        ],
+        "price": 159,
+        "inStock": true
+      }
+    },
+    {
+      "status": "awaiting_rework_or_verification",
+      "reasonCodes": [
+        "fewer_than_four_images",
+        "variant_gallery_incomplete"
+      ],
+      "product": {
+        "id": 90756,
+        "name": "HALAT DE BAIE VELUR 100% BUMBAC (ROȘU)",
+        "categoryPath": "articole-baie/halate-baie",
+        "brand": "Ralex Pucioasa",
+        "currency": "RON",
+        "image": "/products/halat-de-baie-velur-100-bumbac-rosu/local-123.webp",
+        "images": [
+          "/products/halat-de-baie-velur-100-bumbac-rosu/local-123.webp",
+          "/products/halat-de-baie-velur-100-bumbac-rosu/local-122.webp"
+        ],
+        "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-rosu/",
+        "material": "Velur 100% bumbac",
+        "features": [
+          {
+            "label": "Compoziție",
+            "value": "100% bumbac"
+          },
+          {
+            "label": "Densitate",
+            "value": "420 g/m²"
+          },
+          {
+            "label": "Mărimi",
+            "value": "L–XL și XXL"
+          },
+          {
+            "label": "Conținut",
+            "value": "1 halat cu cordon"
+          }
+        ],
+        "description": "HALAT DE BAIE VELUR 100% BUMBAC (ROȘU). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+        "category": "Halate baie",
+        "variants": [
+          {
+            "id": 100991,
+            "sku": "100991",
+            "name": "Mărime",
+            "dimensions": "L–XL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-rosu/local-123.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — L–XL"
+          },
+          {
+            "id": 100992,
+            "sku": "100992",
+            "name": "Mărime",
+            "dimensions": "XXL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-rosu/local-122.webp",
+              "/products/halat-de-baie-velur-100-bumbac-rosu/local-123.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — XXL"
+          }
+        ],
+        "price": 159,
+        "inStock": true
+      }
+    },
+    {
+      "status": "awaiting_rework_or_verification",
+      "reasonCodes": [
+        "fewer_than_four_images",
+        "variant_gallery_incomplete"
+      ],
+      "product": {
+        "id": 90781,
+        "name": "HALAT DE BAIE VELUR 100% BUMBAC (CREM)",
+        "categoryPath": "articole-baie/halate-baie",
+        "brand": "Ralex Pucioasa",
+        "currency": "RON",
+        "image": "/products/halat-de-baie-velur-100-bumbac-crem/local-125.webp",
+        "images": [
+          "/products/halat-de-baie-velur-100-bumbac-crem/local-125.webp",
+          "/products/halat-de-baie-velur-100-bumbac-crem/local-124.webp"
+        ],
+        "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-crem/",
+        "material": "Velur 100% bumbac",
+        "features": [
+          {
+            "label": "Compoziție",
+            "value": "100% bumbac"
+          },
+          {
+            "label": "Densitate",
+            "value": "420 g/m²"
+          },
+          {
+            "label": "Mărimi",
+            "value": "L–XL și XXL"
+          },
+          {
+            "label": "Conținut",
+            "value": "1 halat cu cordon"
+          }
+        ],
+        "description": "HALAT DE BAIE VELUR 100% BUMBAC (CREM). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+        "category": "Halate baie",
+        "variants": [
+          {
+            "id": 92911,
+            "sku": "92911",
+            "name": "Mărime",
+            "dimensions": "L–XL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-crem/local-125.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — L–XL"
+          },
+          {
+            "id": 92912,
+            "sku": "92912",
+            "name": "Mărime",
+            "dimensions": "XXL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-crem/local-124.webp",
+              "/products/halat-de-baie-velur-100-bumbac-crem/local-125.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — XXL"
+          }
+        ],
+        "price": 159,
+        "inStock": true
+      }
+    },
+    {
+      "status": "awaiting_rework_or_verification",
+      "reasonCodes": [
+        "fewer_than_four_images",
+        "variant_gallery_incomplete"
+      ],
+      "product": {
+        "id": 90769,
+        "name": "HALAT DE BAIE VELUR 100% BUMBAC (BLEU)",
+        "categoryPath": "articole-baie/halate-baie",
+        "brand": "Ralex Pucioasa",
+        "currency": "RON",
+        "image": "/products/halat-de-baie-velur-100-bumbac-bleu/local-131.webp",
+        "images": [
+          "/products/halat-de-baie-velur-100-bumbac-bleu/local-131.webp",
+          "/products/halat-de-baie-velur-100-bumbac-bleu/local-130.webp"
+        ],
+        "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-bleu/",
+        "material": "Velur 100% bumbac",
+        "features": [
+          {
+            "label": "Compoziție",
+            "value": "100% bumbac"
+          },
+          {
+            "label": "Densitate",
+            "value": "420 g/m²"
+          },
+          {
+            "label": "Mărimi",
+            "value": "L–XL și XXL"
+          },
+          {
+            "label": "Conținut",
+            "value": "1 halat cu cordon"
+          }
+        ],
+        "description": "HALAT DE BAIE VELUR 100% BUMBAC (BLEU). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+        "category": "Halate baie",
+        "variants": [
+          {
+            "id": 92915,
+            "sku": "92915",
+            "name": "Mărime",
+            "dimensions": "L–XL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-bleu/local-131.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — L–XL"
+          },
+          {
+            "id": 92916,
+            "sku": "92916",
+            "name": "Mărime",
+            "dimensions": "XXL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-bleu/local-130.webp",
+              "/products/halat-de-baie-velur-100-bumbac-bleu/local-131.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — XXL"
+          }
+        ],
+        "price": 159,
+        "inStock": true
+      }
+    },
+    {
+      "status": "awaiting_rework_or_verification",
+      "reasonCodes": [
+        "fewer_than_four_images",
+        "variant_gallery_incomplete"
+      ],
+      "product": {
+        "id": 90801,
+        "name": "HALAT DE BAIE VELUR 100% BUMBAC (PUDRA)",
+        "categoryPath": "articole-baie/halate-baie",
+        "brand": "Ralex Pucioasa",
+        "currency": "RON",
+        "image": "/products/halat-de-baie-velur-100-bumbac-pudra/local-133.webp",
+        "images": [
+          "/products/halat-de-baie-velur-100-bumbac-pudra/local-133.webp",
+          "/products/halat-de-baie-velur-100-bumbac-pudra/local-132.webp"
+        ],
+        "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-pudra/",
+        "material": "Velur 100% bumbac",
+        "features": [
+          {
+            "label": "Compoziție",
+            "value": "100% bumbac"
+          },
+          {
+            "label": "Densitate",
+            "value": "420 g/m²"
+          },
+          {
+            "label": "Mărimi",
+            "value": "L–XL și XXL"
+          },
+          {
+            "label": "Conținut",
+            "value": "1 halat cu cordon"
+          }
+        ],
+        "description": "HALAT DE BAIE VELUR 100% BUMBAC (PUDRA). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+        "category": "Halate baie",
+        "variants": [
+          {
+            "id": 100983,
+            "sku": "100983",
+            "name": "Mărime",
+            "dimensions": "L–XL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-pudra/local-133.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — L–XL"
+          },
+          {
+            "id": 100984,
+            "sku": "100984",
+            "name": "Mărime",
+            "dimensions": "XXL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-pudra/local-132.webp",
+              "/products/halat-de-baie-velur-100-bumbac-pudra/local-133.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — XXL"
+          }
+        ],
+        "price": 159,
+        "inStock": true
+      }
+    },
+    {
+      "status": "awaiting_rework_or_verification",
+      "reasonCodes": [
+        "fewer_than_four_images",
+        "variant_gallery_incomplete"
+      ],
+      "product": {
+        "id": 90796,
+        "name": "HALAT DE BAIE VELUR 100% BUMBAC (VERDE)",
+        "categoryPath": "articole-baie/halate-baie",
+        "brand": "Ralex Pucioasa",
+        "currency": "RON",
+        "image": "/products/halat-de-baie-velur-100-bumbac-verde/local-135.webp",
+        "images": [
+          "/products/halat-de-baie-velur-100-bumbac-verde/local-135.webp",
+          "/products/halat-de-baie-velur-100-bumbac-verde/local-134.webp"
+        ],
+        "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-verde/",
+        "material": "Velur 100% bumbac",
+        "features": [
+          {
+            "label": "Compoziție",
+            "value": "100% bumbac"
+          },
+          {
+            "label": "Densitate",
+            "value": "420 g/m²"
+          },
+          {
+            "label": "Mărimi",
+            "value": "L–XL și XXL"
+          },
+          {
+            "label": "Conținut",
+            "value": "1 halat cu cordon"
+          }
+        ],
+        "description": "HALAT DE BAIE VELUR 100% BUMBAC (VERDE). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+        "category": "Halate baie",
+        "variants": [
+          {
+            "id": 92906,
+            "sku": "92906",
+            "name": "Mărime",
+            "dimensions": "L–XL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-verde/local-135.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — L–XL"
+          },
+          {
+            "id": 92907,
+            "sku": "92907",
+            "name": "Mărime",
+            "dimensions": "XXL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-verde/local-134.webp",
+              "/products/halat-de-baie-velur-100-bumbac-verde/local-135.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — XXL"
+          }
+        ],
+        "price": 159,
+        "inStock": true
+      }
+    },
+    {
+      "status": "awaiting_rework_or_verification",
+      "reasonCodes": [
+        "fewer_than_four_images",
+        "variant_gallery_incomplete"
+      ],
+      "product": {
+        "id": 90776,
+        "name": "HALAT DE BAIE VELUR 100% BUMBAC (CAPPUCINO)",
+        "categoryPath": "articole-baie/halate-baie",
+        "brand": "Ralex Pucioasa",
+        "currency": "RON",
+        "image": "/products/halat-de-baie-velur-100-bumbac-cappucino/local-137.webp",
+        "images": [
+          "/products/halat-de-baie-velur-100-bumbac-cappucino/local-137.webp",
+          "/products/halat-de-baie-velur-100-bumbac-cappucino/local-136.webp"
+        ],
+        "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-cappucino/",
+        "material": "Velur 100% bumbac",
+        "features": [
+          {
+            "label": "Compoziție",
+            "value": "100% bumbac"
+          },
+          {
+            "label": "Densitate",
+            "value": "420 g/m²"
+          },
+          {
+            "label": "Mărimi",
+            "value": "L–XL și XXL"
+          },
+          {
+            "label": "Conținut",
+            "value": "1 halat cu cordon"
+          }
+        ],
+        "description": "HALAT DE BAIE VELUR 100% BUMBAC (CAPPUCINO). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+        "category": "Halate baie",
+        "variants": [
+          {
+            "id": 92913,
+            "sku": "92913",
+            "name": "Mărime",
+            "dimensions": "L–XL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-cappucino/local-137.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — L–XL"
+          },
+          {
+            "id": 92914,
+            "sku": "92914",
+            "name": "Mărime",
+            "dimensions": "XXL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-cappucino/local-136.webp",
+              "/products/halat-de-baie-velur-100-bumbac-cappucino/local-137.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — XXL"
+          }
+        ],
+        "price": 159,
+        "inStock": true
+      }
+    },
+    {
+      "status": "awaiting_rework_or_verification",
+      "reasonCodes": [
+        "fewer_than_four_images",
+        "variant_gallery_incomplete"
+      ],
+      "product": {
+        "id": 90787,
+        "name": "HALAT DE BAIE VELUR 100% BUMBAC (MOV)",
+        "categoryPath": "articole-baie/halate-baie",
+        "brand": "Ralex Pucioasa",
+        "currency": "RON",
+        "image": "/products/halat-de-baie-velur-100-bumbac-mov/local-139.webp",
+        "images": [
+          "/products/halat-de-baie-velur-100-bumbac-mov/local-139.webp",
+          "/products/halat-de-baie-velur-100-bumbac-mov/local-138.webp"
+        ],
+        "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-mov/",
+        "material": "Velur 100% bumbac",
+        "features": [
+          {
+            "label": "Compoziție",
+            "value": "100% bumbac"
+          },
+          {
+            "label": "Densitate",
+            "value": "420 g/m²"
+          },
+          {
+            "label": "Mărimi",
+            "value": "L–XL și XXL"
+          },
+          {
+            "label": "Conținut",
+            "value": "1 halat cu cordon"
+          }
+        ],
+        "description": "HALAT DE BAIE VELUR 100% BUMBAC (MOV). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+        "category": "Halate baie",
+        "variants": [
+          {
+            "id": 92908,
+            "sku": "92908",
+            "name": "Mărime",
+            "dimensions": "L–XL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-mov/local-139.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — L–XL"
+          },
+          {
+            "id": 92909,
+            "sku": "92909",
+            "name": "Mărime",
+            "dimensions": "XXL",
+            "price": 159,
+            "images": [
+              "/products/halat-de-baie-velur-100-bumbac-mov/local-138.webp",
+              "/products/halat-de-baie-velur-100-bumbac-mov/local-139.webp"
+            ],
+            "inStock": true,
+            "contents": "1 halat cu cordon — XXL"
+          }
+        ],
+        "price": 159,
+        "inStock": true
+      }
+    },
+    {
+      "status": "awaiting_rework_or_verification",
+      "reasonCodes": [
+        "complete_current_estore_review_not_confirmed"
+      ],
+      "product": {
+        "id": 482,
+        "name": "Protecție matlasată ultrasonic 100gsm",
+        "category": "Produse HoReCa",
+        "categoryPath": "produse-hotel",
+        "brand": "Ralex Pucioasa",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/produse-hotel/protectie-matlasata-ultrasonic-100gsm/",
+        "description": "țesătură microfibră cu densitatea de 90g umplutură minet antialergic cu densitatea de 100gr./m2 lavabilă",
+        "features": [
+          {
+            "label": "Dimensiuni",
+            "value": "Alege mărimea pentru dimensiunile și conținutul variantei."
+          }
+        ],
+        "images": [
+          "/products/ralex-482/01.webp",
+          "/products/ralex-482/02.webp",
+          "/products/ralex-482/03.webp",
+          "/products/ralex-482/04.webp"
+        ],
+        "image": "/products/ralex-482/01.webp",
+        "price": 59,
+        "inStock": true,
+        "variants": [
+          {
+            "id": 105898,
+            "sku": "105898",
+            "name": "90 × 200 cm",
+            "dimensions": "90 × 200 cm",
+            "contents": "Dimensiuni: 90 × 200 cm. țesătură microfibră cu densitatea de 90g umplutură minet antialergic cu densitatea de 100gr./m2 lavabilă",
+            "price": 59,
+            "inStock": true,
+            "images": [
+              "/products/ralex-482/01.webp",
+              "/products/ralex-482/02.webp",
+              "/products/ralex-482/03.webp",
+              "/products/ralex-482/04.webp"
+            ]
+          },
+          {
+            "id": 105895,
+            "sku": "105895",
+            "name": "140 × 200 cm",
+            "dimensions": "140 × 200 cm",
+            "contents": "Dimensiuni: 140 × 200 cm. țesătură microfibră cu densitatea de 90g umplutură minet antialergic cu densitatea de 100gr./m2 lavabilă",
+            "price": 69,
+            "inStock": true,
+            "images": [
+              "/products/ralex-482/01.webp",
+              "/products/ralex-482/02.webp",
+              "/products/ralex-482/03.webp",
+              "/products/ralex-482/04.webp"
+            ]
+          },
+          {
+            "id": 105896,
+            "sku": "105896",
+            "name": "160 × 200 cm",
+            "dimensions": "160 × 200 cm",
+            "contents": "Dimensiuni: 160 × 200 cm. țesătură microfibră cu densitatea de 90g umplutură minet antialergic cu densitatea de 100gr./m2 lavabilă",
+            "price": 69,
+            "inStock": true,
+            "images": [
+              "/products/ralex-482/01.webp",
+              "/products/ralex-482/02.webp",
+              "/products/ralex-482/03.webp",
+              "/products/ralex-482/04.webp"
+            ]
+          },
+          {
+            "id": 105897,
+            "sku": "105897",
+            "name": "180 × 200 cm",
+            "dimensions": "180 × 200 cm",
+            "contents": "Dimensiuni: 180 × 200 cm. țesătură microfibră cu densitatea de 90g umplutură minet antialergic cu densitatea de 100gr./m2 lavabilă",
+            "price": 79,
+            "inStock": true,
+            "images": [
+              "/products/ralex-482/01.webp",
+              "/products/ralex-482/02.webp",
+              "/products/ralex-482/03.webp",
+              "/products/ralex-482/04.webp"
+            ]
+          }
+        ],
+        "material": "Microfibră."
+      }
+    },
+    {
+      "status": "awaiting_rework_or_verification",
+      "reasonCodes": [
+        "complete_current_estore_review_not_confirmed"
+      ],
+      "product": {
+        "id": 12625,
+        "name": "Cuvertură de pat Clasy-matlasată 2 persoane (ESTE V2)",
+        "category": "Cuverturi de pat clasy - două persoane",
+        "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+        "brand": "Ralex Pucioasa",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-este-v2/",
+        "description": "240x260cm+2 fețe pernă 50x70cm țesatură ranforce 100% bumbac densitate 120gr./m2 umplutură minet 150 gsm reversibilă",
+        "features": [
+          {
+            "label": "Conținut și dimensiuni",
+            "value": "240 × 260 cm / 50 × 70 cm"
+          }
+        ],
+        "images": [
+          "/products/ralex-12625/01.webp",
+          "/products/ralex-12625/02.webp",
+          "/products/ralex-12625/03.webp",
+          "/products/ralex-12625/04.webp"
+        ],
+        "image": "/products/ralex-12625/01.webp",
+        "price": 319,
+        "inStock": true,
+        "sku": "12625",
+        "material": "Țesătură Ranforce 100% bumbac; umplutură minet."
+      }
+    },
+    {
+      "status": "awaiting_rework_or_verification",
+      "reasonCodes": [
+        "complete_current_estore_review_not_confirmed"
+      ],
+      "product": {
+        "id": 12637,
+        "name": "Cuvertură de pat Clasy-matlasată 2 persoane (MIDAS V1)",
+        "category": "Cuverturi de pat clasy - două persoane",
+        "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+        "brand": "Ralex Pucioasa",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-midas-v1/",
+        "description": "240x260cm+2 fețe pernă 50x70cm țesatură ranforce 100% bumbac densitate 120gr./m2 umplutură minet 150 gsm reversibilă",
+        "features": [
+          {
+            "label": "Conținut și dimensiuni",
+            "value": "240 × 260 cm / 50 × 70 cm"
+          }
+        ],
+        "images": [
+          "/products/ralex-12637/01.webp",
+          "/products/ralex-12637/02.webp",
+          "/products/ralex-12637/03.webp",
+          "/products/ralex-12637/04.webp"
+        ],
+        "image": "/products/ralex-12637/01.webp",
+        "price": 319,
+        "inStock": true,
+        "sku": "12637",
+        "material": "Țesătură Ranforce 100% bumbac; umplutură minet."
+      }
+    },
+    {
+      "status": "awaiting_rework_or_verification",
+      "reasonCodes": [
+        "complete_current_estore_review_not_confirmed"
+      ],
+      "product": {
+        "id": 12642,
+        "name": "Cuvertură de pat Clasy-matlasată 2 persoane (PORTO V2)",
+        "category": "Cuverturi de pat clasy - două persoane",
+        "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+        "brand": "Ralex Pucioasa",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-porto-v2/",
+        "description": "240x260cm+2 fețe pernă 50x70cm țesatură ranforce 100% bumbac densitate 120gr./m2 umplutură minet 150 gsm reversibilă",
+        "features": [
+          {
+            "label": "Conținut și dimensiuni",
+            "value": "240 × 260 cm / 50 × 70 cm"
+          }
+        ],
+        "images": [
+          "/products/ralex-12642/01.webp",
+          "/products/ralex-12642/02.webp",
+          "/products/ralex-12642/03.webp",
+          "/products/ralex-12642/04.webp"
+        ],
+        "image": "/products/ralex-12642/01.webp",
+        "price": 319,
+        "inStock": true,
+        "sku": "12642",
+        "material": "Țesătură Ranforce 100% bumbac; umplutură minet."
+      }
+    },
+    {
+      "status": "awaiting_rework_or_verification",
+      "reasonCodes": [
+        "complete_current_estore_review_not_confirmed"
+      ],
+      "product": {
+        "id": 34141,
+        "name": "Cuvertură de pat Clasy-matlasată 2 persoane (MONTERA V1)",
+        "category": "Cuverturi de pat clasy - două persoane",
+        "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+        "brand": "Ralex Pucioasa",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-montera-v1/",
+        "description": "240x260cm+2 fețe pernă 50x70cm țesatură ranforce 100% bumbac densitate 120gr./m2 umplutură minet 150 gsm reversibilă",
+        "features": [
+          {
+            "label": "Conținut și dimensiuni",
+            "value": "240 × 260 cm / 50 × 70 cm"
+          }
+        ],
+        "images": [
+          "/products/ralex-34141/01.webp",
+          "/products/ralex-34141/02.webp",
+          "/products/ralex-34141/03.webp",
+          "/products/ralex-34141/04.webp"
+        ],
+        "image": "/products/ralex-34141/01.webp",
+        "price": 319,
+        "inStock": true,
+        "sku": "34141",
+        "material": "Țesătură Ranforce 100% bumbac; umplutură minet."
+      }
+    },
+    {
+      "status": "awaiting_rework_or_verification",
+      "reasonCodes": [
+        "complete_current_estore_review_not_confirmed"
+      ],
+      "product": {
+        "id": 34143,
+        "name": "Cuvertură de pat Clasy-matlasată 2 persoane (PUMA V1)",
+        "category": "Cuverturi de pat clasy - două persoane",
+        "categoryPath": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+        "brand": "Ralex Pucioasa",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-de-pat-clasy-doua-persoane/cuvertura-de-pat-clasy-matlasata-2-persoane-puma-v1/",
+        "description": "240x260cm+2 fețe pernă 50x70cm țesatură ranforce 100% bumbac densitate 120gr./m2 umplutură minet 150 gsm reversibilă",
+        "features": [
+          {
+            "label": "Conținut și dimensiuni",
+            "value": "240 × 260 cm / 50 × 70 cm"
+          }
+        ],
+        "images": [
+          "/products/ralex-34143/01.webp",
+          "/products/ralex-34143/02.webp",
+          "/products/ralex-34143/03.webp",
+          "/products/ralex-34143/04.webp"
+        ],
+        "image": "/products/ralex-34143/01.webp",
+        "price": 319,
+        "inStock": true,
+        "sku": "34143",
+        "material": "Țesătură Ranforce 100% bumbac; umplutură minet."
+      }
+    },
+    {
+      "status": "awaiting_rework_or_verification",
+      "reasonCodes": [
+        "fewer_than_four_images",
+        "variant_gallery_incomplete"
+      ],
+      "product": {
+        "id": 106764,
+        "name": "Saltea Seven Zone, 17 cm — RLX4",
+        "categoryPath": "saltele-si-toppere",
+        "brand": "Ralex Pucioasa",
+        "currency": "RON",
+        "image": "/products/saltea-seven-zone/local-12.webp",
+        "images": [
+          "/products/saltea-seven-zone/local-12.webp",
+          "/products/saltea-seven-zone/local-13.webp"
+        ],
+        "externalUrl": "https://ralexpucioasa.ro/store/saltele-si-toppere/saltea-seven-zone/",
+        "material": "Spumă poliuretanică",
+        "features": [
+          {
+            "label": "Grosime miez",
+            "value": "17 cm"
+          },
+          {
+            "label": "Fermitate",
+            "value": "Medie"
+          },
+          {
+            "label": "Densitate",
+            "value": "25 kg/m³"
+          },
+          {
+            "label": "Confort",
+            "value": "7 zone"
+          }
+        ],
+        "description": "Saltea Seven Zone, 17 cm — RLX4. Specificații: Spumă poliuretanică albă , duritate medie Densitate 25 kg/m³ Grosime miez: 17 cm Debitare conturată în 7 zone de confort !!! IMPORTANT – Instrucțiuni de utilizare Saltea !!! · Despachetarea cu grijă: Scoate salteaua din cutie și din folia protectoare. Atenție: Nu folosi un cuțit sau o foarfecă direct pe plasticul strâns, deoarece poți tăia accidental spuma. · Timpul de expansiune: Salteaua a fost comprimată pentru transport. Așază-o întinsă pe o suprafață plană (chiar pe pat) și lasă-o să se „umfle” timp de 24 până la 48 de ore . Nu dormi pe ea până nu ajunge la forma completă. · Aerisirea (Off-gassing): Produsele din memorie pot avea un miros specific de „nou” la început. Lasă-o într-o cameră bine ventilată în primele ore pentru a permite mirosului să se disperseze. · Straturile de deasupra: Peste saltea poți pune un topper (opțional) și apoi cearsaful de pat. Conținut pachet: 1 saltea.",
+        "category": "Saltele și toppere",
+        "variants": [
+          {
+            "id": 106765,
+            "sku": "106765",
+            "name": "Dimensiune",
+            "dimensions": "90 × 200 cm",
+            "price": 589,
+            "images": [
+              "/products/saltea-seven-zone/local-12.webp",
+              "/products/saltea-seven-zone/local-13.webp"
+            ],
+            "inStock": true,
+            "contents": "1 saltea — 90 × 200 cm"
+          },
+          {
+            "id": 106766,
+            "sku": "106766",
+            "name": "Dimensiune",
+            "dimensions": "120 × 200 cm",
+            "price": 739,
+            "images": [
+              "/products/saltea-seven-zone/local-12.webp",
+              "/products/saltea-seven-zone/local-13.webp"
+            ],
+            "inStock": true,
+            "contents": "1 saltea — 120 × 200 cm"
+          },
+          {
+            "id": 106767,
+            "sku": "106767",
+            "name": "Dimensiune",
+            "dimensions": "140 × 200 cm",
+            "price": 829,
+            "images": [
+              "/products/saltea-seven-zone/local-12.webp",
+              "/products/saltea-seven-zone/local-13.webp"
+            ],
+            "inStock": true,
+            "contents": "1 saltea — 140 × 200 cm"
+          },
+          {
+            "id": 106768,
+            "sku": "106768",
+            "name": "Dimensiune",
+            "dimensions": "160 × 200 cm",
+            "price": 999,
+            "images": [
+              "/products/saltea-seven-zone/local-12.webp",
+              "/products/saltea-seven-zone/local-13.webp"
+            ],
+            "inStock": true,
+            "contents": "1 saltea — 160 × 200 cm"
+          },
+          {
+            "id": 106769,
+            "sku": "106769",
+            "name": "Dimensiune",
+            "dimensions": "180 × 200 cm",
+            "price": 1019,
+            "images": [
+              "/products/saltea-seven-zone/local-12.webp",
+              "/products/saltea-seven-zone/local-13.webp"
+            ],
+            "inStock": true,
+            "contents": "1 saltea — 180 × 200 cm"
+          }
+        ],
+        "price": 589,
+        "inStock": true
+      }
+    }
+  ]
+}
