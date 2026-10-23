@@ -27451,5 +27451,273 @@
     "price": 259,
     "stock": 50,
     "inStock": true
+  },
+  {
+    "id": 162700,
+    "sku": "162700",
+    "name": "Cuvertură matlasată pentru canapea cu 2 locuri, Butter Cream",
+    "category": "Cuverturi fotoliu si canapea",
+    "categoryPath": "cuverturi/cuverturi-fotoliu-si-canapea",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Față și umplutură: 100% poliester (microfibră), material matlasat",
+    "description": "Cuvertură matlasată pentru canapea cu 2 locuri, Butter Cream.\n\nMaterial: Față și umplutură: 100% poliester (microfibră), material matlasat.\n\nConținut și dimensiuni: 1 cuvertură matlasată pentru canapea cu 2 locuri; șezut și spate: 130 × 205 cm; laterale: 50 × 65 cm; dimensiuni totale cu laterale: 260 × 205 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-2-locuri-doua-fete-10/",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162700/01-principala.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162700/02-lateral.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162700/03-detaliu.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162700/04-de-sus.jpg",
+      "/products/162700/overhead-view-v1.png"
+    ],
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162700/01-principala.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Față și umplutură: 100% poliester (microfibră), material matlasat"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cuvertură matlasată pentru canapea cu 2 locuri; șezut și spate: 130 × 205 cm; laterale: 50 × 65 cm; dimensiuni totale cu laterale: 260 × 205 cm."
+      }
+    ],
+    "price": 89,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162694,
+    "sku": "162694",
+    "name": "Cuvertură matlasată pentru canapea cu 2 locuri, Lighter Brown",
+    "category": "Cuverturi fotoliu si canapea",
+    "categoryPath": "cuverturi/cuverturi-fotoliu-si-canapea",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Față și umplutură: 100% poliester (microfibră), material matlasat",
+    "description": "Cuvertură matlasată pentru canapea cu 2 locuri, Lighter Brown.\n\nMaterial: Față și umplutură: 100% poliester (microfibră), material matlasat.\n\nConținut și dimensiuni: 1 cuvertură matlasată pentru canapea cu 2 locuri; șezut și spate: 130 × 205 cm; laterale: 50 × 65 cm; dimensiuni totale cu laterale: 260 × 205 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-2-locuri-doua-fete-7/",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162694/01-principala.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162694/02-lateral.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162694/03-detaliu.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162694/04-de-sus.jpg",
+      "/products/162694/overhead-view-v1.png"
+    ],
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162694/01-principala.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Față și umplutură: 100% poliester (microfibră), material matlasat"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cuvertură matlasată pentru canapea cu 2 locuri; șezut și spate: 130 × 205 cm; laterale: 50 × 65 cm; dimensiuni totale cu laterale: 260 × 205 cm."
+      }
+    ],
+    "price": 89,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162706,
+    "sku": "162706",
+    "name": "Cuvertură matlasată pentru canapea cu 2 locuri, Sunlit Sage",
+    "category": "Cuverturi fotoliu si canapea",
+    "categoryPath": "cuverturi/cuverturi-fotoliu-si-canapea",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Față și umplutură: 100% poliester (microfibră), material matlasat",
+    "description": "Cuvertură matlasată pentru canapea cu 2 locuri, Sunlit Sage.\n\nMaterial: Față și umplutură: 100% poliester (microfibră), material matlasat.\n\nConținut și dimensiuni: 1 cuvertură matlasată pentru canapea cu 2 locuri; șezut și spate: 130 × 205 cm; laterale: 50 × 65 cm; dimensiuni totale cu laterale: 260 × 205 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-2-locuri-doua-fete-13/",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162706/01-principala.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162706/02-lateral.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162706/03-detaliu.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162706/04-de-sus.jpg",
+      "/products/162706/overhead-view-v1.png"
+    ],
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162706/01-principala.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Față și umplutură: 100% poliester (microfibră), material matlasat"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cuvertură matlasată pentru canapea cu 2 locuri; șezut și spate: 130 × 205 cm; laterale: 50 × 65 cm; dimensiuni totale cu laterale: 260 × 205 cm."
+      }
+    ],
+    "price": 89,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162682,
+    "sku": "162682",
+    "name": "Cuvertură matlasată pentru canapea cu 2 locuri, Vanilla Cream",
+    "category": "Cuverturi fotoliu si canapea",
+    "categoryPath": "cuverturi/cuverturi-fotoliu-si-canapea",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Față și umplutură: 100% poliester (microfibră), material matlasat",
+    "description": "Cuvertură matlasată pentru canapea cu 2 locuri, Vanilla Cream.\n\nMaterial: Față și umplutură: 100% poliester (microfibră), material matlasat.\n\nConținut și dimensiuni: 1 cuvertură matlasată pentru canapea cu 2 locuri; șezut și spate: 130 × 205 cm; laterale: 50 × 65 cm; dimensiuni totale cu laterale: 260 × 205 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-2-locuri-doua-fete/",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162682/01-principala.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162682/02-lateral.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162682/03-detaliu.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162682/04-de-sus.jpg",
+      "/products/162682/overhead-view-v1.png"
+    ],
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162682/01-principala.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Față și umplutură: 100% poliester (microfibră), material matlasat"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cuvertură matlasată pentru canapea cu 2 locuri; șezut și spate: 130 × 205 cm; laterale: 50 × 65 cm; dimensiuni totale cu laterale: 260 × 205 cm."
+      }
+    ],
+    "price": 89,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162671,
+    "sku": "162671",
+    "name": "Cuvertură matlasată pentru fotoliu, Butter Cream",
+    "category": "Cuverturi fotoliu si canapea",
+    "categoryPath": "cuverturi/cuverturi-fotoliu-si-canapea",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Față și umplutură: 100% poliester (microfibră), material matlasat",
+    "description": "Cuvertură matlasată pentru fotoliu, Butter Cream.\n\nMaterial: Față și umplutură: 100% poliester (microfibră), material matlasat.\n\nConținut și dimensiuni: 1 cuvertură matlasată pentru fotoliu; șezut și spate: 60 × 177 cm; laterale: 53 × 62 cm; dimensiuni totale cu laterale: 166 × 177 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-fotoliu-11/",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162671/01-principala.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162671/02-lateral.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162671/03-detaliu.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162671/04-de-sus.jpg",
+      "/products/162671/overhead-view-v1.png",
+      "/products/162671/side-view-v1.png"
+    ],
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162671/01-principala.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Față și umplutură: 100% poliester (microfibră), material matlasat"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cuvertură matlasată pentru fotoliu; șezut și spate: 60 × 177 cm; laterale: 53 × 62 cm; dimensiuni totale cu laterale: 166 × 177 cm."
+      }
+    ],
+    "price": 69,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162665,
+    "sku": "162665",
+    "name": "Cuvertură matlasată pentru fotoliu, Lighter Brown",
+    "category": "Cuverturi fotoliu si canapea",
+    "categoryPath": "cuverturi/cuverturi-fotoliu-si-canapea",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Față și umplutură: 100% poliester (microfibră), material matlasat",
+    "description": "Cuvertură matlasată pentru fotoliu, Lighter Brown.\n\nMaterial: Față și umplutură: 100% poliester (microfibră), material matlasat.\n\nConținut și dimensiuni: 1 cuvertură matlasată pentru fotoliu; șezut și spate: 60 × 177 cm; laterale: 53 × 62 cm; dimensiuni totale cu laterale: 166 × 177 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-fotoliu-8/",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162665/01-principala.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162665/02-lateral.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162665/03-detaliu.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162665/04-de-sus.jpg",
+      "/products/162665/overhead-view-v1.png",
+      "/products/162665/side-view-v1.png"
+    ],
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162665/01-principala.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Față și umplutură: 100% poliester (microfibră), material matlasat"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cuvertură matlasată pentru fotoliu; șezut și spate: 60 × 177 cm; laterale: 53 × 62 cm; dimensiuni totale cu laterale: 166 × 177 cm."
+      }
+    ],
+    "price": 69,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162655,
+    "sku": "162655",
+    "name": "Cuvertură matlasată pentru fotoliu, Sunlit Sage",
+    "category": "Cuverturi fotoliu si canapea",
+    "categoryPath": "cuverturi/cuverturi-fotoliu-si-canapea",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Față și umplutură: 100% poliester (microfibră), material matlasat",
+    "description": "Cuvertură matlasată pentru fotoliu, Sunlit Sage.\n\nMaterial: Față și umplutură: 100% poliester (microfibră), material matlasat.\n\nConținut și dimensiuni: 1 cuvertură matlasată pentru fotoliu; șezut și spate: 60 × 177 cm; laterale: 53 × 62 cm; dimensiuni totale cu laterale: 166 × 177 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-fotoliu-3/",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162655/01-principala.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162655/02-lateral.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162655/03-detaliu.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162655/04-de-sus.jpg",
+      "/products/162655/overhead-view-v1.png",
+      "/products/162655/side-view-v1.png"
+    ],
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162655/01-principala.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Față și umplutură: 100% poliester (microfibră), material matlasat"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cuvertură matlasată pentru fotoliu; șezut și spate: 60 × 177 cm; laterale: 53 × 62 cm; dimensiuni totale cu laterale: 166 × 177 cm."
+      }
+    ],
+    "price": 69,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162651,
+    "sku": "162651",
+    "name": "Cuvertură matlasată pentru fotoliu, Vanilla Cream",
+    "category": "Cuverturi fotoliu si canapea",
+    "categoryPath": "cuverturi/cuverturi-fotoliu-si-canapea",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Față și umplutură: 100% poliester (microfibră), material matlasat",
+    "description": "Cuvertură matlasată pentru fotoliu, Vanilla Cream.\n\nMaterial: Față și umplutură: 100% poliester (microfibră), material matlasat.\n\nConținut și dimensiuni: 1 cuvertură matlasată pentru fotoliu; șezut și spate: 60 × 177 cm; laterale: 53 × 62 cm; dimensiuni totale cu laterale: 166 × 177 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-fotoliu/",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162651/01-principala.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162651/02-lateral.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162651/03-detaliu.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162651/04-de-sus.jpg",
+      "/products/162651/overhead-view-v1.png",
+      "/products/162651/side-view-v1.png"
+    ],
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/162651/01-principala.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Față și umplutură: 100% poliester (microfibră), material matlasat"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cuvertură matlasată pentru fotoliu; șezut și spate: 60 × 177 cm; laterale: 53 × 62 cm; dimensiuni totale cu laterale: 166 × 177 cm."
+      }
+    ],
+    "price": 69,
+    "stock": 100,
+    "inStock": true
   }
 ]

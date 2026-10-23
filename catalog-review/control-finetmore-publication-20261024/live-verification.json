@@ -1,0 +1,35 @@
+{
+  "batch": "control-finetmore-publication-20261024",
+  "checkedAt": "2026-10-23T22:43:14.676664+00:00",
+  "catalogCount": 615,
+  "results": [
+    {
+      "id": 162154,
+      "status": "live"
+    },
+    {
+      "id": 162277,
+      "status": "live"
+    },
+    {
+      "id": 162281,
+      "status": "live"
+    },
+    {
+      "id": 162276,
+      "status": "live"
+    },
+    {
+      "id": 79524,
+      "status": "live"
+    },
+    {
+      "id": 46016,
+      "status": "live"
+    },
+    {
+      "id": 162159,
+      "status": "live"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "prompt": "Distinct overhead view of entire sofa or armchair protector matching exact supplier color, meandering quilting, rounded binding and flap construction. Armchairs also receive opposite side view showing arm flap. No added cushions. Portrait 2:3.",
+  "outputs": [
+    {
+      "index": 52,
+      "id": "162700",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162700-supplier.jpg",
+        "/tmp/estore-publication-review-20261023/efc617744352ffceb8c95776264f1620012d5f0a6610860121a5e7dec514d2ed.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162700-sofa-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ba06dd43-1e07-403f-9bc0-898fb31dccd6.png",
+      "sidePath": null
+    },
+    {
+      "index": 53,
+      "id": "162694",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162694-supplier.jpg",
+        "/tmp/estore-publication-review-20261023/9b4fdbceaf666d14b6be993d3ede44a203f4019845f02895d6a5aab8d32fac34.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162694-sofa-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-be6b3b32-60aa-4d91-ab16-c165a3b6a901.png",
+      "sidePath": null
+    },
+    {
+      "index": 54,
+      "id": "162706",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162706-supplier.jpg",
+        "/tmp/estore-publication-review-20261023/8dc92bdc30b16e6de56e41e8df0bce8067872fb51134c25e4a46df1f37431070.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162706-sofa-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a061cfb6-f883-4e3e-a4a1-f37b676aec67.png",
+      "sidePath": null
+    },
+    {
+      "index": 55,
+      "id": "162682",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162682-supplier.jpg",
+        "/tmp/estore-publication-review-20261023/854856510f100b082698296a17cf159daafdf783595b9bd854b456bdcf980723.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162682-sofa-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-2fc7f68d-68bb-495a-a868-2f2321d99126.png",
+      "sidePath": null
+    },
+    {
+      "index": 56,
+      "id": "162671",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162671-supplier.jpg",
+        "/tmp/estore-publication-review-20261023/26e3f41db54db5a81f1ebe8233028fe8c9a388d9212196a993dcc934b0a102a9.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162671-sofa-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-3ec72cf5-f01d-4b56-b6ab-ebe854fdd584.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-13bb146d-e481-48e7-95f6-8d203c55783a.png"
+    },
+    {
+      "index": 57,
+      "id": "162665",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162665-supplier.jpg",
+        "/tmp/estore-publication-review-20261023/20035a0edab267e81b893b69dc5673e66f30b98d672b826b8225bffb527390fc.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162665-sofa-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-31f6e1ec-bc69-4422-932d-63f6a6935b33.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-adc7281f-a8b7-4ebd-9b87-7ad02edb32d7.png"
+    },
+    {
+      "index": 58,
+      "id": "162655",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162655-supplier.jpg",
+        "/tmp/estore-publication-review-20261023/a5b1b3d7be97efbb14e800dea24aaca5fc0c3fe846e2e5138a73debcab173121.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162655-sofa-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-8d0f6233-ed4e-4bd2-9d4f-ff87265c7e43.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-55c1bf6c-44f5-4748-8319-12f49eb2cfc2.png"
+    },
+    {
+      "index": 59,
+      "id": "162651",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162651-supplier.jpg",
+        "/tmp/estore-publication-review-20261023/63f656312991105762b6961e045e59067a9958f68f0ee1469c4e88739142a52c.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162651-sofa-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-0fdb59c3-face-4dfe-973b-519ab5856a05.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-1067b672-5219-43d9-b84c-02fae5e931b1.png"
+    }
+  ],
+  "review": "All 12 actual generated photographs visually inspected against own supplier and Control images."
+}

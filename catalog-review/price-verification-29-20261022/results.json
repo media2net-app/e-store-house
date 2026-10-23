@@ -7231,5 +7231,93 @@
       "81222": true
     },
     "checkedAt": "2026-10-23T22:35:15.019921+00:00"
+  },
+  {
+    "id": 162700,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-2-locuri-doua-fete-10/",
+    "costs": {
+      "162700": 64.0
+    },
+    "availability": {
+      "162700": true
+    },
+    "checkedAt": "2026-10-23T22:43:42.732238+00:00"
+  },
+  {
+    "id": 162694,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-2-locuri-doua-fete-7/",
+    "costs": {
+      "162694": 64.0
+    },
+    "availability": {
+      "162694": true
+    },
+    "checkedAt": "2026-10-23T22:43:42.732238+00:00"
+  },
+  {
+    "id": 162706,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-2-locuri-doua-fete-13/",
+    "costs": {
+      "162706": 64.0
+    },
+    "availability": {
+      "162706": true
+    },
+    "checkedAt": "2026-10-23T22:43:42.732238+00:00"
+  },
+  {
+    "id": 162682,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-2-locuri-doua-fete/",
+    "costs": {
+      "162682": 64.0
+    },
+    "availability": {
+      "162682": true
+    },
+    "checkedAt": "2026-10-23T22:43:42.732238+00:00"
+  },
+  {
+    "id": 162671,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-fotoliu-11/",
+    "costs": {
+      "162671": 51.0
+    },
+    "availability": {
+      "162671": true
+    },
+    "checkedAt": "2026-10-23T22:43:42.732238+00:00"
+  },
+  {
+    "id": 162665,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-fotoliu-8/",
+    "costs": {
+      "162665": 51.0
+    },
+    "availability": {
+      "162665": true
+    },
+    "checkedAt": "2026-10-23T22:43:42.732238+00:00"
+  },
+  {
+    "id": 162655,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-fotoliu-3/",
+    "costs": {
+      "162655": 51.0
+    },
+    "availability": {
+      "162655": true
+    },
+    "checkedAt": "2026-10-23T22:43:42.732238+00:00"
+  },
+  {
+    "id": 162651,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-fotoliu/",
+    "costs": {
+      "162651": 51.0
+    },
+    "availability": {
+      "162651": true
+    },
+    "checkedAt": "2026-10-23T22:43:42.732238+00:00"
   }
 ]
