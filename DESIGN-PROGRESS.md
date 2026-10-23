@@ -126,3 +126,5 @@ Production commit b538e15 deployed successfully on Vercel. Canonical https://www
 
 ### Prior-price display: owner's trading-history clarification
 Reviewed Git source snapshots and found earlier development prices (including robe 156). Owner explicitly clarified that the store was not trading live during that development stage and instructed use of last displayed pre-campaign prices. Source-code history is not independently treated as evidence of commercial price history. Based on owner's clarification, reference prices for this campaign: duvets 149, robe 189 (both variants), MicroGel 139, Zen 159. Current whole-lei prices unchanged. Added struck prior prices and conservative whole-percent badges (20%) in homepage Super Sale, catalog cards and product purchase panel. No fictitious 40% badge or general catalog price inflation. Publishing requested follow-up to approved live homepage.
+
+- User update: free shipping at 399 lei after discounts, including Super Sale value. Extra 10% requires two non-Super-Sale units and discounts only the cheapest eligible unit. Updated cart, authoritative quote, public messages and promotion terms.

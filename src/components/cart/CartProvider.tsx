@@ -11,6 +11,7 @@ type CartItem = {
   sku?: string;
   bundleComponents?: Product["bundleComponents"];
   productId: number;
+  superSale?: boolean;
   name: string;
   price: number;
   currency: string;
@@ -73,7 +74,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       return existing
         ? prev.map((item) => item.productId === product.id ? { ...item, quantity: item.quantity + quantity } : item)
         : [...prev, { productId: product.id, sku: product.sku, bundleComponents: product.bundleComponents,
-          name: product.name, price: product.price, currency: product.currency, image: product.image, quantity }];
+          name: product.name, superSale: product.tag === "Super Sale", price: product.price, currency: product.currency, image: product.image, quantity }];
     });
     setIsOpen(true);
   };
@@ -115,9 +116,9 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       <aside ref={drawer} className="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" onClick={(event) => event.stopPropagation()}>
         <div className="cart-drawer-header"><div><small>E-STORE HOUSE</small><h2 id="cart-title">Coșul tău <span>({totalItems})</span></h2></div><button className="cart-close" onClick={() => setIsOpen(false)} aria-label="Închide coșul">✕</button></div>
         {cartNotice ? <p className="cart-offer-note" role="status">{cartNotice}</p> : null}
-        {!items.length ? <div className="cart-empty"><p>Coșul tău așteaptă ceva frumos.</p><p>Adaugă două articole și primești 10% reducere la cel mai ieftin.</p><Link href="/shop" onClick={() => setIsOpen(false)} className="cart-shop-link">Descoperă colecția →</Link></div> : <>
+        {!items.length ? <div className="cart-empty"><p>Coșul tău așteaptă ceva frumos.</p><p>Adaugă două articole din afara Super Sale și primești 10% reducere la cel mai ieftin dintre ele.</p><Link href="/shop" onClick={() => setIsOpen(false)} className="cart-shop-link">Descoperă colecția →</Link></div> : <>
           <div className="cart-drawer-items">
-            <p className="cart-offer-note">{totals.discountCents ? "Reducerea de 10% este aplicată automat." : "Adaugă încă un articol pentru 10% reducere la cel mai ieftin."}</p>
+            <p className="cart-offer-note">{totals.discountCents ? "Reducerea de 10% este aplicată automat." : "La două articole din afara Super Sale, ai 10% reducere la cel mai ieftin dintre ele."}</p>
             {items.map((item) => <div key={item.productId} className="cart-item">
               <div className="cart-item-main"><img src={item.image} alt={item.name} width={72} height={90} /><div><p className="cart-item-name">{item.name}</p>{item.sku ? <p className="cart-item-code">Cod: {item.sku}</p> : null}
                 {item.bundleComponents?.map((component) => <p key={component.sku} className="cart-item-code">{component.quantity * item.quantity} × {component.name} · {component.sku}</p>)}

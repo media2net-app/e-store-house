@@ -6,6 +6,7 @@ import { allProducts, type Product } from "@/lib/products";
 export type RequestedCartLine = { productId: number; quantity: number };
 export type QuotedCartLine = {
   productId: number;
+  superSale: boolean;
   sku?: string;
   bundleComponents?: Product["bundleComponents"];
   name: string;
@@ -40,7 +41,7 @@ export function quoteCart(requested: unknown) {
     if (!Number.isFinite(price) || price <= 0) throw new Error("Prețul unui produs nu este valid.");
     return {
       category: product.category, categoryPath: product.categoryPath,
-      productId, quantity, price, currency: product.currency,
+      productId, quantity, price, currency: product.currency, superSale: product.tag === "Super Sale",
       sku: variant?.sku ?? product.sku,
       bundleComponents: variant?.bundleComponents ?? product.bundleComponents,
       name: variant ? `${product.name} — ${variant.name}` : product.name,

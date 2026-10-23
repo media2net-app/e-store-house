@@ -31,12 +31,12 @@ test("calculations round discounts to cents and are independent of cart order", 
   assert.equal(cartOffers(a).totalCents, 33995);
   assert.equal(cartOffers([...a].reverse()).totalCents, 33995);
 });
-test("free shipping starts at exactly 900 lei AFTER discount", () => {
-  const yes = cartOffers([item(1, 100), item(2, 810)]);
-  assert.equal(yes.totalCents, 90000); assert.equal(yes.freeShipping, true); assert.equal(yes.remainingShippingCents, 0);
-  const no = cartOffers([item(1, 100), item(2, 809.99)]);
-  assert.equal(no.totalCents, 89999); assert.equal(no.freeShipping, false); assert.equal(no.remainingShippingCents, 1);
-  assert.equal(cartOffers([item(1, 900)]).freeShipping, true);
+test("free shipping starts at exactly 399 lei AFTER discount", () => {
+  const yes = cartOffers([item(1, 100), item(2, 309)]);
+  assert.equal(yes.totalCents, 39900); assert.equal(yes.freeShipping, true); assert.equal(yes.remainingShippingCents, 0);
+  const no = cartOffers([item(1, 100), item(2, 308.99)]);
+  assert.equal(no.totalCents, 39899); assert.equal(no.freeShipping, false); assert.equal(no.remainingShippingCents, 1);
+  assert.equal(cartOffers([item(1, 399)]).freeShipping, true);
 });
 test("RON and Lei use the same promotion; invalid money and quantities are rejected", () => {
   assert.equal(cartOffers([item(1, 100), { ...item(2, 200), currency: "Lei" }]).totalCents, 29000);
@@ -78,7 +78,7 @@ test("psychological prices remain exact when discount and shipping progress are 
   assert.equal(result.subtotalCents, 45800);
   assert.equal(result.discountCents, 2290);
   assert.equal(result.totalCents, 43510);
-  assert.equal(result.remainingShippingCents, 46490);
+  assert.equal(result.remainingShippingCents, 0);
   assert.equal(cartOffers([item(1, 229, 5)]).freeShipping, true);
 });
 
@@ -115,4 +115,17 @@ test("robes complement towels without being labelled as similar towels", () => {
   assert.ok(similar.every((p) => p.categoryPath === towel.categoryPath));
   assert.ok(complementary.some((p) => p.categoryPath === 'articole-baie/halate-baie'));
   assert.equal(complementary.length, 8);
+});
+
+
+test("Super Sale units never qualify for or receive the second-item discount", () => {
+  const sale = { ...item(163321, 119, 2), superSale: true };
+  assert.equal(cartOffers([sale]).discountCents, 0);
+  assert.equal(cartOffers([sale, item(1, 200)]).discountCents, 0);
+  const mixed = cartOffers([sale, item(1, 200), item(2, 250)]);
+  assert.equal(mixed.discountCents, 2000);
+  assert.equal(mixed.discountedProductId, 1);
+  assert.equal(mixed.totalCents, 66800);
+  assert.equal(mixed.freeShipping, true);
+  assert.equal(cartOffers([{ ...sale, quantity: 4 }]).freeShipping, true);
 });

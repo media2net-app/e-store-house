@@ -22,7 +22,7 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
   const canonical = active ? `/shop?categorie=${encodeURIComponent(active.path)}` : "/shop";
   return {
     title, description: active?.path === "oferte"
-      ? "Produse eligibile pentru reducerea automată de 10% la a doua bucată, cea mai ieftină din coș."
+      ? "Produse Super Sale cu preț redus direct. Nu se cumulează cu reducerea de 10% la al doilea produs."
       : active ? `Descoperă ${active.name.toLocaleLowerCase("ro-RO")} în magazinul E-Store House.`
         : "Descoperă textile pentru casă disponibile în magazinul E-Store House.",
     alternates: { canonical }, robots: typeof q === "string" && q.trim() ? { index: false, follow: true } : undefined,
@@ -81,7 +81,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
           {products.length ? `${products.length} ${products.length === 1 ? "produs" : "produse"}. Afișăm ${(page - 1) * pageSize + 1}–${Math.min(page * pageSize, products.length)}.` : "Nu am găsit produse pentru această selecție."}
         </p>
         {active?.path === "oferte" ? <p className="mt-4 rounded-xl border border-[#d8c4a0] bg-[#fcf7ee] px-5 py-4 text-sm leading-relaxed text-[#3b2d24]">
-          Toate produsele afișate sunt eligibile pentru reducerea automată de 10% la o singură bucată, cea mai ieftină, când adaugi cel puțin două articole în coș. Nu afișăm prețuri anterioare inventate. <Link href="/promotii" className="font-semibold underline">Vezi condițiile ofertei</Link>.
+          Produsele Super Sale au reducerea inclusă în prețul afișat și sunt excluse din oferta de 10% la al doilea produs. <Link href="/promotii" className="font-semibold underline">Vezi condițiile ofertei</Link>.
         </p> : null}
 
         {active && <nav className="subcategory-links" aria-label="Subcategorii">{getCategoryChildren(active.path).map(c=><Link key={c.path} href={categoryHref(c.path)}>{c.name}</Link>)}</nav>}
