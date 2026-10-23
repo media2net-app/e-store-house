@@ -1,0 +1,362 @@
+{
+  "163321": [
+    {
+      "commit": "78767baf",
+      "date": "2026-10-23",
+      "price": 149,
+      "variantPrices": []
+    },
+    {
+      "commit": "059a788d",
+      "date": "2026-10-23",
+      "price": 149,
+      "variantPrices": []
+    },
+    {
+      "commit": "c69a5c4d",
+      "date": "2026-10-23",
+      "price": 149,
+      "variantPrices": []
+    },
+    {
+      "commit": "0612a7eb",
+      "date": "2026-10-23",
+      "price": 149,
+      "variantPrices": []
+    },
+    {
+      "commit": "18cacae7",
+      "date": "2026-10-22",
+      "price": 149,
+      "variantPrices": []
+    },
+    {
+      "commit": "6131242d",
+      "date": "2026-10-22",
+      "price": 209,
+      "variantPrices": []
+    },
+    {
+      "commit": "d2473319",
+      "date": "2026-10-22",
+      "price": 209,
+      "variantPrices": []
+    },
+    {
+      "commit": "28161b6f",
+      "date": "2026-10-21",
+      "price": 209,
+      "variantPrices": []
+    },
+    {
+      "commit": "241e5dbe",
+      "date": "2026-10-21",
+      "price": 209,
+      "variantPrices": []
+    },
+    {
+      "commit": "645cd791",
+      "date": "2026-10-21",
+      "price": 201.6,
+      "variantPrices": []
+    }
+  ],
+  "163319": [
+    {
+      "commit": "78767baf",
+      "date": "2026-10-23",
+      "price": 149,
+      "variantPrices": []
+    },
+    {
+      "commit": "059a788d",
+      "date": "2026-10-23",
+      "price": 149,
+      "variantPrices": []
+    },
+    {
+      "commit": "c69a5c4d",
+      "date": "2026-10-23",
+      "price": 149,
+      "variantPrices": []
+    },
+    {
+      "commit": "0612a7eb",
+      "date": "2026-10-23",
+      "price": 149,
+      "variantPrices": []
+    },
+    {
+      "commit": "18cacae7",
+      "date": "2026-10-22",
+      "price": 149,
+      "variantPrices": []
+    },
+    {
+      "commit": "6131242d",
+      "date": "2026-10-22",
+      "price": 209,
+      "variantPrices": []
+    },
+    {
+      "commit": "d2473319",
+      "date": "2026-10-22",
+      "price": 209,
+      "variantPrices": []
+    },
+    {
+      "commit": "28161b6f",
+      "date": "2026-10-21",
+      "price": 209,
+      "variantPrices": []
+    },
+    {
+      "commit": "241e5dbe",
+      "date": "2026-10-21",
+      "price": 209,
+      "variantPrices": []
+    },
+    {
+      "commit": "645cd791",
+      "date": "2026-10-21",
+      "price": 201.6,
+      "variantPrices": []
+    }
+  ],
+  "163317": [
+    {
+      "commit": "78767baf",
+      "date": "2026-10-23",
+      "price": 149,
+      "variantPrices": []
+    },
+    {
+      "commit": "059a788d",
+      "date": "2026-10-23",
+      "price": 149,
+      "variantPrices": []
+    },
+    {
+      "commit": "c69a5c4d",
+      "date": "2026-10-23",
+      "price": 149,
+      "variantPrices": []
+    },
+    {
+      "commit": "0612a7eb",
+      "date": "2026-10-23",
+      "price": 149,
+      "variantPrices": []
+    },
+    {
+      "commit": "18cacae7",
+      "date": "2026-10-22",
+      "price": 149,
+      "variantPrices": []
+    },
+    {
+      "commit": "6131242d",
+      "date": "2026-10-22",
+      "price": 209,
+      "variantPrices": []
+    },
+    {
+      "commit": "d2473319",
+      "date": "2026-10-22",
+      "price": 209,
+      "variantPrices": []
+    },
+    {
+      "commit": "28161b6f",
+      "date": "2026-10-21",
+      "price": 209,
+      "variantPrices": []
+    },
+    {
+      "commit": "241e5dbe",
+      "date": "2026-10-21",
+      "price": 209,
+      "variantPrices": []
+    },
+    {
+      "commit": "645cd791",
+      "date": "2026-10-21",
+      "price": 201.6,
+      "variantPrices": []
+    }
+  ],
+  "90801": [
+    {
+      "commit": "78767baf",
+      "date": "2026-10-23",
+      "price": 189,
+      "variantPrices": [
+        189,
+        189
+      ]
+    },
+    {
+      "commit": "059a788d",
+      "date": "2026-10-23",
+      "price": 189,
+      "variantPrices": [
+        189,
+        189
+      ]
+    },
+    {
+      "commit": "c69a5c4d",
+      "date": "2026-10-23",
+      "price": 189,
+      "variantPrices": [
+        189,
+        189
+      ]
+    },
+    {
+      "commit": "0612a7eb",
+      "date": "2026-10-23",
+      "price": 189,
+      "variantPrices": [
+        189,
+        189
+      ]
+    },
+    {
+      "commit": "18cacae7",
+      "date": "2026-10-22",
+      "price": 189,
+      "variantPrices": [
+        189,
+        189
+      ]
+    },
+    {
+      "commit": "6131242d",
+      "date": "2026-10-22",
+      "price": 269,
+      "variantPrices": [
+        269,
+        269
+      ]
+    },
+    {
+      "commit": "241e5dbe",
+      "date": "2026-10-21",
+      "price": 159,
+      "variantPrices": [
+        159,
+        159
+      ]
+    },
+    {
+      "commit": "645cd791",
+      "date": "2026-10-21",
+      "price": 156,
+      "variantPrices": [
+        156,
+        156
+      ]
+    },
+    {
+      "commit": "914bd80d",
+      "date": "2026-10-19",
+      "price": 156,
+      "variantPrices": [
+        156,
+        156
+      ]
+    },
+    {
+      "commit": "b7435a88",
+      "date": "2026-10-19",
+      "price": 156,
+      "variantPrices": [
+        156,
+        156
+      ]
+    },
+    {
+      "commit": "ee747742",
+      "date": "2026-10-19",
+      "price": 156,
+      "variantPrices": [
+        156,
+        156
+      ]
+    },
+    {
+      "commit": "e86b41a5",
+      "date": "2026-09-28",
+      "price": 156,
+      "variantPrices": [
+        156,
+        156
+      ]
+    }
+  ],
+  "102893": [
+    {
+      "commit": "78767baf",
+      "date": "2026-10-23",
+      "price": 139,
+      "variantPrices": []
+    },
+    {
+      "commit": "059a788d",
+      "date": "2026-10-23",
+      "price": 139,
+      "variantPrices": []
+    },
+    {
+      "commit": "c69a5c4d",
+      "date": "2026-10-23",
+      "price": 139,
+      "variantPrices": []
+    },
+    {
+      "commit": "0612a7eb",
+      "date": "2026-10-23",
+      "price": 139,
+      "variantPrices": []
+    },
+    {
+      "commit": "18cacae7",
+      "date": "2026-10-22",
+      "price": 139,
+      "variantPrices": []
+    }
+  ],
+  "102537": [
+    {
+      "commit": "78767baf",
+      "date": "2026-10-23",
+      "price": 159,
+      "variantPrices": []
+    },
+    {
+      "commit": "059a788d",
+      "date": "2026-10-23",
+      "price": 159,
+      "variantPrices": []
+    },
+    {
+      "commit": "c69a5c4d",
+      "date": "2026-10-23",
+      "price": 159,
+      "variantPrices": []
+    },
+    {
+      "commit": "0612a7eb",
+      "date": "2026-10-23",
+      "price": 159,
+      "variantPrices": []
+    },
+    {
+      "commit": "18cacae7",
+      "date": "2026-10-22",
+      "price": 159,
+      "variantPrices": []
+    }
+  ]
+}

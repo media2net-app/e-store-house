@@ -9,7 +9,7 @@ export type Product = {
   description?: string;
   material?: string;
   features?: { label: string; value: string }[];
-  variants?: { id: number; name: string; dimensions: string; price: number; sku: string; images?: string[]; inStock?: boolean; contents: string; bundleComponents?: Product["bundleComponents"] }[];
+  variants?: { id: number; name: string; dimensions: string; price: number; oldPrice?: number; sku: string; images?: string[]; inStock?: boolean; contents: string; bundleComponents?: Product["bundleComponents"] }[];
   id: number;
   name: string;
   category: string;
@@ -33,10 +33,10 @@ export type Product = {
 export const allProducts: Product[] = (productsData as Product[]).filter((product) => !qualityHold.includes(product.id)).map(product => isSuperSale(product.id) ? {
   ...product,
   price: superSalePrice(product.price),
-  oldPrice: undefined,
-  discount: undefined,
+  oldPrice: product.price,
+  discount: Math.floor((1 - superSalePrice(product.price) / product.price) * 100),
   tag: "Super Sale",
-  variants: product.variants?.map(variant => ({ ...variant, price: superSalePrice(variant.price) })),
+  variants: product.variants?.map(variant => ({ ...variant, oldPrice: variant.price, price: superSalePrice(variant.price) })),
 } : product);
 export const featuredProducts: Product[] = [
   ...allProducts.filter((product) => product.categoryPath?.endsWith("/lenjerii-percale-imprimat")).slice(0, 4),

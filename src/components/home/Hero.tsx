@@ -24,7 +24,7 @@ export default function Hero() {
       <nav className="home-mini-picks" aria-label="Super Sale: pilote, capot și perne">{saleSelection.map(({ id, label }) => {
         const product = getProductById(id);
         if (!product || product.inStock === false) return null;
-        return <Link key={id} href={`/product/${product.id}`} aria-label={label}><Image src={product.image} alt="" width={180} height={150} sizes="(max-width:700px) 18vw, 20vw"/><span>{label}</span><strong className="home-mini-price">{formatProductPriceRange(product)}</strong></Link>;
+        return <Link key={id} href={`/product/${product.id}`} aria-label={label}><Image src={product.image} alt="" width={180} height={150} sizes="(max-width:700px) 18vw, 20vw"/><span>{label}</span><span className="home-mini-pricing">{product.oldPrice && <del aria-label="Preț anterior">{formatProductPrice(product.oldPrice, product.currency)}</del>}<strong className="home-mini-price">{formatProductPriceRange(product)}</strong></span>{product.discount && <span className="sale-percent-badge">−{product.discount}%</span>}</Link>;
       })}</nav>
       <nav className="home-mini-categories" aria-label="Categorii de produse">{navigationGroups.map(group => {
         const matches = group.paths.flatMap(categoryProducts);

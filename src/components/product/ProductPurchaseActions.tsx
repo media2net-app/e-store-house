@@ -19,6 +19,7 @@ export default function ProductPurchaseActions({product}: {product: Product}) {
   const selection = useProductSelection(), selected = selection?.selected;
   const needsVariant = Boolean(product.variants?.length && !selected);
   const unavailable = product.inStock===false || selected?.inStock===false;
+  const oldPrice = selected?.oldPrice ?? product.oldPrice;
   const price = selected ? formatProductPrice(selected.price, product.currency) : formatProductPriceRange(product);
   const choose = () => { selector.current?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'}); selector.current?.querySelector<HTMLInputElement>('input:not(:disabled)')?.focus({preventScroll:true}); };
   const purchase = () => {if(needsVariant){choose();return;} if(unavailable)return; addItem(selected ? {...product,id:selected.id,price:selected.price,sku:selected.sku,bundleComponents:selected.bundleComponents??product.bundleComponents,image:selected.images?.[0]??product.image,name:`${product.name} — ${variantLabel(selected)}`} : product,quantity);};
@@ -28,7 +29,7 @@ export default function ProductPurchaseActions({product}: {product: Product}) {
   const contentFeatures = product.features?.filter(feature => /cearsaf|husa|fete|continut|numar piese|dimensiuni/.test(feature.label.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase())).map(feature => `${feature.label}: ${feature.value}`).join('\n');
   const contents = selected?.contents ?? (!product.variants?.length ? contentFeatures || product.description?.split('\n').filter(line => /^\s*[•*-]/.test(line)).join('\n') : 'Alege dimensiunea pentru a vedea conținutul exact.');
   return <div className="purchase-actions">
-    <p className="purchase-price" aria-live="polite" aria-atomic="true">{price}</p>
+    <p className="purchase-price" aria-live="polite" aria-atomic="true">{oldPrice && <del className="sale-old-price" aria-label="Preț anterior">{formatProductPrice(oldPrice, product.currency)}</del>} {price}{product.discount && <span className="sale-inline-badge">−{product.discount}%</span>}</p>
     {product.material && <p className="product-composition"><strong>Material:</strong> {product.material}</p>}
     {product.variants?.length ? <fieldset ref={selector} className="variant-selector"><legend>Alege dimensiunea</legend><div>{product.variants.map(v => <label key={v.id} className={selected?.id===v.id?'variant-selected':v.inStock===false?'variant-unavailable':''}><input type="radio" name={`variant-${product.id}`} checked={selected?.id===v.id} disabled={v.inStock===false} onChange={() => selection?.select(v.id)}/>{variantLabel(v)}{v.inStock===false?' — indisponibil':''}</label>)}</div></fieldset> : null}
     <button className="section-link" onClick={() => guide.current?.showModal()}>Verifică dacă se potrivește</button>

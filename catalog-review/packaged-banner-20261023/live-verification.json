@@ -1,0 +1,47 @@
+{
+  "commit": "b538e15",
+  "homepage": true,
+  "bannerMatches": true,
+  "liveQuoteChecks": [
+    {
+      "id": 163321,
+      "price": 119,
+      "verified": true
+    },
+    {
+      "id": 163319,
+      "price": 119,
+      "verified": true
+    },
+    {
+      "id": 163317,
+      "price": 119,
+      "verified": true
+    },
+    {
+      "id": 100983,
+      "price": 151,
+      "verified": true
+    },
+    {
+      "id": 100984,
+      "price": 151,
+      "verified": true
+    },
+    {
+      "id": 102893,
+      "price": 111,
+      "verified": true
+    },
+    {
+      "id": 102537,
+      "price": 127,
+      "verified": true
+    },
+    {
+      "id": 101399,
+      "price": 109,
+      "verified": true
+    }
+  ]
+}
