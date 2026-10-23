@@ -135,3 +135,12 @@ Reviewed Git source snapshots and found earlier development prices (including ro
 - Performance: moved currency formatting into a data-free module, removing catalog JSON from browser JS. Homepage linked JS bytes before 1,264,532, after 612,084 (uncompressed, 51.6% less; not a measured page-load-time percentage). All 281 product detail pages now prerendered at build; route loading UI added. Offer tests passed.
 
 - Checkout: payment-method section moved before courier selection as requested; existing payment availability and delivery calculations preserved.
+
+
+## Apple Pay — 23 octombrie 2026
+- Verificat în contul EuPlătesc, Setări cont → Integrări speciale → ApplePay: „Activez ApplePay în pagina de plată” era deja bifat. Nu au fost modificate certificate sau setări de cont.
+- Fluxul existent redirecționează către pagina securizată EuPlătesc fără filtrarea canalelor; păstrat pentru Apple Pay găzduit de procesator. Nu este o integrare Apple Pay directă în domeniul magazinului.
+- Checkout explică Apple Pay în opțiunea de plată online și disponibilitatea condiționată de dispozitiv/card. Buton: „Continuă la plata securizată”.
+- Build și lint pentru fișierele schimbate trecute; 6 teste EuPlătesc trecute, inclusiv callback ApplePay și respingerea modificării canalului/sumei.
+- Demo-ul deschis din Manager → Testează a returnat erori PHP (server lipsă / headers already sent); nu a fost autorizată o plată. O tranzacție Apple Pay reală nu este confirmată.
+- Documentație: https://manager.euplatesc.ro/v3/?page=docs ; https://www.euplatesc.ro/acasa/metode-de-plata/applepay-googlepay/
