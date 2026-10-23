@@ -1,0 +1,636 @@
+{
+  "status": "validated_pending_deployment",
+  "models": [
+    {
+      "product": {
+        "id": 76881,
+        "name": "Lenjerie de pat damasc policoton, 6 piese — 6DP43",
+        "category": "Lenjerii de pat damasc - policoton 6 piese",
+        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+        "brand": "Ralex Pucioasa",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp43/",
+        "description": "Set de lenjerie de pat damasc policoton 6DP43, din 80% poliester, 20% bumbac.\nPachetul conține:\n• 1 cearșaf de pat 230 × 250 cm.\n• 1 husă de pilotă 200 × 230 cm.\n• 2 fețe de pernă 70 × 70 cm.\n• 2 fețe de pernă 50 × 70 cm.\nSpală înainte de prima utilizare. Evită soda și clorul. Călcare la maximum 90°C, conform indicațiilor furnizorului; respectă eticheta produsului.\nPernele, pilota, mobilierul și accesoriile de decor nu sunt incluse.",
+        "features": [
+          {
+            "label": "Material",
+            "value": "80% poliester, 20% bumbac"
+          },
+          {
+            "label": "Model",
+            "value": "6DP43"
+          },
+          {
+            "label": "Număr piese",
+            "value": "6"
+          },
+          {
+            "label": "Cearșaf de pat",
+            "value": "cearșaf de pat 230 × 250 cm"
+          },
+          {
+            "label": "Husă de pilotă",
+            "value": "200 × 230 cm"
+          },
+          {
+            "label": "Fețe de pernă",
+            "value": "2 × 70 × 70 cm și 2 × 50 × 70 cm"
+          }
+        ],
+        "images": [
+          "/products/damasc-reviewed-20261023/76881/view-01.webp",
+          "/products/damasc-reviewed-20261023/76881/view-02.webp",
+          "/products/damasc-reviewed-20261023/76881/view-03.webp",
+          "/products/damasc-reviewed-20261023/76881/view-04.webp"
+        ],
+        "image": "/products/damasc-reviewed-20261023/76881/view-01.webp",
+        "price": 179,
+        "inStock": true,
+        "sku": "76881",
+        "material": "80% poliester, 20% bumbac"
+      },
+      "cost": 136.0,
+      "checkedAt": "2026-10-23T01:14:59.229521+00:00",
+      "sourceSha256": "e331c72b5b8c31b7111f99f6d587f168a9fd0eafd1a01578f9e371a3ec97d94a",
+      "media": [
+        {
+          "url": "/products/damasc-reviewed-20261023/76881/view-01.webp",
+          "sha256": "cbce57ca7e23cbb4cbf114e658a06a5f017d642ee180d264c762e9c1c95837aa"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76881/view-02.webp",
+          "sha256": "ba19856703ac14f890ad047aae2b4a9e46f0a8b6cca2d407859c147ba2eb0ac4"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76881/view-03.webp",
+          "sha256": "bb2fa1172b320169fbff96ff13950b06c903faa9c4fd59a9d9d0c8f310fb9530"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76881/view-04.webp",
+          "sha256": "2723bd1d102a2e3c3861fceb5cfeb9880a5c497307b6b0c960c9aed3e4915b70"
+        }
+      ]
+    },
+    {
+      "product": {
+        "id": 76882,
+        "name": "Lenjerie de pat damasc policoton, 6 piese — 6DP44",
+        "category": "Lenjerii de pat damasc - policoton 6 piese",
+        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+        "brand": "Ralex Pucioasa",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp44/",
+        "description": "Set de lenjerie de pat damasc policoton 6DP44, din 80% poliester, 20% bumbac.\nPachetul conține:\n• 1 cearșaf de pat 230 × 250 cm.\n• 1 husă de pilotă 200 × 230 cm.\n• 2 fețe de pernă 70 × 70 cm.\n• 2 fețe de pernă 50 × 70 cm.\nSpală înainte de prima utilizare. Evită soda și clorul. Călcare la maximum 90°C, conform indicațiilor furnizorului; respectă eticheta produsului.\nPernele, pilota, mobilierul și accesoriile de decor nu sunt incluse.",
+        "features": [
+          {
+            "label": "Material",
+            "value": "80% poliester, 20% bumbac"
+          },
+          {
+            "label": "Model",
+            "value": "6DP44"
+          },
+          {
+            "label": "Număr piese",
+            "value": "6"
+          },
+          {
+            "label": "Cearșaf de pat",
+            "value": "cearșaf de pat 230 × 250 cm"
+          },
+          {
+            "label": "Husă de pilotă",
+            "value": "200 × 230 cm"
+          },
+          {
+            "label": "Fețe de pernă",
+            "value": "2 × 70 × 70 cm și 2 × 50 × 70 cm"
+          }
+        ],
+        "images": [
+          "/products/damasc-reviewed-20261023/76882/view-01.webp",
+          "/products/damasc-reviewed-20261023/76882/view-02.webp",
+          "/products/damasc-reviewed-20261023/76882/view-03.webp",
+          "/products/damasc-reviewed-20261023/76882/view-04.webp"
+        ],
+        "image": "/products/damasc-reviewed-20261023/76882/view-01.webp",
+        "price": 179,
+        "inStock": true,
+        "sku": "76882",
+        "material": "80% poliester, 20% bumbac"
+      },
+      "cost": 136.0,
+      "checkedAt": "2026-10-23T01:14:59.229521+00:00",
+      "sourceSha256": "a1c509ccd6d53d99641f7bdc260148f328aa65947e242c5b167250710c80a105",
+      "media": [
+        {
+          "url": "/products/damasc-reviewed-20261023/76882/view-01.webp",
+          "sha256": "95713639a382375ea3bf992cf4fdc1036b41f6dba3280fdb86d2fb93e01e94a9"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76882/view-02.webp",
+          "sha256": "f3dbd0142755f64eed48bd0792616a32340e82f5649372f0d2df1f1a7597cdc2"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76882/view-03.webp",
+          "sha256": "adab6c9e6131aeba6212abeb16649b97da86fde1f94253561bf4116410bba359"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76882/view-04.webp",
+          "sha256": "6ac70e0d664e9f2e84bfce943f9784ef64c92fbde4939c116457d0fd0ce2b0ca"
+        }
+      ]
+    },
+    {
+      "product": {
+        "id": 76883,
+        "name": "Lenjerie de pat damasc policoton, 6 piese — 6DP45",
+        "category": "Lenjerii de pat damasc - policoton 6 piese",
+        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+        "brand": "Ralex Pucioasa",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp45/",
+        "description": "Set de lenjerie de pat damasc policoton 6DP45, din 80% poliester, 20% bumbac.\nPachetul conține:\n• 1 cearșaf de pat 230 × 250 cm.\n• 1 husă de pilotă 200 × 230 cm.\n• 2 fețe de pernă 70 × 70 cm.\n• 2 fețe de pernă 50 × 70 cm.\nSpală înainte de prima utilizare. Evită soda și clorul. Călcare la maximum 90°C, conform indicațiilor furnizorului; respectă eticheta produsului.\nPernele, pilota, mobilierul și accesoriile de decor nu sunt incluse.",
+        "features": [
+          {
+            "label": "Material",
+            "value": "80% poliester, 20% bumbac"
+          },
+          {
+            "label": "Model",
+            "value": "6DP45"
+          },
+          {
+            "label": "Număr piese",
+            "value": "6"
+          },
+          {
+            "label": "Cearșaf de pat",
+            "value": "cearșaf de pat 230 × 250 cm"
+          },
+          {
+            "label": "Husă de pilotă",
+            "value": "200 × 230 cm"
+          },
+          {
+            "label": "Fețe de pernă",
+            "value": "2 × 70 × 70 cm și 2 × 50 × 70 cm"
+          }
+        ],
+        "images": [
+          "/products/damasc-reviewed-20261023/76883/view-01.webp",
+          "/products/damasc-reviewed-20261023/76883/view-02.webp",
+          "/products/damasc-reviewed-20261023/76883/view-03.webp",
+          "/products/damasc-reviewed-20261023/76883/view-04.webp"
+        ],
+        "image": "/products/damasc-reviewed-20261023/76883/view-01.webp",
+        "price": 179,
+        "inStock": true,
+        "sku": "76883",
+        "material": "80% poliester, 20% bumbac"
+      },
+      "cost": 136.0,
+      "checkedAt": "2026-10-23T01:14:59.229521+00:00",
+      "sourceSha256": "fd216cc906001a09e3dcb2abbeb27fa6071bee554792fde0f14fc617e595b83a",
+      "media": [
+        {
+          "url": "/products/damasc-reviewed-20261023/76883/view-01.webp",
+          "sha256": "d70ffc3557a8f759ea88d443edc4ef5e01564fe050de470f73fe258254b6325c"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76883/view-02.webp",
+          "sha256": "4c35efb7b6c418e7e5106ad913f8707d9a77b5151f124df74692161fd52a37ff"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76883/view-03.webp",
+          "sha256": "620a21c683618bbf0a7bbd10f77b0f13289c1ae368ebcfae4c7903d73bab188d"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76883/view-04.webp",
+          "sha256": "3bd84381d4b38c92ee76b50b3ad7349cf7c33c3a6254cbd9147d604e0583f0a6"
+        }
+      ]
+    },
+    {
+      "product": {
+        "id": 76884,
+        "name": "Lenjerie de pat damasc policoton, 6 piese — 6DP46",
+        "category": "Lenjerii de pat damasc - policoton 6 piese",
+        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+        "brand": "Ralex Pucioasa",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp46/",
+        "description": "Set de lenjerie de pat damasc policoton 6DP46, din 80% poliester, 20% bumbac.\nPachetul conține:\n• 1 cearșaf de pat 230 × 250 cm.\n• 1 husă de pilotă 200 × 230 cm.\n• 2 fețe de pernă 70 × 70 cm.\n• 2 fețe de pernă 50 × 70 cm.\nSpală înainte de prima utilizare. Evită soda și clorul. Călcare la maximum 90°C, conform indicațiilor furnizorului; respectă eticheta produsului.\nPernele, pilota, mobilierul și accesoriile de decor nu sunt incluse.",
+        "features": [
+          {
+            "label": "Material",
+            "value": "80% poliester, 20% bumbac"
+          },
+          {
+            "label": "Model",
+            "value": "6DP46"
+          },
+          {
+            "label": "Număr piese",
+            "value": "6"
+          },
+          {
+            "label": "Cearșaf de pat",
+            "value": "cearșaf de pat 230 × 250 cm"
+          },
+          {
+            "label": "Husă de pilotă",
+            "value": "200 × 230 cm"
+          },
+          {
+            "label": "Fețe de pernă",
+            "value": "2 × 70 × 70 cm și 2 × 50 × 70 cm"
+          }
+        ],
+        "images": [
+          "/products/damasc-reviewed-20261023/76884/view-01.webp",
+          "/products/damasc-reviewed-20261023/76884/view-02.webp",
+          "/products/damasc-reviewed-20261023/76884/view-03.webp",
+          "/products/damasc-reviewed-20261023/76884/view-04.webp"
+        ],
+        "image": "/products/damasc-reviewed-20261023/76884/view-01.webp",
+        "price": 179,
+        "inStock": true,
+        "sku": "76884",
+        "material": "80% poliester, 20% bumbac"
+      },
+      "cost": 136.0,
+      "checkedAt": "2026-10-23T01:14:59.229521+00:00",
+      "sourceSha256": "be8ad921a586275cbdc09c9605c2b4e3fc9ad95d90627148770899296b8bc68b",
+      "media": [
+        {
+          "url": "/products/damasc-reviewed-20261023/76884/view-01.webp",
+          "sha256": "5104b1074d8d2d7b854ecf12e130b7ef10a7d3e95e9fb15a93e153cf82d7a47b"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76884/view-02.webp",
+          "sha256": "bf48af5a39d0b6d4d6153be85f908163041a005dc4bbfe33d5fc315a4fb87c7f"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76884/view-03.webp",
+          "sha256": "8ef41f0f7fc48532e0a02db362d734dc9731cdda2ddf437af237830fb837a834"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76884/view-04.webp",
+          "sha256": "b18bf89e3efaaf3901e420986f250d4a0c952520856b844a00ed3a50fc86f76f"
+        }
+      ]
+    },
+    {
+      "product": {
+        "id": 76885,
+        "name": "Lenjerie de pat damasc policoton, 6 piese — 6DP47",
+        "category": "Lenjerii de pat damasc - policoton 6 piese",
+        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+        "brand": "Ralex Pucioasa",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp47/",
+        "description": "Set de lenjerie de pat damasc policoton 6DP47, din 80% poliester, 20% bumbac.\nPachetul conține:\n• 1 cearșaf de pat 230 × 250 cm.\n• 1 husă de pilotă 200 × 230 cm.\n• 2 fețe de pernă 70 × 70 cm.\n• 2 fețe de pernă 50 × 70 cm.\nSpală înainte de prima utilizare. Evită soda și clorul. Călcare la maximum 90°C, conform indicațiilor furnizorului; respectă eticheta produsului.\nPernele, pilota, mobilierul și accesoriile de decor nu sunt incluse.",
+        "features": [
+          {
+            "label": "Material",
+            "value": "80% poliester, 20% bumbac"
+          },
+          {
+            "label": "Model",
+            "value": "6DP47"
+          },
+          {
+            "label": "Număr piese",
+            "value": "6"
+          },
+          {
+            "label": "Cearșaf de pat",
+            "value": "cearșaf de pat 230 × 250 cm"
+          },
+          {
+            "label": "Husă de pilotă",
+            "value": "200 × 230 cm"
+          },
+          {
+            "label": "Fețe de pernă",
+            "value": "2 × 70 × 70 cm și 2 × 50 × 70 cm"
+          }
+        ],
+        "images": [
+          "/products/damasc-reviewed-20261023/76885/view-01.webp",
+          "/products/damasc-reviewed-20261023/76885/view-02.webp",
+          "/products/damasc-reviewed-20261023/76885/view-03.webp",
+          "/products/damasc-reviewed-20261023/76885/view-04.webp"
+        ],
+        "image": "/products/damasc-reviewed-20261023/76885/view-01.webp",
+        "price": 179,
+        "inStock": true,
+        "sku": "76885",
+        "material": "80% poliester, 20% bumbac"
+      },
+      "cost": 136.0,
+      "checkedAt": "2026-10-23T01:14:59.229521+00:00",
+      "sourceSha256": "0be4399c2bf1377570cf8b6a74098d7ec6faa122eea69e5d02ccaab18d18b59d",
+      "media": [
+        {
+          "url": "/products/damasc-reviewed-20261023/76885/view-01.webp",
+          "sha256": "1c24f7375e79db213e20f3961d6ba505baf3b1971efd61df5c7abc94897b88b7"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76885/view-02.webp",
+          "sha256": "87c5cf9a3b25ddec6f92a7347eca639c01579a3a5cce764f60c6b67649c7f97e"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76885/view-03.webp",
+          "sha256": "a45b57b4be90c25f13970ffb188a2c5f5b22df00b88f1d80022b2ca6f8f0290c"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76885/view-04.webp",
+          "sha256": "00edda1732835e5f243acef085dec1542adbe8436a10111f33b685c09d8b6f1d"
+        }
+      ]
+    },
+    {
+      "product": {
+        "id": 76887,
+        "name": "Lenjerie de pat damasc policoton, 6 piese — 6DP49",
+        "category": "Lenjerii de pat damasc - policoton 6 piese",
+        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+        "brand": "Ralex Pucioasa",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp49/",
+        "description": "Set de lenjerie de pat damasc policoton 6DP49, din 80% poliester, 20% bumbac.\nPachetul conține:\n• 1 cearșaf de pat 230 × 250 cm.\n• 1 husă de pilotă 200 × 230 cm.\n• 2 fețe de pernă 70 × 70 cm.\n• 2 fețe de pernă 50 × 70 cm.\nSpală înainte de prima utilizare. Evită soda și clorul. Călcare la maximum 90°C, conform indicațiilor furnizorului; respectă eticheta produsului.\nPernele, pilota, mobilierul și accesoriile de decor nu sunt incluse.",
+        "features": [
+          {
+            "label": "Material",
+            "value": "80% poliester, 20% bumbac"
+          },
+          {
+            "label": "Model",
+            "value": "6DP49"
+          },
+          {
+            "label": "Număr piese",
+            "value": "6"
+          },
+          {
+            "label": "Cearșaf de pat",
+            "value": "cearșaf de pat 230 × 250 cm"
+          },
+          {
+            "label": "Husă de pilotă",
+            "value": "200 × 230 cm"
+          },
+          {
+            "label": "Fețe de pernă",
+            "value": "2 × 70 × 70 cm și 2 × 50 × 70 cm"
+          }
+        ],
+        "images": [
+          "/products/damasc-reviewed-20261023/76887/view-01.webp",
+          "/products/damasc-reviewed-20261023/76887/view-02.webp",
+          "/products/damasc-reviewed-20261023/76887/view-03.webp",
+          "/products/damasc-reviewed-20261023/76887/view-04.webp"
+        ],
+        "image": "/products/damasc-reviewed-20261023/76887/view-01.webp",
+        "price": 179,
+        "inStock": false,
+        "sku": "76887",
+        "material": "80% poliester, 20% bumbac"
+      },
+      "cost": 136.0,
+      "checkedAt": "2026-10-23T01:14:59.229521+00:00",
+      "sourceSha256": "2e7e010fdbc941b307ff1d4fc96f9d65b95d7fb04def252293ee862aa3d52a09",
+      "media": [
+        {
+          "url": "/products/damasc-reviewed-20261023/76887/view-01.webp",
+          "sha256": "3abc6198f94476ed6d960f6a3372b07cfa8084ab1c99a56130fdd74168f33f2c"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76887/view-02.webp",
+          "sha256": "30fab7d95c6102b0ca8b5b419b1200602d8515420587e5d1e06a8ce17b0f93a4"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76887/view-03.webp",
+          "sha256": "82a01151cd1690e1cd08ad005016c2cb6526ca0bd8c6b44ad32a15e787fbdfd7"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76887/view-04.webp",
+          "sha256": "5d8405a1e60109abc3bdd128eefc03b63b181ca102a8d52d1465f94caa95b613"
+        }
+      ]
+    },
+    {
+      "product": {
+        "id": 76895,
+        "name": "Lenjerie de pat damasc policoton, 6 piese — 6DP41",
+        "category": "Lenjerii de pat damasc - policoton 6 piese",
+        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+        "brand": "Ralex Pucioasa",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp41-2/",
+        "description": "Set de lenjerie de pat damasc policoton 6DP41, din 80% poliester, 20% bumbac.\nPachetul conține:\n• 1 cearșaf de pat 230 × 250 cm.\n• 1 husă de pilotă 200 × 230 cm.\n• 2 fețe de pernă 70 × 70 cm.\n• 2 fețe de pernă 50 × 70 cm.\nSpală înainte de prima utilizare. Evită soda și clorul. Călcare la maximum 90°C, conform indicațiilor furnizorului; respectă eticheta produsului.\nPernele, pilota, mobilierul și accesoriile de decor nu sunt incluse.",
+        "features": [
+          {
+            "label": "Material",
+            "value": "80% poliester, 20% bumbac"
+          },
+          {
+            "label": "Model",
+            "value": "6DP41"
+          },
+          {
+            "label": "Număr piese",
+            "value": "6"
+          },
+          {
+            "label": "Cearșaf de pat",
+            "value": "cearșaf de pat 230 × 250 cm"
+          },
+          {
+            "label": "Husă de pilotă",
+            "value": "200 × 230 cm"
+          },
+          {
+            "label": "Fețe de pernă",
+            "value": "2 × 70 × 70 cm și 2 × 50 × 70 cm"
+          }
+        ],
+        "images": [
+          "/products/damasc-reviewed-20261023/76895/view-01.webp",
+          "/products/damasc-reviewed-20261023/76895/view-02.webp",
+          "/products/damasc-reviewed-20261023/76895/view-03.webp",
+          "/products/damasc-reviewed-20261023/76895/view-04.webp"
+        ],
+        "image": "/products/damasc-reviewed-20261023/76895/view-01.webp",
+        "price": 179,
+        "inStock": true,
+        "sku": "76895",
+        "material": "80% poliester, 20% bumbac"
+      },
+      "cost": 136.0,
+      "checkedAt": "2026-10-23T01:14:59.229521+00:00",
+      "sourceSha256": "7dc0e0c7bf603a1034743567a098494834bee6f9054581959433182982660ff7",
+      "media": [
+        {
+          "url": "/products/damasc-reviewed-20261023/76895/view-01.webp",
+          "sha256": "335ea2a2c2ef4f604c9e05ea910ab2eb7c5a3110f9d012537248fd27592450ed"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76895/view-02.webp",
+          "sha256": "619f468a1b7154a2ea70cc72a5993d2e6522b5380eaba24e14d5680e45a262e4"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76895/view-03.webp",
+          "sha256": "31bd58bba9bb8dc2604883e5647f3304c8b50d0f24d3de187842aabcf89bf16a"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76895/view-04.webp",
+          "sha256": "f4060d46ce4efbc406dc3d722125661cf94a9a7c58617d41a6656318e538a35b"
+        }
+      ]
+    },
+    {
+      "product": {
+        "id": 76899,
+        "name": "Lenjerie de pat damasc policoton, 6 piese, cu husă elastică — 6DPH5",
+        "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+        "brand": "Ralex Pucioasa",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph5/",
+        "description": "Set de lenjerie de pat damasc policoton 6DPH5, din 80% poliester, 20% bumbac.\nPachetul conține:\n• 1 husă cu elastic pentru saltele de 160 × 200 × 24 cm sau 180 × 200 × 24 cm.\n• 1 husă de pilotă 200 × 230 cm.\n• 2 fețe de pernă 70 × 70 cm.\n• 2 fețe de pernă 50 × 70 cm.\nSpală înainte de prima utilizare. Evită soda și clorul. Călcare la maximum 90°C, conform indicațiilor furnizorului; respectă eticheta produsului.\nPernele, pilota, mobilierul și accesoriile de decor nu sunt incluse.",
+        "features": [
+          {
+            "label": "Material",
+            "value": "80% poliester, 20% bumbac"
+          },
+          {
+            "label": "Model",
+            "value": "6DPH5"
+          },
+          {
+            "label": "Număr piese",
+            "value": "6"
+          },
+          {
+            "label": "Husă cu elastic",
+            "value": "husă cu elastic pentru saltele de 160 × 200 × 24 cm sau 180 × 200 × 24 cm"
+          },
+          {
+            "label": "Husă de pilotă",
+            "value": "200 × 230 cm"
+          },
+          {
+            "label": "Fețe de pernă",
+            "value": "2 × 70 × 70 cm și 2 × 50 × 70 cm"
+          }
+        ],
+        "images": [
+          "/products/damasc-reviewed-20261023/76899/view-01.webp",
+          "/products/damasc-reviewed-20261023/76899/view-02.webp",
+          "/products/damasc-reviewed-20261023/76899/view-03.webp",
+          "/products/damasc-reviewed-20261023/76899/view-04.webp"
+        ],
+        "image": "/products/damasc-reviewed-20261023/76899/view-01.webp",
+        "price": 189,
+        "inStock": true,
+        "sku": "76899",
+        "material": "80% poliester, 20% bumbac"
+      },
+      "cost": 141.0,
+      "checkedAt": "2026-10-23T01:14:59.229521+00:00",
+      "sourceSha256": "a3ca4aa1b6d5251d5f4e96dac6b1065ec5f0302e03401e36341646252ecc81d7",
+      "media": [
+        {
+          "url": "/products/damasc-reviewed-20261023/76899/view-01.webp",
+          "sha256": "5b821d2527ba63ffe64508113852c0b09fef02b3176a23e1d221dffbb3a37fc1"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76899/view-02.webp",
+          "sha256": "4c2fa1b808ba4b14c0b8b330d60df07b0d81f69bd5501f7fbf99ac3c4ce7ed25"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76899/view-03.webp",
+          "sha256": "d6acb39e07ff2a080622a8ad56a14496b0ace3a711f0a0f1a7fca15c03c38479"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76899/view-04.webp",
+          "sha256": "b045f8de496a147b1fb7c71eef1b432471f96af69fa43469791b91732fcf3053"
+        }
+      ]
+    },
+    {
+      "product": {
+        "id": 76907,
+        "name": "Lenjerie de pat damasc policoton, 6 piese, cu husă elastică — 6DPH13",
+        "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+        "brand": "Ralex Pucioasa",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph13/",
+        "description": "Set de lenjerie de pat damasc policoton 6DPH13, din 80% poliester, 20% bumbac.\nPachetul conține:\n• 1 husă cu elastic pentru saltele de 160 × 200 × 24 cm sau 180 × 200 × 24 cm.\n• 1 husă de pilotă 200 × 230 cm.\n• 2 fețe de pernă 70 × 70 cm.\n• 2 fețe de pernă 50 × 70 cm.\nSpală înainte de prima utilizare. Evită soda și clorul. Călcare la maximum 90°C, conform indicațiilor furnizorului; respectă eticheta produsului.\nPernele, pilota, mobilierul și accesoriile de decor nu sunt incluse.",
+        "features": [
+          {
+            "label": "Material",
+            "value": "80% poliester, 20% bumbac"
+          },
+          {
+            "label": "Model",
+            "value": "6DPH13"
+          },
+          {
+            "label": "Număr piese",
+            "value": "6"
+          },
+          {
+            "label": "Husă cu elastic",
+            "value": "husă cu elastic pentru saltele de 160 × 200 × 24 cm sau 180 × 200 × 24 cm"
+          },
+          {
+            "label": "Husă de pilotă",
+            "value": "200 × 230 cm"
+          },
+          {
+            "label": "Fețe de pernă",
+            "value": "2 × 70 × 70 cm și 2 × 50 × 70 cm"
+          }
+        ],
+        "images": [
+          "/products/damasc-reviewed-20261023/76907/view-01.webp",
+          "/products/damasc-reviewed-20261023/76907/view-02.webp",
+          "/products/damasc-reviewed-20261023/76907/view-03.webp",
+          "/products/damasc-reviewed-20261023/76907/view-04.webp"
+        ],
+        "image": "/products/damasc-reviewed-20261023/76907/view-01.webp",
+        "price": 189,
+        "inStock": true,
+        "sku": "76907",
+        "material": "80% poliester, 20% bumbac"
+      },
+      "cost": 141.0,
+      "checkedAt": "2026-10-23T01:14:59.229521+00:00",
+      "sourceSha256": "c0ed07a52f3182356903a3d72ed649f064af0852e6151d3a7fe0c9b8acc771f4",
+      "media": [
+        {
+          "url": "/products/damasc-reviewed-20261023/76907/view-01.webp",
+          "sha256": "90ac6d6082e5c163ce911970ec5625f249b9c4d46bc9ce14860414279a1437d3"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76907/view-02.webp",
+          "sha256": "71a5f5086e612439d71197a2a843d036215217a061c87ee6534e48cd211c4cf9"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76907/view-03.webp",
+          "sha256": "2f32a15a0484b75da9ca2192d96945194c36d4644c5718bb621919f871473650"
+        },
+        {
+          "url": "/products/damasc-reviewed-20261023/76907/view-04.webp",
+          "sha256": "c1641a5f434187357880c62baeddceb60fd15eb38f7cb6602c864341fc433a84"
+        }
+      ]
+    }
+  ],
+  "reviewNotes": "Each generated output visually compared with individual supplier reference: source color, horizontal woven stripes and simple pillow flanges retained. Front, side, textile close-up and overhead are distinct. Whole-bed views have exactly four pillows; rejected extra-pillow detail and split-frame images replaced. Correct flat/fitted sheet and source-backed six-piece contents recorded."
+}

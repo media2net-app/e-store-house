@@ -79,3 +79,8 @@ Deployment 059a788 succeeded. Public API confirms 272 models / 436 saleable conf
 
 The 236-page Clasy manufacturer catalog did not supply missing set counts in its extracted text. Nine inspected damasc galleries repeat one source photo in all slots and need complete replacement galleries. Final Control UI recheck failed with computer-use cgWindowNotFound; the Control connection had previously been verified successfully. Final store checks used the live HTTP pages and public API.
 
+## Damasc publication continuation
+
+Nine additional Control models prepared: 76881,76882,76883,76884,76885,76887,76895,76899,76907. Individual supplier pages confirm barcode, 80% polyester / 20% cotton, six-piece contents and dimensions. All 36 gallery photographs newly generated and visually reviewed against each source; repeated originals preserved in release archive. Corrected extra-pillow and split-frame outputs excluded. Seven flat-sheet sets cost 179 lei; two fitted-sheet sets cost 189 lei under the authorized pricing rule. Supplier stock current: 76887 unavailable; other eight available. Catalog and seven regression checks passed. Pending deployment: 281 models / 445 configurations; 441 Control articles covered, 896 remaining.
+
+Local recovery: original Desktop checkout blocked on filesystem reads (Git mmap of postcss.config.mjs; Next invalid local jiti package). Preserved original checkout unchanged and transferred only this reviewed batch to /tmp/estore-damasc-clean-20261023 cloned from production main. Fresh npm ci, full production build and seven catalog/pricing tests succeeded there. Publishing from the same design branch in this isolated recovery checkout.

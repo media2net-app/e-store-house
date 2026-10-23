@@ -6,7 +6,11 @@
     "pendingControlArticles": 905,
     "publicModels": 272,
     "publicConfigurations": 436,
-    "newModelsVerifiedLive": 85
+    "newModelsVerifiedLive": 85,
+    "publicModelsAfterPendingDeployment": 281,
+    "publicConfigurationsAfterPendingDeployment": 445,
+    "coveredControlArticlesAfterPendingDeployment": 441,
+    "pendingControlArticlesAfterPendingDeployment": 896
   },
   "articles": [
     {
@@ -6186,55 +6190,40 @@
       "sku": "76882",
       "title": "Set complet de lenjerie de pat din policoton damasc, 6 piese, cearșaf fără elastic, dungi elegante",
       "supplierModelId": 76882,
-      "status": "pending_verification",
-      "reasons": [
-        "complete_current_estore_review_not_confirmed",
-        "storefront_gallery_and_copy_review_pending"
-      ]
+      "status": "damasc_deployment_pending",
+      "reasons": []
     },
     {
       "appBarcode": "2595281JHESCK1HU1",
       "sku": "76885",
       "title": "Set complet de lenjerie de pat din policoton damasc, 6 piese, cearșaf fără elastic, dungi elegante",
       "supplierModelId": 76885,
-      "status": "pending_verification",
-      "reasons": [
-        "complete_current_estore_review_not_confirmed",
-        "storefront_gallery_and_copy_review_pending"
-      ]
+      "status": "damasc_deployment_pending",
+      "reasons": []
     },
     {
       "appBarcode": "2595283GRTQ5HBKPW",
       "sku": "76895",
       "title": "Set complet de lenjerie de pat din policoton damasc, 6 piese, cearșaf fără elastic, dungi elegante",
       "supplierModelId": 76895,
-      "status": "pending_verification",
-      "reasons": [
-        "complete_current_estore_review_not_confirmed",
-        "storefront_gallery_and_copy_review_pending"
-      ]
+      "status": "damasc_deployment_pending",
+      "reasons": []
     },
     {
       "appBarcode": "2595284ELMX2B3JO4",
       "sku": "76881",
       "title": "Set complet de lenjerie de pat din policoton damasc, 6 piese, cearșaf fără elastic, dungi elegante",
       "supplierModelId": 76881,
-      "status": "pending_verification",
-      "reasons": [
-        "complete_current_estore_review_not_confirmed",
-        "storefront_gallery_and_copy_review_pending"
-      ]
+      "status": "damasc_deployment_pending",
+      "reasons": []
     },
     {
       "appBarcode": "2595285HTZJK0G99W",
       "sku": "76883",
       "title": "Set complet de lenjerie de pat din policoton damasc, 6 piese, cearșaf fără elastic, dungi elegante",
       "supplierModelId": 76883,
-      "status": "pending_verification",
-      "reasons": [
-        "complete_current_estore_review_not_confirmed",
-        "storefront_gallery_and_copy_review_pending"
-      ]
+      "status": "damasc_deployment_pending",
+      "reasons": []
     },
     {
       "appBarcode": "25952868XRSTHQ2KJ",
@@ -6252,11 +6241,8 @@
       "sku": "76884",
       "title": "Set complet de lenjerie de pat din policoton damasc, 6 piese, cearșaf cu elastic fără elasticitate, dungi elegante",
       "supplierModelId": 76884,
-      "status": "pending_verification",
-      "reasons": [
-        "complete_current_estore_review_not_confirmed",
-        "storefront_gallery_and_copy_review_pending"
-      ]
+      "status": "damasc_deployment_pending",
+      "reasons": []
     },
     {
       "appBarcode": "25952883CWTV9KCKY",
@@ -6285,11 +6271,8 @@
       "sku": "76887",
       "title": "Set complet de lenjerie de pat din policoton damasc, 6 piese, cearșaf fără elastic, dungi elegante",
       "supplierModelId": 76887,
-      "status": "pending_verification",
-      "reasons": [
-        "complete_current_estore_review_not_confirmed",
-        "storefront_gallery_and_copy_review_pending"
-      ]
+      "status": "damasc_deployment_pending",
+      "reasons": []
     },
     {
       "appBarcode": "2595292ODRIRRKYLO",
@@ -9291,24 +9274,16 @@
       "sku": "76907",
       "title": "Set de lenjerie de pat Damasc din policoton, 6 piese, cu husă elastică, Fabricat în România",
       "supplierModelId": 76907,
-      "status": "pending_verification",
-      "reasons": [
-        "complete_current_estore_review_not_confirmed",
-        "storefront_gallery_and_copy_review_pending",
-        "application_description_missing"
-      ]
+      "status": "damasc_deployment_pending",
+      "reasons": []
     },
     {
       "appBarcode": "3108834EGKNFAYGAU",
       "sku": "76899",
       "title": "Set de lenjerie de pat Damasc din policoton, 6 piese, cu husă elastică, Fabricat în România",
       "supplierModelId": 76899,
-      "status": "pending_verification",
-      "reasons": [
-        "complete_current_estore_review_not_confirmed",
-        "storefront_gallery_and_copy_review_pending",
-        "application_description_missing"
-      ]
+      "status": "damasc_deployment_pending",
+      "reasons": []
     },
     {
       "appBarcode": "3108872SMN2L1I6PF",
