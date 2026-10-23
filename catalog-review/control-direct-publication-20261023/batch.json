@@ -1,0 +1,763 @@
+{
+  "preparedAt": "2026-10-23T19:55:07.123106+00:00",
+  "newModels": 49,
+  "newSkus": 70,
+  "products": [
+    {
+      "id": 162980,
+      "indices": [
+        1,
+        2
+      ],
+      "controlBarcodes": [
+        "162982",
+        "162988",
+        "162986",
+        "162984"
+      ],
+      "status": "verified-ready",
+      "kind": "jersey",
+      "galleryKeys": [
+        "55994618c869",
+        "d8c883f3347a"
+      ]
+    },
+    {
+      "id": 162971,
+      "indices": [
+        4,
+        5
+      ],
+      "controlBarcodes": [
+        "162973",
+        "162979",
+        "162975",
+        "162977"
+      ],
+      "status": "verified-ready",
+      "kind": "jersey",
+      "galleryKeys": [
+        "ce455f9c2d14",
+        "413bd2c828c1"
+      ]
+    },
+    {
+      "id": 162998,
+      "indices": [
+        7,
+        8
+      ],
+      "controlBarcodes": [
+        "163000",
+        "163006",
+        "163002",
+        "163004"
+      ],
+      "status": "verified-ready",
+      "kind": "jersey",
+      "galleryKeys": [
+        "db0d9c452c96",
+        "ce3da1c8bc13"
+      ]
+    },
+    {
+      "id": 162944,
+      "indices": [
+        10,
+        11
+      ],
+      "controlBarcodes": [
+        "162946",
+        "162952",
+        "162948",
+        "162950"
+      ],
+      "status": "verified-ready",
+      "kind": "jersey",
+      "galleryKeys": [
+        "e1543f81d022",
+        "efe4b1b984cd"
+      ]
+    },
+    {
+      "id": 162989,
+      "indices": [
+        13,
+        14
+      ],
+      "controlBarcodes": [
+        "162991",
+        "162997",
+        "162995",
+        "162993"
+      ],
+      "status": "verified-ready",
+      "kind": "jersey",
+      "galleryKeys": [
+        "c594711e689f",
+        "e26e0c0cbaf0"
+      ]
+    },
+    {
+      "id": 162953,
+      "indices": [
+        16,
+        17
+      ],
+      "controlBarcodes": [
+        "162955",
+        "162961",
+        "162959",
+        "162957"
+      ],
+      "status": "verified-ready",
+      "kind": "jersey",
+      "galleryKeys": [
+        "8f5cb445b900",
+        "4b6efe94ea3a"
+      ]
+    },
+    {
+      "id": 162962,
+      "indices": [
+        19,
+        20
+      ],
+      "controlBarcodes": [
+        "162964",
+        "162968",
+        "162970",
+        "162966"
+      ],
+      "status": "verified-ready",
+      "kind": "jersey",
+      "galleryKeys": [
+        "be1b57ad95d3",
+        "dfbee0bedcb2"
+      ]
+    },
+    {
+      "id": 95144,
+      "indices": [
+        67
+      ],
+      "controlBarcodes": [
+        "95147"
+      ],
+      "status": "verified-ready",
+      "kind": "damasc",
+      "galleryKeys": [
+        "b8e5ed900379"
+      ]
+    },
+    {
+      "id": 159588,
+      "indices": [
+        69
+      ],
+      "controlBarcodes": [
+        "159588"
+      ],
+      "status": "verified-ready",
+      "kind": "fitted",
+      "galleryKeys": [
+        "69f9194f4cdf"
+      ]
+    },
+    {
+      "id": 159589,
+      "indices": [
+        70
+      ],
+      "controlBarcodes": [
+        "159589"
+      ],
+      "status": "verified-ready",
+      "kind": "fitted",
+      "galleryKeys": [
+        "156b73dd7e89"
+      ]
+    },
+    {
+      "id": 159590,
+      "indices": [
+        71
+      ],
+      "controlBarcodes": [
+        "159590"
+      ],
+      "status": "verified-ready",
+      "kind": "fitted",
+      "galleryKeys": [
+        "6cb804b821d4"
+      ]
+    },
+    {
+      "id": 159591,
+      "indices": [
+        72
+      ],
+      "controlBarcodes": [
+        "159591"
+      ],
+      "status": "verified-ready",
+      "kind": "fitted",
+      "galleryKeys": [
+        "ca07823e0328"
+      ]
+    },
+    {
+      "id": 159592,
+      "indices": [
+        73
+      ],
+      "controlBarcodes": [
+        "159592"
+      ],
+      "status": "verified-ready",
+      "kind": "fitted",
+      "galleryKeys": [
+        "241bd29e7415"
+      ]
+    },
+    {
+      "id": 160090,
+      "indices": [
+        74
+      ],
+      "controlBarcodes": [
+        "160090"
+      ],
+      "status": "verified-ready",
+      "kind": "fitted",
+      "galleryKeys": [
+        "d8fb36a74f53"
+      ]
+    },
+    {
+      "id": 160092,
+      "indices": [
+        75
+      ],
+      "controlBarcodes": [
+        "160092"
+      ],
+      "status": "verified-ready",
+      "kind": "fitted",
+      "galleryKeys": [
+        "88c2ed83b1db"
+      ]
+    },
+    {
+      "id": 160094,
+      "indices": [
+        76
+      ],
+      "controlBarcodes": [
+        "160094"
+      ],
+      "status": "verified-ready",
+      "kind": "fitted",
+      "galleryKeys": [
+        "85ea6eea45a3"
+      ]
+    },
+    {
+      "id": 160096,
+      "indices": [
+        77
+      ],
+      "controlBarcodes": [
+        "160096"
+      ],
+      "status": "verified-ready",
+      "kind": "fitted",
+      "galleryKeys": [
+        "bd82e3ad3056"
+      ]
+    },
+    {
+      "id": 160098,
+      "indices": [
+        78
+      ],
+      "controlBarcodes": [
+        "160098"
+      ],
+      "status": "verified-ready",
+      "kind": "fitted",
+      "galleryKeys": [
+        "4dc687bef331"
+      ]
+    },
+    {
+      "id": 95683,
+      "indices": [
+        89
+      ],
+      "controlBarcodes": [
+        "95685"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "d02ae3d4fe33"
+      ]
+    },
+    {
+      "id": 95608,
+      "indices": [
+        90
+      ],
+      "controlBarcodes": [
+        "95610"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "f8c7f4f4af46"
+      ]
+    },
+    {
+      "id": 95669,
+      "indices": [
+        91
+      ],
+      "controlBarcodes": [
+        "95671"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "5d1dbd3a73a8"
+      ]
+    },
+    {
+      "id": 95697,
+      "indices": [
+        92
+      ],
+      "controlBarcodes": [
+        "95699"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "360cd98e3ed3"
+      ]
+    },
+    {
+      "id": 95725,
+      "indices": [
+        93
+      ],
+      "controlBarcodes": [
+        "95727"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "46273d9e1e57"
+      ]
+    },
+    {
+      "id": 95704,
+      "indices": [
+        94
+      ],
+      "controlBarcodes": [
+        "95706"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "550849b96074"
+      ]
+    },
+    {
+      "id": 95648,
+      "indices": [
+        99
+      ],
+      "controlBarcodes": [
+        "95650"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "795546aa16a0"
+      ]
+    },
+    {
+      "id": 95820,
+      "indices": [
+        100
+      ],
+      "controlBarcodes": [
+        "95822"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "148a605e9b95"
+      ]
+    },
+    {
+      "id": 95676,
+      "indices": [
+        101
+      ],
+      "controlBarcodes": [
+        "95678"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "270cc82021e7"
+      ]
+    },
+    {
+      "id": 95662,
+      "indices": [
+        102
+      ],
+      "controlBarcodes": [
+        "95664"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "9e7f0952bdbe"
+      ]
+    },
+    {
+      "id": 95761,
+      "indices": [
+        103
+      ],
+      "controlBarcodes": [
+        "95763"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "2780c0375cab"
+      ]
+    },
+    {
+      "id": 95718,
+      "indices": [
+        104
+      ],
+      "controlBarcodes": [
+        "95720"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "947645eddbb8"
+      ]
+    },
+    {
+      "id": 95834,
+      "indices": [
+        105
+      ],
+      "controlBarcodes": [
+        "95836"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "e17d0d78448d"
+      ]
+    },
+    {
+      "id": 95754,
+      "indices": [
+        106
+      ],
+      "controlBarcodes": [
+        "95756"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "4d963b3e785e"
+      ]
+    },
+    {
+      "id": 95739,
+      "indices": [
+        107
+      ],
+      "controlBarcodes": [
+        "95741"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "a8bd0f94952d"
+      ]
+    },
+    {
+      "id": 95747,
+      "indices": [
+        108
+      ],
+      "controlBarcodes": [
+        "95749"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "fd63bf09250e"
+      ]
+    },
+    {
+      "id": 95640,
+      "indices": [
+        109
+      ],
+      "controlBarcodes": [
+        "95642"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "3594fa8eeaa9"
+      ]
+    },
+    {
+      "id": 95769,
+      "indices": [
+        110
+      ],
+      "controlBarcodes": [
+        "95771"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "bf5396a00ce4"
+      ]
+    },
+    {
+      "id": 95601,
+      "indices": [
+        111
+      ],
+      "controlBarcodes": [
+        "95603"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "b7c51a5809e3"
+      ]
+    },
+    {
+      "id": 95615,
+      "indices": [
+        112
+      ],
+      "controlBarcodes": [
+        "95617"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "b54ecc9a59a0"
+      ]
+    },
+    {
+      "id": 95783,
+      "indices": [
+        113
+      ],
+      "controlBarcodes": [
+        "95785"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "7bd7aeaa84aa"
+      ]
+    },
+    {
+      "id": 95791,
+      "indices": [
+        114
+      ],
+      "controlBarcodes": [
+        "95793"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "0103f7042b77"
+      ]
+    },
+    {
+      "id": 95575,
+      "indices": [
+        115
+      ],
+      "controlBarcodes": [
+        "95577"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "8df8fd7f6639"
+      ]
+    },
+    {
+      "id": 95806,
+      "indices": [
+        116
+      ],
+      "controlBarcodes": [
+        "95808"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "46ab381c489d"
+      ]
+    },
+    {
+      "id": 95827,
+      "indices": [
+        117
+      ],
+      "controlBarcodes": [
+        "95829"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "46200e4be7c4"
+      ]
+    },
+    {
+      "id": 95632,
+      "indices": [
+        118
+      ],
+      "controlBarcodes": [
+        "95634"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "be26ae483b85"
+      ]
+    },
+    {
+      "id": 95564,
+      "indices": [
+        119
+      ],
+      "controlBarcodes": [
+        "95570"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "2b1ec68ee41e"
+      ]
+    },
+    {
+      "id": 95813,
+      "indices": [
+        120
+      ],
+      "controlBarcodes": [
+        "95815"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "12eebc0dddda"
+      ]
+    },
+    {
+      "id": 95711,
+      "indices": [
+        121
+      ],
+      "controlBarcodes": [
+        "95713"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "c986e5202474"
+      ]
+    },
+    {
+      "id": 95655,
+      "indices": [
+        122
+      ],
+      "controlBarcodes": [
+        "95657"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "b4360a7c9d94"
+      ]
+    },
+    {
+      "id": 95776,
+      "indices": [
+        123
+      ],
+      "controlBarcodes": [
+        "95778"
+      ],
+      "status": "verified-ready",
+      "kind": "enjoy",
+      "galleryKeys": [
+        "97ca13833b6e"
+      ]
+    }
+  ],
+  "notReady": [
+    {
+      "indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        15,
+        18
+      ],
+      "reason": "Supplier no-pillow attribute conflicts with pillowcases listed in variation description."
+    },
+    {
+      "indices": [
+        60
+      ],
+      "reason": "Control title dimension differs from exact supplier barcode dimension."
+    },
+    {
+      "indices": [
+        61
+      ],
+      "reason": "Supplier reference image says 100% cotton while specification says 70/30."
+    },
+    {
+      "indices": [
+        63,
+        64,
+        65
+      ],
+      "reason": "Turquoise Control photos matched to red supplier reference."
+    }
+  ],
+  "remainingAudit": "Global inventory has 558 galleries; visual review through index 135. Unmapped and remaining galleries are not approved."
+}
