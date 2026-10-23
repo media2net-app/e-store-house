@@ -2,7 +2,8 @@ import "server-only";
 import { orderStorageCommand, orderStoragePrefix } from "./orders";
 import { hasSupabaseStorage, supabaseQuery } from "./supabase-orders";
 export type ShipmentRecord = { orderId: string; state: "creating" | "created" | "unknown" | "cancelled"; createdAt: string;
-  awbNumber?: string; costRon?: number | null; mode: "live" | "test" };
+  awbNumber?: string; costRon?: number | null; mode: "live" | "test"; carrier?: "fan" | "sameday" };
+// Keep the existing storage key: old Sameday AWBs must still prevent a second AWB for an order.
 const key = (id: string) => `${orderStoragePrefix()}:sameday-shipment:${id}`;
 const path = (id: string) => `estore_shipments?order_id=eq.${id}`;
 

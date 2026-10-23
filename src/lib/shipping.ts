@@ -13,6 +13,7 @@ export type ShippingOption = {
   priceRon: number;
   method?: ShippingMethod;
   dynamic?: boolean;
+  codAvailable?: boolean;
 };
 
 export function quoteShipping(options: ShippingOption[], carrier: unknown, freeShipping: boolean, method: ShippingMethod = "home") {

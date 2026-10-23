@@ -84,7 +84,9 @@ export async function cancelOrder(id: string, reason: string, action: "cancel" |
     if (order.status !== "cancelled" && result[0] === "started") {
       const shipment = await getShipment(id);
       if (shipment?.state === "created" && shipment.awbNumber && shipment.mode === "live") {
-        try {
+        if ((shipment.carrier || "sameday") === "fan") {
+          await finish(id, "review_required", "AWB FAN emis. Verifică și anulează manual în SelfAWB; nu expedia coletul. Comanda rămâne în verificare până la confirmare.");
+        } else try {
           const status = await samedayAwbStatus(shipment.awbNumber);
           if (status.cancelled) await finish(id, "cancelled", "Anularea AWB-ului este confirmată în Sameday.");
           else if (status.delivered) await finish(id, "review_required", "Coletul figurează livrat. Rezolvă returul și eventuala rambursare; comanda nu este marcată anulată.");
@@ -97,7 +99,7 @@ export async function cancelOrder(id: string, reason: string, action: "cancel" |
           await finish(id, "review_required", "Anularea AWB nu a fost confirmată. Verifică în Sameday și folosește «Verifică anularea». Nu expedia coletul.");
         }
       } else if (shipment?.state === "cancelled") await finish(id, "cancelled", "AWB-ul era deja anulat.");
-      else await finish(id, "review_required", "Există o emitere AWB neconfirmată. Verifică referința comenzii în Sameday; nu expedia coletul.");
+      else await finish(id, "review_required", `Există o emitere AWB neconfirmată. Verifică referința comenzii în ${(shipment?.carrier || "sameday") === "fan" ? "SelfAWB" : "Sameday"}; nu expedia coletul.`);
     }
   } else {
     const current = await getOrder(id);
@@ -106,7 +108,9 @@ export async function cancelOrder(id: string, reason: string, action: "cancel" |
     if (action === "check" && current.status === "cancel_requested") {
       const shipment = await getShipment(id);
       if (shipment?.awbNumber && shipment.mode === "live") {
-        try {
+        if ((shipment.carrier || "sameday") === "fan") {
+          await finish(id, "review_required", "Verifică anularea AWB FAN direct în SelfAWB. Comanda rămâne în verificare până la confirmare.");
+        } else try {
           const status = await samedayAwbStatus(shipment.awbNumber);
           if (status.cancelled) await finish(id, "cancelled", "Anularea AWB-ului a fost verificată în Sameday.");
           else await finish(id, "review_required", status.delivered ? "Coletul figurează livrat. Returul și rambursarea necesită verificare separată." : "Sameday nu confirmă încă anularea. Rezolvă anularea direct în eAWB, apoi verifică din nou aici.");

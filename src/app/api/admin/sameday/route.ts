@@ -37,5 +37,9 @@ export async function POST(request: Request) {
   if (!isStoreAdmin(request)) return denied();
   let input;
   try { input = await request.json(); } catch { return NextResponse.json({ error: "Cerere invalidă." }, { status: 400, headers }); }
+  if (typeof input?.orderId === "string") {
+    const order = await getOrder(input.orderId);
+    if (order?.shippingCarrier !== "sameday") return NextResponse.json({ error: "Această comandă nu folosește Sameday." }, { status: 409, headers });
+  }
   return shipmentAction(input);
 }
