@@ -22,7 +22,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Public catalog approval
 
-- Merchant instruction: first audit existing Control galleries across the pending catalog, then publish the largest verified ready batch. Do not generate new images for this publication task. Include the merchant-provided wording “Produs de Ralex Pucioasa.” in Ralex product descriptions; do not apply it to other brands.
+- Merchant instruction: first audit existing Control galleries across the pending catalog, then publish the largest verified ready batch. Updated merchant instruction, 23 October 2026: repair problems and generate necessary images to complete impeccable galleries. Preserve faithful product references and verify each generated output before publication. Include the merchant-provided wording “Produs de Ralex Pucioasa.” in Ralex product descriptions; do not apply it to other brands.
 
 - Current merchant scope (23 October 2026): new publications from E-Store Control must be RALEX PUCIOASA only. Exclude Casa Pucioasa, other brands, and unconfirmed brands even when sold by the same supplier. Verify actual image galleries before publication.
 
