@@ -64,12 +64,12 @@ test("callback accepts an authentic payment and rejects altered amount or mercha
 });
 
 
-test("Apple Pay callback verifies its signed channel and rejects tampering", () => {
+for (const channel of ["ApplePay", "GPay"]) test(`${channel} callback verifies its signed channel and rejects tampering`, () => {
   const response = {
     amount: "119.00", curr: "RON", invoice_id: "wallet-test", ep_id: "B".repeat(40),
     merch_id: merchantId, action: "0", message: "Approved", approval: "123456",
     timestamp: "20261023123456", nonce: "0123456789abcdef0123456789abcdef",
-    payment_channel: "ApplePay",
+    payment_channel: channel,
   };
   const fields = ["amount", "curr", "invoice_id", "ep_id", "merch_id", "action", "message", "approval", "timestamp", "nonce", "payment_channel"];
   const payload = fields.map((name) => `${Buffer.byteLength(response[name])}${response[name]}`).join("");

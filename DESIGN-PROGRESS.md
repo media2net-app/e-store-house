@@ -144,3 +144,8 @@ Reviewed Git source snapshots and found earlier development prices (including ro
 - Build și lint pentru fișierele schimbate trecute; 6 teste EuPlătesc trecute, inclusiv callback ApplePay și respingerea modificării canalului/sumei.
 - Demo-ul deschis din Manager → Testează a returnat erori PHP (server lipsă / headers already sent); nu a fost autorizată o plată. O tranzacție Apple Pay reală nu este confirmată.
 - Documentație: https://manager.euplatesc.ro/v3/?page=docs ; https://www.euplatesc.ro/acasa/metode-de-plata/applepay-googlepay/
+
+## Google Pay — 23 octombrie 2026
+- Verificat în EuPlătesc Manager: opțiunea GooglePay este deja bifată. Nu au fost modificate setările și nu au fost acceptați din nou termenii.
+- Adăugat Google Pay lângă Apple Pay în checkout-ul public, cu selecție pe pagina găzduită EuPlătesc și disponibilitate în funcție de dispozitiv/card.
+- Testul callback verifică ambele canale ApplePay/GPay și respinge modificarea canalului sau sumei. Nu a fost efectuată o plată reală.

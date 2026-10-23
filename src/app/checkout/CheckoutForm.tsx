@@ -146,8 +146,8 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         </div>
         <fieldset className="rounded-xl border border-[#c9bda9] p-4">
           <legend className="px-1 text-sm font-semibold">Alege metoda de plată</legend>
-          <label className="flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="card" checked={paymentMethod === "card"} disabled={!cardEnabled} onChange={() => setPaymentMethod("card")} />Card online / Apple Pay prin EuPlătesc{!cardEnabled ? " — în curs de activare" : ""}</label>
-          {cardEnabled && <p className="mt-2 pl-7 text-xs text-stone-600">Apple Pay se alege pe pagina securizată EuPlătesc, dacă este disponibil pentru dispozitivul și cardul tău.</p>}
+          <label className="flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="card" checked={paymentMethod === "card"} disabled={!cardEnabled} onChange={() => setPaymentMethod("card")} />Card / Apple Pay / Google Pay prin EuPlătesc{!cardEnabled ? " — în curs de activare" : ""}</label>
+          {cardEnabled && <p className="mt-2 pl-7 text-xs text-stone-600">Apple Pay și Google Pay se aleg pe pagina securizată EuPlătesc, în funcție de dispozitivul și cardul tău.</p>}
           <label className="mt-3 flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="cod" checked={paymentMethod === "cod"} disabled={!codEnabled || carrier !== "sameday"} onChange={() => setPaymentMethod("cod")} />{method === "easybox" ? "Ramburs la easybox — achiți cu cardul la ridicare" : "Ramburs la domiciliu — achiți curierului la livrare"}</label>
           {carrier !== "sameday" && <p className="mt-3 text-xs">Pentru plata ramburs, alege livrarea Sameday la domiciliu sau la easybox.</p>}
         </fieldset>
@@ -187,7 +187,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         {error && <p role="alert" className="rounded-lg bg-red-50 p-3 text-sm text-red-800">{error}</p>}
         {!paymentEnabled && <p className="rounded-lg bg-amber-50 p-3 text-sm">{codEnabled ? "Poți comanda acum cu plata ramburs prin Sameday, la domiciliu sau la easybox (cu cardul la ridicare). Plata online este în curs de activare." : "Preluarea comenzilor este în curs de activare."}</p>}
         <button disabled={busy || !paymentEnabled || shippingCents === null || !currentRate?.token || (method === "easybox" && (!easyboxEligible || !locker))} className="rounded-full bg-[#3b2d24] px-6 py-3 font-semibold text-white disabled:opacity-50">{busy ? "Se înregistrează comanda..." : paymentMethod === "cod" ? "Plasează comanda cu plata ramburs" : "Continuă la plata securizată"}</button>
-        <p className="text-xs">{paymentMethod === "cod" ? (method === "easybox" ? "Prin trimiterea comenzii te obligi să achiți totalul afișat cu cardul la easybox, la ridicarea coletului. Nu se acceptă numerar la easybox." : "Prin trimiterea comenzii te obligi să achiți totalul afișat, la curier, la livrare.") : "Pe pagina securizată EuPlătesc poți introduce datele cardului sau alege Apple Pay, când este disponibil. Expediem comanda după confirmarea plății."}</p>
+        <p className="text-xs">{paymentMethod === "cod" ? (method === "easybox" ? "Prin trimiterea comenzii te obligi să achiți totalul afișat cu cardul la easybox, la ridicarea coletului. Nu se acceptă numerar la easybox." : "Prin trimiterea comenzii te obligi să achiți totalul afișat, la curier, la livrare.") : "Pe pagina securizată EuPlătesc poți introduce datele cardului sau alege Apple Pay ori Google Pay, când sunt disponibile. Expediem comanda după confirmarea plății."}</p>
       </form>
 
     </div>}
