@@ -7473,5 +7473,93 @@
       "162880": true
     },
     "checkedAt": "2026-10-23T23:01:46.681777+00:00"
+  },
+  {
+    "id": 163181,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/set-pilota-ranforrce-100-bbc/set-pilota-ranforce-100-bumbac-cu-doua-fete-husa-de-pat-cu-elastic-si-4-fete-de-perna-azura/",
+    "costs": {
+      "163181": 525.0
+    },
+    "availability": {
+      "163181": true
+    },
+    "checkedAt": "2026-10-23T23:21:57.761400+00:00"
+  },
+  {
+    "id": 163183,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/set-pilota-ranforrce-100-bbc/set-pilota-ranforce-100-bumbac-cu-doua-fete-husa-de-pat-cu-elastic-si-4-fete-de-perna-elara-v3/",
+    "costs": {
+      "163183": 525.0
+    },
+    "availability": {
+      "163183": true
+    },
+    "checkedAt": "2026-10-23T23:21:57.761400+00:00"
+  },
+  {
+    "id": 163185,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/set-pilota-ranforrce-100-bbc/set-pilota-ranforce-100-bumbac-cu-doua-fete-husa-de-pat-cu-elastic-si-4-fete-de-perna-putto/",
+    "costs": {
+      "163185": 525.0
+    },
+    "availability": {
+      "163185": true
+    },
+    "checkedAt": "2026-10-23T23:21:57.761400+00:00"
+  },
+  {
+    "id": 163187,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/set-pilota-ranforrce-100-bbc/set-pilota-ranforce-100-bumbac-cu-doua-fete-husa-de-pat-cu-elastic-si-4-fete-de-perna-samba/",
+    "costs": {
+      "163187": 525.0
+    },
+    "availability": {
+      "163187": true
+    },
+    "checkedAt": "2026-10-23T23:21:57.761400+00:00"
+  },
+  {
+    "id": 163189,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/set-pilota-ranforrce-100-bbc/set-pilota-ranforce-100-bumbac-cu-doua-fete-husa-de-pat-cu-elastic-si-4-fete-de-perna-semeran/",
+    "costs": {
+      "163189": 525.0
+    },
+    "availability": {
+      "163189": true
+    },
+    "checkedAt": "2026-10-23T23:21:57.761400+00:00"
+  },
+  {
+    "id": 163175,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled/set-de-pat-muselina-100-bumbac-4-piese-cearsaf-240x260-cm-patura-dubla-fata-220x240-cm-daisora/",
+    "costs": {
+      "163175": 525.0
+    },
+    "availability": {
+      "163175": true
+    },
+    "checkedAt": "2026-10-23T23:21:57.761400+00:00"
+  },
+  {
+    "id": 163177,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled/set-de-pat-muselina-100-bumbac-4-piese-cearsaf-240x260-cm-patura-dubla-fata-220x240-cm-farva/",
+    "costs": {
+      "163177": 525.0
+    },
+    "availability": {
+      "163177": true
+    },
+    "checkedAt": "2026-10-23T23:21:57.761400+00:00"
+  },
+  {
+    "id": 163178,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled/set-de-pat-muselina-100-bumbac-4-piese-cearsaf-240x260-cm-patura-dubla-fata-220x240-cm-panthera/",
+    "costs": {
+      "163178": 525.0
+    },
+    "availability": {
+      "163178": true
+    },
+    "checkedAt": "2026-10-23T23:21:57.761400+00:00"
   }
 ]

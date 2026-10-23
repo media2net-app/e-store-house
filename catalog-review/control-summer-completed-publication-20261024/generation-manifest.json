@@ -1,0 +1,96 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "prompt": "Distinct overhead and side whole-bed photographs, actual own supplier and Control image references. Preserve exact motifs, colors, quilting, fringe and visible construction. Do not invent hidden surfaces or add composition claims. Portrait 2:3.",
+  "outputs": [
+    {
+      "index": 293,
+      "id": "163181",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/163181-supplier.jpg",
+        "/tmp/estore-publication-review-batch2-20261023/d00724aa755761494695fcf2bb34de1f186e745649fa37bf367b2c94484daf77.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/163181-summer-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-f95ee79e-6f4f-42ba-b244-c35ef6c6b026.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c12e9c93-e26b-4e7b-8e93-3499cfacffb5.png"
+    },
+    {
+      "index": 294,
+      "id": "163183",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/163183-supplier.jpg",
+        "/tmp/estore-publication-review-batch2-20261023/b74612aa1304b4e07c8819159901475b7b215630d2a32d2e331e64854b5b971d.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/163183-summer-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-e2da1831-2b0c-4541-9887-2a7cd71803d9.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-eb21622d-5018-4ab6-a1d2-dcfead5b583b.png"
+    },
+    {
+      "index": 295,
+      "id": "163185",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/163185-supplier.jpg",
+        "/tmp/estore-publication-review-batch2-20261023/2c7434047f763b4ade2198cfc566c83d310474b323c55180e7bbf59fb0e9d888.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/163185-summer-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a4837976-6809-49c1-90d2-b5704d119fab.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-fd7d730d-d5f4-4193-97cc-0b1623fad4b2.png"
+    },
+    {
+      "index": 296,
+      "id": "163187",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/163187-supplier.jpg",
+        "/tmp/estore-publication-review-batch2-20261023/c62ad76fc8cccbc9abb3d7b516d82af82107834ae5ace5900587c73d20d8af6b.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/163187-summer-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-0ff83329-6351-43e2-951d-ed1bf068b50d.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-926cf2a1-80dd-410e-abd3-ff26fba45e7d.png"
+    },
+    {
+      "index": 297,
+      "id": "163189",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/163189-supplier.jpg",
+        "/tmp/estore-publication-review-batch4-20261023/9b35df09513ccddc605da51979c442c4d99ddc11c748c40e52549d381217bfb6.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/163189-summer-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-4c494637-c650-4c31-8380-1501af0eac03.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-1ce2ad17-c8bd-4230-a4d2-872f795905e6.png"
+    },
+    {
+      "index": 549,
+      "id": "163175",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/163175-supplier.jpg",
+        "/tmp/estore-publication-review-batch2-20261023/a359cb7f1186bf201b911a188c3730f651e90124f1a75cb20cbec2360b96fb1e.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/163175-summer-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-02c9889e-0e66-4688-a3c6-078d2b885a52.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-091b7b46-6d4b-4259-afff-74331974d29b.png"
+    },
+    {
+      "index": 550,
+      "id": "163177",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/163177-supplier.jpg",
+        "/tmp/estore-publication-review-batch2-20261023/a8508cb05d2a0a0e0d9210c6ae09751fb818b177d17008c42684d3567b67a156.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/163177-summer-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-0d27736d-ccf9-4d9c-9230-af3e44005b4e.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-53b07b3e-6c5e-48f5-a83c-8dcbe49feac1.png"
+    },
+    {
+      "index": 551,
+      "id": "163178",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/163178-supplier.jpg",
+        "/tmp/estore-publication-review-batch2-20261023/427bd21b2bbdafba6e3a24b95de44203fca53a856c54439fa0be9400891f5503.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/163178-summer-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-5d4a1db6-ef2e-4367-8a93-29fc569c6415.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-683a9103-e85d-49a8-be30-0885188dff7b.png"
+    }
+  ],
+  "review": "All 16 final outputs inspected. Initial Azura and Panthera overhead views rejected for unsupported reverse colors and regenerated with the verified face fully visible."
+}
