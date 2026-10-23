@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Brand from "./Brand";
 import { useRef } from "react";
 import { useCart } from "@/components/cart/CartProvider";
 import { navigationGroups, groupHref } from "@/lib/navigation-groups";
@@ -10,7 +11,7 @@ export default function Header({ query = "" }: { query?: string }) {
   return <header className="store-header">
     <div className="store-header-main">
       <button className="menu-trigger" onClick={() => menu.current?.showModal()} aria-label="Deschide meniul de categorii"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" strokeWidth="1.5"/></svg></button>
-      <Link href="/" className="wordmark" aria-label="E-Store House — Acasă"><span>E-STORE HOUSE</span><small>CONFORT BINE ALES</small></Link>
+      <Brand />
       <nav className="header-links" aria-label="Navigare principală"><Link href="/categorii">Categorii</Link><Link href="/shop">Toate produsele</Link><Link href="/shop?categorie=oferte">Oferte</Link></nav>
       <button onClick={openCart} className="cart-trigger" aria-label={`Deschide coșul, ${totalItems} produse`}><svg width="20" height="23" viewBox="0 0 20 23" fill="none" aria-hidden="true"><path d="M3 7h14l1 14H2L3 7Z" stroke="currentColor" strokeWidth="1.3"/><path d="M6 8V5a4 4 0 0 1 8 0v3" stroke="currentColor" strokeWidth="1.3"/></svg><b>{totalItems}</b></button>
     </div>

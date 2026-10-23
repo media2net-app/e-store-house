@@ -36,6 +36,10 @@ export default function RootLayout({
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org", "@type": "Organization", "@id": "https://www.estorehouse.ro/#organization",
+          name: "E-Store House", url: "https://www.estorehouse.ro", logo: "https://www.estorehouse.ro/brand/estore-house-icon.png",
+        }) }} />
         <CartProvider><CatalogPosition/>{children}</CartProvider>
       </body>
     </html>
