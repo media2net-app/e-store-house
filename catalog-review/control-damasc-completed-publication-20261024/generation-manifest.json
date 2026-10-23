@@ -1,0 +1,371 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "prompt": "Direct overhead full-bed photograph preserving own supplier solid color and woven damask stripes. Six-piece sets: four sleeping pillows, two square and two rectangular. Four-piece sets: only two rectangular pillows. Portrait 2:3, E-STORE HOUSE footer.",
+  "outputs": [
+    {
+      "index": 315,
+      "id": "96421",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/96421-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/623bce77322b9ef1be82bc44bc3a6a318eda8c717bd087f9fbf011308c1c4771.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/96421-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-dc94a2b5-6cff-4d80-a843-e9e55d2b6cc7.png"
+    },
+    {
+      "index": 316,
+      "id": "96420",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/96420-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/d236f8f1d86ec4fa524c0ce668b4f1005434ae7944ec4e5c1a94fcbfcfdc9c39.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/96420-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-0055cabb-af42-4b68-9e1f-04c2508abaf5.png"
+    },
+    {
+      "index": 317,
+      "id": "96418",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/96418-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/c0c6311a2ef29b727ffc2bd5c2dc9e741c48f23397ab0d4d77d733e2cd3a1347.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/96418-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-2b0ee5d5-3889-4b6e-bef7-619c832f2dcd.png"
+    },
+    {
+      "index": 318,
+      "id": "96417",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/96417-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/6e1aabdcc8a755d742cc817d7f68620583625b6eed1fe4426451daa0f86fb323.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/96417-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-122bf6bd-e742-457c-9b71-b1ac7f3dc961.png"
+    },
+    {
+      "index": 319,
+      "id": "96416",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/96416-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/2a978aea752e09f66e668d5adce1aeb3fa4fedba9f6200501ccdb5d2e6dfadf1.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/96416-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-4d8f7f2a-5adf-4afb-b429-eaefbbea04f5.png"
+    },
+    {
+      "index": 320,
+      "id": "96415",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/96415-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/509b5984321156c6e70c2495669f4add7c0bd0e8cedf9dbd06eaf5fc7514188b.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/96415-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-dc9605c7-a975-4051-acfd-0c54b9fb9214.png"
+    },
+    {
+      "index": 321,
+      "id": "96414",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/96414-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/ad9755fa82557127baa67af1e7bef7bd0bc5b304b7c6af0381169e79b8577ce7.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/96414-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-d4934e6f-5bdb-47ff-85a7-f750add991d4.png"
+    },
+    {
+      "index": 322,
+      "id": "83436",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83436-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/5a28892d461f23069c4bfb9678cd965e19acaae3c50e8c71740260de8e8bac74.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83436-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-e6acadd3-6116-4927-87dc-f9a7aca4c6c0.png"
+    },
+    {
+      "index": 323,
+      "id": "83435",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83435-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/a08077014d9bd508b730843a3d58e31c25586468d50fdc4c09866f57c119d8bf.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83435-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-f03e6556-57e1-448b-b333-1f8ed4785ee1.png"
+    },
+    {
+      "index": 324,
+      "id": "83428",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83428-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/1cdee44cad142bcc5653c6b37fba89da03817c2d63e92f0090722d6c512cfdbd.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83428-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-660ffb5b-bc5d-415c-baa7-94225366dcab.png"
+    },
+    {
+      "index": 325,
+      "id": "83434",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83434-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/d97219d9008d84bcaafe6aa5b288c21636277eb4a158ee9f4364b75a07564d94.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83434-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-42e1ffab-e919-4f06-9b75-8172ad38594d.png"
+    },
+    {
+      "index": 326,
+      "id": "83433",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83433-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/798dec135640ae1cf45a5f4fc1c069d2b21c5195ccbe5bc0837f7ed75b903b53.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83433-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c397346f-a937-4b41-9eeb-7e2f3f7a76fd.png"
+    },
+    {
+      "index": 327,
+      "id": "83432",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83432-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/9b3df134c903966649b19cf7b9fd8f3e468f10979cc5e36e3f01044d8ca7a125.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83432-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-55a5571b-c1a8-4ed7-b8ef-ad33ee7fa0e2.png"
+    },
+    {
+      "index": 328,
+      "id": "83430",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83430-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/052ac0dc2617cdca8fdbd62ad2d3717e1bf721c8ce431174f52dc4487dbf15ee.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83430-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-fbf99641-25ae-4c7a-b066-707c72b65bbf.png"
+    },
+    {
+      "index": 329,
+      "id": "83429",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83429-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/917166cd792429767c2b886e24f87528ad8cb6ac1f35a57513fd63758f0e5af4.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83429-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-36c054ba-07db-4a04-8ae4-86ae09e6cdbf.png"
+    },
+    {
+      "index": 330,
+      "id": "83427",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83427-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/a97dbdcef13751677a0df94d5077c11330df5446d071a3d21d6057fea8f7f5e4.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83427-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-aad256ff-5650-45ac-bfe6-a721daaf650d.png"
+    },
+    {
+      "index": 331,
+      "id": "83425",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83425-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/5a713e971e64960b59f22b00c04a070a9ec3c138c123bbf2765cca8ca3daa37a.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83425-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-997569f9-7cb6-478e-9592-393f6e15488f.png"
+    },
+    {
+      "index": 332,
+      "id": "83424",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83424-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/34f2c91eda326b95d639d340bd13aebfabface2835999ccaf9fb9017cb432736.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83424-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-4b009c76-e90d-4f68-a818-29236c1ab451.png"
+    },
+    {
+      "index": 333,
+      "id": "83423",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83423-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/2e1094af511b3ca26fc1c95e27875cee91f9d2e21fdfa3bcfc3ae39b55363c9f.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83423-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ed36fd2d-aa82-4d0c-a23c-5c0c79fa4fdf.png"
+    },
+    {
+      "index": 334,
+      "id": "83420",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83420-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/b4465dbce7c46a9d2de1fdb2aa1e69a8dc3e406ac4bcff2723f436c2d24c1e6e.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83420-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-9bb05208-fb30-4ee4-9251-319d94427ac2.png"
+    },
+    {
+      "index": 336,
+      "id": "83421",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83421-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/3523714e05a6d35871be376106140a04197bb534dbca69d19b6dea7af27e4ff3.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83421-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-741065bd-3d40-44eb-b904-166aefba51a2.png"
+    },
+    {
+      "index": 337,
+      "id": "83419",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83419-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/87578eb45323dbc6034ee0f8e72ea8a79e0ab8646526b825b194327ac4d81b4b.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83419-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c2d14fc4-5e73-45db-84a6-14e18dabf7cb.png"
+    },
+    {
+      "index": 338,
+      "id": "83418",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/83418-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/210799708fb83a72298fa109446cb67571d9f9ebba00ca83842c9e65104996fe.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/83418-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-95b91a1f-6ec3-4f59-a30b-dd8ee48d6478.png"
+    },
+    {
+      "index": 341,
+      "id": "112044",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/112044-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/b4023f4fd06b2425c926c6d061fb540b7e10875b5b87e5a71a5175cca32e0cf9.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/112044-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-b6c890de-5832-4df4-af91-60cdd2ad4a6c.png"
+    },
+    {
+      "index": 342,
+      "id": "112043",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/112043-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/1b6efe575b20f9e36ed54196ec643e56dcd8f4b57961495324471c4bbaf46f56.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/112043-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-131e011f-172b-46b6-b2b5-441938d5c702.png"
+    },
+    {
+      "index": 343,
+      "id": "112042",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/112042-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/95e7324fce9be1c87ccfba3be0afb634e4e4936b3fc629d1d7b1175a5392ca85.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/112042-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-d058bcfa-c2b4-4102-ad5c-680a32e133c1.png"
+    },
+    {
+      "index": 344,
+      "id": "112041",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/112041-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/d259fd869142acc36643cdcb2093f28555627ea7a26697b1ac3c3d70785a1271.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/112041-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-18e11c8b-a1bf-4f5d-a652-20df96abb9e2.png"
+    },
+    {
+      "index": 345,
+      "id": "112039",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/112039-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/277e093cd2330e731f230d1f4f0f1980e5c4be2ce66ac217fd60f63c656c62f4.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/112039-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-6ec1548a-7b4b-4fc6-81ea-bf1b190b2036.png"
+    },
+    {
+      "index": 346,
+      "id": "112037",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/112037-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/29f4cd183bb50d7b096694ecb765a650a0d2880058a9165f7a59796ae7d11bdd.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/112037-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-5b832024-b00b-4711-bed9-2f1c371e7569.png"
+    },
+    {
+      "index": 347,
+      "id": "112038",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/112038-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/f36af79f05fb5cf604434244dee9c6f8c60f7a92409af6c90dd170ebef8e5533.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/112038-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c2d9876d-8f9a-4009-aee8-2b9d9e7cf36c.png"
+    },
+    {
+      "index": 348,
+      "id": "112036",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/112036-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/200df488afbedd2e5e08398ed240284a3850a6164f129b794f7dd42c76c889d0.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/112036-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-de9ac03c-3af3-4e52-ae15-b5adb550b253.png"
+    },
+    {
+      "index": 349,
+      "id": "112035",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/112035-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/a1f779f7a882f39de32bd62a16cddfa7c48442831bcb69a382f70a89a2529ad2.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/112035-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-65fdacb8-538d-4ca0-826f-2aef1bd2ad39.png"
+    },
+    {
+      "index": 350,
+      "id": "112034",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/112034-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/b77b2334b6264b011352862e04c7a85ff606de43ee2272f268dca2214d8fe6a5.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/112034-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-f5e7f65f-6648-4a64-9532-eea28ccab6db.png"
+    },
+    {
+      "index": 351,
+      "id": "112033",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/112033-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/40038ccce2e7c3feb882ef33a6629bf84b93aaf645d6c6106f4175406fe7bece.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/112033-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a7c780c2-2349-43ad-8d37-b05f3d3476fe.png"
+    },
+    {
+      "index": 352,
+      "id": "112031",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/112031-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/f95a16f1ede69b1351247a82a845389c8d4c1701af6d045293c8e8045413bb80.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/112031-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-6be5334c-86ff-4d5b-931f-1a065df289a7.png"
+    },
+    {
+      "index": 353,
+      "id": "100600",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/100600-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/57b477812928d962dd6ba11b19b6649b656c48fe2e8fc1a8612b063cef103642.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/100600-damasc-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-7be56b0a-4a17-4493-acbb-f674e1df2243.png"
+    }
+  ],
+  "excluded": {
+    "96422": "Control blue/navy color differs from supplier dark gray-green reference"
+  },
+  "review": "All 36 actual outputs visually inspected against own supplier and Control references."
+}
