@@ -21422,5 +21422,1237 @@
     "price": 169,
     "stock": 100,
     "inStock": true
+  },
+  {
+    "id": 81188,
+    "name": "Lenjerie de pat Natur Uni Stripe, 6 piese, turcoaz",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Stripe, 6 piese, turcoaz.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-stripe-6-piese-cu-cearsaf-turcoaz/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260611/10/35112d8b-5098-3ea2-9c04-3b958ea2124c/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260611/10/ba8aeda9-75e9-377c-83f2-a4936d77333f/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260611/10/2399c52f-efa7-316d-ae44-aa0fa8781a09/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260611/10/3efa63c1-a2c2-3eb5-b63d-6014dbda030b/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260611/10/35112d8b-5098-3ea2-9c04-3b958ea2124c/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81188,
+        "sku": "81188",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260611/10/35112d8b-5098-3ea2-9c04-3b958ea2124c/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260611/10/ba8aeda9-75e9-377c-83f2-a4936d77333f/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260611/10/2399c52f-efa7-316d-ae44-aa0fa8781a09/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260611/10/3efa63c1-a2c2-3eb5-b63d-6014dbda030b/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 49,
+        "inStock": true
+      },
+      {
+        "id": 81201,
+        "sku": "81201",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260611/10/35112d8b-5098-3ea2-9c04-3b958ea2124c/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260611/10/ba8aeda9-75e9-377c-83f2-a4936d77333f/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260611/10/2399c52f-efa7-316d-ae44-aa0fa8781a09/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260611/10/3efa63c1-a2c2-3eb5-b63d-6014dbda030b/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81190,
+    "name": "Lenjerie de pat Natur Uni Stripe, 6 piese, negru",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Stripe, 6 piese, negru.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-stripe-6-piese-cu-cearsaf-negru/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260611/10/8904c908-b7fd-3209-aa60-3a370f9aa31f/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260611/10/3c127bf1-e16f-347d-8a32-75dbba780008/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260611/10/f66b4073-33f0-38f3-a334-b40497425494/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260611/10/30b95ab1-33f3-35ab-8adc-7e3ed0892030/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260611/10/8904c908-b7fd-3209-aa60-3a370f9aa31f/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81190,
+        "sku": "81190",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260611/10/8904c908-b7fd-3209-aa60-3a370f9aa31f/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260611/10/3c127bf1-e16f-347d-8a32-75dbba780008/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260611/10/f66b4073-33f0-38f3-a334-b40497425494/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260611/10/30b95ab1-33f3-35ab-8adc-7e3ed0892030/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 50,
+        "inStock": true
+      },
+      {
+        "id": 81203,
+        "sku": "81203",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260611/10/8904c908-b7fd-3209-aa60-3a370f9aa31f/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260611/10/3c127bf1-e16f-347d-8a32-75dbba780008/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260611/10/f66b4073-33f0-38f3-a334-b40497425494/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260611/10/30b95ab1-33f3-35ab-8adc-7e3ed0892030/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81189,
+    "name": "Lenjerie de pat Natur Uni Stripe, 6 piese, rosu",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Stripe, 6 piese, rosu.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-stripe-6-piese-cu-cearsaf-rosu/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260611/10/2109d434-f23f-32b7-8e5a-34129d44e978/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260611/10/7ad9015e-e543-36e8-9673-1f962baad142/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260611/10/9268d47e-c658-34ec-a57a-7b1aaa44586b/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260611/10/91e0a086-9115-3337-a4a6-14cee336a326/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260611/10/2109d434-f23f-32b7-8e5a-34129d44e978/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81189,
+        "sku": "81189",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260611/10/2109d434-f23f-32b7-8e5a-34129d44e978/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260611/10/7ad9015e-e543-36e8-9673-1f962baad142/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260611/10/9268d47e-c658-34ec-a57a-7b1aaa44586b/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260611/10/91e0a086-9115-3337-a4a6-14cee336a326/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 50,
+        "inStock": true
+      },
+      {
+        "id": 81202,
+        "sku": "81202",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260611/10/2109d434-f23f-32b7-8e5a-34129d44e978/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260611/10/7ad9015e-e543-36e8-9673-1f962baad142/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260611/10/9268d47e-c658-34ec-a57a-7b1aaa44586b/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260611/10/91e0a086-9115-3337-a4a6-14cee336a326/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81192,
+    "name": "Lenjerie de pat Natur Uni Stripe, 6 piese, gri",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Stripe, 6 piese, gri.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-stripe-6-piese-cu-cearsaf-gri/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260611/10/d53626e0-ccb0-3fb3-b31c-3fb6a4b2a098/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260611/10/e2798701-576c-3f61-aa8f-2b2a9bf5eecb/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260611/10/74bbea53-1ea9-31f7-ae97-ed97cc54c7b3/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260611/10/2855eb7e-3b2a-3577-ab0a-b29e7ed658d7/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260611/10/d53626e0-ccb0-3fb3-b31c-3fb6a4b2a098/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81192,
+        "sku": "81192",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260611/10/d53626e0-ccb0-3fb3-b31c-3fb6a4b2a098/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260611/10/e2798701-576c-3f61-aa8f-2b2a9bf5eecb/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260611/10/74bbea53-1ea9-31f7-ae97-ed97cc54c7b3/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260611/10/2855eb7e-3b2a-3577-ab0a-b29e7ed658d7/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 50,
+        "inStock": true
+      },
+      {
+        "id": 81205,
+        "sku": "81205",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260611/10/d53626e0-ccb0-3fb3-b31c-3fb6a4b2a098/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260611/10/e2798701-576c-3f61-aa8f-2b2a9bf5eecb/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260611/10/74bbea53-1ea9-31f7-ae97-ed97cc54c7b3/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260611/10/2855eb7e-3b2a-3577-ab0a-b29e7ed658d7/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81194,
+    "name": "Lenjerie de pat Natur Uni Stripe, 6 piese, capucino",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Stripe, 6 piese, capucino.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-stripe-6-piese-cu-cearsaf-capucino/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260611/10/d47a1f37-bef5-39a8-a703-7429666af8c6/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260611/10/e68f0f17-d3a9-30aa-9c9c-f34a1b55eb85/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260611/10/1abac8a6-ad95-35cf-8843-d86c4ed95cd4/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260611/10/ac9eebcd-3392-3002-a618-c05cc4ed8342/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260611/10/d47a1f37-bef5-39a8-a703-7429666af8c6/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81194,
+        "sku": "81194",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260611/10/d47a1f37-bef5-39a8-a703-7429666af8c6/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260611/10/e68f0f17-d3a9-30aa-9c9c-f34a1b55eb85/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260611/10/1abac8a6-ad95-35cf-8843-d86c4ed95cd4/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260611/10/ac9eebcd-3392-3002-a618-c05cc4ed8342/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 50,
+        "inStock": true
+      },
+      {
+        "id": 81207,
+        "sku": "81207",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260611/10/d47a1f37-bef5-39a8-a703-7429666af8c6/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260611/10/e68f0f17-d3a9-30aa-9c9c-f34a1b55eb85/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260611/10/1abac8a6-ad95-35cf-8843-d86c4ed95cd4/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260611/10/ac9eebcd-3392-3002-a618-c05cc4ed8342/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81193,
+    "name": "Lenjerie de pat Natur Uni Stripe, 6 piese, galben",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Stripe, 6 piese, galben.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-stripe-6-piese-cu-cearsaf-galben/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260611/10/88e9ed46-bacb-3e7f-b4a3-62fae075e0e9/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260611/10/d9fd9e4b-34de-3d23-b000-e301d983c907/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260611/10/c1240e92-c265-3078-96d1-03dfaf41e6ec/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260611/10/7b900ed0-9b22-33cb-8f7a-0c97a306f91d/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260611/10/88e9ed46-bacb-3e7f-b4a3-62fae075e0e9/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81193,
+        "sku": "81193",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260611/10/88e9ed46-bacb-3e7f-b4a3-62fae075e0e9/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260611/10/d9fd9e4b-34de-3d23-b000-e301d983c907/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260611/10/c1240e92-c265-3078-96d1-03dfaf41e6ec/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260611/10/7b900ed0-9b22-33cb-8f7a-0c97a306f91d/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 50,
+        "inStock": true
+      },
+      {
+        "id": 81206,
+        "sku": "81206",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260611/10/88e9ed46-bacb-3e7f-b4a3-62fae075e0e9/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260611/10/d9fd9e4b-34de-3d23-b000-e301d983c907/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260611/10/c1240e92-c265-3078-96d1-03dfaf41e6ec/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260611/10/7b900ed0-9b22-33cb-8f7a-0c97a306f91d/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81197,
+    "name": "Lenjerie de pat Natur Uni Stripe, 6 piese, alb",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Stripe, 6 piese, alb.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-stripe-6-piese-cu-cearsaf-alb-2/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1901/prod/QC_PREP/20260611/11/5f2bc815-e220-3160-ae53-5ba3558a8a52/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260611/11/901fc1d2-9de9-328f-b6a3-08c406e9228e/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260611/11/82851896-0400-378a-af87-e7c771ba54ed/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260611/11/e429ab13-d620-37ab-af15-9c4a9eb8562b/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1901/prod/QC_PREP/20260611/11/5f2bc815-e220-3160-ae53-5ba3558a8a52/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81197,
+        "sku": "81197",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1901/prod/QC_PREP/20260611/11/5f2bc815-e220-3160-ae53-5ba3558a8a52/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260611/11/901fc1d2-9de9-328f-b6a3-08c406e9228e/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260611/11/82851896-0400-378a-af87-e7c771ba54ed/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260611/11/e429ab13-d620-37ab-af15-9c4a9eb8562b/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 50,
+        "inStock": true
+      },
+      {
+        "id": 81210,
+        "sku": "81210",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1901/prod/QC_PREP/20260611/11/5f2bc815-e220-3160-ae53-5ba3558a8a52/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260611/11/901fc1d2-9de9-328f-b6a3-08c406e9228e/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260611/11/82851896-0400-378a-af87-e7c771ba54ed/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260611/11/e429ab13-d620-37ab-af15-9c4a9eb8562b/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 49,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81198,
+    "name": "Lenjerie de pat Natur Uni Stripe, 6 piese, verde",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Stripe, 6 piese, verde.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-stripe-6-piese-cu-husa-alb/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260611/10/972d9c7b-8cf6-3a8b-a5cd-3d0bf6cb85a6/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260611/10/9588ef56-f447-3fce-8c6c-3f1f79a46cf1/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260611/10/50a7ad5d-4398-3e78-9b9d-b3fe251f9104/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260611/10/4e5d0720-68f2-3b09-ae1f-440afac5c9e7/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260611/10/972d9c7b-8cf6-3a8b-a5cd-3d0bf6cb85a6/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81198,
+        "sku": "81198",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260611/10/972d9c7b-8cf6-3a8b-a5cd-3d0bf6cb85a6/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260611/10/9588ef56-f447-3fce-8c6c-3f1f79a46cf1/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260611/10/50a7ad5d-4398-3e78-9b9d-b3fe251f9104/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260611/10/4e5d0720-68f2-3b09-ae1f-440afac5c9e7/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      },
+      {
+        "id": 81184,
+        "sku": "81184",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260611/10/972d9c7b-8cf6-3a8b-a5cd-3d0bf6cb85a6/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260611/10/9588ef56-f447-3fce-8c6c-3f1f79a46cf1/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260611/10/50a7ad5d-4398-3e78-9b9d-b3fe251f9104/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260611/10/4e5d0720-68f2-3b09-ae1f-440afac5c9e7/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 49,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81208,
+    "name": "Lenjerie de pat Natur Uni Stripe, 6 piese, bej",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Stripe, 6 piese, bej.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-stripe-6-piese-cu-husa-bej/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260611/11/022c3c8d-c066-3901-a364-ee2dc664d5a5/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260611/11/06c9e8ff-02b0-3492-a410-5d2beaa95cb3/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260611/11/ac8456f2-331b-3f48-a13d-6a62b0f5002d/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260611/11/6a9d8bc0-e0ef-335a-a27d-d1ae8e790911/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260611/11/022c3c8d-c066-3901-a364-ee2dc664d5a5/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 259,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81208,
+        "sku": "81208",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260611/11/022c3c8d-c066-3901-a364-ee2dc664d5a5/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260611/11/06c9e8ff-02b0-3492-a410-5d2beaa95cb3/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260611/11/ac8456f2-331b-3f48-a13d-6a62b0f5002d/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260611/11/6a9d8bc0-e0ef-335a-a27d-d1ae8e790911/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81220,
+    "name": "Lenjerie de pat Natur Uni Baroque, 6 piese, antracit",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Baroque, 6 piese, antracit.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-cearsaf-antracit/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260610/14/f34a6dfa-7460-35a0-8c32-40e02f86b51b/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260610/14/ce982aff-fa34-3215-933d-17d65cdfe291/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260610/14/879e9019-a5e8-3084-8b8e-4de5f0ff2295/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260610/14/92f8c2c7-6102-3253-a473-78431353366b/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260610/14/f34a6dfa-7460-35a0-8c32-40e02f86b51b/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81220,
+        "sku": "81220",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260610/14/f34a6dfa-7460-35a0-8c32-40e02f86b51b/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260610/14/ce982aff-fa34-3215-933d-17d65cdfe291/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260610/14/879e9019-a5e8-3084-8b8e-4de5f0ff2295/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260610/14/92f8c2c7-6102-3253-a473-78431353366b/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 50,
+        "inStock": true
+      },
+      {
+        "id": 81231,
+        "sku": "81231",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260610/14/f34a6dfa-7460-35a0-8c32-40e02f86b51b/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260610/14/ce982aff-fa34-3215-933d-17d65cdfe291/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260610/14/879e9019-a5e8-3084-8b8e-4de5f0ff2295/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260610/14/92f8c2c7-6102-3253-a473-78431353366b/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81221,
+    "name": "Lenjerie de pat Natur Uni Baroque, 6 piese, alb",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Baroque, 6 piese, alb.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-cearsaf-alb-2/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260610/14/343cabe4-5598-3970-a29a-dda08db5806c/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260610/14/c126d272-c349-332f-ad88-867a515e2681/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260610/14/d078396d-6a86-3414-b96b-534082a2f3c1/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260610/14/6e2326a3-0435-3a04-934c-61b53001fa14/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260610/14/343cabe4-5598-3970-a29a-dda08db5806c/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81221,
+        "sku": "81221",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260610/14/343cabe4-5598-3970-a29a-dda08db5806c/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260610/14/c126d272-c349-332f-ad88-867a515e2681/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260610/14/d078396d-6a86-3414-b96b-534082a2f3c1/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260610/14/6e2326a3-0435-3a04-934c-61b53001fa14/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 50,
+        "inStock": true
+      },
+      {
+        "id": 81232,
+        "sku": "81232",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260610/14/343cabe4-5598-3970-a29a-dda08db5806c/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260610/14/c126d272-c349-332f-ad88-867a515e2681/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260610/14/d078396d-6a86-3414-b96b-534082a2f3c1/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260610/14/6e2326a3-0435-3a04-934c-61b53001fa14/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81219,
+    "name": "Lenjerie de pat Natur Uni Baroque, 6 piese, bej",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Baroque, 6 piese, bej.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-cearsaf-bej/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260610/14/9b9c91b6-7df8-3304-b692-03daef95e9c0/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260610/14/7a80e378-3e75-3a7e-9e33-543a0882a84b/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260610/14/7b774318-0e57-3892-a9bb-8edb8bef169c/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260610/14/53cb6505-f76b-30e6-a696-aaecbcb036aa/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260610/14/9b9c91b6-7df8-3304-b692-03daef95e9c0/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81219,
+        "sku": "81219",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260610/14/9b9c91b6-7df8-3304-b692-03daef95e9c0/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260610/14/7a80e378-3e75-3a7e-9e33-543a0882a84b/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260610/14/7b774318-0e57-3892-a9bb-8edb8bef169c/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260610/14/53cb6505-f76b-30e6-a696-aaecbcb036aa/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 50,
+        "inStock": true
+      },
+      {
+        "id": 81230,
+        "sku": "81230",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260610/14/9b9c91b6-7df8-3304-b692-03daef95e9c0/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260610/14/7a80e378-3e75-3a7e-9e33-543a0882a84b/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260610/14/7b774318-0e57-3892-a9bb-8edb8bef169c/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260610/14/53cb6505-f76b-30e6-a696-aaecbcb036aa/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 49,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81217,
+    "name": "Lenjerie de pat Natur Uni Baroque, 6 piese, galben",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Baroque, 6 piese, galben.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-cearsaf-galben/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260610/14/e3d318d5-6554-3714-9c31-0e558eb18bc9/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260610/14/134a8676-3a71-3954-a083-4641d8846b2f/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260610/14/74586314-0835-31e9-aa0b-6428f74532d1/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260610/14/6b71a7b9-3247-3523-aee5-9bb6ef21fc01/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260610/14/e3d318d5-6554-3714-9c31-0e558eb18bc9/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81217,
+        "sku": "81217",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260610/14/e3d318d5-6554-3714-9c31-0e558eb18bc9/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260610/14/134a8676-3a71-3954-a083-4641d8846b2f/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260610/14/74586314-0835-31e9-aa0b-6428f74532d1/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260610/14/6b71a7b9-3247-3523-aee5-9bb6ef21fc01/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 50,
+        "inStock": true
+      },
+      {
+        "id": 81228,
+        "sku": "81228",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260610/14/e3d318d5-6554-3714-9c31-0e558eb18bc9/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260610/14/134a8676-3a71-3954-a083-4641d8846b2f/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260610/14/74586314-0835-31e9-aa0b-6428f74532d1/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260610/14/6b71a7b9-3247-3523-aee5-9bb6ef21fc01/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81215,
+    "name": "Lenjerie de pat Natur Uni Baroque, 6 piese, mov",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Baroque, 6 piese, mov.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-cearsaf-mov/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1923/prod/QC_PREP/20260610/14/02420e2c-c817-3a27-b308-e83892fa4fa1/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260610/14/a6b0cf18-c34d-3809-9ac6-b4894cee034f/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260610/14/1439ebb6-4c81-3ba0-b5dd-43338f630640/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260610/14/243e30c0-1b9e-3786-999c-2b1cbc5c32f4/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1923/prod/QC_PREP/20260610/14/02420e2c-c817-3a27-b308-e83892fa4fa1/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81215,
+        "sku": "81215",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1923/prod/QC_PREP/20260610/14/02420e2c-c817-3a27-b308-e83892fa4fa1/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260610/14/a6b0cf18-c34d-3809-9ac6-b4894cee034f/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260610/14/1439ebb6-4c81-3ba0-b5dd-43338f630640/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260610/14/243e30c0-1b9e-3786-999c-2b1cbc5c32f4/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 50,
+        "inStock": true
+      },
+      {
+        "id": 81226,
+        "sku": "81226",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1923/prod/QC_PREP/20260610/14/02420e2c-c817-3a27-b308-e83892fa4fa1/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260610/14/a6b0cf18-c34d-3809-9ac6-b4894cee034f/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260610/14/1439ebb6-4c81-3ba0-b5dd-43338f630640/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260610/14/243e30c0-1b9e-3786-999c-2b1cbc5c32f4/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81213,
+    "name": "Lenjerie de pat Natur Uni Baroque, 6 piese, rosu",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Baroque, 6 piese, rosu.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-cearsaf-rosu/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260610/14/4aa93fb5-7bba-3f63-8fff-9fda875f3998/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260610/14/11cecd34-0bce-33f3-9e0d-125af0cb6da7/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260610/14/f8f254a0-6634-35d6-97f4-2b361bbe7b0e/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260610/14/1991ac80-5cb8-32ae-9a8c-34799ee8f0c2/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260610/14/4aa93fb5-7bba-3f63-8fff-9fda875f3998/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81213,
+        "sku": "81213",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260610/14/4aa93fb5-7bba-3f63-8fff-9fda875f3998/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260610/14/11cecd34-0bce-33f3-9e0d-125af0cb6da7/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260610/14/f8f254a0-6634-35d6-97f4-2b361bbe7b0e/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260610/14/1991ac80-5cb8-32ae-9a8c-34799ee8f0c2/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 50,
+        "inStock": true
+      },
+      {
+        "id": 81224,
+        "sku": "81224",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260610/14/4aa93fb5-7bba-3f63-8fff-9fda875f3998/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260610/14/11cecd34-0bce-33f3-9e0d-125af0cb6da7/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260610/14/f8f254a0-6634-35d6-97f4-2b361bbe7b0e/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260610/14/1991ac80-5cb8-32ae-9a8c-34799ee8f0c2/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81216,
+    "name": "Lenjerie de pat Natur Uni Baroque, 6 piese, gri",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Baroque, 6 piese, gri.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-cearsaf-gri/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260610/14/69469922-77ef-38a9-9a1f-d8a69f55ea54/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1901/prod/QC_PREP/20260610/14/a87c71b0-97fc-32be-84f5-bb635cca5554/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260610/14/4ebc5bdb-a921-32e8-adaa-711e04674509/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260610/14/6886aef5-2bbd-3311-a6f1-5f092789be97/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260610/14/69469922-77ef-38a9-9a1f-d8a69f55ea54/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81216,
+        "sku": "81216",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260610/14/69469922-77ef-38a9-9a1f-d8a69f55ea54/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1901/prod/QC_PREP/20260610/14/a87c71b0-97fc-32be-84f5-bb635cca5554/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260610/14/4ebc5bdb-a921-32e8-adaa-711e04674509/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260610/14/6886aef5-2bbd-3311-a6f1-5f092789be97/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 50,
+        "inStock": true
+      },
+      {
+        "id": 81227,
+        "sku": "81227",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260610/14/69469922-77ef-38a9-9a1f-d8a69f55ea54/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1901/prod/QC_PREP/20260610/14/a87c71b0-97fc-32be-84f5-bb635cca5554/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260610/14/4ebc5bdb-a921-32e8-adaa-711e04674509/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260610/14/6886aef5-2bbd-3311-a6f1-5f092789be97/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81214,
+    "name": "Lenjerie de pat Natur Uni Baroque, 6 piese, negru",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Baroque, 6 piese, negru.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-cearsaf-negru/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260610/14/c7446552-9408-3649-9664-704a5bec8a0a/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260610/14/1cf2d35e-3cac-34ff-80a1-e7bc514b4a5d/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260610/14/ac7bec20-6278-34a4-9142-0af0bbfaf561/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260610/14/8022e54f-1baa-3931-a907-6b816dcca12d/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260610/14/c7446552-9408-3649-9664-704a5bec8a0a/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81214,
+        "sku": "81214",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260610/14/c7446552-9408-3649-9664-704a5bec8a0a/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260610/14/1cf2d35e-3cac-34ff-80a1-e7bc514b4a5d/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260610/14/ac7bec20-6278-34a4-9142-0af0bbfaf561/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260610/14/8022e54f-1baa-3931-a907-6b816dcca12d/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 49,
+        "inStock": true
+      },
+      {
+        "id": 81225,
+        "sku": "81225",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260610/14/c7446552-9408-3649-9664-704a5bec8a0a/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260610/14/1cf2d35e-3cac-34ff-80a1-e7bc514b4a5d/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260610/14/ac7bec20-6278-34a4-9142-0af0bbfaf561/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260610/14/8022e54f-1baa-3931-a907-6b816dcca12d/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81212,
+    "name": "Lenjerie de pat Natur Uni Baroque, 6 piese, turcoaz",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Baroque, 6 piese, turcoaz.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-cearsaf-turcoaz/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260610/14/b39eb20c-3ad2-3008-9b2a-e4a42053fb1d/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260610/14/83ba8fb7-8b07-34ff-b363-2d5c66baa2cc/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260610/14/231007d2-2a1e-3774-a2b4-71bbf73fd375/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260610/14/7cfdfb7e-7973-3384-8eeb-debfe7af6761/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260610/14/b39eb20c-3ad2-3008-9b2a-e4a42053fb1d/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 239,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81212,
+        "sku": "81212",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260610/14/b39eb20c-3ad2-3008-9b2a-e4a42053fb1d/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260610/14/83ba8fb7-8b07-34ff-b363-2d5c66baa2cc/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260610/14/231007d2-2a1e-3774-a2b4-71bbf73fd375/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260610/14/7cfdfb7e-7973-3384-8eeb-debfe7af6761/1_org_zoom.jpg"
+        ],
+        "price": 239,
+        "stock": 50,
+        "inStock": true
+      },
+      {
+        "id": 81223,
+        "sku": "81223",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260610/14/b39eb20c-3ad2-3008-9b2a-e4a42053fb1d/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260610/14/83ba8fb7-8b07-34ff-b363-2d5c66baa2cc/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260610/14/231007d2-2a1e-3774-a2b4-71bbf73fd375/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260610/14/7cfdfb7e-7973-3384-8eeb-debfe7af6761/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81229,
+    "name": "Lenjerie de pat Natur Uni Baroque, 6 piese, capucino",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Baroque, 6 piese, capucino.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-husa-capucino/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260610/14/b4c34c54-31b5-397a-b25e-8739491bacaf/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260610/14/cdfff86a-6619-391a-b383-35599a2c2413/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260610/14/36bbfae7-3769-3a71-b70f-9beb2b6bc8cd/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260610/14/7c12f743-47f4-3758-9fcc-50d4c01d43c4/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260610/14/b4c34c54-31b5-397a-b25e-8739491bacaf/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 259,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81229,
+        "sku": "81229",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260610/14/b4c34c54-31b5-397a-b25e-8739491bacaf/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260610/14/cdfff86a-6619-391a-b383-35599a2c2413/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260610/14/36bbfae7-3769-3a71-b70f-9beb2b6bc8cd/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260610/14/7c12f743-47f4-3758-9fcc-50d4c01d43c4/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 50,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81204,
+    "name": "Lenjerie de pat Natur Uni Stripe, 6 piese, mov",
+    "category": "Lenjerii de pat natur uni",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "50% bumbac, 50% poliester",
+    "description": "Lenjerie de pat Natur Uni Stripe, 6 piese, mov.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-stripe-6-piese-cu-husa-mov/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260611/10/eb8f5275-6fa0-3dba-bc6d-1c5cdb3b3c8b/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260611/10/c2d774fd-785b-3ab0-927f-98df5821f881/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260611/10/9a09c045-cb0d-38bd-8beb-cb423e83392e/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260611/10/b14fa053-9758-3db9-9358-619eb01a22d5/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260611/10/eb8f5275-6fa0-3dba-bc6d-1c5cdb3b3c8b/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "50% bumbac, 50% poliester"
+      },
+      {
+        "label": "Conținut",
+        "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
+      }
+    ],
+    "price": 259,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 81204,
+        "sku": "81204",
+        "name": "Husă universală: 160/180 × 200 × 25 cm",
+        "dimensions": "Husă universală: 160/180 × 200 × 25 cm",
+        "contents": "1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260611/10/eb8f5275-6fa0-3dba-bc6d-1c5cdb3b3c8b/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260611/10/c2d774fd-785b-3ab0-927f-98df5821f881/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260611/10/9a09c045-cb0d-38bd-8beb-cb423e83392e/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260611/10/b14fa053-9758-3db9-9358-619eb01a22d5/1_org_zoom.jpg"
+        ],
+        "price": 259,
+        "stock": 49,
+        "inStock": true
+      }
+    ]
   }
 ]
