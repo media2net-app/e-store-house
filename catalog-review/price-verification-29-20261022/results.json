@@ -7132,5 +7132,104 @@
       "100600": true
     },
     "checkedAt": "2026-10-23T22:28:57.622097+00:00"
+  },
+  {
+    "id": 162154,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-103/",
+    "costs": {
+      "162154": 111.0
+    },
+    "availability": {
+      "162154": true
+    },
+    "checkedAt": "2026-10-23T22:33:37.959500+00:00"
+  },
+  {
+    "id": 162277,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-115/",
+    "costs": {
+      "162277": 111.0
+    },
+    "availability": {
+      "162277": true
+    },
+    "checkedAt": "2026-10-23T22:33:37.959500+00:00"
+  },
+  {
+    "id": 162281,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-119/",
+    "costs": {
+      "162281": 111.0
+    },
+    "availability": {
+      "162281": true
+    },
+    "checkedAt": "2026-10-23T22:33:37.959500+00:00"
+  },
+  {
+    "id": 162276,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-114/",
+    "costs": {
+      "162276": 111.0
+    },
+    "availability": {
+      "162276": true
+    },
+    "checkedAt": "2026-10-23T22:33:37.959500+00:00"
+  },
+  {
+    "id": 79524,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d80/",
+    "costs": {
+      "79524": 171.0
+    },
+    "availability": {
+      "79524": true
+    },
+    "checkedAt": "2026-10-23T22:33:37.959500+00:00"
+  },
+  {
+    "id": 46016,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d36/",
+    "costs": {
+      "46016": 171.0
+    },
+    "availability": {
+      "46016": true
+    },
+    "checkedAt": "2026-10-23T22:33:37.959500+00:00"
+  },
+  {
+    "id": 162159,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-104/",
+    "costs": {
+      "162159": 127.0
+    },
+    "availability": {
+      "162159": true
+    },
+    "checkedAt": "2026-10-23T22:33:37.959500+00:00"
+  },
+  {
+    "id": 81211,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-cearsaf-alb/",
+    "costs": {
+      "81211": 178.0
+    },
+    "availability": {
+      "81211": true
+    },
+    "checkedAt": "2026-10-23T22:35:15.019921+00:00"
+  },
+  {
+    "id": 81222,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-husa-verde/",
+    "costs": {
+      "81222": 195.0
+    },
+    "availability": {
+      "81222": true
+    },
+    "checkedAt": "2026-10-23T22:35:15.019921+00:00"
   }
 ]

@@ -1,0 +1,68 @@
+[
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 81222,
+      "name": "Lenjerie de pat natur uni baroque 6 piese cu husă (verde)",
+      "category": "LENJERII DE PAT NATUR UNI",
+      "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Descriere produs\nȚesătură uni\nCompoziție textilă: 50% bumbac + 50% poliester\nDimensiuni husă de saltea universală: 160cm x 200cm x 25cm / 180cm x 200cm x 25cm\nDimensiuni cearșaf pilotă: 200cm x 230cm\nDimensiuni fețe pernă: 2buc – 50cm x 70cm / 2buc – 70cm x 70cm",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-husa-verde/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260610/14/2857748b-10eb-32f4-a688-e839d215b0b9/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260610/14/8cab5a59-4fd6-3fc0-b3d1-421dd44855bd/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260610/14/d7061c1a-9b4d-35f8-b49b-b8e92cf2fe99/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260610/14/174891f0-eae5-365c-9800-8566dc1f3b28/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260610/14/2857748b-10eb-32f4-a688-e839d215b0b9/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 359,
+      "sku": "81222",
+      "stock": 50
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 81211,
+      "name": "Lenjerie de pat natur uni baroque 6 piese cu cearsaf (verde)",
+      "category": "LENJERII DE PAT NATUR UNI",
+      "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Descriere produs\nȚesătură uni\nCompoziție textilă: 50% bumbac + 50% poliester\nDimensiuni cearșaf pat: 230cm x 250cm\nDimensiuni cearșaf pilotă: 200cm x 230cm\nDimensiuni fețe pernă: 2buc – 50cm x 70cm / 2buc – 70cm x 70cm",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-cearsaf-alb/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260610/14/2857748b-10eb-32f4-a688-e839d215b0b9/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260610/14/8cab5a59-4fd6-3fc0-b3d1-421dd44855bd/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260610/14/d7061c1a-9b4d-35f8-b49b-b8e92cf2fe99/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260610/20/62157e50-84fe-3db0-b226-df4a400cdf6b/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260610/14/2857748b-10eb-32f4-a688-e839d215b0b9/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 329,
+      "sku": "81211",
+      "stock": 50
+    }
+  }
+]

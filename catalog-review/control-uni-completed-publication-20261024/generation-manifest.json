@@ -1,0 +1,28 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "prompt": "Distinct side view at mattress height preserving exact supplier green color and subtle texture, four sleeping pillows, no decorative cushions. Portrait 2:3.",
+  "outputs": [
+    {
+      "index": 536,
+      "id": "81211",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/81211-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/2c68b32b0a9f1b0fca2eec42903e8f4b59805408f4101566af080dea75f11809.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/81211-finetmore-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ce51e9c4-96a9-4f2c-b6b6-22b2474171f8.png"
+    },
+    {
+      "index": 554,
+      "id": "81222",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/81222-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/2c68b32b0a9f1b0fca2eec42903e8f4b59805408f4101566af080dea75f11809.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/81222-finetmore-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-d316c0cd-b823-4659-b385-1a4863528640.png"
+    }
+  ],
+  "review": "Both actual outputs inspected against own supplier and Control images."
+}

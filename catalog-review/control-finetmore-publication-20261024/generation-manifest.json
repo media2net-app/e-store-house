@@ -1,0 +1,78 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "prompt": "Direct overhead full-bed photograph preserving own supplier pattern, color, scale, borders and reverse; four sleeping pillows. Portrait 2:3, E-STORE HOUSE footer.",
+  "outputs": [
+    {
+      "index": 95,
+      "id": "162154",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162154-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/498b901506a5433da44e6056af420e3c7f50276bce07eca5b1c3ed595cd675db.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162154-finetmore-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-09551ebb-78fb-4cb6-97b4-9b0c799c5c78.png"
+    },
+    {
+      "index": 96,
+      "id": "162277",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162277-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/801fb4fe11752ad8207e00649ca0939ca189f5f686933a7964167e5b4ab913f1.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162277-finetmore-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ead750c2-5d11-412b-9c54-639c034887bc.png"
+    },
+    {
+      "index": 97,
+      "id": "162281",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162281-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/0413b4707298b07505068381d65ef3975ae0aa34d071f15c337d296361e72cae.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162281-finetmore-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a0c69c49-e6b1-4d03-88bb-b62b700cff49.png"
+    },
+    {
+      "index": 98,
+      "id": "162276",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162276-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/1f0a5832062efddabd258db45983d7ab5f01c7b88f6311469d2395753fa99231.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162276-finetmore-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-25e77419-3eff-48c5-90b2-a0bbeaf8f7e6.png"
+    },
+    {
+      "index": 359,
+      "id": "79524",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/79524-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/71cb509d244e813471c7e2e4fcfb13ed01e4006ad326a45228815ff62bb6d58a.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/79524-finetmore-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-e4e3c7ad-f27f-4335-88f8-7fe1ed9a00d7.png"
+    },
+    {
+      "index": 362,
+      "id": "46016",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/46016-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/cd9fb837297122ffd572e97fb19d92c2ab404408c5db5ea952ab817502925150.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/46016-finetmore-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-79c1a4cf-4b78-47fd-8291-16bd5cc29188.png"
+    },
+    {
+      "index": 450,
+      "id": "162159",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162159-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/55fbe7f81f17ea9db8d466434c432de445bb7e43179a373782d8197adc41fbdb.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162159-finetmore-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-701a0763-62a4-4326-a1dc-5163fc0a2cdd.png"
+    }
+  ],
+  "review": "Seven actual outputs visually inspected. Conflicting 200x230 caption removed from four products whose source specifies 200x220."
+}

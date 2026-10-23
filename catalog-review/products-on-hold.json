@@ -16257,40 +16257,6 @@
         "complete_current_estore_review_not_confirmed"
       ],
       "product": {
-        "id": 79524,
-        "name": "Lenjerie de pat finet 3d - 6 piese (FN3D80)",
-        "category": "Lenjerii de pat finet 3D",
-        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
-        "brand": "Ralex Pucioasa",
-        "currency": "Lei",
-        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d80/",
-        "description": "DIMENSIUNI - cearșaf pat uni: 220cm x 240cm - cearșaf pilotă: 200cm x 230cm (față imprimat 3D, verso uni) - 2 fețe pernă 50cm x 70cm (față imprimat 3D, verso uni) - 2 fețe pernă 70cm x 70cm (față imprimat 3D, verso uni) COMPOZIȚIE TEXTILĂ - 70% BUMBAC + 30% POLIESTER CARACTERISTICI - Imprimată colorant reactiv - antișifonare Lenjeria de pat din finet 3D este o alegere fascinantă pentru cei care doresc să aducă o notă de realitate și profunzime în decorul dormitorului lor. Această lenjerie este realizată dintr-un material finet moale și plăcut la atingere, care oferă confort optim în timpul somnului. Ceea ce face lenjeria de pat din finet 3D specială este efectul 3D al imprimeurilor sale. Aceste imprimeuri sunt create cu tehnologie avansată pentru a da iluzia unei imagini tridimensionale pe suprafața plată a lenjeriei. Astfel, poți găsi lenjerii de pat cu imprimeuri 3D care creează iluzia unui peisaj natural, a unor flori înflorite sau a altor scene spectaculoase. Imaginile 3D sunt vibrante și realiste, aducând un plus de profunzime și viață în dormitorul tău. Această lenjerie poate fi o alegere minunată pentru cei care doresc să aducă un element de originalitate și personalitate în decorul lor, în timp ce se bucură în continuare de confortul oferit de finet. În plus, lenjeria de pat din finet 3D este ușor de întreținut, fiind rezistentă la decolorare și păstrându-și calitatea moale și plăcută la atingere chiar și după multiple spălări. Instrucțiuni de întreținere: – Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic. – Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic. – Se calcă la maxim 120° – Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare",
-        "features": [
-          {
-            "label": "Conținut și dimensiuni",
-            "value": "220 × 240 cm / 200 × 230 cm / 50 × 70 cm / 70 × 70 cm"
-          }
-        ],
-        "images": [
-          "/products/ralex-79524/01.webp",
-          "/products/ralex-79524/02.webp",
-          "/products/ralex-79524/03.webp",
-          "/products/ralex-79524/04.webp"
-        ],
-        "image": "/products/ralex-79524/01.webp",
-        "price": 309,
-        "inStock": true,
-        "sku": "79524",
-        "material": "70% bumbac, 30% poliester.",
-        "stock": 50
-      }
-    },
-    {
-      "status": "awaiting_rework_or_verification",
-      "reasonCodes": [
-        "complete_current_estore_review_not_confirmed"
-      ],
-      "product": {
         "id": 79626,
         "name": "Lenjerie de pat finet 3d - 6 piese (FN3D86)",
         "category": "Lenjerii de pat finet 3D",
@@ -17144,39 +17110,6 @@
         "composition_not_recorded"
       ],
       "product": {
-        "id": 81222,
-        "name": "Lenjerie de pat natur uni baroque 6 piese cu husă (verde)",
-        "category": "LENJERII DE PAT NATUR UNI",
-        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
-        "brand": "Ralex Pucioasa",
-        "currency": "RON",
-        "description": "Descriere produs\nȚesătură uni\nCompoziție textilă: 50% bumbac + 50% poliester\nDimensiuni husă de saltea universală: 160cm x 200cm x 25cm / 180cm x 200cm x 25cm\nDimensiuni cearșaf pilotă: 200cm x 230cm\nDimensiuni fețe pernă: 2buc – 50cm x 70cm / 2buc – 70cm x 70cm",
-        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-husa-verde/",
-        "images": [
-          "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260610/14/2857748b-10eb-32f4-a688-e839d215b0b9/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260610/14/8cab5a59-4fd6-3fc0-b3d1-421dd44855bd/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260610/14/d7061c1a-9b4d-35f8-b49b-b8e92cf2fe99/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260610/14/174891f0-eae5-365c-9800-8566dc1f3b28/1_org_zoom.jpg"
-        ],
-        "image": "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260610/14/2857748b-10eb-32f4-a688-e839d215b0b9/1_org_zoom.jpg",
-        "features": [
-          {
-            "label": "Brand",
-            "value": "Ralex Pucioasa"
-          }
-        ],
-        "inStock": true,
-        "price": 359,
-        "sku": "81222",
-        "stock": 50
-      }
-    },
-    {
-      "status": "awaiting_rework_or_verification",
-      "reasonCodes": [
-        "composition_not_recorded"
-      ],
-      "product": {
         "id": 81218,
         "name": "Lenjerie de pat natur uni baroque 6 piese cu cearsaf (capucino) — bej",
         "category": "LENJERII DE PAT NATUR UNI",
@@ -17203,39 +17136,6 @@
         "price": 329,
         "sku": "81218",
         "stock": 49
-      }
-    },
-    {
-      "status": "awaiting_rework_or_verification",
-      "reasonCodes": [
-        "composition_not_recorded"
-      ],
-      "product": {
-        "id": 81211,
-        "name": "Lenjerie de pat natur uni baroque 6 piese cu cearsaf (verde)",
-        "category": "LENJERII DE PAT NATUR UNI",
-        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
-        "brand": "Ralex Pucioasa",
-        "currency": "RON",
-        "description": "Descriere produs\nȚesătură uni\nCompoziție textilă: 50% bumbac + 50% poliester\nDimensiuni cearșaf pat: 230cm x 250cm\nDimensiuni cearșaf pilotă: 200cm x 230cm\nDimensiuni fețe pernă: 2buc – 50cm x 70cm / 2buc – 70cm x 70cm",
-        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-cearsaf-alb/",
-        "images": [
-          "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260610/14/2857748b-10eb-32f4-a688-e839d215b0b9/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260610/14/8cab5a59-4fd6-3fc0-b3d1-421dd44855bd/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260610/14/d7061c1a-9b4d-35f8-b49b-b8e92cf2fe99/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260610/20/62157e50-84fe-3db0-b226-df4a400cdf6b/1_org_zoom.jpg"
-        ],
-        "image": "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260610/14/2857748b-10eb-32f4-a688-e839d215b0b9/1_org_zoom.jpg",
-        "features": [
-          {
-            "label": "Brand",
-            "value": "Ralex Pucioasa"
-          }
-        ],
-        "inStock": true,
-        "price": 329,
-        "sku": "81211",
-        "stock": 50
       }
     },
     {
@@ -19397,39 +19297,6 @@
         "inStock": true,
         "price": 309,
         "sku": "46030",
-        "stock": 50
-      }
-    },
-    {
-      "status": "awaiting_rework_or_verification",
-      "reasonCodes": [
-        "composition_not_recorded"
-      ],
-      "product": {
-        "id": 46016,
-        "name": "Lenjerie de pat finet 3d – 6 piese (fn3d36) — multicolor",
-        "category": "LENJERII DE PAT FINET 3D",
-        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
-        "brand": "Ralex Pucioasa",
-        "currency": "RON",
-        "description": "DIMENSIUNI\n– cearșaf pat uni: 220cm x 240cm\n– cearșaf pilotă: 200cm x 230cm (față imprimat 3D, verso uni)\n– 2 fețe pernă 50cm x 70cm (față imprimat 3D, verso uni)\n– 2 fețe pernă 70cm x 70xm (față imprimat 3D, verso uni)\nCOMPOZIȚIE TEXTILĂ\n– 70% BUMBAC + 30% POLIESTER\nCARACTERISTICI\n– Imprimată colorant reactiv\n– antișifonare\nProducator\nLenjeria de pat din finet 3D este o alegere fascinantă pentru cei care doresc să aducă o notă de realitate și profunzime în decorul dormitorului lor. Această lenjerie este realizată dintr-un material finet moale și plăcut la atingere, care oferă confort optim în timpul somnului.\nCeea ce face lenjeria de pat din finet 3D specială este efectul 3D al imprimeurilor sale. Aceste imprimeuri sunt create cu tehnologie avansată pentru a da iluzia unei imagini tridimensionale pe suprafața plată a lenjeriei. Astfel, poți găsi lenjerii de pat cu imprimeuri 3D care creează iluzia unui peisaj natural, a unor flori înflorite sau a altor scene spectaculoase.\nImaginile 3D sunt vibrante și realiste, aducând un plus de profunzime și viață în dormitorul tău. Această lenjerie poate fi o alegere minunată pentru cei care doresc să aducă un element de originalitate și personalitate în decorul lor, în timp ce se bucură în continuare de confortul oferit de finet.\nÎn plus, lenjeria de pat din finet 3D este ușor de întreținut, fiind rezistentă la decolorare și păstrându-și calitatea moale și plăcută la atingere chiar și după multiple spălări.\nInstrucțiuni de întreținere:\n– Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic.\n– Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic.\n– Se calcă la maxim 120°\n– Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare",
-        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d36/",
-        "images": [
-          "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260618/17/853cd47d-fb68-3dfe-b8d6-b0ea46d459de/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260618/17/1471842b-1f68-3e18-929e-05b59d4400db/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260618/17/7b00b8e7-dfae-3410-8692-9ad34142fedb/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260618/17/83790f92-c55b-320c-b07a-9916c9840d3e/1_org_zoom.jpg"
-        ],
-        "image": "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260618/17/853cd47d-fb68-3dfe-b8d6-b0ea46d459de/1_org_zoom.jpg",
-        "features": [
-          {
-            "label": "Brand",
-            "value": "Ralex Pucioasa"
-          }
-        ],
-        "inStock": true,
-        "price": 309,
-        "sku": "46016",
         "stock": 50
       }
     },
@@ -22077,171 +21944,6 @@
         "inStock": true,
         "price": 209,
         "sku": "162362",
-        "stock": 100
-      }
-    },
-    {
-      "status": "awaiting_rework_or_verification",
-      "reasonCodes": [
-        "composition_not_recorded"
-      ],
-      "product": {
-        "id": 162154,
-        "name": "Lenjerie de pat Finet 6 piese cu husă PROMO — Albastru și gri",
-        "category": "LENJERII FINET 6 PIESE CU HUSĂ PENTRU SALTEA",
-        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea",
-        "brand": "Ralex Pucioasa",
-        "currency": "RON",
-        "description": "Compozitie textila: 70%bumbac+30%poliester\nDimensiuni:\n– husă pat universală 160 sau 180x200cm cu înălțimea de 25cm\n– cearsaf pilota 200x220cm\n– 2 fete perna 50x70cm\n– 2 fete perna 70x70cm\nTransformă dormitorul într-un spațiu elegant și confortabil cu lenjerie de pat finet – 6 piese cu husă, ideală pentru un somn odihnitor și un decor modern. Materialul moale și călduros oferă o senzație plăcută la atingere, fiind potrivit pentru utilizare zilnică, în orice sezon.\n✅ Beneficiile lenjeriei de pat din finet\n🛏️ Material finet moale și confortabil – delicat cu pielea\n❄️🔥 Oferă căldură și confort – ideală pentru nopți relaxante\n🎨 Imprimeuri deosebite – design modern și elegant\n🧺 Ușor de întreținut – se calcă rapid și își păstrează culorile\n🎁 Set complet de 6 piese – raport excelent calitate-preț\nDescriere detaliată\nAceastă lenjerie de pat din finet cu imprimeuri elegante este alegerea perfectă pentru cei care își doresc un dormitor primitor și stilat. Finetul este un material textil apreciat pentru textura sa fină, rezistența în timp și confortul termic pe care îl oferă.\nImprimeurile atent alese adaugă personalitate și rafinament, transformând patul într-un element central al decorului. Datorită varietății de modele și culori, lenjeria se potrivește atât dormitoarelor clasice, cât și celor moderne.\nEste ideală pentru uz personal sau ca idee de cadou practică și elegantă.\n🧼 Instrucțiuni de întreținere\nSe înmoaie la 40°C cu adaos de 1–2 g/l detergent sintetic\nSpălare normală sau mecanică cu 4–5 g/l detergent sintetic\nSe calcă la maxim 120°C\n❌ Evitați utilizarea sodei și a clorului\n✔️ Se recomandă spălarea înainte de prima utilizare",
-        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-103/",
-        "images": [
-          "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/11/9cf42b3e-42e5-3a07-8ef7-c639e52c9a14/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/11/0c903599-8654-3427-a8a8-d27eb9349236/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/11/9e2378ee-c039-3354-84da-678f1f3ca005/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/11/0dedde92-c129-3a3e-969a-cf1ad65406ad/1_org_zoom.jpg"
-        ],
-        "image": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/11/9cf42b3e-42e5-3a07-8ef7-c639e52c9a14/1_org_zoom.jpg",
-        "features": [
-          {
-            "label": "Brand",
-            "value": "Ralex Pucioasa"
-          }
-        ],
-        "inStock": true,
-        "price": 209,
-        "sku": "162154",
-        "stock": 100
-      }
-    },
-    {
-      "status": "awaiting_rework_or_verification",
-      "reasonCodes": [
-        "composition_not_recorded"
-      ],
-      "product": {
-        "id": 162159,
-        "name": "Lenjerie Finet 6 piese cu husă de pat pentru saltea de 160×200 și 180×200 — Turcoaz și gri",
-        "category": "LENJERII FINET 6 PIESE CU HUSĂ PENTRU SALTEA",
-        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea",
-        "brand": "Ralex Pucioasa",
-        "currency": "RON",
-        "description": "Cearșaf pilotă: 200cm x 230 cm\nFețe pernă: 2 x 50cm x 70 cm și 2 x 70cm x 70cm\nHusă de pat cu elastic pentru saltea universală de 160cm x 200cm și 180cm x 200cm\nCompoziție textilă: 70% BBC\nTransformă dormitorul într-un spațiu de relaxare cu Lenjerie Finet 6 Piese cu Husă ideală pentru paturi matrimoniale. Realizată din material plăcut la atingere, această lenjerie oferă confort sporit, durabilitate și un aspect elegant.\n✔️ Confort și calitate superioară\nLenjerie Finet 6 Piese cu Husă este recunoscută pentru textura sa moale, călduroasă și rezistentă în timp. Datorită conținutului de 70% BBC , materialul permite o bună circulație a aerului și își păstrează culorile chiar și după spălări repetate.\n✔️ Potrivire perfectă\nHusa de pat cu elastic este universală , fiind compatibilă atât cu saltele de 160×200 cm , cât și de 180×200 cm , asigurând o fixare fermă și fără cute.\n📐 Dimensiuni set lenjerie:\nCearșaf pilotă: 200 x 230 cm\nFețe de pernă:\n2 x 50 x 70 cm\n2 x 70 x 70 cm\nHusă de pat cu elastic:\ncompatibilă pentru saltele de 160 x 200 cm și 180 x 200 cm\n🧵 Compoziție material:\n70% BBC\nMaterial finet moale, rezistent și ușor de întreținut\n⭐ Avantaje:\nSet complet de 6 piese\nHusă cu elastic pentru fixare perfectă\nMaterial confortabil, ideal pentru toate anotimpurile\nPotrivit pentru utilizare zilnică\nUșor de spălat și întreținut",
-        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-104/",
-        "images": [
-          "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/11/103171b9-3558-3efa-9003-986c64d9c5a5/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/11/3b7c8ed9-cc86-311b-8b92-c9b7d6db8196/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/11/2c11b427-cbba-36b4-a716-8de20b1a24b1/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/11/eabeee9f-03b2-31ec-a773-75d763fcf317/1_org_zoom.jpg"
-        ],
-        "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/11/103171b9-3558-3efa-9003-986c64d9c5a5/1_org_zoom.jpg",
-        "features": [
-          {
-            "label": "Brand",
-            "value": "Ralex Pucioasa"
-          }
-        ],
-        "inStock": true,
-        "price": 229,
-        "sku": "162159",
-        "stock": 100
-      }
-    },
-    {
-      "status": "awaiting_rework_or_verification",
-      "reasonCodes": [
-        "composition_not_recorded"
-      ],
-      "product": {
-        "id": 162276,
-        "name": "Lenjerie de pat Finet 6 piese cu husă PROMO — Stele gri și roz",
-        "category": "LENJERII FINET 6 PIESE CU HUSĂ PENTRU SALTEA",
-        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea",
-        "brand": "Ralex Pucioasa",
-        "currency": "RON",
-        "description": "Compozitie textila: 70%bumbac+30%poliester\nDimensiuni:\n– husă pat universală 160 sau 180x200cm cu înălțimea de 25cm\n– cearsaf pilota 200x220cm\n– 2 fete perna 50x70cm\n– 2 fete perna 70x70cm\nTransformă dormitorul într-un spațiu elegant și confortabil cu lenjerie de pat finet – 6 piese cu husă, ideală pentru un somn odihnitor și un decor modern. Materialul moale și călduros oferă o senzație plăcută la atingere, fiind potrivit pentru utilizare zilnică, în orice sezon.\n✅ Beneficiile lenjeriei de pat din finet\n🛏️ Material finet moale și confortabil – delicat cu pielea\n❄️🔥 Oferă căldură și confort – ideală pentru nopți relaxante\n🎨 Imprimeuri deosebite – design modern și elegant\n🧺 Ușor de întreținut – se calcă rapid și își păstrează culorile\n🎁 Set complet de 6 piese – raport excelent calitate-preț\nDescriere detaliată\nAceastă lenjerie de pat din finet cu imprimeuri elegante este alegerea perfectă pentru cei care își doresc un dormitor primitor și stilat. Finetul este un material textil apreciat pentru textura sa fină, rezistența în timp și confortul termic pe care îl oferă.\nImprimeurile atent alese adaugă personalitate și rafinament, transformând patul într-un element central al decorului. Datorită varietății de modele și culori, lenjeria se potrivește atât dormitoarelor clasice, cât și celor moderne.\nEste ideală pentru uz personal sau ca idee de cadou practică și elegantă.\n🧼 Instrucțiuni de întreținere\nSe înmoaie la 40°C cu adaos de 1–2 g/l detergent sintetic\nSpălare normală sau mecanică cu 4–5 g/l detergent sintetic\nSe calcă la maxim 120°C\n❌ Evitați utilizarea sodei și a clorului\n✔️ Se recomandă spălarea înainte de prima utilizare",
-        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-114/",
-        "images": [
-          "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/11/b6cce5e5-31b1-3b36-80a7-9321c6f1f99f/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/11/414ec1c0-e516-3610-bdf9-1e935512dbf9/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/11/072d7d56-53df-342d-b67d-7625ecbfa51d/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/11/97123061-fcf9-3a37-a6d0-7553eae65b1f/1_org_zoom.jpg"
-        ],
-        "image": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/11/b6cce5e5-31b1-3b36-80a7-9321c6f1f99f/1_org_zoom.jpg",
-        "features": [
-          {
-            "label": "Brand",
-            "value": "Ralex Pucioasa"
-          }
-        ],
-        "inStock": true,
-        "price": 209,
-        "sku": "162276",
-        "stock": 100
-      }
-    },
-    {
-      "status": "awaiting_rework_or_verification",
-      "reasonCodes": [
-        "composition_not_recorded"
-      ],
-      "product": {
-        "id": 162277,
-        "name": "Lenjerie de pat Finet 6 piese cu husă PROMO — Cercuri negre, roșii și albe",
-        "category": "LENJERII FINET 6 PIESE CU HUSĂ PENTRU SALTEA",
-        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea",
-        "brand": "Ralex Pucioasa",
-        "currency": "RON",
-        "description": "Compozitie textila: 70%bumbac+30%poliester\nDimensiuni:\n– husă pat universală 160 sau 180x200cm cu înălțimea de 25cm\n– cearsaf pilota 200x220cm\n– 2 fete perna 50x70cm\n– 2 fete perna 70x70cm\nTransformă dormitorul într-un spațiu elegant și confortabil cu lenjerie de pat finet – 6 piese cu husă, ideală pentru un somn odihnitor și un decor modern. Materialul moale și călduros oferă o senzație plăcută la atingere, fiind potrivit pentru utilizare zilnică, în orice sezon.\n✅ Beneficiile lenjeriei de pat din finet\n🛏️ Material finet moale și confortabil – delicat cu pielea\n❄️🔥 Oferă căldură și confort – ideală pentru nopți relaxante\n🎨 Imprimeuri deosebite – design modern și elegant\n🧺 Ușor de întreținut – se calcă rapid și își păstrează culorile\n🎁 Set complet de 6 piese – raport excelent calitate-preț\nDescriere detaliată\nAceastă lenjerie de pat din finet cu imprimeuri elegante este alegerea perfectă pentru cei care își doresc un dormitor primitor și stilat. Finetul este un material textil apreciat pentru textura sa fină, rezistența în timp și confortul termic pe care îl oferă.\nImprimeurile atent alese adaugă personalitate și rafinament, transformând patul într-un element central al decorului. Datorită varietății de modele și culori, lenjeria se potrivește atât dormitoarelor clasice, cât și celor moderne.\nEste ideală pentru uz personal sau ca idee de cadou practică și elegantă.\n🧼 Instrucțiuni de întreținere\nSe înmoaie la 40°C cu adaos de 1–2 g/l detergent sintetic\nSpălare normală sau mecanică cu 4–5 g/l detergent sintetic\nSe calcă la maxim 120°C\n❌ Evitați utilizarea sodei și a clorului\n✔️ Se recomandă spălarea înainte de prima utilizare",
-        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-115/",
-        "images": [
-          "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/11/e3cee5a1-99f0-3f64-860a-b8affeabe552/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/11/7605f7c9-b115-3523-9efa-c97bc5e2045c/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/11/ab8dd953-8ce3-347f-a487-dea839d5c292/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/11/ce7e34f8-97e9-3d9d-b790-6c4e274fb488/1_org_zoom.jpg"
-        ],
-        "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/11/e3cee5a1-99f0-3f64-860a-b8affeabe552/1_org_zoom.jpg",
-        "features": [
-          {
-            "label": "Brand",
-            "value": "Ralex Pucioasa"
-          }
-        ],
-        "inStock": true,
-        "price": 209,
-        "sku": "162277",
-        "stock": 100
-      }
-    },
-    {
-      "status": "awaiting_rework_or_verification",
-      "reasonCodes": [
-        "composition_not_recorded"
-      ],
-      "product": {
-        "id": 162281,
-        "name": "Lenjerie de pat Finet 6 piese cu husă PROMO — Flori maro",
-        "category": "LENJERII FINET 6 PIESE CU HUSĂ PENTRU SALTEA",
-        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea",
-        "brand": "Ralex Pucioasa",
-        "currency": "RON",
-        "description": "Compozitie textila: 70%bumbac+30%poliester\nDimensiuni:\n– husă pat universală 160 sau 180x200cm cu înălțimea de 25cm\n– cearsaf pilota 200x220cm\n– 2 fete perna 50x70cm\n– 2 fete perna 70x70cm\nTransformă dormitorul într-un spațiu elegant și confortabil cu lenjerie de pat finet – 6 piese cu husă, ideală pentru un somn odihnitor și un decor modern. Materialul moale și călduros oferă o senzație plăcută la atingere, fiind potrivit pentru utilizare zilnică, în orice sezon.\n✅ Beneficiile lenjeriei de pat din finet\n🛏️ Material finet moale și confortabil – delicat cu pielea\n❄️🔥 Oferă căldură și confort – ideală pentru nopți relaxante\n🎨 Imprimeuri deosebite – design modern și elegant\n🧺 Ușor de întreținut – se calcă rapid și își păstrează culorile\n🎁 Set complet de 6 piese – raport excelent calitate-preț\nDescriere detaliată\nAceastă lenjerie de pat din finet cu imprimeuri elegante este alegerea perfectă pentru cei care își doresc un dormitor primitor și stilat. Finetul este un material textil apreciat pentru textura sa fină, rezistența în timp și confortul termic pe care îl oferă.\nImprimeurile atent alese adaugă personalitate și rafinament, transformând patul într-un element central al decorului. Datorită varietății de modele și culori, lenjeria se potrivește atât dormitoarelor clasice, cât și celor moderne.\nEste ideală pentru uz personal sau ca idee de cadou practică și elegantă.\n🧼 Instrucțiuni de întreținere\nSe înmoaie la 40°C cu adaos de 1–2 g/l detergent sintetic\nSpălare normală sau mecanică cu 4–5 g/l detergent sintetic\nSe calcă la maxim 120°C\n❌ Evitați utilizarea sodei și a clorului\n✔️ Se recomandă spălarea înainte de prima utilizare",
-        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-119/",
-        "images": [
-          "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/11/3c3aa386-52ce-300d-93fb-0017116dd4de/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/11/5437f158-4b18-3f5c-991a-ec359cda06ff/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/11/433f0653-fbfa-3c25-ac2a-3f2b56af9c68/1_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/11/9cbf729f-bf87-33a4-8484-a8c31eac82f7/1_org_zoom.jpg"
-        ],
-        "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/11/3c3aa386-52ce-300d-93fb-0017116dd4de/1_org_zoom.jpg",
-        "features": [
-          {
-            "label": "Brand",
-            "value": "Ralex Pucioasa"
-          }
-        ],
-        "inStock": true,
-        "price": 209,
-        "sku": "162281",
         "stock": 100
       }
     },
