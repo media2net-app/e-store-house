@@ -3252,5 +3252,71 @@
       "158319": true
     },
     "checkedAt": "2026-10-22T23:52:56.394046+00:00"
+  },
+  {
+    "id": 138602,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-ranforce-butique-estina-v1/",
+    "costs": {
+      "138602": 376.0
+    },
+    "availability": {
+      "138602": true
+    },
+    "checkedAt": "2026-10-23T00:08:24.987247+00:00"
+  },
+  {
+    "id": 138612,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-ranforce-butique-estina-v10/",
+    "costs": {
+      "138612": 376.0
+    },
+    "availability": {
+      "138612": true
+    },
+    "checkedAt": "2026-10-23T00:08:24.987247+00:00"
+  },
+  {
+    "id": 138604,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-ranforce-butique-estina-v3/",
+    "costs": {
+      "138604": 376.0
+    },
+    "availability": {
+      "138604": true
+    },
+    "checkedAt": "2026-10-23T00:08:24.987247+00:00"
+  },
+  {
+    "id": 138606,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-ranforce-butique-estina-v7/",
+    "costs": {
+      "138606": 376.0
+    },
+    "availability": {
+      "138606": true
+    },
+    "checkedAt": "2026-10-23T00:08:24.987247+00:00"
+  },
+  {
+    "id": 138608,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-ranforce-butique-estina-v8/",
+    "costs": {
+      "138608": 376.0
+    },
+    "availability": {
+      "138608": true
+    },
+    "checkedAt": "2026-10-23T00:08:24.987247+00:00"
+  },
+  {
+    "id": 138610,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-ranforce-butique-estina-v9/",
+    "costs": {
+      "138610": 376.0
+    },
+    "availability": {
+      "138610": true
+    },
+    "checkedAt": "2026-10-23T00:08:24.987247+00:00"
   }
 ]

@@ -1,0 +1,456 @@
+{
+  "status": "validated_pending_deployment",
+  "models": [
+    {
+      "product": {
+        "name": "Lenjerie de pat Clasy ESTINA V1, 100% bumbac Ranforce, 4 piese",
+        "category": "Lenjerii de pat ranforce butique",
+        "brand": "Clasy",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-ranforce-butique-estina-v1/",
+        "material": "100% bumbac Ranforce",
+        "features": [
+          {
+            "label": "Material",
+            "value": "100% bumbac Ranforce"
+          },
+          {
+            "label": "Model",
+            "value": "ESTINA V1"
+          },
+          {
+            "label": "Număr piese",
+            "value": "4"
+          },
+          {
+            "label": "Cearșaf de pat",
+            "value": "240 × 260 cm"
+          },
+          {
+            "label": "Husă de pilotă",
+            "value": "200 × 220 cm"
+          },
+          {
+            "label": "Fețe de pernă",
+            "value": "2 × 50 × 70 cm"
+          },
+          {
+            "label": "Întreținere",
+            "value": "Spălare la maximum 40°C. Spală înainte de prima utilizare. Fără înălbitori. Pentru călcare și uscare, respectă eticheta produsului."
+          }
+        ],
+        "inStock": true,
+        "id": 138602,
+        "sku": "138602",
+        "price": 489,
+        "images": [
+          "/products/estina-v1/standard-02.webp",
+          "/products/estina-reviewed-20261023/138602/side-v1.webp",
+          "/products/estina-v1/standard-03.webp",
+          "/products/estina-v1/standard-04.webp"
+        ],
+        "image": "/products/estina-v1/standard-02.webp",
+        "description": "Set de lenjerie de pat Clasy ESTINA V1, din 100% bumbac Ranforce, pentru pat dublu.\n• 1 cearșaf de pat 240 × 260 cm.\n• 1 husă de pilotă 200 × 220 cm.\n• 2 fețe de pernă 50 × 70 cm.\nSpălare la maximum 40°C. Spală înainte de prima utilizare. Fără înălbitori. Pentru călcare și uscare, respectă eticheta produsului.\nMobilierul și accesoriile de decor nu sunt incluse.",
+        "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique"
+      },
+      "cost": 376.0,
+      "checkedAt": "2026-10-23T00:08:24.987247+00:00",
+      "sourceSha256": "ff327d64c8083a44b357ffa3d419d0519642c32e58a5947770b0e4254b6e7812",
+      "generatedOriginal": "/Users/mihaipopescu/.codex/generated_images/01a165c4-207d-7dd2-9b23-b727485f454e/exec-3b467c44-9c37-42d2-9ef4-8e07133b95d4.png",
+      "media": [
+        {
+          "url": "/products/estina-v1/standard-02.webp",
+          "sha256": "9cf00210b1a47a36a55a9cafe5c1c18e1e39fb4f4f23a32263bb5231824a49c3"
+        },
+        {
+          "url": "/products/estina-reviewed-20261023/138602/side-v1.webp",
+          "sha256": "eeea7250801acbc493c53f6a70b6d2f98b3d48568584085e14051068eff25461"
+        },
+        {
+          "url": "/products/estina-v1/standard-03.webp",
+          "sha256": "463f636b004e8781be821c15dd203e7fd609beacf5f97ce1cd941a567a38869d"
+        },
+        {
+          "url": "/products/estina-v1/standard-04.webp",
+          "sha256": "a3b565ebc44cab4e20e5a763d3877e96f8e9fa7b2eb8bceb6d1f983f3f496ef0"
+        }
+      ]
+    },
+    {
+      "product": {
+        "name": "Lenjerie de pat Clasy ESTINA V10, 100% bumbac Ranforce, 4 piese",
+        "category": "Lenjerii de pat ranforce butique",
+        "brand": "Clasy",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-ranforce-butique-estina-v10/",
+        "material": "100% bumbac Ranforce",
+        "features": [
+          {
+            "label": "Material",
+            "value": "100% bumbac Ranforce"
+          },
+          {
+            "label": "Model",
+            "value": "ESTINA V10"
+          },
+          {
+            "label": "Număr piese",
+            "value": "4"
+          },
+          {
+            "label": "Cearșaf de pat",
+            "value": "240 × 260 cm"
+          },
+          {
+            "label": "Husă de pilotă",
+            "value": "200 × 220 cm"
+          },
+          {
+            "label": "Fețe de pernă",
+            "value": "2 × 50 × 70 cm"
+          },
+          {
+            "label": "Întreținere",
+            "value": "Spălare la maximum 40°C. Spală înainte de prima utilizare. Fără înălbitori. Pentru călcare și uscare, respectă eticheta produsului."
+          }
+        ],
+        "inStock": true,
+        "id": 138612,
+        "sku": "138612",
+        "price": 489,
+        "images": [
+          "/products/estina-v10/standard-02.webp",
+          "/products/estina-reviewed-20261023/138612/side-v1.webp",
+          "/products/estina-v10/standard-03.webp",
+          "/products/estina-v10/standard-04.webp"
+        ],
+        "image": "/products/estina-v10/standard-02.webp",
+        "description": "Set de lenjerie de pat Clasy ESTINA V10, din 100% bumbac Ranforce, pentru pat dublu.\n• 1 cearșaf de pat 240 × 260 cm.\n• 1 husă de pilotă 200 × 220 cm.\n• 2 fețe de pernă 50 × 70 cm.\nSpălare la maximum 40°C. Spală înainte de prima utilizare. Fără înălbitori. Pentru călcare și uscare, respectă eticheta produsului.\nMobilierul și accesoriile de decor nu sunt incluse.",
+        "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique"
+      },
+      "cost": 376.0,
+      "checkedAt": "2026-10-23T00:08:24.987247+00:00",
+      "sourceSha256": "2701a6a5d879970da59621e97348c5ae75b01e0519db1b23d524ba9e78a56849",
+      "generatedOriginal": "/Users/mihaipopescu/.codex/generated_images/01a165c4-207d-7dd2-9b23-b727485f454e/exec-81028797-809c-4dde-b55b-b0d1a835f91c.png",
+      "media": [
+        {
+          "url": "/products/estina-v10/standard-02.webp",
+          "sha256": "e7c1b0f6a91abc0d31e51ff0a1c9d72d8e9cf2697438e8f0bc95915305b7c610"
+        },
+        {
+          "url": "/products/estina-reviewed-20261023/138612/side-v1.webp",
+          "sha256": "2b3ca1c6e0292bc73d06ca0355ffa77f6d52c9386e3b8a60944056b015d950de"
+        },
+        {
+          "url": "/products/estina-v10/standard-03.webp",
+          "sha256": "236b442e370d05ca7133048711e050f023cc13ca8ab8ab579aa107556a225c9f"
+        },
+        {
+          "url": "/products/estina-v10/standard-04.webp",
+          "sha256": "88c3f584e1894f330b57573115b68c0f6e95c887ab43a38e9967bc2ffa21c204"
+        }
+      ]
+    },
+    {
+      "product": {
+        "name": "Lenjerie de pat Clasy ESTINA V3, 100% bumbac Ranforce, 4 piese",
+        "category": "Lenjerii de pat ranforce butique",
+        "brand": "Clasy",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-ranforce-butique-estina-v3/",
+        "material": "100% bumbac Ranforce",
+        "features": [
+          {
+            "label": "Material",
+            "value": "100% bumbac Ranforce"
+          },
+          {
+            "label": "Model",
+            "value": "ESTINA V3"
+          },
+          {
+            "label": "Număr piese",
+            "value": "4"
+          },
+          {
+            "label": "Cearșaf de pat",
+            "value": "240 × 260 cm"
+          },
+          {
+            "label": "Husă de pilotă",
+            "value": "200 × 220 cm"
+          },
+          {
+            "label": "Fețe de pernă",
+            "value": "2 × 50 × 70 cm"
+          },
+          {
+            "label": "Întreținere",
+            "value": "Spălare la maximum 40°C. Spală înainte de prima utilizare. Fără înălbitori. Pentru călcare și uscare, respectă eticheta produsului."
+          }
+        ],
+        "inStock": true,
+        "id": 138604,
+        "sku": "138604",
+        "price": 489,
+        "images": [
+          "/products/estina-v3/standard-02.webp",
+          "/products/estina-reviewed-20261023/138604/side-v1.webp",
+          "/products/estina-v3/standard-03.webp",
+          "/products/estina-v3/standard-04.webp"
+        ],
+        "image": "/products/estina-v3/standard-02.webp",
+        "description": "Set de lenjerie de pat Clasy ESTINA V3, din 100% bumbac Ranforce, pentru pat dublu.\n• 1 cearșaf de pat 240 × 260 cm.\n• 1 husă de pilotă 200 × 220 cm.\n• 2 fețe de pernă 50 × 70 cm.\nSpălare la maximum 40°C. Spală înainte de prima utilizare. Fără înălbitori. Pentru călcare și uscare, respectă eticheta produsului.\nMobilierul și accesoriile de decor nu sunt incluse.",
+        "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique"
+      },
+      "cost": 376.0,
+      "checkedAt": "2026-10-23T00:08:24.987247+00:00",
+      "sourceSha256": "ef4dfa0a0613a175ce634de95984b5b2fa1347e3d5fee47dd245078794c11891",
+      "generatedOriginal": "/Users/mihaipopescu/.codex/generated_images/01a165c4-207d-7dd2-9b23-b727485f454e/exec-dc93a48e-5838-4c06-9f95-a7d0532049b0.png",
+      "media": [
+        {
+          "url": "/products/estina-v3/standard-02.webp",
+          "sha256": "bb1880c3b1778437cdda30e569709fe210e740bc968cb306703c16667b8360d1"
+        },
+        {
+          "url": "/products/estina-reviewed-20261023/138604/side-v1.webp",
+          "sha256": "3dd24be4e1e02ef7ed109ebba79b6cddcc7b42b66b9bfa8006e12d41f05a765b"
+        },
+        {
+          "url": "/products/estina-v3/standard-03.webp",
+          "sha256": "33e2cd98bf6b3ba7eae333e3c20ef9e156b16077380fc59b5cb1bb004aa56296"
+        },
+        {
+          "url": "/products/estina-v3/standard-04.webp",
+          "sha256": "69053ee8146bfcfe34119bdd6382bdd3bc6955d1becf72645ea445eb555cbad3"
+        }
+      ]
+    },
+    {
+      "product": {
+        "name": "Lenjerie de pat Clasy ESTINA V7, 100% bumbac Ranforce, 4 piese",
+        "category": "Lenjerii de pat ranforce butique",
+        "brand": "Clasy",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-ranforce-butique-estina-v7/",
+        "material": "100% bumbac Ranforce",
+        "features": [
+          {
+            "label": "Material",
+            "value": "100% bumbac Ranforce"
+          },
+          {
+            "label": "Model",
+            "value": "ESTINA V7"
+          },
+          {
+            "label": "Număr piese",
+            "value": "4"
+          },
+          {
+            "label": "Cearșaf de pat",
+            "value": "240 × 260 cm"
+          },
+          {
+            "label": "Husă de pilotă",
+            "value": "200 × 220 cm"
+          },
+          {
+            "label": "Fețe de pernă",
+            "value": "2 × 50 × 70 cm"
+          },
+          {
+            "label": "Întreținere",
+            "value": "Spălare la maximum 40°C. Spală înainte de prima utilizare. Fără înălbitori. Pentru călcare și uscare, respectă eticheta produsului."
+          }
+        ],
+        "inStock": true,
+        "id": 138606,
+        "sku": "138606",
+        "price": 489,
+        "images": [
+          "/products/estina-v7/standard-02.webp",
+          "/products/estina-reviewed-20261023/138606/side-v1.webp",
+          "/products/estina-v7/standard-03.webp",
+          "/products/estina-v7/standard-04.webp"
+        ],
+        "image": "/products/estina-v7/standard-02.webp",
+        "description": "Set de lenjerie de pat Clasy ESTINA V7, din 100% bumbac Ranforce, pentru pat dublu.\n• 1 cearșaf de pat 240 × 260 cm.\n• 1 husă de pilotă 200 × 220 cm.\n• 2 fețe de pernă 50 × 70 cm.\nSpălare la maximum 40°C. Spală înainte de prima utilizare. Fără înălbitori. Pentru călcare și uscare, respectă eticheta produsului.\nMobilierul și accesoriile de decor nu sunt incluse.",
+        "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique"
+      },
+      "cost": 376.0,
+      "checkedAt": "2026-10-23T00:08:24.987247+00:00",
+      "sourceSha256": "1ca543174eead82b7c97b4f7185ead1917aacdb837017b4e3ecfd9d1230d8a90",
+      "generatedOriginal": "/Users/mihaipopescu/.codex/generated_images/01a165c4-207d-7dd2-9b23-b727485f454e/exec-443cce97-d56e-4c31-89c0-dd0ce92c257e.png",
+      "media": [
+        {
+          "url": "/products/estina-v7/standard-02.webp",
+          "sha256": "19e9f6d275e57a1ffcc122698531bc54821ebef592632a0370ae12ae28debe57"
+        },
+        {
+          "url": "/products/estina-reviewed-20261023/138606/side-v1.webp",
+          "sha256": "abb909de4b7cdcaccb6c089d52fb247e5463643daa825534747b0fe4668ed33f"
+        },
+        {
+          "url": "/products/estina-v7/standard-03.webp",
+          "sha256": "92e9706903d36c03d90ee0b0187788240a5deb29a36d12d81f2d18eff0cde645"
+        },
+        {
+          "url": "/products/estina-v7/standard-04.webp",
+          "sha256": "a23759119ba29df962e38e4aebecb7319b709bc043e7d91f57e9d8531fde8c02"
+        }
+      ]
+    },
+    {
+      "product": {
+        "name": "Lenjerie de pat Clasy ESTINA V8, 100% bumbac Ranforce, 4 piese",
+        "category": "Lenjerii de pat ranforce butique",
+        "brand": "Clasy",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-ranforce-butique-estina-v8/",
+        "material": "100% bumbac Ranforce",
+        "features": [
+          {
+            "label": "Material",
+            "value": "100% bumbac Ranforce"
+          },
+          {
+            "label": "Model",
+            "value": "ESTINA V8"
+          },
+          {
+            "label": "Număr piese",
+            "value": "4"
+          },
+          {
+            "label": "Cearșaf de pat",
+            "value": "240 × 260 cm"
+          },
+          {
+            "label": "Husă de pilotă",
+            "value": "200 × 220 cm"
+          },
+          {
+            "label": "Fețe de pernă",
+            "value": "2 × 50 × 70 cm"
+          },
+          {
+            "label": "Întreținere",
+            "value": "Spălare la maximum 40°C. Spală înainte de prima utilizare. Fără înălbitori. Pentru călcare și uscare, respectă eticheta produsului."
+          }
+        ],
+        "inStock": true,
+        "id": 138608,
+        "sku": "138608",
+        "price": 489,
+        "images": [
+          "/products/estina-v8/standard-02.webp",
+          "/products/estina-reviewed-20261023/138608/side-v1.webp",
+          "/products/estina-v8/standard-03.webp",
+          "/products/estina-v8/standard-04.webp"
+        ],
+        "image": "/products/estina-v8/standard-02.webp",
+        "description": "Set de lenjerie de pat Clasy ESTINA V8, din 100% bumbac Ranforce, pentru pat dublu.\n• 1 cearșaf de pat 240 × 260 cm.\n• 1 husă de pilotă 200 × 220 cm.\n• 2 fețe de pernă 50 × 70 cm.\nSpălare la maximum 40°C. Spală înainte de prima utilizare. Fără înălbitori. Pentru călcare și uscare, respectă eticheta produsului.\nMobilierul și accesoriile de decor nu sunt incluse.",
+        "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique"
+      },
+      "cost": 376.0,
+      "checkedAt": "2026-10-23T00:08:24.987247+00:00",
+      "sourceSha256": "03bf27f461b8bbbf8131e1c617761ace11cdc1cc08a0b12189da20beb4c01a24",
+      "generatedOriginal": "/Users/mihaipopescu/.codex/generated_images/01a165c4-207d-7dd2-9b23-b727485f454e/exec-46e409c8-2708-42bd-a831-519230cbf262.png",
+      "media": [
+        {
+          "url": "/products/estina-v8/standard-02.webp",
+          "sha256": "9adf1190b883b9fa8e6d85481d702e787d9259cf7cfd8014e23aaaf79b0d350f"
+        },
+        {
+          "url": "/products/estina-reviewed-20261023/138608/side-v1.webp",
+          "sha256": "dbd054f1cd139f193c2e47ee0770ca3fb59978057548c2a9c029335b188a09f6"
+        },
+        {
+          "url": "/products/estina-v8/standard-03.webp",
+          "sha256": "3a9a956617045b5d04ddd937b1eaf1e9b9741aa3308c21f715ce142683e64848"
+        },
+        {
+          "url": "/products/estina-v8/standard-04.webp",
+          "sha256": "f88d735d6bae58f381d5839054071895cfb40513f1672850ab0246f81fc11c6b"
+        }
+      ]
+    },
+    {
+      "product": {
+        "name": "Lenjerie de pat Clasy ESTINA V9, 100% bumbac Ranforce, 4 piese",
+        "category": "Lenjerii de pat ranforce butique",
+        "brand": "Clasy",
+        "currency": "Lei",
+        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-ranforce-butique-estina-v9/",
+        "material": "100% bumbac Ranforce",
+        "features": [
+          {
+            "label": "Material",
+            "value": "100% bumbac Ranforce"
+          },
+          {
+            "label": "Model",
+            "value": "ESTINA V9"
+          },
+          {
+            "label": "Număr piese",
+            "value": "4"
+          },
+          {
+            "label": "Cearșaf de pat",
+            "value": "240 × 260 cm"
+          },
+          {
+            "label": "Husă de pilotă",
+            "value": "200 × 220 cm"
+          },
+          {
+            "label": "Fețe de pernă",
+            "value": "2 × 50 × 70 cm"
+          },
+          {
+            "label": "Întreținere",
+            "value": "Spălare la maximum 40°C. Spală înainte de prima utilizare. Fără înălbitori. Pentru călcare și uscare, respectă eticheta produsului."
+          }
+        ],
+        "inStock": true,
+        "id": 138610,
+        "sku": "138610",
+        "price": 489,
+        "images": [
+          "/products/estina-v9/standard-02.webp",
+          "/products/estina-reviewed-20261023/138610/side-v1.webp",
+          "/products/estina-v9/standard-03.webp",
+          "/products/estina-v9/standard-04.webp"
+        ],
+        "image": "/products/estina-v9/standard-02.webp",
+        "description": "Set de lenjerie de pat Clasy ESTINA V9, din 100% bumbac Ranforce, pentru pat dublu.\n• 1 cearșaf de pat 240 × 260 cm.\n• 1 husă de pilotă 200 × 220 cm.\n• 2 fețe de pernă 50 × 70 cm.\nSpălare la maximum 40°C. Spală înainte de prima utilizare. Fără înălbitori. Pentru călcare și uscare, respectă eticheta produsului.\nMobilierul și accesoriile de decor nu sunt incluse.",
+        "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique"
+      },
+      "cost": 376.0,
+      "checkedAt": "2026-10-23T00:08:24.987247+00:00",
+      "sourceSha256": "0b46006ba293ed5abc0d7de5d888708524e1acc17ee1bcf8a4224745977fa2ef",
+      "generatedOriginal": "/Users/mihaipopescu/.codex/generated_images/01a165c4-207d-7dd2-9b23-b727485f454e/exec-9fcfa6d4-9f91-4e4b-a03e-ef9cc4a279fc.png",
+      "media": [
+        {
+          "url": "/products/estina-v9/standard-02.webp",
+          "sha256": "f7097621ba88b2437a86eb39dcace17efe34ea0015b55df8bb28210570343cdd"
+        },
+        {
+          "url": "/products/estina-reviewed-20261023/138610/side-v1.webp",
+          "sha256": "5b7eb2db8c1367e1e4a678eaa4708111d917276833c7a326da21f3050a680ddd"
+        },
+        {
+          "url": "/products/estina-v9/standard-03.webp",
+          "sha256": "efd12747aa3c115f7ceaef4cc3de88c763d894bf93e3fcfeb9acd769dce53fa5"
+        },
+        {
+          "url": "/products/estina-v9/standard-04.webp",
+          "sha256": "bf8e86d474579704463145812cd14f005c2afcf22782bf274089063356181c15"
+        }
+      ]
+    }
+  ],
+  "reviewNotes": "Individual supplier sources and final front, lateral, detail and overhead images visually compared. Correct colors, raised textile texture and two pillowcases retained. Repeated hero with unsupported mattress-fit wording excluded. Conflicting ironing temperature omitted; care refers to label."
+}

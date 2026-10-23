@@ -2,15 +2,15 @@
   "summary": {
     "controlExportAt": "2026-10-22T23:42:53.738Z",
     "controlArticlesIncludingHeld": 1337,
-    "coveredControlArticles": 417,
-    "pendingControlArticles": 920,
-    "publicModels": 257,
-    "publicConfigurations": 421,
-    "newModelsVerifiedLive": 70,
-    "publicModelsAfterPendingDeployment": 266,
-    "publicConfigurationsAfterPendingDeployment": 430,
-    "coveredControlArticlesAfterPendingDeployment": 426,
-    "pendingControlArticlesAfterPendingDeployment": 911
+    "coveredControlArticles": 426,
+    "pendingControlArticles": 911,
+    "publicModels": 266,
+    "publicConfigurations": 430,
+    "newModelsVerifiedLive": 79,
+    "publicModelsAfterPendingDeployment": 272,
+    "publicConfigurationsAfterPendingDeployment": 436,
+    "coveredControlArticlesAfterPendingDeployment": 432,
+    "pendingControlArticlesAfterPendingDeployment": 905
   },
   "articles": [
     {
@@ -18,7 +18,7 @@
       "sku": "109165",
       "title": "Lenjerie Ranforce Cotton Pro Satin Story, 6 piese, husă cu elastic",
       "supplierModelId": 109159,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -26,7 +26,7 @@
       "sku": "109164",
       "title": "Lenjerie Ranforce Cotton Pro Satin Story, 6 piese",
       "supplierModelId": 109159,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -34,7 +34,7 @@
       "sku": "109163",
       "title": "Lenjerie Ranforce Cotton Pro Satin Story, king size, husă cu elastic",
       "supplierModelId": 109159,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -42,7 +42,7 @@
       "sku": "109162",
       "title": "Lenjerie Ranforce Cotton Pro Satin Story, king size",
       "supplierModelId": 109159,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -50,7 +50,7 @@
       "sku": "109161",
       "title": "Lenjerie Ranforce Cotton Pro Satin Story, o persoană, husă cu elastic",
       "supplierModelId": 109159,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -58,7 +58,7 @@
       "sku": "109160",
       "title": "Lenjerie Ranforce Cotton Pro Satin Story, o persoană",
       "supplierModelId": 109159,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -66,7 +66,7 @@
       "sku": "109187",
       "title": "Lenjerie Ranforce Cotton Pro Shadow Play, 6 piese, husă cu elastic",
       "supplierModelId": 109181,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -74,7 +74,7 @@
       "sku": "109186",
       "title": "Lenjerie Ranforce Cotton Pro Shadow Play, 6 piese",
       "supplierModelId": 109181,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -82,7 +82,7 @@
       "sku": "109185",
       "title": "Lenjerie Ranforce Cotton Pro Shadow Play, king size, husă cu elastic",
       "supplierModelId": 109181,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -90,7 +90,7 @@
       "sku": "109184",
       "title": "Lenjerie Ranforce Cotton Pro Shadow Play, king size",
       "supplierModelId": 109181,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -98,7 +98,7 @@
       "sku": "109183",
       "title": "Lenjerie Ranforce Cotton Pro Shadow Play, o persoană, husă cu elastic",
       "supplierModelId": 109181,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -106,7 +106,7 @@
       "sku": "109182",
       "title": "Lenjerie Ranforce Cotton Pro Shadow Play, o persoană",
       "supplierModelId": 109181,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -114,7 +114,7 @@
       "sku": "109199",
       "title": "Lenjerie Ranforce Cotton Pro Silk Whisper, 6 piese, husă cu elastic",
       "supplierModelId": 109193,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -122,7 +122,7 @@
       "sku": "109198",
       "title": "Lenjerie Ranforce Cotton Pro Silk Whisper, 6 piese",
       "supplierModelId": 109193,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -130,7 +130,7 @@
       "sku": "109197",
       "title": "Lenjerie Ranforce Cotton Pro Silk Whisper, king size, husă cu elastic",
       "supplierModelId": 109193,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -138,7 +138,7 @@
       "sku": "109196",
       "title": "Lenjerie Ranforce Cotton Pro Silk Whisper, king size",
       "supplierModelId": 109193,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -146,7 +146,7 @@
       "sku": "109195",
       "title": "Lenjerie Ranforce Cotton Pro Silk Whisper, o persoană, husă cu elastic",
       "supplierModelId": 109193,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -154,7 +154,7 @@
       "sku": "109194",
       "title": "Lenjerie Ranforce Cotton Pro Silk Whisper, o persoană",
       "supplierModelId": 109193,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -162,7 +162,7 @@
       "sku": "109209",
       "title": "Lenjerie Ranforce Cotton Pro Statemint, 6 piese, husă cu elastic",
       "supplierModelId": 109203,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -170,7 +170,7 @@
       "sku": "109208",
       "title": "Lenjerie Ranforce Cotton Pro Statemint, 6 piese",
       "supplierModelId": 109203,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -178,7 +178,7 @@
       "sku": "109207",
       "title": "Lenjerie Ranforce Cotton Pro Statemint, king size, husă cu elastic",
       "supplierModelId": 109203,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -186,7 +186,7 @@
       "sku": "109206",
       "title": "Lenjerie Ranforce Cotton Pro Statemint, king size",
       "supplierModelId": 109203,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -194,7 +194,7 @@
       "sku": "109205",
       "title": "Lenjerie Ranforce Cotton Pro Statemint, o persoană, husă cu elastic",
       "supplierModelId": 109203,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -202,7 +202,7 @@
       "sku": "109204",
       "title": "Lenjerie Ranforce Cotton Pro Statemint, o persoană",
       "supplierModelId": 109203,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -210,7 +210,7 @@
       "sku": "109230",
       "title": "Lenjerie Ranforce Cotton Pro Urban Cozy, 6 piese, husă cu elastic",
       "supplierModelId": 109224,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -218,7 +218,7 @@
       "sku": "109229",
       "title": "Lenjerie Ranforce Cotton Pro Urban Cozy, 6 piese",
       "supplierModelId": 109224,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -226,7 +226,7 @@
       "sku": "109228",
       "title": "Lenjerie Ranforce Cotton Pro Urban Cozy, king size, husă cu elastic",
       "supplierModelId": 109224,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -234,7 +234,7 @@
       "sku": "109227",
       "title": "Lenjerie Ranforce Cotton Pro Urban Cozy, king size",
       "supplierModelId": 109224,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -242,7 +242,7 @@
       "sku": "109226",
       "title": "Lenjerie Ranforce Cotton Pro Urban Cozy, o persoană, husă cu elastic",
       "supplierModelId": 109224,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -250,7 +250,7 @@
       "sku": "109225",
       "title": "Lenjerie Ranforce Cotton Pro Urban Cozy, o persoană",
       "supplierModelId": 109224,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -258,7 +258,7 @@
       "sku": "109241",
       "title": "Lenjerie Ranforce Cotton Pro Velvet Muse, 6 piese, husă cu elastic",
       "supplierModelId": 109235,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -266,7 +266,7 @@
       "sku": "109240",
       "title": "Lenjerie Ranforce Cotton Pro Velvet Muse, 6 piese",
       "supplierModelId": 109235,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -274,7 +274,7 @@
       "sku": "109239",
       "title": "Lenjerie Ranforce Cotton Pro Velvet Muse, king size, husă cu elastic",
       "supplierModelId": 109235,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -282,7 +282,7 @@
       "sku": "109238",
       "title": "Lenjerie Ranforce Cotton Pro Velvet Muse, king size",
       "supplierModelId": 109235,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -290,7 +290,7 @@
       "sku": "109237",
       "title": "Lenjerie Ranforce Cotton Pro Velvet Muse, o persoană, husă cu elastic",
       "supplierModelId": 109235,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -298,7 +298,7 @@
       "sku": "109236",
       "title": "Lenjerie Ranforce Cotton Pro Velvet Muse, o persoană",
       "supplierModelId": 109235,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -306,7 +306,7 @@
       "sku": "109253",
       "title": "Lenjerie Ranforce Cotton Pro Vogue Vault, 6 piese, husă cu elastic",
       "supplierModelId": 109247,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -314,7 +314,7 @@
       "sku": "109252",
       "title": "Lenjerie Ranforce Cotton Pro Vogue Vault, 6 piese",
       "supplierModelId": 109247,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -322,7 +322,7 @@
       "sku": "109251",
       "title": "Lenjerie Ranforce Cotton Pro Vogue Vault, king size, husă cu elastic",
       "supplierModelId": 109247,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -330,7 +330,7 @@
       "sku": "109250",
       "title": "Lenjerie Ranforce Cotton Pro Vogue Vault, king size",
       "supplierModelId": 109247,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -338,7 +338,7 @@
       "sku": "109249",
       "title": "Lenjerie Ranforce Cotton Pro Vogue Vault, o persoană, husă cu elastic",
       "supplierModelId": 109247,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -346,7 +346,7 @@
       "sku": "109248",
       "title": "Lenjerie Ranforce Cotton Pro Vogue Vault, o persoană",
       "supplierModelId": 109247,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -354,7 +354,7 @@
       "sku": "109538",
       "title": "Lenjerie Ranforce Cotton Pro L’amour Maison, 6 piese, husă cu elastic",
       "supplierModelId": 109532,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -362,7 +362,7 @@
       "sku": "109537",
       "title": "Lenjerie Ranforce Cotton Pro L’amour Maison, 6 piese",
       "supplierModelId": 109532,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -370,7 +370,7 @@
       "sku": "109536",
       "title": "Lenjerie Ranforce Cotton Pro L’amour Maison, king size, husă cu elastic",
       "supplierModelId": 109532,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -378,7 +378,7 @@
       "sku": "109535",
       "title": "Lenjerie Ranforce Cotton Pro L’amour Maison, king size",
       "supplierModelId": 109532,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -386,7 +386,7 @@
       "sku": "109534",
       "title": "Lenjerie Ranforce Cotton Pro L’amour Maison, o persoană, husă cu elastic",
       "supplierModelId": 109532,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -394,7 +394,7 @@
       "sku": "109533",
       "title": "Lenjerie Ranforce Cotton Pro L’amour Maison, o persoană",
       "supplierModelId": 109532,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -402,7 +402,7 @@
       "sku": "158675",
       "title": "Lenjerie Ranforce Cotton Pro Lumière, 6 piese, husă cu elastic",
       "supplierModelId": 158669,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -410,7 +410,7 @@
       "sku": "158674",
       "title": "Lenjerie Ranforce Cotton Pro Lumière, 6 piese",
       "supplierModelId": 158669,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -418,7 +418,7 @@
       "sku": "158673",
       "title": "Lenjerie Ranforce Cotton Pro Lumière, king size, husă cu elastic",
       "supplierModelId": 158669,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -426,7 +426,7 @@
       "sku": "158672",
       "title": "Lenjerie Ranforce Cotton Pro Lumière, king size",
       "supplierModelId": 158669,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -434,7 +434,7 @@
       "sku": "158671",
       "title": "Lenjerie Ranforce Cotton Pro Lumière, o persoană, husă cu elastic",
       "supplierModelId": 158669,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -442,7 +442,7 @@
       "sku": "158670",
       "title": "Lenjerie Ranforce Cotton Pro Lumière, o persoană",
       "supplierModelId": 158669,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -450,7 +450,7 @@
       "sku": "158699",
       "title": "Lenjerie Ranforce Cotton Pro Armonique, 6 piese, husă cu elastic",
       "supplierModelId": 158693,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -458,7 +458,7 @@
       "sku": "158698",
       "title": "Lenjerie Ranforce Cotton Pro Armonique, 6 piese",
       "supplierModelId": 158693,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -466,7 +466,7 @@
       "sku": "158697",
       "title": "Lenjerie Ranforce Cotton Pro Armonique, king size, husă cu elastic",
       "supplierModelId": 158693,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -474,7 +474,7 @@
       "sku": "158696",
       "title": "Lenjerie Ranforce Cotton Pro Armonique, king size",
       "supplierModelId": 158693,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -482,7 +482,7 @@
       "sku": "158695",
       "title": "Lenjerie Ranforce Cotton Pro Armonique, o persoană, husă cu elastic",
       "supplierModelId": 158693,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -490,7 +490,7 @@
       "sku": "158694",
       "title": "Lenjerie Ranforce Cotton Pro Armonique, o persoană",
       "supplierModelId": 158693,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -498,7 +498,7 @@
       "sku": "161983",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Norning with Red, 6 piese, husă cu elastic",
       "supplierModelId": 161977,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -506,7 +506,7 @@
       "sku": "161982",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Norning with Red, 6 piese",
       "supplierModelId": 161977,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -514,7 +514,7 @@
       "sku": "161981",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Norning with Red, king size, husă cu elastic",
       "supplierModelId": 161977,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -522,7 +522,7 @@
       "sku": "161980",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Norning with Red, king size",
       "supplierModelId": 161977,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -530,7 +530,7 @@
       "sku": "161979",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Norning with Red, o persoană, husă cu elastic",
       "supplierModelId": 161977,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -538,7 +538,7 @@
       "sku": "161978",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Norning with Red, o persoană",
       "supplierModelId": 161977,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -546,7 +546,7 @@
       "sku": "161990",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Dog Print, 6 piese, husă cu elastic",
       "supplierModelId": 161984,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -554,7 +554,7 @@
       "sku": "161989",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Dog Print, 6 piese",
       "supplierModelId": 161984,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -562,7 +562,7 @@
       "sku": "161988",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Dog Print, king size, husă cu elastic",
       "supplierModelId": 161984,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -570,7 +570,7 @@
       "sku": "161987",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Dog Print, king size",
       "supplierModelId": 161984,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -578,7 +578,7 @@
       "sku": "161986",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Dog Print, o persoană, husă cu elastic",
       "supplierModelId": 161984,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -586,7 +586,7 @@
       "sku": "161985",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Dog Print, o persoană",
       "supplierModelId": 161984,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -594,7 +594,7 @@
       "sku": "161997",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Teddy Bear, 6 piese, husă cu elastic",
       "supplierModelId": 161991,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -602,7 +602,7 @@
       "sku": "161996",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Teddy Bear, 6 piese",
       "supplierModelId": 161991,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -610,7 +610,7 @@
       "sku": "161995",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Teddy Bear, king size, husă cu elastic",
       "supplierModelId": 161991,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -618,7 +618,7 @@
       "sku": "161994",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Teddy Bear, king size",
       "supplierModelId": 161991,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -626,7 +626,7 @@
       "sku": "161993",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Teddy Bear, o persoană, husă cu elastic",
       "supplierModelId": 161991,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -634,7 +634,7 @@
       "sku": "161992",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Teddy Bear, o persoană",
       "supplierModelId": 161991,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -642,7 +642,7 @@
       "sku": "162004",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Fern-Patterned, 6 piese, husă cu elastic",
       "supplierModelId": 161998,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -650,7 +650,7 @@
       "sku": "162003",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Fern-Patterned, 6 piese",
       "supplierModelId": 161998,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -658,7 +658,7 @@
       "sku": "162002",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Fern-Patterned, king size, husă cu elastic",
       "supplierModelId": 161998,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -666,7 +666,7 @@
       "sku": "162001",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Fern-Patterned, king size",
       "supplierModelId": 161998,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -674,7 +674,7 @@
       "sku": "162000",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Fern-Patterned, o persoană, husă cu elastic",
       "supplierModelId": 161998,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -682,7 +682,7 @@
       "sku": "161999",
       "title": "Lenjerie Ranforce Cotton Pro Cozy Fern-Patterned, o persoană",
       "supplierModelId": 161998,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -690,7 +690,7 @@
       "sku": "102441",
       "title": "Lenjerie creponată Crep59, king size",
       "supplierModelId": 102438,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -698,7 +698,7 @@
       "sku": "102440",
       "title": "Lenjerie creponată Crep59, două persoane",
       "supplierModelId": 102438,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -706,7 +706,7 @@
       "sku": "102439",
       "title": "Lenjerie creponată Crep59, o persoană",
       "supplierModelId": 102438,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -714,7 +714,7 @@
       "sku": "102458",
       "title": "Lenjerie creponată Crep60, king size",
       "supplierModelId": 102455,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -722,7 +722,7 @@
       "sku": "102457",
       "title": "Lenjerie creponată Crep60, două persoane",
       "supplierModelId": 102455,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -730,7 +730,7 @@
       "sku": "102456",
       "title": "Lenjerie creponată Crep60, o persoană",
       "supplierModelId": 102455,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -738,7 +738,7 @@
       "sku": "102462",
       "title": "Lenjerie creponată Crep61, king size",
       "supplierModelId": 102459,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -746,7 +746,7 @@
       "sku": "102461",
       "title": "Lenjerie creponată Crep61, două persoane",
       "supplierModelId": 102459,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -754,7 +754,7 @@
       "sku": "102460",
       "title": "Lenjerie creponată Crep61, o persoană",
       "supplierModelId": 102459,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -762,7 +762,7 @@
       "sku": "102466",
       "title": "Lenjerie creponată Crep62, king size",
       "supplierModelId": 102463,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -770,7 +770,7 @@
       "sku": "102465",
       "title": "Lenjerie creponată Crep62, două persoane",
       "supplierModelId": 102463,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -778,7 +778,7 @@
       "sku": "102464",
       "title": "Lenjerie creponată Crep62, o persoană",
       "supplierModelId": 102463,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -786,7 +786,7 @@
       "sku": "102471",
       "title": "Lenjerie creponată Crep63, king size",
       "supplierModelId": 102468,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -794,7 +794,7 @@
       "sku": "102470",
       "title": "Lenjerie creponată Crep63, două persoane",
       "supplierModelId": 102468,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -802,7 +802,7 @@
       "sku": "102469",
       "title": "Lenjerie creponată Crep63, o persoană",
       "supplierModelId": 102468,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -810,7 +810,7 @@
       "sku": "102475",
       "title": "Lenjerie creponată Crep64, king size",
       "supplierModelId": 102472,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -818,7 +818,7 @@
       "sku": "102474",
       "title": "Lenjerie creponată Crep64, două persoane",
       "supplierModelId": 102472,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -826,7 +826,7 @@
       "sku": "102473",
       "title": "Lenjerie creponată Crep64, o persoană",
       "supplierModelId": 102472,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -834,7 +834,7 @@
       "sku": "102479",
       "title": "Lenjerie creponată Crep65, king size",
       "supplierModelId": 102476,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -842,7 +842,7 @@
       "sku": "102478",
       "title": "Lenjerie creponată Crep65, două persoane",
       "supplierModelId": 102476,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -850,7 +850,7 @@
       "sku": "102477",
       "title": "Lenjerie creponată Crep65, o persoană",
       "supplierModelId": 102476,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -858,7 +858,7 @@
       "sku": "102483",
       "title": "Lenjerie creponată Crep66, king size",
       "supplierModelId": 102480,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -866,7 +866,7 @@
       "sku": "102482",
       "title": "Lenjerie creponată Crep66, două persoane",
       "supplierModelId": 102480,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -874,7 +874,7 @@
       "sku": "102481",
       "title": "Lenjerie creponată Crep66, o persoană",
       "supplierModelId": 102480,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -882,7 +882,7 @@
       "sku": "102487",
       "title": "Lenjerie creponată Crep67, king size",
       "supplierModelId": 102484,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -890,7 +890,7 @@
       "sku": "102486",
       "title": "Lenjerie creponată Crep67, două persoane",
       "supplierModelId": 102484,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -898,7 +898,7 @@
       "sku": "102485",
       "title": "Lenjerie creponată Crep67, o persoană",
       "supplierModelId": 102484,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -906,7 +906,7 @@
       "sku": "102491",
       "title": "Lenjerie creponată Crep68, king size",
       "supplierModelId": 102488,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -914,7 +914,7 @@
       "sku": "102490",
       "title": "Lenjerie creponată Crep68, două persoane",
       "supplierModelId": 102488,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -922,7 +922,7 @@
       "sku": "102489",
       "title": "Lenjerie creponată Crep68, o persoană",
       "supplierModelId": 102488,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -930,7 +930,7 @@
       "sku": "102500",
       "title": "Lenjerie creponată Crep70, king size",
       "supplierModelId": 102497,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -938,7 +938,7 @@
       "sku": "102499",
       "title": "Lenjerie creponată Crep70, două persoane",
       "supplierModelId": 102497,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -946,7 +946,7 @@
       "sku": "102498",
       "title": "Lenjerie creponată Crep70, o persoană",
       "supplierModelId": 102497,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -954,7 +954,7 @@
       "sku": "102504",
       "title": "Lenjerie creponată Crep71, king size",
       "supplierModelId": 102501,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -962,7 +962,7 @@
       "sku": "102503",
       "title": "Lenjerie creponată Crep71, două persoane",
       "supplierModelId": 102501,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -970,7 +970,7 @@
       "sku": "102502",
       "title": "Lenjerie creponată Crep71, o persoană",
       "supplierModelId": 102501,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -978,7 +978,7 @@
       "sku": "102521",
       "title": "Lenjerie creponată Crep72, king size",
       "supplierModelId": 102518,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -986,7 +986,7 @@
       "sku": "102520",
       "title": "Lenjerie creponată Crep72, două persoane",
       "supplierModelId": 102518,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -994,7 +994,7 @@
       "sku": "102519",
       "title": "Lenjerie creponată Crep72, o persoană",
       "supplierModelId": 102518,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1002,7 +1002,7 @@
       "sku": "102526",
       "title": "Lenjerie creponată Crep73, king size",
       "supplierModelId": 102523,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1010,7 +1010,7 @@
       "sku": "102525",
       "title": "Lenjerie creponată Crep73, două persoane",
       "supplierModelId": 102523,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1018,7 +1018,7 @@
       "sku": "102524",
       "title": "Lenjerie creponată Crep73, o persoană",
       "supplierModelId": 102523,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1026,7 +1026,7 @@
       "sku": "101957",
       "title": "Lenjerie Jacquard Marlet V1, 100% bumbac, 6 piese",
       "supplierModelId": 101957,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1034,7 +1034,7 @@
       "sku": "101959",
       "title": "Lenjerie Jacquard Marlet V2, 100% bumbac, 6 piese",
       "supplierModelId": 101959,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1042,7 +1042,7 @@
       "sku": "101961",
       "title": "Lenjerie Jacquard Marlet V3, 100% bumbac, 6 piese",
       "supplierModelId": 101961,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1050,7 +1050,7 @@
       "sku": "101963",
       "title": "Lenjerie Jacquard Marlet V4, 100% bumbac, 6 piese",
       "supplierModelId": 101963,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1058,7 +1058,7 @@
       "sku": "101965",
       "title": "Lenjerie Jacquard Marlet V5, 100% bumbac, 6 piese",
       "supplierModelId": 101965,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1066,7 +1066,7 @@
       "sku": "101985",
       "title": "Lenjerie Ranforce Clasy Angola, king size",
       "supplierModelId": 101985,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1074,7 +1074,7 @@
       "sku": "101991",
       "title": "Lenjerie Ranforce Clasy Diba, king size",
       "supplierModelId": 101991,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1082,7 +1082,7 @@
       "sku": "101993",
       "title": "Lenjerie Ranforce Clasy Floral, king size",
       "supplierModelId": 101993,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1090,7 +1090,7 @@
       "sku": "101995",
       "title": "Lenjerie Ranforce Clasy Galya, king size",
       "supplierModelId": 101995,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1098,7 +1098,7 @@
       "sku": "101997",
       "title": "Lenjerie Ranforce Clasy Latrina, king size",
       "supplierModelId": 101997,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1106,7 +1106,7 @@
       "sku": "102001",
       "title": "Lenjerie Ranforce Clasy Lilyum, king size",
       "supplierModelId": 102001,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1114,7 +1114,7 @@
       "sku": "102003",
       "title": "Lenjerie Ranforce Clasy Mirante, king size",
       "supplierModelId": 102003,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1122,7 +1122,7 @@
       "sku": "102009",
       "title": "Lenjerie Ranforce Clasy Roselin, king size",
       "supplierModelId": 102009,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1130,7 +1130,7 @@
       "sku": "102011",
       "title": "Lenjerie Ranforce Clasy Tabula, king size",
       "supplierModelId": 102011,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1138,7 +1138,7 @@
       "sku": "102013",
       "title": "Lenjerie Ranforce Clasy Tole, king size",
       "supplierModelId": 102013,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1146,7 +1146,7 @@
       "sku": "102015",
       "title": "Lenjerie Ranforce Clasy Vinta, king size",
       "supplierModelId": 102015,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1154,7 +1154,7 @@
       "sku": "102826",
       "title": "Lenjerie Ranforce Clasy Arnor V1, king size",
       "supplierModelId": 102826,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1162,7 +1162,7 @@
       "sku": "138591",
       "title": "Lenjerie Ranforce Clasy Betina, king size",
       "supplierModelId": 138591,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1170,7 +1170,7 @@
       "sku": "138593",
       "title": "Lenjerie Ranforce Clasy Hena v2, king size",
       "supplierModelId": 138593,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1178,7 +1178,7 @@
       "sku": "138594",
       "title": "Lenjerie Ranforce Clasy Leo, king size",
       "supplierModelId": 138594,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1186,7 +1186,7 @@
       "sku": "138598",
       "title": "Lenjerie Ranforce Clasy Pavone, king size",
       "supplierModelId": 138598,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1194,7 +1194,7 @@
       "sku": "138600",
       "title": "Lenjerie Ranforce Clasy Zemi, king size",
       "supplierModelId": 138600,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1202,7 +1202,7 @@
       "sku": "96547",
       "title": "Cuvertură matlasată Clasy BALLERINA, 2 piese",
       "supplierModelId": 96547,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1210,7 +1210,7 @@
       "sku": "12625",
       "title": "Cuvertură matlasată Clasy ESTE V2, 3 piese",
       "supplierModelId": 12625,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1218,7 +1218,7 @@
       "sku": "12637",
       "title": "Cuvertură matlasată Clasy MIDAS V1, 3 piese",
       "supplierModelId": 12637,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1226,7 +1226,7 @@
       "sku": "12642",
       "title": "Cuvertură matlasată Clasy PORTO V2, 3 piese",
       "supplierModelId": 12642,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1234,7 +1234,7 @@
       "sku": "34141",
       "title": "Cuvertură matlasată Clasy MONTERA V1, 3 piese",
       "supplierModelId": 34141,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1242,7 +1242,7 @@
       "sku": "34143",
       "title": "Cuvertură matlasată Clasy PUMA V1, 3 piese",
       "supplierModelId": 34143,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1250,7 +1250,7 @@
       "sku": "158272",
       "title": "Cuvertură Clasy din muselină Nomada V1, 3 piese",
       "supplierModelId": 158272,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1258,7 +1258,7 @@
       "sku": "158276",
       "title": "Cuvertură Clasy din muselină Nomada V2, 3 piese",
       "supplierModelId": 158276,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1266,7 +1266,7 @@
       "sku": "95965",
       "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu delicat",
       "supplierModelId": 95965,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1274,7 +1274,7 @@
       "sku": "95966",
       "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, carouri",
       "supplierModelId": 95966,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1282,7 +1282,7 @@
       "sku": "95967",
       "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, ursuleți pe fond gri",
       "supplierModelId": 95967,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1290,7 +1290,7 @@
       "sku": "95968",
       "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, dungi decorative",
       "supplierModelId": 95968,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1298,7 +1298,7 @@
       "sku": "95969",
       "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu cu dinozauri",
       "supplierModelId": 95969,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1306,7 +1306,7 @@
       "sku": "95970",
       "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu vegetal",
       "supplierModelId": 95970,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1314,7 +1314,7 @@
       "sku": "95971",
       "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu verde",
       "supplierModelId": 95971,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1322,7 +1322,7 @@
       "sku": "95972",
       "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu discret pe fond deschis",
       "supplierModelId": 95972,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1330,7 +1330,7 @@
       "sku": "95973",
       "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu floral mic",
       "supplierModelId": 95973,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1338,7 +1338,7 @@
       "sku": "95974",
       "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu floral delicat",
       "supplierModelId": 95974,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1396,7 +1396,7 @@
       "sku": "92651",
       "title": "Pătură Cocolino Line Cristina, 200 × 230 cm, albastru",
       "supplierModelId": 92651,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1404,7 +1404,7 @@
       "sku": "92652",
       "title": "Pătură Cocolino Line Ioana, 200 × 230 cm, verde deschis",
       "supplierModelId": 92652,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1442,7 +1442,7 @@
       "sku": "101411",
       "title": "Protecție de saltea matlasată Imperial, cu strat din poliuretan, 200 × 200 cm",
       "supplierModelId": 69981,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1450,7 +1450,7 @@
       "sku": "101410",
       "title": "Protecție de saltea matlasată Imperial, cu strat din poliuretan, 180 × 200 cm",
       "supplierModelId": 69981,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1458,7 +1458,7 @@
       "sku": "101409",
       "title": "Protecție de saltea matlasată Imperial, cu strat din poliuretan, 160 × 200 cm",
       "supplierModelId": 69981,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1466,7 +1466,7 @@
       "sku": "105869",
       "title": "Protecție de saltea matlasată Imperial, cu strat din poliuretan, 90 × 200 cm",
       "supplierModelId": 69981,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1474,7 +1474,7 @@
       "sku": "101931",
       "title": "Protecție de saltea matlasată Imperial, cu strat din poliuretan, 140 × 200 cm",
       "supplierModelId": 69981,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1482,7 +1482,7 @@
       "sku": "105897",
       "title": "Protecție de saltea matlasată ultrasonic, 100 g/m², 180 × 200 cm",
       "supplierModelId": 482,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1490,7 +1490,7 @@
       "sku": "105896",
       "title": "Protecție de saltea matlasată ultrasonic, 100 g/m², 160 × 200 cm",
       "supplierModelId": 482,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1498,7 +1498,7 @@
       "sku": "105895",
       "title": "Protecție de saltea matlasată ultrasonic, 100 g/m², 140 × 200 cm",
       "supplierModelId": 482,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1506,7 +1506,7 @@
       "sku": "105898",
       "title": "Protecție de saltea matlasată ultrasonic, 100 g/m², 90 × 200 cm",
       "supplierModelId": 482,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1514,7 +1514,7 @@
       "sku": "60278",
       "title": "Protecție de saltea matlasată Percalle, roz pudră, 180 × 200 cm",
       "supplierModelId": 60275,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1522,7 +1522,7 @@
       "sku": "60277",
       "title": "Protecție de saltea matlasată Percalle, roz pudră, 160 × 200 cm",
       "supplierModelId": 60275,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1580,7 +1580,7 @@
       "sku": "105859",
       "title": "Husă de saltea impermeabilă cu suprafață din frotir de bumbac, 200 × 200 cm",
       "supplierModelId": 75523,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1588,7 +1588,7 @@
       "sku": "105858",
       "title": "Husă de saltea impermeabilă cu suprafață din frotir de bumbac, 180 × 200 cm",
       "supplierModelId": 75523,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1596,7 +1596,7 @@
       "sku": "105857",
       "title": "Husă de saltea impermeabilă cu suprafață din frotir de bumbac, 160 × 200 cm",
       "supplierModelId": 75523,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1604,7 +1604,7 @@
       "sku": "105856",
       "title": "Husă de saltea impermeabilă cu suprafață din frotir de bumbac, 140 × 200 cm",
       "supplierModelId": 75523,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1612,7 +1612,7 @@
       "sku": "105860",
       "title": "Husă de saltea impermeabilă cu suprafață din frotir de bumbac, 90 × 200 cm",
       "supplierModelId": 75523,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1620,7 +1620,7 @@
       "sku": "100992",
       "title": "Halat de baie din velur, 100% bumbac, roșu, XXL",
       "supplierModelId": 90756,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1628,7 +1628,7 @@
       "sku": "100991",
       "title": "Halat de baie din velur, 100% bumbac, roșu, L-XL",
       "supplierModelId": 90756,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1636,7 +1636,7 @@
       "sku": "100994",
       "title": "Halat de baie din velur, 100% bumbac, gri, XXL",
       "supplierModelId": 90762,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1644,7 +1644,7 @@
       "sku": "100993",
       "title": "Halat de baie din velur, 100% bumbac, gri, L-XL",
       "supplierModelId": 90762,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1652,7 +1652,7 @@
       "sku": "92916",
       "title": "Halat de baie din velur, 100% bumbac, bleu, XXL",
       "supplierModelId": 90769,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1660,7 +1660,7 @@
       "sku": "92915",
       "title": "Halat de baie din velur, 100% bumbac, bleu, L-XL",
       "supplierModelId": 90769,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1668,7 +1668,7 @@
       "sku": "92914",
       "title": "Halat de baie din velur, 100% bumbac, cappuccino, XXL",
       "supplierModelId": 90776,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1676,7 +1676,7 @@
       "sku": "92913",
       "title": "Halat de baie din velur, 100% bumbac, cappuccino, L-XL",
       "supplierModelId": 90776,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1684,7 +1684,7 @@
       "sku": "92912",
       "title": "Halat de baie din velur, 100% bumbac, crem, XXL",
       "supplierModelId": 90781,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1692,7 +1692,7 @@
       "sku": "92911",
       "title": "Halat de baie din velur, 100% bumbac, crem, L-XL",
       "supplierModelId": 90781,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1700,7 +1700,7 @@
       "sku": "92909",
       "title": "Halat de baie din velur, 100% bumbac, mov, XXL",
       "supplierModelId": 90787,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1708,7 +1708,7 @@
       "sku": "92908",
       "title": "Halat de baie din velur, 100% bumbac, mov, L-XL",
       "supplierModelId": 90787,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1716,7 +1716,7 @@
       "sku": "92907",
       "title": "Halat de baie din velur, 100% bumbac, verde, XXL",
       "supplierModelId": 90796,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1724,7 +1724,7 @@
       "sku": "92906",
       "title": "Halat de baie din velur, 100% bumbac, verde, L-XL",
       "supplierModelId": 90796,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1732,7 +1732,7 @@
       "sku": "100984",
       "title": "Halat de baie din velur, 100% bumbac, roz pudră, XXL",
       "supplierModelId": 90801,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1740,7 +1740,7 @@
       "sku": "100983",
       "title": "Halat de baie din velur, 100% bumbac, roz pudră, L-XL",
       "supplierModelId": 90801,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1748,7 +1748,7 @@
       "sku": "98773",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, alb, 200 × 215 cm",
       "supplierModelId": 98768,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1756,7 +1756,7 @@
       "sku": "98772",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, alb, 180 × 210 cm",
       "supplierModelId": 98768,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1764,7 +1764,7 @@
       "sku": "98771",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, alb, 160 × 210 cm",
       "supplierModelId": 98768,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1772,7 +1772,7 @@
       "sku": "98770",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, alb, 140 × 210 cm",
       "supplierModelId": 98768,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1780,7 +1780,7 @@
       "sku": "98801",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, roz pudră, 200 × 215 cm",
       "supplierModelId": 98797,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1788,7 +1788,7 @@
       "sku": "98800",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, roz pudră, 180 × 210 cm",
       "supplierModelId": 98797,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1796,7 +1796,7 @@
       "sku": "98799",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, roz pudră, 160 × 210 cm",
       "supplierModelId": 98797,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1804,7 +1804,7 @@
       "sku": "98798",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, roz pudră, 140 × 210 cm",
       "supplierModelId": 98797,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1812,7 +1812,7 @@
       "sku": "98789",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, gri, 200 × 215 cm",
       "supplierModelId": 98785,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1820,7 +1820,7 @@
       "sku": "98788",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, gri, 180 × 210 cm",
       "supplierModelId": 98785,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1828,7 +1828,7 @@
       "sku": "98787",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, gri, 160 × 210 cm",
       "supplierModelId": 98785,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1836,7 +1836,7 @@
       "sku": "98786",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, gri, 140 × 210 cm",
       "supplierModelId": 98785,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1844,7 +1844,7 @@
       "sku": "98813",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, unt, 200 × 215 cm",
       "supplierModelId": 98809,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1852,7 +1852,7 @@
       "sku": "98812",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, unt, 180 × 210 cm",
       "supplierModelId": 98809,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1860,7 +1860,7 @@
       "sku": "98811",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, unt, 160 × 210 cm",
       "supplierModelId": 98809,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1868,7 +1868,7 @@
       "sku": "98810",
       "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, unt, 140 × 210 cm",
       "supplierModelId": 98809,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1876,7 +1876,7 @@
       "sku": "102986",
       "title": "Pilotă matlasată HORECA, 200 × 215 cm",
       "supplierModelId": 102981,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1884,7 +1884,7 @@
       "sku": "102985",
       "title": "Pilotă matlasată HORECA, 180 × 200 cm",
       "supplierModelId": 102981,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1892,7 +1892,7 @@
       "sku": "102984",
       "title": "Pilotă matlasată HORECA, 140 × 200 cm",
       "supplierModelId": 102981,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1900,7 +1900,7 @@
       "sku": "104112",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, mentă, 200 × 215 cm",
       "supplierModelId": 104108,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1908,7 +1908,7 @@
       "sku": "104111",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, mentă, 180 × 210 cm",
       "supplierModelId": 104108,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1916,7 +1916,7 @@
       "sku": "104110",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, mentă, 160 × 210 cm",
       "supplierModelId": 104108,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1924,7 +1924,7 @@
       "sku": "104109",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, mentă, 140 × 210 cm",
       "supplierModelId": 104108,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1932,7 +1932,7 @@
       "sku": "104119",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, turcoaz, 200 × 215 cm",
       "supplierModelId": 104115,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1940,7 +1940,7 @@
       "sku": "104118",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, turcoaz, 180 × 210 cm",
       "supplierModelId": 104115,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1948,7 +1948,7 @@
       "sku": "104117",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, turcoaz, 160 × 210 cm",
       "supplierModelId": 104115,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1956,7 +1956,7 @@
       "sku": "104116",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, turcoaz, 140 × 210 cm",
       "supplierModelId": 104115,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1964,7 +1964,7 @@
       "sku": "104124",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, roz pudră, 200 × 215 cm",
       "supplierModelId": 104120,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1972,7 +1972,7 @@
       "sku": "104123",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, roz pudră, 180 × 210 cm",
       "supplierModelId": 104120,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1980,7 +1980,7 @@
       "sku": "104122",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, roz pudră, 160 × 210 cm",
       "supplierModelId": 104120,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1988,7 +1988,7 @@
       "sku": "104121",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, roz pudră, 140 × 210 cm",
       "supplierModelId": 104120,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -1996,7 +1996,7 @@
       "sku": "104130",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, antracit, 200 × 215 cm",
       "supplierModelId": 104126,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2004,7 +2004,7 @@
       "sku": "104129",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, antracit, 180 × 210 cm",
       "supplierModelId": 104126,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2012,7 +2012,7 @@
       "sku": "104128",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, antracit, 160 × 210 cm",
       "supplierModelId": 104126,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2020,7 +2020,7 @@
       "sku": "104127",
       "title": "Pilotă de iarnă Damasc cu umplutură din lână, antracit, 140 × 210 cm",
       "supplierModelId": 104126,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2028,7 +2028,7 @@
       "sku": "158241",
       "title": "Lenjerie de pat Clasy Eveya V3, 100% bumbac, 7 piese, cu pătură",
       "supplierModelId": 158241,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2150,7 +2150,7 @@
       "sku": "159988",
       "title": "Prosop Greek Border, 100% bumbac, 500 g/m², cappuccino, 70x140cm",
       "supplierModelId": 159985,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2158,7 +2158,7 @@
       "sku": "159987",
       "title": "Prosop Greek Border, 100% bumbac, 500 g/m², cappuccino, 50x90cm",
       "supplierModelId": 159985,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2166,7 +2166,7 @@
       "sku": "159986",
       "title": "Prosop Greek Border, 100% bumbac, 500 g/m², cappuccino, 30x50cm",
       "supplierModelId": 159985,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2184,7 +2184,7 @@
       "sku": "105704",
       "title": "Prosop Greek Border, 100% bumbac, 700 g/m², alb optic, 70x140cm",
       "supplierModelId": 104425,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2192,7 +2192,7 @@
       "sku": "105703",
       "title": "Prosop Greek Border, 100% bumbac, 700 g/m², alb optic, 50x90cm",
       "supplierModelId": 104425,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2200,7 +2200,7 @@
       "sku": "105702",
       "title": "Prosop Greek Border, 100% bumbac, 700 g/m², alb optic, 30x50cm",
       "supplierModelId": 104425,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2208,7 +2208,7 @@
       "sku": "105751",
       "title": "Prosop Greek Border, 100% bumbac, 500 g/m², crem, 70x140cm",
       "supplierModelId": 90646,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2216,7 +2216,7 @@
       "sku": "105750",
       "title": "Prosop Greek Border, 100% bumbac, 500 g/m², crem, 50x90cm",
       "supplierModelId": 90646,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2224,7 +2224,7 @@
       "sku": "105749",
       "title": "Prosop Greek Border, 100% bumbac, 500 g/m², crem, 30x50cm",
       "supplierModelId": 90646,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2232,7 +2232,7 @@
       "sku": "105761",
       "title": "Prosop Greek Border, 100% bumbac, 500 g/m², gri, 30x50cm",
       "supplierModelId": 90640,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2240,7 +2240,7 @@
       "sku": "105762",
       "title": "Prosop Greek Border, 100% bumbac, 500 g/m², gri, 50x90cm",
       "supplierModelId": 90640,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2248,7 +2248,7 @@
       "sku": "110226",
       "title": "Prosop Greek Border, 100% bumbac, 500 g/m², gri, 70x140cm",
       "supplierModelId": 90640,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2256,7 +2256,7 @@
       "sku": "105731",
       "title": "Prosop Greek Border, 100% bumbac, 500 g/m², alb, 70x140cm",
       "supplierModelId": 103411,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2264,7 +2264,7 @@
       "sku": "105730",
       "title": "Prosop Greek Border, 100% bumbac, 500 g/m², alb, 50x90cm",
       "supplierModelId": 103411,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2272,7 +2272,7 @@
       "sku": "105729",
       "title": "Prosop Greek Border, 100% bumbac, 500 g/m², alb, 30x50cm",
       "supplierModelId": 103411,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2280,7 +2280,7 @@
       "sku": "509",
       "title": "Protecție matlasată pentru pernă, cu fermoar, 50 × 70 cm",
       "supplierModelId": 509,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2288,7 +2288,7 @@
       "sku": "103393",
       "title": "Protecție impermeabilă pentru pernă AquaStop, 50 × 70 cm",
       "supplierModelId": 103393,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2296,7 +2296,7 @@
       "sku": "160977",
       "title": "Pernă Ralex cu puf de gâscă 50% și puf siliconic 50%, 50 × 70 cm",
       "supplierModelId": 160977,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2304,7 +2304,7 @@
       "sku": "102537",
       "title": "Pernă Zen Microgel cu înveliș din bumbac, 50 × 70 cm, 1.250 g",
       "supplierModelId": 102537,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2323,7 +2323,7 @@
       "sku": "102893",
       "title": "Pernă Ralex MicroGel, 50 × 70 cm, 1.150 g",
       "supplierModelId": 102893,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2404,7 +2404,7 @@
       "sku": "98781",
       "title": "Pilotă cu înveliș Ranforce din bumbac și umplutură din lână, crem, 200cm x 215cm",
       "supplierModelId": 98777,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2412,7 +2412,7 @@
       "sku": "98780",
       "title": "Pilotă cu înveliș Ranforce din bumbac și umplutură din lână, crem, 180cm x 210cm",
       "supplierModelId": 98777,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2420,7 +2420,7 @@
       "sku": "98779",
       "title": "Pilotă cu înveliș Ranforce din bumbac și umplutură din lână, crem, 160cm x 210cm",
       "supplierModelId": 98777,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2428,7 +2428,7 @@
       "sku": "98778",
       "title": "Pilotă cu înveliș Ranforce din bumbac și umplutură din lână, crem, 140cm x 210cm",
       "supplierModelId": 98777,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2540,7 +2540,7 @@
       "sku": "89428",
       "title": "Pătură Cocolino Fluturi, 200 × 230 cm, maro",
       "supplierModelId": 89428,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2548,7 +2548,7 @@
       "sku": "89429",
       "title": "Pătură Cocolino Fluturi, 200 × 230 cm, ivory",
       "supplierModelId": 89429,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2556,7 +2556,7 @@
       "sku": "92625",
       "title": "Pătură Cocolino Line Adriana, 200 × 230 cm, galben",
       "supplierModelId": 92625,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2564,7 +2564,7 @@
       "sku": "92647",
       "title": "Pătură Cocolino Line Alexandra, 200 × 230 cm, roșu",
       "supplierModelId": 92647,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2572,7 +2572,7 @@
       "sku": "92649",
       "title": "Pătură Cocolino Line Ana, 200 × 230 cm, bej",
       "supplierModelId": 92649,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2580,7 +2580,7 @@
       "sku": "92653",
       "title": "Pătură Cocolino Line Laura, 200 × 230 cm, gri deschis",
       "supplierModelId": 92653,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2588,7 +2588,7 @@
       "sku": "92654",
       "title": "Pătură Cocolino Line Maria, 200 × 230 cm, gri închis",
       "supplierModelId": 92654,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2596,7 +2596,7 @@
       "sku": "92656",
       "title": "Pătură Cocolino Line Simona, 200 × 230 cm, verde deschis",
       "supplierModelId": 92656,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2604,7 +2604,7 @@
       "sku": "92668",
       "title": "Lenjerie de pat Cocolino Line Adriana, 4 piese, galben",
       "supplierModelId": 92668,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2612,7 +2612,7 @@
       "sku": "92681",
       "title": "Lenjerie de pat Cocolino Line Alina, 4 piese, roz",
       "supplierModelId": 92681,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2620,7 +2620,7 @@
       "sku": "92684",
       "title": "Lenjerie de pat Cocolino Line Cristina, 4 piese, albastru",
       "supplierModelId": 92684,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2628,7 +2628,7 @@
       "sku": "92685",
       "title": "Lenjerie de pat Cocolino Line Ioana, 4 piese, aqua",
       "supplierModelId": 92685,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2636,7 +2636,7 @@
       "sku": "92688",
       "title": "Lenjerie de pat Cocolino Line Mihaela, 4 piese, bordo",
       "supplierModelId": 92688,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2644,7 +2644,7 @@
       "sku": "92689",
       "title": "Lenjerie de pat Cocolino Line Simona, 4 piese, verde deschis",
       "supplierModelId": 92689,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2652,7 +2652,7 @@
       "sku": "162731",
       "title": "Set 4 perne pentru scaun mov, 40 × 40 × 7 cm, pentru interior și exterior",
       "supplierModelId": 162731,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2660,7 +2660,7 @@
       "sku": "162735",
       "title": "Set 4 perne pentru scaun Brown Harmony, 40 × 40 × 7 cm, pentru interior și exterior",
       "supplierModelId": 162735,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2668,7 +2668,7 @@
       "sku": "162739",
       "title": "Set 4 perne pentru scaun Happy Lines, 40 × 40 × 7 cm, pentru interior și exterior",
       "supplierModelId": 162739,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2720,7 +2720,7 @@
       "sku": "163317",
       "title": "Pilotă Finet Feader, 200 × 220 cm, umplutură microgel și fibră siliconică",
       "supplierModelId": 163317,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2728,7 +2728,7 @@
       "sku": "163319",
       "title": "Pilotă Finet Floral Glam, 200 × 220 cm, umplutură microgel și fibră siliconică",
       "supplierModelId": 163319,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -2736,7 +2736,7 @@
       "sku": "163321",
       "title": "Pilotă Finet Floral Butterflyes, 200 × 220 cm, umplutură microgel și fibră siliconică",
       "supplierModelId": 163321,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3444,7 +3444,7 @@
       "sku": "159493",
       "title": "Husă Finet cu 2 fețe pernă - model 159493",
       "supplierModelId": 159493,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3452,7 +3452,7 @@
       "sku": "159494",
       "title": "Husă Finet cu 2 fețe pernă - model 159494",
       "supplierModelId": 159494,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3460,7 +3460,7 @@
       "sku": "159495",
       "title": "Husă Finet cu 2 fețe pernă - model 159495",
       "supplierModelId": 159495,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3468,7 +3468,7 @@
       "sku": "159496",
       "title": "Husă Finet cu 2 fețe pernă - model 159496",
       "supplierModelId": 159496,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3576,7 +3576,7 @@
       "sku": "162709",
       "title": "Cuvertură canapea 3 locuri - Vanilla Cream",
       "supplierModelId": 162709,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3584,7 +3584,7 @@
       "sku": "162710",
       "title": "Cuvertură canapea 3 locuri - Turqoise Quilted",
       "supplierModelId": 162710,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3592,7 +3592,7 @@
       "sku": "162711",
       "title": "Cuvertură canapea 3 locuri - Sunlit Sage",
       "supplierModelId": 162711,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3600,7 +3600,7 @@
       "sku": "162712",
       "title": "Cuvertură canapea 3 locuri - Sunlit Mint-Green",
       "supplierModelId": 162712,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3608,7 +3608,7 @@
       "sku": "162713",
       "title": "Cuvertură canapea 3 locuri - Pastel Quilted",
       "supplierModelId": 162713,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3616,7 +3616,7 @@
       "sku": "162714",
       "title": "Cuvertură canapea 3 locuri - Pastel Peach",
       "supplierModelId": 162714,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3624,7 +3624,7 @@
       "sku": "162715",
       "title": "Cuvertură canapea 3 locuri - Pastel Lemon",
       "supplierModelId": 162715,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3632,7 +3632,7 @@
       "sku": "162716",
       "title": "Cuvertură canapea 3 locuri - Lighter Brown",
       "supplierModelId": 162716,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3640,7 +3640,7 @@
       "sku": "162717",
       "title": "Cuvertură canapea 3 locuri - Dusty Mauve",
       "supplierModelId": 162717,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3648,7 +3648,7 @@
       "sku": "162718",
       "title": "Cuvertură canapea 3 locuri - Cozy Plum",
       "supplierModelId": 162718,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3656,7 +3656,7 @@
       "sku": "162719",
       "title": "Cuvertură canapea 3 locuri - Butter Cream",
       "supplierModelId": 162719,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3664,7 +3664,7 @@
       "sku": "162720",
       "title": "Cuvertură canapea 3 locuri - Bright Pink",
       "supplierModelId": 162720,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3672,7 +3672,7 @@
       "sku": "162721",
       "title": "Cuvertură canapea 3 locuri - Blush Pink",
       "supplierModelId": 162721,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3680,7 +3680,7 @@
       "sku": "162728",
       "title": "Pilotă Finet - Blue Garden",
       "supplierModelId": 162728,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3699,7 +3699,7 @@
       "sku": "162800",
       "title": "Lenjerie de pat Clasy Vinya, ranforce, 100% bumbac, 4 piese, husa pilota 200x220 cm",
       "supplierModelId": 162800,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3707,7 +3707,7 @@
       "sku": "162801",
       "title": "Ranforce Clasy - Semeran",
       "supplierModelId": 162801,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3715,7 +3715,7 @@
       "sku": "162802",
       "title": "Ranforce Clasy - Samba",
       "supplierModelId": 162802,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3745,7 +3745,7 @@
       "sku": "162805",
       "title": "Lenjerie de pat Clasy Nivora, ranforce, 100% bumbac, 4 piese, husa pilota 200x220 cm",
       "supplierModelId": 162805,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3764,7 +3764,7 @@
       "sku": "162807",
       "title": "Ranforce Clasy - Irma",
       "supplierModelId": 162807,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3772,7 +3772,7 @@
       "sku": "162808",
       "title": "Lenjerie de pat Clasy Estiva, ranforce, 100% bumbac, 4 piese, husa pilota 200x220 cm",
       "supplierModelId": 162808,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3853,7 +3853,7 @@
       "sku": "94025",
       "title": "Pătură Cocolino SIN - model 94025",
       "supplierModelId": 94025,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3861,7 +3861,7 @@
       "sku": "94026",
       "title": "Pătură Cocolino SIN - model 94026",
       "supplierModelId": 94026,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3869,7 +3869,7 @@
       "sku": "94027",
       "title": "Pătură Cocolino SIN - model 94027",
       "supplierModelId": 94027,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3877,7 +3877,7 @@
       "sku": "94028",
       "title": "Pătură Cocolino SIN - model 94028",
       "supplierModelId": 94028,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3885,7 +3885,7 @@
       "sku": "94029",
       "title": "Pătură Cocolino SIN - model 94029",
       "supplierModelId": 94029,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3893,7 +3893,7 @@
       "sku": "107355",
       "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — geometric albastru cu stele",
       "supplierModelId": 107355,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3901,7 +3901,7 @@
       "sku": "107357",
       "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — frunze portocalii și gri",
       "supplierModelId": 107357,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3909,7 +3909,7 @@
       "sku": "107361",
       "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — geometric verde mentă",
       "supplierModelId": 107361,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3917,7 +3917,7 @@
       "sku": "107363",
       "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — carouri gri și ocru",
       "supplierModelId": 107363,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3925,7 +3925,7 @@
       "sku": "107359",
       "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — cercuri multicolore și stele",
       "supplierModelId": 107359,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3933,7 +3933,7 @@
       "sku": "107368",
       "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — frunze ginkgo",
       "supplierModelId": 107368,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3941,7 +3941,7 @@
       "sku": "107370",
       "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — flori și fluturi mov",
       "supplierModelId": 107370,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3949,7 +3949,7 @@
       "sku": "107383",
       "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — bambus verde",
       "supplierModelId": 107383,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3957,7 +3957,7 @@
       "sku": "110198",
       "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — flori roșii",
       "supplierModelId": 110198,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3965,7 +3965,7 @@
       "sku": "110201",
       "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — geometric mov și gri",
       "supplierModelId": 110201,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3973,7 +3973,7 @@
       "sku": "110207",
       "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — păpădii albastre",
       "supplierModelId": 110207,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3981,7 +3981,7 @@
       "sku": "107387",
       "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — flori galbene și gri",
       "supplierModelId": 107387,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3989,7 +3989,7 @@
       "sku": "110194",
       "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — flori și frunze verzi",
       "supplierModelId": 110194,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -3997,7 +3997,7 @@
       "sku": "110208",
       "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — păpădii și cercuri roșii",
       "supplierModelId": 110208,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4005,7 +4005,7 @@
       "sku": "81337",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — roșu",
       "supplierModelId": 81337,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4013,7 +4013,7 @@
       "sku": "81310",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — gri",
       "supplierModelId": 81310,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4021,7 +4021,7 @@
       "sku": "81331",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — mov",
       "supplierModelId": 81331,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4029,7 +4029,7 @@
       "sku": "81333",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — negru",
       "supplierModelId": 81333,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4037,7 +4037,7 @@
       "sku": "81334",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — verde",
       "supplierModelId": 81334,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4045,7 +4045,7 @@
       "sku": "81335",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — antracit",
       "supplierModelId": 81335,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4053,7 +4053,7 @@
       "sku": "81338",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — turcoaz",
       "supplierModelId": 81338,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4061,7 +4061,7 @@
       "sku": "81344",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — verde",
       "supplierModelId": 81344,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4069,7 +4069,7 @@
       "sku": "81347",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — roșu",
       "supplierModelId": 81347,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4077,7 +4077,7 @@
       "sku": "81343",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — negru",
       "supplierModelId": 81343,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4085,7 +4085,7 @@
       "sku": "81341",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — mov",
       "supplierModelId": 81341,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4093,7 +4093,7 @@
       "sku": "81340",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — gri",
       "supplierModelId": 81340,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4101,7 +4101,7 @@
       "sku": "81342",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — bej",
       "supplierModelId": 81342,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4109,7 +4109,7 @@
       "sku": "81345",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — antracit",
       "supplierModelId": 81345,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4117,7 +4117,7 @@
       "sku": "81348",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — turcoaz",
       "supplierModelId": 81348,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4125,7 +4125,7 @@
       "sku": "81336",
       "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — cappuccino",
       "supplierModelId": 81336,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4801,7 +4801,7 @@
       "sku": "101328",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101328,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4809,7 +4809,7 @@
       "sku": "101368",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101368,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4817,7 +4817,7 @@
       "sku": "101369",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101369,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4825,7 +4825,7 @@
       "sku": "101370",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101370,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4833,7 +4833,7 @@
       "sku": "101372",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101372,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4841,7 +4841,7 @@
       "sku": "101373",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101373,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4849,7 +4849,7 @@
       "sku": "101374",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101374,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4857,7 +4857,7 @@
       "sku": "101375",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101375,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4865,7 +4865,7 @@
       "sku": "101376",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101376,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4873,7 +4873,7 @@
       "sku": "101377",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101377,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4881,7 +4881,7 @@
       "sku": "101378",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101378,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4889,7 +4889,7 @@
       "sku": "101379",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101379,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4897,7 +4897,7 @@
       "sku": "101380",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101380,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4905,7 +4905,7 @@
       "sku": "101381",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101381,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4913,7 +4913,7 @@
       "sku": "101382",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101382,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4921,7 +4921,7 @@
       "sku": "101383",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101383,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4929,7 +4929,7 @@
       "sku": "101384",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101384,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4937,7 +4937,7 @@
       "sku": "101385",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101385,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4945,7 +4945,7 @@
       "sku": "101386",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101386,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4953,7 +4953,7 @@
       "sku": "101387",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101387,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4961,7 +4961,7 @@
       "sku": "101388",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101388,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4969,7 +4969,7 @@
       "sku": "101389",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101389,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4977,7 +4977,7 @@
       "sku": "101390",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101390,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4985,7 +4985,7 @@
       "sku": "101391",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101391,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -4993,7 +4993,7 @@
       "sku": "101392",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101392,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5001,7 +5001,7 @@
       "sku": "101393",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101393,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5009,7 +5009,7 @@
       "sku": "101394",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101394,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5017,7 +5017,7 @@
       "sku": "101395",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101395,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5025,7 +5025,7 @@
       "sku": "101396",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101396,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5033,7 +5033,7 @@
       "sku": "101397",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101397,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5041,7 +5041,7 @@
       "sku": "101398",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101398,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5049,7 +5049,7 @@
       "sku": "101399",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101399,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5057,7 +5057,7 @@
       "sku": "101400",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101400,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5065,7 +5065,7 @@
       "sku": "101401",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101401,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5073,7 +5073,7 @@
       "sku": "101402",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101402,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5081,7 +5081,7 @@
       "sku": "101403",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 101403,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5089,7 +5089,7 @@
       "sku": "101836",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101836,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5097,7 +5097,7 @@
       "sku": "101837",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101837,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5105,7 +5105,7 @@
       "sku": "101840",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101840,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5113,7 +5113,7 @@
       "sku": "101841",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101841,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5121,7 +5121,7 @@
       "sku": "101843",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101843,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5129,7 +5129,7 @@
       "sku": "101845",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101845,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5137,7 +5137,7 @@
       "sku": "101848",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101848,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5145,7 +5145,7 @@
       "sku": "101849",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101849,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5153,7 +5153,7 @@
       "sku": "101851",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101851,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5161,7 +5161,7 @@
       "sku": "101853",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101853,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5169,7 +5169,7 @@
       "sku": "101859",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101859,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5177,7 +5177,7 @@
       "sku": "101869",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101869,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5185,7 +5185,7 @@
       "sku": "101873",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101873,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5193,7 +5193,7 @@
       "sku": "101876",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101876,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5273,7 +5273,7 @@
       "sku": "104813",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 104813,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5281,7 +5281,7 @@
       "sku": "104814",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 104814,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5289,7 +5289,7 @@
       "sku": "104815",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 104815,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5297,7 +5297,7 @@
       "sku": "104817",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 104817,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5452,79 +5452,55 @@
       "sku": "138602",
       "title": "Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Crem",
       "supplierModelId": 138602,
-      "status": "pending_verification",
-      "reasons": [
-        "complete_current_estore_review_not_confirmed",
-        "storefront_gallery_and_copy_review_pending",
-        "application_description_missing"
-      ]
+      "status": "estina_deployment_pending",
+      "reasons": []
     },
     {
       "appBarcode": "138604",
       "sku": "138604",
       "title": "Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Bej",
       "supplierModelId": 138604,
-      "status": "pending_verification",
-      "reasons": [
-        "complete_current_estore_review_not_confirmed",
-        "storefront_gallery_and_copy_review_pending",
-        "application_description_missing"
-      ]
+      "status": "estina_deployment_pending",
+      "reasons": []
     },
     {
       "appBarcode": "138606",
       "sku": "138606",
       "title": "Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Gri",
       "supplierModelId": 138606,
-      "status": "pending_verification",
-      "reasons": [
-        "complete_current_estore_review_not_confirmed",
-        "storefront_gallery_and_copy_review_pending",
-        "application_description_missing"
-      ]
+      "status": "estina_deployment_pending",
+      "reasons": []
     },
     {
       "appBarcode": "138608",
       "sku": "138608",
       "title": "Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Verde",
       "supplierModelId": 138608,
-      "status": "pending_verification",
-      "reasons": [
-        "complete_current_estore_review_not_confirmed",
-        "storefront_gallery_and_copy_review_pending",
-        "application_description_missing"
-      ]
+      "status": "estina_deployment_pending",
+      "reasons": []
     },
     {
       "appBarcode": "138610",
       "sku": "138610",
       "title": "Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Portocaliu",
       "supplierModelId": 138610,
-      "status": "pending_verification",
-      "reasons": [
-        "complete_current_estore_review_not_confirmed",
-        "storefront_gallery_and_copy_review_pending",
-        "application_description_missing"
-      ]
+      "status": "estina_deployment_pending",
+      "reasons": []
     },
     {
       "appBarcode": "138612",
       "sku": "138612",
       "title": "Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Bej",
       "supplierModelId": 138612,
-      "status": "pending_verification",
-      "reasons": [
-        "complete_current_estore_review_not_confirmed",
-        "storefront_gallery_and_copy_review_pending",
-        "application_description_missing"
-      ]
+      "status": "estina_deployment_pending",
+      "reasons": []
     },
     {
       "appBarcode": "158295",
       "sku": "158295",
       "title": "Lenjerie de pat Clasy Arsida V1, 100% bumbac, 4 piese, husa pilota 200x220 cm",
       "supplierModelId": 158295,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5532,7 +5508,7 @@
       "sku": "158300",
       "title": "Lenjerie de pat Clasy Arsida V2, 100% bumbac, 4 piese, husa pilota 200x220 cm",
       "supplierModelId": 158300,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5540,7 +5516,7 @@
       "sku": "158301",
       "title": "Lenjerie de pat Clasy Arsida V3, 100% bumbac, 4 piese, husa pilota 200x220 cm",
       "supplierModelId": 158301,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5548,7 +5524,7 @@
       "sku": "158302",
       "title": "Lenjerie de pat Clasy Arsida V4, 100% bumbac, 4 piese, husa pilota 200x220 cm",
       "supplierModelId": 158302,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5556,7 +5532,7 @@
       "sku": "158304",
       "title": "Lenjerie de pat Clasy Arsida V6, 100% bumbac, 4 piese, husa pilota 200x220 cm",
       "supplierModelId": 158304,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5564,7 +5540,7 @@
       "sku": "158310",
       "title": "Lenjerie de pat Clasy Eveya V1, 100% bumbac, 4 piese, husa pilota 200x220 cm",
       "supplierModelId": 158310,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5572,7 +5548,7 @@
       "sku": "158313",
       "title": "Lenjerie de pat Clasy Eveya V2, 100% bumbac, 4 piese, husa pilota 200x220 cm",
       "supplierModelId": 158313,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5580,7 +5556,7 @@
       "sku": "158316",
       "title": "Lenjerie de pat Clasy Eveya V3, 100% bumbac, 4 piese, husa pilota 200x220 cm",
       "supplierModelId": 158316,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5588,7 +5564,7 @@
       "sku": "158319",
       "title": "Lenjerie de pat Clasy Eveya V4, 100% bumbac, 4 piese, husa pilota 200x220 cm",
       "supplierModelId": 158319,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5929,7 +5905,7 @@
       "sku": "104818",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 104818,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5937,7 +5913,7 @@
       "sku": "101871",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101871,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5945,7 +5921,7 @@
       "sku": "104816",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 104816,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5953,7 +5929,7 @@
       "sku": "101875",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101875,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5972,7 +5948,7 @@
       "sku": "101870",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101870,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5980,7 +5956,7 @@
       "sku": "101863",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101863,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5988,7 +5964,7 @@
       "sku": "101864",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101864,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5996,7 +5972,7 @@
       "sku": "101857",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101857,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -6004,7 +5980,7 @@
       "sku": "101860",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101860,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -6012,7 +5988,7 @@
       "sku": "101856",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101856,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -6020,7 +5996,7 @@
       "sku": "101852",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101852,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -6028,7 +6004,7 @@
       "sku": "101846",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101846,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -6047,7 +6023,7 @@
       "sku": "101842",
       "title": "Set de lenjerie de pat din microfibră economic, 6 piese, cu cearșaf cu elastic 180 x 200 + 25 cm",
       "supplierModelId": 101842,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -10664,7 +10640,7 @@
       "sku": "106765",
       "title": "Saltea 17 cm, 7 zone de confort, fermitate medie, 90x200 cm, Fabricată în România",
       "supplierModelId": 106764,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -10672,7 +10648,7 @@
       "sku": "106768",
       "title": "Saltea 17 cm, 7 zone de confort, fermitate medie, 160x200 cm, Fabricată în România",
       "supplierModelId": 106764,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -10680,7 +10656,7 @@
       "sku": "106766",
       "title": "Saltea 17 cm, 7 zone de confort, fermitate medie, 120x200 cm, Fabricată în România",
       "supplierModelId": 106764,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -10688,7 +10664,7 @@
       "sku": "106767",
       "title": "Saltea 17 cm, 7 zone de confort, fermitate medie, 140x200 cm, Fabricată în România",
       "supplierModelId": 106764,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -10696,7 +10672,7 @@
       "sku": "106769",
       "title": "Saltea 17 cm, 7 zone de confort, fermitate medie, 180x200 cm, Fabricată în România",
       "supplierModelId": 106764,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -12713,7 +12689,7 @@
       "sku": "90965",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 90965,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -12721,7 +12697,7 @@
       "sku": "90972",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 90972,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -12729,7 +12705,7 @@
       "sku": "90973",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 90973,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -12737,7 +12713,7 @@
       "sku": "90974",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 90974,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -12745,7 +12721,7 @@
       "sku": "90981",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 90981,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -12753,7 +12729,7 @@
       "sku": "90984",
       "title": "Set de lenjerie de pat din microfibră economic, 4 piese, cu cearșaf plat 230 x 250 cm",
       "supplierModelId": 90984,
-      "status": "live_or_pending_clasy_deployment",
+      "status": "live_verified",
       "reasons": []
     },
     {

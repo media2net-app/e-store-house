@@ -1,5 +1,5 @@
 {
-  "status": "validated_pending_deployment",
+  "status": "live_verified",
   "models": [
     {
       "product": {
@@ -694,5 +694,71 @@
       "reviewedAt": "2026-10-22T23:57:40.615396+00:00",
       "visualReview": "Each source compared with the final front, new side, close detail and overhead photographs. Preserved model texture/color, two pillowcases, embroidery or wooden buttons as applicable. Removed old repetitive hero with unsupported mattress-fit wording. Dimensions/composition/care checked on each supplier page."
     }
-  ]
+  ],
+  "liveVerification": [
+    {
+      "id": 158295,
+      "url": "https://www.estorehouse.ro/product/158295",
+      "price": 489,
+      "images": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 158300,
+      "url": "https://www.estorehouse.ro/product/158300",
+      "price": 489,
+      "images": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 158301,
+      "url": "https://www.estorehouse.ro/product/158301",
+      "price": 489,
+      "images": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 158302,
+      "url": "https://www.estorehouse.ro/product/158302",
+      "price": 489,
+      "images": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 158304,
+      "url": "https://www.estorehouse.ro/product/158304",
+      "price": 489,
+      "images": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 158310,
+      "url": "https://www.estorehouse.ro/product/158310",
+      "price": 489,
+      "images": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 158313,
+      "url": "https://www.estorehouse.ro/product/158313",
+      "price": 489,
+      "images": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 158316,
+      "url": "https://www.estorehouse.ro/product/158316",
+      "price": 489,
+      "images": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 158319,
+      "url": "https://www.estorehouse.ro/product/158319",
+      "price": 489,
+      "images": 4,
+      "status": "live_verified"
+    }
+  ],
+  "liveVerifiedAt": "2026-10-23T00:04:21.807092+00:00"
 }

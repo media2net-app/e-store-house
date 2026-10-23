@@ -67,3 +67,9 @@ User explicitly authorized publishing the redesign and then all Ralex Pucioasa C
 - New distinct side-angle images generated from each actual supplier reference, visually reviewed and saved in public/products/clasy-reviewed-20261023. Repetitive hero frames with unsupported mattress-fit wording excluded; final galleries contain front, side, close detail and overhead.
 - All seven catalog quality/pricing tests pass; current catalog after this batch is 266 models / 430 configurations. Control coverage becomes 426 articles; 911 remain pending verification/completion.
 - Price/stock refreshed from supplier. Clasy is kept identifiable as a separate brand; no Romanian origin attributed.
+
+## Lot Estina — 23 octombrie 2026
+
+Cele 9 modele Arsida/Eveya sunt confirmate live: 266 modele, 430 configurații. Verificate individual paginile, prețurile, disponibilitatea și toate cele 36 imagini.
+
+Pregătite încă 6 modele Clasy Estina: surse individuale cu 100% bumbac Ranforce și set 4 piese, coduri numerice confirmate în pagini, preț actual 489 lei calculat conform regulii. Patru vederi distincte per model, inclusiv vedere laterală nouă verificată față de surse. Afirmația neconfirmată despre potrivirea pe saltele a fost eliminată prin înlocuirea vechiului hero; temperatura contradictorie de călcare nu este publicată. Build și cele 7 teste de catalog/preț au trecut. După publicare: 272 modele / 436 configurații, 432 articole Control acoperite și 905 rămase.
