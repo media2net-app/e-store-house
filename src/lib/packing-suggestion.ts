@@ -1,15 +1,37 @@
-import references from "@/data/supplier-shipping-reference.json";
-type Reference = { declaredProductWeightKg: number | null; merchantBeddingDimensions: { length: number; width: number; height: number } | null };
-export function packingSuggestion(items: { sku?: string; quantity: number }[]) {
-  if (!items.length) return null;
-  const refs = references as Record<string, Reference>;
-  let weight = 0, height = 0, length = 0, width = 0, completeWeight = true;
-  for (const item of items) {
-    const ref = item.sku ? refs[item.sku] : null, dims = ref?.merchantBeddingDimensions;
-    if (!dims || !Number.isSafeInteger(item.quantity) || item.quantity < 1 || item.quantity > 20) return null;
-    length = Math.max(length, dims.length); width = Math.max(width, dims.width); height += dims.height * item.quantity;
-    if (ref?.declaredProductWeightKg) weight += ref.declaredProductWeightKg * item.quantity; else completeWeight = false;
+import products from "@/data/products.json";
+import standardParcel from "@/data/merchant-standard-parcel.json";
+
+type PackingItem = { productId?: number; sku?: string; name?: string; quantity: number };
+type Product = { id: number; sku?: string; name: string; categoryPath?: string;
+  bundleComponents?: { name: string }[];
+  variants?: { id: number; sku: string; bundleComponents?: { name: string }[] }[] };
+const plain = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+const excludedName = (name: string) => /^(?:saltea|saltele|topper|toppere)\b/.test(plain(name).trim()) || /\btopper(?:e)?\b/.test(plain(name));
+const catalogById = new Map<number, Product>();
+const catalogBySku = new Map<string, Product>();
+for (const product of products as Product[]) {
+  catalogById.set(product.id, product);
+  if (product.sku) catalogBySku.set(product.sku, product);
+  for (const variant of product.variants || []) {
+    const entry = { ...product, bundleComponents: variant.bundleComponents || product.bundleComponents };
+    catalogById.set(variant.id, entry);
+    catalogBySku.set(variant.sku, entry);
   }
-  return { length, width, height, weight: completeWeight ? Math.round(weight * 1000) / 1000 : null, requiresMeasurement: true,
-    note: "Dimensiunile lenjeriilor sunt confirmate de magazin; greutatea disponibilă este cea declarată de furnizor pentru produse. Măsoară și cântărește coletul final, inclusiv ambalajul exterior, înainte de emitere." };
+}
+
+export function packingSuggestion(items: PackingItem[]) {
+  if (!items.length) return null;
+  for (const item of items) {
+    if (!Number.isSafeInteger(item.quantity) || item.quantity < 1 || item.quantity > 20) return null;
+    // Check both identifiers and the historical name, including mixed bundles/orders.
+    const matches = [item.productId ? catalogById.get(item.productId) : undefined, item.sku ? catalogBySku.get(item.sku) : undefined]
+      .filter((product): product is Product => !!product);
+    if (!matches.length && !item.name?.trim()) return null;
+    if (excludedName(item.name || "") || matches.some(product => excludedName(product.name)
+      || /(?:^|\/)(?:saltele|toppere)(?:-|\/|$)/.test(plain(product.categoryPath || ""))
+      || product.bundleComponents?.some(part => excludedName(part.name)))) return null;
+  }
+  // The merchant's dimensions describe the entire parcel, not each product.
+  return { ...standardParcel.parcel, requiresMeasurement: true,
+    note: "Reper colet confirmat de magazin: 40 × 40 × 10 cm, 2 kg, pentru întregul colet. Nu se aplică saltelelor și topperelor. Verifică ambalajul final și ajustează valorile dacă este diferit." };
 }

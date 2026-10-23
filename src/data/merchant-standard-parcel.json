@@ -1,0 +1,7 @@
+{
+  "confirmedAt": "2026-10-23",
+  "source": "Administratorul E-Store House: toate coletele, cu excepția saltelelor și topperelor, au 40x40x10 cm și 2 kg.",
+  "scope": "whole_parcel_prefill",
+  "excludedProducts": ["saltele", "toppere"],
+  "parcel": { "length": 40, "width": 40, "height": 10, "weight": 2 }
+}

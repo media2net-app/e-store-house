@@ -39,7 +39,7 @@ test('integrated store journey: durable COD, mail recovery, measured AWBs, cance
  assert.equal((await checkout.POST(post('/api/checkout',{...form,paymentMethod:'card'}))).status,503);
  mailFails=true;r=await checkout.POST(post('/api/checkout',form));assert.equal(r.status,200);const placed=await r.json();assert.equal(placed.notificationPending,true);let order=await orders.getOrder(placed.orderId);assert.equal(order.status,'pending_cod');assert.equal(order.totalCents,44960);assert.equal(order.shippingLocker.id,2);assert.equal(courier.length,0);
  assert.equal((await checkout.POST(post('/api/checkout',form))).status,200);assert.equal((await orders.listOrders()).length,1);
- let list=await (await orderList.GET(await signed('/api/control/orders'))).json();assert.equal(list.orders[0].confirmationEmailSent,false);assert.equal(list.orders[0].packingSuggestion.weight,7.2);assert.equal(list.orders[0].packingSuggestion.height,30);
+ let list=await (await orderList.GET(await signed('/api/control/orders'))).json();assert.equal(list.orders[0].confirmationEmailSent,false);assert.equal(list.orders[0].packingSuggestion.weight,2);assert.equal(list.orders[0].packingSuggestion.height,10);
  mailFails=false;const n={kind:'cod',id:order.id};assert.equal((await notification.POST(await signed('/api/control/notification',n))).status,200);assert.equal(messages.length,2);assert.equal((await notification.POST(await signed('/api/control/notification',n))).status,200);assert.equal(messages.length,2);
  const parcel={weight:7.5,length:41,width:41,height:31},ship={orderId:order.id,action:'create',parcel,deliveryPermissionVerified:false};
  assert.equal((await shipment.POST(await signed('/api/control/shipment',ship))).status,400);assert.equal(courier.length,0);

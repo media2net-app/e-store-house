@@ -1,0 +1,9 @@
+Reper confirmat de administrator — 23 octombrie 2026
+
+40 × 40 × 10 cm, 2 kg pentru întregul colet, cu excepția saltelelor și topperelor.
+Se folosește pentru precompletarea datelor de expediere în E-Store Control.
+Nu se multiplică după cantitate. O comandă mixtă care conține o saltea sau un topper nu primește reperul standard.
+Valorile rămân editabile și emiterea AWB necesită în continuare confirmarea operatorului.
+Nu modifică tarifele deja acceptate de client sau AWB-urile deja emise.
+Sursa persistentă: src/data/merchant-standard-parcel.json.
+Validare: 9 teste packing-suggestion/control-orders, ESLint și build de producție trecute.
