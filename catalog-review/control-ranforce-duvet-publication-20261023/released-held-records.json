@@ -1,0 +1,68 @@
+[
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "id": 470,
+      "name": "Pilotă matlasată Ranforce, țesătură 100% bumbac — iarnă",
+      "category": "Pilote",
+      "categoryPath": "pilote",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-ranforceiarna140/",
+      "description": "Pilotă matlasată Ranforce, țesătură 100% bumbac — iarnă. Alege dimensiunea pentru a vedea conținutul, specificațiile, prețul și imaginile variantei.",
+      "features": [
+        {
+          "label": "Mărimi",
+          "value": "140 × 210 cm; 180 × 210 cm"
+        }
+      ],
+      "images": [
+        "/products/ralex-470/01.webp",
+        "/products/ralex-470/02.webp",
+        "/products/ralex-470/03.webp",
+        "/products/ralex-470/04.webp"
+      ],
+      "image": "/products/ralex-470/01.webp",
+      "price": 219,
+      "inStock": true,
+      "material": "Țesătură Ranforce 100% bumbac; umplutură minet.",
+      "variants": [
+        {
+          "id": 470,
+          "sku": "470",
+          "name": "140 × 210 cm",
+          "dimensions": "140 × 210 cm",
+          "contents": "Dimensiuni - 140x210cm țesătură ranforce 100%bumbac densitate 120gr./m2 compoziție textilă 100%bumbac umplutură minet antialergic cu densitatea de 400gr./m2",
+          "price": 219,
+          "inStock": true,
+          "images": [
+            "/products/ralex-470/01.webp",
+            "/products/ralex-470/02.webp",
+            "/products/ralex-470/03.webp",
+            "/products/ralex-470/04.webp"
+          ],
+          "stock": 100
+        },
+        {
+          "id": 476,
+          "sku": "476",
+          "name": "180 × 210 cm",
+          "dimensions": "180 × 210 cm",
+          "contents": "Dimensiuni - 180x210cm țesătură ranforce 100%bumbac densitate 120gr./m2 compoziție textilă 100%bumbac umplutură minet antialergic cu densitatea de 400gr./m2",
+          "price": 249,
+          "inStock": true,
+          "images": [
+            "/products/ralex-476/01.webp",
+            "/products/ralex-476/02.webp",
+            "/products/ralex-476/03.webp",
+            "/products/ralex-476/04.webp"
+          ],
+          "stock": 100
+        }
+      ]
+    }
+  }
+]

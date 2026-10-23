@@ -23246,5 +23246,69 @@
     "price": 149,
     "stock": 100,
     "inStock": true
+  },
+  {
+    "id": 470,
+    "name": "Pilotă matlasată de iarnă Ranforce, țesătură 100% bumbac, alb",
+    "category": "Pilote",
+    "categoryPath": "pilote",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Țesătură Ranforce: 100% bumbac, 120 g/m². Umplutură: minet, 400 g/m²",
+    "description": "Pilotă matlasată de iarnă Ranforce, alb.\n\nMaterial: Țesătură Ranforce: 100% bumbac, 120 g/m². Umplutură: minet, 400 g/m².\n\nDimensiuni la alegere:\n1 pilotă matlasată 140 × 210 cm.\n1 pilotă matlasată 180 × 210 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-ranforceiarna140/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1972/prod/QC_PREP/20261008/21/21468697-a52f-3838-a826-ae3966752869/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1971/prod/QC_PREP/20261008/21/06f1e431-8b1c-3824-98a3-ff9783a5dd38/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1971/prod/QC_PREP/20261008/21/f7bb80f4-053b-35da-b74f-316107a9ee53/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1972/prod/QC_PREP/20261008/21/42c824ed-3d19-3910-a81b-adacba98bc2c/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1972/prod/QC_PREP/20261008/21/21468697-a52f-3838-a826-ae3966752869/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură Ranforce: 100% bumbac, 120 g/m². Umplutură: minet, 400 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 pilotă în dimensiunea selectată."
+      }
+    ],
+    "price": 159,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 470,
+        "sku": "470",
+        "name": "140 × 210 cm",
+        "dimensions": "140 × 210 cm",
+        "contents": "1 pilotă matlasată 140 × 210 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1972/prod/QC_PREP/20261008/21/21468697-a52f-3838-a826-ae3966752869/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1971/prod/QC_PREP/20261008/21/06f1e431-8b1c-3824-98a3-ff9783a5dd38/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1971/prod/QC_PREP/20261008/21/f7bb80f4-053b-35da-b74f-316107a9ee53/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1972/prod/QC_PREP/20261008/21/42c824ed-3d19-3910-a81b-adacba98bc2c/1_org_zoom.jpg"
+        ],
+        "price": 159,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 476,
+        "sku": "476",
+        "name": "180 × 210 cm",
+        "dimensions": "180 × 210 cm",
+        "contents": "1 pilotă matlasată 180 × 210 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1973/prod/QC_PREP/20261008/21/a25f38d8-06db-3dfa-bcae-c502c19c9013/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1973/prod/QC_PREP/20261008/21/b32ae308-5e14-366d-82d7-24e43594e2d4/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1973/prod/QC_PREP/20261008/21/e070cbfc-a419-38f3-a349-0578a33d6015/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1972/prod/QC_PREP/20261008/21/1cf212d1-2efe-3288-9467-1baf67aa912c/1_org_zoom.jpg"
+        ],
+        "price": 179,
+        "stock": 100,
+        "inStock": true
+      }
+    ]
   }
 ]

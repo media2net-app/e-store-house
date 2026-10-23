@@ -5808,5 +5808,18 @@
       "162832": true
     },
     "checkedAt": "2026-10-23T20:26:14.959309+00:00"
+  },
+  {
+    "id": 470,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-ranforceiarna140/",
+    "costs": {
+      "470": 121.0,
+      "476": 136.0
+    },
+    "availability": {
+      "470": true,
+      "476": true
+    },
+    "checkedAt": "2026-10-23T20:27:42.170845+00:00"
   }
 ]
