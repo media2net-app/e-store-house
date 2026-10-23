@@ -1,0 +1,180 @@
+{
+  "authorization": "Merchant requested repairing and generating necessary images, 23 October 2026",
+  "tool": "built-in image_gen",
+  "prompt": "Additional faithful elevated bird-eye full-bed photograph; exact motifs, colors, scale, borders; four sleeping pillows; no extra cushions, no people; E-STORE HOUSE footer; portrait 2:3. Use own supplier and Control hero as references.",
+  "outputs": [
+    {
+      "index": 124,
+      "id": "163236",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/3b623d1ec38e988ecc21741217aed26ef20438554937384aef79ffdb99c25294.img",
+        "/tmp/estore-publication-review-batch4-20261023/7da4613abb9f36fb1f4cee8604d0e2f5afab72386c20bf237f52d8aad3d2f021.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-bb11e478-3d33-4af3-94ff-ee973520731a.png"
+    },
+    {
+      "index": 125,
+      "id": "163247",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/1dee1a8b11a5af2287fdf58f8cabe93a0999435af07bf0cdc18655eaca362515.img",
+        "/tmp/estore-publication-review-batch4-20261023/2ce22d2ce533798f6325b60ee0987b1e5f976f147bc46bf7932c7b107f4844b5.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-d4cb0d94-e7b2-49c5-9828-de5fca76c4ca.png"
+    },
+    {
+      "index": 126,
+      "id": "163225",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/c94c55265efa5c51e489f2d320429cd99784e123442a9e9ced1c1bd50605b991.img",
+        "/tmp/estore-publication-review-batch4-20261023/130f419d48662028bf84d6ff201f492f79aa15f2ba3e97dfd0084663b9016420.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-47afb284-b108-4a62-9443-d16eeeed1423.png"
+    },
+    {
+      "index": 127,
+      "id": "163258",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/63059fb5555b9145ed39de7af24a6098bf3db4f223e36adede58ee3afd723bef.img",
+        "/tmp/estore-publication-review-batch4-20261023/1247204aa3db3845735e2508ed788635a90a98b9a019ec2f96b44b2f4a4fd1d2.img"
+      ],
+      "path": "/tmp/estore-angle-163258.png"
+    },
+    {
+      "index": 128,
+      "id": "163206",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/61c1749ef3a9b0121552296e0b3b564eceef4cb49d22c0ab3227602ee7250589.img",
+        "/tmp/estore-publication-review-batch4-20261023/bd40ed6a53718e8463a757a6c15cb904cac422099be379449921f66dabf82385.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-8d65f663-bd8d-4f35-9886-db745af47a80.png"
+    },
+    {
+      "index": 129,
+      "id": "163220",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/4a02253d47405a71ca44f24fd2f61139df295e9e8b850841298fa2916f608eba.img",
+        "/tmp/estore-publication-review-batch4-20261023/fb0f273c6490e53a6279b47adbcd92de307f0447d4c15cc47fd801a342afb33c.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ff260ba1-4615-49ee-b9ed-8c617b437b01.png"
+    },
+    {
+      "index": 130,
+      "id": "163253",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/713b9399e6b57a5e65ddc99c0d5d5b4415a441fad79cd75d5a0178e5ee0c2724.img",
+        "/tmp/estore-publication-review-batch4-20261023/2ce7664933193654e74b07d7a4f3ffbba8d3ab2f48672e64412b8a5be11137d0.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-0bc8db88-fc75-4a07-8d63-4b2a12819ae9.png"
+    },
+    {
+      "index": 131,
+      "id": "163230",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/84cdee50d88b13cb32ef7fe8cb7723bc5b1e5903bbb13df0af131d22e3fe9e94.img",
+        "/tmp/estore-publication-review-batch4-20261023/087ea348059714e72c492fe58d2698a492ec72085a68e877695ffb7d3408e4f2.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-d20ce727-fd56-4549-bbf2-b05c49fc83a4.png"
+    },
+    {
+      "index": 132,
+      "id": "163202",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/6e7d48115c0f19fcad7f0e746148d457a0662bcbcf1c8f18a7d694ba879b287f.img",
+        "/tmp/estore-publication-review-batch4-20261023/0bb39adb694a6bf301110fadec13779177a43954dc87d1575719df80ae08566f.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-d1a2a68f-8d7c-4cdd-9dd8-f0b0f4ad8e4d.png"
+    },
+    {
+      "index": 133,
+      "id": "163215",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/75e12cb7668b73252c8c470f64db12958a33dc8b7cc6db79c9c033bf935419f9.img",
+        "/tmp/estore-publication-review-batch4-20261023/73b56552ff3488f8467ca5a5859f7728d22aa100dc698673682a8ac5feea4e20.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-14840356-0a95-4c73-8f31-745a231c8ece.png"
+    },
+    {
+      "index": 134,
+      "id": "163195",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/8b7f4bc420256818c968a8b392567a145b389e2e1e061addbded386c9b43fefd.img",
+        "/tmp/estore-publication-review-batch4-20261023/f530ff1fcae126aee995924ec31921700b26ba1903f7b54e0e2f99a6650fcb91.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-9da0a39b-beb5-4627-b991-ab4cb4ea63f9.png"
+    },
+    {
+      "index": 135,
+      "id": "163210",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/a411075064d981941334e8dad36d54bcf17c71d6087442bc3dde2db1c9888629.img",
+        "/tmp/estore-publication-review-batch4-20261023/9544dde5424e33dbf7e6e2eb86b5319394838f4bd5ee672f3ad43974235a3073.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-0f4d219e-c1fc-46d4-b597-d7e92c84d539.png"
+    },
+    {
+      "index": 136,
+      "id": "163241",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/2a8f52801d13b4fe479a40023b90404ef0f867c524a1408612da67c322592c7f.img",
+        "/tmp/estore-publication-review-batch4-20261023/bee76748c405be92ceb89467a1fe39d1c14405b9bbea647618d2294a5ba97c20.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-7c1aa805-bc0b-4c4b-8959-e952965739fd.png"
+    },
+    {
+      "index": 137,
+      "id": "163285",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/e51bbb2055552bcc7f888778c1f49987d727cb0b4dcf47749d70d9ff163e76ff.img",
+        "/tmp/estore-publication-review-batch4-20261023/817e9147b7698205f882a941f875ea35d7a4163db6ac0b349a00ff6818a0549f.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-e09f417a-0d6b-406a-8a0b-15724eb8cce3.png"
+    },
+    {
+      "index": 138,
+      "id": "163263",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/1a7510b7a4fd50ecfa990d654f75643f10f4a47859c1a831f030c2f1aed981b1.img",
+        "/tmp/estore-publication-review-batch4-20261023/467201afbb0a20bc7b5ff63cd9d0c1183040a93c827bbff9928db0cb88ba5788.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ffb88210-652b-47ca-9ce9-7eeff614d284.png"
+    },
+    {
+      "index": 139,
+      "id": "163279",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/5b44446d220400ba93b5f2e16a725a0b21a3437a5a61700695d57b5e871850d1.img",
+        "/tmp/estore-publication-review-batch4-20261023/655283e9a3a1bae65ad06b320cae36385a0bf0d938f342501278618175d8f0b8.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-3d4ff2ba-e866-4917-a699-9859459c5e87.png"
+    },
+    {
+      "index": 140,
+      "id": "163274",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/a767af668d9c1ad45e91a73e6628849869641693ebe52cdabff497c3a830153a.img",
+        "/tmp/estore-publication-review-batch4-20261023/ccc7bdda187861bcfe7f31eaa8a68a1e214ea15b10d3e87d45c1fa49df2ab6f3.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-6b87beb9-59e1-4892-a351-a3558d4e7f62.png"
+    },
+    {
+      "index": 141,
+      "id": "163290",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/cc0648ea361028f7838349f69161d6a6b175f89446f1763aede42806790266b5.img",
+        "/tmp/estore-publication-review-batch4-20261023/0bab164a93e35af57f14bfb056a6cf0477035477cbef4e749de68068c142026c.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-6ee19bef-6a5f-438b-b9a2-4a6b0abbf1cc.png"
+    },
+    {
+      "index": 142,
+      "id": "163270",
+      "paths": [
+        "/tmp/estore-publication-review-batch4-20261023/89d933fc997705fcb6bc5cf04d93fadf7ae6d79011e89df1c29994d12bae9efa.img",
+        "/tmp/estore-publication-review-batch4-20261023/055977328d8ef8da7fa301ba83e7526bb5febd7864329c465c1cb63233354b9a.img"
+      ],
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-58554dc2-40e3-4667-b627-7a940b33b7e4.png"
+    }
+  ],
+  "rejected": "163247 initial output with six pillows rejected; regenerated with four pillows.",
+  "status": "Actual outputs and source contact sheets visually reviewed."
+}

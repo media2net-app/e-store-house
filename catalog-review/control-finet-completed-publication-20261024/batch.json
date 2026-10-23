@@ -1,0 +1,159 @@
+{
+  "preparedAt": "2026-10-23T21:10:52.345442+00:00",
+  "products": [
+    {
+      "id": 163236,
+      "index": 124,
+      "skus": [
+        "163236"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163247,
+      "index": 125,
+      "skus": [
+        "163247"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163225,
+      "index": 126,
+      "skus": [
+        "163225"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163258,
+      "index": 127,
+      "skus": [
+        "163258"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163206,
+      "index": 128,
+      "skus": [
+        "163206"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163220,
+      "index": 129,
+      "skus": [
+        "163220"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163253,
+      "index": 130,
+      "skus": [
+        "163253"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163230,
+      "index": 131,
+      "skus": [
+        "163230"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163202,
+      "index": 132,
+      "skus": [
+        "163202"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163215,
+      "index": 133,
+      "skus": [
+        "163215"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163195,
+      "index": 134,
+      "skus": [
+        "163195"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163210,
+      "index": 135,
+      "skus": [
+        "163210"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163241,
+      "index": 136,
+      "skus": [
+        "163241"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163285,
+      "index": 137,
+      "skus": [
+        "163285"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163263,
+      "index": 138,
+      "skus": [
+        "163263"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163279,
+      "index": 139,
+      "skus": [
+        "163279"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163274,
+      "index": 140,
+      "skus": [
+        "163274"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163290,
+      "index": 141,
+      "skus": [
+        "163290"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 163270,
+      "index": 142,
+      "skus": [
+        "163270"
+      ],
+      "status": "verified-ready"
+    }
+  ],
+  "newModels": 19,
+  "newSkus": 19
+}
