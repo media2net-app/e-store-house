@@ -1,0 +1,3238 @@
+[
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC165",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc165/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC165"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94668,
+      "variants": [
+        {
+          "id": 94669,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 209,
+          "sku": "94669",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc165/single-01.webp",
+            "/products/prc165/single-02.webp",
+            "/products/prc165/single-03.webp",
+            "/products/prc165/single-04.webp"
+          ],
+          "inStock": true
+        },
+        {
+          "id": 94671,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94671",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc165/flat-01.webp",
+            "/products/prc165/flat-02.webp",
+            "/products/prc165/flat-03.webp",
+            "/products/prc165/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94672,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 329,
+          "sku": "94672",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc165/elastic-01.webp",
+            "/products/prc165/elastic-02.webp",
+            "/products/prc165/elastic-03.webp",
+            "/products/prc165/elastic-04.webp"
+          ],
+          "inStock": true
+        }
+      ],
+      "price": 209,
+      "images": [
+        "/products/prc165/flat-01.webp",
+        "/products/prc165/flat-02.webp",
+        "/products/prc165/flat-03.webp",
+        "/products/prc165/flat-04.webp"
+      ],
+      "image": "/products/prc165/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC165, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC166",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc166/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC166"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94673,
+      "variants": [
+        {
+          "id": 94674,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 209,
+          "sku": "94674",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc166/single-01.webp",
+            "/products/prc166/single-02.webp",
+            "/products/prc166/single-03.webp",
+            "/products/prc166/single-04.webp"
+          ],
+          "inStock": true
+        },
+        {
+          "id": 94676,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94676",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc166/flat-01.webp",
+            "/products/prc166/flat-02.webp",
+            "/products/prc166/flat-03.webp",
+            "/products/prc166/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94677,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 329,
+          "sku": "94677",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc166/elastic-01.webp",
+            "/products/prc166/elastic-02.webp",
+            "/products/prc166/elastic-03.webp",
+            "/products/prc166/elastic-04.webp"
+          ],
+          "inStock": true
+        }
+      ],
+      "price": 209,
+      "images": [
+        "/products/prc166/flat-01.webp",
+        "/products/prc166/flat-02.webp",
+        "/products/prc166/flat-03.webp",
+        "/products/prc166/flat-04.webp"
+      ],
+      "image": "/products/prc166/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC166, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC167",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc167/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC167"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94678,
+      "variants": [
+        {
+          "id": 94679,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 209,
+          "sku": "94679",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc167/single-01.webp",
+            "/products/prc167/single-02.webp",
+            "/products/prc167/single-03.webp",
+            "/products/prc167/single-04.webp"
+          ],
+          "inStock": true
+        },
+        {
+          "id": 94681,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94681",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc167/flat-01.webp",
+            "/products/prc167/flat-02.webp",
+            "/products/prc167/flat-03.webp",
+            "/products/prc167/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94682,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 329,
+          "sku": "94682",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc167/elastic-01.webp",
+            "/products/prc167/elastic-02.webp",
+            "/products/prc167/elastic-03.webp",
+            "/products/prc167/elastic-04.webp"
+          ],
+          "inStock": true
+        }
+      ],
+      "price": 209,
+      "images": [
+        "/products/prc167/flat-01.webp",
+        "/products/prc167/flat-02.webp",
+        "/products/prc167/flat-03.webp",
+        "/products/prc167/flat-04.webp"
+      ],
+      "image": "/products/prc167/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC167, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC168",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc168/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC168"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94683,
+      "variants": [
+        {
+          "id": 94684,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 209,
+          "sku": "94684",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc168/single-01.webp",
+            "/products/prc168/single-02.webp",
+            "/products/prc168/single-03.webp",
+            "/products/prc168/single-04.webp"
+          ],
+          "inStock": true
+        },
+        {
+          "id": 94686,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94686",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc168/flat-01.webp",
+            "/products/prc168/flat-02.webp",
+            "/products/prc168/flat-03.webp",
+            "/products/prc168/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94687,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 329,
+          "sku": "94687",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc168/elastic-01.webp",
+            "/products/prc168/elastic-02.webp",
+            "/products/prc168/elastic-03.webp",
+            "/products/prc168/elastic-04.webp"
+          ],
+          "inStock": true
+        }
+      ],
+      "price": 209,
+      "images": [
+        "/products/prc168/flat-01.webp",
+        "/products/prc168/flat-02.webp",
+        "/products/prc168/flat-03.webp",
+        "/products/prc168/flat-04.webp"
+      ],
+      "image": "/products/prc168/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC168, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC169",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc169/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC169"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94688,
+      "variants": [
+        {
+          "id": 94689,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 209,
+          "sku": "94689",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc169/single-01.webp",
+            "/products/prc169/single-02.webp",
+            "/products/prc169/single-03.webp",
+            "/products/prc169/single-04.webp"
+          ],
+          "inStock": true
+        },
+        {
+          "id": 94691,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94691",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc169/flat-01.webp",
+            "/products/prc169/flat-02.webp",
+            "/products/prc169/flat-03.webp",
+            "/products/prc169/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94692,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 329,
+          "sku": "94692",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc169/elastic-01.webp",
+            "/products/prc169/elastic-02.webp",
+            "/products/prc169/elastic-03.webp",
+            "/products/prc169/elastic-04.webp"
+          ],
+          "inStock": true
+        }
+      ],
+      "price": 209,
+      "images": [
+        "/products/prc169/flat-01.webp",
+        "/products/prc169/flat-02.webp",
+        "/products/prc169/flat-03.webp",
+        "/products/prc169/flat-04.webp"
+      ],
+      "image": "/products/prc169/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC169, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC170",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc170/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC170"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94693,
+      "variants": [
+        {
+          "id": 94694,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 209,
+          "sku": "94694",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc170/single-01.webp",
+            "/products/prc170/single-02.webp",
+            "/products/prc170/single-03.webp",
+            "/products/prc170/single-04.webp"
+          ],
+          "inStock": true
+        },
+        {
+          "id": 94696,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94696",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc170/flat-01.webp",
+            "/products/prc170/flat-02.webp",
+            "/products/prc170/flat-03.webp",
+            "/products/prc170/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94697,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 329,
+          "sku": "94697",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc170/elastic-01.webp",
+            "/products/prc170/elastic-02.webp",
+            "/products/prc170/elastic-03.webp",
+            "/products/prc170/elastic-04.webp"
+          ],
+          "inStock": true
+        }
+      ],
+      "price": 209,
+      "images": [
+        "/products/prc170/flat-01.webp",
+        "/products/prc170/flat-02.webp",
+        "/products/prc170/flat-03.webp",
+        "/products/prc170/flat-04.webp"
+      ],
+      "image": "/products/prc170/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC170, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC171",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc171/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC171"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94698,
+      "variants": [
+        {
+          "id": 94699,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 209,
+          "sku": "94699",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc171/single-01.webp",
+            "/products/prc171/single-02.webp",
+            "/products/prc171/single-03.webp",
+            "/products/prc171/single-04.webp"
+          ],
+          "inStock": true
+        },
+        {
+          "id": 94701,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94701",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc171/flat-01.webp",
+            "/products/prc171/flat-02.webp",
+            "/products/prc171/flat-03.webp",
+            "/products/prc171/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94702,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 329,
+          "sku": "94702",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc171/elastic-01.webp",
+            "/products/prc171/elastic-02.webp",
+            "/products/prc171/elastic-03.webp",
+            "/products/prc171/elastic-04.webp"
+          ],
+          "inStock": true
+        }
+      ],
+      "price": 209,
+      "images": [
+        "/products/prc171/flat-01.webp",
+        "/products/prc171/flat-02.webp",
+        "/products/prc171/flat-03.webp",
+        "/products/prc171/flat-04.webp"
+      ],
+      "image": "/products/prc171/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC171, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC172",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc172/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC172"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94703,
+      "variants": [
+        {
+          "id": 94704,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 209,
+          "sku": "94704",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc172/single-01.webp",
+            "/products/prc172/single-02.webp",
+            "/products/prc172/single-03.webp",
+            "/products/prc172/single-04.webp"
+          ],
+          "inStock": true
+        },
+        {
+          "id": 94706,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94706",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc172/flat-01.webp",
+            "/products/prc172/flat-02.webp",
+            "/products/prc172/flat-03.webp",
+            "/products/prc172/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94707,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 329,
+          "sku": "94707",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc172/elastic-01.webp",
+            "/products/prc172/elastic-02.webp",
+            "/products/prc172/elastic-03.webp",
+            "/products/prc172/elastic-04.webp"
+          ],
+          "inStock": true
+        }
+      ],
+      "price": 209,
+      "images": [
+        "/products/prc172/flat-01.webp",
+        "/products/prc172/flat-02.webp",
+        "/products/prc172/flat-03.webp",
+        "/products/prc172/flat-04.webp"
+      ],
+      "image": "/products/prc172/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC172, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC175",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc175/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC175"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94718,
+      "variants": [
+        {
+          "id": 94719,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 209,
+          "sku": "94719",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc175/single-01.webp",
+            "/products/prc175/single-02.webp",
+            "/products/prc175/single-03.webp",
+            "/products/prc175/single-04.webp"
+          ],
+          "inStock": true
+        },
+        {
+          "id": 94721,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94721",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc175/flat-01.webp",
+            "/products/prc175/flat-02.webp",
+            "/products/prc175/flat-03.webp",
+            "/products/prc175/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94722,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 329,
+          "sku": "94722",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc175/elastic-01.webp",
+            "/products/prc175/elastic-02.webp",
+            "/products/prc175/elastic-03.webp",
+            "/products/prc175/elastic-04.webp"
+          ],
+          "inStock": true
+        }
+      ],
+      "price": 209,
+      "images": [
+        "/products/prc175/flat-01.webp",
+        "/products/prc175/flat-02.webp",
+        "/products/prc175/flat-03.webp",
+        "/products/prc175/flat-04.webp"
+      ],
+      "image": "/products/prc175/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC175, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC176",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc176/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC176"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94723,
+      "variants": [
+        {
+          "id": 94724,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 209,
+          "sku": "94724",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc176/single-01.webp",
+            "/products/prc176/single-02.webp",
+            "/products/prc176/single-03.webp",
+            "/products/prc176/single-04.webp"
+          ],
+          "inStock": true
+        },
+        {
+          "id": 94726,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94726",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc176/flat-01.webp",
+            "/products/prc176/flat-02.webp",
+            "/products/prc176/flat-03.webp",
+            "/products/prc176/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94727,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 329,
+          "sku": "94727",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc176/elastic-01.webp",
+            "/products/prc176/elastic-02.webp",
+            "/products/prc176/elastic-03.webp",
+            "/products/prc176/elastic-04.webp"
+          ],
+          "inStock": true
+        }
+      ],
+      "price": 209,
+      "images": [
+        "/products/prc176/flat-01.webp",
+        "/products/prc176/flat-02.webp",
+        "/products/prc176/flat-03.webp",
+        "/products/prc176/flat-04.webp"
+      ],
+      "image": "/products/prc176/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC176, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC177",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc177/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC177"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94728,
+      "variants": [
+        {
+          "id": 94729,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 209,
+          "sku": "94729",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc177/single-01.webp",
+            "/products/prc177/single-02.webp",
+            "/products/prc177/single-03.webp",
+            "/products/prc177/single-04.webp"
+          ],
+          "inStock": true
+        },
+        {
+          "id": 94731,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94731",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc177/flat-01.webp",
+            "/products/prc177/flat-02.webp",
+            "/products/prc177/flat-03.webp",
+            "/products/prc177/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94732,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 329,
+          "sku": "94732",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc177/elastic-01.webp",
+            "/products/prc177/elastic-02.webp",
+            "/products/prc177/elastic-03.webp",
+            "/products/prc177/elastic-04.webp"
+          ],
+          "inStock": true
+        }
+      ],
+      "price": 209,
+      "images": [
+        "/products/prc177/flat-01.webp",
+        "/products/prc177/flat-02.webp",
+        "/products/prc177/flat-03.webp",
+        "/products/prc177/flat-04.webp"
+      ],
+      "image": "/products/prc177/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC177, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC178",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc178/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC178"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94733,
+      "variants": [
+        {
+          "id": 94734,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 209,
+          "sku": "94734",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc178/single-01.webp",
+            "/products/prc178/single-02.webp",
+            "/products/prc178/single-03.webp",
+            "/products/prc178/single-04.webp"
+          ],
+          "inStock": true
+        },
+        {
+          "id": 94736,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94736",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc178/flat-01.webp",
+            "/products/prc178/flat-02.webp",
+            "/products/prc178/flat-03.webp",
+            "/products/prc178/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94737,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 329,
+          "sku": "94737",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc178/elastic-01.webp",
+            "/products/prc178/elastic-02.webp",
+            "/products/prc178/elastic-03.webp",
+            "/products/prc178/elastic-04.webp"
+          ],
+          "inStock": true
+        }
+      ],
+      "price": 209,
+      "images": [
+        "/products/prc178/flat-01.webp",
+        "/products/prc178/flat-02.webp",
+        "/products/prc178/flat-03.webp",
+        "/products/prc178/flat-04.webp"
+      ],
+      "image": "/products/prc178/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC178, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC179",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc179/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC179"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94738,
+      "variants": [
+        {
+          "id": 94739,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 209,
+          "sku": "94739",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc179/single-01.webp",
+            "/products/prc179/single-02.webp",
+            "/products/prc179/single-03.webp",
+            "/products/prc179/single-04.webp"
+          ],
+          "inStock": true
+        },
+        {
+          "id": 94741,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94741",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc179/flat-01.webp",
+            "/products/prc179/flat-02.webp",
+            "/products/prc179/flat-03.webp",
+            "/products/prc179/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94742,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 329,
+          "sku": "94742",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc179/elastic-01.webp",
+            "/products/prc179/elastic-02.webp",
+            "/products/prc179/elastic-03.webp",
+            "/products/prc179/elastic-04.webp"
+          ],
+          "inStock": true
+        }
+      ],
+      "price": 209,
+      "images": [
+        "/products/prc179/flat-01.webp",
+        "/products/prc179/flat-02.webp",
+        "/products/prc179/flat-03.webp",
+        "/products/prc179/flat-04.webp"
+      ],
+      "image": "/products/prc179/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC179, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC180",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc180/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC180"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94743,
+      "variants": [
+        {
+          "id": 94744,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 209,
+          "sku": "94744",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc180/single-01.webp",
+            "/products/prc180/single-02.webp",
+            "/products/prc180/single-03.webp",
+            "/products/prc180/single-04.webp"
+          ],
+          "inStock": true
+        },
+        {
+          "id": 94746,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94746",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc180/flat-01.webp",
+            "/products/prc180/flat-02.webp",
+            "/products/prc180/flat-03.webp",
+            "/products/prc180/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94747,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 329,
+          "sku": "94747",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc180/elastic-01.webp",
+            "/products/prc180/elastic-02.webp",
+            "/products/prc180/elastic-03.webp",
+            "/products/prc180/elastic-04.webp"
+          ],
+          "inStock": true
+        }
+      ],
+      "price": 209,
+      "images": [
+        "/products/prc180/flat-01.webp",
+        "/products/prc180/flat-02.webp",
+        "/products/prc180/flat-03.webp",
+        "/products/prc180/flat-04.webp"
+      ],
+      "image": "/products/prc180/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC180, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC181",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc181/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC181"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94748,
+      "variants": [
+        {
+          "id": 94749,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94749",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc181/single-01.webp",
+            "/products/prc181/single-02.webp",
+            "/products/prc181/single-03.webp",
+            "/products/prc181/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94751,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94751",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc181/flat-01.webp",
+            "/products/prc181/flat-02.webp",
+            "/products/prc181/flat-03.webp",
+            "/products/prc181/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94752,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94752",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc181/elastic-01.webp",
+            "/products/prc181/elastic-02.webp",
+            "/products/prc181/elastic-03.webp",
+            "/products/prc181/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc181/flat-01.webp",
+        "/products/prc181/flat-02.webp",
+        "/products/prc181/flat-03.webp",
+        "/products/prc181/flat-04.webp"
+      ],
+      "image": "/products/prc181/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC181, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC182",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc182/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC182"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94753,
+      "variants": [
+        {
+          "id": 94754,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94754",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc182/single-01.webp",
+            "/products/prc182/single-02.webp",
+            "/products/prc182/single-03.webp",
+            "/products/prc182/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94756,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94756",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc182/flat-01.webp",
+            "/products/prc182/flat-02.webp",
+            "/products/prc182/flat-03.webp",
+            "/products/prc182/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94757,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94757",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc182/elastic-01.webp",
+            "/products/prc182/elastic-02.webp",
+            "/products/prc182/elastic-03.webp",
+            "/products/prc182/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc182/flat-01.webp",
+        "/products/prc182/flat-02.webp",
+        "/products/prc182/flat-03.webp",
+        "/products/prc182/flat-04.webp"
+      ],
+      "image": "/products/prc182/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC182, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC183",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc183/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC183"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94758,
+      "variants": [
+        {
+          "id": 94759,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94759",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc183/single-01.webp",
+            "/products/prc183/single-02.webp",
+            "/products/prc183/single-03.webp",
+            "/products/prc183/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94761,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94761",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc183/flat-01.webp",
+            "/products/prc183/flat-02.webp",
+            "/products/prc183/flat-03.webp",
+            "/products/prc183/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94762,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94762",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc183/elastic-01.webp",
+            "/products/prc183/elastic-02.webp",
+            "/products/prc183/elastic-03.webp",
+            "/products/prc183/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc183/flat-01.webp",
+        "/products/prc183/flat-02.webp",
+        "/products/prc183/flat-03.webp",
+        "/products/prc183/flat-04.webp"
+      ],
+      "image": "/products/prc183/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC183, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC184",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc184/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC184"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94763,
+      "variants": [
+        {
+          "id": 94764,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94764",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc184/single-01.webp",
+            "/products/prc184/single-02.webp",
+            "/products/prc184/single-03.webp",
+            "/products/prc184/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94766,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94766",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc184/flat-01.webp",
+            "/products/prc184/flat-02.webp",
+            "/products/prc184/flat-03.webp",
+            "/products/prc184/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94767,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94767",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc184/elastic-01.webp",
+            "/products/prc184/elastic-02.webp",
+            "/products/prc184/elastic-03.webp",
+            "/products/prc184/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc184/flat-01.webp",
+        "/products/prc184/flat-02.webp",
+        "/products/prc184/flat-03.webp",
+        "/products/prc184/flat-04.webp"
+      ],
+      "image": "/products/prc184/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC184, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC185",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc185/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC185"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94768,
+      "variants": [
+        {
+          "id": 94769,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94769",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc185/single-01.webp",
+            "/products/prc185/single-02.webp",
+            "/products/prc185/single-03.webp",
+            "/products/prc185/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94771,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94771",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc185/flat-01.webp",
+            "/products/prc185/flat-02.webp",
+            "/products/prc185/flat-03.webp",
+            "/products/prc185/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94772,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94772",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc185/elastic-01.webp",
+            "/products/prc185/elastic-02.webp",
+            "/products/prc185/elastic-03.webp",
+            "/products/prc185/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc185/flat-01.webp",
+        "/products/prc185/flat-02.webp",
+        "/products/prc185/flat-03.webp",
+        "/products/prc185/flat-04.webp"
+      ],
+      "image": "/products/prc185/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC185, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC186",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc186/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC186"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94773,
+      "variants": [
+        {
+          "id": 94774,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94774",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc186/single-01.webp",
+            "/products/prc186/single-02.webp",
+            "/products/prc186/single-03.webp",
+            "/products/prc186/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94776,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94776",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc186/flat-01.webp",
+            "/products/prc186/flat-02.webp",
+            "/products/prc186/flat-03.webp",
+            "/products/prc186/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94777,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94777",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc186/elastic-01.webp",
+            "/products/prc186/elastic-02.webp",
+            "/products/prc186/elastic-03.webp",
+            "/products/prc186/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc186/flat-01.webp",
+        "/products/prc186/flat-02.webp",
+        "/products/prc186/flat-03.webp",
+        "/products/prc186/flat-04.webp"
+      ],
+      "image": "/products/prc186/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC186, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC187",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc187/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC187"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94778,
+      "variants": [
+        {
+          "id": 94779,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94779",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc187/single-01.webp",
+            "/products/prc187/single-02.webp",
+            "/products/prc187/single-03.webp",
+            "/products/prc187/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94781,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94781",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc187/flat-01.webp",
+            "/products/prc187/flat-02.webp",
+            "/products/prc187/flat-03.webp",
+            "/products/prc187/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94782,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94782",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc187/elastic-01.webp",
+            "/products/prc187/elastic-02.webp",
+            "/products/prc187/elastic-03.webp",
+            "/products/prc187/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc187/flat-01.webp",
+        "/products/prc187/flat-02.webp",
+        "/products/prc187/flat-03.webp",
+        "/products/prc187/flat-04.webp"
+      ],
+      "image": "/products/prc187/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC187, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC188",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc188/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC188"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94783,
+      "variants": [
+        {
+          "id": 94784,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94784",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc188/single-01.webp",
+            "/products/prc188/single-02.webp",
+            "/products/prc188/single-03.webp",
+            "/products/prc188/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94786,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94786",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc188/flat-01.webp",
+            "/products/prc188/flat-02.webp",
+            "/products/prc188/flat-03.webp",
+            "/products/prc188/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94787,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94787",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc188/elastic-01.webp",
+            "/products/prc188/elastic-02.webp",
+            "/products/prc188/elastic-03.webp",
+            "/products/prc188/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc188/flat-01.webp",
+        "/products/prc188/flat-02.webp",
+        "/products/prc188/flat-03.webp",
+        "/products/prc188/flat-04.webp"
+      ],
+      "image": "/products/prc188/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC188, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC189",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc189/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC189"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94788,
+      "variants": [
+        {
+          "id": 94789,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94789",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc189/single-01.webp",
+            "/products/prc189/single-02.webp",
+            "/products/prc189/single-03.webp",
+            "/products/prc189/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94791,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94791",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc189/flat-01.webp",
+            "/products/prc189/flat-02.webp",
+            "/products/prc189/flat-03.webp",
+            "/products/prc189/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94792,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94792",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc189/elastic-01.webp",
+            "/products/prc189/elastic-02.webp",
+            "/products/prc189/elastic-03.webp",
+            "/products/prc189/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc189/flat-01.webp",
+        "/products/prc189/flat-02.webp",
+        "/products/prc189/flat-03.webp",
+        "/products/prc189/flat-04.webp"
+      ],
+      "image": "/products/prc189/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC189, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC192",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc192/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC192"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94803,
+      "variants": [
+        {
+          "id": 94804,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94804",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc192/single-01.webp",
+            "/products/prc192/single-02.webp",
+            "/products/prc192/single-03.webp",
+            "/products/prc192/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94806,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94806",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc192/flat-01.webp",
+            "/products/prc192/flat-02.webp",
+            "/products/prc192/flat-03.webp",
+            "/products/prc192/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94807,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94807",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc192/elastic-01.webp",
+            "/products/prc192/elastic-02.webp",
+            "/products/prc192/elastic-03.webp",
+            "/products/prc192/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc192/flat-01.webp",
+        "/products/prc192/flat-02.webp",
+        "/products/prc192/flat-03.webp",
+        "/products/prc192/flat-04.webp"
+      ],
+      "image": "/products/prc192/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC192, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC193",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc193/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC193"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94808,
+      "variants": [
+        {
+          "id": 94809,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94809",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc193/single-01.webp",
+            "/products/prc193/single-02.webp",
+            "/products/prc193/single-03.webp",
+            "/products/prc193/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94811,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94811",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc193/flat-01.webp",
+            "/products/prc193/flat-02.webp",
+            "/products/prc193/flat-03.webp",
+            "/products/prc193/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94812,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94812",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc193/elastic-01.webp",
+            "/products/prc193/elastic-02.webp",
+            "/products/prc193/elastic-03.webp",
+            "/products/prc193/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc193/flat-01.webp",
+        "/products/prc193/flat-02.webp",
+        "/products/prc193/flat-03.webp",
+        "/products/prc193/flat-04.webp"
+      ],
+      "image": "/products/prc193/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC193, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC194",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc194/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC194"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94813,
+      "variants": [
+        {
+          "id": 94814,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94814",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc194/single-01.webp",
+            "/products/prc194/single-02.webp",
+            "/products/prc194/single-03.webp",
+            "/products/prc194/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94816,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94816",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc194/flat-01.webp",
+            "/products/prc194/flat-02.webp",
+            "/products/prc194/flat-03.webp",
+            "/products/prc194/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94817,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94817",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc194/elastic-01.webp",
+            "/products/prc194/elastic-02.webp",
+            "/products/prc194/elastic-03.webp",
+            "/products/prc194/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc194/flat-01.webp",
+        "/products/prc194/flat-02.webp",
+        "/products/prc194/flat-03.webp",
+        "/products/prc194/flat-04.webp"
+      ],
+      "image": "/products/prc194/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC194, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC195",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc195/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC195"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94818,
+      "variants": [
+        {
+          "id": 94819,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94819",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc195/single-01.webp",
+            "/products/prc195/single-02.webp",
+            "/products/prc195/single-03.webp",
+            "/products/prc195/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94821,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94821",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc195/flat-01.webp",
+            "/products/prc195/flat-02.webp",
+            "/products/prc195/flat-03.webp",
+            "/products/prc195/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94822,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94822",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc195/elastic-01.webp",
+            "/products/prc195/elastic-02.webp",
+            "/products/prc195/elastic-03.webp",
+            "/products/prc195/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc195/flat-01.webp",
+        "/products/prc195/flat-02.webp",
+        "/products/prc195/flat-03.webp",
+        "/products/prc195/flat-04.webp"
+      ],
+      "image": "/products/prc195/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC195, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC197",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc197/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC197"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94828,
+      "variants": [
+        {
+          "id": 94829,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94829",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc197/single-01.webp",
+            "/products/prc197/single-02.webp",
+            "/products/prc197/single-03.webp",
+            "/products/prc197/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94831,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94831",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc197/flat-01.webp",
+            "/products/prc197/flat-02.webp",
+            "/products/prc197/flat-03.webp",
+            "/products/prc197/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94832,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94832",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc197/elastic-01.webp",
+            "/products/prc197/elastic-02.webp",
+            "/products/prc197/elastic-03.webp",
+            "/products/prc197/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc197/flat-01.webp",
+        "/products/prc197/flat-02.webp",
+        "/products/prc197/flat-03.webp",
+        "/products/prc197/flat-04.webp"
+      ],
+      "image": "/products/prc197/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC197, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC200",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc200/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC200"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94843,
+      "variants": [
+        {
+          "id": 94844,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94844",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc200/single-01.webp",
+            "/products/prc200/single-02.webp",
+            "/products/prc200/single-03.webp",
+            "/products/prc200/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94846,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94846",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc200/flat-01.webp",
+            "/products/prc200/flat-02.webp",
+            "/products/prc200/flat-03.webp",
+            "/products/prc200/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94847,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94847",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc200/elastic-01.webp",
+            "/products/prc200/elastic-02.webp",
+            "/products/prc200/elastic-03.webp",
+            "/products/prc200/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc200/flat-01.webp",
+        "/products/prc200/flat-02.webp",
+        "/products/prc200/flat-03.webp",
+        "/products/prc200/flat-04.webp"
+      ],
+      "image": "/products/prc200/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC200, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC201",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc201/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC201"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94848,
+      "variants": [
+        {
+          "id": 94849,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94849",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc201/single-01.webp",
+            "/products/prc201/single-02.webp",
+            "/products/prc201/single-03.webp",
+            "/products/prc201/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94851,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94851",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc201/flat-01.webp",
+            "/products/prc201/flat-02.webp",
+            "/products/prc201/flat-03.webp",
+            "/products/prc201/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94852,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94852",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc201/elastic-01.webp",
+            "/products/prc201/elastic-02.webp",
+            "/products/prc201/elastic-03.webp",
+            "/products/prc201/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc201/flat-01.webp",
+        "/products/prc201/flat-02.webp",
+        "/products/prc201/flat-03.webp",
+        "/products/prc201/flat-04.webp"
+      ],
+      "image": "/products/prc201/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC201, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC202",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc202/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC202"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94853,
+      "variants": [
+        {
+          "id": 94854,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94854",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc202/single-01.webp",
+            "/products/prc202/single-02.webp",
+            "/products/prc202/single-03.webp",
+            "/products/prc202/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94856,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94856",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc202/flat-01.webp",
+            "/products/prc202/flat-02.webp",
+            "/products/prc202/flat-03.webp",
+            "/products/prc202/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94857,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94857",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc202/elastic-01.webp",
+            "/products/prc202/elastic-02.webp",
+            "/products/prc202/elastic-03.webp",
+            "/products/prc202/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc202/flat-01.webp",
+        "/products/prc202/flat-02.webp",
+        "/products/prc202/flat-03.webp",
+        "/products/prc202/flat-04.webp"
+      ],
+      "image": "/products/prc202/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC202, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "name": "Lenjerie de pat Percale, 100% bumbac — PRC203",
+      "category": "Lenjerii percalle 100% bumbac",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc203/",
+      "material": "100% bumbac",
+      "features": [
+        {
+          "label": "Material",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Colecție",
+          "value": "Percale"
+        },
+        {
+          "label": "Model",
+          "value": "PRC203"
+        },
+        {
+          "label": "Densitate",
+          "value": "130 g/m²"
+        },
+        {
+          "label": "Țesătură",
+          "value": "TC 250, două fețe"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Cutie cadou"
+        }
+      ],
+      "inStock": true,
+      "id": 94858,
+      "variants": [
+        {
+          "id": 94859,
+          "name": "O persoană — 3 piese",
+          "dimensions": "160 x 240 cm",
+          "price": 339,
+          "sku": "94859",
+          "contents": "– cearsaf pat – 160x240cm – cearsaf pilota – 150x220cm – 1 x fata perna – 50x70cm",
+          "images": [
+            "/products/prc203/single-01.webp",
+            "/products/prc203/single-02.webp",
+            "/products/prc203/single-03.webp",
+            "/products/prc203/single-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94861,
+          "name": "King size — 6 piese",
+          "dimensions": "240 x 260 cm",
+          "price": 539,
+          "sku": "94861",
+          "contents": "– cearsaf pat – 240x260cm – cearsaf pilota – 200x230cm – 2 x fata perna – 50x70cm – 2 x fata perna – 70x70cm",
+          "images": [
+            "/products/prc203/flat-01.webp",
+            "/products/prc203/flat-02.webp",
+            "/products/prc203/flat-03.webp",
+            "/products/prc203/flat-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 94862,
+          "name": "King size cu elastic — 6 piese",
+          "dimensions": "180 x 200 + 25 cm",
+          "price": 549,
+          "sku": "94862",
+          "contents": "Cearșaf cu elastic 180 x 200 + 25 cm; husă pilotă 200 x 230 cm; 2 fețe de pernă 50 x 70 cm și 2 fețe de pernă 70 x 70 cm.",
+          "images": [
+            "/products/prc203/elastic-01.webp",
+            "/products/prc203/elastic-02.webp",
+            "/products/prc203/elastic-03.webp",
+            "/products/prc203/elastic-04.webp"
+          ],
+          "inStock": true,
+          "stock": 100
+        }
+      ],
+      "price": 339,
+      "images": [
+        "/products/prc203/flat-01.webp",
+        "/products/prc203/flat-02.webp",
+        "/products/prc203/flat-03.webp",
+        "/products/prc203/flat-04.webp"
+      ],
+      "image": "/products/prc203/flat-04.webp",
+      "description": "Lenjerie de pat Percale PRC203, realizată din bumbac 100%, cu două fețe. Țesătura are densitatea de 130 g/m² și TC 250. Setul este ambalat în cutie cadou. Alege dimensiunea pentru a vedea componentele, fotografiile și prețul variantei dorite. Dimensiunile afișate la selecție se referă la cearșaful de pat.",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat"
+    }
+  }
+]

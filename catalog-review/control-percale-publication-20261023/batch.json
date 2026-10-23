@@ -1,0 +1,413 @@
+{
+  "preparedAt": "2026-10-23T20:00:39.497050+00:00",
+  "products": [
+    {
+      "id": 94748,
+      "indices": [
+        143,
+        496
+      ],
+      "skus": [
+        "94749",
+        "94751"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94753,
+      "indices": [
+        144
+      ],
+      "skus": [
+        "94754"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94758,
+      "indices": [
+        145,
+        498
+      ],
+      "skus": [
+        "94759",
+        "94761"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94763,
+      "indices": [
+        146
+      ],
+      "skus": [
+        "94766"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94768,
+      "indices": [
+        147,
+        148
+      ],
+      "skus": [
+        "94769",
+        "94771"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94773,
+      "indices": [
+        150,
+        500
+      ],
+      "skus": [
+        "94774",
+        "94776"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94778,
+      "indices": [
+        151,
+        152
+      ],
+      "skus": [
+        "94779",
+        "94781"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94783,
+      "indices": [
+        154,
+        155
+      ],
+      "skus": [
+        "94784",
+        "94786"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94788,
+      "indices": [
+        156,
+        501
+      ],
+      "skus": [
+        "94789",
+        "94791"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94803,
+      "indices": [
+        159,
+        160
+      ],
+      "skus": [
+        "94804",
+        "94806"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94808,
+      "indices": [
+        162
+      ],
+      "skus": [
+        "94811"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94813,
+      "indices": [
+        163
+      ],
+      "skus": [
+        "94814"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94818,
+      "indices": [
+        164,
+        165
+      ],
+      "skus": [
+        "94819",
+        "94821"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94828,
+      "indices": [
+        166,
+        167
+      ],
+      "skus": [
+        "94829",
+        "94831"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94848,
+      "indices": [
+        168,
+        169
+      ],
+      "skus": [
+        "94849",
+        "94851"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94858,
+      "indices": [
+        170,
+        171
+      ],
+      "skus": [
+        "94859",
+        "94861"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94688,
+      "indices": [
+        172
+      ],
+      "skus": [
+        "94691"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94683,
+      "indices": [
+        173
+      ],
+      "skus": [
+        "94686"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94723,
+      "indices": [
+        174
+      ],
+      "skus": [
+        "94726"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94733,
+      "indices": [
+        175
+      ],
+      "skus": [
+        "94736"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94698,
+      "indices": [
+        176
+      ],
+      "skus": [
+        "94701"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94718,
+      "indices": [
+        177
+      ],
+      "skus": [
+        "94721"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94678,
+      "indices": [
+        178
+      ],
+      "skus": [
+        "94681"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94743,
+      "indices": [
+        179
+      ],
+      "skus": [
+        "94746"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94728,
+      "indices": [
+        180
+      ],
+      "skus": [
+        "94731"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94703,
+      "indices": [
+        181
+      ],
+      "skus": [
+        "94706"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94673,
+      "indices": [
+        182
+      ],
+      "skus": [
+        "94676"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94738,
+      "indices": [
+        183
+      ],
+      "skus": [
+        "94741"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94668,
+      "indices": [
+        184
+      ],
+      "skus": [
+        "94671"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94693,
+      "indices": [
+        185
+      ],
+      "skus": [
+        "94696"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94843,
+      "indices": [
+        506
+      ],
+      "skus": [
+        "94846"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94853,
+      "indices": [
+        509
+      ],
+      "skus": [
+        "94856"
+      ],
+      "status": "verified-ready"
+    }
+  ],
+  "held": [
+    {
+      "index": 149,
+      "reason": "supplier-variant-dimensions-missing"
+    },
+    {
+      "index": 153,
+      "reason": "supplier-variant-dimensions-missing"
+    },
+    {
+      "index": 157,
+      "reason": "supplier-mapping-missing"
+    },
+    {
+      "index": 158,
+      "reason": "supplier-mapping-missing"
+    },
+    {
+      "index": 161,
+      "reason": "supplier-variant-dimensions-missing"
+    },
+    {
+      "index": 495,
+      "reason": "supplier-variant-dimensions-missing"
+    },
+    {
+      "index": 497,
+      "reason": "supplier-variant-dimensions-missing"
+    },
+    {
+      "index": 499,
+      "reason": "supplier-variant-dimensions-missing"
+    },
+    {
+      "index": 502,
+      "reason": "supplier-variant-dimensions-missing"
+    },
+    {
+      "index": 503,
+      "reason": "supplier-variant-dimensions-missing"
+    },
+    {
+      "index": 504,
+      "reason": "supplier-variant-dimensions-missing"
+    },
+    {
+      "index": 505,
+      "reason": "supplier-variant-dimensions-missing"
+    },
+    {
+      "index": 507,
+      "reason": "supplier-variant-dimensions-missing"
+    },
+    {
+      "index": 508,
+      "reason": "supplier-variant-dimensions-missing"
+    },
+    {
+      "index": 510,
+      "reason": "supplier-variant-dimensions-missing"
+    }
+  ],
+  "newModels": 32,
+  "newSkus": 44
+}
