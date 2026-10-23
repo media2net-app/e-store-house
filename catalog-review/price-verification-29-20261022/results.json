@@ -5663,5 +5663,103 @@
       "81204": true
     },
     "checkedAt": "2026-10-23T20:18:31.027091+00:00"
+  },
+  {
+    "id": 105538,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-25/",
+    "costs": {
+      "105538": 127.0
+    },
+    "availability": {
+      "105538": true
+    },
+    "checkedAt": "2026-10-23T20:20:22.983280+00:00"
+  },
+  {
+    "id": 107630,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-32/",
+    "costs": {
+      "107630": 127.0
+    },
+    "availability": {
+      "107630": true
+    },
+    "checkedAt": "2026-10-23T20:20:22.983280+00:00"
+  },
+  {
+    "id": 94110,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-pat-ranforce-100-bbc-cu-husa/lenjerie-de-pat-ranforce-100-bumbac-cu-husa-universala-pentru-saltea-de-140cm-x-200cm-160cm-x-200cm-7/",
+    "costs": {
+      "94110": 262.0
+    },
+    "availability": {
+      "94110": true
+    },
+    "checkedAt": "2026-10-23T20:20:22.983280+00:00"
+  },
+  {
+    "id": 94109,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-pat-ranforce-100-bbc-cu-husa/lenjerie-de-pat-ranforce-100-bumbac-cu-husa-universala-pentru-saltea-de-140cm-x-200cm-160cm-x-200cm-6/",
+    "costs": {
+      "94109": 262.0
+    },
+    "availability": {
+      "94109": true
+    },
+    "checkedAt": "2026-10-23T20:20:22.983280+00:00"
+  },
+  {
+    "id": 94319,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-umplutura-super-densa-pana-si-puf-gasca-fata-bumbac-100/",
+    "costs": {
+      "94319": 193.0
+    },
+    "availability": {
+      "94319": false
+    },
+    "checkedAt": "2026-10-23T20:20:22.983280+00:00"
+  },
+  {
+    "id": 94083,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-pat-ranforce-100-bbc-cu-husa/lenjerie-de-pat-ranforce-100-bumbac-cu-husa-universala-pentru-saltea-de-140cm-x-200cm-160cm-x-200cm/",
+    "costs": {
+      "94083": 262.0
+    },
+    "availability": {
+      "94083": true
+    },
+    "checkedAt": "2026-10-23T20:20:22.983280+00:00"
+  },
+  {
+    "id": 82449,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-damasc-policoton-alb/",
+    "costs": {
+      "82450": 127,
+      "82451": 145,
+      "82452": 165,
+      "82453": 180
+    },
+    "availability": {
+      "82450": true,
+      "82451": true,
+      "82452": true,
+      "82453": true
+    },
+    "checkedAt": "2026-10-23T20:20:57.712705+00:00"
+  },
+  {
+    "id": 94317,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-line-70x140cm-550g-m2/",
+    "costs": {
+      "105733": 22,
+      "105734": 42,
+      "110224": 9
+    },
+    "availability": {
+      "105733": true,
+      "105734": true,
+      "110224": true
+    },
+    "checkedAt": "2026-10-23T20:20:57.712705+00:00"
   }
 ]

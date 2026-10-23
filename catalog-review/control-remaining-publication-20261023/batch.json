@@ -1,0 +1,55 @@
+{
+  "preparedAt": "2026-10-23T20:20:22.983280+00:00",
+  "products": [
+    {
+      "id": 105538,
+      "index": 186,
+      "skus": [
+        "105538"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 107630,
+      "index": 187,
+      "skus": [
+        "107630"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94110,
+      "index": 223,
+      "skus": [
+        "94110"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94109,
+      "index": 225,
+      "skus": [
+        "94109"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94319,
+      "index": 257,
+      "skus": [
+        "94319"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94083,
+      "index": 480,
+      "skus": [
+        "94083"
+      ],
+      "status": "verified-ready"
+    }
+  ],
+  "newModels": 6,
+  "newSkus": 6
+}

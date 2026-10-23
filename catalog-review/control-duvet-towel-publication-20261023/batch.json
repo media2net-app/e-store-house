@@ -1,0 +1,33 @@
+{
+  "preparedAt": "2026-10-23T20:20:57.712705+00:00",
+  "products": [
+    {
+      "id": 82449,
+      "indices": [
+        262
+      ],
+      "skus": [
+        "82450",
+        "82451",
+        "82452",
+        "82453"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 94317,
+      "indices": [
+        280
+      ],
+      "skus": [
+        "105733",
+        "105734",
+        "110224"
+      ],
+      "status": "verified-ready"
+    }
+  ],
+  "held": [],
+  "newModels": 2,
+  "newSkus": 7
+}
