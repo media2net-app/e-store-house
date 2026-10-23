@@ -1,0 +1,208 @@
+[
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "variant_gallery_incomplete"
+    ],
+    "product": {
+      "id": 440,
+      "name": "Pernă matlasată antiaglomerare",
+      "category": "Perne și protecții pernă",
+      "categoryPath": "perne",
+      "brand": "Ralex Pucioasa",
+      "currency": "Lei",
+      "externalUrl": "https://ralexpucioasa.ro/store/perne/perna-matlasata-hypoalergenica-antiaglomerare-40x40cm/",
+      "description": "Pernă matlasată antiaglomerare. Alege dimensiunea pentru a vedea conținutul, specificațiile, prețul și imaginile variantei.",
+      "features": [
+        {
+          "label": "Mărimi",
+          "value": "40 × 40 cm; 50 × 70 cm; 65 × 65 cm / 70 × 70 cm"
+        }
+      ],
+      "images": [
+        "/products/ralex-440/01.webp",
+        "/products/ralex-440/02.webp",
+        "/products/ralex-440/03.webp",
+        "/products/ralex-440/04.webp"
+      ],
+      "image": "/products/ralex-440/01.webp",
+      "price": 29,
+      "inStock": true,
+      "material": "Micropercal; umplutură siliconizată antiaglomerare.",
+      "variants": [
+        {
+          "id": 440,
+          "sku": "440",
+          "name": "40 × 40 cm",
+          "dimensions": "40 × 40 cm",
+          "contents": "Dimensiuni - 40x40cm țesătură matlasată micropercal umplutură siliconizată antiaglomerare lavabilă Dimensiuni – 40x40cm țesătură matlasată micropercal umplutură siliconizată antiaglomerare lavabilă",
+          "price": 29,
+          "inStock": true,
+          "images": [
+            "/products/ralex-440/01.webp",
+            "/products/ralex-440/02.webp",
+            "/products/ralex-440/03.webp",
+            "/products/ralex-440/04.webp"
+          ],
+          "stock": 100
+        },
+        {
+          "id": 442,
+          "sku": "442",
+          "name": "50 × 70 cm",
+          "dimensions": "50 × 70 cm",
+          "contents": "Dimensiuni - 50x70cm țesătură matlasată micropercal umplutură siliconizată antiaglomerare lavabilă Dimensiuni – 50x70cm țesătură matlasată micropercal umplutură siliconizată antiaglomerare lavabilă",
+          "price": 69,
+          "inStock": true,
+          "images": [
+            "/products/ralex-442/01.webp"
+          ],
+          "stock": 100
+        },
+        {
+          "id": 443,
+          "sku": "443",
+          "name": "65 × 65 cm / 70 × 70 cm",
+          "dimensions": "65 × 65 cm / 70 × 70 cm",
+          "contents": "Dimensiuni - 65x65cm sau 70x70cm țesătură matlasată micropercal umplutură siliconizată antiaglomerare lavabilă Dimensiuni – 65x65cm sau 70x70cm țesătură matlasată micropercal umplutură siliconizată antiaglomerare lavabilă",
+          "price": 49,
+          "inStock": true,
+          "images": [
+            "/products/ralex-443/01.webp"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 101872,
+      "name": "Lenjerie de pat Economy 6 piese cu husă (ECNH38) — roșu",
+      "category": "LENJERII DE PAT ECONOMY",
+      "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-economy",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Dimensiuni:\nCearsaf pat cu elastic: 180 x 200 x 25 cm\nCearsaf pilota: 200 x 230 cm\nFață pernă: 50 x 70 cm – 2 buc / 70 x 70 cm – 2 buc\nProprietăți țesătură:\nCompoziție textilă: 100% poliester/microfibră\nSe spală manual sau la mașina de spălat la o temperatură de 40*C. Pentru spălarea manuală adăugați 200g de detergent sintetic la 4-5l apă.\nLenjeria de pat economy 100% poliester este o alegere excelentă pentru cei care caută o opțiune accesibilă și practică pentru dormitorul lor. Acest material este cunoscut pentru durabilitatea sa, rezistența la decolorare și ușurința în întreținere.\nAvantajele lenjeriei de pat economy 100% poliester:\nDurabilă: Poliesterul este un material foarte durabil, care poate rezista la uzură și spălare frecventă.\nRezistent la decolorare: Lenjeria de pat din poliester nu se decolorează ușor, chiar și după numeroase spălări.\nUșor de întreținut: Poliesterul este un material ușor de întreținut, care poate fi spălat la mașină și uscat la uscător.\nRespirabil: Poliesterul este un material respirabil, care vă va menține confortabil pe tot parcursul nopții.",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-economy/lenjerie-de-pat-economy-6-piese-cu-husa-ecnh38/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260409/16/b027db72-9e7c-3504-a4bb-293853fa2770/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260409/16/97dd6645-b028-32d0-af26-7748820dbdad/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260409/16/c5d41e2a-b4ed-35cd-ba98-4a7f6fefaf55/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260409/16/275f234e-713f-3980-a584-bdf873cf53b2/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260409/16/b027db72-9e7c-3504-a4bb-293853fa2770/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 179,
+      "sku": "101872",
+      "stock": 9
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 94919,
+      "name": "Pernă luxury — Alb",
+      "category": "PERNE ȘI PROTECȚII PERNĂ",
+      "categoryPath": "perne",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Specificații\nȚesătură PERCALLE\nCompoziție tesătură 80% bumbac + 20% poliester\nUmplutură fibră microgel",
+      "externalUrl": "https://ralexpucioasa.ro/store/perne/perna-luxury/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261013/18/30ef8fc2-e2a7-329a-86ba-7e38f590221f/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261013/18/06df83a9-f521-3bcd-838d-d7156147169f/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261013/18/75eddd1b-2708-3aee-9177-9af957924d3a/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261013/18/7e4548d4-49c1-378e-a5dc-d7e562092a4e/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261013/18/30ef8fc2-e2a7-329a-86ba-7e38f590221f/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 109,
+      "variants": [
+        {
+          "id": 94921,
+          "sku": "94921",
+          "name": "50cm x 70cm",
+          "dimensions": "",
+          "contents": "50cm x 70cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261013/18/30ef8fc2-e2a7-329a-86ba-7e38f590221f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261013/18/06df83a9-f521-3bcd-838d-d7156147169f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261013/18/75eddd1b-2708-3aee-9177-9af957924d3a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261013/18/7e4548d4-49c1-378e-a5dc-d7e562092a4e/1_org_zoom.jpg"
+          ],
+          "price": 109,
+          "inStock": true,
+          "stock": 100
+        }
+      ]
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 95157,
+      "name": "Lenjerie de pat damasc 80% BUMBAC + 20% POLIESTER — Alb optic",
+      "category": "LENJERII DE PAT DAMASC-COLOR",
+      "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerie-de-pat-damasc-color",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Descriere produs:\n– Compoziție textilă – 80% BUMBAC + 20%\n– Densitate țesătură – 170g / mp\n– Densitate material – 280 TC/2.5 cm\n– Material cu linii 1 cm\n– Culoare Alb optic\nLenjerie de pat damasc 80% bumbac + 20% poliester – soluția practică pentru HORECA și acasă\nLenjerie de pat din damasc 80% bumbac și 20% poliester este concepută pentru utilizare intensivă, fiind alegerea ideală pentru HORECA, dar și pentru uz casnic, atunci când se dorește un echilibru perfect între confort, durabilitate și întreținere ușoară. Țesătura damasc cu model discret oferă un aspect elegant, de inspirație hotelieră.\nAvantaje cheie – lenjerie de pat damasc bumbac + poliester\nCompoziție echilibrată (80% bumbac / 20% poliester) – confort natural + rezistență suplimentară\nȚesătură damasc profesională – aspect premium, dungi/jacquard elegante\nRezistență ridicată la spălări industriale – ideală pentru HORECA\nȘifonare redusă – se calcă mai ușor față de bumbacul 100%\nStabilitate dimensională – își păstrează forma și culoarea în timp\nConfort plăcut – respirabilă, potrivită pentru toate anotimpurile\nRecomandată pentru\nHORECA & profesional: hoteluri, pensiuni, hosteluri, spitale, clinici, centre SPA\nUz casnic: familii active, case de vacanță, apartamente închiriate\nSpecificații lenjerie de pat damasc\nMaterial: damasc 80% bumbac / 20% poliester\nCuloare: alb hotelier (alte culori disponibile la cerere)\nSeturi disponibile:\ncearșaf de pat\ncearșaf pilotă\nfețe de pernă\nDimensiuni: standard HORECA și dimensiuni uz casnic\nDisponibilitate: GROS și RETAIL\nDe ce să alegi lenjeria de pat damasc 80/20?\nAceastă lenjerie de pat damasc bumbac poliester este soluția ideală pentru cei care caută costuri optimizate, durabilitate crescută și aspect hotelier pe termen lung. Este preferată în unități cu rulaj mare, dar apreciată și acasă pentru ușurința în întreținere.",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerie-de-pat-damasc-color/lenjerie-pat-damasc-80-bumbac-20-poliester-horeca/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261013/18/59268a71-441d-3e49-bd99-d18aa9f8dd2a/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261013/18/fad6d08e-aa07-3daf-bddf-e131a8e8b165/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261013/18/b3babe5b-dbfd-300e-a521-3b848a2c9fea/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261013/18/de889afc-0b72-3f67-9335-0d4cefeccbe9/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261013/18/59268a71-441d-3e49-bd99-d18aa9f8dd2a/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 439,
+      "variants": [
+        {
+          "id": 95160,
+          "sku": "95160",
+          "name": "King size",
+          "dimensions": "",
+          "contents": "King size",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1978/prod/QC_PREP/20261013/18/59268a71-441d-3e49-bd99-d18aa9f8dd2a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261013/18/fad6d08e-aa07-3daf-bddf-e131a8e8b165/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261013/18/b3babe5b-dbfd-300e-a521-3b848a2c9fea/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261013/18/de889afc-0b72-3f67-9335-0d4cefeccbe9/1_org_zoom.jpg"
+          ],
+          "price": 439,
+          "inStock": true,
+          "stock": 100
+        }
+      ]
+    }
+  }
+]

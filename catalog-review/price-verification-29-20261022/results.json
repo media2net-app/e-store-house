@@ -7561,5 +7561,71 @@
       "163178": true
     },
     "checkedAt": "2026-10-23T23:21:57.761400+00:00"
+  },
+  {
+    "id": 95289,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/fata-perna-damasc-100-bumbac-mov/",
+    "costs": {
+      "95291": 25
+    },
+    "availability": {
+      "95291": true
+    },
+    "checkedAt": "2026-10-23T23:32:20.424972+00:00"
+  },
+  {
+    "id": 95063,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerie-de-pat-damasc-color/lenjerie-pat-damasc-100-bumbac-horeca-uz-casnic-3/",
+    "costs": {
+      "95064": 274
+    },
+    "availability": {
+      "95064": true
+    },
+    "checkedAt": "2026-10-23T23:32:20.424972+00:00"
+  },
+  {
+    "id": 95157,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerie-de-pat-damasc-color/lenjerie-pat-damasc-80-bumbac-20-poliester-horeca/",
+    "costs": {
+      "95160": 240
+    },
+    "availability": {
+      "95160": true
+    },
+    "checkedAt": "2026-10-23T23:32:20.424972+00:00"
+  },
+  {
+    "id": 101872,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-economy/lenjerie-de-pat-economy-6-piese-cu-husa-ecnh38/",
+    "costs": {
+      "101872": 97.0
+    },
+    "availability": {
+      "101872": false
+    },
+    "checkedAt": "2026-10-23T23:32:20.424972+00:00"
+  },
+  {
+    "id": 94919,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-luxury/",
+    "costs": {
+      "94921": 58
+    },
+    "availability": {
+      "94921": true
+    },
+    "checkedAt": "2026-10-23T23:32:20.424972+00:00"
+  },
+  {
+    "id": 440,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-matlasata-hypoalergenica-antiaglomerare-40x40cm/",
+    "costs": {
+      "440": 13.0
+    },
+    "availability": {
+      "440": true
+    },
+    "checkedAt": "2026-10-23T23:32:20.424972+00:00"
   }
 ]

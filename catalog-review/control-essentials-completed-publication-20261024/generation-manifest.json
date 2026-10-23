@@ -1,0 +1,69 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested necessary gallery repairs",
+  "prompt": "Own supplier and Control photo references. Distinct low side view for bedding or single pillow lying on walnut bench. Preserve exact construction, stripes, motifs, dimensions and colors. Economy additionally overhead. No text. Portrait 2:3.",
+  "outputs": [
+    {
+      "index": 62,
+      "id": "95289",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/95289-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/4cdd7518103d85a939737dd087ea1e856067e42c7b136b43e88be8326c48d7f2.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/95289-essentials-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ca744657-d8ec-4921-90ba-39c816f0b40c.png"
+    },
+    {
+      "index": 66,
+      "id": "95063",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/95063-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/a6466790cfd189f7d6daa4f526279a17d721d035c912b77a15b692ee12be35cd.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/95063-essentials-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-5a9c6751-ca4e-455c-accb-c3fa990570ae.png"
+    },
+    {
+      "index": 68,
+      "id": "95157",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/95157-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/550495a21d383dcc34da695a61696ab8f4c611f55e7d637b15655514aadc7b5a.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/95157-essentials-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-cf50a674-30d5-4b42-8668-fe29235cb40a.png"
+    },
+    {
+      "index": 245,
+      "id": "101872",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/101872-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/a25c4bebf828aeb51254092e795ea0a32533d9a5d0c14453b81faff907cace8f.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/101872-essentials-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ac4f829c-e995-4a6a-b5fb-b148411fb352.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-50bad40c-6f8f-45a0-8901-ec71924b3f5c.png"
+    },
+    {
+      "index": 251,
+      "id": "94919",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/94919-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/531b5a2d69f18abfe779f947c192c4bfa0985a00bcd488346eb1ed60aaed3d37.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/94919-essentials-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-f97f9464-77d5-482f-ba13-15c7bd45b950.png"
+    },
+    {
+      "index": 254,
+      "id": "440",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/440-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/e46256b01a6fbf388b19179c2e9779948b0027776a2f29fbd4668b976a834e5c.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/440-essentials-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-dfcc0776-2442-4052-a86f-3353cd5d4370.png"
+    }
+  ],
+  "review": "Seven final images visually reviewed. First 95157 output rejected for crosswise duvet stripes and regenerated preserving head-to-foot direction."
+}
