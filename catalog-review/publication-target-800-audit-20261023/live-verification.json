@@ -1,0 +1,586 @@
+{
+  "batch": "publication-target-800-audit-20261023",
+  "checkedAt": "2026-10-23T20:30:51.958679+00:00",
+  "catalogCount": 487,
+  "results": [
+    {
+      "id": 94748,
+      "status": "live"
+    },
+    {
+      "id": 94758,
+      "status": "live"
+    },
+    {
+      "id": 94768,
+      "status": "live"
+    },
+    {
+      "id": 94773,
+      "status": "live"
+    },
+    {
+      "id": 94778,
+      "status": "live"
+    },
+    {
+      "id": 94783,
+      "status": "live"
+    },
+    {
+      "id": 94788,
+      "status": "live"
+    },
+    {
+      "id": 94803,
+      "status": "live"
+    },
+    {
+      "id": 94818,
+      "status": "live"
+    },
+    {
+      "id": 94828,
+      "status": "live"
+    },
+    {
+      "id": 94848,
+      "status": "live"
+    },
+    {
+      "id": 94858,
+      "status": "live"
+    },
+    {
+      "id": 94688,
+      "status": "live"
+    },
+    {
+      "id": 94683,
+      "status": "live"
+    },
+    {
+      "id": 94723,
+      "status": "live"
+    },
+    {
+      "id": 94733,
+      "status": "live"
+    },
+    {
+      "id": 94698,
+      "status": "live"
+    },
+    {
+      "id": 94718,
+      "status": "live"
+    },
+    {
+      "id": 94678,
+      "status": "live"
+    },
+    {
+      "id": 94743,
+      "status": "live"
+    },
+    {
+      "id": 94728,
+      "status": "live"
+    },
+    {
+      "id": 94703,
+      "status": "live"
+    },
+    {
+      "id": 94673,
+      "status": "live"
+    },
+    {
+      "id": 94738,
+      "status": "live"
+    },
+    {
+      "id": 94668,
+      "status": "live"
+    },
+    {
+      "id": 94693,
+      "status": "live"
+    },
+    {
+      "id": 89884,
+      "status": "live"
+    },
+    {
+      "id": 89886,
+      "status": "live"
+    },
+    {
+      "id": 89887,
+      "status": "live"
+    },
+    {
+      "id": 89888,
+      "status": "live"
+    },
+    {
+      "id": 91207,
+      "status": "live"
+    },
+    {
+      "id": 91213,
+      "status": "live"
+    },
+    {
+      "id": 91215,
+      "status": "live"
+    },
+    {
+      "id": 91216,
+      "status": "live"
+    },
+    {
+      "id": 94111,
+      "status": "live"
+    },
+    {
+      "id": 94119,
+      "status": "live"
+    },
+    {
+      "id": 94115,
+      "status": "live"
+    },
+    {
+      "id": 94120,
+      "status": "live"
+    },
+    {
+      "id": 94114,
+      "status": "live"
+    },
+    {
+      "id": 94122,
+      "status": "live"
+    },
+    {
+      "id": 94113,
+      "status": "live"
+    },
+    {
+      "id": 94118,
+      "status": "live"
+    },
+    {
+      "id": 95951,
+      "status": "live"
+    },
+    {
+      "id": 95952,
+      "status": "live"
+    },
+    {
+      "id": 95950,
+      "status": "live"
+    },
+    {
+      "id": 95953,
+      "status": "live"
+    },
+    {
+      "id": 91227,
+      "status": "live"
+    },
+    {
+      "id": 91230,
+      "status": "live"
+    },
+    {
+      "id": 91225,
+      "status": "live"
+    },
+    {
+      "id": 91228,
+      "status": "live"
+    },
+    {
+      "id": 91229,
+      "status": "live"
+    },
+    {
+      "id": 94024,
+      "status": "live"
+    },
+    {
+      "id": 94008,
+      "status": "live"
+    },
+    {
+      "id": 94023,
+      "status": "live"
+    },
+    {
+      "id": 88254,
+      "status": "live"
+    },
+    {
+      "id": 88258,
+      "status": "live"
+    },
+    {
+      "id": 90136,
+      "status": "live"
+    },
+    {
+      "id": 90140,
+      "status": "live"
+    },
+    {
+      "id": 90148,
+      "status": "live"
+    },
+    {
+      "id": 90132,
+      "status": "live"
+    },
+    {
+      "id": 90144,
+      "status": "live"
+    },
+    {
+      "id": 94833,
+      "status": "live"
+    },
+    {
+      "id": 94030,
+      "status": "live"
+    },
+    {
+      "id": 96468,
+      "status": "live"
+    },
+    {
+      "id": 96462,
+      "status": "live"
+    },
+    {
+      "id": 96466,
+      "status": "live"
+    },
+    {
+      "id": 83478,
+      "status": "live"
+    },
+    {
+      "id": 83481,
+      "status": "live"
+    },
+    {
+      "id": 50418,
+      "status": "live"
+    },
+    {
+      "id": 45988,
+      "status": "live"
+    },
+    {
+      "id": 90441,
+      "status": "live"
+    },
+    {
+      "id": 84232,
+      "status": "live"
+    },
+    {
+      "id": 84235,
+      "status": "live"
+    },
+    {
+      "id": 84236,
+      "status": "live"
+    },
+    {
+      "id": 84238,
+      "status": "live"
+    },
+    {
+      "id": 84239,
+      "status": "live"
+    },
+    {
+      "id": 84395,
+      "status": "live"
+    },
+    {
+      "id": 84397,
+      "status": "live"
+    },
+    {
+      "id": 84401,
+      "status": "live"
+    },
+    {
+      "id": 84403,
+      "status": "live"
+    },
+    {
+      "id": 84405,
+      "status": "live"
+    },
+    {
+      "id": 85726,
+      "status": "live"
+    },
+    {
+      "id": 85732,
+      "status": "live"
+    },
+    {
+      "id": 87769,
+      "status": "live"
+    },
+    {
+      "id": 87770,
+      "status": "live"
+    },
+    {
+      "id": 87774,
+      "status": "live"
+    },
+    {
+      "id": 88317,
+      "status": "live"
+    },
+    {
+      "id": 88323,
+      "status": "live"
+    },
+    {
+      "id": 88324,
+      "status": "live"
+    },
+    {
+      "id": 88326,
+      "status": "live"
+    },
+    {
+      "id": 89475,
+      "status": "live"
+    },
+    {
+      "id": 89525,
+      "status": "live"
+    },
+    {
+      "id": 89730,
+      "status": "live"
+    },
+    {
+      "id": 89995,
+      "status": "live"
+    },
+    {
+      "id": 90002,
+      "status": "live"
+    },
+    {
+      "id": 90006,
+      "status": "live"
+    },
+    {
+      "id": 90007,
+      "status": "live"
+    },
+    {
+      "id": 94312,
+      "status": "live"
+    },
+    {
+      "id": 94288,
+      "status": "live"
+    },
+    {
+      "id": 94302,
+      "status": "live"
+    },
+    {
+      "id": 94308,
+      "status": "live"
+    },
+    {
+      "id": 94300,
+      "status": "live"
+    },
+    {
+      "id": 94296,
+      "status": "live"
+    },
+    {
+      "id": 81188,
+      "status": "live"
+    },
+    {
+      "id": 81190,
+      "status": "live"
+    },
+    {
+      "id": 81189,
+      "status": "live"
+    },
+    {
+      "id": 81192,
+      "status": "live"
+    },
+    {
+      "id": 81194,
+      "status": "live"
+    },
+    {
+      "id": 81193,
+      "status": "live"
+    },
+    {
+      "id": 81197,
+      "status": "live"
+    },
+    {
+      "id": 81198,
+      "status": "live"
+    },
+    {
+      "id": 81208,
+      "status": "live"
+    },
+    {
+      "id": 81220,
+      "status": "live"
+    },
+    {
+      "id": 81221,
+      "status": "live"
+    },
+    {
+      "id": 81219,
+      "status": "live"
+    },
+    {
+      "id": 81217,
+      "status": "live"
+    },
+    {
+      "id": 81215,
+      "status": "live"
+    },
+    {
+      "id": 81213,
+      "status": "live"
+    },
+    {
+      "id": 81216,
+      "status": "live"
+    },
+    {
+      "id": 81214,
+      "status": "live"
+    },
+    {
+      "id": 81212,
+      "status": "live"
+    },
+    {
+      "id": 81229,
+      "status": "live"
+    },
+    {
+      "id": 81204,
+      "status": "live"
+    },
+    {
+      "id": 105538,
+      "status": "live"
+    },
+    {
+      "id": 107630,
+      "status": "live"
+    },
+    {
+      "id": 94110,
+      "status": "live"
+    },
+    {
+      "id": 94109,
+      "status": "live"
+    },
+    {
+      "id": 94319,
+      "status": "live"
+    },
+    {
+      "id": 94083,
+      "status": "live"
+    },
+    {
+      "id": 82449,
+      "status": "live"
+    },
+    {
+      "id": 94317,
+      "status": "live"
+    },
+    {
+      "id": 94798,
+      "status": "live"
+    },
+    {
+      "id": 94753,
+      "status": "live"
+    },
+    {
+      "id": 94763,
+      "status": "live"
+    },
+    {
+      "id": 94808,
+      "status": "live"
+    },
+    {
+      "id": 94813,
+      "status": "live"
+    },
+    {
+      "id": 94843,
+      "status": "live"
+    },
+    {
+      "id": 94853,
+      "status": "live"
+    },
+    {
+      "id": 162830,
+      "status": "live"
+    },
+    {
+      "id": 162832,
+      "status": "live"
+    },
+    {
+      "id": 470,
+      "status": "live"
+    }
+  ],
+  "finalCheckedAt": "2026-10-23T20:32:05.339192+00:00",
+  "saleableSkus": 721,
+  "allCatalogPricesAndVariantSkusMatchLocal": true,
+  "latestVariantVerification": {
+    "batch": "control-natur-purple-variant-20261023",
+    "checkedAt": "2026-10-23T20:31:30.742337+00:00",
+    "catalogCount": 487,
+    "results": [
+      {
+        "id": 81204,
+        "status": "live"
+      }
+    ]
+  },
+  "deficitTo800": 313
+}
