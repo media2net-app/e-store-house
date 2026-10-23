@@ -1,0 +1,98 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "prompt": "Additional elevated overhead full-bed view preserving exact own supplier and Control hero motifs, colors, scale and borders. Four rectangular 50x70 pillows: two printed, two plain. Premium natural cotton satin, portrait 2:3, E-STORE HOUSE footer.",
+  "outputs": [
+    {
+      "index": 205,
+      "id": "163165",
+      "paths": [
+        "/tmp/estore-publication-review-batch2-20261023/efcb40adfdeafc5ad2dfb804fc1b03836c1bb8a4878d3ab6578487b5d965e17b.img",
+        "/tmp/estore-publication-review-batch2-20261023/27b200c6a7c65ec89a3c09dd41d2bd2316ee4c82841e5f9115ea273c3a8f142d.img"
+      ],
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-26462586-2984-4cd4-996e-02fa7b8cf36f.png"
+    },
+    {
+      "index": 206,
+      "id": "163164",
+      "paths": [
+        "/tmp/estore-publication-review-batch2-20261023/fe66b493d0f49cca297a027b63607ed4c3ed36e4697c93f6a464d0810e3bf15c.img",
+        "/tmp/estore-publication-review-batch2-20261023/c5d3a67326bff77d3bf6fd0e30d86fa4860cebcbfad5a7dd878696a1b1d827cc.img"
+      ],
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-3ca75a7d-cba6-45f6-95fa-033c095c35f6.png"
+    },
+    {
+      "index": 207,
+      "id": "163163",
+      "paths": [
+        "/tmp/estore-publication-review-batch2-20261023/078ff66c5ecba233dd76950d27aef1d297efb96983713da671a7889aebd52867.img",
+        "/tmp/estore-publication-review-batch2-20261023/d78943025912a7436cebdd73ce513be3e36b1d45b23d1e796eb6146550752eaf.img"
+      ],
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-fde64ae5-ff44-425e-a687-1beeba6b6ac4.png"
+    },
+    {
+      "index": 208,
+      "id": "163162",
+      "paths": [
+        "/tmp/estore-publication-review-batch2-20261023/294b1f5fa0a5247f01ede5b9a89ce4014a47220806ec167227404054ebf02943.img",
+        "/tmp/estore-publication-review-batch2-20261023/20aa929d9765ea55c2117ca55852defb34a2028982d15dc5fd4195c034781975.img"
+      ],
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-0c77c56b-7199-48b2-af77-c535be5bb9a9.png"
+    },
+    {
+      "index": 209,
+      "id": "163161",
+      "paths": [
+        "/tmp/estore-publication-review-batch2-20261023/1d6db349acec1c47dcbe8c91e0cfcf0b88cca5b2131f293257c7395fe547fef4.img",
+        "/tmp/estore-publication-review-batch2-20261023/0cf97b1179204af9db3ac2370ab38f15da7e56153d21c8e5157a9ccce23fcea0.img"
+      ],
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-49d9c647-35b8-46d0-8b99-d797b6687eee.png"
+    },
+    {
+      "index": 210,
+      "id": "163160",
+      "paths": [
+        "/tmp/estore-publication-review-batch2-20261023/5a058e3b51784e8f9ff01f50829229673944c1dc387c7aa95f9295344c9f5383.img",
+        "/tmp/estore-publication-review-batch2-20261023/ffcf2afc9f00643d01b1f54f4c989bfe0a4194b0dd943c54add5245d2c17e824.img"
+      ],
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-68a64ccb-16bf-48a7-9846-8b010dd03a7f.png"
+    },
+    {
+      "index": 211,
+      "id": "163159",
+      "paths": [
+        "/tmp/estore-publication-review-batch2-20261023/4eadd46337bcbd98a37cf824c2b31f9c2ce4b670a7129c32ccd799df68e5dde3.img",
+        "/tmp/estore-publication-review-batch2-20261023/d0bf4109359c716a9199b9d1e7a3902ab24fcc7f98a1cca72bc6ad16ebe93e64.img"
+      ],
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-4202a04a-ba58-456f-9e3d-9e9ed3f9ea7b.png"
+    },
+    {
+      "index": 212,
+      "id": "163158",
+      "paths": [
+        "/tmp/estore-publication-review-batch2-20261023/9ee24f051ee9e4ebdb37dad987df2c9d1bf0706c0301edf69cdfc32901021cd3.img",
+        "/tmp/estore-publication-review-batch2-20261023/c3e16a21cbb97ccd7e802c59b7111fe0f6b5e58309d8cdb38ca45817c02a7b2a.img"
+      ],
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-d67ab95a-7999-4b6f-a8ea-67e382f20008.png"
+    },
+    {
+      "index": 213,
+      "id": "163157",
+      "paths": [
+        "/tmp/estore-publication-review-batch2-20261023/3acab089d236b0d25f9403204e496dfc3a79617751286a2a215c216519f10824.img",
+        "/tmp/estore-publication-review-batch2-20261023/30a3705f7fae066bd8a831bd70d6df309457d0ce0f79c7f8e49aff88b49b7607.img"
+      ],
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-1d74c67b-7845-437a-87c1-f102bf34ae27.png"
+    },
+    {
+      "index": 214,
+      "id": "163155",
+      "paths": [
+        "/tmp/estore-publication-review-batch2-20261023/caed2cd055147b08554071fd92e9010d2bbd6df061bfbac62906b97a4b52cd7c.img",
+        "/tmp/estore-publication-review-batch2-20261023/19c9abaa0d8385dd63a04d60a78d2e3afb22356be7e6aec47d063247a3f9c512.img"
+      ],
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-3579cceb-c58b-4ae0-994c-6768e9033ef8.png"
+    }
+  ],
+  "review": "Actual source sheets 051-053 and each generated output inspected. Lumina and Nora hero captions read at full resolution and matched own product descriptions."
+}

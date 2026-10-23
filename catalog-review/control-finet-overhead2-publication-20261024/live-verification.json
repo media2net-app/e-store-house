@@ -1,0 +1,63 @@
+{
+  "batch": "control-finet-overhead2-publication-20261024",
+  "checkedAt": "2026-10-23T21:54:59.408821+00:00",
+  "catalogCount": 560,
+  "results": [
+    {
+      "id": 97614,
+      "status": "live"
+    },
+    {
+      "id": 97611,
+      "status": "live"
+    },
+    {
+      "id": 97610,
+      "status": "live"
+    },
+    {
+      "id": 97609,
+      "status": "live"
+    },
+    {
+      "id": 96750,
+      "status": "live"
+    },
+    {
+      "id": 96747,
+      "status": "live"
+    },
+    {
+      "id": 93540,
+      "status": "live"
+    },
+    {
+      "id": 88329,
+      "status": "live"
+    },
+    {
+      "id": 89468,
+      "status": "live"
+    },
+    {
+      "id": 88314,
+      "status": "live"
+    },
+    {
+      "id": 87773,
+      "status": "live"
+    },
+    {
+      "id": 85733,
+      "status": "live"
+    },
+    {
+      "id": 85731,
+      "status": "live"
+    },
+    {
+      "id": 84242,
+      "status": "live"
+    }
+  ]
+}

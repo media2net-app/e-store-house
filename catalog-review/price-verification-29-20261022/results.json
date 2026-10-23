@@ -6626,5 +6626,115 @@
       "84242": true
     },
     "checkedAt": "2026-10-23T21:44:18.501160+00:00"
+  },
+  {
+    "id": 163165,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-elaris/",
+    "costs": {
+      "163165": 480.0
+    },
+    "availability": {
+      "163165": true
+    },
+    "checkedAt": "2026-10-23T21:54:53.635260+00:00"
+  },
+  {
+    "id": 163164,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-farya/",
+    "costs": {
+      "163164": 480.0
+    },
+    "availability": {
+      "163164": true
+    },
+    "checkedAt": "2026-10-23T21:54:53.635260+00:00"
+  },
+  {
+    "id": 163163,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-harvin/",
+    "costs": {
+      "163163": 480.0
+    },
+    "availability": {
+      "163163": true
+    },
+    "checkedAt": "2026-10-23T21:54:53.635260+00:00"
+  },
+  {
+    "id": 163162,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-lumina/",
+    "costs": {
+      "163162": 480.0
+    },
+    "availability": {
+      "163162": true
+    },
+    "checkedAt": "2026-10-23T21:54:53.635260+00:00"
+  },
+  {
+    "id": 163161,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-merisa/",
+    "costs": {
+      "163161": 480.0
+    },
+    "availability": {
+      "163161": true
+    },
+    "checkedAt": "2026-10-23T21:54:53.635260+00:00"
+  },
+  {
+    "id": 163160,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-nora/",
+    "costs": {
+      "163160": 480.0
+    },
+    "availability": {
+      "163160": true
+    },
+    "checkedAt": "2026-10-23T21:54:53.635260+00:00"
+  },
+  {
+    "id": 163159,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-panera/",
+    "costs": {
+      "163159": 480.0
+    },
+    "availability": {
+      "163159": true
+    },
+    "checkedAt": "2026-10-23T21:54:53.635260+00:00"
+  },
+  {
+    "id": 163158,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-puerto/",
+    "costs": {
+      "163158": 480.0
+    },
+    "availability": {
+      "163158": true
+    },
+    "checkedAt": "2026-10-23T21:54:53.635260+00:00"
+  },
+  {
+    "id": 163157,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac-sopron/",
+    "costs": {
+      "163157": 480.0
+    },
+    "availability": {
+      "163157": true
+    },
+    "checkedAt": "2026-10-23T21:54:53.635260+00:00"
+  },
+  {
+    "id": 163155,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/lenjerie-de-pat-satin-digital-6-piese-100-bumbac/",
+    "costs": {
+      "163155": 480.0
+    },
+    "availability": {
+      "163155": true
+    },
+    "checkedAt": "2026-10-23T21:54:53.635260+00:00"
   }
 ]
