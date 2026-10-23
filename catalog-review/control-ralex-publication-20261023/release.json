@@ -1,0 +1,22 @@
+[
+  {
+    "id": 75521,
+    "barcodes": [
+      "105893",
+      "105889",
+      "105890",
+      "105891",
+      "105892"
+    ],
+    "barcodeEvidence": "Supplier page renders Code128 from selected variation.variation_id.",
+    "status": "reviewed_for_publication"
+  },
+  {
+    "id": 102912,
+    "barcodes": [
+      "102952"
+    ],
+    "barcodeEvidence": "Supplier page renders Code128 from selected variation.variation_id.",
+    "status": "reviewed_for_publication"
+  }
+]

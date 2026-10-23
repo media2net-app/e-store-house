@@ -7981,5 +7981,59 @@
       }
     ],
     "fingerprint": "4b99828aca88c739a5536f06db1c319deccfea447d9ab79495ee794921111435"
+  },
+  {
+    "id": 75521,
+    "reviewedAt": "2026-10-23",
+    "source": "control-ralex-publication-20261023",
+    "supplierUrl": "https://ralexpucioasa.ro/store/produse-hotel/protectie-frotir-bumbac-100-impermeabila-saltea-de-200x200cm/",
+    "visualReview": "Compared supplier reference and all four actual Control images: product fidelity, distinct hero/side/detail/top views, Romanian captions and Ralex-only brand verified. Same gallery applies to listed size variants.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/01.jpg",
+        "sha256": "c7f4b507c83eb7329e0cf8c4fc6aaeee315480bccc3218b05de1d181f5c44106"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/02.jpg",
+        "sha256": "245e961326eb8d6c66603f15537bcd0004b72f70b5a6861065d87ee063c7bfa6"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/03.jpg",
+        "sha256": "4e594a163a7843737cc691874d0fb1e65f5a3f6ba91443d8d44e70ff537ba5b1"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/04.jpg",
+        "sha256": "fac88ac744e5ca176408d16e687cd069297987a04918375ac63266bbe8a7948e"
+      }
+    ],
+    "fingerprint": "f82b96a1ad0f95b6b218aa7b8dd0d053eb3dba103a81ec33540088ecb489ab92"
+  },
+  {
+    "id": 102912,
+    "reviewedAt": "2026-10-23",
+    "source": "control-ralex-publication-20261023",
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-luxury-bumbac-100-70x140cm-600g-m2-bleu/",
+    "visualReview": "Compared supplier reference and all four actual Control images: product fidelity, distinct hero/side/detail/top views, Romanian captions and Ralex-only brand verified. Same gallery applies to listed size variants.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102912/01-principala.jpg",
+        "sha256": "d15236f92d3c50178fed65253ffc15f718e89dfac43381fe9b986cfb6c40475b"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102912/02-lateral.jpg",
+        "sha256": "58a9f8a93acfddcd94145323938d8e1dd1dc89dc01d3d2607bd91fce410e668b"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102912/03-detaliu.jpg",
+        "sha256": "c565d4eb2a744452da42d79badfda3020cb30145c818ea5d2e487e7a4946db01"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102912/04-de-sus.jpg",
+        "sha256": "581dd6074af923ad744e246ceae4e680ccd75fe904bab0d687dade68f094f3fe"
+      }
+    ],
+    "fingerprint": "739d7b24a9f43c0de63a9a57a0ccac689ab65eca824b1a7c3c09cd6c2b3504f5"
   }
 ]

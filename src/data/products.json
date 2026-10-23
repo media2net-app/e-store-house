@@ -14411,5 +14411,165 @@
     "inStock": true,
     "sku": "76907",
     "material": "80% poliester, 20% bumbac"
+  },
+  {
+    "id": 75521,
+    "name": "Protecție impermeabilă pentru saltea, frotir de bumbac — dimensiuni la alegere",
+    "category": "Protecții saltea",
+    "categoryPath": "protectii-saltea",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Frotir 100% bumbac, 90 g/m²; dos din poliuretan",
+    "description": "Protecție impermeabilă pentru saltea, frotir de bumbac — dimensiuni la alegere.\n\nMaterial: Frotir 100% bumbac, 90 g/m²; dos din poliuretan.\n\nConținut: 1 protecție de saltea. Alege dimensiunea potrivită saltelei.\n\nÎntreținere: respectă instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.",
+    "externalUrl": "https://ralexpucioasa.ro/store/produse-hotel/protectie-frotir-bumbac-100-impermeabila-saltea-de-200x200cm/",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/01.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/02.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/03.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/04.jpg"
+    ],
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/01.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Frotir 100% bumbac, 90 g/m²; dos din poliuretan"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 protecție de saltea"
+      }
+    ],
+    "variants": [
+      {
+        "id": 105893,
+        "sku": "105893",
+        "name": "90 × 200 cm",
+        "dimensions": "90 × 200 cm",
+        "contents": "1 protecție de saltea",
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/04.jpg"
+        ],
+        "price": 79,
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 105889,
+        "sku": "105889",
+        "name": "140 × 200 cm",
+        "dimensions": "140 × 200 cm",
+        "contents": "1 protecție de saltea",
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/04.jpg"
+        ],
+        "price": 89,
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 105890,
+        "sku": "105890",
+        "name": "160 × 200 cm",
+        "dimensions": "160 × 200 cm",
+        "contents": "1 protecție de saltea",
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/04.jpg"
+        ],
+        "price": 99,
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 105891,
+        "sku": "105891",
+        "name": "180 × 200 cm",
+        "dimensions": "180 × 200 cm",
+        "contents": "1 protecție de saltea",
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/04.jpg"
+        ],
+        "price": 109,
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 105892,
+        "sku": "105892",
+        "name": "200 × 200 cm",
+        "dimensions": "200 × 200 cm",
+        "contents": "1 protecție de saltea",
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/01.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/02.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/03.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/59ee5077d6934e5a418b3e670fb8bd7b41dba72a/public/products/ralex50-approved-20261022/75521/04.jpg"
+        ],
+        "price": 119,
+        "inStock": true,
+        "stock": 100
+      }
+    ],
+    "price": 79,
+    "inStock": true
+  },
+  {
+    "id": 102912,
+    "name": "Prosop Luxury bleu, 100% bumbac, 600 g/m², 70 × 140 cm",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu, 600 g/m²",
+    "description": "Prosop Luxury bleu, 100% bumbac, 600 g/m², 70 × 140 cm.\n\nMaterial: 100% bumbac, fir dublu, 600 g/m².\n\nConținut: 1 prosop. Dimensiune: 70 × 140 cm.\n\nÎntreținere: respectă instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-luxury-bumbac-100-70x140cm-600g-m2-bleu/",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102912/01-principala.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102912/02-lateral.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102912/03-detaliu.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102912/04-de-sus.jpg"
+    ],
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102912/01-principala.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu, 600 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop"
+      }
+    ],
+    "variants": [
+      {
+        "id": 102952,
+        "sku": "102952",
+        "name": "70x140cm",
+        "dimensions": "70x140cm",
+        "contents": "1 prosop",
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102912/01-principala.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102912/02-lateral.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102912/03-detaliu.jpg",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/102912/04-de-sus.jpg"
+        ],
+        "price": 69,
+        "inStock": true,
+        "stock": 100
+      }
+    ],
+    "price": 69,
+    "inStock": true
   }
 ]

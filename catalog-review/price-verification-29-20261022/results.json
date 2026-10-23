@@ -3417,5 +3417,35 @@
       "76907": true
     },
     "checkedAt": "2026-10-23T01:14:59.229521+00:00"
+  },
+  {
+    "id": 75521,
+    "supplierUrl": "https://ralexpucioasa.ro/store/produse-hotel/protectie-frotir-bumbac-100-impermeabila-saltea-de-200x200cm/",
+    "costs": {
+      "105893": 57,
+      "105889": 67,
+      "105890": 73,
+      "105891": 81,
+      "105892": 88
+    },
+    "availability": {
+      "105893": true,
+      "105889": true,
+      "105890": true,
+      "105891": true,
+      "105892": true
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": 102912,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-luxury-bumbac-100-70x140cm-600g-m2-bleu/",
+    "costs": {
+      "102952": 51
+    },
+    "availability": {
+      "102952": true
+    },
+    "checkedAt": "2026-10-23"
   }
 ]
