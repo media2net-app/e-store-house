@@ -21,7 +21,7 @@ export default function Hero() {
   const mobileBanner = getImageProps({src: "/editorial/produse-ambalate-mobile-v2.webp", alt: "", width: 684, height: 2048, sizes: "35vw"}).props;
   return <section className="home-shop-start" aria-label="Produse și inspirație pentru acasă">
     <div className="home-start-catalog">
-      <h2 className="home-sale-title">Super Sale</h2>
+      <h2 className="home-sale-title"><Link href="/shop?categorie=oferte" className="home-sale-link" aria-label="Vezi toate produsele Super Sale"><span>Super Sale</span><span className="home-sale-link-action">Vezi toate produsele <span aria-hidden="true">→</span></span></Link></h2>
       <nav className="home-mini-picks" aria-label="Super Sale: pilote, capot și perne">{saleSelection.map(({ id, label }) => {
         const product = getProductById(id);
         if (!product || product.inStock === false) return null;

@@ -18,7 +18,7 @@ type ShopParams = { categorie?: string | string[]; q?: string | string[]; pagina
 export async function generateMetadata({ searchParams }: { searchParams: Promise<ShopParams> }): Promise<Metadata> {
   const { categorie, q } = await searchParams;
   const active = typeof categorie === "string" ? getCategory(categorie) : undefined;
-  const title = active?.path === "oferte" ? "Oferte" : active?.name ?? "Magazinul de textile pentru casă";
+  const title = active?.path === "oferte" ? "Super Sale" : active?.name ?? "Magazinul de textile pentru casă";
   const canonical = active ? `/shop?categorie=${encodeURIComponent(active.path)}` : "/shop";
   return {
     title, description: active?.path === "oferte"
@@ -74,7 +74,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
           {active ? categoryTrail(active.path).map((category) => <span key={category.path}> / <Link href={categoryHref(category.path)} aria-current={category.path === active.path ? "page" : undefined} className="hover:underline">{category.name}</Link></span>) : null}
         </nav>
         <h1 className="font-[family-name:var(--font-playfair)] text-4xl font-semibold text-[#3b2d24]">
-          {query ? `Rezultate pentru „${query}”` : active?.name ?? "Toate produsele"}
+          {query ? `Rezultate pentru „${query}”` : active?.path === "oferte" ? "Super Sale" : active?.name ?? "Toate produsele"}
         </h1>
         <p className="mt-2 text-sm text-[#3b2d24]/80">
           {products.length ? `${products.length} ${products.length === 1 ? "produs" : "produse"}. Afișăm ${(page - 1) * pageSize + 1}–${Math.min(page * pageSize, products.length)}.` : "Nu am găsit produse pentru această selecție."}

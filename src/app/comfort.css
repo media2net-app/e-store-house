@@ -65,3 +65,11 @@ html{scroll-behavior:auto}
 }
 @media(max-width:700px){.home-mini-pricing{flex-direction:column;align-items:center;gap:3px}}
 @media(min-width:701px){.home-packaged-scene{position:relative;min-height:260px}.home-packaged-scene picture{position:absolute;inset:0;height:100%;display:flex;align-items:center}.home-packaged-scene img{height:100%;max-height:none;object-fit:contain}}
+
+/* The complete Super Sale collection remains one tap away as the selection grows. */
+.home-sale-title{margin:0 0 16px}
+.home-sale-link{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 20px;min-height:48px;padding:12px 16px;border-radius:8px;background:#8b352b;color:#fff}
+.home-sale-link:hover{background:#702a23}
+.home-sale-link:focus-visible{outline:3px solid #8b352b;outline-offset:4px}
+.home-sale-link-action{font:600 14px/1.4 var(--font-inter),sans-serif}
+@media(max-width:700px){.home-sale-link{padding:12px;gap:5px}.home-sale-link-action{font-size:13px}}

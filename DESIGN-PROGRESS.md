@@ -161,3 +161,8 @@ Reviewed Git source snapshots and found earlier development prices (including ro
 - Explicit manual entry and automatic manual fallback on list download failure keep uncommon addresses usable. No postal-code guesses.
 - Existing signed shipping quote is invalidated by address edits; readiness waits for a selected/manual locality.
 - Validation: production build and ESLint passed; 14 locality and checkout/shipping tests passed. Browser check pending deployment.
+
+## Super Sale collection button — 23 October 2026
+- Homepage Super Sale heading is now a prominent linked button: Super Sale / Vezi toate produsele.
+- Destination is the existing full offers collection, with filters and pagination, now titled Super Sale.
+- Current product previews and discount rules are preserved. Future Super Sale catalog entries appear in the full collection.
