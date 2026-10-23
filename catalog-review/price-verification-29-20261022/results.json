@@ -4778,5 +4778,93 @@
       "95953": true
     },
     "checkedAt": "2026-10-23T20:04:13.424544+00:00"
+  },
+  {
+    "id": 91227,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paruri-cocolino-dot/patura-cocolino-dot-5/",
+    "costs": {
+      "91227": 88.0
+    },
+    "availability": {
+      "91227": true
+    },
+    "checkedAt": "2026-10-23T20:06:22.225568+00:00"
+  },
+  {
+    "id": 91230,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paruri-cocolino-dot/patura-cocolino-dot-9/",
+    "costs": {
+      "91230": 88.0
+    },
+    "availability": {
+      "91230": true
+    },
+    "checkedAt": "2026-10-23T20:06:22.225568+00:00"
+  },
+  {
+    "id": 91225,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paruri-cocolino-dot/patura-cocolino-dot-2/",
+    "costs": {
+      "91225": 88.0
+    },
+    "availability": {
+      "91225": true
+    },
+    "checkedAt": "2026-10-23T20:06:22.225568+00:00"
+  },
+  {
+    "id": 91228,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paruri-cocolino-dot/patura-cocolino-dot-7/",
+    "costs": {
+      "91228": 88.0
+    },
+    "availability": {
+      "91228": true
+    },
+    "checkedAt": "2026-10-23T20:06:22.225568+00:00"
+  },
+  {
+    "id": 91229,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paruri-cocolino-dot/patura-cocolino-dot-8/",
+    "costs": {
+      "91229": 88.0
+    },
+    "availability": {
+      "91229": true
+    },
+    "checkedAt": "2026-10-23T20:06:22.225568+00:00"
+  },
+  {
+    "id": 94024,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-4/",
+    "costs": {
+      "94024": 88.0
+    },
+    "availability": {
+      "94024": true
+    },
+    "checkedAt": "2026-10-23T20:06:22.225568+00:00"
+  },
+  {
+    "id": 94008,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin/",
+    "costs": {
+      "94008": 88.0
+    },
+    "availability": {
+      "94008": true
+    },
+    "checkedAt": "2026-10-23T20:06:22.225568+00:00"
+  },
+  {
+    "id": 94023,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-3/",
+    "costs": {
+      "94023": 88.0
+    },
+    "availability": {
+      "94023": true
+    },
+    "checkedAt": "2026-10-23T20:06:22.225568+00:00"
   }
 ]
