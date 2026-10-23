@@ -28632,5 +28632,261 @@
     "price": 19,
     "stock": 100,
     "inStock": true
+  },
+  {
+    "id": 105804,
+    "sku": "105804",
+    "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – alb",
+    "category": "Oferte",
+    "categoryPath": "oferte",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²",
+    "description": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – alb.\n\nMaterial: Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m².\n\nConținut și dimensiuni: 1 pilotă 200 × 215 cm și 2 perne 50 × 70 cm. Greutate declarată pilotă: 370 g/m²; greutate pernă: 600 g/bucată.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Cearșaful, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-alb/",
+    "images": [
+      "/products/105804/hero-reviewed-v1.png",
+      "/products/105804/side-reviewed-v1.png",
+      "/products/105804/top-reviewed-v1.png",
+      "/products/105804/detail-reviewed-v1.png"
+    ],
+    "image": "/products/105804/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă 200 × 215 cm și 2 perne 50 × 70 cm. Greutate declarată pilotă: 370 g/m²; greutate pernă: 600 g/bucată."
+      }
+    ],
+    "price": 139,
+    "stock": 1,
+    "inStock": false
+  },
+  {
+    "id": 105829,
+    "sku": "105829",
+    "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – roșu",
+    "category": "Oferte",
+    "categoryPath": "oferte",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²",
+    "description": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – roșu.\n\nMaterial: Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m².\n\nConținut și dimensiuni: 1 pilotă 200 × 215 cm și 2 perne 50 × 70 cm. Greutate declarată pilotă: 370 g/m²; greutate pernă: 600 g/bucată.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Cearșaful, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-rosu/",
+    "images": [
+      "/products/105829/hero-reviewed-v1.png",
+      "/products/105829/side-reviewed-v1.png",
+      "/products/105829/top-reviewed-v1.png",
+      "/products/105829/detail-reviewed-v1.png"
+    ],
+    "image": "/products/105829/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă 200 × 215 cm și 2 perne 50 × 70 cm. Greutate declarată pilotă: 370 g/m²; greutate pernă: 600 g/bucată."
+      }
+    ],
+    "price": 139,
+    "stock": 88,
+    "inStock": true
+  },
+  {
+    "id": 105820,
+    "sku": "105820",
+    "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – galben",
+    "category": "Oferte",
+    "categoryPath": "oferte",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²",
+    "description": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – galben.\n\nMaterial: Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m².\n\nConținut și dimensiuni: 1 pilotă 200 × 215 cm și 2 perne 50 × 70 cm. Greutate declarată pilotă: 370 g/m²; greutate pernă: 600 g/bucată.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Cearșaful, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-galben/",
+    "images": [
+      "/products/105820/hero-reviewed-v1.png",
+      "/products/105820/side-reviewed-v1.png",
+      "/products/105820/top-reviewed-v1.png",
+      "/products/105820/detail-reviewed-v1.png"
+    ],
+    "image": "/products/105820/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă 200 × 215 cm și 2 perne 50 × 70 cm. Greutate declarată pilotă: 370 g/m²; greutate pernă: 600 g/bucată."
+      }
+    ],
+    "price": 139,
+    "stock": 92,
+    "inStock": true
+  },
+  {
+    "id": 105811,
+    "sku": "105811",
+    "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – albastru",
+    "category": "Oferte",
+    "categoryPath": "oferte",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²",
+    "description": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – albastru.\n\nMaterial: Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m².\n\nConținut și dimensiuni: 1 pilotă 200 × 215 cm și 2 perne 50 × 70 cm. Greutate declarată pilotă: 370 g/m²; greutate pernă: 600 g/bucată.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Cearșaful, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-albastru/",
+    "images": [
+      "/products/105811/hero-reviewed-v1.png",
+      "/products/105811/side-reviewed-v1.png",
+      "/products/105811/top-reviewed-v1.png",
+      "/products/105811/detail-reviewed-v1.png"
+    ],
+    "image": "/products/105811/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă 200 × 215 cm și 2 perne 50 × 70 cm. Greutate declarată pilotă: 370 g/m²; greutate pernă: 600 g/bucată."
+      }
+    ],
+    "price": 139,
+    "stock": 87,
+    "inStock": true
+  },
+  {
+    "id": 105825,
+    "sku": "105825",
+    "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – mov",
+    "category": "Oferte",
+    "categoryPath": "oferte",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²",
+    "description": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – mov.\n\nMaterial: Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m².\n\nConținut și dimensiuni: 1 pilotă 200 × 215 cm și 2 perne 50 × 70 cm. Greutate declarată pilotă: 370 g/m²; greutate pernă: 600 g/bucată.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Cearșaful, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-mov/",
+    "images": [
+      "/products/105825/hero-reviewed-v1.png",
+      "/products/105825/side-reviewed-v1.png",
+      "/products/105825/top-reviewed-v1.png",
+      "/products/105825/detail-reviewed-v1.png"
+    ],
+    "image": "/products/105825/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă 200 × 215 cm și 2 perne 50 × 70 cm. Greutate declarată pilotă: 370 g/m²; greutate pernă: 600 g/bucată."
+      }
+    ],
+    "price": 139,
+    "stock": 66,
+    "inStock": false
+  },
+  {
+    "id": 105816,
+    "sku": "105816",
+    "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – bleu",
+    "category": "Oferte",
+    "categoryPath": "oferte",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²",
+    "description": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – bleu.\n\nMaterial: Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m².\n\nConținut și dimensiuni: 1 pilotă 200 × 215 cm și 2 perne 50 × 70 cm. Greutate declarată pilotă: 370 g/m²; greutate pernă: 600 g/bucată.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Cearșaful, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-bleu/",
+    "images": [
+      "/products/105816/hero-reviewed-v1.png",
+      "/products/105816/side-reviewed-v1.png",
+      "/products/105816/top-reviewed-v1.png",
+      "/products/105816/detail-reviewed-v1.png"
+    ],
+    "image": "/products/105816/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă 200 × 215 cm și 2 perne 50 × 70 cm. Greutate declarată pilotă: 370 g/m²; greutate pernă: 600 g/bucată."
+      }
+    ],
+    "price": 139,
+    "stock": 55,
+    "inStock": true
+  },
+  {
+    "id": 110001,
+    "sku": "110001",
+    "name": "Pernă ergonomică memory cu ventilație, 40 × 60 cm, înălțime 9/11 cm",
+    "category": "Perne și protecții pernă",
+    "categoryPath": "perne",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Miez din spumă memory cu orificii de aerisire; suprafață din tricot fagure alb și laterale din material 3D respirabil gri închis",
+    "description": "Pernă ergonomică memory cu ventilație, 40 × 60 cm, înălțime 9/11 cm.\n\nMaterial: Miez din spumă memory cu orificii de aerisire; suprafață din tricot fagure alb și laterale din material 3D respirabil gri închis.\n\nConținut și dimensiuni: 1 pernă de 40 × 60 cm, cu profil de 9/11 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/perne/perna-ergonomnica-memory-cu-sistem-de-ventilatie/",
+    "images": [
+      "/products/110001/hero-reviewed-v1.png",
+      "/products/110001/side-reviewed-v1.png",
+      "/products/110001/top-reviewed-v1.png",
+      "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260611/14/a50862aa-4c5e-35c1-aa9a-caaa59ab8154/1_org_zoom.jpg"
+    ],
+    "image": "/products/110001/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Miez din spumă memory cu orificii de aerisire; suprafață din tricot fagure alb și laterale din material 3D respirabil gri închis"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pernă de 40 × 60 cm, cu profil de 9/11 cm."
+      }
+    ],
+    "price": 119,
+    "stock": 50,
+    "inStock": true
+  },
+  {
+    "id": 112032,
+    "sku": "112032",
+    "name": "Lenjerie Damasc policoton, 4 piese, 80% poliester și 20% bumbac – gri-lavandă",
+    "category": "Lenjerii de pat damasc policoton 4 pcs",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-i",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Damasc policoton, 80% poliester, 20% bumbac",
+    "description": "Lenjerie Damasc policoton, 4 piese, 80% poliester și 20% bumbac – gri-lavandă.\n\nMaterial: Damasc policoton, 80% poliester, 20% bumbac.\n\nConținut și dimensiuni: 4 piese: 1 cearșaf de pat 230 × 250 cm, 1 husă de pilotă 200 × 230 cm și 2 fețe de pernă 50 × 70 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Pilota, pernele cu umplutură, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-i/lenjerie-de-pat-damasc-policoton-4-piese-2/",
+    "images": [
+      "/products/112032/hero-reviewed-v1.png",
+      "/products/112032/top-reviewed-v1.png",
+      "/products/112032/detail-reviewed-v1.png",
+      "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260612/23/e0a8bff6-03fb-35fe-a744-7b7cca39b42e/1_org_zoom.jpg"
+    ],
+    "image": "/products/112032/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Damasc policoton, 80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "4 piese: 1 cearșaf de pat 230 × 250 cm, 1 husă de pilotă 200 × 230 cm și 2 fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "price": 159,
+    "stock": 20,
+    "inStock": true
   }
 ]

@@ -1,0 +1,326 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "outputs": [
+    {
+      "supplierId": "105804",
+      "products": [
+        {
+          "barcode": "2516675VV0IZBH3UF",
+          "sku": "105804",
+          "model": "2516675VV0IZBH3UF",
+          "title": "Pachet Pilot + 2 Perne Premium din Microfibră, Hipoalergenice, Fabricate în România",
+          "description": "Transformă somnul într-o experiență de confort total cu acest set complet, care include o pilotă și 2 perne, fabricat în România din materiale de calitate superioară.; Ideal pentru utilizare zilnică, oferă echilibrul perfect între căldură, lejeritate și durabilitate.; ✔️ Material moale la atingere – plăcut la atingere, confort imediat ✔️ Umplutură respirabilă – reține căldura fără a supraîncălzi ✔️ Hipoalergenic – potrivit pentru întreaga familie ✔️ Menține forma – rezistent la spălări repetate ✔️ Ușor de întreținut – spălare rapidă și uscare eficientă 📦 Conținutul pachetului: • 1 x Pilotă 200 x 215 cm • 2 x Perne 50 x 70 cm 📊 Specificații tehnice: • Material: microfibră densă și rezistentă (1",
+          "category": "Perne",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 249,
+          "listPrice": 249,
+          "stock": 1,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260410/15/1561a334-04cd-31c8-9cf0-f7f0bf1515e8/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/15/6e4e14a8-3113-377e-b6e0-7f2f3a2510a8/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/15/dde73b3e-f377-3fab-9736-e35e42696530/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1131242286?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/4dc436c0c621a878d84ba8b172b088c091cded94198eb66600d932159e5504fb.img",
+        "/tmp/estore-short-gallery-audit-20261024/90ada77c4daa49bb0481c4705c581c5bb671a3cd79d77e4810cabfa71f871f3e.img",
+        "/tmp/estore-short-gallery-audit-20261024/c627341eb0493656f228361c5e52a8634bfb3ec24422dc4a62fb1db069b7b5d9.img",
+        "/tmp/estore-short-gallery-audit-20261024/3dc5406b6e21baf7c0b095a09e1e65b577bd38c3f5b071436990ae16ab401161.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/105804-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-alb/",
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-450c2cf7-a63b-4ab2-a13a-061b5cbacffc.png",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-8e90de32-f3ba-413a-94fa-cf48e415f8d4.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-3d425686-0f1b-4f84-b91b-166e26b52cbd.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-57071f66-4197-4548-a2c5-0a44d2d603af.png"
+    },
+    {
+      "supplierId": "105829",
+      "products": [
+        {
+          "barcode": "2516676P6AYJVTBDC",
+          "sku": "105829",
+          "model": "2516676P6AYJVTBDC",
+          "title": "Pilot Pack + 2 Perne Premium din Microfibră, Hipoalergenice, Fabricate în România",
+          "description": "Transformă somnul într-o experiență de confort total cu acest set complet care include o pilotă și 2 perne, fabricate în România din materiale de calitate premium.; Ideal pentru utilizare zilnică, oferă echilibrul perfect între căldură, lejeritate și durabilitate.; ✔️ Material moale la atingere – plăcut la atingere, confort imediat ✔️ Umplutură respirabilă – reține căldura fără a supraîncălzi ✔️ Hipoalergenic – potrivit pentru întreaga familie ✔️ Menținere a formei – rezistent la spălări repetate ✔️ Ușor de întreținut – spălare rapidă și uscare eficientă 📦 Conținutul pachetului: • 1 x Pilotă 200 x 215 cm • 2 x Perne 50 x 70 cm 📊 Specificații tehnice: • Material: microfibră densă și rezistentă (17",
+          "category": "Lenjerie de pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "roșu",
+          "size": "",
+          "price": 249,
+          "listPrice": 249,
+          "stock": 88,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/15/0a36da40-674c-33d2-a570-2cebdca3e4a3/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/15/e8e5f26f-5283-3cff-aa1f-9a9b63606654/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/15/54e53c81-6147-3624-ad5b-12eeae225d3c/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1131242072?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/85dc0409de41ab3be9ec20b7b70f13a57f32fef7fe62ef4d2554f3416de2572c.img",
+        "/tmp/estore-short-gallery-audit-20261024/45384ed5d2ec2bd2c0294702da57d77754d2826637aa9a67dde7bee69a75ac72.img",
+        "/tmp/estore-short-gallery-audit-20261024/717c24d5fd05c88d5e82c77c8664dc24e51386b23a3b0d2d83ae4644593cc8b6.img",
+        "/tmp/estore-short-gallery-audit-20261024/d5d7137b33715bca9214b59b8c80269f04d565204b3751e5b44f49239a9f7b38.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/105829-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-rosu/",
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-73ba7420-2a54-4745-bbd6-ac53c44c72fc.png",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-42e6dd37-3769-4e56-86aa-c4a37721a377.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-aeee8f4c-231f-419f-bf82-caf5bddeb35b.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-6d9f71ce-22e8-4843-8ea3-3f77888609f9.png"
+    },
+    {
+      "supplierId": "105820",
+      "products": [
+        {
+          "barcode": "2516677NGKFEHPCBR",
+          "sku": "105820",
+          "model": "2516677NGKFEHPCBR",
+          "title": "Pachet Pilot + 2 Perne Premium din Microfibră, Hipoalergenice, Fabricate în România",
+          "description": "Transformă somnul într-o experiență de confort total cu acest set complet care include o pilotă și 2 perne, fabricate în România din materiale premium.; Ideal pentru utilizare zilnică, oferă echilibrul perfect între căldură, lejeritate și durabilitate.; ✔️ Material moale la atingere – plăcut la atingere, confort imediat ✔️ Umplutură respirabilă – reține căldura fără a supraîncălzi ✔️ Hipoalergenic – potrivit pentru întreaga familie ✔️ Menținere a formei – rezistent la spălări repetate ✔️ Ușor de întreținut – spălare rapidă și uscare eficientă 📦 Conținutul pachetului: • 1 x Pilotă 200 x 215 cm • 2 x Perne 50 x 70 cm 📊 Specificații tehnice: • Material: microfibră densă și rezistentă (170g/mp",
+          "category": "Perne",
+          "brand": "RALEX PUCIOASA",
+          "color": "galben",
+          "size": "",
+          "price": 249,
+          "listPrice": 249,
+          "stock": 92,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/15/9e96b87c-6fb6-3d93-b124-c794fb11ce7c/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/15/2fdbf73d-b5ea-3d03-a7a4-55e2454df4e0/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260410/15/3a98c160-4463-39bb-9768-635ee6cc5e36/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1131242083?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/d4c9248f9d976a2d99a47ad4e9b1cfd38634caf0877763dc8cc26c6f9f021c03.img",
+        "/tmp/estore-short-gallery-audit-20261024/981d80097fd86080111f47b66d9c4bbf4c192678e42fc60ce0d2f948482b7f3b.img",
+        "/tmp/estore-short-gallery-audit-20261024/8952ad7a5427569e5337c3fce63eb89f565edf8f4544c0b12da443ee4ab6866a.img",
+        "/tmp/estore-short-gallery-audit-20261024/902879d9e0f5c0d313a8128de15180a8b1390d5279d9526a924b3a03f0642c7c.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/105820-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-galben/",
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a798d683-c213-4a6e-84ef-399ec4e12ff1.png",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a3f7c165-7ab1-4b5e-9424-77208c5f016a.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-0cacb8fc-2060-49aa-8bee-4cd1d1baba05.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ef8fdce9-f643-49b4-b4d5-742b43ff3692.png"
+    },
+    {
+      "supplierId": "105811",
+      "products": [
+        {
+          "barcode": "2516678OAWIOZ1QIO",
+          "sku": "105811",
+          "model": "2516678OAWIOZ1QIO",
+          "title": "Pachet Pilot + 2 Perne Premium din Microfibră Antialergice, Fabricat în România",
+          "description": "Transformă somnul într-o experiență de confort total cu acest set complet, format dintr-o pilotă și 2 perne, fabricat în România din materiale de calitate superioară.; Ideal pentru utilizare zilnică, oferă echilibrul perfect între căldură, lejeritate și durabilitate.; ✔️ Material moale la atingere – plăcut la atingere, confort imediat ✔️ Umplutură respirabilă – reține căldura fără a supraîncălzi ✔️ Hipoalergenic – potrivit pentru întreaga familie ✔️ Menține forma – rezistent la spălări repetate ✔️ Ușor de întreținut – spălare rapidă și uscare eficientă 📦 Conținutul pachetului: • 1 x Pilotă 200 x 215 cm • 2 x Perne 50 x 70 cm 📊 Specificații tehnice: • Material: microfibră densă și rezistentă (",
+          "category": "Plapume duble",
+          "brand": "RALEX PUCIOASA",
+          "color": "albastru",
+          "size": "",
+          "price": 249,
+          "listPrice": 249,
+          "stock": 87,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/15/79dc6e42-b5cb-3914-a0ff-9b12257cb602/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/15/a0ca7966-b9bb-3120-aef0-6e1024631e3e/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/15/45f17e1e-585b-33a4-bf48-c97f4e22925a/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1131242217?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/ee00f6b0dfa85679a46a4ba09b3b0b3ee77e9c658370b8aec9b171e319285935.img",
+        "/tmp/estore-short-gallery-audit-20261024/334a347f2988d98d4b36a763ce8b8bc96ef11ed6219f7b6e2994afe005aba97e.img",
+        "/tmp/estore-short-gallery-audit-20261024/c8945ff2d1242c7d9541203f6021d9d6b0648101c21be192ddbc58474b4bb4c9.img",
+        "/tmp/estore-short-gallery-audit-20261024/9bb10b8d2b04ed74fd11bebb8ef20183cc47dd8fbc59ff8f73d63c349a30fba9.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/105811-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-albastru/",
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-9a145449-0d5a-4ca2-a5df-fdc41e555312.png",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-b9db5ad6-9e94-4b6a-a0f3-06777d3f3ad5.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-db960c93-d322-40a1-a75d-6a55756fbd2f.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-6c2d566a-79a6-404d-9fc4-43ece974a6b2.png"
+    },
+    {
+      "supplierId": "105825",
+      "products": [
+        {
+          "barcode": "2516679REIQVDWJ7B",
+          "sku": "105825",
+          "model": "2516679REIQVDWJ7B",
+          "title": "Pilot Pack + 2 Perne Premium din Microfibră, Hipoalergenice, Fabricate în România",
+          "description": "Transformă somnul într-o experiență de confort total cu acest set complet, format dintr-o pilotă și 2 perne, fabricat în România din materiale de calitate superioară.; Ideal pentru utilizare zilnică, oferă echilibrul perfect între căldură, lejeritate și durabilitate.; ✔️ Material moale la atingere – plăcut la atingere, confort imediat ✔️ Umplutură respirabilă – reține căldura fără a supraîncălzi ✔️ Hipoalergenic – potrivit pentru întreaga familie ✔️ Menține forma – rezistent la spălări repetate ✔️ Ușor de întreținut – spălare rapidă și uscare eficientă 📦 Conținutul pachetului: • 1 x Pilotă 200 x 215 cm • 2 x Perne 50 x 70 cm 📊 Specificații tehnice: • Material: microfibră densă și rezistentă (",
+          "category": "Plapume duble",
+          "brand": "RALEX PUCIOASA",
+          "color": "mov",
+          "size": "",
+          "price": 249,
+          "listPrice": 249,
+          "stock": 66,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/15/1152e86a-2218-3cec-9070-b6c48497b9da/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/15/e3461d75-203c-33e5-a969-12c13b82a61f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260410/15/2479daec-6920-32bd-aa26-30e218563094/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1131242944?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/50d9be070a0055c51617f6f3c6d9a92a0d8256e5266fcd5422b10f6017665166.img",
+        "/tmp/estore-short-gallery-audit-20261024/378159999aebc36952cb85cd23e695632ebfd7f53b51d4c9129d4dadfc9b1f1e.img",
+        "/tmp/estore-short-gallery-audit-20261024/dc5bca9b32560126f636037c4dbbaab47d97723be7af083aa17e95e352b4371b.img",
+        "/tmp/estore-short-gallery-audit-20261024/0d5a4d9f96ca8e7b476a553d621cd5429c6655afcbe5d88bcaa6c5fa1e41a096.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/105825-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-mov/",
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-4e697a95-e8df-4c53-b2b1-dfb1aebf3c1f.png",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-3ff84dfc-b5ee-4d1e-aa4d-cbf1993aef04.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-4130a521-7fa0-4d4d-9ff4-523c1aa514b6.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-e47a8098-328c-4028-bfe3-a4f7fec9db57.png"
+    },
+    {
+      "supplierId": "105816",
+      "products": [
+        {
+          "barcode": "2516680TKMKKKDAXV",
+          "sku": "105816",
+          "model": "2516680TKMKKKDAXV",
+          "title": "Pachet Pilot + 2 Perne Premium din Microfibră, Hipoalergenice, Fabricate în România",
+          "description": "Transformă somnul într-o experiență de confort total cu acest set complet care include o pilotă și 2 perne, fabricate în România din materiale de calitate superioară.; Ideal pentru utilizare zilnică, oferă echilibrul perfect între căldură, lejeritate și durabilitate.; ✔️ Material moale la atingere – plăcut la atingere, confort imediat ✔️ Umplutură respirabilă – reține căldura fără a supraîncălzi ✔️ Hipoalergenic – potrivit pentru întreaga familie ✔️ Menține forma – rezistent la spălări repetate ✔️ Ușor de întreținut – spălare rapidă și uscare eficientă 📦 Conținutul pachetului: • 1 x Pilotă 200 x 215 cm • 2 x Perne 50 x 70 cm 📊 Specificații tehnice: • Material: microfibră densă și rezistentă (17",
+          "category": "Perne",
+          "brand": "RALEX PUCIOASA",
+          "color": "albastru",
+          "size": "",
+          "price": 249,
+          "listPrice": 249,
+          "stock": 55,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/15/2f9b0f0a-a0a3-34b0-9f07-ac7c3d384412/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260410/15/3db563ed-bee5-3690-861e-0dbaef986706/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260410/15/1aa5d25a-f807-3701-b6a4-dbde4e76dc2a/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1131242603?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/bacb062a4296bbc5e76ccb20dee6d29c88e4996aab305252c6968a0d72c4d97e.img",
+        "/tmp/estore-short-gallery-audit-20261024/2ad23d76c640719d2eef95ebc271eca5cadc30c548e5dd6a22ed8dba2714bd85.img",
+        "/tmp/estore-short-gallery-audit-20261024/de163c4d17ff34e25fdab58151b8dd410cf0dde17717cbd7f152773aa1ca7849.img",
+        "/tmp/estore-short-gallery-audit-20261024/d028b10cedf6f4d63ebbfc54e7d34da3f2da0d6a8a9e19f1a91890cb293df36c.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/105816-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-bleu/",
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-fb4eec29-4859-481d-b04e-f2734e460183.png",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-904de275-c4d1-4e31-91c6-c14e6dbf3eac.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-cb6b4bcf-754d-4533-a215-fa3793680bb1.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-4b44d6ff-742d-4c7b-8a9b-5eceed005ee3.png"
+    },
+    {
+      "supplierId": "110001",
+      "products": [
+        {
+          "barcode": "3055601NPIQHQQWFR",
+          "sku": "110001",
+          "model": "3055601NPIQHQQWFR",
+          "title": "Pernă ergonomică cu memorie, cu ventilație, suport cervical, husă respirabilă, 40x60 cm",
+          "description": "",
+          "category": "Perne",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 189,
+          "listPrice": 219,
+          "stock": 50,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260611/14/e04f4f54-ae9a-30e9-b1b6-35f480428315/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260611/14/a50862aa-4c5e-35c1-aa9a-caaa59ab8154/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260611/14/a371386f-268e-3ec3-81e2-174638baf264/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1155404783?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/a55e78ea2fde22f0492f12d2ed62217c8323bd724cdbbf3b93894b01a803610e.img",
+        "/tmp/estore-short-gallery-audit-20261024/81ae3402958dea353a7da1c98a7755f22ac787366e856d6aef939589f079d62b.img",
+        "/tmp/estore-short-gallery-audit-20261024/5217e239b3f5c4df06822a02bedd79ff346c32afac92fa4567fdf6d681cb21f5.img",
+        "/tmp/estore-short-gallery-audit-20261024/a5725ff533009c72b8f567353ff04db0400487ee34aa51c94d857cff8e7c46b8.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110001-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/perne/perna-ergonomnica-memory-cu-sistem-de-ventilatie/",
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-14d4905f-09a9-4753-b0f8-a1c74116d7c1.png",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-89b5e85c-0f9e-4f2e-a95a-532704554442.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-e5d586c6-2da3-41ed-88dc-33d8137e4448.png",
+      "detail": null
+    },
+    {
+      "supplierId": "112032",
+      "products": [
+        {
+          "barcode": "3078659RPFIZGTLVT",
+          "sku": "112032",
+          "model": "3078659RPFIZGTLVT",
+          "title": "Set de lenjerie de pat Damasc, 4 piese, Fabricat în România, Elegant și durabil",
+          "description": "",
+          "category": "Huse de pilotă XL",
+          "brand": "RALEX PUCIOASA",
+          "color": "lavanda gri",
+          "size": "",
+          "price": 189,
+          "listPrice": 229,
+          "stock": 20,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260612/23/e0a8bff6-03fb-35fe-a744-7b7cca39b42e/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260612/23/9e7a314a-0b2a-35f8-9f0d-2bcb2bb731c2/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1155883909?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/98acb8a51b92eba96c5764b8f5ba2df5dcad5b23125a72a52c51b4c0d38b77ee.img",
+        "/tmp/estore-short-gallery-audit-20261024/0be5a239e5edd6fca1da3826ebfcda4d7b7b3a11a5889b1057b7229920c82cdd.img",
+        "/tmp/estore-short-gallery-audit-20261024/c3bdddcd8affca7f121b3d7e2d633a5e88fa24414013c46813371bcbfd29adeb.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/112032-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-i/lenjerie-de-pat-damasc-policoton-4-piese-2/",
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-78552a9a-80e4-4179-880a-e5e52a5765d6.png",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-58af5ef6-1642-40e5-9add-6264ed2926f9.png",
+      "side": null,
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-95406fc0-9a7e-48e3-a34d-b57d618ae8d7.png"
+    }
+  ],
+  "review": "30 selected generated images reviewed. Four first overhead bundle images rejected for elongated pillow proportions; replaced with single 50x70 pillow overhead. Existing Control galleries and sources retained for audit.",
+  "prompt": "Actual supplier and Control references; preserve own motifs, colors, piping, quilting and size. Distinct hero, side, overhead and close detail. Folded bundles remain folded. Pillow overhead corrected to 7:5. No claims or text."
+}

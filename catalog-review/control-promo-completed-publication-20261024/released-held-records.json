@@ -1,0 +1,369 @@
+[
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "id": 110001,
+      "name": "Pernă ergonomică Memory cu sistem de ventilație",
+      "categoryPath": "perne",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/perna-ergonomnica-memory-cu-sistem-de-ventilatie/local-98.webp",
+      "images": [
+        "/products/perna-ergonomnica-memory-cu-sistem-de-ventilatie/local-98.webp",
+        "/products/perna-ergonomnica-memory-cu-sistem-de-ventilatie/local-99.webp",
+        "/products/perna-ergonomnica-memory-cu-sistem-de-ventilatie/local-100.webp",
+        "/products/perna-ergonomnica-memory-cu-sistem-de-ventilatie/local-101.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/perne/perna-ergonomnica-memory-cu-sistem-de-ventilatie/",
+      "material": "Burete memory; tricot fagure și material lateral 3D",
+      "features": [
+        {
+          "label": "Dimensiuni",
+          "value": "40 × 60 cm"
+        },
+        {
+          "label": "Înălțime",
+          "value": "9 / 11 cm"
+        },
+        {
+          "label": "Umplutură",
+          "value": "Memory cu orificii pentru aerisire"
+        },
+        {
+          "label": "Conținut",
+          "value": "1 pernă"
+        }
+      ],
+      "description": "Pernă ergonomică Memory cu sistem de ventilație. Descriere produs: Dimensiuni suprafata: 40cm/60cm Inaltime: 9cm/11cm Umplutura burete memory cu gauri pentru aerisire Material suprafata tricot fagure alb Material laterale 3d respirabil, gri inchis Conținut pachet: 1 pernă.",
+      "category": "Perne și protecții pernă",
+      "sku": "110001",
+      "price": 159,
+      "inStock": true,
+      "stock": 50
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images"
+    ],
+    "product": {
+      "id": 105829,
+      "name": "Pachet Primăvară PROMO, Pilotă + 2 Perne (ROȘU)",
+      "categoryPath": "oferte",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/pachet-primavara-promo-pilota-2-perne-rosu/local-88.webp",
+      "images": [
+        "/products/pachet-primavara-promo-pilota-2-perne-rosu/local-88.webp",
+        "/products/pachet-primavara-promo-pilota-2-perne-rosu/local-89.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-rosu/",
+      "material": "Țesătură microfibră; umplutură poliester",
+      "features": [
+        {
+          "label": "Pilotă",
+          "value": "200 × 215 cm"
+        },
+        {
+          "label": "Perne",
+          "value": "2 bucăți, 50 × 70 cm"
+        },
+        {
+          "label": "Țesătură",
+          "value": "Microfibră 170 g/m²"
+        },
+        {
+          "label": "Umplutură pilotă",
+          "value": "Poliester 200 g/m²"
+        },
+        {
+          "label": "Greutate perne",
+          "value": "600 g / bucată"
+        }
+      ],
+      "description": "Pachet Primăvară PROMO, Pilotă + 2 Perne (ROȘU). Descriere: Țesătură microfibră 170g / mp Umplutură poliester 200g / mp Dimensiune pilotă: 200cm x 215cm Greutate pilotă: 370g / mp Dimensiune perne: 50cm x 70cm Greutate perne: 600g / buc. Conținut pachet: 1 pilotă și 2 perne.",
+      "category": "Oferte",
+      "sku": "105829",
+      "price": 189,
+      "inStock": true,
+      "stock": 88
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images"
+    ],
+    "product": {
+      "id": 105825,
+      "name": "Pachet Primăvară PROMO, Pilotă + 2 Perne (MOV)",
+      "categoryPath": "oferte",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/pachet-primavara-promo-pilota-2-perne-mov/local-94.webp",
+      "images": [
+        "/products/pachet-primavara-promo-pilota-2-perne-mov/local-94.webp",
+        "/products/pachet-primavara-promo-pilota-2-perne-mov/local-83.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-mov/",
+      "material": "Țesătură microfibră; umplutură poliester",
+      "features": [
+        {
+          "label": "Pilotă",
+          "value": "200 × 215 cm"
+        },
+        {
+          "label": "Perne",
+          "value": "2 bucăți, 50 × 70 cm"
+        },
+        {
+          "label": "Țesătură",
+          "value": "Microfibră 170 g/m²"
+        },
+        {
+          "label": "Umplutură pilotă",
+          "value": "Poliester 200 g/m²"
+        },
+        {
+          "label": "Greutate perne",
+          "value": "600 g / bucată"
+        }
+      ],
+      "description": "Pachet Primăvară PROMO, Pilotă + 2 Perne (MOV). Descriere: Țesătură microfibră 170g / mp Umplutură poliester 200g / mp Dimensiune pilotă: 200cm x 215cm Greutate pilotă: 370g / mp Dimensiune perne: 50cm x 70cm Greutate perne: 600g / buc. Conținut pachet: 1 pilotă și 2 perne.",
+      "category": "Oferte",
+      "sku": "105825",
+      "price": 189,
+      "inStock": true,
+      "stock": 66
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images"
+    ],
+    "product": {
+      "id": 105820,
+      "name": "Pachet Primăvară PROMO, Pilotă + 2 Perne (GALBEN)",
+      "categoryPath": "oferte",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/pachet-primavara-promo-pilota-2-perne-galben/local-92.webp",
+      "images": [
+        "/products/pachet-primavara-promo-pilota-2-perne-galben/local-92.webp",
+        "/products/pachet-primavara-promo-pilota-2-perne-galben/local-93.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-galben/",
+      "material": "Țesătură microfibră; umplutură poliester",
+      "features": [
+        {
+          "label": "Pilotă",
+          "value": "200 × 215 cm"
+        },
+        {
+          "label": "Perne",
+          "value": "2 bucăți, 50 × 70 cm"
+        },
+        {
+          "label": "Țesătură",
+          "value": "Microfibră 170 g/m²"
+        },
+        {
+          "label": "Umplutură pilotă",
+          "value": "Poliester 200 g/m²"
+        },
+        {
+          "label": "Greutate perne",
+          "value": "600 g / bucată"
+        }
+      ],
+      "description": "Pachet Primăvară PROMO, Pilotă + 2 Perne (GALBEN). Descriere: Țesătură microfibră 170g / mp Umplutură poliester 200g / mp Dimensiune pilotă: 200cm x 215cm Greutate pilotă: 370g / mp Dimensiune perne: 50cm x 70cm Greutate perne: 600g / buc. Conținut pachet: 1 pilotă și 2 perne.",
+      "category": "Oferte",
+      "sku": "105820",
+      "price": 189,
+      "inStock": true,
+      "stock": 92
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images"
+    ],
+    "product": {
+      "id": 105816,
+      "name": "Pachet Primăvară PROMO, Pilotă + 2 Perne (BLEU)",
+      "categoryPath": "oferte",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/pachet-primavara-promo-pilota-2-perne-bleu/local-84.webp",
+      "images": [
+        "/products/pachet-primavara-promo-pilota-2-perne-bleu/local-84.webp",
+        "/products/pachet-primavara-promo-pilota-2-perne-bleu/local-85.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-bleu/",
+      "material": "Țesătură microfibră; umplutură poliester",
+      "features": [
+        {
+          "label": "Pilotă",
+          "value": "200 × 215 cm"
+        },
+        {
+          "label": "Perne",
+          "value": "2 bucăți, 50 × 70 cm"
+        },
+        {
+          "label": "Țesătură",
+          "value": "Microfibră 170 g/m²"
+        },
+        {
+          "label": "Umplutură pilotă",
+          "value": "Poliester 200 g/m²"
+        },
+        {
+          "label": "Greutate perne",
+          "value": "600 g / bucată"
+        }
+      ],
+      "description": "Pachet Primăvară PROMO, Pilotă + 2 Perne (BLEU). Descriere: Țesătură microfibră 170g / mp Umplutură poliester 200g / mp Dimensiune pilotă: 200cm x 215cm Greutate pilotă: 370g / mp Dimensiune perne: 50cm x 70cm Greutate perne: 600g / buc. Conținut pachet: 1 pilotă și 2 perne.",
+      "category": "Oferte",
+      "sku": "105816",
+      "price": 189,
+      "inStock": true,
+      "stock": 55
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images"
+    ],
+    "product": {
+      "id": 105811,
+      "name": "Pachet Primăvară PROMO, Pilotă + 2 Perne (ALBASTRU)",
+      "categoryPath": "oferte",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/pachet-primavara-promo-pilota-2-perne-albastru/local-90.webp",
+      "images": [
+        "/products/pachet-primavara-promo-pilota-2-perne-albastru/local-90.webp",
+        "/products/pachet-primavara-promo-pilota-2-perne-albastru/local-91.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-albastru/",
+      "material": "Țesătură microfibră; umplutură poliester",
+      "features": [
+        {
+          "label": "Pilotă",
+          "value": "200 × 215 cm"
+        },
+        {
+          "label": "Perne",
+          "value": "2 bucăți, 50 × 70 cm"
+        },
+        {
+          "label": "Țesătură",
+          "value": "Microfibră 170 g/m²"
+        },
+        {
+          "label": "Umplutură pilotă",
+          "value": "Poliester 200 g/m²"
+        },
+        {
+          "label": "Greutate perne",
+          "value": "600 g / bucată"
+        }
+      ],
+      "description": "Pachet Primăvară PROMO, Pilotă + 2 Perne (ALBASTRU). Descriere: Țesătură microfibră 170g / mp Umplutură poliester 200g / mp Dimensiune pilotă: 200cm x 215cm Greutate pilotă: 370g / mp Dimensiune perne: 50cm x 70cm Greutate perne: 600g / buc. Conținut pachet: 1 pilotă și 2 perne.",
+      "category": "Oferte",
+      "sku": "105811",
+      "price": 189,
+      "inStock": true,
+      "stock": 87
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images"
+    ],
+    "product": {
+      "id": 105804,
+      "name": "Pachet Primăvară PROMO, Pilotă + 2 Perne (ALB)",
+      "categoryPath": "oferte",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/pachet-primavara-promo-pilota-2-perne-alb/local-82.webp",
+      "images": [
+        "/products/pachet-primavara-promo-pilota-2-perne-alb/local-82.webp",
+        "/products/pachet-primavara-promo-pilota-2-perne-alb/local-87.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-alb/",
+      "material": "Țesătură microfibră; umplutură poliester",
+      "features": [
+        {
+          "label": "Pilotă",
+          "value": "200 × 215 cm"
+        },
+        {
+          "label": "Perne",
+          "value": "2 bucăți, 50 × 70 cm"
+        },
+        {
+          "label": "Țesătură",
+          "value": "Microfibră 170 g/m²"
+        },
+        {
+          "label": "Umplutură pilotă",
+          "value": "Poliester 200 g/m²"
+        },
+        {
+          "label": "Greutate perne",
+          "value": "600 g / bucată"
+        }
+      ],
+      "description": "Pachet Primăvară PROMO, Pilotă + 2 Perne (ALB). Descriere: Țesătură microfibră 170g / mp Umplutură poliester 200g / mp Dimensiune pilotă: 200cm x 215cm Greutate pilotă: 370g / mp Dimensiune perne: 50cm x 70cm Greutate perne: 600g / buc. Conținut pachet: 1 pilotă și 2 perne.",
+      "category": "Oferte",
+      "sku": "105804",
+      "price": 189,
+      "inStock": true,
+      "stock": 1
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "existing_quality_hold",
+      "fewer_than_four_images",
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 112032,
+      "name": "Lenjerie de Pat Damasc Policoton 4 Piese — lavanda gri",
+      "category": "LENJERII DE PAT DAMASC POLICOTON 4 PCS",
+      "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-i",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Compoziție textilă:\n80% polierster – 20% bumbac\nDimensiuni:\nCearsaf pat: 230 x 250 cm\nCearsaf pilota: 200 x 230 cm\nFață pernă: 50 x 70 cm – 2 buc\nLenjerie de Pat Damasc Policoton 4 Piese – Eleganță, Confort și Rezistență\nTransformă dormitorul într-un spațiu elegant și confortabil cu această lenjerie de pat Damasc Policoton 4 piese, realizată dintr-un material de calitate superioară, care îmbină avantajele bumbacului cu rezistența fibrelor de poliester. Designul damasc conferă un aspect rafinat și luxos, fiind alegerea ideală pentru orice stil de amenajare.\nMaterialul din 80% poliester și 20% bumbac oferă o textură plăcută la atingere, o bună circulație a aerului și o rezistență sporită la uzură și spălări repetate. Lenjeria își păstrează culorile și aspectul impecabil pentru o perioadă îndelungată, fiind ușor de întreținut și de călcat.\nAvantaje Lenjerie Damasc Policoton\n✔ Material rezistent și durabil\n✔ Aspect elegant cu model damasc discret\n✔ Confort sporit pentru un somn odihnitor\n✔ Întreținere facilă și uscare rapidă\n✔ Rezistență la decolorare și șifonare\n✔ Potrivită pentru utilizare zilnică\nSetul Conține\n1 x Cearșaf pentru pat: 230 x 260 cm\n1 x Cearșaf pentru pilotă: 200 x 230 cm\n2 x Fețe de pernă: 50 x 70 cm\nCompoziție Material\n80% Poliester\n20% Bumbac\nDatorită combinației dintre poliester și bumbac, această lenjerie de pat Damasc Policoton 4 piese oferă echilibrul perfect între confort, rezistență și aspect estetic. Este alegerea ideală pentru cei care își doresc o lenjerie elegantă, practică și durabilă, potrivită atât pentru locuințe, cât și pentru pensiuni sau hoteluri.\nInstrucțiuni de întreținere:\n– Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic.\n– Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic.\n– Se calcă la maxim 90°\n– Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare.",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-i/lenjerie-de-pat-damasc-policoton-4-piese-2/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260612/23/e0a8bff6-03fb-35fe-a744-7b7cca39b42e/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260612/23/9e7a314a-0b2a-35f8-9f0d-2bcb2bb731c2/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260612/23/e0a8bff6-03fb-35fe-a744-7b7cca39b42e/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 229,
+      "sku": "112032",
+      "stock": 20
+    }
+  }
+]

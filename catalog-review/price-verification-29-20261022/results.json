@@ -7627,5 +7627,93 @@
       "440": true
     },
     "checkedAt": "2026-10-23T23:32:20.424972+00:00"
+  },
+  {
+    "id": 105804,
+    "supplierUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-alb/",
+    "costs": {
+      "105804": 105.0
+    },
+    "availability": {
+      "105804": false
+    },
+    "checkedAt": "2026-10-23T23:54:30.913480+00:00"
+  },
+  {
+    "id": 105829,
+    "supplierUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-rosu/",
+    "costs": {
+      "105829": 105.0
+    },
+    "availability": {
+      "105829": true
+    },
+    "checkedAt": "2026-10-23T23:54:30.913480+00:00"
+  },
+  {
+    "id": 105820,
+    "supplierUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-galben/",
+    "costs": {
+      "105820": 105.0
+    },
+    "availability": {
+      "105820": true
+    },
+    "checkedAt": "2026-10-23T23:54:30.913480+00:00"
+  },
+  {
+    "id": 105811,
+    "supplierUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-albastru/",
+    "costs": {
+      "105811": 105.0
+    },
+    "availability": {
+      "105811": true
+    },
+    "checkedAt": "2026-10-23T23:54:30.913480+00:00"
+  },
+  {
+    "id": 105825,
+    "supplierUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-mov/",
+    "costs": {
+      "105825": 105.0
+    },
+    "availability": {
+      "105825": false
+    },
+    "checkedAt": "2026-10-23T23:54:30.913480+00:00"
+  },
+  {
+    "id": 105816,
+    "supplierUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-bleu/",
+    "costs": {
+      "105816": 105.0
+    },
+    "availability": {
+      "105816": true
+    },
+    "checkedAt": "2026-10-23T23:54:30.913480+00:00"
+  },
+  {
+    "id": 110001,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-ergonomnica-memory-cu-sistem-de-ventilatie/",
+    "costs": {
+      "110001": 88.0
+    },
+    "availability": {
+      "110001": true
+    },
+    "checkedAt": "2026-10-23T23:54:30.913480+00:00"
+  },
+  {
+    "id": 112032,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-i/lenjerie-de-pat-damasc-policoton-4-piese-2/",
+    "costs": {
+      "112032": 123.0
+    },
+    "availability": {
+      "112032": true
+    },
+    "checkedAt": "2026-10-23T23:54:30.913480+00:00"
   }
 ]
