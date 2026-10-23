@@ -145,6 +145,12 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
           </label>)}
         </div>
         <fieldset className="rounded-xl border border-[#c9bda9] p-4">
+          <legend className="px-1 text-sm font-semibold">Alege metoda de plată</legend>
+          <label className="flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="card" checked={paymentMethod === "card"} disabled={!cardEnabled} onChange={() => setPaymentMethod("card")} />Card online prin EuPlătesc{!cardEnabled ? " — în curs de activare" : ""}</label>
+          <label className="mt-3 flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="cod" checked={paymentMethod === "cod"} disabled={!codEnabled || carrier !== "sameday"} onChange={() => setPaymentMethod("cod")} />{method === "easybox" ? "Ramburs la easybox — achiți cu cardul la ridicare" : "Ramburs la domiciliu — achiți curierului la livrare"}</label>
+          {carrier !== "sameday" && <p className="mt-3 text-xs">Pentru plata ramburs, alege livrarea Sameday la domiciliu sau la easybox.</p>}
+        </fieldset>
+        <fieldset className="rounded-xl border border-[#c9bda9] p-4">
           <legend className="px-1 text-sm font-semibold">Alege curierul</legend>
           {shippingOptions.length ? shippingOptions.map((option) => <label key={`${option.carrier}-${option.method || "home"}`} className="mt-2 flex items-center justify-between gap-3 text-sm">
             <span className="flex items-center gap-2"><input type="radio" name="carrier" value={option.carrier} checked={carrier === option.carrier && method === (option.method || "home")} disabled={!shippingPaymentAvailable(option, cardEnabled, codEnabled) || option.method === "easybox" && !easyboxEligible} onChange={() => { setCarrier(option.carrier); setMethod(option.method || "home"); setLocker(null); if (option.carrier !== "sameday") setPaymentMethod("card"); else if (!cardEnabled && codEnabled) setPaymentMethod("cod"); }} required />{option.label}{!shippingPaymentAvailable(option, cardEnabled, codEnabled) ? " — disponibil după activarea plății cu cardul" : option.method === "easybox" && !easyboxEligible ? " — indisponibil pentru acest coș" : ""}</span>
@@ -157,12 +163,6 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
               : currentRate?.error ? <p role="alert">{currentRate.error} <button type="button" className="underline" onClick={() => { setRateResult(null); setRateRefresh((value) => value + 1); }}>Reîncearcă</button></p>
                 : shippingCents === null ? <p>Se confirmă transportul…</p> : <p>Transport confirmat: {shippingCents === 0 ? "gratuit" : formatProductPrice(shippingCents / 100, "RON")}.</p>}
           </div>
-        </fieldset>
-        <fieldset className="rounded-xl border border-[#c9bda9] p-4">
-          <legend className="px-1 text-sm font-semibold">Alege metoda de plată</legend>
-          <label className="flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="card" checked={paymentMethod === "card"} disabled={!cardEnabled} onChange={() => setPaymentMethod("card")} />Card online prin EuPlătesc{!cardEnabled ? " — în curs de activare" : ""}</label>
-          <label className="mt-3 flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="cod" checked={paymentMethod === "cod"} disabled={!codEnabled || carrier !== "sameday"} onChange={() => setPaymentMethod("cod")} />{method === "easybox" ? "Ramburs la easybox — achiți cu cardul la ridicare" : "Ramburs la domiciliu — achiți curierului la livrare"}</label>
-          {carrier !== "sameday" && <p className="mt-3 text-xs">Pentru plata ramburs, alege livrarea Sameday la domiciliu sau la easybox.</p>}
         </fieldset>
         <label className="flex items-center gap-3 text-sm"><input type="checkbox" checked={separateBilling} onChange={(event) => setSeparateBilling(event.target.checked)} /> Datele de facturare diferă de cele de livrare</label>
         {separateBilling ? <div className="grid gap-4 rounded-xl border border-[#c9bda9] p-4">

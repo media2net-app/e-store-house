@@ -133,3 +133,5 @@ Reviewed Git source snapshots and found earlier development prices (including ro
 
 - Mobile repair: dedicated 1:3 packaged-products illustration; readable full-width Romanian message on phones, six sale cards left and vertical packaged image right, categories immediately below across width. Complete (contain) image framing in product cards and native horizontal swipe gallery; zoom image mounted only after opening and optimized via Next Image. Visually checked 360/390/430px phone layouts and tablet layout; product next-image and zoom tested at 390px.
 - Performance: moved currency formatting into a data-free module, removing catalog JSON from browser JS. Homepage linked JS bytes before 1,264,532, after 612,084 (uncompressed, 51.6% less; not a measured page-load-time percentage). All 281 product detail pages now prerendered at build; route loading UI added. Offer tests passed.
+
+- Checkout: payment-method section moved before courier selection as requested; existing payment availability and delivery calculations preserved.
