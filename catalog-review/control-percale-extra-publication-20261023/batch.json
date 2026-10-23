@@ -1,0 +1,20 @@
+{
+  "preparedAt": "2026-10-23T20:09:17.447372+00:00",
+  "products": [
+    {
+      "id": 94833,
+      "indices": [
+        241,
+        242
+      ],
+      "skus": [
+        "94834",
+        "94836"
+      ],
+      "status": "verified-ready"
+    }
+  ],
+  "held": [],
+  "newModels": 1,
+  "newSkus": 2
+}

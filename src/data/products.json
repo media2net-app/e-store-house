@@ -19694,5 +19694,677 @@
     "price": 119,
     "stock": 100,
     "inStock": true
+  },
+  {
+    "id": 88254,
+    "name": "Lenjerie de pat creponată CREP30, 100% bumbac",
+    "category": "Lenjerii de pat creponate",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Crep, 100% bumbac",
+    "description": "Lenjerie de pat creponată CREP30, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană: Cearșaf de pat 160 × 240 cm; husă de pilotă 140 × 210 cm; față de pernă 50 × 70 cm.\nKing size: Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep30/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/17/e4ee767c-331c-3801-86dd-40e7300c2ee3/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/ca823946-13a3-30e4-ba3a-921022a7124b/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/7445c225-aa2c-3d4e-b1fd-cfef7296ffb7/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/8e04a200-df6a-3793-8253-c504128549e9/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/17/e4ee767c-331c-3801-86dd-40e7300c2ee3/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Crep, 100% bumbac"
+      },
+      {
+        "label": "Conținut",
+        "value": "O persoană: Cearșaf de pat 160 × 240 cm; husă de pilotă 140 × 210 cm; față de pernă 50 × 70 cm.\nKing size: Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "price": 249,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 88255,
+        "sku": "88255",
+        "name": "O persoană",
+        "dimensions": "Cearșaf 160 × 240 cm",
+        "contents": "Cearșaf de pat 160 × 240 cm; husă de pilotă 140 × 210 cm; față de pernă 50 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/17/e4ee767c-331c-3801-86dd-40e7300c2ee3/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/ca823946-13a3-30e4-ba3a-921022a7124b/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/7445c225-aa2c-3d4e-b1fd-cfef7296ffb7/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/8e04a200-df6a-3793-8253-c504128549e9/1_org_zoom.jpg"
+        ],
+        "price": 249,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 88257,
+        "sku": "88257",
+        "name": "King size",
+        "dimensions": "Cearșaf 240 × 260 cm",
+        "contents": "Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/16/c7a680a8-f0b4-3442-a9fa-b3981002b32c/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/16/b9850a02-ce33-3bfc-9d5c-6631b7f66c2d/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/16/8ecdcbe5-c26b-3926-98ab-cf87382d5c6b/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/16/d22eee3b-ec2f-3909-bcb8-8e83a9bd025d/1_org_zoom.jpg"
+        ],
+        "price": 379,
+        "stock": 100,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 88258,
+    "name": "Lenjerie de pat creponată CREP31, 100% bumbac",
+    "category": "Lenjerii de pat creponate",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Crep, 100% bumbac",
+    "description": "Lenjerie de pat creponată CREP31, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nKing size: Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep31/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/16/5705b469-8560-3a48-9dc1-6ff138c0621e/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/16/98203095-09f3-30f7-b16d-32379e1fef1e/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/16/5df96b47-3f0b-36b0-8ff8-6976e2772d90/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/16/ecb4f185-96ce-354a-992b-73b0f9674ea6/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/16/5705b469-8560-3a48-9dc1-6ff138c0621e/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Crep, 100% bumbac"
+      },
+      {
+        "label": "Conținut",
+        "value": "King size: Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "price": 379,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 88261,
+        "sku": "88261",
+        "name": "King size",
+        "dimensions": "Cearșaf 240 × 260 cm",
+        "contents": "Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/16/5705b469-8560-3a48-9dc1-6ff138c0621e/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/16/98203095-09f3-30f7-b16d-32379e1fef1e/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/16/5df96b47-3f0b-36b0-8ff8-6976e2772d90/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/16/ecb4f185-96ce-354a-992b-73b0f9674ea6/1_org_zoom.jpg"
+        ],
+        "price": 379,
+        "stock": 100,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 90136,
+    "name": "Lenjerie de pat creponată CREP34, 100% bumbac",
+    "category": "Lenjerii de pat creponate",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Crep, 100% bumbac",
+    "description": "Lenjerie de pat creponată CREP34, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nKing size: Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep34/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/32e90328-75ae-39b1-94b5-5fb7c4c21d15/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/b2b1b3ab-d556-3ce1-a59e-e22e2c2cbcd9/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/b51c4428-0c81-3615-a7a6-1c18f22ddaf8/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/5b464406-1fb7-3298-96a4-bf22561ae811/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/32e90328-75ae-39b1-94b5-5fb7c4c21d15/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Crep, 100% bumbac"
+      },
+      {
+        "label": "Conținut",
+        "value": "King size: Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "price": 379,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 90139,
+        "sku": "90139",
+        "name": "King size",
+        "dimensions": "Cearșaf 240 × 260 cm",
+        "contents": "Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/32e90328-75ae-39b1-94b5-5fb7c4c21d15/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/b2b1b3ab-d556-3ce1-a59e-e22e2c2cbcd9/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/b51c4428-0c81-3615-a7a6-1c18f22ddaf8/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/5b464406-1fb7-3298-96a4-bf22561ae811/1_org_zoom.jpg"
+        ],
+        "price": 379,
+        "stock": 100,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 90140,
+    "name": "Lenjerie de pat creponată CREP35, 100% bumbac",
+    "category": "Lenjerii de pat creponate",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Crep, 100% bumbac",
+    "description": "Lenjerie de pat creponată CREP35, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nKing size: Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep35/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/b997ca4a-44fe-3636-a665-e31cefc6d589/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/33b31837-1201-32f4-a2df-1a891ea442d9/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/242df143-5a4e-3e62-a010-5b79e37db218/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/6fcacbd1-9f6f-3a27-8138-cadb6e9d169c/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/b997ca4a-44fe-3636-a665-e31cefc6d589/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Crep, 100% bumbac"
+      },
+      {
+        "label": "Conținut",
+        "value": "King size: Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "price": 379,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 90143,
+        "sku": "90143",
+        "name": "King size",
+        "dimensions": "Cearșaf 240 × 260 cm",
+        "contents": "Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/b997ca4a-44fe-3636-a665-e31cefc6d589/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/33b31837-1201-32f4-a2df-1a891ea442d9/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/242df143-5a4e-3e62-a010-5b79e37db218/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/6fcacbd1-9f6f-3a27-8138-cadb6e9d169c/1_org_zoom.jpg"
+        ],
+        "price": 379,
+        "stock": 100,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 90148,
+    "name": "Lenjerie de pat creponată CREP37, 100% bumbac",
+    "category": "Lenjerii de pat creponate",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Crep, 100% bumbac",
+    "description": "Lenjerie de pat creponată CREP37, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nKing size: Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep37/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/00ac19f6-f23e-3502-83e2-ee326b52db8e/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/b0ef4c3f-df17-3e46-9e8e-71cb83ef2234/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/17/19ea7185-198f-3ead-9396-39e5c2500681/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/2d3c4378-2b74-324f-baf7-1ab0172661f2/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/00ac19f6-f23e-3502-83e2-ee326b52db8e/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Crep, 100% bumbac"
+      },
+      {
+        "label": "Conținut",
+        "value": "King size: Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "price": 379,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 90151,
+        "sku": "90151",
+        "name": "King size",
+        "dimensions": "Cearșaf 240 × 260 cm",
+        "contents": "Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/00ac19f6-f23e-3502-83e2-ee326b52db8e/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/b0ef4c3f-df17-3e46-9e8e-71cb83ef2234/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/17/19ea7185-198f-3ead-9396-39e5c2500681/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/2d3c4378-2b74-324f-baf7-1ab0172661f2/1_org_zoom.jpg"
+        ],
+        "price": 379,
+        "stock": 100,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 90132,
+    "name": "Lenjerie de pat creponată CREP33, 100% bumbac",
+    "category": "Lenjerii de pat creponate",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Crep, 100% bumbac",
+    "description": "Lenjerie de pat creponată CREP33, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nKing size: Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep33/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/17/b65f3a09-7d56-3ff1-b900-834b7e73bf6d/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/76252720-fa7d-3d29-8fe3-f5fa55e63ac5/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/17/85b53017-512e-3cbf-a6e2-9b953343f7c3/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/014eccc2-8a72-35ab-9ec8-5cf24aa5e224/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/17/b65f3a09-7d56-3ff1-b900-834b7e73bf6d/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Crep, 100% bumbac"
+      },
+      {
+        "label": "Conținut",
+        "value": "King size: Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "price": 379,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 90135,
+        "sku": "90135",
+        "name": "King size",
+        "dimensions": "Cearșaf 240 × 260 cm",
+        "contents": "Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/17/b65f3a09-7d56-3ff1-b900-834b7e73bf6d/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/76252720-fa7d-3d29-8fe3-f5fa55e63ac5/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/17/85b53017-512e-3cbf-a6e2-9b953343f7c3/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/014eccc2-8a72-35ab-9ec8-5cf24aa5e224/1_org_zoom.jpg"
+        ],
+        "price": 379,
+        "stock": 100,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 90144,
+    "name": "Lenjerie de pat creponată CREP36, 100% bumbac",
+    "category": "Lenjerii de pat creponate",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Crep, 100% bumbac",
+    "description": "Lenjerie de pat creponată CREP36, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nKing size: Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep36/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/0a92f763-d29b-326e-9d99-83fe9abe6783/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/fa9a34d7-2320-37eb-9ade-c0389c6dadf3/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/17/2e4c7718-a977-36cc-8426-8d57a8e0e4bf/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/88c58b95-7635-3e46-9660-5fbbbfb0bba4/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/0a92f763-d29b-326e-9d99-83fe9abe6783/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Crep, 100% bumbac"
+      },
+      {
+        "label": "Conținut",
+        "value": "King size: Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "price": 379,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 90147,
+        "sku": "90147",
+        "name": "King size",
+        "dimensions": "Cearșaf 240 × 260 cm",
+        "contents": "Cearșaf de pat 240 × 260 cm; husă de pilotă 200 × 230 cm; fețe de pernă 50 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/0a92f763-d29b-326e-9d99-83fe9abe6783/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/17/fa9a34d7-2320-37eb-9ade-c0389c6dadf3/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/17/2e4c7718-a977-36cc-8426-8d57a8e0e4bf/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/17/88c58b95-7635-3e46-9660-5fbbbfb0bba4/1_org_zoom.jpg"
+        ],
+        "price": 379,
+        "stock": 100,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 94833,
+    "name": "Lenjerie de pat Percale PRC198, 100% bumbac",
+    "category": "Lenjerii percalle 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Percale, 100% bumbac",
+    "description": "Lenjerie de pat Percale PRC198, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc198/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/9c8950aa-6bfa-33c1-823d-a258650957ef/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/c02b788b-e735-3268-b69e-be611b9487c4/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/724db16f-054a-3689-af7d-82962055bbc9/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/e7a20274-9279-3bec-8feb-577524d36d20/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/9c8950aa-6bfa-33c1-823d-a258650957ef/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Percale, 100% bumbac"
+      },
+      {
+        "label": "Conținut",
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+      }
+    ],
+    "price": 249,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 94834,
+        "sku": "94834",
+        "name": "O persoană — 3 piese",
+        "dimensions": "Cearșaf 160 × 240 cm",
+        "contents": "1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/9c8950aa-6bfa-33c1-823d-a258650957ef/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/c02b788b-e735-3268-b69e-be611b9487c4/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/724db16f-054a-3689-af7d-82962055bbc9/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/e7a20274-9279-3bec-8feb-577524d36d20/1_org_zoom.jpg"
+        ],
+        "price": 249,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 94836,
+        "sku": "94836",
+        "name": "King size — 6 piese",
+        "dimensions": "Cearșaf 240 × 260 cm",
+        "contents": "1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/cf5ce17c-a812-3141-a7e3-d765f22aeb44/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260920/20/ab436bb2-ad94-3b7f-8f36-04dc2631cab5/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260920/20/38d6df07-b1f0-322d-a37e-5753351b8c5d/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260920/20/8346897a-e110-3b23-840c-bcd508b3703b/1_org_zoom.jpg"
+        ],
+        "price": 389,
+        "stock": 100,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 94030,
+    "sku": "94030",
+    "name": "Pătură Cocolino SIN, maro, 200 x 230 cm, poliester",
+    "category": "Pături cocolino sin",
+    "categoryPath": "paturi/paturi-cocolino-sin",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% poliester",
+    "description": "Pătură Cocolino SIN, maro, 200 x 230 cm, poliester.\n\nMaterial: 100% poliester.\n\nConținut și dimensiuni: 1 pătură, 200 × 230 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-10/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/16/3e791de4-0b1b-3613-993a-11ae7e206c11/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/16/a38acb52-7c51-3abe-8356-d8926010b0f9/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/16/6c9e8133-0994-38c5-a748-f01fab408278/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/16/64b76265-ee4e-34dc-8970-c412f4639207/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/16/3e791de4-0b1b-3613-993a-11ae7e206c11/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% poliester"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pătură, 200 × 230 cm."
+      }
+    ],
+    "price": 119,
+    "stock": 100,
+    "inStock": false
+  },
+  {
+    "id": 96468,
+    "sku": "96468",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, mov",
+    "category": "Lenjerii de pat damasc - policoton 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Damasc policoton, 20% bumbac și 80% poliester",
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, mov.\n\nMaterial: Damasc policoton, 20% bumbac și 80% poliester.\n\nConținut și dimensiuni: 1 cearșaf de pat fără elastic 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp79/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260423/12/fa49a8f1-a8d1-3137-87f0-da90da4e4cfe/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260423/12/90e6fbe0-fe8d-3d7f-be10-0d4781cbc19d/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260423/12/f62c539f-3dbe-312d-b782-e36dbc58902f/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260423/12/99615314-2677-3a88-a910-c00c923a2573/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260423/12/fa49a8f1-a8d1-3137-87f0-da90da4e4cfe/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Damasc policoton, 20% bumbac și 80% poliester"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat fără elastic 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+      }
+    ],
+    "price": 179,
+    "stock": 20,
+    "inStock": true
+  },
+  {
+    "id": 96462,
+    "sku": "96462",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, roz",
+    "category": "Lenjerii de pat damasc - policoton 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Damasc policoton, 20% bumbac și 80% poliester",
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, roz.\n\nMaterial: Damasc policoton, 20% bumbac și 80% poliester.\n\nConținut și dimensiuni: 1 cearșaf de pat fără elastic 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp76/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260423/12/d833be75-bb6d-3949-af54-fc170a9028aa/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260423/12/6fb56eb8-aa6e-34a2-aef8-c690f7ebe42d/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260423/12/a3a1cae6-b138-3edd-8b74-e9265f1042a2/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260423/12/9aa7148a-ec3a-342a-97da-87c7a35c0d2c/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260423/12/d833be75-bb6d-3949-af54-fc170a9028aa/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Damasc policoton, 20% bumbac și 80% poliester"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat fără elastic 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+      }
+    ],
+    "price": 179,
+    "stock": 16,
+    "inStock": true
+  },
+  {
+    "id": 96466,
+    "sku": "96466",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, roz",
+    "category": "Lenjerii de pat damasc - policoton 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Damasc policoton, 20% bumbac și 80% poliester",
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, roz.\n\nMaterial: Damasc policoton, 20% bumbac și 80% poliester.\n\nConținut și dimensiuni: 1 cearșaf de pat fără elastic 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp78/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260423/12/b6bf5362-8b72-3118-895d-f865ea0d105b/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260423/12/b85018f4-045f-3d4c-92d2-3235a17c3503/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260423/12/6105c388-7b9f-3688-9a5c-9b25a5edb4fd/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260423/12/37bc800b-b48b-3c03-9c08-4163de8adafe/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260423/12/b6bf5362-8b72-3118-895d-f865ea0d105b/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Damasc policoton, 20% bumbac și 80% poliester"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat fără elastic 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+      }
+    ],
+    "price": 179,
+    "stock": 20,
+    "inStock": true
+  },
+  {
+    "id": 83478,
+    "sku": "83478",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, benzină",
+    "category": "Lenjerii de pat damasc - policoton 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Damasc policoton, 20% bumbac și 80% poliester",
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, benzină.\n\nMaterial: Damasc policoton, 20% bumbac și 80% poliester.\n\nConținut și dimensiuni: 1 cearșaf de pat fără elastic 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp68/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260423/12/42eebd9f-9222-32c2-9ab1-e54b482b3f1d/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260423/12/e5134754-b36d-3324-b200-f4254b57119e/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260423/12/e4bb8fdd-c9a0-3968-8439-25aebffd5bec/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260423/12/aa6dadaf-7375-3ceb-9a2c-8ac30d9e5ccc/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260423/12/42eebd9f-9222-32c2-9ab1-e54b482b3f1d/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Damasc policoton, 20% bumbac și 80% poliester"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat fără elastic 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+      }
+    ],
+    "price": 179,
+    "stock": 20,
+    "inStock": true
+  },
+  {
+    "id": 83481,
+    "sku": "83481",
+    "name": "Lenjerie de pat Damasc policoton, 6 piese, negru",
+    "category": "Lenjerii de pat damasc - policoton 6 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Damasc policoton, 20% bumbac și 80% poliester",
+    "description": "Lenjerie de pat Damasc policoton, 6 piese, negru.\n\nMaterial: Damasc policoton, 20% bumbac și 80% poliester.\n\nConținut și dimensiuni: 1 cearșaf de pat fără elastic 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp71/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260605/18/7679a3e0-8be9-306c-987a-8247f94b60e7/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260605/18/43e0507b-44ba-3416-8920-6785f0ad909d/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260605/18/a1d8f964-14ca-3ef1-8f0b-d67a24204104/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260605/18/7364a961-22e1-37c0-947d-6480fd411655/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260605/18/7679a3e0-8be9-306c-987a-8247f94b60e7/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Damasc policoton, 20% bumbac și 80% poliester"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat fără elastic 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+      }
+    ],
+    "price": 179,
+    "stock": 18,
+    "inStock": true
+  },
+  {
+    "id": 50418,
+    "sku": "50418",
+    "name": "Lenjerie de pat Finet 3D, 6 piese, Bulldog",
+    "category": "Lenjerii de pat finet 3D",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Finet, 70% bumbac și 30% poliester",
+    "description": "Lenjerie de pat Finet 3D, 6 piese, Bulldog.\n\nMaterial: Finet, 70% bumbac și 30% poliester.\n\nConținut și dimensiuni: 1 cearșaf de pat uni 220 × 240 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d55/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260618/17/4939ca69-72b7-354f-b2c3-22c79a5d15bc/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260618/17/029f5898-9776-34d9-9344-7120600aa959/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260618/17/9ca603e8-3f0e-3aa9-bca0-896c614c2d0d/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260618/17/efc3a25c-5d73-3f90-ba3c-79d670fc01d7/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260618/17/4939ca69-72b7-354f-b2c3-22c79a5d15bc/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Finet, 70% bumbac și 30% poliester"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat uni 220 × 240 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+      }
+    ],
+    "price": 229,
+    "stock": 50,
+    "inStock": true
+  },
+  {
+    "id": 45988,
+    "sku": "45988",
+    "name": "Lenjerie de pat Finet 3D, 6 piese, Leu",
+    "category": "Lenjerii de pat finet 3D",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Finet, 70% bumbac și 30% poliester",
+    "description": "Lenjerie de pat Finet 3D, 6 piese, Leu.\n\nMaterial: Finet, 70% bumbac și 30% poliester.\n\nConținut și dimensiuni: 1 cearșaf de pat uni 220 × 240 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d11/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260618/17/95474e46-a41f-38c9-9e90-f3bf8f570891/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260618/17/c84c4518-e0b3-3882-ba80-52ecc290616a/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260618/17/a75e1eb3-e445-3497-96cf-08477527ce93/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260618/17/bc37b62b-38c6-32a4-bd4d-f394e16f0070/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260618/17/95474e46-a41f-38c9-9e90-f3bf8f570891/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Finet, 70% bumbac și 30% poliester"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat uni 220 × 240 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+      }
+    ],
+    "price": 229,
+    "stock": 50,
+    "inStock": true
   }
 ]

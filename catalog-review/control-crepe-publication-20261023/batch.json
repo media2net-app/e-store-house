@@ -1,0 +1,80 @@
+{
+  "preparedAt": "2026-10-23T20:09:00.321873+00:00",
+  "products": [
+    {
+      "id": 88254,
+      "indices": [
+        79,
+        215
+      ],
+      "skus": [
+        "88255",
+        "88257"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 88258,
+      "indices": [
+        80
+      ],
+      "skus": [
+        "88261"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 90136,
+      "indices": [
+        81
+      ],
+      "skus": [
+        "90139"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 90140,
+      "indices": [
+        216
+      ],
+      "skus": [
+        "90143"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 90148,
+      "indices": [
+        217
+      ],
+      "skus": [
+        "90151"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 90132,
+      "indices": [
+        228
+      ],
+      "skus": [
+        "90135"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 90144,
+      "indices": [
+        229
+      ],
+      "skus": [
+        "90147"
+      ],
+      "status": "verified-ready"
+    }
+  ],
+  "held": [],
+  "newModels": 7,
+  "newSkus": 8
+}

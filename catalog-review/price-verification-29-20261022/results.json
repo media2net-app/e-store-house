@@ -4866,5 +4866,185 @@
       "94023": true
     },
     "checkedAt": "2026-10-23T20:06:22.225568+00:00"
+  },
+  {
+    "id": 88254,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep30/",
+    "costs": {
+      "88255": 187,
+      "88257": 292
+    },
+    "availability": {
+      "88255": true,
+      "88257": true
+    },
+    "checkedAt": "2026-10-23T20:09:00.321873+00:00"
+  },
+  {
+    "id": 88258,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep31/",
+    "costs": {
+      "88261": 292
+    },
+    "availability": {
+      "88261": true
+    },
+    "checkedAt": "2026-10-23T20:09:00.321873+00:00"
+  },
+  {
+    "id": 90136,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep34/",
+    "costs": {
+      "90139": 292
+    },
+    "availability": {
+      "90139": true
+    },
+    "checkedAt": "2026-10-23T20:09:00.321873+00:00"
+  },
+  {
+    "id": 90140,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep35/",
+    "costs": {
+      "90143": 292
+    },
+    "availability": {
+      "90143": true
+    },
+    "checkedAt": "2026-10-23T20:09:00.321873+00:00"
+  },
+  {
+    "id": 90148,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep37/",
+    "costs": {
+      "90151": 292
+    },
+    "availability": {
+      "90151": true
+    },
+    "checkedAt": "2026-10-23T20:09:00.321873+00:00"
+  },
+  {
+    "id": 90132,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep33/",
+    "costs": {
+      "90135": 292
+    },
+    "availability": {
+      "90135": true
+    },
+    "checkedAt": "2026-10-23T20:09:00.321873+00:00"
+  },
+  {
+    "id": 90144,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate/lenjerie-de-pat-creponata-100-bumbac-crep36/",
+    "costs": {
+      "90147": 292
+    },
+    "availability": {
+      "90147": true
+    },
+    "checkedAt": "2026-10-23T20:09:00.321873+00:00"
+  },
+  {
+    "id": 94833,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc198/",
+    "costs": {
+      "94836": 294,
+      "94834": 187
+    },
+    "availability": {
+      "94836": true,
+      "94834": true
+    },
+    "checkedAt": "2026-10-23T20:09:17.447372+00:00"
+  },
+  {
+    "id": 94030,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-10/",
+    "costs": {
+      "94030": 88.0
+    },
+    "availability": {
+      "94030": false
+    },
+    "checkedAt": "2026-10-23T20:09:47.085784+00:00"
+  },
+  {
+    "id": 96468,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp79/",
+    "costs": {
+      "96468": 136.0
+    },
+    "availability": {
+      "96468": true
+    },
+    "checkedAt": "2026-10-23T20:09:47.085784+00:00"
+  },
+  {
+    "id": 96462,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp76/",
+    "costs": {
+      "96462": 136.0
+    },
+    "availability": {
+      "96462": true
+    },
+    "checkedAt": "2026-10-23T20:09:47.085784+00:00"
+  },
+  {
+    "id": 96466,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp78/",
+    "costs": {
+      "96466": 136.0
+    },
+    "availability": {
+      "96466": true
+    },
+    "checkedAt": "2026-10-23T20:09:47.085784+00:00"
+  },
+  {
+    "id": 83478,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp68/",
+    "costs": {
+      "83478": 136.0
+    },
+    "availability": {
+      "83478": true
+    },
+    "checkedAt": "2026-10-23T20:09:47.085784+00:00"
+  },
+  {
+    "id": 83481,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp71/",
+    "costs": {
+      "83481": 136.0
+    },
+    "availability": {
+      "83481": true
+    },
+    "checkedAt": "2026-10-23T20:09:47.085784+00:00"
+  },
+  {
+    "id": 50418,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d55/",
+    "costs": {
+      "50418": 171.0
+    },
+    "availability": {
+      "50418": true
+    },
+    "checkedAt": "2026-10-23T20:09:47.085784+00:00"
+  },
+  {
+    "id": 45988,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d11/",
+    "costs": {
+      "45988": 171.0
+    },
+    "availability": {
+      "45988": true
+    },
+    "checkedAt": "2026-10-23T20:09:47.085784+00:00"
   }
 ]
