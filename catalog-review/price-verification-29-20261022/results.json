@@ -3153,5 +3153,104 @@
       "90965": false
     },
     "checkedAt": "2026-10-22T23:45:54.070991+00:00"
+  },
+  {
+    "id": 158295,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-premium-clasy-arsida-v1-100-bumbac/",
+    "costs": {
+      "158295": 376
+    },
+    "availability": {
+      "158295": true
+    },
+    "checkedAt": "2026-10-22T23:52:54.941458+00:00"
+  },
+  {
+    "id": 158300,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-premium-clasy-arsida-v2-100-bumbac/",
+    "costs": {
+      "158300": 376
+    },
+    "availability": {
+      "158300": true
+    },
+    "checkedAt": "2026-10-22T23:52:54.921388+00:00"
+  },
+  {
+    "id": 158301,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-premium-clasy-arsida-v3-100-bumbac/",
+    "costs": {
+      "158301": 376
+    },
+    "availability": {
+      "158301": false
+    },
+    "checkedAt": "2026-10-22T23:52:54.998479+00:00"
+  },
+  {
+    "id": 158302,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-premium-clasy-arsida-v4-100-bumbac/",
+    "costs": {
+      "158302": 376
+    },
+    "availability": {
+      "158302": true
+    },
+    "checkedAt": "2026-10-22T23:52:55.505323+00:00"
+  },
+  {
+    "id": 158304,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-premium-clasy-arsida-v6-100-bumbac/",
+    "costs": {
+      "158304": 376
+    },
+    "availability": {
+      "158304": false
+    },
+    "checkedAt": "2026-10-22T23:52:55.597621+00:00"
+  },
+  {
+    "id": 158310,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-clasy-eveya-v1-100-bumbac-ranforce-boutique-4-piese/",
+    "costs": {
+      "158310": 376
+    },
+    "availability": {
+      "158310": true
+    },
+    "checkedAt": "2026-10-22T23:52:55.660871+00:00"
+  },
+  {
+    "id": 158313,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-clasy-eveya-v2-100-bumbac-ranforce-boutique-4-piese/",
+    "costs": {
+      "158313": 376
+    },
+    "availability": {
+      "158313": true
+    },
+    "checkedAt": "2026-10-22T23:52:56.140095+00:00"
+  },
+  {
+    "id": 158316,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-clasy-eveya-v3-100-bumbac-ranforce-boutique-4-piese/",
+    "costs": {
+      "158316": 376
+    },
+    "availability": {
+      "158316": true
+    },
+    "checkedAt": "2026-10-22T23:52:56.354812+00:00"
+  },
+  {
+    "id": 158319,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-clasy-eveya-v4-100-bumbac-ranforce-boutique-4-piese/",
+    "costs": {
+      "158319": 376
+    },
+    "availability": {
+      "158319": true
+    },
+    "checkedAt": "2026-10-22T23:52:56.394046+00:00"
   }
 ]

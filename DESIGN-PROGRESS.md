@@ -61,3 +61,9 @@ User explicitly authorized publishing the redesign and then all Ralex Pucioasa C
 - Control connection fixed: Cloudflare supports manual redirects, not redirect:error. Private Sites deployment appgdep_6adaa165a83c8191ad27b2b6194018de succeeded; UI now shows 257 approved models. Audience and Control prices unchanged.
 - Percale batch not imported: own descriptions mention cotton but do not substantiate existing 100% claims. Seventeen models / 23 Control variants require composition confirmation or accurate copy/image corrections. Overhead detail outputs reviewed but do not constitute complete publication approval.
 - Not complete: remaining Control catalog needs individual source/gallery/copy work; some Finet composition and Romania/Pucioasa manufacturing claims need supplier confirmation. Card payment still pending EuPlatesc. Real-phone and participant checks not performed.
+
+## Clasy additional batch
+- Nine Arsida/Eveya models individually verified against current supplier API and each printed numeric barcode. Composition, piece counts, dimensions and care checked.
+- New distinct side-angle images generated from each actual supplier reference, visually reviewed and saved in public/products/clasy-reviewed-20261023. Repetitive hero frames with unsupported mattress-fit wording excluded; final galleries contain front, side, close detail and overhead.
+- All seven catalog quality/pricing tests pass; current catalog after this batch is 266 models / 430 configurations. Control coverage becomes 426 articles; 911 remain pending verification/completion.
+- Price/stock refreshed from supplier. Clasy is kept identifiable as a separate brand; no Romanian origin attributed.
