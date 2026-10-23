@@ -7,6 +7,7 @@ export type OrderStatus = "pending_payment" | "payment_failed" | "paid_review" |
 
 export type StoreOrder = {
   id: string;
+  orderNumber?: string;
   createdAt: string;
   status: OrderStatus;
   testOrder?: boolean;
@@ -103,13 +104,19 @@ const retentionSeconds = 7 * 365 * 24 * 60 * 60;
 
 export async function createOrder(order: StoreOrder) {
   if (hasSupabaseStorage()) return createSupabaseOrder(order);
-  const script = `if redis.call('SET', KEYS[1], ARGV[1], 'NX', 'EX', ARGV[4]) then
-  redis.call('ZADD', KEYS[2], ARGV[2], ARGV[3])
-  return 1
-end
-return 0`;
-  const result = await redis(["EVAL", script, "2", key(order.id), `${orderStoragePrefix()}:orders`, JSON.stringify(order), Date.parse(order.createdAt), order.id, retentionSeconds]);
-  if (result !== 1) throw new Error("Numărul comenzii este deja folosit.");
+  const script = `if redis.call('EXISTS', KEYS[1]) == 1 then return false end
+local order = cjson.decode(ARGV[1])
+local sequence = redis.call('INCR', KEYS[3])
+order.orderNumber = ARGV[5] .. string.format('%04d', sequence)
+local payload = cjson.encode(order)
+redis.call('SET', KEYS[1], payload, 'EX', ARGV[4])
+redis.call('ZADD', KEYS[2], ARGV[2], ARGV[3])
+return payload`;
+  const result = await redis(["EVAL", script, "3", key(order.id), `${orderStoragePrefix()}:orders`,
+    `${orderStoragePrefix()}:order-sequence${order.testOrder ? ":test" : ""}`,
+    JSON.stringify(order), Date.parse(order.createdAt), order.id, retentionSeconds, order.testOrder ? "TEST-" : ""]);
+  if (typeof result !== "string") throw new Error("Numărul comenzii este deja folosit.");
+  order.orderNumber = (JSON.parse(result) as StoreOrder).orderNumber;
 }
 
 export async function getOrder(id: string): Promise<StoreOrder | null> {

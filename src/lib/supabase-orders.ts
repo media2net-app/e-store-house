@@ -37,6 +37,7 @@ export async function createSupabaseOrder(order: StoreOrder) {
     id: order.id, created_at: order.createdAt, status: order.status, payload: order,
   }) });
   if (rows.length !== 1) throw new Error("Comanda nu a putut fi salvată.");
+  order.orderNumber = rows[0].payload.orderNumber;
 }
 
 export async function getSupabaseOrder(id: string): Promise<StoreOrder | null> {

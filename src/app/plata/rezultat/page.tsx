@@ -20,9 +20,9 @@ export default function PaymentResultPage() {
       try {
         const response = await fetch(`/api/orders/${id}`, { cache: "no-store" });
         if (!response.ok) throw new Error();
-        const order = await response.json() as { id: string; status: string; paymentMethod: string; shippingMethod: string; totalCents: number };
+        const order = await response.json() as { id: string; orderNumber?: string; status: string; paymentMethod: string; shippingMethod: string; totalCents: number };
         if (cancelled) return;
-        setOrderNumber(order.id);
+        setOrderNumber(order.orderNumber || order.id);
         if (order.status === "cancelled") {
           setStatus("Comanda a fost anulată. Eventuala rambursare a unei plăți cu cardul se verifică separat cu magazinul."); return;
         }

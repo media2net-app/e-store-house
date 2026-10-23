@@ -15,7 +15,7 @@ const tokens = moduleAt("src/lib/shipping-quote-token.ts", { "node:crypto": requ
 const protocol = moduleAt("src/lib/sameday-protocol.ts");
 const shipping = moduleAt("src/lib/shipping.ts");
 const customer = { firstName: "Client", lastName: "Test", email: "client@example.test", phone: "0729758396", address: "Strada Test 1", city: "Bucuresti", county: "Bucuresti", postalCode: "010101" };
-const options = [{ carrier: "sameday", priceRon: 27.72, dynamic: true }, { carrier: "sameday", method: "easybox", priceRon: 17.5, dynamic: true }];
+const options = [{ carrier: "sameday", priceRon: 27.72, dynamic: true, codAvailable: true }, { carrier: "sameday", method: "easybox", priceRon: 17.5, dynamic: true, codAvailable: true }];
 const quote = { lines: [{ productId: 1, sku: "123", quantity: 2, price: 119, name: "Lenjerie", category: "LENJERII DE PAT" }], totals: { subtotalCents: 23800, discountCents: 1190, totalCents: 22610, freeShipping: false } };
 function resolver(profiles = {}, api = {}) {
   return moduleAt("src/lib/checkout-shipping.ts", {
@@ -62,7 +62,7 @@ test("quote endpoint validates customer data and returns canonical totals plus a
   const helpers = resolver();
   const route = moduleAt("src/app/api/shipping/quote/route.ts", {
     "next/server": { NextResponse: Response }, "@/lib/cart-quote": { quoteCart: () => quote },
-    "@/lib/checkout-config": { checkoutConfiguration: () => ({ shippingOptions: options }) },
+    "@/lib/checkout-config": { checkoutConfiguration: () => ({ cardReady: true, codReady: true, shippingOptions: options }) },
     "@/lib/checkout-shipping": helpers, "@/lib/shipping-quote-token": tokens,
   }, { process: { env: { STORE_ADMIN_TOKEN: "secret" } } });
   const request = (c) => new Request("https://estore.test/api/shipping/quote", { method: "POST", body: JSON.stringify({ items: [{ productId: 1, quantity: 2 }], customer: c, carrier: "sameday", shippingMethod: "home", shippingCents: 1 }) });
@@ -83,8 +83,8 @@ test("checkout charges the signed total, rejects stale address and preserves ord
     "node:crypto": require("node:crypto"), "next/server": { NextResponse: Response },
     "@/lib/cart-quote": { quoteCart: () => quote },
     "@/lib/order-email": { sendCodConfirmation: async () => {} },
-    "@/lib/euplatesc": { createPaymentFields: (value) => { assert.equal(value.amount, "253.82"); return { amount: value.amount }; }, paymentCallbackUrl: () => "https://estore.test/api/euplatesc/callback" },
-    "@/lib/orders": { createOrder: async (value) => { if (stored) throw new Error("duplicate"); stored = value; }, getOrder: async () => stored },
+    "@/lib/euplatesc": { createPaymentFields: (value) => { assert.equal(value.amount, "253.82"); assert.equal(value.description, "Comanda E-Store House 0001"); assert.match(value.invoiceId, /^[a-f0-9]{24}$/); return { amount: value.amount }; }, paymentCallbackUrl: () => "https://estore.test/api/euplatesc/callback" },
+    "@/lib/orders": { createOrder: async (value) => { if (stored) throw new Error("duplicate"); value.orderNumber = "0001"; stored = value; }, getOrder: async () => stored },
     "@/lib/checkout-config": { checkoutConfiguration: () => ({ ready: true, cardReady: true, codReady: true, publicUrl: "https://estore.test", shippingOptions: options }) },
     "@/lib/sameday": {}, "@/lib/sameday-protocol": protocol, "@/data/shipping-packages.json": { default: {} },
     "@/lib/shipping": shipping, "@/lib/checkout-shipping": helpers, "@/lib/shipping-quote-token": tokens,
@@ -102,7 +102,7 @@ test("production checkout cannot become ready with test payment credentials", ()
   const environment = { STORE_CHECKOUT_ENABLED: "true", EU_PLATESC_MERCHANT_ID: "test-merchant", EU_PLATESC_KEY: "test-key", EU_PLATESC_MODE: "test", VERCEL_ENV: "production",
     STORE_SAMEDAY_ENABLED: "true", STORE_SAMEDAY_SHIPPING_RON: "27.72", STORE_PUBLIC_URL: "https://estore.test", STORE_ADMIN_TOKEN: "secret",
     NEXT_PUBLIC_STORE_SUPPORT_PHONE: "0729758396", NEXT_PUBLIC_STORE_SUPPORT_EMAIL: "contact@estore.test", NEXT_PUBLIC_STORE_SHIPPING_DESCRIPTION: "Confirmed at checkout", NEXT_PUBLIC_STORE_VAT_STATUS: "not_registered", NEXT_PUBLIC_STORE_DELIVERY_ESTIMATE: "1–3 zile lucrătoare" };
-  const config = moduleAt("src/lib/checkout-config.ts", { "./sameday": { samedayConfiguration: () => ({ homeReady: true, lockerReady: true }) }, "./supabase-orders": { hasSupabaseStorage: () => false },
+  const config = moduleAt("src/lib/checkout-config.ts", { "./fan": { fanConfiguration: () => ({ ready: false, codReady: false }) }, "./sameday": { samedayConfiguration: () => ({ homeReady: true, lockerReady: true }) }, "./supabase-orders": { hasSupabaseStorage: () => false },
     "./orders": { hasRedisStorage: () => true }, "./order-email": { hasTransactionalEmail: () => true }, "./shipping": shipping,
   }, { process: { env: environment } });
   assert.equal(config.checkoutConfiguration().ready, false);
@@ -118,7 +118,7 @@ test("COD places one unpaid home-delivery order without any EuPlatesc credential
     "node:crypto": require("node:crypto"), "next/server": { NextResponse: Response }, "@/lib/cart-quote": { quoteCart: () => quote },
     "@/lib/euplatesc": { createPaymentFields: () => { throw new Error("COD must not contact EuPlatesc"); } },
     "@/lib/order-email": { sendCodConfirmation: async () => { notifications++; } },
-    "@/lib/orders": { createOrder: async (value) => { if (stored) throw new Error("duplicate"); stored = value; }, getOrder: async () => stored, markPaymentEmailSent: async () => {} },
+    "@/lib/orders": { createOrder: async (value) => { if (stored) throw new Error("duplicate"); value.orderNumber = "0001"; stored = value; }, getOrder: async () => stored, markPaymentEmailSent: async () => {} },
     "@/lib/checkout-config": { checkoutConfiguration: () => ({ ready: true, codReady: true, cardReady: false, publicUrl: "https://estore.test", shippingOptions: options }) },
     "@/lib/sameday": {}, "@/lib/sameday-protocol": protocol, "@/data/shipping-packages.json": { default: {} },
     "@/lib/shipping": shipping, "@/lib/checkout-shipping": helpers, "@/lib/shipping-quote-token": tokens,
@@ -139,7 +139,7 @@ test("COD places one unpaid home-delivery order without any EuPlatesc credential
 test("COD readiness is independent of online card activation", () => {
   const environment = { STORE_COD_ENABLED: "true", VERCEL_ENV: "production", STORE_SAMEDAY_ENABLED: "true", STORE_SAMEDAY_SHIPPING_RON: "27.72", STORE_PUBLIC_URL: "https://estore.test", STORE_ADMIN_TOKEN: "secret",
     NEXT_PUBLIC_STORE_SUPPORT_PHONE: "0729758396", NEXT_PUBLIC_STORE_SUPPORT_EMAIL: "contact@estore.test", NEXT_PUBLIC_STORE_SHIPPING_DESCRIPTION: "Shown at checkout", NEXT_PUBLIC_STORE_VAT_STATUS: "not_registered", NEXT_PUBLIC_STORE_DELIVERY_ESTIMATE: "1–3 zile lucrătoare" };
-  const config = moduleAt("src/lib/checkout-config.ts", { "./sameday": { samedayConfiguration: () => ({ mode: "live", homeReady: true, lockerReady: true }) }, "./supabase-orders": { hasSupabaseStorage: () => false },
+  const config = moduleAt("src/lib/checkout-config.ts", { "./fan": { fanConfiguration: () => ({ ready: false, codReady: false }) }, "./sameday": { samedayConfiguration: () => ({ mode: "live", homeReady: true, lockerReady: true }) }, "./supabase-orders": { hasSupabaseStorage: () => false },
     "./orders": { hasRedisStorage: () => true }, "./order-email": { hasTransactionalEmail: () => true }, "./shipping": shipping,
   }, { process: { env: environment } });
   assert.equal(config.checkoutConfiguration().ready, true);
@@ -186,14 +186,18 @@ test("easybox COD confirms the fixed fee, persists unpaid with a server-validate
 test("easybox COD emails state card at collection, unpaid total and the selected locker", async () => {
   const messages = [];
   const mail = moduleAt("src/lib/order-email.ts", {
+    "./order-number": moduleAt("src/lib/order-number.ts"),
     "./store-info": { store: { deliveryEstimate: "1–3 zile lucrătoare" } },
     "./money": { formatLeiCents: n => (n / 100).toFixed(2) },
     "./shipping": shipping, "node:crypto": require("node:crypto"),
     nodemailer: { default: { createTransport: () => ({ sendMail: async m => messages.push(m), close: () => {} }) } },
   }, { process: { env: { STORE_SMTP_HOST: "smtp.test", STORE_SMTP_PORT: "465", STORE_SMTP_USER: "orders@test", SMTP_PASS: "test", STORE_SMTP_FROM: "orders@test", STORE_PUBLIC_URL: "https://estore.test" } } });
-  await mail.sendCodConfirmation({ id: "a".repeat(24), paymentMethod: "cod", status: "pending_cod", shippingMethod: "easybox", customer,
+  await mail.sendCodConfirmation({ id: "a".repeat(24), orderNumber: "0001", paymentMethod: "cod", status: "pending_cod", shippingMethod: "easybox", customer,
     shippingLocker: { id: 2, name: "Verified locker", address: "Locker street", city: "Bucuresti", county: "Bucuresti" }, items: [], discountCents: 1190, shippingCents: 1750, totalCents: 24360 });
   assert.equal(messages.length, 2);
+  assert.match(messages[0].subject, /0001/); assert.match(messages[0].text, /comanda 0001/);
+  assert.match(messages[0].text, new RegExp("order=" + "a".repeat(24)));
+  assert.equal(messages[0].headers["X-Estore-Message"], "customer-cod-" + "a".repeat(24));
   for (const m of messages) { assert.match(m.text, /243.60/); assert.match(m.text, /cu cardul la ridicare/); assert.match(m.text, /Verified locker/); assert.doesNotMatch(m.text, /achită curierului/); }
   assert.match(messages[0].text, /numerarul nu este acceptat/); assert.match(messages[1].text, /neîncasată/);
 });

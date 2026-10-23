@@ -26,7 +26,7 @@ export async function controlOrders(after: string | null) {
     if (typeof value !== "string") return [];
     const order = JSON.parse(value) as StoreOrder;
     const shipment = typeof shipments[i] === "string" ? JSON.parse(shipments[i]) as Awaited<ReturnType<typeof getShipment>> : null;
-    return [{ confirmationEmailSent: markers[i] === "1", packingSuggestion: packingSuggestion(order.items), id: order.id, createdAt: order.createdAt, status: order.status, testOrder: order.testOrder === true,
+    return [{ confirmationEmailSent: markers[i] === "1", packingSuggestion: packingSuggestion(order.items), id: order.id, orderNumber: order.orderNumber, createdAt: order.createdAt, status: order.status, testOrder: order.testOrder === true,
       cancellation: order.cancellation, paymentMethod: order.paymentMethod || "card", customer: order.customer, items: order.items,
       subtotalCents: order.subtotalCents, discountCents: order.discountCents, shippingCents: order.shippingCents, totalCents: order.totalCents,
       shippingCarrier: order.shippingCarrier, shippingMethod: order.shippingMethod || "home", shippingLocker: order.shippingLocker,

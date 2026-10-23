@@ -1,0 +1,16 @@
+New Redis orders receive 0001, 0002, ... atomically when saved. The counter is
+persistent, does not expire and must never be reset or deleted. Old orders keep
+their IDs; they are not backfilled. Failed/unpaid/cancelled orders retain their
+number. Tests have a separate TEST- counter. Preview and production use the
+existing separate Redis prefixes. Numbers expand to five digits after 9999.
+
+Opaque IDs still identify API requests, status links, payment invoice_id,
+idempotency keys and courier integrations. The short number is shown in the
+payment description, confirmation page, emails and website administration;
+the Control API exposes it as orderNumber without changing id.
+
+For deployments using Supabase instead of Redis, apply
+supabase/migrations/20261023_estore_order_numbers.sql before rollout. The
+migration leaves old orders unchanged. Do not switch storage backends without
+migrating the counter as well. An external Control client must display
+orderNumber || id while continuing to send id in actions.

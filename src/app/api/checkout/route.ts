@@ -135,13 +135,6 @@ export async function POST(request: Request) {
   order.checkoutFingerprint = createHmac("sha256", process.env.STORE_ADMIN_TOKEN!).update(JSON.stringify({ customer: order.customer, items: order.items,
     totalCents, shippingCents, paymentMethod, carrier: order.shippingCarrier, method: shippingMethod, lockerId: locker?.id })).digest("hex");
   const origin = config.publicUrl;
-  const fields = paymentMethod === "card" ? createPaymentFields({
-    amount: (totalCents / 100).toFixed(2), invoiceId: id,
-    description: `Comanda E-Store House ${id}`, email, firstName, lastName,
-    callbackUrl: paymentCallbackUrl(origin, preview, process.env.VERCEL_AUTOMATION_BYPASS_SECRET),
-    returnUrl: `${origin}/plata/rezultat?order=${id}`,
-    merchantId: merchantId!, key: key!,
-  }) : undefined;
   try { await createOrder(order); }
   catch {
     try {
@@ -153,6 +146,13 @@ export async function POST(request: Request) {
     } catch { /* storage is unavailable */ }
     return NextResponse.json({ error: "Comanda nu a putut fi salvată. Încearcă din nou." }, { status: 503 });
   }
+  const fields = paymentMethod === "card" ? createPaymentFields({
+    amount: (totalCents / 100).toFixed(2), invoiceId: id,
+    description: `Comanda E-Store House ${order.orderNumber || id}`, email, firstName, lastName,
+    callbackUrl: paymentCallbackUrl(origin, preview, process.env.VERCEL_AUTOMATION_BYPASS_SECRET),
+    returnUrl: `${origin}/plata/rezultat?order=${id}`,
+    merchantId: merchantId!, key: key!,
+  }) : undefined;
   if (paymentMethod === "cod") {
     let notificationPending = false;
     try { await sendCodConfirmation(order); await markPaymentEmailSent(id); }

@@ -1,3 +1,4 @@
+import { displayOrderNumber } from "./order-number";
 import type { ComplaintRequest, StoreOrder, WithdrawalRequest } from "./orders";
 import { store } from "./store-info";
 import { formatLeiCents } from "./money";
@@ -93,11 +94,11 @@ export async function sendPaymentConfirmation(order: StoreOrder) {
   const carrier = order.shippingCarrier ? `${shippingCarrierLabels[order.shippingCarrier]}${order.shippingMethod === "easybox" ? " easybox" : " — domiciliu"}` : "de confirmat";
   const lockerDetails = order.shippingLocker ? `\nEasybox: ${order.shippingLocker.name} (ID ${order.shippingLocker.id}), ${order.shippingLocker.address}, ${order.shippingLocker.city}, ${order.shippingLocker.county}` : "";
   const base = process.env.STORE_PUBLIC_URL;
-  const customerText = `${testLabel}Bună ziua, ${order.customer.firstName},\n\nPlata pentru comanda ${order.id} a fost confirmată.\n\n${lines}\nCurier ales: ${carrier}${lockerDetails}\nTransport: ${formatLeiCents(order.shippingCents)} lei\nTotal: ${total} lei\n${store.taxNotice ?? ""}\nTermen estimat de livrare: ${store.deliveryEstimate ?? "de comunicat"}\n\nVom verifica tranzacția în EuPlătesc înainte de expediere. Vă vom contacta dacă sunt necesare clarificări.\n\nLivrare și retur: ${base}/livrare-retur\nRetragere online: ${base}/retragere\nGaranția legală: ${base}/garantie-legala\nTermeni și condiții: ${base}/termeni-si-conditii\n\n${store.name}, CUI ${store.cui}, ${store.registration}\n${store.address}\nContact: ${store.email}\n\nE-Store House`;
-  const merchantText = `${testLabel}Comandă plătită ${order.id}\n\n${lines}\nReducere: ${formatLeiCents(order.discountCents)} lei\nCurier ales: ${carrier}${lockerDetails}\nTransport: ${formatLeiCents(order.shippingCents)} lei\nTotal: ${total} lei\n\nClient: ${order.customer.firstName} ${order.customer.lastName}\nE-mail: ${order.customer.email}\nTelefon: ${order.customer.phone}\nAdresă livrare: ${order.customer.address}, ${order.customer.city}, ${order.customer.county}, ${order.customer.postalCode}\nFacturare: ${order.customer.billingName}, ${order.customer.billingAddress}, ${order.customer.billingCity}, ${order.customer.billingCounty}, ${order.customer.billingPostalCode}${order.customer.billingCompany ? `\nFirmă: ${order.customer.billingCompany}` : ""}${order.customer.billingCui ? `\nCUI: ${order.customer.billingCui}` : ""}\n\n${order.testOrder ? "Aceasta este o tranzacție de test. Nu expediați nimic." : "Verifică statusul verde „Livrare permisă” în EuPlătesc înainte de expediere."}\nComenzi: ${base}/admin/comenzi`;
+  const customerText = `${testLabel}Bună ziua, ${order.customer.firstName},\n\nPlata pentru comanda ${displayOrderNumber(order)} a fost confirmată.\n\n${lines}\nCurier ales: ${carrier}${lockerDetails}\nTransport: ${formatLeiCents(order.shippingCents)} lei\nTotal: ${total} lei\n${store.taxNotice ?? ""}\nTermen estimat de livrare: ${store.deliveryEstimate ?? "de comunicat"}\n\nVom verifica tranzacția în EuPlătesc înainte de expediere. Vă vom contacta dacă sunt necesare clarificări.\n\nLivrare și retur: ${base}/livrare-retur\nRetragere online: ${base}/retragere\nGaranția legală: ${base}/garantie-legala\nTermeni și condiții: ${base}/termeni-si-conditii\n\n${store.name}, CUI ${store.cui}, ${store.registration}\n${store.address}\nContact: ${store.email}\n\nE-Store House`;
+  const merchantText = `${testLabel}Comandă plătită ${displayOrderNumber(order)}\n\n${lines}\nReducere: ${formatLeiCents(order.discountCents)} lei\nCurier ales: ${carrier}${lockerDetails}\nTransport: ${formatLeiCents(order.shippingCents)} lei\nTotal: ${total} lei\n\nClient: ${order.customer.firstName} ${order.customer.lastName}\nE-mail: ${order.customer.email}\nTelefon: ${order.customer.phone}\nAdresă livrare: ${order.customer.address}, ${order.customer.city}, ${order.customer.county}, ${order.customer.postalCode}\nFacturare: ${order.customer.billingName}, ${order.customer.billingAddress}, ${order.customer.billingCity}, ${order.customer.billingCounty}, ${order.customer.billingPostalCode}${order.customer.billingCompany ? `\nFirmă: ${order.customer.billingCompany}` : ""}${order.customer.billingCui ? `\nCUI: ${order.customer.billingCui}` : ""}\n\n${order.testOrder ? "Aceasta este o tranzacție de test. Nu expediați nimic." : "Verifică statusul verde „Livrare permisă” în EuPlătesc înainte de expediere."}\nComenzi: ${base}/admin/comenzi`;
   await Promise.all([
-    send(order.customer.email, `Confirmare plată E-Store House — ${order.id}`, customerText, `customer-paid-${order.id}`),
-    send(merchantInbox(), `Comandă plătită ${order.id}`, merchantText, `merchant-paid-${order.id}`),
+    send(order.customer.email, `Confirmare plată E-Store House — ${displayOrderNumber(order)}`, customerText, `customer-paid-${order.id}`),
+    send(merchantInbox(), `Comandă plătită ${displayOrderNumber(order)}`, merchantText, `merchant-paid-${order.id}`),
   ]);
 }
 
@@ -112,11 +113,11 @@ export async function sendCodConfirmation(order: StoreOrder) {
   const delivery = easybox && order.shippingLocker ? `Easybox: ${order.shippingLocker.name} (ID ${order.shippingLocker.id}), ${order.shippingLocker.address}, ${order.shippingLocker.city}, ${order.shippingLocker.county}` : `Adresă livrare: ${order.customer.address}, ${order.customer.city}, ${order.customer.county}, ${order.customer.postalCode}`;
   const courierName = order.shippingCarrier === "fan" ? "FAN Courier" : "Sameday";
   const summary = `${lines}\nReducere: ${formatLeiCents(order.discountCents)} lei\nTransport ${courierName} ${easybox ? "easybox" : "la domiciliu"}: ${formatLeiCents(order.shippingCents)} lei\nTotal de achitat: ${total} lei\nPlată: ${payment}\n${delivery}\nTermen estimat: ${store.deliveryEstimate ?? "de comunicat"}`;
-  const customerText = `Bună ziua, ${order.customer.firstName},\n\nAm înregistrat comanda ${order.id}, cu plata ${payment}. Plata nu se face online; suma de ${total} lei se achită ${collection}.\n\n${summary}\n${store.taxNotice ?? ""}\n\nStatus comandă: ${base}/plata/rezultat?order=${order.id}\nLivrare și retur: ${base}/livrare-retur\nRetragere: ${base}/retragere\nGaranția legală: ${base}/garantie-legala\nTermeni: ${base}/termeni-si-conditii\n\n${store.name}, CUI ${store.cui}, ${store.registration}\n${store.address}\nContact: ${store.email}`;
-  const merchantText = `Comandă RAMBURS ${order.id} — neîncasată\n\n${summary}\n\nClient: ${order.customer.firstName} ${order.customer.lastName}\nEmail: ${order.customer.email}\nTelefon: ${order.customer.phone}\n${delivery}\nFacturare: ${order.customer.billingName}, ${order.customer.billingAddress}, ${order.customer.billingCity}, ${order.customer.billingCounty}, ${order.customer.billingPostalCode}${order.customer.billingCompany ? `\nFirmă: ${order.customer.billingCompany}` : ""}${order.customer.billingCui ? `\nCUI: ${order.customer.billingCui}` : ""}\n\nLa emiterea AWB, ${courierName} trebuie să încaseze ${total} lei. Verifică datele comenzii și coletul înainte de expediere.\nComenzi: ${base}/admin/comenzi`;
+  const customerText = `Bună ziua, ${order.customer.firstName},\n\nAm înregistrat comanda ${displayOrderNumber(order)}, cu plata ${payment}. Plata nu se face online; suma de ${total} lei se achită ${collection}.\n\n${summary}\n${store.taxNotice ?? ""}\n\nStatus comandă: ${base}/plata/rezultat?order=${order.id}\nLivrare și retur: ${base}/livrare-retur\nRetragere: ${base}/retragere\nGaranția legală: ${base}/garantie-legala\nTermeni: ${base}/termeni-si-conditii\n\n${store.name}, CUI ${store.cui}, ${store.registration}\n${store.address}\nContact: ${store.email}`;
+  const merchantText = `Comandă RAMBURS ${displayOrderNumber(order)} — neîncasată\n\n${summary}\n\nClient: ${order.customer.firstName} ${order.customer.lastName}\nEmail: ${order.customer.email}\nTelefon: ${order.customer.phone}\n${delivery}\nFacturare: ${order.customer.billingName}, ${order.customer.billingAddress}, ${order.customer.billingCity}, ${order.customer.billingCounty}, ${order.customer.billingPostalCode}${order.customer.billingCompany ? `\nFirmă: ${order.customer.billingCompany}` : ""}${order.customer.billingCui ? `\nCUI: ${order.customer.billingCui}` : ""}\n\nLa emiterea AWB, ${courierName} trebuie să încaseze ${total} lei. Verifică datele comenzii și coletul înainte de expediere.\nComenzi: ${base}/admin/comenzi`;
   await Promise.all([
-    send(order.customer.email, `Confirmare comandă ramburs E-Store House — ${order.id}`, customerText, `customer-cod-${order.id}`),
-    send(merchantInbox(), `Comandă RAMBURS ${order.id}`, merchantText, `merchant-cod-${order.id}`),
+    send(order.customer.email, `Confirmare comandă ramburs E-Store House — ${displayOrderNumber(order)}`, customerText, `customer-cod-${order.id}`),
+    send(merchantInbox(), `Comandă RAMBURS ${displayOrderNumber(order)}`, merchantText, `merchant-cod-${order.id}`),
   ]);
 }
 
@@ -143,17 +144,17 @@ export async function sendCancellationConfirmation(order: StoreOrder) {
   const payment = order.cancellation.refundReviewRequired
     ? "Plata cu cardul necesită verificarea separată a rambursării. Acest email nu confirmă restituirea banilor."
     : order.paymentMethod === "cod" ? "Comanda nu mai urmează să fie încasată ramburs la livrare." : "Nu iniția o nouă plată pentru această comandă. Dacă ai fost debitat, contactează magazinul pentru verificarea rambursării.";
-  const body = `Comanda ${order.id} a fost anulată.\n\nMotiv: ${order.cancellation.reason}\nTotal comandă: ${formatLeiCents(order.totalCents)} lei\n${payment}\n\nContact: ${store.email}\nE-Store House`;
+  const body = `Comanda ${displayOrderNumber(order)} a fost anulată.\n\nMotiv: ${order.cancellation.reason}\nTotal comandă: ${formatLeiCents(order.totalCents)} lei\n${payment}\n\nContact: ${store.email}\nE-Store House`;
   await Promise.all([
-    send(order.customer.email, `Comandă anulată E-Store House — ${order.id}`, body, `customer-cancel-${order.id}`),
-    send(merchantInbox(), `Comandă ANULATĂ ${order.id}`, `${body}\n\nNu expedia comanda. ${order.cancellation.refundReviewRequired ? "Verifică și efectuează separat rambursarea plății cu cardul." : ""}`, `merchant-cancel-${order.id}`),
+    send(order.customer.email, `Comandă anulată E-Store House — ${displayOrderNumber(order)}`, body, `customer-cancel-${order.id}`),
+    send(merchantInbox(), `Comandă ANULATĂ ${displayOrderNumber(order)}`, `${body}\n\nNu expedia comanda. ${order.cancellation.refundReviewRequired ? "Verifică și efectuează separat rambursarea plății cu cardul." : ""}`, `merchant-cancel-${order.id}`),
   ]);
 }
 
 export async function sendCancelledPaymentNotice(order: StoreOrder) {
-  const body = `Pentru comanda ${order.id}, aflată în anulare/anulată, a fost primită o confirmare de plată cu cardul de ${formatLeiCents(order.totalCents)} lei.\n\nComanda nu este reactivată pentru expediere. Rambursarea trebuie verificată și procesată separat; acest mesaj nu confirmă restituirea banilor.\n\nContact: ${store.email}`;
+  const body = `Pentru comanda ${displayOrderNumber(order)}, aflată în anulare/anulată, a fost primită o confirmare de plată cu cardul de ${formatLeiCents(order.totalCents)} lei.\n\nComanda nu este reactivată pentru expediere. Rambursarea trebuie verificată și procesată separat; acest mesaj nu confirmă restituirea banilor.\n\nContact: ${store.email}`;
   await Promise.all([
-    send(order.customer.email, `Verificare plată pentru comanda anulată — ${order.id}`, body, `customer-cancel-payment-${order.id}`),
-    send(merchantInbox(), `ATENȚIE: plată la o comandă anulată ${order.id}`, body, `merchant-cancel-payment-${order.id}`),
+    send(order.customer.email, `Verificare plată pentru comanda anulată — ${displayOrderNumber(order)}`, body, `customer-cancel-payment-${order.id}`),
+    send(merchantInbox(), `ATENȚIE: plată la o comandă anulată ${displayOrderNumber(order)}`, body, `merchant-cancel-payment-${order.id}`),
   ]);
 }
