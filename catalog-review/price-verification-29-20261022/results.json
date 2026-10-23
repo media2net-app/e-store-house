@@ -5591,12 +5591,14 @@
     "id": 81204,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-stripe-6-piese-cu-husa-mov/",
     "costs": {
-      "81204": 195.0
+      "81204": 195.0,
+      "81191": 178.0
     },
     "availability": {
-      "81204": true
+      "81204": true,
+      "81191": true
     },
-    "checkedAt": "2026-10-23T20:18:31.027091+00:00"
+    "checkedAt": "2026-10-23T20:28:53.235648+00:00"
   },
   {
     "id": 105538,
