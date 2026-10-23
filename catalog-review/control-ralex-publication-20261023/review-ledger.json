@@ -1,0 +1,166 @@
+{
+  "scope": "RALEX PUCIOASA only; exclude Casa Pucioasa and other/unconfirmed brands",
+  "reviewedModels": [
+    {
+      "id": 91225,
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paruri-cocolino-dot/patura-cocolino-dot-2/",
+      "status": "supplier_composition_contradiction"
+    },
+    {
+      "id": 91227,
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paruri-cocolino-dot/patura-cocolino-dot-5/",
+      "status": "supplier_composition_contradiction"
+    },
+    {
+      "id": 91228,
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paruri-cocolino-dot/patura-cocolino-dot-7/",
+      "status": "supplier_composition_contradiction"
+    },
+    {
+      "id": 91229,
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paruri-cocolino-dot/patura-cocolino-dot-8/",
+      "status": "supplier_composition_contradiction"
+    },
+    {
+      "id": 91230,
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paruri-cocolino-dot/patura-cocolino-dot-9/",
+      "status": "supplier_composition_contradiction"
+    },
+    {
+      "id": 94008,
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin/",
+      "status": "supplier_composition_contradiction"
+    },
+    {
+      "id": 94023,
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-3/",
+      "status": "supplier_composition_contradiction"
+    },
+    {
+      "id": 94024,
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-cocolino-sin/patura-cocolino-sin-4/",
+      "status": "supplier_composition_contradiction"
+    },
+    {
+      "id": 75521,
+      "supplierUrl": "https://ralexpucioasa.ro/store/produse-hotel/protectie-frotir-bumbac-100-impermeabila-saltea-de-200x200cm/",
+      "status": "published"
+    },
+    {
+      "id": 158236,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-premium-heritage/lenjerie-de-pat-clasy-arvona-v2-cu-patura-inclusa-100-bumbac-6-piese/",
+      "status": "outside_ralex_brand_scope"
+    },
+    {
+      "id": 158330,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled/set-cuvertura-velda-v4-pique-clasy-4-piese-cuvertura-gofrata-cu-ciucuri/",
+      "status": "outside_ralex_brand_scope"
+    },
+    {
+      "id": 158322,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled/set-cuvertura-velda-v1-pique-clasy-4-piese-cuvertura-gofrata-cu-ciucuri/",
+      "status": "outside_ralex_brand_scope"
+    },
+    {
+      "id": 162651,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-fotoliu/",
+      "status": "insufficient_distinct_estore_views"
+    },
+    {
+      "id": 162665,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-fotoliu-8/",
+      "status": "insufficient_distinct_estore_views"
+    },
+    {
+      "id": 162671,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-fotoliu-11/",
+      "status": "insufficient_distinct_estore_views"
+    },
+    {
+      "id": 162655,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-fotoliu-3/",
+      "status": "insufficient_distinct_estore_views"
+    },
+    {
+      "id": 162682,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-2-locuri-doua-fete/",
+      "status": "insufficient_distinct_estore_views"
+    },
+    {
+      "id": 162694,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-2-locuri-doua-fete-7/",
+      "status": "insufficient_distinct_estore_views"
+    },
+    {
+      "id": 162700,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-2-locuri-doua-fete-10/",
+      "status": "insufficient_distinct_estore_views"
+    },
+    {
+      "id": 162706,
+      "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/cuverturi-fotoliu-si-canapea/cuvertura-matlasata-canapea-2-locuri-doua-fete-13/",
+      "status": "insufficient_distinct_estore_views"
+    },
+    {
+      "id": 102912,
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-luxury-bumbac-100-70x140cm-600g-m2-bleu/",
+      "status": "published"
+    },
+    {
+      "id": 79880,
+      "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-tricot-cu-blanita/patura-tricot-cu-blanita-galben-mustar/",
+      "status": "composition_not_fully_verified"
+    },
+    {
+      "id": 451,
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-microfibra-vara-200x210cm-copiaza/",
+      "status": "composition_not_fully_verified"
+    },
+    {
+      "id": 80631,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-xmas/lenjerie-pat-finet-3d-6-piese-craciun-f-xmas46/",
+      "status": "composition_not_fully_verified"
+    },
+    {
+      "id": 80632,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-xmas/lenjerie-pat-finet-3d-6-piese-craciun-f-xmas47/",
+      "status": "composition_not_fully_verified"
+    },
+    {
+      "id": 81824,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-xmas/lenjerie-pat-finet-3d-6-piese-craciun-f-xmas84/",
+      "status": "composition_not_fully_verified"
+    },
+    {
+      "id": 81825,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-xmas/lenjerie-pat-finet-3d-6-piese-craciun-f-xmas85/",
+      "status": "composition_not_fully_verified"
+    },
+    {
+      "id": 81831,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-xmas/lenjerie-pat-finet-3d-6-piese-craciun-f-xmas91/",
+      "status": "composition_not_fully_verified"
+    },
+    {
+      "id": 81835,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-xmas/lenjerie-pat-finet-3d-6-piese-craciun-f-xmas95/",
+      "status": "composition_not_fully_verified"
+    },
+    {
+      "id": 163112,
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-blue-garden-2/",
+      "status": "insufficient_distinct_estore_views"
+    },
+    {
+      "id": 163115,
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-blue-garden-3/",
+      "status": "insufficient_distinct_estore_views"
+    },
+    {
+      "id": 163118,
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-blue-garden-4/",
+      "status": "insufficient_distinct_estore_views"
+    }
+  ],
+  "remainingCatalog": "Not yet fully reviewed; no blanket approval."
+}

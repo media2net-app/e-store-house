@@ -20,6 +20,8 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Public catalog approval
 
+- Current merchant scope (23 October 2026): new publications from E-Store Control must be RALEX PUCIOASA only. Exclude Casa Pucioasa, other brands, and unconfirmed brands even when sold by the same supplier. Verify actual image galleries before publication.
+
 - Keep only products with complete reviewed E-Store House galleries and accurate Romanian copy in src/data/products.json. Supplier originals serve as references, not as substitutes for the requested E-Store galleries. Four files alone do not prove four distinct views.
 - Preserve unverified or rejected records unchanged in catalog-review/products-on-hold.json, with reason codes; do not import this archive into the storefront. Unverified does not necessarily mean defective.
 - A model and every published variant need at least four reviewed distinct product photographs, numeric supplier SKU verification, source-backed composition/contents and a matching entry in src/data/catalog-approvals.json. Visually review actual output files against that model’s sources; do not approve a listing just to pass the build.
