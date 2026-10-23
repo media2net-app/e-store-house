@@ -7319,5 +7319,159 @@
       "162651": true
     },
     "checkedAt": "2026-10-23T22:43:42.732238+00:00"
+  },
+  {
+    "id": 163112,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-blue-garden-2/",
+    "costs": {
+      "163112": 112.0
+    },
+    "availability": {
+      "163112": true
+    },
+    "checkedAt": "2026-10-23T23:01:46.681777+00:00"
+  },
+  {
+    "id": 163115,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-blue-garden-3/",
+    "costs": {
+      "163115": 112.0
+    },
+    "availability": {
+      "163115": true
+    },
+    "checkedAt": "2026-10-23T23:01:46.681777+00:00"
+  },
+  {
+    "id": 163118,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-blue-garden-4/",
+    "costs": {
+      "163118": 112.0
+    },
+    "availability": {
+      "163118": true
+    },
+    "checkedAt": "2026-10-23T23:01:46.681777+00:00"
+  },
+  {
+    "id": 163119,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-casetata-luxury-cu-puf-de-gasca-100-bumbac-natural-200x230-cm/",
+    "costs": {
+      "163119": 750.0
+    },
+    "availability": {
+      "163119": true
+    },
+    "checkedAt": "2026-10-23T23:01:46.681777+00:00"
+  },
+  {
+    "id": 162835,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-dusty-rose/",
+    "costs": {
+      "162835": 112.0
+    },
+    "availability": {
+      "162835": true
+    },
+    "checkedAt": "2026-10-23T23:01:46.681777+00:00"
+  },
+  {
+    "id": 162833,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-mint/",
+    "costs": {
+      "162833": 112.0
+    },
+    "availability": {
+      "162833": true
+    },
+    "checkedAt": "2026-10-23T23:01:46.681777+00:00"
+  },
+  {
+    "id": 162831,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-purple/",
+    "costs": {
+      "162831": 112.0
+    },
+    "availability": {
+      "162831": true
+    },
+    "checkedAt": "2026-10-23T23:01:46.681777+00:00"
+  },
+  {
+    "id": 162834,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-scandinavian-gray/",
+    "costs": {
+      "162834": 112.0
+    },
+    "availability": {
+      "162834": true
+    },
+    "checkedAt": "2026-10-23T23:01:46.681777+00:00"
+  },
+  {
+    "id": 162836,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-sunlit-ivory/",
+    "costs": {
+      "162836": 112.0
+    },
+    "availability": {
+      "162836": true
+    },
+    "checkedAt": "2026-10-23T23:01:46.681777+00:00"
+  },
+  {
+    "id": 162837,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-turquoise/",
+    "costs": {
+      "162837": 112.0
+    },
+    "availability": {
+      "162837": true
+    },
+    "checkedAt": "2026-10-23T23:01:46.681777+00:00"
+  },
+  {
+    "id": 162827,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-chevron/",
+    "costs": {
+      "162827": 112.0
+    },
+    "availability": {
+      "162827": true
+    },
+    "checkedAt": "2026-10-23T23:01:46.681777+00:00"
+  },
+  {
+    "id": 162881,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-dusty-pudra/",
+    "costs": {
+      "162881": 112.0
+    },
+    "availability": {
+      "162881": true
+    },
+    "checkedAt": "2026-10-23T23:01:46.681777+00:00"
+  },
+  {
+    "id": 162933,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-pink/",
+    "costs": {
+      "162933": 112.0
+    },
+    "availability": {
+      "162933": true
+    },
+    "checkedAt": "2026-10-23T23:01:46.681777+00:00"
+  },
+  {
+    "id": 162880,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-pudra/",
+    "costs": {
+      "162880": 112.0
+    },
+    "availability": {
+      "162880": true
+    },
+    "checkedAt": "2026-10-23T23:01:46.681777+00:00"
   }
 ]

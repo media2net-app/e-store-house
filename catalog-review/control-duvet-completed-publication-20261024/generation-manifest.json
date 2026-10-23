@@ -1,0 +1,162 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "prompt": "Printed and goose-down: full overhead duvet preserving print, quilt and edge. Printed also folded on bench. Chevron: draped over ivory bench, preserve exact bent-V concave-hexagon quilting from detail reference. No claims. Portrait 2:3.",
+  "outputs": [
+    {
+      "index": 258,
+      "id": "163112",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/163112-supplier.jpg",
+        "/tmp/estore-publication-review-20261023/30b8b94fd07f0cd1aeb262744e7d83265e4f7fb9ed3b0493ce882f54c95825c9.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/163112-duvet-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-df96d0b5-c2f2-4fa1-9a25-26185f571f65.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-844f53f9-0457-4e46-9d6c-ac521887b5c1.png"
+    },
+    {
+      "index": 259,
+      "id": "163115",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/163115-supplier.jpg",
+        "/tmp/estore-publication-review-20261023/3563555e3cc2aef5e5d48fa45dede2aed1906e0ec67cc50d71b719eb9e97b346.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/163115-duvet-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-caf7c64f-3d6b-4e72-ac11-be3f01c4b9a6.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-b295e551-2c14-44a7-a7f6-95c20917354f.png"
+    },
+    {
+      "index": 260,
+      "id": "163118",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/163118-supplier.jpg",
+        "/tmp/estore-publication-review-20261023/9a4556beeb1810655e763d68b9f31692c9586a068dac6b4446849a54d1c7be0b.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/163118-duvet-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-30935662-d808-48db-854d-91a8b137770c.png",
+      "sidePath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-b0b9c2c0-b9ec-469e-a1e5-088af21ee438.png"
+    },
+    {
+      "index": 261,
+      "id": "163119",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/163119-supplier.jpg",
+        "/tmp/estore-publication-review-batch2-20261023/2a53728d2e2a211096407eb6b4d817b3607b875870beb93a3ff5a68d5cc1e9ca.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/163119-duvet-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-3ac81814-dcbb-4325-9c43-32b18991c6c6.png",
+      "sidePath": null
+    },
+    {
+      "index": 266,
+      "id": "162835",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162835-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/7a5a7f3d0291441e84d42d889d1618131e8e3a508d23638b3aae0f1fd561240f.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162835-duvet-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-2578312f-1300-4f80-9957-29a4dbef6eb5.png",
+      "sidePath": null
+    },
+    {
+      "index": 267,
+      "id": "162833",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162833-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/0ab713a4dafca1131e5ccd3c6f91874d1e1cccd3eb1de858bdf4e9f9cc61d8d2.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162833-duvet-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-1db8c645-d924-4591-920b-dba44851ae2f.png",
+      "sidePath": null
+    },
+    {
+      "index": 268,
+      "id": "162831",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162831-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/3cde5be78a0032157ba12630dd7143ecfa77b8eb629b00a2f5fbdd7424c6461e.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162831-duvet-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a1db6afc-011d-48e5-9492-a9c12aefcad5.png",
+      "sidePath": null
+    },
+    {
+      "index": 269,
+      "id": "162834",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162834-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/0b414e55cf4fca2cf122363af53e2fde5bf730e26f69b9297cf00be8b2327d06.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162834-duvet-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-e8c7f855-b1cb-4b4b-b723-2ac7cacfbb25.png",
+      "sidePath": null
+    },
+    {
+      "index": 270,
+      "id": "162836",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162836-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/49af790c953aa0dad94cf6a781ca810b8fbbcb494ceaff21c7810ea2cd2d854f.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162836-duvet-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ba11d67c-85bd-4058-a9ed-bd801ffdc0c8.png",
+      "sidePath": null
+    },
+    {
+      "index": 271,
+      "id": "162837",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162837-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/7141a1a757299250784418ef8125b7e114579e6feb4446b03f33b761d28c5c01.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162837-duvet-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-3934cffa-940e-4c06-b94e-9a379b8edc63.png",
+      "sidePath": null
+    },
+    {
+      "index": 275,
+      "id": "162827",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162827-supplier.jpg",
+        "/tmp/estore-publication-review-batch4-20261023/b3635244b7437a05c01b12f6e8cc682eb830fb74e035a57eae54154e1414a672.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162827-duvet-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-1b0cfca4-3ce2-4a30-82cf-ba1a79c5c9b5.png",
+      "sidePath": null
+    },
+    {
+      "index": 276,
+      "id": "162881",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162881-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/19ca47e35d28b739a0d79e94a2561caf98cf2a785d5bc755d8dc02742d50b803.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162881-duvet-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-79f5c6d2-83d3-43f9-8fc0-9ba825ea7356.png",
+      "sidePath": null
+    },
+    {
+      "index": 277,
+      "id": "162933",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162933-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/436c2f9cbd95f78cbac4552fdd3b97dcc2faec32f34797541df15c76093557b1.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162933-duvet-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-cd2e8fc2-ea78-4fbb-9c76-370030abe3c9.png",
+      "sidePath": null
+    },
+    {
+      "index": 278,
+      "id": "162880",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/162880-supplier.jpg",
+        "/tmp/estore-publication-review-batch4-20261023/d7ea3a7c66d009ff54a085aa2132996cc3ba58d75741cde2048d20687a64ba1e.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/162880-duvet-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-fb0e3531-58e1-4b9a-a5c4-2202ac1e3bc3.png",
+      "sidePath": null
+    }
+  ],
+  "review": "All 17 selected photographs inspected. Initial 10 overhead attempts across seven chevron models rejected for incorrect diamond quilting; never included in published gallery."
+}

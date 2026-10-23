@@ -1,0 +1,39 @@
+{
+  "batch": "control-sofa-completed-publication-20261024",
+  "checkedAt": "2026-10-23T22:49:15.609865+00:00",
+  "catalogCount": 623,
+  "results": [
+    {
+      "id": 162700,
+      "status": "live"
+    },
+    {
+      "id": 162694,
+      "status": "live"
+    },
+    {
+      "id": 162706,
+      "status": "live"
+    },
+    {
+      "id": 162682,
+      "status": "live"
+    },
+    {
+      "id": 162671,
+      "status": "live"
+    },
+    {
+      "id": 162665,
+      "status": "live"
+    },
+    {
+      "id": 162655,
+      "status": "live"
+    },
+    {
+      "id": 162651,
+      "status": "live"
+    }
+  ]
+}
