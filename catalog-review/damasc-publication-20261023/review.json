@@ -1,5 +1,5 @@
 {
-  "status": "validated_pending_deployment",
+  "status": "live_verified",
   "models": [
     {
       "product": {
@@ -632,5 +632,80 @@
       ]
     }
   ],
-  "reviewNotes": "Each generated output visually compared with individual supplier reference: source color, horizontal woven stripes and simple pillow flanges retained. Front, side, textile close-up and overhead are distinct. Whole-bed views have exactly four pillows; rejected extra-pillow detail and split-frame images replaced. Correct flat/fitted sheet and source-backed six-piece contents recorded."
+  "reviewNotes": "Each generated output visually compared with individual supplier reference: source color, horizontal woven stripes and simple pillow flanges retained. Front, side, textile close-up and overhead are distinct. Whole-bed views have exactly four pillows; rejected extra-pillow detail and split-frame images replaced. Correct flat/fitted sheet and source-backed six-piece contents recorded.",
+  "liveVerification": [
+    {
+      "id": 76881,
+      "url": "https://www.estorehouse.ro/product/76881",
+      "price": 179,
+      "inStock": true,
+      "verifiedImages": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 76882,
+      "url": "https://www.estorehouse.ro/product/76882",
+      "price": 179,
+      "inStock": true,
+      "verifiedImages": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 76883,
+      "url": "https://www.estorehouse.ro/product/76883",
+      "price": 179,
+      "inStock": true,
+      "verifiedImages": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 76884,
+      "url": "https://www.estorehouse.ro/product/76884",
+      "price": 179,
+      "inStock": true,
+      "verifiedImages": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 76885,
+      "url": "https://www.estorehouse.ro/product/76885",
+      "price": 179,
+      "inStock": true,
+      "verifiedImages": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 76887,
+      "url": "https://www.estorehouse.ro/product/76887",
+      "price": 179,
+      "inStock": false,
+      "verifiedImages": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 76895,
+      "url": "https://www.estorehouse.ro/product/76895",
+      "price": 179,
+      "inStock": true,
+      "verifiedImages": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 76899,
+      "url": "https://www.estorehouse.ro/product/76899",
+      "price": 189,
+      "inStock": true,
+      "verifiedImages": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 76907,
+      "url": "https://www.estorehouse.ro/product/76907",
+      "price": 189,
+      "inStock": true,
+      "verifiedImages": 4,
+      "status": "live_verified"
+    }
+  ],
+  "liveVerifiedAt": "2026-10-23T01:37:10.765188+00:00"
 }
