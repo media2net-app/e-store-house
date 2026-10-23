@@ -149,3 +149,7 @@ Reviewed Git source snapshots and found earlier development prices (including ro
 - Verificat în EuPlătesc Manager: opțiunea GooglePay este deja bifată. Nu au fost modificate setările și nu au fost acceptați din nou termenii.
 - Adăugat Google Pay lângă Apple Pay în checkout-ul public, cu selecție pe pagina găzduită EuPlătesc și disponibilitate în funcție de dispozitiv/card.
 - Testul callback verifică ambele canale ApplePay/GPay și respinge modificarea canalului sau sumei. Nu a fost efectuată o plată reală.
+
+## Checkout readiness colour — 23 October 2026
+- Requested by the user: final card/COD button turns green only when ready.
+- Native form validity (including terms, postal code and conditional billing fields) combines with existing payment/shipping disabled checks. Incomplete or pending checkout stays brown. No order/payment logic changed.

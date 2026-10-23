@@ -405,3 +405,7 @@ button,a,input { outline-offset:5px; }
 .maison-portfolio strong { display:block; font:500 clamp(24px,2.1vw,32px)/1.2 var(--font-playfair),Georgia,serif; margin-top:4px; }
 .maison-portfolio small { display:block; font-size:11px; color:var(--muted); margin-top:8px; }
 @media(max-width:600px) { .maison-copy>p.maison-portfolio { font-size:16px; }.maison-portfolio strong { font-size:27px; } }
+
+/* Green only when browser validation and payment/shipping readiness both pass. */
+.checkout-page form:valid .checkout-submit:not(:disabled) { background-color:#15803d; }
+.checkout-page form:valid .checkout-submit:not(:disabled):hover { background-color:#166534; }
