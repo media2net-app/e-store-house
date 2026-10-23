@@ -14980,5 +14980,48 @@
       }
     ],
     "fingerprint": "8c4614f9da0f47af486bcee89a34ca14ee8c65d1f4265c2a892ed4f783600dc1"
+  },
+  {
+    "id": 94798,
+    "reviewedAt": "2026-10-23T20:22:40.240692+00:00",
+    "source": "control-percale-prc191-publication-20261023",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc191/",
+    "visualReview": "Reviewed existing Control photographs against own supplier reference: complete bed, front view, fabric/pillow detail and alternate angle or overhead; print, colors, piece counts and captions verified for each published variant. Supplier variants without dimensions excluded. No generated images.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260920/20/803ce579-bb7e-3e6f-b6c0-1cdda29f0ad5/1_org_zoom.jpg",
+        "sha256": "5b32aab9e66c10405ba8d1db76b5538eb8bd390cd2632e399d1bb6a92f47b437"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260920/20/48b84393-5954-31a3-813e-828b37d55388/1_org_zoom.jpg",
+        "sha256": "995c478b5e77b97b7124aeb6a1d001e37d810a252f9a34fd3500f7db83fae7e7"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260920/20/6ad5c85d-91b5-31c8-b376-052ffcaac8dc/1_org_zoom.jpg",
+        "sha256": "cfa8f3b89de37c81cbcadf44eaa320e2bec70ce3c5ac7eeaadd84fa8a54173d5"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/9942c392-6fbd-33d6-b030-07fcbe5c7b01/1_org_zoom.jpg",
+        "sha256": "d192b3fb93c7c2fe15e92da69c26bc5dc8dbe095dfed1c4d132ecc92ee58c678"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/0b788d67-073b-378c-aeb6-781ec2e5e6c5/1_org_zoom.jpg",
+        "sha256": "24817c69a624a2a56af9d8eda5980883716db060c4f84982a2133aa0f19ea8e4"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/81e60a18-9ccd-385c-97e2-0f80b55d9192/1_org_zoom.jpg",
+        "sha256": "7107e0c9fbfdb2bea39f67dd3f9962403ccde3f682ed8f8a0dc3727c70de1459"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/5c749b56-b7f3-3a5b-bb2d-71ae1724fa62/1_org_zoom.jpg",
+        "sha256": "71b35cb981c84503dceeee6a8f2bf973cc4d7db7ca70cc677bba9c9738896879"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/e8f58568-4d2b-3d16-abfe-7001888275fe/1_org_zoom.jpg",
+        "sha256": "851705c8244294f09a54c89f4639fb03ddd4cade4e504863aa6872caf46d72c9"
+      }
+    ],
+    "fingerprint": "6f0a17f5889f28364791eb750aa3c9cbeacdf48549e3ce17f78c9a5ee5267032"
   }
 ]
