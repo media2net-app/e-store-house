@@ -15146,5 +15146,32 @@
       }
     ],
     "fingerprint": "29683d6639b2795b0a30b58425471edb938213a85ed7cb81e7dffd5690980a36"
+  },
+  {
+    "id": 162832,
+    "reviewedAt": "2026-10-23T20:26:14.959309+00:00",
+    "source": "control-brown-duvet-publication-20261023",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-brown/",
+    "visualReview": "Four existing Control photographs matched to own supplier reference: front bed, folded duvet with verified composition/dimensions panel, angled bed and stitching close-up. Brown chevron design, all composition percentages and 200x220 dimensions match own supplier short and long description. Numeric barcode checked on own page. No generated images.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261016/02/42355005-aa8b-3972-bd64-164fe934a80a/1_org_zoom.jpg",
+        "sha256": "395f143bdd8b2dfae848ef26f0e1507486fb6d8aa92f97c0d355b2887e920629"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261016/02/da94f016-5a8f-3372-9be4-1f17dd2e3a5a/1_org_zoom.jpg",
+        "sha256": "be64ab00256ce74abe9d2c8f38a03e8f8e4c840246cfa556ba708c9a34da6dd6"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261016/02/93085e81-e14f-3a9e-be1f-635d081fca9a/1_org_zoom.jpg",
+        "sha256": "f03f9df5dd56c7c85bc282a39b447c212e982ab9a0b060174c1ef67935c76d86"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261016/02/5becd11f-a00e-37bc-a629-607feaa093fd/1_org_zoom.jpg",
+        "sha256": "cd9882b0d70eab5ce13b5c465aceccde2245105b4c2aa19176f71c673f66cbfa"
+      }
+    ],
+    "fingerprint": "6e759b892d620541da108f4527f234ba35e4dfa4b89baa116a6233ac129ea20f"
   }
 ]

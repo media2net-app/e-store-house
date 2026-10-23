@@ -23214,5 +23214,37 @@
     "price": 149,
     "stock": 100,
     "inStock": true
+  },
+  {
+    "id": 162832,
+    "sku": "162832",
+    "name": "Pilotă pufoasă matlasată, maro, 200 × 220 cm",
+    "category": "Pilote pufoase matlasate",
+    "categoryPath": "pilote/pilote-pufoase-matlasate",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Exterior: 100% poliester. Umplutură: 50% puf siliconic și 50% microgel",
+    "description": "Pilotă pufoasă matlasată, maro, 200 × 220 cm.\n\nMaterial: Exterior: 100% poliester. Umplutură: 50% puf siliconic și 50% microgel.\n\nConținut și dimensiuni: 1 pilotă matlasată de 200 × 220 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-brown/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261016/02/42355005-aa8b-3972-bd64-164fe934a80a/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261016/02/da94f016-5a8f-3372-9be4-1f17dd2e3a5a/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261016/02/93085e81-e14f-3a9e-be1f-635d081fca9a/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261016/02/5becd11f-a00e-37bc-a629-607feaa093fd/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261016/02/42355005-aa8b-3972-bd64-164fe934a80a/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Exterior: 100% poliester. Umplutură: 50% puf siliconic și 50% microgel"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă matlasată de 200 × 220 cm."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
   }
 ]

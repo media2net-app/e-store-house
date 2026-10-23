@@ -1,0 +1,48 @@
+[
+  {
+    "key": "9beb29431874",
+    "products": [
+      {
+        "barcode": "162832",
+        "sku": "162832",
+        "model": "162832",
+        "title": "Pilotă de iarnă pufoasă matlasată Brown, 200 x 220 cm",
+        "description": "",
+        "category": "Plapume duble",
+        "brand": "RALEX PUCIOASA",
+        "color": "Brown",
+        "size": "",
+        "price": 249,
+        "listPrice": 249,
+        "stock": 100,
+        "images": [
+          "https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261016/02/42355005-aa8b-3972-bd64-164fe934a80a/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261016/02/da94f016-5a8f-3372-9be4-1f17dd2e3a5a/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261016/02/93085e81-e14f-3a9e-be1f-635d081fca9a/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261016/02/5becd11f-a00e-37bc-a629-607feaa093fd/1_org_zoom.jpg"
+        ],
+        "trendyolUrl": "https://www.trendyol.com/en/x-p-1216978257?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+        "origin": "Trendyol · export 17.10.2026",
+        "revision": 0,
+        "updated": "2026-10-17T13:10:26Z"
+      }
+    ],
+    "supplierId": 162832,
+    "source": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-brown/",
+    "sourceImage": "https://ralexpucioasa.ro/wp-content/uploads/2026/10/Cozy-Taupe-Chevron-Quilted-Bedroom-сияс.webp",
+    "urls": [
+      "https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261016/02/42355005-aa8b-3972-bd64-164fe934a80a/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261016/02/da94f016-5a8f-3372-9be4-1f17dd2e3a5a/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261016/02/93085e81-e14f-3a9e-be1f-635d081fca9a/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1981/prod/QC_PREP/20261016/02/5becd11f-a00e-37bc-a629-607feaa093fd/1_org_zoom.jpg"
+    ],
+    "downloadStatus": "ok",
+    "paths": [
+      "/tmp/estore-control-gallery-audit-20261023/brown-retry/0.jpg",
+      "/tmp/estore-control-gallery-audit-20261023/brown-retry/1.jpg",
+      "/tmp/estore-control-gallery-audit-20261023/brown-retry/2.jpg",
+      "/tmp/estore-control-gallery-audit-20261023/brown-retry/3.jpg",
+      "/tmp/estore-control-gallery-audit-20261023/brown-retry/4.jpg"
+    ]
+  }
+]
