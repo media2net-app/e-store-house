@@ -1,5 +1,5 @@
 {
-  "status": "validated_pending_deployment",
+  "status": "live_verified",
   "models": [
     {
       "product": {
@@ -452,5 +452,50 @@
       ]
     }
   ],
-  "reviewNotes": "Individual supplier sources and final front, lateral, detail and overhead images visually compared. Correct colors, raised textile texture and two pillowcases retained. Repeated hero with unsupported mattress-fit wording excluded. Conflicting ironing temperature omitted; care refers to label."
+  "reviewNotes": "Individual supplier sources and final front, lateral, detail and overhead images visually compared. Correct colors, raised textile texture and two pillowcases retained. Repeated hero with unsupported mattress-fit wording excluded. Conflicting ironing temperature omitted; care refers to label.",
+  "liveVerification": [
+    {
+      "id": 138602,
+      "url": "https://www.estorehouse.ro/product/138602",
+      "price": 489,
+      "images": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 138612,
+      "url": "https://www.estorehouse.ro/product/138612",
+      "price": 489,
+      "images": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 138604,
+      "url": "https://www.estorehouse.ro/product/138604",
+      "price": 489,
+      "images": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 138606,
+      "url": "https://www.estorehouse.ro/product/138606",
+      "price": 489,
+      "images": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 138608,
+      "url": "https://www.estorehouse.ro/product/138608",
+      "price": 489,
+      "images": 4,
+      "status": "live_verified"
+    },
+    {
+      "id": 138610,
+      "url": "https://www.estorehouse.ro/product/138610",
+      "price": 489,
+      "images": 4,
+      "status": "live_verified"
+    }
+  ],
+  "liveVerifiedAt": "2026-10-23T00:12:38.520507+00:00"
 }

@@ -73,3 +73,9 @@ User explicitly authorized publishing the redesign and then all Ralex Pucioasa C
 Cele 9 modele Arsida/Eveya sunt confirmate live: 266 modele, 430 configurații. Verificate individual paginile, prețurile, disponibilitatea și toate cele 36 imagini.
 
 Pregătite încă 6 modele Clasy Estina: surse individuale cu 100% bumbac Ranforce și set 4 piese, coduri numerice confirmate în pagini, preț actual 489 lei calculat conform regulii. Patru vederi distincte per model, inclusiv vedere laterală nouă verificată față de surse. Afirmația neconfirmată despre potrivirea pe saltele a fost eliminată prin înlocuirea vechiului hero; temperatura contradictorie de călcare nu este publicată. Build și cele 7 teste de catalog/preț au trecut. După publicare: 272 modele / 436 configurații, 432 articole Control acoperite și 905 rămase.
+## Production verification: Estina
+
+Deployment 059a788 succeeded. Public API confirms 272 models / 436 saleable configurations. All six Estina pages and 24 gallery images responded successfully; prices and stock match verified supplier data. This session published 85 new models: 70 Economy, 9 Arsida/Eveya, 6 Estina. Control coverage is 432 of 1337 articles, with 905 still awaiting preparation or verification. This is not a completed catalog.
+
+The 236-page Clasy manufacturer catalog did not supply missing set counts in its extracted text. Nine inspected damasc galleries repeat one source photo in all slots and need complete replacement galleries. Final Control UI recheck failed with computer-use cgWindowNotFound; the Control connection had previously been verified successfully. Final store checks used the live HTTP pages and public API.
+

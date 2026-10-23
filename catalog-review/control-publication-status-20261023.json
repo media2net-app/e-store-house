@@ -2,15 +2,11 @@
   "summary": {
     "controlExportAt": "2026-10-22T23:42:53.738Z",
     "controlArticlesIncludingHeld": 1337,
-    "coveredControlArticles": 426,
-    "pendingControlArticles": 911,
-    "publicModels": 266,
-    "publicConfigurations": 430,
-    "newModelsVerifiedLive": 79,
-    "publicModelsAfterPendingDeployment": 272,
-    "publicConfigurationsAfterPendingDeployment": 436,
-    "coveredControlArticlesAfterPendingDeployment": 432,
-    "pendingControlArticlesAfterPendingDeployment": 905
+    "coveredControlArticles": 432,
+    "pendingControlArticles": 905,
+    "publicModels": 272,
+    "publicConfigurations": 436,
+    "newModelsVerifiedLive": 85
   },
   "articles": [
     {
@@ -5452,7 +5448,7 @@
       "sku": "138602",
       "title": "Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Crem",
       "supplierModelId": 138602,
-      "status": "estina_deployment_pending",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5460,7 +5456,7 @@
       "sku": "138604",
       "title": "Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Bej",
       "supplierModelId": 138604,
-      "status": "estina_deployment_pending",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5468,7 +5464,7 @@
       "sku": "138606",
       "title": "Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Gri",
       "supplierModelId": 138606,
-      "status": "estina_deployment_pending",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5476,7 +5472,7 @@
       "sku": "138608",
       "title": "Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Verde",
       "supplierModelId": 138608,
-      "status": "estina_deployment_pending",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5484,7 +5480,7 @@
       "sku": "138610",
       "title": "Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Portocaliu",
       "supplierModelId": 138610,
-      "status": "estina_deployment_pending",
+      "status": "live_verified",
       "reasons": []
     },
     {
@@ -5492,7 +5488,7 @@
       "sku": "138612",
       "title": "Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Bej",
       "supplierModelId": 138612,
-      "status": "estina_deployment_pending",
+      "status": "live_verified",
       "reasons": []
     },
     {
