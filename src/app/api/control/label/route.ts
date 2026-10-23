@@ -2,6 +2,7 @@ import { isStoreControl } from "@/lib/control-auth";
 import { getOrder } from "@/lib/orders";
 import { getShipment } from "@/lib/shipment-store";
 import { samedayLabel } from "@/lib/sameday";
+import { fanLabel } from "@/lib/fan";
 export const runtime = "nodejs";
 const headers = { "Cache-Control": "private, no-store", "X-Content-Type-Options": "nosniff" };
 export async function GET(request: Request) {
@@ -13,7 +14,9 @@ export async function GET(request: Request) {
     if (!order || order.testOrder || order.cancellation || !shipment?.awbNumber || shipment.state !== "created" || shipment.mode !== "live") {
       return Response.json({ error: "Comanda nu are încă un AWB confirmat." }, { status: 404, headers });
     }
-    const pdf = await samedayLabel(shipment.awbNumber);
+    const carrier = shipment.carrier || "sameday";
+    if (carrier !== order.shippingCarrier) return Response.json({ error: "Curierul AWB nu corespunde comenzii." }, { status: 409, headers });
+    const pdf = carrier === "fan" ? await fanLabel(shipment.awbNumber) : await samedayLabel(shipment.awbNumber);
     return new Response(pdf as BodyInit, { headers: { ...headers, "Content-Type": "application/pdf", "Content-Disposition": `attachment; filename="awb-${id}.pdf"` } });
-  } catch { return Response.json({ error: "Eticheta Sameday nu poate fi descărcată momentan." }, { status: 503, headers }); }
+  } catch { return Response.json({ error: "Eticheta AWB nu poate fi descărcată momentan." }, { status: 503, headers }); }
 }

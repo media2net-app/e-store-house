@@ -37,7 +37,7 @@ export default function SamedayAdmin({ token, order }: { token: string; order?: 
     } catch (reason) { setMessage(reason instanceof Error ? reason.message : "Sameday nu este disponibil momentan."); }
     finally { setBusy(false); }
   }
-  const eligible = order && canShipOrder(order);
+  const eligible = order && order.shippingCarrier === "sameday" && canShipOrder(order);
   if (order && !eligible) return null;
   return <section className="mt-5 rounded-lg border border-[#c9bda9] p-4 text-sm">
     <h2 className="font-semibold">{order ? "Expediere Sameday" : "Conectare Sameday"}</h2>

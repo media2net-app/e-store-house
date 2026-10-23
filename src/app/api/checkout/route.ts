@@ -58,9 +58,9 @@ export async function POST(request: Request) {
   if (!(paymentMethod === "cod" ? config.codReady : config.cardReady)) return NextResponse.json({ error: paymentMethod === "cod" ? "Plata ramburs nu este disponibilă momentan." : "Plata cu cardul este în curs de activare. Poți alege plata la livrare sau cu cardul la easybox." }, { status: 503 });
   const customer = input.customer ?? {};
   const shippingMethod = input.shippingMethod ?? "home";
-  if (paymentMethod === "cod" && (input.carrier !== "sameday" || !["home", "easybox"].includes(shippingMethod))) return NextResponse.json({ error: "Plata ramburs este disponibilă prin Sameday, la domiciliu sau cu cardul la easybox." }, { status: 400 });
   if (paymentMethod === "card" && preview && !process.env.VERCEL_AUTOMATION_BYPASS_SECRET) return NextResponse.json({ error: "Notificările de plată nu sunt configurate pentru Preview." }, { status: 503 });
   const selectedShipping = config.shippingOptions.find((option) => option.carrier === input.carrier && (option.method || "home") === shippingMethod);
+  if (paymentMethod === "cod" && !selectedShipping?.codAvailable) return NextResponse.json({ error: "Plata ramburs nu este disponibilă pentru curierul ales." }, { status: 400 });
   const firstName = text(customer.firstName, 80);
   const lastName = text(customer.lastName, 80);
   const email = text(customer.email, 120);
@@ -115,8 +115,9 @@ export async function POST(request: Request) {
   if (totalCents < 1 || totalCents > 9_999_999) {
     return NextResponse.json({ error: "Valoarea comenzii este invalidă." }, { status: 400 });
   }
-  if (paymentMethod === "cod" && totalCents > (shippingMethod === "easybox" ? 1_000_000 : 500_000)) {
-    return NextResponse.json({ error: "Totalul ramburs poate fi de maximum 5.000 lei la domiciliu sau 10.000 lei la easybox." }, { status: 400 });
+  const codLimit = input.carrier === "fan" || shippingMethod === "easybox" ? 1_000_000 : 500_000;
+  if (paymentMethod === "cod" && totalCents > codLimit) {
+    return NextResponse.json({ error: `Totalul ramburs poate fi de maximum ${codLimit / 100} lei pentru livrarea aleasă.` }, { status: 400 });
   }
   if (paymentMethod === "card" && process.env.EU_PLATESC_MODE !== "live" && totalCents > 100) {
     return NextResponse.json({ error: "Contul EuPlătesc acceptă momentan doar tranzacții de test de maximum 1 leu." }, { status: 503 });

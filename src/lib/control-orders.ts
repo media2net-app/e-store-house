@@ -30,7 +30,7 @@ export async function controlOrders(after: string | null) {
       cancellation: order.cancellation, paymentMethod: order.paymentMethod || "card", customer: order.customer, items: order.items,
       subtotalCents: order.subtotalCents, discountCents: order.discountCents, shippingCents: order.shippingCents, totalCents: order.totalCents,
       shippingCarrier: order.shippingCarrier, shippingMethod: order.shippingMethod || "home", shippingLocker: order.shippingLocker,
-      shipment: shipment ? { state: shipment.state, awbNumber: shipment.awbNumber, createdAt: shipment.createdAt, costRon: shipment.costRon } : null }];
+      shipment: shipment ? { state: shipment.state, awbNumber: shipment.awbNumber, createdAt: shipment.createdAt, costRon: shipment.costRon, carrier: shipment.carrier || "sameday" } : null }];
   });
   return { orders, next: ids.length > 50 ? page.at(-1) : null };
 }

@@ -5,7 +5,7 @@ import EasyboxSelector from "@/components/cart/EasyboxSelector";
 import type { SamedayLocker } from "@/lib/sameday-protocol";
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { useCart } from "@/components/cart/CartProvider";
-import { formatProductPrice } from "@/lib/product-format";
+import { formatProductPrice } from "@/lib/products";
 import { cartOffers } from "@/lib/cart-offers";
 import { store } from "@/lib/store-info";
 import { type ShippingCarrier, type ShippingMethod, type ShippingOption } from "@/lib/shipping";
@@ -47,7 +47,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
   }, [cartKey, shippingOptions]);
   const selectedShipping = shippingOptions.find((option) => option.carrier === carrier && (option.method || "home") === method);
   const addressReady = fields.every(([name]) => customerDraft[name]?.trim()) && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(customerDraft.email || "");
-  const paymentEnabled = paymentMethod === "cod" ? codEnabled && carrier === "sameday" : cardEnabled;
+  const paymentEnabled = paymentMethod === "cod" ? codEnabled && selectedShipping?.codAvailable === true : cardEnabled;
   const rateKey = JSON.stringify({ items: JSON.parse(cartKey), customer: customerDraft, carrier, shippingMethod: method, paymentMethod, lockerId: method === "easybox" ? locker?.id : undefined });
   const rateReady = !!selectedShipping && addressReady && (method !== "easybox" || (easyboxEligible && !!locker));
   const currentRate = rateReady && rateResult?.key === rateKey ? rateResult : null;
@@ -145,16 +145,9 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
           </label>)}
         </div>
         <fieldset className="rounded-xl border border-[#c9bda9] p-4">
-          <legend className="px-1 text-sm font-semibold">Alege metoda de plată</legend>
-          <label className="flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="card" checked={paymentMethod === "card"} disabled={!cardEnabled} onChange={() => setPaymentMethod("card")} />Card / Apple Pay / Google Pay prin EuPlătesc{!cardEnabled ? " — în curs de activare" : ""}</label>
-          {cardEnabled && <p className="mt-2 pl-7 text-xs text-stone-600">Apple Pay și Google Pay se aleg pe pagina securizată EuPlătesc, în funcție de dispozitivul și cardul tău.</p>}
-          <label className="mt-3 flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="cod" checked={paymentMethod === "cod"} disabled={!codEnabled || carrier !== "sameday"} onChange={() => setPaymentMethod("cod")} />{method === "easybox" ? "Ramburs la easybox — achiți cu cardul la ridicare" : "Ramburs la domiciliu — achiți curierului la livrare"}</label>
-          {carrier !== "sameday" && <p className="mt-3 text-xs">Pentru plata ramburs, alege livrarea Sameday la domiciliu sau la easybox.</p>}
-        </fieldset>
-        <fieldset className="rounded-xl border border-[#c9bda9] p-4">
           <legend className="px-1 text-sm font-semibold">Alege curierul</legend>
           {shippingOptions.length ? shippingOptions.map((option) => <label key={`${option.carrier}-${option.method || "home"}`} className="mt-2 flex items-center justify-between gap-3 text-sm">
-            <span className="flex items-center gap-2"><input type="radio" name="carrier" value={option.carrier} checked={carrier === option.carrier && method === (option.method || "home")} disabled={!shippingPaymentAvailable(option, cardEnabled, codEnabled) || option.method === "easybox" && !easyboxEligible} onChange={() => { setCarrier(option.carrier); setMethod(option.method || "home"); setLocker(null); if (option.carrier !== "sameday") setPaymentMethod("card"); else if (!cardEnabled && codEnabled) setPaymentMethod("cod"); }} required />{option.label}{!shippingPaymentAvailable(option, cardEnabled, codEnabled) ? " — disponibil după activarea plății cu cardul" : option.method === "easybox" && !easyboxEligible ? " — indisponibil pentru acest coș" : ""}</span>
+            <span className="flex items-center gap-2"><input type="radio" name="carrier" value={option.carrier} checked={carrier === option.carrier && method === (option.method || "home")} disabled={!shippingPaymentAvailable(option, cardEnabled, codEnabled) || option.method === "easybox" && !easyboxEligible} onChange={() => { setCarrier(option.carrier); setMethod(option.method || "home"); setLocker(null); if (!cardEnabled && codEnabled && option.codAvailable) setPaymentMethod("cod"); else if (!option.codAvailable) setPaymentMethod("card"); }} required />{option.label}{!shippingPaymentAvailable(option, cardEnabled, codEnabled) ? " — disponibil după activarea plății cu cardul sau rambursului" : option.method === "easybox" && !easyboxEligible ? " — indisponibil pentru acest coș" : ""}</span>
             <span>{totals.freeShipping ? "Gratuit" : option.dynamic ? (carrier === option.carrier && method === (option.method || "home") && shippingCents !== null ? formatProductPrice(shippingCents / 100, "RON") : "După completarea datelor") : formatProductPrice(option.priceRon, "RON")}</span>
           </label>) : <p className="text-sm">Opțiunile de livrare sunt în curs de stabilire.</p>}
           {shippingOptions.some((option) => option.method === "easybox") && <p className="mt-3 text-xs">Easybox este disponibil pentru colete mici, cu maximum 3 lenjerii. Topperele și saltelele se livrează la domiciliu.</p>}
@@ -164,6 +157,12 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
               : currentRate?.error ? <p role="alert">{currentRate.error} <button type="button" className="underline" onClick={() => { setRateResult(null); setRateRefresh((value) => value + 1); }}>Reîncearcă</button></p>
                 : shippingCents === null ? <p>Se confirmă transportul…</p> : <p>Transport confirmat: {shippingCents === 0 ? "gratuit" : formatProductPrice(shippingCents / 100, "RON")}.</p>}
           </div>
+        </fieldset>
+        <fieldset className="rounded-xl border border-[#c9bda9] p-4">
+          <legend className="px-1 text-sm font-semibold">Alege metoda de plată</legend>
+          <label className="flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="card" checked={paymentMethod === "card"} disabled={!cardEnabled} onChange={() => setPaymentMethod("card")} />Card online prin EuPlătesc{!cardEnabled ? " — în curs de activare" : ""}</label>
+          <label className="mt-3 flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="cod" checked={paymentMethod === "cod"} disabled={!codEnabled || !selectedShipping?.codAvailable} onChange={() => setPaymentMethod("cod")} />{method === "easybox" ? "Ramburs la easybox — achiți cu cardul la ridicare" : "Ramburs la domiciliu — achiți curierului la livrare"}</label>
+          {!selectedShipping?.codAvailable && <p className="mt-3 text-xs">Rambursul pentru această livrare devine disponibil după activarea contractului curierului.</p>}
         </fieldset>
         <label className="flex items-center gap-3 text-sm"><input type="checkbox" checked={separateBilling} onChange={(event) => setSeparateBilling(event.target.checked)} /> Datele de facturare diferă de cele de livrare</label>
         {separateBilling ? <div className="grid gap-4 rounded-xl border border-[#c9bda9] p-4">
@@ -185,9 +184,9 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         </label>
         <p className="text-sm">Produsele beneficiază de garanția legală de conformitate de minimum 2 ani. <Link href="/garantie-legala" target="_blank" className="underline">Vezi notificarea oficială UE și drepturile tale</Link>.</p>
         {error && <p role="alert" className="rounded-lg bg-red-50 p-3 text-sm text-red-800">{error}</p>}
-        {!paymentEnabled && <p className="rounded-lg bg-amber-50 p-3 text-sm">{codEnabled ? "Poți comanda acum cu plata ramburs prin Sameday, la domiciliu sau la easybox (cu cardul la ridicare). Plata online este în curs de activare." : "Preluarea comenzilor este în curs de activare."}</p>}
-        <button disabled={busy || !paymentEnabled || shippingCents === null || !currentRate?.token || (method === "easybox" && (!easyboxEligible || !locker))} className="rounded-full bg-[#3b2d24] px-6 py-3 font-semibold text-white disabled:opacity-50">{busy ? "Se înregistrează comanda..." : paymentMethod === "cod" ? "Plasează comanda cu plata ramburs" : "Continuă la plata securizată"}</button>
-        <p className="text-xs">{paymentMethod === "cod" ? (method === "easybox" ? "Prin trimiterea comenzii te obligi să achiți totalul afișat cu cardul la easybox, la ridicarea coletului. Nu se acceptă numerar la easybox." : "Prin trimiterea comenzii te obligi să achiți totalul afișat, la curier, la livrare.") : "Pe pagina securizată EuPlătesc poți introduce datele cardului sau alege Apple Pay ori Google Pay, când sunt disponibile. Expediem comanda după confirmarea plății."}</p>
+        {!paymentEnabled && <p className="rounded-lg bg-amber-50 p-3 text-sm">{codEnabled ? "Alege o livrare cu ramburs activă. Plata online este în curs de activare." : "Preluarea comenzilor este în curs de activare."}</p>}
+        <button disabled={busy || !paymentEnabled || shippingCents === null || !currentRate?.token || (method === "easybox" && (!easyboxEligible || !locker))} className="rounded-full bg-[#3b2d24] px-6 py-3 font-semibold text-white disabled:opacity-50">{busy ? "Se înregistrează comanda..." : paymentMethod === "cod" ? "Plasează comanda cu plata ramburs" : "Plătesc comanda cu cardul"}</button>
+        <p className="text-xs">{paymentMethod === "cod" ? (method === "easybox" ? "Prin trimiterea comenzii te obligi să achiți totalul afișat cu cardul la easybox, la ridicarea coletului. Nu se acceptă numerar la easybox." : "Prin trimiterea comenzii te obligi să achiți totalul afișat, la curier, la livrare.") : "Datele cardului se introduc pe pagina securizată EuPlătesc. Expediem comanda după confirmarea plății."}</p>
       </form>
 
     </div>}
