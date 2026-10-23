@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import EasyboxSelector from "@/components/cart/EasyboxSelector";
 import type { SamedayLocker } from "@/lib/sameday-protocol";
 import { useEffect, useRef, useState, type FormEvent } from "react";
@@ -145,6 +146,25 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
           </label>)}
         </div>
         <fieldset className="rounded-xl border border-[#c9bda9] p-4">
+          <legend className="px-1 text-sm font-semibold">Alege metoda de plată</legend>
+          <label className="flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="card" checked={paymentMethod === "card"} disabled={!cardEnabled} onChange={() => setPaymentMethod("card")} />Card / Apple Pay / Google Pay prin EuPlătesc{!cardEnabled ? " — în curs de activare" : ""}</label>
+          {cardEnabled && <div className="mt-4 rounded-xl border border-[#d8cec3] bg-white p-4">
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-3">
+              <span className="inline-flex shrink-0 rounded-lg bg-[#083e48] px-4 py-3">
+                <Image src="/payments/euplatesc-official-white.svg" alt="EuPlătesc.ro" width={152} height={28} className="h-auto w-[152px]" />
+              </span>
+              <p className="flex items-center gap-2 text-sm font-semibold text-[#3b2d24]">
+                <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" className="shrink-0"><rect x="5" y="10" width="14" height="11" rx="2" /><path d="M8 10V7a4 4 0 0 1 8 0v3" /><path d="M12 14v3" /></svg>
+                Plată securizată prin EuPlătesc
+              </p>
+            </div>
+            <p className="mt-3 text-sm leading-relaxed text-[#5d5148]">Plata online se finalizează pe pagina securizată EuPlătesc. Magazinul nu primește și nu stochează datele cardului.</p>
+            <p className="mt-2 text-xs leading-relaxed text-[#5d5148]">Apple Pay și Google Pay se aleg pe pagina EuPlătesc, când sunt disponibile pentru dispozitivul și cardul tău.</p>
+          </div>}
+          <label className="mt-3 flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="cod" checked={paymentMethod === "cod"} disabled={!codEnabled || !selectedShipping?.codAvailable} onChange={() => setPaymentMethod("cod")} />{method === "easybox" ? "Ramburs la easybox — achiți cu cardul la ridicare" : "Ramburs la domiciliu — achiți curierului la livrare"}</label>
+          {!selectedShipping?.codAvailable && <p className="mt-3 text-xs">Rambursul pentru această livrare devine disponibil după activarea contractului curierului.</p>}
+        </fieldset>
+        <fieldset className="rounded-xl border border-[#c9bda9] p-4">
           <legend className="px-1 text-sm font-semibold">Alege curierul</legend>
           {shippingOptions.length ? shippingOptions.map((option) => <label key={`${option.carrier}-${option.method || "home"}`} className="mt-2 flex items-center justify-between gap-3 text-sm">
             <span className="flex items-center gap-2"><input type="radio" name="carrier" value={option.carrier} checked={carrier === option.carrier && method === (option.method || "home")} disabled={!shippingPaymentAvailable(option, cardEnabled, codEnabled) || option.method === "easybox" && !easyboxEligible} onChange={() => { setCarrier(option.carrier); setMethod(option.method || "home"); setLocker(null); if (!cardEnabled && codEnabled && option.codAvailable) setPaymentMethod("cod"); else if (!option.codAvailable) setPaymentMethod("card"); }} required />{option.label}{!shippingPaymentAvailable(option, cardEnabled, codEnabled) ? " — disponibil după activarea plății cu cardul sau rambursului" : option.method === "easybox" && !easyboxEligible ? " — indisponibil pentru acest coș" : ""}</span>
@@ -157,12 +177,6 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
               : currentRate?.error ? <p role="alert">{currentRate.error} <button type="button" className="underline" onClick={() => { setRateResult(null); setRateRefresh((value) => value + 1); }}>Reîncearcă</button></p>
                 : shippingCents === null ? <p>Se confirmă transportul…</p> : <p>Transport confirmat: {shippingCents === 0 ? "gratuit" : formatProductPrice(shippingCents / 100, "RON")}.</p>}
           </div>
-        </fieldset>
-        <fieldset className="rounded-xl border border-[#c9bda9] p-4">
-          <legend className="px-1 text-sm font-semibold">Alege metoda de plată</legend>
-          <label className="flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="card" checked={paymentMethod === "card"} disabled={!cardEnabled} onChange={() => setPaymentMethod("card")} />Card online prin EuPlătesc{!cardEnabled ? " — în curs de activare" : ""}</label>
-          <label className="mt-3 flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="cod" checked={paymentMethod === "cod"} disabled={!codEnabled || !selectedShipping?.codAvailable} onChange={() => setPaymentMethod("cod")} />{method === "easybox" ? "Ramburs la easybox — achiți cu cardul la ridicare" : "Ramburs la domiciliu — achiți curierului la livrare"}</label>
-          {!selectedShipping?.codAvailable && <p className="mt-3 text-xs">Rambursul pentru această livrare devine disponibil după activarea contractului curierului.</p>}
         </fieldset>
         <label className="flex items-center gap-3 text-sm"><input type="checkbox" checked={separateBilling} onChange={(event) => setSeparateBilling(event.target.checked)} /> Datele de facturare diferă de cele de livrare</label>
         {separateBilling ? <div className="grid gap-4 rounded-xl border border-[#c9bda9] p-4">
@@ -185,7 +199,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         <p className="text-sm">Produsele beneficiază de garanția legală de conformitate de minimum 2 ani. <Link href="/garantie-legala" target="_blank" className="underline">Vezi notificarea oficială UE și drepturile tale</Link>.</p>
         {error && <p role="alert" className="rounded-lg bg-red-50 p-3 text-sm text-red-800">{error}</p>}
         {!paymentEnabled && <p className="rounded-lg bg-amber-50 p-3 text-sm">{codEnabled ? "Alege o livrare cu ramburs activă. Plata online este în curs de activare." : "Preluarea comenzilor este în curs de activare."}</p>}
-        <button disabled={busy || !paymentEnabled || shippingCents === null || !currentRate?.token || (method === "easybox" && (!easyboxEligible || !locker))} className="rounded-full bg-[#3b2d24] px-6 py-3 font-semibold text-white disabled:opacity-50">{busy ? "Se înregistrează comanda..." : paymentMethod === "cod" ? "Plasează comanda cu plata ramburs" : "Plătesc comanda cu cardul"}</button>
+        <button disabled={busy || !paymentEnabled || shippingCents === null || !currentRate?.token || (method === "easybox" && (!easyboxEligible || !locker))} className="rounded-full bg-[#3b2d24] px-6 py-3 font-semibold text-white disabled:opacity-50">{busy ? "Se înregistrează comanda..." : paymentMethod === "cod" ? "Plasează comanda cu plata ramburs" : "Continuă la plata securizată"}</button>
         <p className="text-xs">{paymentMethod === "cod" ? (method === "easybox" ? "Prin trimiterea comenzii te obligi să achiți totalul afișat cu cardul la easybox, la ridicarea coletului. Nu se acceptă numerar la easybox." : "Prin trimiterea comenzii te obligi să achiți totalul afișat, la curier, la livrare.") : "Datele cardului se introduc pe pagina securizată EuPlătesc. Expediem comanda după confirmarea plății."}</p>
       </form>
 
