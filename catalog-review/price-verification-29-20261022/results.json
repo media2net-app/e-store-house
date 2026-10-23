@@ -3447,5 +3447,49 @@
       "102952": true
     },
     "checkedAt": "2026-10-23"
+  },
+  {
+    "id": 163125,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo/",
+    "costs": {
+      "163125": 117.0
+    },
+    "availability": {
+      "163125": true
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": 163140,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-2/",
+    "costs": {
+      "163140": 117.0
+    },
+    "availability": {
+      "163140": true
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": 163141,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-3/",
+    "costs": {
+      "163141": 117.0
+    },
+    "availability": {
+      "163141": true
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": 163142,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-4/",
+    "costs": {
+      "163142": 117.0
+    },
+    "availability": {
+      "163142": true
+    },
+    "checkedAt": "2026-10-23"
   }
 ]

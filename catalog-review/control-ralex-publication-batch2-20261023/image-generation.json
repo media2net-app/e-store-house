@@ -1,0 +1,34 @@
+[
+  {
+    "id": "163125",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create ONE premium photorealistic E-Store House product gallery image, portrait 2:3. Reference image is the exact Ralex bedding product 163125. Preserve its precise color, subtle woven alternating satin-matte stripe widths, fabric sheen and pillow construction. Show this same bedding from a true overhead bird's-eye viewpoint with the entire bed visible, four matching pillowcases (two square 70x70 behind two rectangular 50x70), matching duvet cover and fitted sheet. Cohesive refined walnut and warm neutral setting, soft neutral daylight preserving original color. No throw blanket, extra pillows, logos, writing, infographics, split panels, or labels. Do not change the merchandise or invent pattern/fasteners. This must be a distinct overhead product photograph, not a crop of the reference.",
+    "reference": "https://ralexpucioasa.ro/wp-content/uploads/2026/10/Cozy-Mountain-Cabin-Bedroom-Retreat.webp",
+    "output": "public/products/ralex-reviewed-20261023/163125/04-overhead.png",
+    "review": "Accepted after visual inspection against supplier reference: color, stripes, four pillows and distinct overhead viewpoint."
+  },
+  {
+    "id": "163140",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create ONE premium photorealistic E-Store House product gallery image, portrait 2:3. Reference image is the exact Ralex bedding product 163140. Preserve its precise color, subtle woven alternating satin-matte stripe widths, fabric sheen and pillow construction. Show this same bedding from a true overhead bird's-eye viewpoint with the entire bed visible, four matching pillowcases (two square 70x70 behind two rectangular 50x70), matching duvet cover and fitted sheet. Cohesive refined walnut and warm neutral setting, soft neutral daylight preserving original color. No throw blanket, extra pillows, logos, writing, infographics, split panels, or labels. Do not change the merchandise or invent pattern/fasteners. This must be a distinct overhead product photograph, not a crop of the reference.",
+    "reference": "https://ralexpucioasa.ro/wp-content/uploads/2026/10/Cozy-Mountain-Lodge-Bedroom.webp",
+    "output": "public/products/ralex-reviewed-20261023/163140/04-overhead.png",
+    "review": "Accepted after visual inspection against supplier reference: color, stripes, four pillows and distinct overhead viewpoint."
+  },
+  {
+    "id": "163141",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create ONE premium photorealistic E-Store House product gallery image, portrait 2:3. Reference image is the exact Ralex bedding product 163141. Preserve its precise color, subtle woven alternating satin-matte stripe widths, fabric sheen and pillow construction. Show this same bedding from a true overhead bird's-eye viewpoint with the entire bed visible, four matching pillowcases (two square 70x70 behind two rectangular 50x70), matching duvet cover and fitted sheet. Cohesive refined walnut and warm neutral setting, soft neutral daylight preserving original color. No throw blanket, extra pillows, logos, writing, infographics, split panels, or labels. Do not change the merchandise or invent pattern/fasteners. This must be a distinct overhead product photograph, not a crop of the reference.",
+    "reference": "https://ralexpucioasa.ro/wp-content/uploads/2026/10/Cozy-Purple-Bedding-Mountain-Cabin.webp",
+    "output": "public/products/ralex-reviewed-20261023/163141/04-overhead.png",
+    "review": "Accepted after visual inspection against supplier reference: color, stripes, four pillows and distinct overhead viewpoint."
+  },
+  {
+    "id": "163142",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create ONE premium photorealistic E-Store House product gallery image, portrait 2:3. Reference image is the exact Ralex bedding product 163142. Preserve its precise color, subtle woven alternating satin-matte stripe widths, fabric sheen and pillow construction. Show this same bedding from a true overhead bird's-eye viewpoint with the entire bed visible, four matching pillowcases (two square 70x70 behind two rectangular 50x70), matching duvet cover and fitted sheet. Cohesive refined walnut and warm neutral setting, soft neutral daylight preserving original color. No throw blanket, extra pillows, logos, writing, infographics, split panels, or labels. Do not change the merchandise or invent pattern/fasteners. This must be a distinct overhead product photograph, not a crop of the reference.",
+    "reference": "https://ralexpucioasa.ro/wp-content/uploads/2026/10/Cozy-Rustic-Mountain-Cabin-Bedroom.webp",
+    "output": "public/products/ralex-reviewed-20261023/163142/04-overhead.png",
+    "review": "Accepted after visual inspection against supplier reference: color, stripes, four pillows and distinct overhead viewpoint."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 163125,
+    "sku": "163125",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo/",
+    "barcodeEvidence": "Code128 text=163125 on own supplier page",
+    "gallery": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163125/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163125/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163125/04.png",
+      "/products/ralex-reviewed-20261023/163125/04-overhead.png"
+    ],
+    "price": 159,
+    "status": "reviewed_for_publication"
+  },
+  {
+    "id": 163140,
+    "sku": "163140",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-2/",
+    "barcodeEvidence": "Code128 text=163140 on own supplier page",
+    "gallery": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163140/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163140/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163140/04.png",
+      "/products/ralex-reviewed-20261023/163140/04-overhead.png"
+    ],
+    "price": 159,
+    "status": "reviewed_for_publication"
+  },
+  {
+    "id": 163141,
+    "sku": "163141",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-3/",
+    "barcodeEvidence": "Code128 text=163141 on own supplier page",
+    "gallery": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163141/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163141/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163141/04.png",
+      "/products/ralex-reviewed-20261023/163141/04-overhead.png"
+    ],
+    "price": 159,
+    "status": "reviewed_for_publication"
+  },
+  {
+    "id": 163142,
+    "sku": "163142",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-promo-4/",
+    "barcodeEvidence": "Code128 text=163142 on own supplier page",
+    "gallery": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163142/01.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163142/03.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/0874437/public/products/ralex-approved-20261021/163142/04.png",
+      "/products/ralex-reviewed-20261023/163142/04-overhead.png"
+    ],
+    "price": 159,
+    "status": "reviewed_for_publication"
+  }
+]
