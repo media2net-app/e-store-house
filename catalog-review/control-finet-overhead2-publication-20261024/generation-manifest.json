@@ -1,0 +1,152 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "prompt": "Direct overhead view of entire bed preserving exact own supplier print, colors, scale, borders and reverse. Four sleeping pillows, no extra decorative cushion; realistic smooth woven finet. Portrait 2:3, E-STORE HOUSE footer.",
+  "outputs": [
+    {
+      "index": 414,
+      "id": "97614",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/97614-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/1fd38054021a219b8e8372f72744fd3ced735f023d91268e0898e91642701f61.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/97614-new-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-d7af0684-6aeb-4a27-8d4c-1df8567af467.png"
+    },
+    {
+      "index": 415,
+      "id": "97611",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/97611-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/ff0bc88338faaf359b56c4e8a54f00403cfd628754ca26b028efef2da48f0502.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/97611-new-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c753648e-d154-4284-a00d-09348aabccf6.png"
+    },
+    {
+      "index": 416,
+      "id": "97610",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/97610-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/1c904b72281899c3917f996a7ffaeb58da64480e0adfa76a1bcb2d217ea95d41.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/97610-new-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-83702033-bbb1-4ef9-8b81-8c39704be668.png"
+    },
+    {
+      "index": 417,
+      "id": "97609",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/97609-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/49a87691bccd391a24121185989c38411d2261edf8951d40f5cabb36ed1ad3bb.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/97609-new-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-34903671-44c5-43ca-a35f-01e936e22fed.png"
+    },
+    {
+      "index": 418,
+      "id": "96750",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/96750-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/f70002ed207126e6353647b3545017d9737727fcda9592f24f2b227025872e22.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/96750-new-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-831f68fa-c6ce-4ca3-85e2-69c5158ab1b1.png"
+    },
+    {
+      "index": 419,
+      "id": "96747",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/96747-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/e90c1a445d28075369125f2b9295691d44fe99c36886f525e0c4da0509d715ef.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/96747-new-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-5fda33c5-c109-49a8-a649-e6a2db9aee45.png"
+    },
+    {
+      "index": 420,
+      "id": "93540",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/93540-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/8cf113d3258f17e882a6bd62cd4155344109aa9d32dd730b85f5715d08846eec.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/93540-new-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-fb650196-804a-4c87-bf77-374bfb8ed447.png"
+    },
+    {
+      "index": 421,
+      "id": "88329",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/88329-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/81be8609b7f7eeb8d74cf0dd6fc514eae546a2ad8c5e55457c18c66a95aa1f89.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/88329-new-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-28601e60-c1d3-4cce-8fbc-b2095b7930c5.png"
+    },
+    {
+      "index": 422,
+      "id": "89468",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/89468-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/22ddcfb5ca8a5c46160cc77ffe3cacd3a921ddca8e6a830da82fe2307ddc58b3.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/89468-new-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-e4ace715-3945-442b-a408-f6bb56fdc89d.png"
+    },
+    {
+      "index": 423,
+      "id": "88314",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/88314-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/052c78ccc2655cc0c37ac45e62d837ef3b44fcc9389559117569917f4fbd4037.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/88314-new-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-697fe677-c429-4e7d-b6ea-c9cf1e1cbd00.png"
+    },
+    {
+      "index": 424,
+      "id": "87773",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/87773-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/5ce2712329d14eb186ed4f17d1bb88614244d3683750e6fc0c461efd1d815c8f.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/87773-new-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-11b15cd9-80fd-421c-a085-4bdb5c47442e.png"
+    },
+    {
+      "index": 425,
+      "id": "85733",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/85733-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/e7fc4f30e16245ec199c7a2c336d686b30a14296d711317607cad387b8392f6f.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/85733-new-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-01d55c36-a347-4acf-8f99-075aab6aae1c.png"
+    },
+    {
+      "index": 426,
+      "id": "85731",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/85731-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/d8e06f0d3b6fba1bc600db62fc33f61ed2f9b6de3c63341499b575b556e29686.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/85731-new-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-103c56b5-9a1f-4f33-894b-87ba2b27e451.png"
+    },
+    {
+      "index": 427,
+      "id": "84242",
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/84242-supplier.jpg",
+        "/tmp/estore-control-gallery-audit-20261023/31ff2127e4aef404c55e39a11fa0b1683a6d0ce3e4d316433cadd1986039b98a.img"
+      ],
+      "review": "/tmp/estore-control-gallery-audit-20261023/84242-new-review.jpg",
+      "generatedPath": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ce0ff274-09b5-48fb-a09e-1bbf6cc1ac9e.png"
+    }
+  ],
+  "excluded": {
+    "104819": "Control print scale differs from supplier",
+    "104727": "Control reverse differs from supplier"
+  },
+  "review": "Actual outputs inspected against own supplier and Control hero; initial 105530 pillow print rejected and regenerated."
+}
