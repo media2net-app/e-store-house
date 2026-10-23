@@ -24,6 +24,10 @@ type ProductDetailPageProps = {
   params: Promise<{ id: string }>;
 };
 
+export function generateStaticParams() {
+  return allProducts.map(product => ({ id: String(product.id) }));
+}
+
 export async function generateMetadata({ params }: ProductDetailPageProps): Promise<Metadata> {
   const { id } = await params;
   const product = getProductById(Number(id));

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { store } from "@/lib/store-info";
-import { formatProductPrice } from "@/lib/products";
+import { formatProductPrice } from "@/lib/product-format";
 
 export default function PaymentResultPage() {
   const [status, setStatus] = useState("Se verifică starea comenzii...");

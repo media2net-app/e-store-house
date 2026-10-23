@@ -1,0 +1,13 @@
+{
+  "tool": "built-in imagegen",
+  "source": "public/editorial/produse-ambalate-pucioasa-v1.png",
+  "output": "public/editorial/produse-ambalate-mobile-v2.webp",
+  "generated_original": "/Users/mihaipopescu/.codex/generated_images/01a165c4-207d-7dd2-9b23-b727485f454e/exec-fe4b2e7e-a984-4fa2-b58c-8a4a3337e8fb.png",
+  "prompt": "Mobile-specific 1:3 narrow portrait of approved packaged textiles; products stacked vertically: pink gift boxes, wrapped robes and towels, bedding packs, pillows and duvets, wrapped mattress backdrop; warm ivory/blush/sage studio scene; no text/logos; all objects visible; no large empty areas.",
+  "review": "Illustrative marketing composition, not a SKU-specific photograph. Visually inspected and tested in phone layout.",
+  "performance": {
+    "homepage_js_before_bytes": 1264532,
+    "homepage_js_after_bytes": 612084,
+    "prerendered_products": 281
+  }
+}

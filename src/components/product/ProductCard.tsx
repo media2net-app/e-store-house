@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { type Product, formatProductPrice, formatProductPriceRange } from "@/lib/products";
+import type { Product } from "@/lib/products";
+import { formatProductPrice, formatProductPriceRange } from "@/lib/product-format";
 
 export default function ProductCard({ product, reason }: { product: Product; reason?: string }) {
   return <Link href={"/product/" + product.id} className="catalog-card catalog-card-link" aria-label={product.name + " — " + formatProductPriceRange(product)}>

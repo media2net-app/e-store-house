@@ -3,7 +3,8 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useProductSelection } from "./ProductSelection";
 import { useCart } from "@/components/cart/CartProvider";
-import { formatProductPrice, formatProductPriceRange, type Product } from "@/lib/products";
+import type { Product } from "@/lib/products";
+import { formatProductPrice, formatProductPriceRange } from "@/lib/product-format";
 const variantLabel = (variant: NonNullable<Product['variants']>[number]) => {
   const compact = (s:string) => s.replace(/\s/g,'').replace(/×/g,'x').toLowerCase();
   return variant.dimensions && !compact(variant.name).includes(compact(variant.dimensions)) ? `${variant.name} — ${variant.dimensions}` : variant.name;

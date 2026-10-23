@@ -5,7 +5,7 @@ import EasyboxSelector from "@/components/cart/EasyboxSelector";
 import type { SamedayLocker } from "@/lib/sameday-protocol";
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { useCart } from "@/components/cart/CartProvider";
-import { formatProductPrice } from "@/lib/products";
+import { formatProductPrice } from "@/lib/product-format";
 import { cartOffers } from "@/lib/cart-offers";
 import { store } from "@/lib/store-info";
 import { type ShippingCarrier, type ShippingMethod, type ShippingOption } from "@/lib/shipping";

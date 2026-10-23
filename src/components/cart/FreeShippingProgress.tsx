@@ -1,5 +1,5 @@
 import { FREE_SHIPPING_CENTS } from "@/lib/cart-offers";
-import { formatProductPrice } from "@/lib/products";
+import { formatProductPrice } from "@/lib/product-format";
 
 export default function FreeShippingProgress({ totalCents }: { totalCents: number }) {
   const remaining = Math.max(0, FREE_SHIPPING_CENTS - totalCents);

@@ -3,7 +3,7 @@
 import { createContext, useContext, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import type { Product } from "@/lib/products";
-import { formatProductPrice } from "@/lib/products";
+import { formatProductPrice } from "@/lib/product-format";
 import { cartOffers, SECOND_ITEM_OFFER, SECOND_ITEM_TERMS } from "@/lib/cart-offers";
 import FreeShippingProgress from "./FreeShippingProgress";
 
