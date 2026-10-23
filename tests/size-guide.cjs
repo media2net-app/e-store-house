@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports -- CommonJS test harness, consistent with the other .cjs tests. */
 const test=require('node:test');const assert=require('node:assert/strict');const fs=require('node:fs');const ts=require('typescript');const Module=require('node:module');const mod=new Module('size-guide');mod._compile(ts.transpileModule(fs.readFileSync('src/lib/size-guide.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText,'size-guide.js');const {matchingBedding}=mod.exports;
 const values={mattressWidth:'160',mattressLength:'200',duvetWidth:'200',duvetLength:'230',pillowWidth:'50',pillowLength:'70'};
 const product={id:1,categoryPath:'lenjerii-de-pat/uni',description:'• 1 cearșaf simplu 230 × 250 cm;\n• 1 husă de pilotă 200 × 230 cm;\n• 2 fețe de pernă 50 × 70 cm'};

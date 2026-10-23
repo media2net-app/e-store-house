@@ -9,7 +9,7 @@ import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import TrustBar from "@/components/layout/TrustBar";
 import { allProducts } from "@/lib/products";
-import { facetOptions, matchesCatalogFilters, type CatalogFilterState } from "@/lib/catalog-filters";
+import { matchesCatalogFilters, type CatalogFilterState } from "@/lib/catalog-filters";
 import type { Metadata } from "next";
 
 type ShopParams = { categorie?: string | string[]; q?: string | string[]; pagina?: string | string[]; sortare?: string | string[];
@@ -43,7 +43,6 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
     pretMax: typeof pret_max === "string" ? pret_max : "",
   };
   const categoryItems = active ? categoryProducts(active.path) : allProducts;
-  const options = facetOptions(categoryItems);
   const products = categoryItems.filter((product) => matchesSearch(product, query) && matchesCatalogFilters(product, filters))
     .sort((a, b) => sort === "pret-crescator" ? a.price - b.price : sort === "pret-descrescator" ? b.price - a.price : a.name.localeCompare(b.name, "ro"));
   const pageSize = 24;

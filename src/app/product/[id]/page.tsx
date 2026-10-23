@@ -12,11 +12,8 @@ import ProductImageGallery from "@/components/product/ProductImageGallery";
 import ProductPurchaseActions from "@/components/product/ProductPurchaseActions";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
-import TrustBar from "@/components/layout/TrustBar";
 import {
   allProducts,
-  formatProductPrice,
-  formatProductPriceRange,
   getProductById,
 } from "@/lib/products";
 
@@ -61,10 +58,8 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
     ...(product.brand ? [{ label: "Brand", value: product.brand }] : []),
     ...(product.material ? [{ label: "Material", value: product.material }] : []),
   ];
-  const highlightedFeatures = productFeatures.slice(0, 4).map((feature) => `${feature.label}: ${feature.value}`);
   const material = product.material;
   const productDescription = product.description ?? product.name;
-  const sizeLines = productDescription.split(/\n/).map((line) => line.trim()).filter((line) => /\d{2,3}\s*[x×]\s*\d{2,3}/i.test(line));
   const prices = product.variants?.length ? product.variants.map((variant) => variant.price) : [product.price];
   const structuredProduct = {
     "@context": "https://schema.org", "@type": "Product", name: product.name,

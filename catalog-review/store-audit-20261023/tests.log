@@ -1,0 +1,427 @@
+TAP version 13
+# Subtest: real Redis: cancellation is atomic with AWB issuance, idempotent, preserves late payments and handles courier uncertainty
+ok 1 - real Redis: cancellation is atomic with AWB issuance, idempotent, preserves late payments and handles courier uncertainty # SKIP
+  ---
+  duration_ms: 0.59675
+  type: 'test'
+  ...
+# Subtest: cancellation signature binds exact POST body; tampering reason or confirmation fails
+ok 2 - cancellation signature binds exact POST body; tampering reason or confirmation fails
+  ---
+  duration_ms: 72.999
+  type: 'test'
+  ...
+# Subtest: cancel route requires explicit confirmation and valid reason; no state changes for invalid input
+ok 3 - cancel route requires explicit confirmation and valid reason; no state changes for invalid input
+  ---
+  duration_ms: 17.812917
+  type: 'test'
+  ...
+# Subtest: courier deletion is sent once and never retried even on an expired token
+ok 4 - courier deletion is sent once and never retried even on an expired token
+  ---
+  duration_ms: 43.627917
+  type: 'test'
+  ...
+# Subtest: supplier +29% keeps exact ending-nine boundaries and rounds other totals upward
+ok 5 - supplier +29% keeps exact ending-nine boundaries and rounds other totals upward
+  ---
+  duration_ms: 1.117083
+  type: 'test'
+  ...
+# Subtest: missing or invalid costs cannot silently create sale prices
+ok 6 - missing or invalid costs cannot silently create sale prices
+  ---
+  duration_ms: 0.318583
+  type: 'test'
+  ...
+# Subtest: every published configuration uses its own supplier cost and parent range minimum
+ok 7 - every published configuration uses its own supplier cost and parent range minimum
+  ---
+  duration_ms: 4.271334
+  type: 'test'
+  ...
+# Subtest: public catalog contains only reviewed records, disjoint from the recoverable archive
+ok 8 - public catalog contains only reviewed records, disjoint from the recoverable archive
+  ---
+  duration_ms: 15.266041
+  type: 'test'
+  ...
+# Subtest: reimporting an archived listing or adding an unreviewed listing blocks publication
+ok 9 - reimporting an archived listing or adding an unreviewed listing blocks publication
+  ---
+  duration_ms: 10.814542
+  type: 'test'
+  ...
+# Subtest: changing a reviewed image, composition, variant SKU or title requires another review
+ok 10 - changing a reviewed image, composition, variant SKU or title requires another review
+  ---
+  duration_ms: 5.168125
+  type: 'test'
+  ...
+# Subtest: stock and price updates preserve the independent copy/gallery approval
+ok 11 - stock and price updates preserve the independent copy/gallery approval
+  ---
+  duration_ms: 6.198167
+  type: 'test'
+  ...
+# Subtest: only the retired public preview redirects to the real store; private callback/test paths remain intact
+ok 12 - only the retired public preview redirects to the real store; private callback/test paths remain intact
+  ---
+  duration_ms: 35.312542
+  type: 'test'
+  ...
+# Subtest: COD-only checkout never offers a shipping method that forces unavailable card payment
+ok 13 - COD-only checkout never offers a shipping method that forces unavailable card payment
+  ---
+  duration_ms: 4.657125
+  type: 'test'
+  ...
+# Subtest: shipping confirmation is signed, expires, and cannot be moved to a different cart/address/locker
+ok 14 - shipping confirmation is signed, expires, and cannot be moved to a different cart/address/locker
+  ---
+  duration_ms: 17.184458
+  type: 'test'
+  ...
+# Subtest: missing package weights retain the approved fixed price; measured parcels use the provider estimate
+ok 15 - missing package weights retain the approved fixed price; measured parcels use the provider estimate
+  ---
+  duration_ms: 31.865083
+  type: 'test'
+  ...
+# Subtest: free shipping still validates the locker; easybox rejects a fourth bedding set
+ok 16 - free shipping still validates the locker; easybox rejects a fourth bedding set
+  ---
+  duration_ms: 6.725791
+  type: 'test'
+  ...
+# Subtest: quote endpoint validates customer data and returns canonical totals plus a usable confirmation
+ok 17 - quote endpoint validates customer data and returns canonical totals plus a usable confirmation
+  ---
+  duration_ms: 24.136875
+  type: 'test'
+  ...
+# Subtest: checkout charges the signed total, rejects stale address and preserves order idempotency
+ok 18 - checkout charges the signed total, rejects stale address and preserves order idempotency
+  ---
+  duration_ms: 31.259917
+  type: 'test'
+  ...
+# Subtest: production checkout cannot become ready with test payment credentials
+ok 19 - production checkout cannot become ready with test payment credentials
+  ---
+  duration_ms: 15.269875
+  type: 'test'
+  ...
+# Subtest: COD places one unpaid home-delivery order without any EuPlatesc credentials or calls
+ok 20 - COD places one unpaid home-delivery order without any EuPlatesc credentials or calls
+  ---
+  duration_ms: 36.179625
+  type: 'test'
+  ...
+# Subtest: COD readiness is independent of online card activation
+ok 21 - COD readiness is independent of online card activation
+  ---
+  duration_ms: 3.116375
+  type: 'test'
+  ...
+# Subtest: easybox COD confirms the fixed fee, persists unpaid with a server-validated locker, and collects the full total
+ok 22 - easybox COD confirms the fixed fee, persists unpaid with a server-validated locker, and collects the full total
+  ---
+  duration_ms: 47.550708
+  type: 'test'
+  ...
+# Subtest: easybox COD emails state card at collection, unpaid total and the selected locker
+ok 23 - easybox COD emails state card at collection, unpaid total and the selected locker
+  ---
+  duration_ms: 7.821291
+  type: 'test'
+  ...
+# Subtest: control signatures are scoped to method, exact path/query and freshness; absent or wrong keys fail closed
+ok 24 - control signatures are scoped to method, exact path/query and freshness; absent or wrong keys fail closed
+  ---
+  duration_ms: 81.18725
+  type: 'test'
+  ...
+# Subtest: control pagination reads production namespace, joins AWBs and omits checkout fingerprint and payment identifiers
+ok 25 - control pagination reads production namespace, joins AWBs and omits checkout fingerprint and payment identifiers
+  ---
+  duration_ms: 33.249708
+  type: 'test'
+  ...
+# Subtest: control order route requires signature before reading storage and validates pagination
+ok 26 - control order route requires signature before reading storage and validates pagination
+  ---
+  duration_ms: 7.328
+  type: 'test'
+  ...
+# Subtest: control PDF route refuses unknown, test and non-live AWBs without calling courier
+ok 27 - control PDF route refuses unknown, test and non-live AWBs without calling courier
+  ---
+  duration_ms: 9.25775
+  type: 'test'
+  ...
+# PASS: search accents, dimensions, word order, SKU; recommendations across 281 reviewed products.
+# Subtest: tests/discovery.cjs
+ok 7 - tests/discovery.cjs
+  ---
+  duration_ms: 6308.541792
+  type: 'test'
+  ...
+# (node:32665) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///private/tmp/estore-damasc-clean-20261023/src/lib/euplatesc.ts is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to /private/tmp/estore-damasc-clean-20261023/package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Preview callback includes only its deployment-protection bypass
+ok 29 - Preview callback includes only its deployment-protection bypass
+  ---
+  duration_ms: 0.90675
+  type: 'test'
+  ...
+# Subtest: transaction status query signs the documented fields
+ok 30 - transaction status query signs the documented fields
+  ---
+  duration_ms: 0.629459
+  type: 'test'
+  ...
+# Subtest: reconciliation requires an exact approved and unrefunded amount
+ok 31 - reconciliation requires an exact approved and unrefunded amount
+  ---
+  duration_ms: 0.492667
+  type: 'test'
+  ...
+# Subtest: checkout signs only the prescribed EuPlătesc fields in their order
+ok 32 - checkout signs only the prescribed EuPlătesc fields in their order
+  ---
+  duration_ms: 1.165541
+  type: 'test'
+  ...
+# Subtest: callback accepts an authentic payment and rejects altered amount or merchant
+ok 33 - callback accepts an authentic payment and rejects altered amount or merchant
+  ---
+  duration_ms: 0.420709
+  type: 'test'
+  ...
+# Subtest: easybox permits 1–3 bedding sets, counts mixed SKUs and bundle sets
+ok 34 - easybox permits 1–3 bedding sets, counts mixed SKUs and bundle sets
+  ---
+  duration_ms: 2.538459
+  type: 'test'
+  ...
+# Subtest: mattresses and toppers stay excluded even with a small measured profile; mattress covers remain bedding
+ok 35 - mattresses and toppers stay excluded even with a small measured profile; mattress covers remain bedding
+  ---
+  duration_ms: 0.213875
+  type: 'test'
+  ...
+# Subtest: other products need measured small packages; unmeasured or oversized goods fail closed
+ok 36 - other products need measured small packages; unmeasured or oversized goods fail closed
+  ---
+  duration_ms: 0.169459
+  type: 'test'
+  ...
+# Subtest: Sameday payload uses PHP form encoding, rejects hidden lockers and client-invented dimensions
+ok 37 - Sameday payload uses PHP form encoding, rejects hidden lockers and client-invented dimensions
+  ---
+  duration_ms: 0.212333
+  type: 'test'
+  ...
+# Subtest: API authentication stays server-side, reuses token and never retries an uncertain AWB creation
+ok 38 - API authentication stays server-side, reuses token and never retries an uncertain AWB creation
+  ---
+  duration_ms: 47.05625
+  type: 'test'
+  ...
+# Subtest: easybox payload preserves the validated locker ID and rejects an oversized parcel
+ok 39 - easybox payload preserves the validated locker ID and rejects an oversized parcel
+  ---
+  duration_ms: 33.005083
+  type: 'test'
+  ...
+# Subtest: a missing provider amount cannot be interpreted as free shipping
+ok 40 - a missing provider amount cannot be interpreted as free shipping
+  ---
+  duration_ms: 18.948292
+  type: 'test'
+  ...
+# Subtest: COD AWB collects the full stored order total, while card AWBs collect zero
+ok 41 - COD AWB collects the full stored order total, while card AWBs collect zero
+  ---
+  duration_ms: 11.365166
+  type: 'test'
+  ...
+# Subtest: API refreshes expired token only on reads and fully paginates locker data
+ok 42 - API refreshes expired token only on reads and fully paginates locker data
+  ---
+  duration_ms: 11.886584
+  type: 'test'
+  ...
+# Subtest: admin AWB flow rejects test/unpaid orders, reserves durably and blocks a duplicate creation
+ok 43 - admin AWB flow rejects test/unpaid orders, reserves durably and blocks a duplicate creation
+  ---
+  duration_ms: 13.995083
+  type: 'test'
+  ...
+# Subtest: uncertain AWB outcome remains reserved and requires manual eAWB reconciliation
+ok 44 - uncertain AWB outcome remains reserved and requires manual eAWB reconciliation
+  ---
+  duration_ms: 12.15775
+  type: 'test'
+  ...
+# Subtest: checkout independently rechecks the cart limit and provider locker, ignoring browser price/address
+ok 45 - checkout independently rechecks the cart limit and provider locker, ignoring browser price/address
+  ---
+  duration_ms: 28.662
+  type: 'test'
+  ...
+# (node:32667) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///private/tmp/estore-damasc-clean-20261023/src/lib/shipping.ts is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to /private/tmp/estore-damasc-clean-20261023/package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: the customer's chosen courier determines the charged transport
+ok 46 - the customer's chosen courier determines the charged transport
+  ---
+  duration_ms: 2.088125
+  type: 'test'
+  ...
+# Subtest: unavailable or unknown couriers cannot be selected even for free shipping
+ok 47 - unavailable or unknown couriers cannot be selected even for free shipping
+  ---
+  duration_ms: 0.082459
+  type: 'test'
+  ...
+# Subtest: matches component-specific dimensions and treats reversed orientation consistently
+ok 48 - matches component-specific dimensions and treats reversed orientation consistently
+  ---
+  duration_ms: 6.502583
+  type: 'test'
+  ...
+# Subtest: does not confuse sheet, duvet and pillow dimensions
+ok 49 - does not confuse sheet, duvet and pillow dimensions
+  ---
+  duration_ms: 0.352709
+  type: 'test'
+  ...
+# Subtest: requires exact fitted mattress match and excludes unavailable variants
+ok 50 - requires exact fitted mattress match and excludes unavailable variants
+  ---
+  duration_ms: 0.622708
+  type: 'test'
+  ...
+# Subtest: ambiguous single-line composition does not create a false fit
+ok 51 - ambiguous single-line composition does not create a false fit
+  ---
+  duration_ms: 0.08025
+  type: 'test'
+  ...
+# Subtest: empty cart and one article receive no discount
+ok 52 - empty cart and one article receive no discount
+  ---
+  duration_ms: 0.733709
+  type: 'test'
+  ...
+# Subtest: discount applies once to the cheaper individual article
+ok 53 - discount applies once to the cheaper individual article
+  ---
+  duration_ms: 0.1445
+  type: 'test'
+  ...
+# Subtest: two units of the same model also qualify, only one unit is discounted
+ok 54 - two units of the same model also qualify, only one unit is discounted
+  ---
+  duration_ms: 0.0535
+  type: 'test'
+  ...
+# Subtest: removing the second article removes its discount
+ok 55 - removing the second article removes its discount
+  ---
+  duration_ms: 0.045834
+  type: 'test'
+  ...
+# Subtest: calculations round discounts to cents and are independent of cart order
+ok 56 - calculations round discounts to cents and are independent of cart order
+  ---
+  duration_ms: 0.098834
+  type: 'test'
+  ...
+# Subtest: free shipping starts at exactly 399 lei AFTER discount
+ok 57 - free shipping starts at exactly 399 lei AFTER discount
+  ---
+  duration_ms: 0.957875
+  type: 'test'
+  ...
+# Subtest: RON and Lei use the same promotion; invalid money and quantities are rejected
+ok 58 - RON and Lei use the same promotion; invalid money and quantities are rejected
+  ---
+  duration_ms: 0.199458
+  type: 'test'
+  ...
+# Subtest: curated catalog returns up to 5 available similar models and separate complementary choices
+ok 59 - curated catalog returns up to 5 available similar models and separate complementary choices
+  ---
+  duration_ms: 102.219334
+  type: 'test'
+  ...
+# Subtest: recommendations exclude unavailable models even when the category and price match
+ok 60 - recommendations exclude unavailable models even when the category and price match
+  ---
+  duration_ms: 20.505833
+  type: 'test'
+  ...
+# Subtest: all stored model and variant prices are whole lei ending in 9
+ok 61 - all stored model and variant prices are whole lei ending in 9
+  ---
+  duration_ms: 0.491
+  type: 'test'
+  ...
+# Subtest: psychological prices remain exact when discount and shipping progress are calculated
+ok 62 - psychological prices remain exact when discount and shipping progress are calculated
+  ---
+  duration_ms: 0.112875
+  type: 'test'
+  ...
+# Subtest: application imports use supplier cost plus 29%, rounded up to a whole leu ending in 9
+ok 63 - application imports use supplier cost plus 29%, rounded up to a whole leu ending in 9
+  ---
+  duration_ms: 0.53875
+  type: 'test'
+  ...
+# Subtest: complementary recommendations fill eight slots across available categories
+ok 64 - complementary recommendations fill eight slots across available categories
+  ---
+  duration_ms: 25.394125
+  type: 'test'
+  ...
+# Subtest: robes complement towels without being labelled as similar towels
+ok 65 - robes complement towels without being labelled as similar towels
+  ---
+  duration_ms: 17.681417
+  type: 'test'
+  ...
+# Subtest: Super Sale units never qualify for or receive the second-item discount
+ok 66 - Super Sale units never qualify for or receive the second-item discount
+  ---
+  duration_ms: 0.080834
+  type: 'test'
+  ...
+# Subtest: Supabase order writes are idempotent and payment state cannot regress
+ok 67 - Supabase order writes are idempotent and payment state cannot regress
+  ---
+  duration_ms: 2.753292
+  type: 'test'
+  ...
+# Subtest: integrated store journey: durable COD, mail recovery, measured AWBs, cancellation, withdrawal, complaints and signed Control
+ok 68 - integrated store journey: durable COD, mail recovery, measured AWBs, cancellation, withdrawal, complaints and signed Control # SKIP
+  ---
+  duration_ms: 0.594209
+  type: 'test'
+  ...
+1..68
+# tests 68
+# suites 0
+# pass 66
+# fail 0
+# cancelled 0
+# skipped 2
+# todo 0
+# duration_ms 6319.081416

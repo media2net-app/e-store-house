@@ -1,0 +1,3370 @@
+[
+  {
+    "url": "https://www.estorehouse.ro/",
+    "status": 200,
+    "seconds": 0.801,
+    "type": "text/html; charset=utf-8",
+    "bytes": 110295,
+    "title": "E-Store House — Arta de a te simți acasă",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop",
+    "status": 200,
+    "seconds": 1.196,
+    "type": "text/html; charset=utf-8",
+    "bytes": 807432,
+    "title": "Magazinul de textile pentru casă | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/categorii",
+    "status": 200,
+    "seconds": 0.62,
+    "type": "text/html; charset=utf-8",
+    "bytes": 69354,
+    "title": "Categorii de produse și oferte | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/promotii",
+    "status": 200,
+    "seconds": 0.852,
+    "type": "text/html; charset=utf-8",
+    "bytes": 29365,
+    "title": "Condițiile ofertelor | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/livrare-retur",
+    "status": 200,
+    "seconds": 0.802,
+    "type": "text/html; charset=utf-8",
+    "bytes": 34271,
+    "title": "Livrare, plată și retur | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/informatii-clienti",
+    "status": 200,
+    "seconds": 0.607,
+    "type": "text/html; charset=utf-8",
+    "bytes": 30347,
+    "title": "E-Store House — Arta de a te simți acasă",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/termeni-si-conditii",
+    "status": 200,
+    "seconds": 0.621,
+    "type": "text/html; charset=utf-8",
+    "bytes": 33106,
+    "title": "Termeni și condiții | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/confidentialitate",
+    "status": 200,
+    "seconds": 0.778,
+    "type": "text/html; charset=utf-8",
+    "bytes": 33439,
+    "title": "Confidențialitatea datelor | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/cookie-uri",
+    "status": 200,
+    "seconds": 0.704,
+    "type": "text/html; charset=utf-8",
+    "bytes": 28497,
+    "title": "Cookie-uri și stocarea în browser | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/retragere",
+    "status": 200,
+    "seconds": 0.642,
+    "type": "text/html; charset=utf-8",
+    "bytes": 23288,
+    "title": "Retragere din contract | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/reclamatii",
+    "status": 200,
+    "seconds": 0.997,
+    "type": "text/html; charset=utf-8",
+    "bytes": 22646,
+    "title": "Reclamații către magazin | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/garantie-legala",
+    "status": 200,
+    "seconds": 1.708,
+    "type": "text/html; charset=utf-8",
+    "bytes": 30509,
+    "title": "E-Store House — Arta de a te simți acasă",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat",
+    "status": 200,
+    "seconds": 2.078,
+    "type": "text/html; charset=utf-8",
+    "bytes": 588072,
+    "title": "Lenjerii de pat | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-100-bumbac",
+    "status": 200,
+    "seconds": 2.806,
+    "type": "text/html; charset=utf-8",
+    "bytes": 380273,
+    "title": "Lenjerii 100% bumbac | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-100-bumbac%2Flenjerii-de-pat-creponate",
+    "status": 200,
+    "seconds": 1.488,
+    "type": "text/html; charset=utf-8",
+    "bytes": 160759,
+    "title": "Lenjerii de pat creponate | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-100-bumbac%2Flenjerii-de-pat-ranforce-100-bumbac",
+    "status": 200,
+    "seconds": 2.464,
+    "type": "text/html; charset=utf-8",
+    "bytes": 172342,
+    "title": "Lenjerii de pat ranforce 100% bumbac | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-100-bumbac%2Flenjerii-de-pat-tricot-rasfat-natural",
+    "status": 200,
+    "seconds": 1.282,
+    "type": "text/html; charset=utf-8",
+    "bytes": 101510,
+    "title": "Lenjerii de pat tricot ”răsfăț natural” | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-100-bumbac%2Franforce-100acotton-pro",
+    "status": 200,
+    "seconds": 0.809,
+    "type": "text/html; charset=utf-8",
+    "bytes": 203043,
+    "title": "Ranforce 100% cotton pro | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-de-pat-policoton",
+    "status": 200,
+    "seconds": 0.835,
+    "type": "text/html; charset=utf-8",
+    "bytes": 178230,
+    "title": "Lenjerii policoton | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-de-pat-policoton%2Flenjerii-de-pat-creponat-uni",
+    "status": 200,
+    "seconds": 0.678,
+    "type": "text/html; charset=utf-8",
+    "bytes": 108554,
+    "title": "Lenjerii de pat creponat uni | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-de-pat-policoton%2Flenjerii-de-pat-damasc-policoton-6-piese",
+    "status": 200,
+    "seconds": 0.621,
+    "type": "text/html; charset=utf-8",
+    "bytes": 69254,
+    "title": "Lenjerii de pat damasc - policoton 6 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-de-pat-policoton%2Flenjerii-finet-6-piese-cu-husa-pentru-saltea",
+    "status": 200,
+    "seconds": 0.581,
+    "type": "text/html; charset=utf-8",
+    "bytes": 105066,
+    "title": "Lenjerii finet 6 piese cu husă pentru saltea | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-de-pat-policoton%2Flenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "status": 200,
+    "seconds": 0.393,
+    "type": "text/html; charset=utf-8",
+    "bytes": 43711,
+    "title": "Lenjerii pat damasc policoton 6 piese cu husa | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-de-pat-promo",
+    "status": 200,
+    "seconds": 0.557,
+    "type": "text/html; charset=utf-8",
+    "bytes": 236530,
+    "title": "Lenjerii de pat promo | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-de-pat-promo%2Flenjerii-de-pat-cocolino-line",
+    "status": 200,
+    "seconds": 0.438,
+    "type": "text/html; charset=utf-8",
+    "bytes": 72990,
+    "title": "Lenjerii de pat cocolino line | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-de-pat-promo%2Flenjerii-de-pat-economy",
+    "status": 200,
+    "seconds": 0.538,
+    "type": "text/html; charset=utf-8",
+    "bytes": 214848,
+    "title": "Lenjerii de pat economy | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjeriide-pat-deluxe",
+    "status": 200,
+    "seconds": 0.548,
+    "type": "text/html; charset=utf-8",
+    "bytes": 147649,
+    "title": "Lenjerii de pat deluxe | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjeriide-pat-deluxe%2Flenjerii-de-pat-jaquard-100-bumbac",
+    "status": 200,
+    "seconds": 0.445,
+    "type": "text/html; charset=utf-8",
+    "bytes": 65729,
+    "title": "Lenjerii de pat jaquard 100% bumbac | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjeriide-pat-deluxe%2Flenjerii-de-pat-premium-heritage",
+    "status": 200,
+    "seconds": 0.433,
+    "type": "text/html; charset=utf-8",
+    "bytes": 39551,
+    "title": "Lenjerii de pat premium heritage | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjeriide-pat-deluxe%2Flenjerii-de-pat-ranforce-butique",
+    "status": 200,
+    "seconds": 0.661,
+    "type": "text/html; charset=utf-8",
+    "bytes": 106868,
+    "title": "Lenjerii de pat ranforce butique | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=cuverturi",
+    "status": 200,
+    "seconds": 0.668,
+    "type": "text/html; charset=utf-8",
+    "bytes": 143271,
+    "title": "Cuverturi | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=cuverturi%2Fcuverturi-de-pat-clasy-doua-persoane",
+    "status": 200,
+    "seconds": 0.548,
+    "type": "text/html; charset=utf-8",
+    "bytes": 76663,
+    "title": "Cuverturi de pat clasy - două persoane | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=cuverturi%2Fcuverturi-de-pat-clasy-o-persoana",
+    "status": 200,
+    "seconds": 0.479,
+    "type": "text/html; charset=utf-8",
+    "bytes": 38145,
+    "title": "Cuverturi de pat clasy - o persoană | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=cuverturi%2Fcuverturi-fotoliu-si-canapea",
+    "status": 200,
+    "seconds": 0.676,
+    "type": "text/html; charset=utf-8",
+    "bytes": 91590,
+    "title": "Cuverturi fotoliu si canapea | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=articole-baie",
+    "status": 200,
+    "seconds": 0.614,
+    "type": "text/html; charset=utf-8",
+    "bytes": 145135,
+    "title": "Articole baie | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=articole-baie%2Fhalate-baie",
+    "status": 200,
+    "seconds": 0.578,
+    "type": "text/html; charset=utf-8",
+    "bytes": 97933,
+    "title": "Halate baie | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=articole-baie%2Fprosoape",
+    "status": 200,
+    "seconds": 0.482,
+    "type": "text/html; charset=utf-8",
+    "bytes": 78509,
+    "title": "Prosoape | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=huse-de-pat",
+    "status": 200,
+    "seconds": 0.375,
+    "type": "text/html; charset=utf-8",
+    "bytes": 60569,
+    "title": "Huse de pat | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=huse-de-pat%2Fhuse-de-pat-finet-2-fete-perna",
+    "status": 200,
+    "seconds": 0.383,
+    "type": "text/html; charset=utf-8",
+    "bytes": 49555,
+    "title": "Huse de pat finet/elegance + 2 fețe pernă | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=perne",
+    "status": 200,
+    "seconds": 0.413,
+    "type": "text/html; charset=utf-8",
+    "bytes": 58921,
+    "title": "Perne și protecții pernă | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=pilote",
+    "status": 200,
+    "seconds": 0.616,
+    "type": "text/html; charset=utf-8",
+    "bytes": 147774,
+    "title": "Pilote | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=protectii-saltea",
+    "status": 200,
+    "seconds": 0.62,
+    "type": "text/html; charset=utf-8",
+    "bytes": 72690,
+    "title": "Protecții saltea | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=paturi",
+    "status": 200,
+    "seconds": 0.522,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115784,
+    "title": "Pături | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=paturi%2Fpaturi-cocolino-fluturi",
+    "status": 200,
+    "seconds": 0.52,
+    "type": "text/html; charset=utf-8",
+    "bytes": 44205,
+    "title": "Pături cocolino fluturi | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=paturi%2Fpaturi-cocolino-line",
+    "status": 200,
+    "seconds": 0.462,
+    "type": "text/html; charset=utf-8",
+    "bytes": 82797,
+    "title": "Pături cocolino line | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=paturi%2Fpaturi-cocolino-sin",
+    "status": 200,
+    "seconds": 0.586,
+    "type": "text/html; charset=utf-8",
+    "bytes": 51413,
+    "title": "Pături cocolino sin | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=saltele-si-toppere",
+    "status": 200,
+    "seconds": 0.397,
+    "type": "text/html; charset=utf-8",
+    "bytes": 37489,
+    "title": "Saltele și toppere | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=terasa-si-gradina",
+    "status": 200,
+    "seconds": 0.474,
+    "type": "text/html; charset=utf-8",
+    "bytes": 50281,
+    "title": "Bucătărie, terasă și grădină | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=terasa-si-gradina%2Fpernute-scaun",
+    "status": 200,
+    "seconds": 0.559,
+    "type": "text/html; charset=utf-8",
+    "bytes": 50542,
+    "title": "Pernuțe scaun interior / exterior | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=produse-hotel",
+    "status": 200,
+    "seconds": 0.369,
+    "type": "text/html; charset=utf-8",
+    "bytes": 47207,
+    "title": "Produse HoReCa | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=oferte",
+    "status": 200,
+    "seconds": 0.376,
+    "type": "text/html; charset=utf-8",
+    "bytes": 74525,
+    "title": "Oferte | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=huse-de-pat%2Fhuse-pat-jerse-100",
+    "status": 200,
+    "seconds": 0.463,
+    "type": "text/html; charset=utf-8",
+    "bytes": 42652,
+    "title": "Huse pat jerse / tricot 100% bumbac | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=pilote%2Fpilote-finet",
+    "status": 200,
+    "seconds": 0.532,
+    "type": "text/html; charset=utf-8",
+    "bytes": 56050,
+    "title": "Pilote finet | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/163031",
+    "status": 200,
+    "seconds": 0.718,
+    "type": "text/html; charset=utf-8",
+    "bytes": 128883,
+    "title": "Set Jersey cu husă de pat cu elastic și fețe de pernă, 100% bumbac, turcoaz — dimensiuni la alegere | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81336",
+    "status": 200,
+    "seconds": 0.789,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118036,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — cappuccino | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81348",
+    "status": 200,
+    "seconds": 0.706,
+    "type": "text/html; charset=utf-8",
+    "bytes": 120510,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — turcoaz | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81345",
+    "status": 200,
+    "seconds": 0.551,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118519,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — antracit | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81342",
+    "status": 200,
+    "seconds": 0.557,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118394,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — bej | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81340",
+    "status": 200,
+    "seconds": 0.683,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118394,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — gri | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81341",
+    "status": 200,
+    "seconds": 0.693,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118394,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — mov | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81343",
+    "status": 200,
+    "seconds": 0.604,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118442,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — negru | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81347",
+    "status": 200,
+    "seconds": 0.617,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118435,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — roșu | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81344",
+    "status": 200,
+    "seconds": 0.555,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118342,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu husă pentru saltea — verde | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81338",
+    "status": 200,
+    "seconds": 0.541,
+    "type": "text/html; charset=utf-8",
+    "bytes": 119943,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — turcoaz | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81335",
+    "status": 200,
+    "seconds": 0.52,
+    "type": "text/html; charset=utf-8",
+    "bytes": 117964,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — antracit | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81334",
+    "status": 200,
+    "seconds": 0.561,
+    "type": "text/html; charset=utf-8",
+    "bytes": 117799,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — verde | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81333",
+    "status": 200,
+    "seconds": 0.528,
+    "type": "text/html; charset=utf-8",
+    "bytes": 117899,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — negru | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81331",
+    "status": 200,
+    "seconds": 0.617,
+    "type": "text/html; charset=utf-8",
+    "bytes": 117851,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — mov | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81310",
+    "status": 200,
+    "seconds": 0.608,
+    "type": "text/html; charset=utf-8",
+    "bytes": 117851,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — gri | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/81337",
+    "status": 200,
+    "seconds": 0.76,
+    "type": "text/html; charset=utf-8",
+    "bytes": 117880,
+    "title": "Lenjerie de pat creponată uni, 6 piese, cu cearșaf simplu — roșu | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/110208",
+    "status": 200,
+    "seconds": 0.527,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118262,
+    "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — păpădii și cercuri roșii | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/110194",
+    "status": 200,
+    "seconds": 0.555,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118009,
+    "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — flori și frunze verzi | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/107387",
+    "status": 200,
+    "seconds": 0.61,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118074,
+    "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — flori galbene și gri | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/110207",
+    "status": 200,
+    "seconds": 0.755,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118165,
+    "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — păpădii albastre | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/110201",
+    "status": 200,
+    "seconds": 0.55,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118185,
+    "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — geometric mov și gri | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/110198",
+    "status": 200,
+    "seconds": 0.581,
+    "type": "text/html; charset=utf-8",
+    "bytes": 117941,
+    "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — flori roșii | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/107383",
+    "status": 200,
+    "seconds": 0.578,
+    "type": "text/html; charset=utf-8",
+    "bytes": 117547,
+    "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — bambus verde | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/107370",
+    "status": 200,
+    "seconds": 0.731,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118032,
+    "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — flori și fluturi mov | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/107368",
+    "status": 200,
+    "seconds": 0.612,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118015,
+    "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — frunze ginkgo | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/107359",
+    "status": 200,
+    "seconds": 0.602,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118364,
+    "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — cercuri multicolore și stele | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/107363",
+    "status": 200,
+    "seconds": 0.584,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118121,
+    "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — carouri gri și ocru | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/107361",
+    "status": 200,
+    "seconds": 0.536,
+    "type": "text/html; charset=utf-8",
+    "bytes": 117703,
+    "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — geometric verde mentă | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/107357",
+    "status": 200,
+    "seconds": 0.521,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118205,
+    "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — frunze portocalii și gri | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/107355",
+    "status": 200,
+    "seconds": 0.689,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118176,
+    "title": "Lenjerie de pat Finet, 6 piese, cu husă pentru saltea — geometric albastru cu stele | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/163321",
+    "status": 200,
+    "seconds": 0.635,
+    "type": "text/html; charset=utf-8",
+    "bytes": 127797,
+    "title": "Pilotă Finet Floral Butterflyes, 200 × 220 cm, umplutură microgel și fibră siliconică | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/163319",
+    "status": 200,
+    "seconds": 0.632,
+    "type": "text/html; charset=utf-8",
+    "bytes": 127676,
+    "title": "Pilotă Finet Floral Glam, 200 × 220 cm, umplutură microgel și fibră siliconică | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/163317",
+    "status": 200,
+    "seconds": 0.549,
+    "type": "text/html; charset=utf-8",
+    "bytes": 127574,
+    "title": "Pilotă Finet Feader, 200 × 220 cm, umplutură microgel și fibră siliconică | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162739",
+    "status": 200,
+    "seconds": 0.613,
+    "type": "text/html; charset=utf-8",
+    "bytes": 116553,
+    "title": "Set 4 perne pentru scaun Happy Lines, 40 × 40 × 7 cm, pentru interior și exterior | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162735",
+    "status": 200,
+    "seconds": 0.561,
+    "type": "text/html; charset=utf-8",
+    "bytes": 116582,
+    "title": "Set 4 perne pentru scaun Brown Harmony, 40 × 40 × 7 cm, pentru interior și exterior | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162731",
+    "status": 200,
+    "seconds": 0.57,
+    "type": "text/html; charset=utf-8",
+    "bytes": 116387,
+    "title": "Set 4 perne pentru scaun mov, 40 × 40 × 7 cm, pentru interior și exterior | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101369",
+    "status": 200,
+    "seconds": 0.561,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115129,
+    "title": "Lenjerie de pat Economy ECN31 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101368",
+    "status": 200,
+    "seconds": 0.538,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115129,
+    "title": "Lenjerie de pat Economy ECN30 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101328",
+    "status": 200,
+    "seconds": 0.593,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115129,
+    "title": "Lenjerie de pat Economy ECN28 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/104126",
+    "status": 200,
+    "seconds": 0.631,
+    "type": "text/html; charset=utf-8",
+    "bytes": 139013,
+    "title": "Pilotă de iarnă Damasc cu umplutură din lână, antracit | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/104120",
+    "status": 200,
+    "seconds": 0.548,
+    "type": "text/html; charset=utf-8",
+    "bytes": 139439,
+    "title": "Pilotă de iarnă Damasc cu umplutură din lână, roz pudră | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/104115",
+    "status": 200,
+    "seconds": 0.568,
+    "type": "text/html; charset=utf-8",
+    "bytes": 139501,
+    "title": "Pilotă de iarnă Damasc cu umplutură din lână, turcoaz | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/104108",
+    "status": 200,
+    "seconds": 0.636,
+    "type": "text/html; charset=utf-8",
+    "bytes": 139128,
+    "title": "Pilotă de iarnă Damasc cu umplutură din lână, mentă | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102981",
+    "status": 200,
+    "seconds": 0.526,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118623,
+    "title": "Pilotă matlasată HORECA | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/98809",
+    "status": 200,
+    "seconds": 0.614,
+    "type": "text/html; charset=utf-8",
+    "bytes": 139863,
+    "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, unt | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/98785",
+    "status": 200,
+    "seconds": 0.611,
+    "type": "text/html; charset=utf-8",
+    "bytes": 139863,
+    "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, gri | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/98797",
+    "status": 200,
+    "seconds": 0.649,
+    "type": "text/html; charset=utf-8",
+    "bytes": 140367,
+    "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, roz pudră | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/98768",
+    "status": 200,
+    "seconds": 0.58,
+    "type": "text/html; charset=utf-8",
+    "bytes": 139863,
+    "title": "Pilotă Ranforce cu înveliș din bumbac și umplutură din lână, alb | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90801",
+    "status": 200,
+    "seconds": 0.581,
+    "type": "text/html; charset=utf-8",
+    "bytes": 134199,
+    "title": "Halat de baie din velur, 100% bumbac, roz pudră | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90796",
+    "status": 200,
+    "seconds": 0.614,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135075,
+    "title": "Halat de baie din velur, 100% bumbac, verde | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90787",
+    "status": 200,
+    "seconds": 0.616,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135303,
+    "title": "Halat de baie din velur, 100% bumbac, mov | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90781",
+    "status": 200,
+    "seconds": 0.643,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135453,
+    "title": "Halat de baie din velur, 100% bumbac, crem | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90776",
+    "status": 200,
+    "seconds": 0.539,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135360,
+    "title": "Halat de baie din velur, 100% bumbac, cappuccino | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90769",
+    "status": 200,
+    "seconds": 0.601,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135323,
+    "title": "Halat de baie din velur, 100% bumbac, bleu | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90762",
+    "status": 200,
+    "seconds": 0.624,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135307,
+    "title": "Halat de baie din velur, 100% bumbac, gri | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90756",
+    "status": 200,
+    "seconds": 0.634,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135178,
+    "title": "Halat de baie din velur, 100% bumbac, roșu | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/75523",
+    "status": 200,
+    "seconds": 0.792,
+    "type": "text/html; charset=utf-8",
+    "bytes": 130704,
+    "title": "Husă de saltea impermeabilă cu suprafață din frotir de bumbac | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/60275",
+    "status": 200,
+    "seconds": 0.87,
+    "type": "text/html; charset=utf-8",
+    "bytes": 127892,
+    "title": "Protecție de saltea matlasată Percalle, roz pudră | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/482",
+    "status": 200,
+    "seconds": 0.837,
+    "type": "text/html; charset=utf-8",
+    "bytes": 129040,
+    "title": "Protecție de saltea matlasată ultrasonic, 100 g/m² | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/69981",
+    "status": 200,
+    "seconds": 0.583,
+    "type": "text/html; charset=utf-8",
+    "bytes": 132039,
+    "title": "Protecție de saltea matlasată Imperial, cu strat din poliuretan | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/92652",
+    "status": 200,
+    "seconds": 0.633,
+    "type": "text/html; charset=utf-8",
+    "bytes": 132111,
+    "title": "Pătură Cocolino Line Ioana, 200 × 230 cm, verde deschis | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/92651",
+    "status": 200,
+    "seconds": 0.765,
+    "type": "text/html; charset=utf-8",
+    "bytes": 132247,
+    "title": "Pătură Cocolino Line Cristina, 200 × 230 cm, albastru | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/95974",
+    "status": 200,
+    "seconds": 0.749,
+    "type": "text/html; charset=utf-8",
+    "bytes": 138580,
+    "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu floral delicat | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/95973",
+    "status": 200,
+    "seconds": 0.701,
+    "type": "text/html; charset=utf-8",
+    "bytes": 138476,
+    "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu floral mic | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/95972",
+    "status": 200,
+    "seconds": 0.665,
+    "type": "text/html; charset=utf-8",
+    "bytes": 138855,
+    "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu discret pe fond deschis | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/95971",
+    "status": 200,
+    "seconds": 0.833,
+    "type": "text/html; charset=utf-8",
+    "bytes": 138469,
+    "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu verde | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/95970",
+    "status": 200,
+    "seconds": 0.661,
+    "type": "text/html; charset=utf-8",
+    "bytes": 138603,
+    "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu vegetal | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/95969",
+    "status": 200,
+    "seconds": 0.558,
+    "type": "text/html; charset=utf-8",
+    "bytes": 138703,
+    "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu cu dinozauri | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/95968",
+    "status": 200,
+    "seconds": 0.774,
+    "type": "text/html; charset=utf-8",
+    "bytes": 138477,
+    "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, dungi decorative | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/95967",
+    "status": 200,
+    "seconds": 0.753,
+    "type": "text/html; charset=utf-8",
+    "bytes": 138692,
+    "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, ursuleți pe fond gri | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/95966",
+    "status": 200,
+    "seconds": 0.714,
+    "type": "text/html; charset=utf-8",
+    "bytes": 138290,
+    "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, carouri | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/95965",
+    "status": 200,
+    "seconds": 0.645,
+    "type": "text/html; charset=utf-8",
+    "bytes": 138603,
+    "title": "Lenjerie de pat Tricot Răsfăț Natural, 4 piese, imprimeu delicat | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/158276",
+    "status": 200,
+    "seconds": 0.606,
+    "type": "text/html; charset=utf-8",
+    "bytes": 133293,
+    "title": "Cuvertură Clasy din muselină Nomada V2, 3 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/158272",
+    "status": 200,
+    "seconds": 0.611,
+    "type": "text/html; charset=utf-8",
+    "bytes": 133293,
+    "title": "Cuvertură Clasy din muselină Nomada V1, 3 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/34143",
+    "status": 200,
+    "seconds": 0.634,
+    "type": "text/html; charset=utf-8",
+    "bytes": 134907,
+    "title": "Cuvertură matlasată Clasy PUMA V1, 3 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/34141",
+    "status": 200,
+    "seconds": 0.597,
+    "type": "text/html; charset=utf-8",
+    "bytes": 134970,
+    "title": "Cuvertură matlasată Clasy MONTERA V1, 3 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/12642",
+    "status": 200,
+    "seconds": 0.776,
+    "type": "text/html; charset=utf-8",
+    "bytes": 134928,
+    "title": "Cuvertură matlasată Clasy PORTO V2, 3 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/12637",
+    "status": 200,
+    "seconds": 0.642,
+    "type": "text/html; charset=utf-8",
+    "bytes": 134928,
+    "title": "Cuvertură matlasată Clasy MIDAS V1, 3 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/12625",
+    "status": 200,
+    "seconds": 0.59,
+    "type": "text/html; charset=utf-8",
+    "bytes": 134907,
+    "title": "Cuvertură matlasată Clasy ESTE V2, 3 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/96547",
+    "status": 200,
+    "seconds": 0.62,
+    "type": "text/html; charset=utf-8",
+    "bytes": 134009,
+    "title": "Cuvertură matlasată Clasy BALLERINA, 2 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90646",
+    "status": 200,
+    "seconds": 0.587,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135431,
+    "title": "Prosop Greek Border, 100% bumbac, 500 g/m², crem | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/106764",
+    "status": 200,
+    "seconds": 0.544,
+    "type": "text/html; charset=utf-8",
+    "bytes": 103371,
+    "title": "Saltea Seven Zone RLX4, miez de spumă 17 cm, dimensiuni la alegere | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/138600",
+    "status": 200,
+    "seconds": 0.643,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135581,
+    "title": "Lenjerie Ranforce Clasy Zemi, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/138598",
+    "status": 200,
+    "seconds": 0.628,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135629,
+    "title": "Lenjerie Ranforce Clasy Pavone, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/138594",
+    "status": 200,
+    "seconds": 0.626,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135608,
+    "title": "Lenjerie Ranforce Clasy Leo, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/138593",
+    "status": 200,
+    "seconds": 0.675,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135680,
+    "title": "Lenjerie Ranforce Clasy Hena v2, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/138591",
+    "status": 200,
+    "seconds": 0.648,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135673,
+    "title": "Lenjerie Ranforce Clasy Betina, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102826",
+    "status": 200,
+    "seconds": 0.668,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135647,
+    "title": "Lenjerie Ranforce Clasy Arnor V1, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102015",
+    "status": 200,
+    "seconds": 0.604,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135620,
+    "title": "Lenjerie Ranforce Clasy Vinta, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102013",
+    "status": 200,
+    "seconds": 0.571,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135593,
+    "title": "Lenjerie Ranforce Clasy Tole, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102011",
+    "status": 200,
+    "seconds": 0.684,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135593,
+    "title": "Lenjerie Ranforce Clasy Tabula, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102009",
+    "status": 200,
+    "seconds": 0.64,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135656,
+    "title": "Lenjerie Ranforce Clasy Roselin, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102003",
+    "status": 200,
+    "seconds": 0.751,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135656,
+    "title": "Lenjerie Ranforce Clasy Mirante, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102001",
+    "status": 200,
+    "seconds": 0.643,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135713,
+    "title": "Lenjerie Ranforce Clasy Lilyum, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101997",
+    "status": 200,
+    "seconds": 0.701,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135675,
+    "title": "Lenjerie Ranforce Clasy Latrina, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101995",
+    "status": 200,
+    "seconds": 0.71,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135614,
+    "title": "Lenjerie Ranforce Clasy Galya, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101993",
+    "status": 200,
+    "seconds": 0.717,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135713,
+    "title": "Lenjerie Ranforce Clasy Floral, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101991",
+    "status": 200,
+    "seconds": 0.619,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135617,
+    "title": "Lenjerie Ranforce Clasy Diba, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101985",
+    "status": 200,
+    "seconds": 0.909,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135641,
+    "title": "Lenjerie Ranforce Clasy Angola, king size | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101965",
+    "status": 200,
+    "seconds": 0.878,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135865,
+    "title": "Lenjerie Jacquard Marlet V5, 100% bumbac, 6 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101963",
+    "status": 200,
+    "seconds": 0.927,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135865,
+    "title": "Lenjerie Jacquard Marlet V4, 100% bumbac, 6 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101961",
+    "status": 200,
+    "seconds": 0.922,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135871,
+    "title": "Lenjerie Jacquard Marlet V3, 100% bumbac, 6 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101959",
+    "status": 200,
+    "seconds": 1.066,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135919,
+    "title": "Lenjerie Jacquard Marlet V2, 100% bumbac, 6 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101957",
+    "status": 200,
+    "seconds": 1.358,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135865,
+    "title": "Lenjerie Jacquard Marlet V1, 100% bumbac, 6 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102523",
+    "status": 200,
+    "seconds": 1.375,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137778,
+    "title": "Lenjerie creponată Crep73 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102518",
+    "status": 200,
+    "seconds": 1.318,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137795,
+    "title": "Lenjerie creponată Crep72 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102501",
+    "status": 200,
+    "seconds": 1.307,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137795,
+    "title": "Lenjerie creponată Crep71 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102497",
+    "status": 200,
+    "seconds": 1.214,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137795,
+    "title": "Lenjerie creponată Crep70 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102488",
+    "status": 200,
+    "seconds": 1.063,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137795,
+    "title": "Lenjerie creponată Crep68 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102484",
+    "status": 200,
+    "seconds": 0.666,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137795,
+    "title": "Lenjerie creponată Crep67 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102480",
+    "status": 200,
+    "seconds": 0.62,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137795,
+    "title": "Lenjerie creponată Crep66 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102476",
+    "status": 200,
+    "seconds": 0.625,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137795,
+    "title": "Lenjerie creponată Crep65 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102472",
+    "status": 200,
+    "seconds": 0.695,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137795,
+    "title": "Lenjerie creponată Crep64 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102468",
+    "status": 200,
+    "seconds": 0.579,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137795,
+    "title": "Lenjerie creponată Crep63 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102463",
+    "status": 200,
+    "seconds": 0.643,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137795,
+    "title": "Lenjerie creponată Crep62 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102459",
+    "status": 200,
+    "seconds": 0.619,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137788,
+    "title": "Lenjerie creponată Crep61 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102455",
+    "status": 200,
+    "seconds": 0.685,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137795,
+    "title": "Lenjerie creponată Crep60 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102438",
+    "status": 200,
+    "seconds": 0.65,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137795,
+    "title": "Lenjerie creponată Crep59 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/161998",
+    "status": 200,
+    "seconds": 0.614,
+    "type": "text/html; charset=utf-8",
+    "bytes": 143028,
+    "title": "Lenjerie Ranforce Cotton Pro Cozy Fern-Patterned | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/161991",
+    "status": 200,
+    "seconds": 0.83,
+    "type": "text/html; charset=utf-8",
+    "bytes": 142960,
+    "title": "Lenjerie Ranforce Cotton Pro Cozy Teddy Bear | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/161984",
+    "status": 200,
+    "seconds": 0.793,
+    "type": "text/html; charset=utf-8",
+    "bytes": 142940,
+    "title": "Lenjerie Ranforce Cotton Pro Cozy Dog Print | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/161977",
+    "status": 200,
+    "seconds": 0.781,
+    "type": "text/html; charset=utf-8",
+    "bytes": 143068,
+    "title": "Lenjerie Ranforce Cotton Pro Cozy Norning with Red | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/158693",
+    "status": 200,
+    "seconds": 0.711,
+    "type": "text/html; charset=utf-8",
+    "bytes": 144041,
+    "title": "Lenjerie Ranforce Cotton Pro Armonique | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/158669",
+    "status": 200,
+    "seconds": 0.756,
+    "type": "text/html; charset=utf-8",
+    "bytes": 144020,
+    "title": "Lenjerie Ranforce Cotton Pro Lumière | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/109532",
+    "status": 200,
+    "seconds": 0.709,
+    "type": "text/html; charset=utf-8",
+    "bytes": 144237,
+    "title": "Lenjerie Ranforce Cotton Pro L’amour Maison | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/109247",
+    "status": 200,
+    "seconds": 0.642,
+    "type": "text/html; charset=utf-8",
+    "bytes": 144106,
+    "title": "Lenjerie Ranforce Cotton Pro Vogue Vault | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/109235",
+    "status": 200,
+    "seconds": 0.661,
+    "type": "text/html; charset=utf-8",
+    "bytes": 144106,
+    "title": "Lenjerie Ranforce Cotton Pro Velvet Muse | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/109224",
+    "status": 200,
+    "seconds": 0.579,
+    "type": "text/html; charset=utf-8",
+    "bytes": 142866,
+    "title": "Lenjerie Ranforce Cotton Pro Urban Cozy | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/109203",
+    "status": 200,
+    "seconds": 0.706,
+    "type": "text/html; charset=utf-8",
+    "bytes": 144053,
+    "title": "Lenjerie Ranforce Cotton Pro Statemint | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/109193",
+    "status": 200,
+    "seconds": 0.575,
+    "type": "text/html; charset=utf-8",
+    "bytes": 144113,
+    "title": "Lenjerie Ranforce Cotton Pro Silk Whisper | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/109181",
+    "status": 200,
+    "seconds": 0.652,
+    "type": "text/html; charset=utf-8",
+    "bytes": 144106,
+    "title": "Lenjerie Ranforce Cotton Pro Shadow Play | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/109159",
+    "status": 200,
+    "seconds": 0.638,
+    "type": "text/html; charset=utf-8",
+    "bytes": 144106,
+    "title": "Lenjerie Ranforce Cotton Pro Satin Story | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162808",
+    "status": 200,
+    "seconds": 0.543,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118261,
+    "title": "Lenjerie de pat Clasy Estiva, ranforce, 100% bumbac, 4 piese, husa pilota 200x220 cm | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162807",
+    "status": 200,
+    "seconds": 0.577,
+    "type": "text/html; charset=utf-8",
+    "bytes": 114100,
+    "title": "Ranforce Clasy - Irma | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162805",
+    "status": 200,
+    "seconds": 0.621,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118261,
+    "title": "Lenjerie de pat Clasy Nivora, ranforce, 100% bumbac, 4 piese, husa pilota 200x220 cm | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162802",
+    "status": 200,
+    "seconds": 0.688,
+    "type": "text/html; charset=utf-8",
+    "bytes": 114113,
+    "title": "Ranforce Clasy - Samba | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162801",
+    "status": 200,
+    "seconds": 0.606,
+    "type": "text/html; charset=utf-8",
+    "bytes": 114143,
+    "title": "Ranforce Clasy - Semeran | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162800",
+    "status": 200,
+    "seconds": 0.696,
+    "type": "text/html; charset=utf-8",
+    "bytes": 118246,
+    "title": "Lenjerie de pat Clasy Vinya, ranforce, 100% bumbac, 4 piese, husa pilota 200x220 cm | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162728",
+    "status": 200,
+    "seconds": 0.585,
+    "type": "text/html; charset=utf-8",
+    "bytes": 119054,
+    "title": "Pilotă Finet - Blue Garden | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162721",
+    "status": 200,
+    "seconds": 0.588,
+    "type": "text/html; charset=utf-8",
+    "bytes": 112096,
+    "title": "Cuvertură canapea 3 locuri - Blush Pink | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162720",
+    "status": 200,
+    "seconds": 0.702,
+    "type": "text/html; charset=utf-8",
+    "bytes": 112110,
+    "title": "Cuvertură canapea 3 locuri - Bright Pink | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162719",
+    "status": 200,
+    "seconds": 0.83,
+    "type": "text/html; charset=utf-8",
+    "bytes": 112154,
+    "title": "Cuvertură canapea 3 locuri - Butter Cream | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162718",
+    "status": 200,
+    "seconds": 0.777,
+    "type": "text/html; charset=utf-8",
+    "bytes": 112094,
+    "title": "Cuvertură canapea 3 locuri - Cozy Plum | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162717",
+    "status": 200,
+    "seconds": 0.7,
+    "type": "text/html; charset=utf-8",
+    "bytes": 112133,
+    "title": "Cuvertură canapea 3 locuri - Dusty Mauve | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162716",
+    "status": 200,
+    "seconds": 0.631,
+    "type": "text/html; charset=utf-8",
+    "bytes": 112220,
+    "title": "Cuvertură canapea 3 locuri - Lighter Brown | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162715",
+    "status": 200,
+    "seconds": 0.747,
+    "type": "text/html; charset=utf-8",
+    "bytes": 112123,
+    "title": "Cuvertură canapea 3 locuri - Pastel Lemon | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162714",
+    "status": 200,
+    "seconds": 0.596,
+    "type": "text/html; charset=utf-8",
+    "bytes": 112123,
+    "title": "Cuvertură canapea 3 locuri - Pastel Peach | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162713",
+    "status": 200,
+    "seconds": 0.682,
+    "type": "text/html; charset=utf-8",
+    "bytes": 112151,
+    "title": "Cuvertură canapea 3 locuri - Pastel Quilted | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162712",
+    "status": 200,
+    "seconds": 0.643,
+    "type": "text/html; charset=utf-8",
+    "bytes": 112223,
+    "title": "Cuvertură canapea 3 locuri - Sunlit Mint-Green | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162711",
+    "status": 200,
+    "seconds": 0.632,
+    "type": "text/html; charset=utf-8",
+    "bytes": 112139,
+    "title": "Cuvertură canapea 3 locuri - Sunlit Sage | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162710",
+    "status": 200,
+    "seconds": 0.601,
+    "type": "text/html; charset=utf-8",
+    "bytes": 112209,
+    "title": "Cuvertură canapea 3 locuri - Turqoise Quilted | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/162709",
+    "status": 200,
+    "seconds": 0.683,
+    "type": "text/html; charset=utf-8",
+    "bytes": 112167,
+    "title": "Cuvertură canapea 3 locuri - Vanilla Cream | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/94029",
+    "status": 200,
+    "seconds": 0.708,
+    "type": "text/html; charset=utf-8",
+    "bytes": 109694,
+    "title": "Pătură Cocolino SIN - model 94029 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/94028",
+    "status": 200,
+    "seconds": 0.69,
+    "type": "text/html; charset=utf-8",
+    "bytes": 109694,
+    "title": "Pătură Cocolino SIN - model 94028 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/94027",
+    "status": 200,
+    "seconds": 0.616,
+    "type": "text/html; charset=utf-8",
+    "bytes": 109694,
+    "title": "Pătură Cocolino SIN - model 94027 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/94026",
+    "status": 200,
+    "seconds": 0.675,
+    "type": "text/html; charset=utf-8",
+    "bytes": 109694,
+    "title": "Pătură Cocolino SIN - model 94026 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/94025",
+    "status": 200,
+    "seconds": 0.667,
+    "type": "text/html; charset=utf-8",
+    "bytes": 109694,
+    "title": "Pătură Cocolino SIN - model 94025 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/159496",
+    "status": 200,
+    "seconds": 0.587,
+    "type": "text/html; charset=utf-8",
+    "bytes": 109089,
+    "title": "Husă Finet cu 2 fețe pernă - model 159496 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/159495",
+    "status": 200,
+    "seconds": 0.581,
+    "type": "text/html; charset=utf-8",
+    "bytes": 109089,
+    "title": "Husă Finet cu 2 fețe pernă - model 159495 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/159494",
+    "status": 200,
+    "seconds": 0.554,
+    "type": "text/html; charset=utf-8",
+    "bytes": 109089,
+    "title": "Husă Finet cu 2 fețe pernă - model 159494 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/159493",
+    "status": 200,
+    "seconds": 0.597,
+    "type": "text/html; charset=utf-8",
+    "bytes": 109089,
+    "title": "Husă Finet cu 2 fețe pernă - model 159493 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/92689",
+    "status": 200,
+    "seconds": 0.741,
+    "type": "text/html; charset=utf-8",
+    "bytes": 138068,
+    "title": "Lenjerie de pat Cocolino Line Simona, 4 piese, verde deschis | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/92688",
+    "status": 200,
+    "seconds": 0.76,
+    "type": "text/html; charset=utf-8",
+    "bytes": 138071,
+    "title": "Lenjerie de pat Cocolino Line Mihaela, 4 piese, bordo | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/92685",
+    "status": 200,
+    "seconds": 0.739,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137914,
+    "title": "Lenjerie de pat Cocolino Line Ioana, 4 piese, aqua | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/92684",
+    "status": 200,
+    "seconds": 0.564,
+    "type": "text/html; charset=utf-8",
+    "bytes": 138016,
+    "title": "Lenjerie de pat Cocolino Line Cristina, 4 piese, albastru | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/92681",
+    "status": 200,
+    "seconds": 0.59,
+    "type": "text/html; charset=utf-8",
+    "bytes": 138000,
+    "title": "Lenjerie de pat Cocolino Line Alina, 4 piese, roz | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/92668",
+    "status": 200,
+    "seconds": 0.605,
+    "type": "text/html; charset=utf-8",
+    "bytes": 138085,
+    "title": "Lenjerie de pat Cocolino Line Adriana, 4 piese, galben | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/92656",
+    "status": 200,
+    "seconds": 0.621,
+    "type": "text/html; charset=utf-8",
+    "bytes": 132691,
+    "title": "Pătură Cocolino Line Simona, 200 × 230 cm, verde deschis | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/92654",
+    "status": 200,
+    "seconds": 0.612,
+    "type": "text/html; charset=utf-8",
+    "bytes": 132803,
+    "title": "Pătură Cocolino Line Maria, 200 × 230 cm, gri închis | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/92653",
+    "status": 200,
+    "seconds": 0.643,
+    "type": "text/html; charset=utf-8",
+    "bytes": 132987,
+    "title": "Pătură Cocolino Line Laura, 200 × 230 cm, gri deschis | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/92649",
+    "status": 200,
+    "seconds": 0.696,
+    "type": "text/html; charset=utf-8",
+    "bytes": 132661,
+    "title": "Pătură Cocolino Line Ana, 200 × 230 cm, bej | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/92647",
+    "status": 200,
+    "seconds": 0.639,
+    "type": "text/html; charset=utf-8",
+    "bytes": 132440,
+    "title": "Pătură Cocolino Line Alexandra, 200 × 230 cm, roșu | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/92625",
+    "status": 200,
+    "seconds": 0.705,
+    "type": "text/html; charset=utf-8",
+    "bytes": 132763,
+    "title": "Pătură Cocolino Line Adriana, 200 × 230 cm, galben | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/89429",
+    "status": 200,
+    "seconds": 0.608,
+    "type": "text/html; charset=utf-8",
+    "bytes": 133800,
+    "title": "Pătură Cocolino Fluturi, 200 × 230 cm, ivory | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/89428",
+    "status": 200,
+    "seconds": 0.595,
+    "type": "text/html; charset=utf-8",
+    "bytes": 133786,
+    "title": "Pătură Cocolino Fluturi, 200 × 230 cm, maro | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/98777",
+    "status": 200,
+    "seconds": 0.567,
+    "type": "text/html; charset=utf-8",
+    "bytes": 141410,
+    "title": "Pilotă cu înveliș Ranforce din bumbac și umplutură din lână, crem | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102893",
+    "status": 200,
+    "seconds": 0.711,
+    "type": "text/html; charset=utf-8",
+    "bytes": 121354,
+    "title": "Pernă Ralex MicroGel, 50 × 70 cm, 1.150 g | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/102537",
+    "status": 200,
+    "seconds": 0.554,
+    "type": "text/html; charset=utf-8",
+    "bytes": 124371,
+    "title": "Pernă Zen Microgel cu înveliș din bumbac, 50 × 70 cm, 1.250 g | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/160977",
+    "status": 200,
+    "seconds": 0.603,
+    "type": "text/html; charset=utf-8",
+    "bytes": 127373,
+    "title": "Pernă Ralex cu puf de gâscă 50% și puf siliconic 50%, 50 × 70 cm | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/103393",
+    "status": 200,
+    "seconds": 0.626,
+    "type": "text/html; charset=utf-8",
+    "bytes": 127025,
+    "title": "Protecție impermeabilă pentru pernă AquaStop, 50 × 70 cm | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/509",
+    "status": 200,
+    "seconds": 0.758,
+    "type": "text/html; charset=utf-8",
+    "bytes": 119365,
+    "title": "Protecție matlasată pentru pernă, cu fermoar, 50 × 70 cm | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/103411",
+    "status": 200,
+    "seconds": 0.669,
+    "type": "text/html; charset=utf-8",
+    "bytes": 136964,
+    "title": "Prosop Greek Border, 100% bumbac, 500 g/m², alb | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90640",
+    "status": 200,
+    "seconds": 0.663,
+    "type": "text/html; charset=utf-8",
+    "bytes": 136841,
+    "title": "Prosop Greek Border, 100% bumbac, 500 g/m², gri | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/104425",
+    "status": 200,
+    "seconds": 0.634,
+    "type": "text/html; charset=utf-8",
+    "bytes": 137044,
+    "title": "Prosop Greek Border, 100% bumbac, 700 g/m², alb optic | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/159985",
+    "status": 200,
+    "seconds": 0.52,
+    "type": "text/html; charset=utf-8",
+    "bytes": 135684,
+    "title": "Prosop Greek Border, 100% bumbac, 500 g/m², cappuccino | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/158241",
+    "status": 200,
+    "seconds": 0.607,
+    "type": "text/html; charset=utf-8",
+    "bytes": 133959,
+    "title": "Lenjerie de pat Clasy Eveya V3, 100% bumbac, 7 piese, cu pătură | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101399",
+    "status": 200,
+    "seconds": 0.554,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN61 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101398",
+    "status": 200,
+    "seconds": 0.565,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN60 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101397",
+    "status": 200,
+    "seconds": 0.599,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN59 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101396",
+    "status": 200,
+    "seconds": 0.621,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN58 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101395",
+    "status": 200,
+    "seconds": 0.576,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN57 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101394",
+    "status": 200,
+    "seconds": 0.666,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN56 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101393",
+    "status": 200,
+    "seconds": 0.658,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN55 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101392",
+    "status": 200,
+    "seconds": 0.67,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN54 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101391",
+    "status": 200,
+    "seconds": 0.598,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN53 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101390",
+    "status": 200,
+    "seconds": 0.543,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN52 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101389",
+    "status": 200,
+    "seconds": 0.589,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN51 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101388",
+    "status": 200,
+    "seconds": 0.637,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN50 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101387",
+    "status": 200,
+    "seconds": 0.645,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN49 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101386",
+    "status": 200,
+    "seconds": 0.548,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN48 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101385",
+    "status": 200,
+    "seconds": 0.542,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN47 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101384",
+    "status": 200,
+    "seconds": 0.513,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN46 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101383",
+    "status": 200,
+    "seconds": 0.504,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN45 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101382",
+    "status": 200,
+    "seconds": 0.582,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN44 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101381",
+    "status": 200,
+    "seconds": 0.642,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN43 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101380",
+    "status": 200,
+    "seconds": 0.624,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN42 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101379",
+    "status": 200,
+    "seconds": 0.557,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN41 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101378",
+    "status": 200,
+    "seconds": 0.521,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN40 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101377",
+    "status": 200,
+    "seconds": 0.506,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN39 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101376",
+    "status": 200,
+    "seconds": 0.546,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN38 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101375",
+    "status": 200,
+    "seconds": 0.96,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN37 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101374",
+    "status": 200,
+    "seconds": 0.655,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN36 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101373",
+    "status": 200,
+    "seconds": 0.567,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN35 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101372",
+    "status": 200,
+    "seconds": 0.559,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN34 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101370",
+    "status": 200,
+    "seconds": 0.555,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115098,
+    "title": "Lenjerie de pat Economy ECN32 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101864",
+    "status": 200,
+    "seconds": 0.562,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH30) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101863",
+    "status": 200,
+    "seconds": 0.724,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115489,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH29) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101860",
+    "status": 200,
+    "seconds": 0.386,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH26) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101859",
+    "status": 200,
+    "seconds": 0.603,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH25) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101857",
+    "status": 200,
+    "seconds": 0.594,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH23) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101856",
+    "status": 200,
+    "seconds": 0.63,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH22) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101853",
+    "status": 200,
+    "seconds": 0.911,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115489,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH19) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101852",
+    "status": 200,
+    "seconds": 0.558,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH18) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101851",
+    "status": 200,
+    "seconds": 0.596,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH17) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101849",
+    "status": 200,
+    "seconds": 0.605,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH15) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101848",
+    "status": 200,
+    "seconds": 0.663,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115489,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH14) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101846",
+    "status": 200,
+    "seconds": 0.574,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH12) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101845",
+    "status": 200,
+    "seconds": 0.633,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH11) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101843",
+    "status": 200,
+    "seconds": 0.678,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115476,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH9) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101842",
+    "status": 200,
+    "seconds": 0.631,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115476,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH8) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101841",
+    "status": 200,
+    "seconds": 0.626,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115476,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH7) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101840",
+    "status": 200,
+    "seconds": 0.55,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115476,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH6) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101837",
+    "status": 200,
+    "seconds": 0.768,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115476,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH3) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101836",
+    "status": 200,
+    "seconds": 0.634,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115476,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH2) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101403",
+    "status": 200,
+    "seconds": 0.641,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN65 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101402",
+    "status": 200,
+    "seconds": 0.612,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN64 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101401",
+    "status": 200,
+    "seconds": 0.544,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN63 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101400",
+    "status": 200,
+    "seconds": 0.62,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115115,
+    "title": "Lenjerie de pat Economy ECN62 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90984",
+    "status": 200,
+    "seconds": 0.683,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115003,
+    "title": "Lenjerie pat economy – ECN21 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90981",
+    "status": 200,
+    "seconds": 0.616,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115003,
+    "title": "Lenjerie pat economy – ECN18 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90974",
+    "status": 200,
+    "seconds": 0.559,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115003,
+    "title": "Lenjerie pat economy – ECN11 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90973",
+    "status": 200,
+    "seconds": 0.603,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115003,
+    "title": "Lenjerie pat economy – ECN10 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/104818",
+    "status": 200,
+    "seconds": 0.655,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH48) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/104817",
+    "status": 200,
+    "seconds": 0.562,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH47) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/104816",
+    "status": 200,
+    "seconds": 0.584,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH46) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/104815",
+    "status": 200,
+    "seconds": 0.584,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH45) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/104814",
+    "status": 200,
+    "seconds": 0.695,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH44) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/104813",
+    "status": 200,
+    "seconds": 0.562,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH43) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101875",
+    "status": 200,
+    "seconds": 0.602,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH41) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101873",
+    "status": 200,
+    "seconds": 0.574,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH39) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101871",
+    "status": 200,
+    "seconds": 0.632,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH37) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101870",
+    "status": 200,
+    "seconds": 0.571,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH36) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101869",
+    "status": 200,
+    "seconds": 0.567,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115506,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH35) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/101876",
+    "status": 200,
+    "seconds": 0.659,
+    "type": "text/html; charset=utf-8",
+    "bytes": 115489,
+    "title": "Lenjerie de pat Economy 6 piese cu husă (ECNH42) | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90972",
+    "status": 200,
+    "seconds": 0.603,
+    "type": "text/html; charset=utf-8",
+    "bytes": 114947,
+    "title": "Lenjerie pat economy – ECN9 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/90965",
+    "status": 200,
+    "seconds": 0.709,
+    "type": "text/html; charset=utf-8",
+    "bytes": 114947,
+    "title": "Lenjerie pat economy – ECN2 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/158295",
+    "status": 200,
+    "seconds": 0.601,
+    "type": "text/html; charset=utf-8",
+    "bytes": 120727,
+    "title": "Lenjerie de pat Clasy ARSIDA V1, 100% bumbac, 4 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/158300",
+    "status": 200,
+    "seconds": 0.602,
+    "type": "text/html; charset=utf-8",
+    "bytes": 120727,
+    "title": "Lenjerie de pat Clasy ARSIDA V2, 100% bumbac, 4 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/158301",
+    "status": 200,
+    "seconds": 0.67,
+    "type": "text/html; charset=utf-8",
+    "bytes": 120674,
+    "title": "Lenjerie de pat Clasy ARSIDA V3, 100% bumbac, 4 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/158302",
+    "status": 200,
+    "seconds": 0.583,
+    "type": "text/html; charset=utf-8",
+    "bytes": 120727,
+    "title": "Lenjerie de pat Clasy ARSIDA V4, 100% bumbac, 4 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/158304",
+    "status": 200,
+    "seconds": 0.651,
+    "type": "text/html; charset=utf-8",
+    "bytes": 120674,
+    "title": "Lenjerie de pat Clasy ARSIDA V6, 100% bumbac, 4 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/158310",
+    "status": 200,
+    "seconds": 0.578,
+    "type": "text/html; charset=utf-8",
+    "bytes": 120693,
+    "title": "Lenjerie de pat Clasy EVEYA V1, 100% bumbac, 4 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/158313",
+    "status": 200,
+    "seconds": 0.627,
+    "type": "text/html; charset=utf-8",
+    "bytes": 120693,
+    "title": "Lenjerie de pat Clasy EVEYA V2, 100% bumbac, 4 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/158316",
+    "status": 200,
+    "seconds": 0.673,
+    "type": "text/html; charset=utf-8",
+    "bytes": 120693,
+    "title": "Lenjerie de pat Clasy EVEYA V3, 100% bumbac, 4 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/158319",
+    "status": 200,
+    "seconds": 0.696,
+    "type": "text/html; charset=utf-8",
+    "bytes": 120693,
+    "title": "Lenjerie de pat Clasy EVEYA V4, 100% bumbac, 4 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/138602",
+    "status": 200,
+    "seconds": 0.741,
+    "type": "text/html; charset=utf-8",
+    "bytes": 121485,
+    "title": "Lenjerie de pat Clasy ESTINA V1, 100% bumbac Ranforce, 4 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/138612",
+    "status": 200,
+    "seconds": 0.673,
+    "type": "text/html; charset=utf-8",
+    "bytes": 121594,
+    "title": "Lenjerie de pat Clasy ESTINA V10, 100% bumbac Ranforce, 4 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/138604",
+    "status": 200,
+    "seconds": 0.68,
+    "type": "text/html; charset=utf-8",
+    "bytes": 121485,
+    "title": "Lenjerie de pat Clasy ESTINA V3, 100% bumbac Ranforce, 4 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/138606",
+    "status": 200,
+    "seconds": 0.509,
+    "type": "text/html; charset=utf-8",
+    "bytes": 121485,
+    "title": "Lenjerie de pat Clasy ESTINA V7, 100% bumbac Ranforce, 4 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/138608",
+    "status": 200,
+    "seconds": 0.651,
+    "type": "text/html; charset=utf-8",
+    "bytes": 121485,
+    "title": "Lenjerie de pat Clasy ESTINA V8, 100% bumbac Ranforce, 4 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/138610",
+    "status": 200,
+    "seconds": 0.612,
+    "type": "text/html; charset=utf-8",
+    "bytes": 121485,
+    "title": "Lenjerie de pat Clasy ESTINA V9, 100% bumbac Ranforce, 4 piese | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/76881",
+    "status": 200,
+    "seconds": 0.531,
+    "type": "text/html; charset=utf-8",
+    "bytes": 121645,
+    "title": "Lenjerie de pat damasc policoton, 6 piese — 6DP43 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/76882",
+    "status": 200,
+    "seconds": 0.554,
+    "type": "text/html; charset=utf-8",
+    "bytes": 121645,
+    "title": "Lenjerie de pat damasc policoton, 6 piese — 6DP44 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/76883",
+    "status": 200,
+    "seconds": 0.52,
+    "type": "text/html; charset=utf-8",
+    "bytes": 121645,
+    "title": "Lenjerie de pat damasc policoton, 6 piese — 6DP45 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/76884",
+    "status": 200,
+    "seconds": 0.61,
+    "type": "text/html; charset=utf-8",
+    "bytes": 121645,
+    "title": "Lenjerie de pat damasc policoton, 6 piese — 6DP46 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/76885",
+    "status": 200,
+    "seconds": 0.579,
+    "type": "text/html; charset=utf-8",
+    "bytes": 121645,
+    "title": "Lenjerie de pat damasc policoton, 6 piese — 6DP47 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/76887",
+    "status": 200,
+    "seconds": 0.649,
+    "type": "text/html; charset=utf-8",
+    "bytes": 121628,
+    "title": "Lenjerie de pat damasc policoton, 6 piese — 6DP49 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/76895",
+    "status": 200,
+    "seconds": 0.571,
+    "type": "text/html; charset=utf-8",
+    "bytes": 121647,
+    "title": "Lenjerie de pat damasc policoton, 6 piese — 6DP41 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/76899",
+    "status": 200,
+    "seconds": 0.592,
+    "type": "text/html; charset=utf-8",
+    "bytes": 122570,
+    "title": "Lenjerie de pat damasc policoton, 6 piese, cu husă elastică — 6DPH5 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/product/76907",
+    "status": 200,
+    "seconds": 0.564,
+    "type": "text/html; charset=utf-8",
+    "bytes": 122594,
+    "title": "Lenjerie de pat damasc policoton, 6 piese, cu husă elastică — 6DPH13 | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/cos",
+    "status": 200,
+    "seconds": 0.506,
+    "type": "text/html; charset=utf-8",
+    "bytes": 20767,
+    "title": "E-Store House — Arta de a te simți acasă",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/checkout",
+    "status": 200,
+    "seconds": 0.214,
+    "type": "text/html; charset=utf-8",
+    "bytes": 25433,
+    "title": "Finalizarea comenzii | E-Store House",
+    "has_main": true,
+    "has_h1": true
+  },
+  {
+    "url": "https://www.estorehouse.ro/robots.txt",
+    "status": 200,
+    "seconds": 0.337,
+    "type": "text/plain; charset=utf-8",
+    "bytes": 144,
+    "title": null
+  }
+]

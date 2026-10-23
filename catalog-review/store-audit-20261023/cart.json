@@ -1,0 +1,12 @@
+{
+  "purchasable_skus_verified": 435,
+  "invalid_carts_rejected": 6,
+  "checkout_public_flags": {
+    "cardEnabled": [
+      "true"
+    ],
+    "codEnabled": [
+      "true"
+    ]
+  }
+}

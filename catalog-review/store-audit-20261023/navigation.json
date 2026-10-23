@@ -1,0 +1,93 @@
+[
+  {
+    "url": "https://www.estorehouse.ro/colectii/baie",
+    "status": 200,
+    "seconds": 0.521,
+    "type": "text/html; charset=utf-8",
+    "bytes": 45368
+  },
+  {
+    "url": "https://www.estorehouse.ro/colectii/cuverturi-paturi",
+    "status": 200,
+    "seconds": 0.463,
+    "type": "text/html; charset=utf-8",
+    "bytes": 60013
+  },
+  {
+    "url": "https://www.estorehouse.ro/colectii/huse-protectii",
+    "status": 200,
+    "seconds": 0.476,
+    "type": "text/html; charset=utf-8",
+    "bytes": 60770
+  },
+  {
+    "url": "https://www.estorehouse.ro/colectii/lenjerii",
+    "status": 200,
+    "seconds": 0.381,
+    "type": "text/html; charset=utf-8",
+    "bytes": 40568
+  },
+  {
+    "url": "https://www.estorehouse.ro/colectii/pilote-perne",
+    "status": 200,
+    "seconds": 0.503,
+    "type": "text/html; charset=utf-8",
+    "bytes": 65537
+  },
+  {
+    "url": "https://www.estorehouse.ro/colectii/saltele",
+    "status": 200,
+    "seconds": 0.653,
+    "type": "text/html; charset=utf-8",
+    "bytes": 29539
+  },
+  {
+    "url": "https://www.estorehouse.ro/ghid-dimensiuni",
+    "status": 200,
+    "seconds": 0.735,
+    "type": "text/html; charset=utf-8",
+    "bytes": 483772
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-100-bumbac&sortare=nume&pagina=2",
+    "status": 200,
+    "seconds": 0.655,
+    "type": "text/html; charset=utf-8",
+    "bytes": 381045
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-de-pat-policoton&sortare=nume&pagina=2",
+    "status": 200,
+    "seconds": 0.593,
+    "type": "text/html; charset=utf-8",
+    "bytes": 148121
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-de-pat-promo%2Flenjerii-de-pat-economy&sortare=nume&pagina=2",
+    "status": 200,
+    "seconds": 0.539,
+    "type": "text/html; charset=utf-8",
+    "bytes": 213293
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat%2Flenjerii-de-pat-promo&sortare=nume&pagina=2",
+    "status": 200,
+    "seconds": 0.879,
+    "type": "text/html; charset=utf-8",
+    "bytes": 227370
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?categorie=lenjerii-de-pat&sortare=nume&pagina=2",
+    "status": 200,
+    "seconds": 0.584,
+    "type": "text/html; charset=utf-8",
+    "bytes": 582569
+  },
+  {
+    "url": "https://www.estorehouse.ro/shop?sortare=nume&pagina=2",
+    "status": 200,
+    "seconds": 0.788,
+    "type": "text/html; charset=utf-8",
+    "bytes": 820907
+  }
+]
