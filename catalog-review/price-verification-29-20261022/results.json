@@ -5343,5 +5343,71 @@
       "90007": true
     },
     "checkedAt": "2026-10-23T20:10:58.766400+00:00"
+  },
+  {
+    "id": 94312,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-160x200-si-180x200-victoria-vh/",
+    "costs": {
+      "94312": 127.0
+    },
+    "availability": {
+      "94312": true
+    },
+    "checkedAt": "2026-10-23T20:15:19.805365+00:00"
+  },
+  {
+    "id": 94288,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-160x200-si-180x200-amelia-vh/",
+    "costs": {
+      "94288": 127.0
+    },
+    "availability": {
+      "94288": true
+    },
+    "checkedAt": "2026-10-23T20:15:19.805365+00:00"
+  },
+  {
+    "id": 94302,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-160x200-si-180x200-luna-vh/",
+    "costs": {
+      "94302": 127.0
+    },
+    "availability": {
+      "94302": true
+    },
+    "checkedAt": "2026-10-23T20:15:19.805365+00:00"
+  },
+  {
+    "id": 94308,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-160x200-si-180x200-penelope-vh/",
+    "costs": {
+      "94308": 127.0
+    },
+    "availability": {
+      "94308": false
+    },
+    "checkedAt": "2026-10-23T20:15:19.805365+00:00"
+  },
+  {
+    "id": 94300,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-160x200-si-180x200-isabella-vh-2/",
+    "costs": {
+      "94300": 127.0
+    },
+    "availability": {
+      "94300": false
+    },
+    "checkedAt": "2026-10-23T20:15:19.805365+00:00"
+  },
+  {
+    "id": 94296,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-160x200-si-180x200-gianna-vh/",
+    "costs": {
+      "94296": 127.0
+    },
+    "availability": {
+      "94296": true
+    },
+    "checkedAt": "2026-10-23T20:15:19.805365+00:00"
   }
 ]
