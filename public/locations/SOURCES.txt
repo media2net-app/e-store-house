@@ -1,0 +1,8 @@
+Romanian locality suggestions, snapshot 2026-10-23.
+Source: FAN Courier public geographical reports.
+https://api.fancourier.ro/reports/counties
+https://api.fancourier.ro/reports/localities
+42 counties, 13829 source rows; duplicate identical locality names within each county removed.
+Names remain exactly as supplied. Locality lists are suggestions, not a promise of carrier coverage.
+Only the selected county list is fetched by the browser; no customer address is sent to FAN for searching.
+Refresh both counties and locality files from these endpoints together.

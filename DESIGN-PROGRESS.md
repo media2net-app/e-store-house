@@ -153,3 +153,11 @@ Reviewed Git source snapshots and found earlier development prices (including ro
 ## Checkout readiness colour — 23 October 2026
 - Requested by the user: final card/COD button turns green only when ready.
 - Native form validity (including terms, postal code and conditional billing fields) combines with existing payment/shipping disabled checks. Incomplete or pending checkout stays brown. No order/payment logic changed.
+
+## County and locality suggestions — 23 October 2026
+- County selector before searchable locality for shipping and separate billing. Locality resets when county changes.
+- FAN public snapshot: 42 counties / 13,829 source localities, split by county and fetched only on demand. Provenance: public/locations/SOURCES.txt.
+- Accent-insensitive matching and single-typo suggestions; explicit selection, keyboard arrows/Enter/Escape, native form validity. No silent correction.
+- Explicit manual entry and automatic manual fallback on list download failure keep uncommon addresses usable. No postal-code guesses.
+- Existing signed shipping quote is invalidated by address edits; readiness waits for a selected/manual locality.
+- Validation: production build and ESLint passed; 14 locality and checkout/shipping tests passed. Browser check pending deployment.
