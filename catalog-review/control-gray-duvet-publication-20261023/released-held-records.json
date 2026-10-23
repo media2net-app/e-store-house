@@ -1,0 +1,35 @@
+[
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 162830,
+      "name": "Pilotă Pufoasă Matlasată Gray — Gri",
+      "category": "PILOTE PUFOASE MATLASATE",
+      "categoryPath": "pilote/pilote-pufoase-matlasate",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Descriere Produs\nDimensiuni: 200cm/220cm\nUmplutură: 50% puf siliconic + 50% micogel\nȚesărură: 100% poliester\nPilotă Pufoasă Matlasată 200×220 cm – Confort, Volum și Finețe\nTransformă fiecare noapte într-o experiență de relaxare cu Pilota Pufoasă Matlasată RALEX 200×220 cm, creată pentru a oferi confort, moliciune și o senzație plăcută de căldură.\nDatorită umpluturii speciale din 50% puf siliconic și 50% microgel, pilota îmbină volumul generos cu textura moale și aerată, fiind alegerea ideală pentru un somn odihnitor.\nȚesătura exterioară din 100% poliester este fină și plăcută la atingere, iar matlasarea contribuie la distribuirea uniformă a umpluturii și la păstrarea formei pilotei în timpul utilizării.\nCaracteristici principale\nDimensiune: 200×220 cm – potrivită pentru paturi duble și matrimoniale.\nUmplutură: 50% puf siliconic + 50% microgel.\nMaterial exterior: 100% poliester.\nDesign: matlasat, cu aspect voluminos și elegant.\nTextură: pufoasă, moale și confortabilă.\nConfort: umplutură aerată, care oferă o senzație plăcută de învăluire.\nUtilizare: ideală pentru dormitorul de acasă sau pentru spații de cazare.\nDe ce să alegi Pilota Pufoasă Matlasată RALEX?\nConfort pufos și volum generos\nCombinația de puf siliconic și microgel oferă pilotei o structură moale, aerată și voluminoasă, pentru un confort sporit în timpul somnului.\nUmplutură distribuită uniform\nCusăturile matlasate contribuie la menținerea umpluturii în interiorul pilotei, reducând deplasarea acesteia și ajutând la păstrarea unui aspect uniform.\nMaterial fin și plăcut la atingere\nÎnvelișul din poliester oferă o suprafață netedă și delicată, completând senzația de confort.\nDimensiune generoasă pentru pat matrimonial\nCu dimensiunile de 200×220 cm, pilota asigură o acoperire confortabilă și un aspect elegant al patului.\nAlege confortul RALEX!\nBucură-te de o pilotă pufoasă, moale și voluminoasă, realizată pentru momente de relaxare și nopți odihnitoare.\nPilota Pufoasă Matlasată RALEX 200×220 cm este alegerea potrivită pentru cei care își doresc un echilibru între confort, finețe și un aspect elegant al dormitorului.",
+      "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-gray/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261016/02/05e65a5a-54e0-3f63-b673-8d0dbe93ecb8/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261016/02/aca04a0b-5070-337d-ba4e-d16ad2c7cedd/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1980/prod/QC_PREP/20261016/02/2d24e169-9b41-38f5-a015-356ad525ad4c/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1980/prod/QC_PREP/20261016/02/118a2497-8349-3ae9-8cfd-27d2fe9fcba9/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261016/02/05e65a5a-54e0-3f63-b673-8d0dbe93ecb8/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 209,
+      "sku": "162830",
+      "stock": 100
+    }
+  }
+]

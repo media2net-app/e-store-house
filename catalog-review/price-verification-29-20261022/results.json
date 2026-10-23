@@ -4197,17 +4197,6 @@
     "checkedAt": "2026-10-23T20:00:39.497050+00:00"
   },
   {
-    "id": 94753,
-    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc182/",
-    "costs": {
-      "94754": 187
-    },
-    "availability": {
-      "94754": true
-    },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
-  },
-  {
     "id": 94758,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc183/",
     "costs": {
@@ -4217,17 +4206,6 @@
     "availability": {
       "94759": true,
       "94761": true
-    },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
-  },
-  {
-    "id": 94763,
-    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc184/",
-    "costs": {
-      "94766": 294
-    },
-    "availability": {
-      "94766": true
     },
     "checkedAt": "2026-10-23T20:00:39.497050+00:00"
   },
@@ -4306,28 +4284,6 @@
     "availability": {
       "94806": true,
       "94804": true
-    },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
-  },
-  {
-    "id": 94808,
-    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc193/",
-    "costs": {
-      "94811": 294
-    },
-    "availability": {
-      "94811": true
-    },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
-  },
-  {
-    "id": 94813,
-    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc194/",
-    "costs": {
-      "94814": 187
-    },
-    "availability": {
-      "94814": true
     },
     "checkedAt": "2026-10-23T20:00:39.497050+00:00"
   },
@@ -4534,28 +4490,6 @@
     },
     "availability": {
       "94696": true
-    },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
-  },
-  {
-    "id": 94843,
-    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc200/",
-    "costs": {
-      "94846": 294
-    },
-    "availability": {
-      "94846": true
-    },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
-  },
-  {
-    "id": 94853,
-    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc202/",
-    "costs": {
-      "94856": 294
-    },
-    "availability": {
-      "94856": true
     },
     "checkedAt": "2026-10-23T20:00:39.497050+00:00"
   },
@@ -5774,5 +5708,94 @@
       "94799": false
     },
     "checkedAt": "2026-10-23T20:22:40.240692+00:00"
+  },
+  {
+    "id": 94753,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc182/",
+    "costs": {
+      "94754": 187,
+      "94756": 294
+    },
+    "availability": {
+      "94754": true,
+      "94756": true
+    },
+    "checkedAt": "2026-10-23T20:24:52.707833+00:00"
+  },
+  {
+    "id": 94763,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc184/",
+    "costs": {
+      "94766": 294,
+      "94764": 187
+    },
+    "availability": {
+      "94766": true,
+      "94764": true
+    },
+    "checkedAt": "2026-10-23T20:24:52.707833+00:00"
+  },
+  {
+    "id": 94808,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc193/",
+    "costs": {
+      "94811": 294,
+      "94809": 187
+    },
+    "availability": {
+      "94811": true,
+      "94809": true
+    },
+    "checkedAt": "2026-10-23T20:24:52.707833+00:00"
+  },
+  {
+    "id": 94813,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc194/",
+    "costs": {
+      "94814": 187,
+      "94816": 294
+    },
+    "availability": {
+      "94814": true,
+      "94816": true
+    },
+    "checkedAt": "2026-10-23T20:24:52.707833+00:00"
+  },
+  {
+    "id": 94843,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc200/",
+    "costs": {
+      "94846": 294,
+      "94844": 187
+    },
+    "availability": {
+      "94846": true,
+      "94844": true
+    },
+    "checkedAt": "2026-10-23T20:24:52.707833+00:00"
+  },
+  {
+    "id": 94853,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc202/",
+    "costs": {
+      "94856": 294,
+      "94854": 187
+    },
+    "availability": {
+      "94856": true,
+      "94854": true
+    },
+    "checkedAt": "2026-10-23T20:24:52.707833+00:00"
+  },
+  {
+    "id": 162830,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-gray/",
+    "costs": {
+      "162830": 112.0
+    },
+    "availability": {
+      "162830": true
+    },
+    "checkedAt": "2026-10-23T20:25:10.739909+00:00"
   }
 ]

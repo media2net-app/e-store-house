@@ -1,0 +1,48 @@
+[
+  {
+    "key": "e8bbf7baed40",
+    "products": [
+      {
+        "barcode": "162830",
+        "sku": "162830",
+        "model": "162830",
+        "title": "Plapume duble - Gri",
+        "description": "",
+        "category": "Plapume duble",
+        "brand": "RALEX PUCIOASA",
+        "color": "Gri",
+        "size": "",
+        "price": 249,
+        "listPrice": 249,
+        "stock": 100,
+        "images": [
+          "https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261016/02/05e65a5a-54e0-3f63-b673-8d0dbe93ecb8/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261016/02/aca04a0b-5070-337d-ba4e-d16ad2c7cedd/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1980/prod/QC_PREP/20261016/02/2d24e169-9b41-38f5-a015-356ad525ad4c/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1980/prod/QC_PREP/20261016/02/118a2497-8349-3ae9-8cfd-27d2fe9fcba9/1_org_zoom.jpg"
+        ],
+        "trendyolUrl": "https://www.trendyol.com/en/x-p-1216975826?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+        "origin": "Trendyol · export 17.10.2026",
+        "revision": 0,
+        "updated": "2026-10-17T13:10:26Z"
+      }
+    ],
+    "supplierId": 162830,
+    "source": "https://ralexpucioasa.ro/store/pilote/pilote-pufoase-matlasate/pilota-pufoasa-matlasata-gray/",
+    "sourceImage": "https://ralexpucioasa.ro/wp-content/uploads/2026/10/Cozy-Gray-Chevron-Quilt-Bedroom.webp",
+    "urls": [
+      "https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261016/02/05e65a5a-54e0-3f63-b673-8d0dbe93ecb8/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1982/prod/QC_PREP/20261016/02/aca04a0b-5070-337d-ba4e-d16ad2c7cedd/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1980/prod/QC_PREP/20261016/02/2d24e169-9b41-38f5-a015-356ad525ad4c/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1980/prod/QC_PREP/20261016/02/118a2497-8349-3ae9-8cfd-27d2fe9fcba9/1_org_zoom.jpg"
+    ],
+    "paths": [
+      "/tmp/estore-control-gallery-audit-20261023/7d3085e57de4fa2b4fa1ab22ee5491e88b9e9276ed809aabcae6fe7e066d25f6.img",
+      "/tmp/estore-control-gallery-audit-20261023/372bb93707d79a5c3b8687a1b4b1632b855fa4d979e16efb605cb9936f6a3115.img",
+      "/tmp/estore-control-gallery-audit-20261023/4fb50ae32e4320ecc45551d4687260441e75809a2471f189b4372e1e87144514.img",
+      "/tmp/estore-control-gallery-audit-20261023/6696aab4d40acee770e0809594aa2db37d18ca2adfa9d49267e97b0972b8473d.img",
+      "/tmp/estore-control-gallery-audit-20261023/9e3252de03d6bd670ef4d5de5f52ac77abd230053bf4c3f43440f6a107cc76e5.img"
+    ],
+    "downloadStatus": "ok"
+  }
+]
