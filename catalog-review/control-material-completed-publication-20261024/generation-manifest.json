@@ -1,0 +1,518 @@
+{
+  "tool": "image_gen",
+  "outputs": [
+    {
+      "key": "7d252553cbd9",
+      "products": [
+        {
+          "barcode": "3994803KQ8DVOG9SK",
+          "sku": "388",
+          "model": "388",
+          "title": "Pernă matlasată Economică, 40x40 cm",
+          "description": "",
+          "category": "Perne",
+          "brand": "RALEX PUCIOASA",
+          "color": " Alb",
+          "size": "",
+          "price": 30,
+          "listPrice": 30,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261004/20/0f85b4a8-4435-3143-a4d8-8b38052d3358/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261004/20/6ba75330-ae64-33cd-82cc-047e6e8ba567/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261004/20/a30c5877-603c-34f0-96a2-3f30b2e79aa8/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261004/20/5b39391b-117f-3671-8971-60ace7e348e7/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1209507689?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "supplierId": 388,
+      "source": "https://ralexpucioasa.ro/store/perne/perna-matlasata-economy/",
+      "sourceImage": "https://ralexpucioasa.ro/wp-content/uploads/2019/04/perna-matlasata.jpg",
+      "urls": [
+        "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261004/20/0f85b4a8-4435-3143-a4d8-8b38052d3358/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261004/20/6ba75330-ae64-33cd-82cc-047e6e8ba567/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261004/20/a30c5877-603c-34f0-96a2-3f30b2e79aa8/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261004/20/5b39391b-117f-3671-8971-60ace7e348e7/1_org_zoom.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/d02df9e20a1c66e334682054a5ff099275cd8fe47f074993cd7632b4c114eaaa.img",
+        "/tmp/estore-control-gallery-audit-20261023/46153d27df318dbcf5ea0111fa98d848fa407d6859c09d3bf03b3121f290288a.img",
+        "/tmp/estore-control-gallery-audit-20261023/6b9cb686350604ebf6a5472e45d84f065953f7d79ce4b0c87c447a3901748ab5.img",
+        "/tmp/estore-control-gallery-audit-20261023/06ff3470d7ea390d0f8e4e91aea1ccb8a7507a4f9d0ed893172bf1b0bfc121e2.img",
+        "/tmp/estore-control-gallery-audit-20261023/7257fb116c911196cbc2c505145211b433418d9ffff1c6904dd3c76acc1b87d6.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/d02df9e20a1c66e334682054a5ff099275cd8fe47f074993cd7632b4c114eaaa.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/388-textile-review.jpg",
+      "generated": {
+        "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-09ad896b-7dca-4796-a1b5-84dcc2a5a70e.png",
+        "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ed554c57-889d-451d-aefd-af03725f6101.png"
+      },
+      "prompts": {
+        "top": "One premium catalog photograph of exactly ONE white quilted pillow. Source defines exact quilting and fabric. Correct size proportions square 40 by 40 cm. Straight overhead view lying flat on clean warm ivory linen; all four corners visible. Preserve the slightly irregular elongated honeycomb/diamond quilted pattern from source. Do not add zipper, label, piping, pattern or extra pillows. Precise real product photography, soft daylight. No typography, dimensions arrows, collage or inset. Portrait 2:3.",
+        "side": "One premium catalog photograph of exactly ONE white quilted pillow. Source defines exact quilting and fabric. Correct size proportions square 40 by 40 cm. Low three-quarter SIDE view, pillow lying flat with edge and loft visible, no standing frontal pillow. Preserve the slightly irregular elongated honeycomb/diamond quilted pattern from source. Do not add zipper, label, piping, pattern or extra pillows. Precise real product photography, soft daylight. No typography, dimensions arrows, collage or inset. Portrait 2:3."
+      }
+    },
+    {
+      "key": "5a3c8314a5c1",
+      "products": [
+        {
+          "barcode": "3994805X4XODAJVQV",
+          "sku": "391",
+          "model": "391",
+          "title": "Pernă matlasată Economică, 50x70 cm",
+          "description": "",
+          "category": "Perne",
+          "brand": "RALEX PUCIOASA",
+          "color": " Alb",
+          "size": "",
+          "price": 65,
+          "listPrice": 65,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1971/prod/QC_PREP/20261008/21/5290dabf-8ee4-38eb-9c84-779b123291fc/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1972/prod/QC_PREP/20261008/21/20006e7d-03a3-3d47-bbc9-13d2dc9b26d3/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1972/prod/QC_PREP/20261008/21/7c9f4079-f9f8-3aa7-950a-4905c2118dc3/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1971/prod/QC_PREP/20261008/21/2ded6a42-5c54-3333-b2d6-601196828287/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1211886744?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "supplierId": 391,
+      "source": "https://ralexpucioasa.ro/store/perne/perna-matlasata-economy-50x70cm/",
+      "sourceImage": "https://ralexpucioasa.ro/wp-content/uploads/2019/04/perna-matlasata.jpg",
+      "urls": [
+        "https://cdn.dsmcdn.com/ty1971/prod/QC_PREP/20261008/21/5290dabf-8ee4-38eb-9c84-779b123291fc/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1972/prod/QC_PREP/20261008/21/20006e7d-03a3-3d47-bbc9-13d2dc9b26d3/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1972/prod/QC_PREP/20261008/21/7c9f4079-f9f8-3aa7-950a-4905c2118dc3/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1971/prod/QC_PREP/20261008/21/2ded6a42-5c54-3333-b2d6-601196828287/1_org_zoom.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/d02df9e20a1c66e334682054a5ff099275cd8fe47f074993cd7632b4c114eaaa.img",
+        "/tmp/estore-control-gallery-audit-20261023/7fdc38c8523114cbfc66afb64091e37c9676c17223905bf814135a00da5c5053.img",
+        "/tmp/estore-control-gallery-audit-20261023/e597a053858cc24dda298cd0d87510fa4802d7edabe27bbb963c2b63429a49f5.img",
+        "/tmp/estore-control-gallery-audit-20261023/70b28123fcfb94d0ae182fa95513f3236dc18e4102222558808c99dde5af7fd0.img",
+        "/tmp/estore-control-gallery-audit-20261023/c2c5cd046cd04ec7301e5b5c4857292078d635aca04f3f4218b8b36ead1c02d6.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/d02df9e20a1c66e334682054a5ff099275cd8fe47f074993cd7632b4c114eaaa.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/391-textile-review.jpg",
+      "generated": {
+        "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-2297b02d-8c01-4498-a950-3e8ebefd5a6c.png"
+      },
+      "prompts": {
+        "top": "One premium catalog photograph of exactly ONE white quilted pillow. Source defines exact quilting and fabric. Correct size proportions rectangle 50 by 70 cm. Straight overhead view lying flat on clean warm ivory linen; all four corners visible. Preserve the slightly irregular elongated honeycomb/diamond quilted pattern from source. Do not add zipper, label, piping, pattern or extra pillows. Precise real product photography, soft daylight. No typography, dimensions arrows, collage or inset. Portrait 2:3."
+      }
+    },
+    {
+      "key": "b539783b6529",
+      "products": [
+        {
+          "barcode": "442",
+          "sku": "442",
+          "model": "442",
+          "title": "Pernă matlasată anti-aglomerare, 50x70 cm",
+          "description": "",
+          "category": "Perne",
+          "brand": "RALEX PUCIOASA",
+          "color": " Alb",
+          "size": "",
+          "price": 70,
+          "listPrice": 70,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1972/prod/QC_PREP/20261008/21/a655058f-4518-3aa8-ad99-48c665ba108d/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1973/prod/QC_PREP/20261008/21/0b6620a0-191f-3d01-b171-bc12635ee776/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1973/prod/QC_PREP/20261008/21/b62640d6-347c-389a-8c6d-2966d78242a4/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1973/prod/QC_PREP/20261008/21/1b404297-d9cf-3568-8d1c-1b62f1349014/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1211887444?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "supplierId": 442,
+      "source": "https://ralexpucioasa.ro/store/perne/perna-matlasata-hypoalergenica-antiaglomerare-50x70cm-copiaza/",
+      "sourceImage": "https://ralexpucioasa.ro/wp-content/uploads/2019/04/perna-matlasata-hypoalergenica.jpg",
+      "urls": [
+        "https://cdn.dsmcdn.com/ty1972/prod/QC_PREP/20261008/21/a655058f-4518-3aa8-ad99-48c665ba108d/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1973/prod/QC_PREP/20261008/21/0b6620a0-191f-3d01-b171-bc12635ee776/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1973/prod/QC_PREP/20261008/21/b62640d6-347c-389a-8c6d-2966d78242a4/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1973/prod/QC_PREP/20261008/21/1b404297-d9cf-3568-8d1c-1b62f1349014/1_org_zoom.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/947cecbbe207e4c8e578574e43edc3b1ce89f63afac17f80090a18d04efa946e.img",
+        "/tmp/estore-control-gallery-audit-20261023/16b3d2a8e0dff47c3a4fb84babaaf1f0b361bc7e7a05559c227422c09943a1ed.img",
+        "/tmp/estore-control-gallery-audit-20261023/2040725f59baf403cecd44bbef8c34d4cb30991e97047617deb4e61f1c0202fa.img",
+        "/tmp/estore-control-gallery-audit-20261023/d45c79d879284cd36f0834fd4f5458c1e9a935d060a83103d9e6210cc555d534.img",
+        "/tmp/estore-control-gallery-audit-20261023/45397861f609dec593e1b5b684fa5f6f6b810491410f3c8395631f858f60858b.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/947cecbbe207e4c8e578574e43edc3b1ce89f63afac17f80090a18d04efa946e.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/442-textile-review.jpg",
+      "generated": {
+        "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-8d9cf43e-1a22-409a-9c3f-e89493f325ff.png"
+      },
+      "prompts": {
+        "top": "One premium catalog photograph of exactly ONE white quilted pillow. Source defines exact quilting and fabric. Correct size proportions rectangle 50 by 70 cm. Straight overhead view lying flat on clean warm ivory linen; all four corners visible. Regular diamond quilting. Do not add zipper, label, piping, pattern or extra pillows. Precise real product photography, soft daylight. No typography, dimensions arrows, collage or inset. Portrait 2:3."
+      }
+    },
+    {
+      "key": "9e9ccd74cb21",
+      "products": [
+        {
+          "barcode": "98135",
+          "sku": "98135",
+          "model": "98135",
+          "title": "Pilotă de iarnă cu umplutură din fibră de bambus, înveliș Damasc, alb, 200cm x 215cm",
+          "description": "<p>Alege dimensiunea potrivită patului și husei tale. Finisajul matlasat oferă pilotei o prezentare îngrijită.</p><ul><li>Înveliș: Damasc cu dungi de 1 cm, 160 g/m²</li><li>Umplutură: 100% fibră de bambus</li></ul><p>Respectați instrucțiunile de pe eticheta produsului.</p><p>Dimensiunea variantei: 200cm x 215cm</p><p>Mobilierul și accesoriile de decor din imagini nu sunt incluse.</p>",
+          "category": "Pilote",
+          "brand": "RALEX PUCIOASA",
+          "color": "Alb",
+          "size": "200cm x 215cm",
+          "price": 705,
+          "listPrice": 705,
+          "images": [
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/01-principala.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/02-lateral.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/03-detaliu.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/04-de-sus.jpg"
+          ],
+          "trendyolUrl": "",
+          "origin": "manual",
+          "stock": 100,
+          "revision": 1,
+          "updated": "2026-10-21T18:59:31.456Z"
+        },
+        {
+          "barcode": "98134",
+          "sku": "98134",
+          "model": "98134",
+          "title": "Pilotă de iarnă cu umplutură din fibră de bambus, înveliș Damasc, alb, 180cm x 210cm",
+          "description": "<p>Alege dimensiunea potrivită patului și husei tale. Finisajul matlasat oferă pilotei o prezentare îngrijită.</p><ul><li>Înveliș: Damasc cu dungi de 1 cm, 160 g/m²</li><li>Umplutură: 100% fibră de bambus</li></ul><p>Respectați instrucțiunile de pe eticheta produsului.</p><p>Dimensiunea variantei: 180cm x 210cm</p><p>Mobilierul și accesoriile de decor din imagini nu sunt incluse.</p>",
+          "category": "Pilote",
+          "brand": "RALEX PUCIOASA",
+          "color": "Alb",
+          "size": "180cm x 210cm",
+          "price": 655,
+          "listPrice": 655,
+          "images": [
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/01-principala.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/02-lateral.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/03-detaliu.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/04-de-sus.jpg"
+          ],
+          "trendyolUrl": "",
+          "origin": "manual",
+          "stock": 100,
+          "revision": 1,
+          "updated": "2026-10-21T18:59:29.382Z"
+        },
+        {
+          "barcode": "98133",
+          "sku": "98133",
+          "model": "98133",
+          "title": "Pilotă de iarnă cu umplutură din fibră de bambus, înveliș Damasc, alb, 160cm x 210cm",
+          "description": "<p>Alege dimensiunea potrivită patului și husei tale. Finisajul matlasat oferă pilotei o prezentare îngrijită.</p><ul><li>Înveliș: Damasc cu dungi de 1 cm, 160 g/m²</li><li>Umplutură: 100% fibră de bambus</li></ul><p>Respectați instrucțiunile de pe eticheta produsului.</p><p>Dimensiunea variantei: 160cm x 210cm</p><p>Mobilierul și accesoriile de decor din imagini nu sunt incluse.</p>",
+          "category": "Pilote",
+          "brand": "RALEX PUCIOASA",
+          "color": "Alb",
+          "size": "160cm x 210cm",
+          "price": 585,
+          "listPrice": 585,
+          "images": [
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/01-principala.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/02-lateral.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/03-detaliu.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/04-de-sus.jpg"
+          ],
+          "trendyolUrl": "",
+          "origin": "manual",
+          "stock": 100,
+          "revision": 1,
+          "updated": "2026-10-21T18:59:27.576Z"
+        },
+        {
+          "barcode": "98132",
+          "sku": "98132",
+          "model": "98132",
+          "title": "Pilotă de iarnă cu umplutură din fibră de bambus, înveliș Damasc, alb, 140cm x 210cm",
+          "description": "<p>Alege dimensiunea potrivită patului și husei tale. Finisajul matlasat oferă pilotei o prezentare îngrijită.</p><ul><li>Înveliș: Damasc cu dungi de 1 cm, 160 g/m²</li><li>Umplutură: 100% fibră de bambus</li></ul><p>Respectați instrucțiunile de pe eticheta produsului.</p><p>Dimensiunea variantei: 140cm x 210cm</p><p>Mobilierul și accesoriile de decor din imagini nu sunt incluse.</p>",
+          "category": "Pilote",
+          "brand": "RALEX PUCIOASA",
+          "color": "Alb",
+          "size": "140cm x 210cm",
+          "price": 545,
+          "listPrice": 545,
+          "images": [
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/01-principala.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/02-lateral.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/03-detaliu.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/04-de-sus.jpg"
+          ],
+          "trendyolUrl": "",
+          "origin": "manual",
+          "stock": 100,
+          "revision": 1,
+          "updated": "2026-10-21T18:59:25.538Z"
+        }
+      ],
+      "supplierId": 98131,
+      "source": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-bambus-damasc-100-natural-de-iarna-alb/",
+      "sourceImage": "https://ralexpucioasa.ro/wp-content/uploads/2023/11/alb_bambus-1.jpg",
+      "urls": [
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/01-principala.jpg",
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/02-lateral.jpg",
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/03-detaliu.jpg",
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/98131/04-de-sus.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/b20a4209d05bd943a552760a8ca7b4b5b49c43a73db5fe875000541a7a42d9c6.img",
+        "/tmp/estore-control-gallery-audit-20261023/8af483b6f48c3461242b23ff433aaad05ecd57c15cad9eae0299179bb09178a3.img",
+        "/tmp/estore-control-gallery-audit-20261023/9214261145b1dc1655c36f70edb878077c45855041d6f575dcb8d04aecbdf2e7.img",
+        "/tmp/estore-control-gallery-audit-20261023/eacae14f6a1dff78efe983a4c1ca157f122252be776a0535fd99fd908fd33805.img",
+        "/tmp/estore-control-gallery-audit-20261023/f62c2929beb011f2c641f006b822ef3fd7198dc10d947eead03d1c23a169e80b.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/b20a4209d05bd943a552760a8ca7b4b5b49c43a73db5fe875000541a7a42d9c6.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/98131-textile-review.jpg",
+      "generated": {},
+      "prompts": {}
+    },
+    {
+      "key": "295910d8ac01",
+      "products": [
+        {
+          "barcode": "37968",
+          "sku": "37968",
+          "model": "37968",
+          "title": "Pilotă de iarnă cu umplutură din lână, înveliș Damasc, alb, 200cm x 215cm",
+          "description": "<p>Alege dimensiunea potrivită patului și husei tale. Finisajul matlasat oferă pilotei o prezentare îngrijită.</p><ul><li>Înveliș: Damasc cu dungi de 1 cm, 160 g/m²</li><li>Umplutură: 100% lână</li></ul><p>Respectați instrucțiunile de pe eticheta produsului.</p><p>Dimensiunea variantei: 200cm x 215cm</p><p>Mobilierul și accesoriile de decor din imagini nu sunt incluse.</p>",
+          "category": "Pilote",
+          "brand": "RALEX PUCIOASA",
+          "color": "Alb",
+          "size": "200cm x 215cm",
+          "price": 555,
+          "listPrice": 555,
+          "images": [
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/01-principala.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/02-lateral.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/03-detaliu.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/04-de-sus.jpg"
+          ],
+          "trendyolUrl": "",
+          "origin": "manual",
+          "stock": 100,
+          "revision": 1,
+          "updated": "2026-10-21T18:59:16.106Z"
+        },
+        {
+          "barcode": "37967",
+          "sku": "37967",
+          "model": "37967",
+          "title": "Pilotă de iarnă cu umplutură din lână, înveliș Damasc, alb, 180cm x 210cm",
+          "description": "<p>Alege dimensiunea potrivită patului și husei tale. Finisajul matlasat oferă pilotei o prezentare îngrijită.</p><ul><li>Înveliș: Damasc cu dungi de 1 cm, 160 g/m²</li><li>Umplutură: 100% lână</li></ul><p>Respectați instrucțiunile de pe eticheta produsului.</p><p>Dimensiunea variantei: 180cm x 210cm</p><p>Mobilierul și accesoriile de decor din imagini nu sunt incluse.</p>",
+          "category": "Pilote",
+          "brand": "RALEX PUCIOASA",
+          "color": "Alb",
+          "size": "180cm x 210cm",
+          "price": 515,
+          "listPrice": 515,
+          "images": [
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/01-principala.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/02-lateral.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/03-detaliu.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/04-de-sus.jpg"
+          ],
+          "trendyolUrl": "",
+          "origin": "manual",
+          "stock": 100,
+          "revision": 1,
+          "updated": "2026-10-21T18:59:14.047Z"
+        },
+        {
+          "barcode": "37966",
+          "sku": "37966",
+          "model": "37966",
+          "title": "Pilotă de iarnă cu umplutură din lână, înveliș Damasc, alb, 160cm x 210cm",
+          "description": "<p>Alege dimensiunea potrivită patului și husei tale. Finisajul matlasat oferă pilotei o prezentare îngrijită.</p><ul><li>Înveliș: Damasc cu dungi de 1 cm, 160 g/m²</li><li>Umplutură: 100% lână</li></ul><p>Respectați instrucțiunile de pe eticheta produsului.</p><p>Dimensiunea variantei: 160cm x 210cm</p><p>Mobilierul și accesoriile de decor din imagini nu sunt incluse.</p>",
+          "category": "Pilote",
+          "brand": "RALEX PUCIOASA",
+          "color": "Alb",
+          "size": "160cm x 210cm",
+          "price": 495,
+          "listPrice": 495,
+          "images": [
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/01-principala.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/02-lateral.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/03-detaliu.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/04-de-sus.jpg"
+          ],
+          "trendyolUrl": "",
+          "origin": "manual",
+          "stock": 100,
+          "revision": 1,
+          "updated": "2026-10-21T18:59:11.875Z"
+        },
+        {
+          "barcode": "37965",
+          "sku": "37965",
+          "model": "37965",
+          "title": "Pilotă de iarnă cu umplutură din lână, înveliș Damasc, alb, 140cm x 210cm",
+          "description": "<p>Alege dimensiunea potrivită patului și husei tale. Finisajul matlasat oferă pilotei o prezentare îngrijită.</p><ul><li>Înveliș: Damasc cu dungi de 1 cm, 160 g/m²</li><li>Umplutură: 100% lână</li></ul><p>Respectați instrucțiunile de pe eticheta produsului.</p><p>Dimensiunea variantei: 140cm x 210cm</p><p>Mobilierul și accesoriile de decor din imagini nu sunt incluse.</p>",
+          "category": "Pilote",
+          "brand": "RALEX PUCIOASA",
+          "color": "Alb",
+          "size": "140cm x 210cm",
+          "price": 435,
+          "listPrice": 435,
+          "images": [
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/01-principala.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/02-lateral.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/03-detaliu.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/04-de-sus.jpg"
+          ],
+          "trendyolUrl": "",
+          "origin": "manual",
+          "stock": 100,
+          "revision": 1,
+          "updated": "2026-10-21T18:59:10.046Z"
+        }
+      ],
+      "supplierId": 37964,
+      "source": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-lana-damasc-100-natural-de-iarna-alb/",
+      "sourceImage": "https://ralexpucioasa.ro/wp-content/uploads/2023/11/alb_lana.jpg",
+      "urls": [
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/01-principala.jpg",
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/02-lateral.jpg",
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/03-detaliu.jpg",
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/37964/04-de-sus.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/695e65fe50bce544d1ff5e2f1f2a7b3569ec5af237b1123d5c1b01cf1b6d543b.img",
+        "/tmp/estore-control-gallery-audit-20261023/9443e52b370c7c4b17137dda0fa84fed0829d3ca6926f23448ba202273f0d87e.img",
+        "/tmp/estore-control-gallery-audit-20261023/dcc7ead00e7a37da00c22da714ba388a64ca3faef00f5887509095eaa209aa3f.img",
+        "/tmp/estore-control-gallery-audit-20261023/d7df6e36145c97e9a8af5249b3cf6115299d33cce2d41c935b9a4cd3594d8cef.img",
+        "/tmp/estore-control-gallery-audit-20261023/21144dd8e05989250e39fb65147e6e1cce36f1f2a5400a8955b6dcbfa10a74d6.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/695e65fe50bce544d1ff5e2f1f2a7b3569ec5af237b1123d5c1b01cf1b6d543b.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/37964-textile-review.jpg",
+      "generated": {},
+      "prompts": {}
+    },
+    {
+      "key": "374acd7e59ab",
+      "products": [
+        {
+          "barcode": "451",
+          "sku": "451",
+          "model": "451",
+          "title": "Pilotă matlasată de iarnă din microfibră, 200 × 210 cm",
+          "description": "<p>O pilotă pentru sezonul rece, cu înveliș din microfibră și finisaj matlasat.</p><ul><li>Dimensiuni: 200 × 210 cm</li><li>Înveliș: microfibră, 90 g/m²</li><li>Umplutură: minet, 400 g/m²</li></ul><p>Respectați instrucțiunile de pe eticheta produsului.</p><p>Mobilierul și accesoriile de decor din imagini nu sunt incluse.</p>",
+          "category": "Pilote",
+          "brand": "RALEX PUCIOASA",
+          "color": "Alb",
+          "size": "",
+          "price": 235,
+          "listPrice": 235,
+          "images": [
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/451/01-principala.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/451/02-lateral.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/451/03-detaliu.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/451/04-de-sus.jpg"
+          ],
+          "trendyolUrl": "",
+          "origin": "manual",
+          "stock": 100,
+          "revision": 1,
+          "updated": "2026-10-21T18:59:35.204Z"
+        }
+      ],
+      "supplierId": 451,
+      "source": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-microfibra-vara-200x210cm-copiaza/",
+      "sourceImage": "https://ralexpucioasa.ro/wp-content/uploads/2019/04/pilota_microfibra.avif",
+      "urls": [
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/451/01-principala.jpg",
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/451/02-lateral.jpg",
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/451/03-detaliu.jpg",
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/451/04-de-sus.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-publication-review-20261023/db185829ceb7575def2956b446cdd272d708d6f423c15924baeaed1764fdb522.img",
+        "/tmp/estore-publication-review-20261023/f5a0ae8585997776fd26275ef4ec368273a2163890d8ce2a29d7c20f192bcfac.img",
+        "/tmp/estore-publication-review-20261023/81a517970f3ed7af0acc201596a05cceaef146c15124b7c249f00be63b90781d.img",
+        "/tmp/estore-publication-review-20261023/0738e03dffdc5c5dfa683f5a655691d7b16fcae33ec3ef1ed82546825b7169b6.img",
+        "/tmp/estore-publication-review-20261023/7b23691134cc7189e6b0dfb97469c1058b5823132b1a1e540f76181a2c4d9d27.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/db185829ceb7575def2956b446cdd272d708d6f423c15924baeaed1764fdb522.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/451-textile-review.jpg",
+      "generated": {},
+      "prompts": {}
+    },
+    {
+      "key": "f5e92b50a30e",
+      "products": [
+        {
+          "barcode": "79880",
+          "sku": "79880",
+          "model": "79880",
+          "title": "Pătură cu aspect tricotat și revers pufos, 200 × 230 cm, piersică",
+          "description": "<p>Textura cu aspect tricotat și reversul pufos completează un dormitor primitor sau un colț de relaxare.</p><ul><li>Conținut: 1 pătură</li><li>Dimensiuni: 200 × 230 cm; toleranță declarată ±5 cm</li><li>Greutate: 2.350 g</li><li>Material indicat de furnizor: micropolar</li></ul><p>Respectați instrucțiunile de pe eticheta produsului.</p><p>Mobilierul și accesoriile de decor din imagini nu sunt incluse.</p>",
+          "category": "Paturi",
+          "brand": "RALEX PUCIOASA",
+          "color": "Piersică",
+          "size": "",
+          "price": 275,
+          "listPrice": 275,
+          "images": [
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/79880/01-principala.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/79880/02-lateral.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/79880/03-detaliu.jpg",
+            "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/79880/04-de-sus.jpg"
+          ],
+          "trendyolUrl": "",
+          "origin": "manual",
+          "stock": 100,
+          "revision": 1,
+          "updated": "2026-10-21T18:59:38.101Z"
+        }
+      ],
+      "supplierId": 79880,
+      "source": "https://ralexpucioasa.ro/store/paturi/paturi-tricot-cu-blanita/patura-tricot-cu-blanita-galben-mustar/",
+      "sourceImage": "https://ralexpucioasa.ro/wp-content/uploads/2025/11/ptbl_GALBEN-STRONG-scaled.jpg",
+      "urls": [
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/79880/01-principala.jpg",
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/79880/02-lateral.jpg",
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/79880/03-detaliu.jpg",
+        "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/79880/04-de-sus.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-publication-review-20261023/61650799ff69e32dc6efccb691d93be8526fbf703cc664a705756e8f595e7b64.img",
+        "/tmp/estore-publication-review-20261023/ebe866cdae2eef036d958efb3190caee5b09163deceb1c521ccb779e8f144823.img",
+        "/tmp/estore-publication-review-20261023/ed8a9845f7caab89186c7a32233d5dcaf2473c886ee7528382b81fef71039480.img",
+        "/tmp/estore-publication-review-20261023/46f64a2040e74f9dd83fe332aa5db70a56c2f306c97f09ba198994d7f845a627.img",
+        "/tmp/estore-publication-review-20261023/92df3aa36615aef2a11d8ac754fded9f12451ae572dbd52c6c45588639f750d7.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/61650799ff69e32dc6efccb691d93be8526fbf703cc664a705756e8f595e7b64.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/79880-textile-review.jpg",
+      "generated": {
+        "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-6e84b8e0-bf97-4e07-948f-d038ffec1024.png"
+      },
+      "prompts": {
+        "detail": "One true macro textile photograph of the exact peach micropolar cable-effect blanket in source. Show small folded corner with raised interlaced diamond/cable motifs and soft ivory fluffy reverse. Preserve exact peach tone and knit-effect relief. Cropped close to only material and edge, no bed or pillows, no collage, no typography. Premium soft neutral daylight, portrait 2:3."
+      }
+    }
+  ],
+  "review": "All five generated outputs and all selected Control photographs visually reviewed; two sizes grouped under one Economy pillow model."
+}

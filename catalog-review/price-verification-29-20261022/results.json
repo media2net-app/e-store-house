@@ -8815,5 +8815,85 @@
       "104727": true
     },
     "checkedAt": "2026-10-24T01:40:35.796041+00:00"
+  },
+  {
+    "id": 388,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-matlasata-economy/",
+    "costs": {
+      "388": 10.0,
+      "391": 30.0
+    },
+    "availability": {
+      "388": true,
+      "391": true
+    },
+    "checkedAt": "2026-10-24T01:44:40.896870+00:00"
+  },
+  {
+    "id": 442,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-matlasata-hypoalergenica-antiaglomerare-50x70cm-copiaza/",
+    "costs": {
+      "442": 36.0
+    },
+    "availability": {
+      "442": true
+    },
+    "checkedAt": "2026-10-24T01:44:40.896870+00:00"
+  },
+  {
+    "id": 98131,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-bambus-damasc-100-natural-de-iarna-alb/",
+    "costs": {
+      "98135": 318,
+      "98134": 295,
+      "98133": 262,
+      "98132": 244
+    },
+    "availability": {
+      "98135": true,
+      "98134": true,
+      "98133": true,
+      "98132": true
+    },
+    "checkedAt": "2026-10-24T01:44:40.896870+00:00"
+  },
+  {
+    "id": 37964,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-lana-damasc-100-natural-de-iarna-alb/",
+    "costs": {
+      "37968": 249,
+      "37967": 234,
+      "37966": 223,
+      "37965": 195
+    },
+    "availability": {
+      "37968": true,
+      "37967": true,
+      "37966": true,
+      "37965": true
+    },
+    "checkedAt": "2026-10-24T01:44:40.896870+00:00"
+  },
+  {
+    "id": 451,
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-microfibra-vara-200x210cm-copiaza/",
+    "costs": {
+      "451": 105.0
+    },
+    "availability": {
+      "451": true
+    },
+    "checkedAt": "2026-10-24T01:44:40.896870+00:00"
+  },
+  {
+    "id": 79880,
+    "supplierUrl": "https://ralexpucioasa.ro/store/paturi/paturi-tricot-cu-blanita/patura-tricot-cu-blanita-galben-mustar/",
+    "costs": {
+      "79880": 121.0
+    },
+    "availability": {
+      "79880": true
+    },
+    "checkedAt": "2026-10-24T01:44:40.896870+00:00"
   }
 ]
