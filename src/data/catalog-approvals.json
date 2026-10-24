@@ -22935,5 +22935,59 @@
       }
     ],
     "fingerprint": "c3b74b32d44c65e1bf4922ced93733fd13a92aa68251279fc8cb5d13f9d56481"
+  },
+  {
+    "id": 77317,
+    "reviewedAt": "2026-10-24T02:06:13.930626+00:00",
+    "source": "control-horeca-mattress-repaired-publication-20261024",
+    "supplierUrl": "https://ralexpucioasa.ro/store/produse-hotel/lenjerie-pat-finet-horeca-king-size/",
+    "visualReview": "All eight actual generated photos visually compared to own supplier source. Finet Horeca confirms four-piece contents with two pillowcases; replaced Control scenes with four pillows. Mattress exact numeric variants resolve incorrect Control ZenSleep 25cm Memory title to RLX13 23cm polyurethane foam 25kg/m3. All Control mattress images replaced; source wavy top, grey mesh band, red zipper and white handles faithfully preserved. No unsupported medical or composition claims added.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "/products/77317/hero-reviewed-v1.png",
+        "sha256": "d5cd0a7ff5bd59e38c6b900a7495880a115055caa1cabdb1f47b3ca65984b82c"
+      },
+      {
+        "url": "/products/77317/side-reviewed-v1.png",
+        "sha256": "81e5faf73ef3ea14c6dadd8e7306975b81d73e05e918f1d3e549395dafed73d7"
+      },
+      {
+        "url": "/products/77317/top-reviewed-v1.png",
+        "sha256": "6dcfb464a4483742e73bef1aaf119cf56da29da13bd86a666f1c987d79062722"
+      },
+      {
+        "url": "/products/77317/detail-reviewed-v1.png",
+        "sha256": "7fbac79258088058e281a749ff1f1abed625f5dc6eeac7081cad201d7c1dd9e6"
+      }
+    ],
+    "fingerprint": "462d8233b11efab0aa295a8d6a0ed153f82265230e541c255bf51f599a7a20ad"
+  },
+  {
+    "id": 110902,
+    "reviewedAt": "2026-10-24T02:06:13.930626+00:00",
+    "source": "control-horeca-mattress-repaired-publication-20261024",
+    "supplierUrl": "https://ralexpucioasa.ro/store/saltele-si-toppere/saltea-ortopedica-dura-inaltime-23-cm-cu-husa-detasabila-rlx13/",
+    "visualReview": "All eight actual generated photos visually compared to own supplier source. Finet Horeca confirms four-piece contents with two pillowcases; replaced Control scenes with four pillows. Mattress exact numeric variants resolve incorrect Control ZenSleep 25cm Memory title to RLX13 23cm polyurethane foam 25kg/m3. All Control mattress images replaced; source wavy top, grey mesh band, red zipper and white handles faithfully preserved. No unsupported medical or composition claims added.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "/products/110902/hero-reviewed-v1.png",
+        "sha256": "c83bac0641aabafecc568a1fc72c0f4d2898931591843dd2f46fa76f056c07d6"
+      },
+      {
+        "url": "/products/110902/side-reviewed-v1.png",
+        "sha256": "fd139ef56f5c35342feb7ae4c2ae1e8624953b730baf0bd623bca0129b00f1d4"
+      },
+      {
+        "url": "/products/110902/top-reviewed-v1.png",
+        "sha256": "66d7812fb257318ffeb9c7b73830a42ef4fc0c669e45f3e63323839971976eb9"
+      },
+      {
+        "url": "/products/110902/detail-reviewed-v1.png",
+        "sha256": "9e66f31dd3403ef1104ba3ee72a794b1c17866536f4a4881addabe9acbfb7c4d"
+      }
+    ],
+    "fingerprint": "1c81257b10cbf42ba9160d02f324e563e8b29536d3d441804a2759410cb34003"
   }
 ]

@@ -1,0 +1,206 @@
+{
+  "tool": "image_gen",
+  "outputs": [
+    {
+      "supplierId": 77317,
+      "products": [
+        {
+          "barcode": "2613977TO5CUUO4VL",
+          "sku": "77317",
+          "model": "2613977TO5CUUO4VL",
+          "title": "Lenjerie de pat albă pentru hoteluri și Horeca, 4 piese, fină, rezistentă, care se spală bine.",
+          "description": "Această lenjerie de pat din percal este special concepută pentru hoteluri și pensiuni, unde durabilitatea este mai importantă decât orice altceva. Rezistă la spălări repetate și își menține un aspect curat și îngrijit. 👉 De asemenea, este perfectă pentru uz casnic dacă preferați un aspect simplu, alb, în stil hotelier. ⸻ ✅ AVANTAJE: ✔ Rezistentă la spălări frecvente ✔ Material durabil – nu se deteriorează ușor ✔ Aspect alb curat – stil hotelier ✔ Ușor de întreținut ✔ Ideală pentru utilizare zilnică ⸻ 📦 CONȚINUTUL PACHETULUI: Cearșaf plat: 230 x 260 cm Husă de pilotă: 200 x 230 cm Fețe de pernă: 2 buc – 50 x 70 cm ⸻ 🧵 SPECIFICAȚII: Material: percal (amestec",
+          "category": "Lenjerie de pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 219,
+          "listPrice": 219,
+          "stock": 9,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260424/14/ab2b1592-59b6-3bba-a694-e9a1885f8b25/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260424/14/e88bd205-4a53-3fda-8f12-8c3a048d22c2/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260424/14/9dfdd8cf-5622-3f64-8f04-b00d7b2a2468/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1137716451?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/ca7cef029156595060e653594d1320f19bcc7c3c62a11a3a67b8e6d9794814ee.img",
+        "/tmp/estore-short-gallery-audit-20261024/b1ecc16d030ea3a1846f9abe5e3c6ebdb38b1a86c6e52e8a4567083e32fb1151.img",
+        "/tmp/estore-short-gallery-audit-20261024/b65e8ba151c31146843c0ebc98181f989576c32702e13b7e02403edb454ac726.img",
+        "/tmp/estore-short-gallery-audit-20261024/4c68cd49cbb52eee25dbb2e55237d743c9401b9003650924d21478e64de4fa90.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/77317-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/produse-hotel/lenjerie-pat-finet-horeca-king-size/",
+      "prompts": {
+        "hero": "ONE premium e-commerce photograph, portrait2:3. Reference is exact product. Plain white Finet hotel bedding, soft smooth cotton-blend weave, NOT waffle, NOT stripes. This four-piece set has EXACTLY TWO rectangular 50x70 pillowcases, one flat bottom sheet and one duvet cover. No extra decorative or square pillows, even though reference uses extra styling. Full product front three-quarter view. Neutral ivory and walnut bedroom, soft natural daylight. No text, claims, logos, collage or insets. No invented decorative motifs, quilting, structural layers or accessories. Preserve source true materials, pattern and palette.",
+        "side": "ONE premium e-commerce photograph, portrait2:3. Reference is exact product. Plain white Finet hotel bedding, soft smooth cotton-blend weave, NOT waffle, NOT stripes. This four-piece set has EXACTLY TWO rectangular 50x70 pillowcases, one flat bottom sheet and one duvet cover. No extra decorative or square pillows, even though reference uses extra styling. Distinct low side view of draping textile edge or mattress side, showing depth and edge. Neutral ivory and walnut bedroom, soft natural daylight. No text, claims, logos, collage or insets. No invented decorative motifs, quilting, structural layers or accessories. Preserve source true materials, pattern and palette.",
+        "top": "ONE premium e-commerce photograph, portrait2:3. Reference is exact product. Plain white Finet hotel bedding, soft smooth cotton-blend weave, NOT waffle, NOT stripes. This four-piece set has EXACTLY TWO rectangular 50x70 pillowcases, one flat bottom sheet and one duvet cover. No extra decorative or square pillows, even though reference uses extra styling. Straight overhead whole product view, exact source surface pattern. Neutral ivory and walnut bedroom, soft natural daylight. No text, claims, logos, collage or insets. No invented decorative motifs, quilting, structural layers or accessories. Preserve source true materials, pattern and palette.",
+        "detail": "ONE premium e-commerce photograph, portrait2:3. Reference is exact product. Plain white Finet hotel bedding, soft smooth cotton-blend weave, NOT waffle, NOT stripes. This four-piece set has EXACTLY TWO rectangular 50x70 pillowcases, one flat bottom sheet and one duvet cover. No extra decorative or square pillows, even though reference uses extra styling. TIGHT MACRO only of smooth white textile folds, fine weave visible and simple pillowcase edge, no whole bed or room. Neutral ivory and walnut bedroom, soft natural daylight. No text, claims, logos, collage or insets. No invented decorative motifs, quilting, structural layers or accessories. Preserve source true materials, pattern and palette."
+      },
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-5150d391-9488-4aa6-b2de-cbc19df58f25.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-13db8ac4-ff6f-4a1f-aee0-c5107ee693d7.png",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-eb49afd2-a7ff-4219-88b9-806961da6d9f.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-278abd7b-1fdd-4095-a8c7-2dde804e6f57.png",
+      "generated": {
+        "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-5150d391-9488-4aa6-b2de-cbc19df58f25.png",
+        "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-13db8ac4-ff6f-4a1f-aee0-c5107ee693d7.png",
+        "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-eb49afd2-a7ff-4219-88b9-806961da6d9f.png",
+        "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-278abd7b-1fdd-4095-a8c7-2dde804e6f57.png"
+      },
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/ca7cef029156595060e653594d1320f19bcc7c3c62a11a3a67b8e6d9794814ee.img",
+      "sourceImage": true
+    },
+    {
+      "supplierId": 110902,
+      "products": [
+        {
+          "barcode": "3172812I0YUPC8ZHQ",
+          "sku": "110910",
+          "model": "3172812I0YUPC8ZHQ",
+          "title": "Saltea hibridă premium Zen Sleep 120x200cm, Spumă cu memorie de 25 cm, Husă detașabilă, Fabricată în România.",
+          "description": "",
+          "category": "Protecții pentru saltele și toppere",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 1300,
+          "listPrice": 1300,
+          "stock": 20,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260703/17/6916c9a1-6688-3fe6-b4c9-99dc3f62970f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260703/17/f3ebe9d2-fabd-3579-ba15-638d88a54595/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260703/17/92760c44-b43b-3d59-9a8c-3d0d8a14c2cf/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1164289344?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3172813KKAHIDBREV",
+          "sku": "110914",
+          "model": "3172813KKAHIDBREV",
+          "title": "Saltea Hibridă Premium Zen Sleep 90x200cm, Spumă cu Memorie de 25 cm, Husă Detașabilă, Fabricată în România.",
+          "description": "",
+          "category": "Protecții pentru saltele și toppere",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 1100,
+          "listPrice": 1100,
+          "stock": 20,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260703/17/6916c9a1-6688-3fe6-b4c9-99dc3f62970f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260703/17/f3ebe9d2-fabd-3579-ba15-638d88a54595/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260703/17/92760c44-b43b-3d59-9a8c-3d0d8a14c2cf/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1164288963?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "31728149IZMIFJYOC",
+          "sku": "110911",
+          "model": "31728149IZMIFJYOC",
+          "title": "Saltea hibridă premium Zen Sleep 140x200cm, 25 cm spumă cu memorie, husă detașabilă, fabricată în România.",
+          "description": "",
+          "category": "Protecții pentru saltele și toppere",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 1500,
+          "listPrice": 1500,
+          "stock": 19,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260703/17/6916c9a1-6688-3fe6-b4c9-99dc3f62970f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260703/17/f3ebe9d2-fabd-3579-ba15-638d88a54595/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260703/17/92760c44-b43b-3d59-9a8c-3d0d8a14c2cf/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1164289703?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "317281542IW85C8JK",
+          "sku": "110912",
+          "model": "317281542IW85C8JK",
+          "title": "Saltea Hibridă Premium Zen Sleep 160x200cm, Spumă cu Memorie 25 cm, Husă Detașabilă, Fabricată în România.",
+          "description": "",
+          "category": "Protecții pentru saltele și toppere",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 1750,
+          "listPrice": 1750,
+          "stock": 18,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260703/17/6916c9a1-6688-3fe6-b4c9-99dc3f62970f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260703/17/f3ebe9d2-fabd-3579-ba15-638d88a54595/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260703/17/92760c44-b43b-3d59-9a8c-3d0d8a14c2cf/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1164290655?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3172816YS32PR3EPY",
+          "sku": "110913",
+          "model": "3172816YS32PR3EPY",
+          "title": "Saltea hibridă premium Zen Sleep 180x200cm, Spumă cu memorie de 25 cm, Husă detașabilă, Fabricată în România.",
+          "description": "",
+          "category": "Protecții pentru saltele și toppere",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 1900,
+          "listPrice": 1900,
+          "stock": 18,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260703/17/6916c9a1-6688-3fe6-b4c9-99dc3f62970f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260703/17/f3ebe9d2-fabd-3579-ba15-638d88a54595/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260703/17/92760c44-b43b-3d59-9a8c-3d0d8a14c2cf/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1164290842?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/ee8d5929044934e627cadc61bd0be3d911f22b7ea6868a3f58be081ef0bc3d23.img",
+        "/tmp/estore-short-gallery-audit-20261024/d2998cf276f18268a69459970ca8510b2852d961c558bc83a26080177fbd2c68.img",
+        "/tmp/estore-short-gallery-audit-20261024/a7badc79a50643f4a53a1ee1c0d105de2ab71dde470b3c0be85b9fa512345976.img",
+        "/tmp/estore-short-gallery-audit-20261024/a2894510c5e8d9e47395cecd7de719d6d37000f1c500af73d2afa3c5825af9ee.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110902-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/saltele-si-toppere/saltea-ortopedica-dura-inaltime-23-cm-cu-husa-detasabila-rlx13/",
+      "prompts": {
+        "hero": "ONE premium e-commerce photograph, portrait2:3. Reference is exact product. Exact RLX13 mattress: white top with flowing parallel wavy quilting, charcoal-grey mesh side band, RED horizontal zipper line, white vertical handles. Total height23cm. No exposed inside or springs. Preserve all visible construction exactly. Full product front three-quarter view. Neutral ivory and walnut bedroom, soft natural daylight. No text, claims, logos, collage or insets. No invented decorative motifs, quilting, structural layers or accessories. Preserve source true materials, pattern and palette.",
+        "side": "ONE premium e-commerce photograph, portrait2:3. Reference is exact product. Exact RLX13 mattress: white top with flowing parallel wavy quilting, charcoal-grey mesh side band, RED horizontal zipper line, white vertical handles. Total height23cm. No exposed inside or springs. Preserve all visible construction exactly. Distinct low side view of draping textile edge or mattress side, showing depth and edge. Neutral ivory and walnut bedroom, soft natural daylight. No text, claims, logos, collage or insets. No invented decorative motifs, quilting, structural layers or accessories. Preserve source true materials, pattern and palette.",
+        "top": "ONE premium e-commerce photograph, portrait2:3. Reference is exact product. Exact RLX13 mattress: white top with flowing parallel wavy quilting, charcoal-grey mesh side band, RED horizontal zipper line, white vertical handles. Total height23cm. No exposed inside or springs. Preserve all visible construction exactly. Straight overhead whole product view, exact source surface pattern. Neutral ivory and walnut bedroom, soft natural daylight. No text, claims, logos, collage or insets. No invented decorative motifs, quilting, structural layers or accessories. Preserve source true materials, pattern and palette.",
+        "detail": "ONE premium e-commerce photograph, portrait2:3. Reference is exact product. Exact RLX13 mattress: white top with flowing parallel wavy quilting, charcoal-grey mesh side band, RED horizontal zipper line, white vertical handles. Total height23cm. No exposed inside or springs. Preserve all visible construction exactly. TIGHT CLOSE-UP only of white wavy-quilted fabric edge, grey mesh band and closed red zipper. No whole mattress or room. Neutral ivory and walnut bedroom, soft natural daylight. No text, claims, logos, collage or insets. No invented decorative motifs, quilting, structural layers or accessories. Preserve source true materials, pattern and palette."
+      },
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-dae032c9-e31a-4342-bf6f-74f36d0ee757.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-3024779b-1654-4303-a8e1-344d036c014d.png",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c438c144-d0d3-4b6f-84a4-903ee47571f7.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-9f073149-b4c6-4d5e-9433-38ca2ae3c1fd.png",
+      "generated": {
+        "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-dae032c9-e31a-4342-bf6f-74f36d0ee757.png",
+        "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-3024779b-1654-4303-a8e1-344d036c014d.png",
+        "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c438c144-d0d3-4b6f-84a4-903ee47571f7.png",
+        "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-9f073149-b4c6-4d5e-9433-38ca2ae3c1fd.png"
+      },
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/ee8d5929044934e627cadc61bd0be3d911f22b7ea6868a3f58be081ef0bc3d23.img",
+      "sourceImage": true
+    }
+  ],
+  "review": "Eight actual generated outputs reviewed against own supplier reference. Four distinct photographs each, accurate pillow count and mattress construction."
+}

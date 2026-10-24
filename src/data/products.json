@@ -35083,5 +35083,151 @@
       }
     ],
     "inStock": false
+  },
+  {
+    "id": 77317,
+    "sku": "77317",
+    "name": "Lenjerie Finet Horeca albă, 4 piese",
+    "category": "Produse HoReCa",
+    "categoryPath": "produse-hotel",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Finet, amestec de bumbac și policoton, 130 g/m²",
+    "description": "Lenjerie Finet Horeca albă, 4 piese.\n\nMaterial: Finet, amestec de bumbac și policoton, 130 g/m².\n\nConținut: 1 cearșaf de pat 230 × 260 cm, 1 cearșaf de pilotă 200 × 230 cm și 2 fețe de pernă 50 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/produse-hotel/lenjerie-pat-finet-horeca-king-size/",
+    "images": [
+      "/products/77317/hero-reviewed-v1.png",
+      "/products/77317/side-reviewed-v1.png",
+      "/products/77317/top-reviewed-v1.png",
+      "/products/77317/detail-reviewed-v1.png"
+    ],
+    "image": "/products/77317/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Finet, amestec de bumbac și policoton, 130 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 cearșaf de pat 230 × 260 cm, 1 cearșaf de pilotă 200 × 230 cm și 2 fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "price": 159,
+    "stock": 9,
+    "inStock": true
+  },
+  {
+    "id": 110902,
+    "sku": "110910",
+    "name": "Saltea fermă RLX13 din spumă poliuretanică, 23 cm",
+    "category": "Saltele și toppere",
+    "categoryPath": "saltele-si-toppere",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Spumă poliuretanică 25 kg/m³; husă din tricot matlasat cu vatelină 120 g/m²",
+    "description": "Saltea fermă RLX13 din spumă poliuretanică, 23 cm.\n\nMaterial: Spumă poliuretanică 25 kg/m³; husă din tricot matlasat cu vatelină 120 g/m².\n\nConținut: O saltea în dimensiunea selectată, înălțime 23 cm, fermitate dură și husă detașabilă.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/saltele-si-toppere/saltea-ortopedica-dura-inaltime-23-cm-cu-husa-detasabila-rlx13/",
+    "images": [
+      "/products/110902/hero-reviewed-v1.png",
+      "/products/110902/side-reviewed-v1.png",
+      "/products/110902/top-reviewed-v1.png",
+      "/products/110902/detail-reviewed-v1.png"
+    ],
+    "image": "/products/110902/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Spumă poliuretanică 25 kg/m³; husă din tricot matlasat cu vatelină 120 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "O saltea în dimensiunea selectată, înălțime 23 cm, fermitate dură și husă detașabilă."
+      }
+    ],
+    "price": 1139,
+    "stock": 95,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 110910,
+        "sku": "110910",
+        "name": "120 × 200 cm",
+        "dimensions": "120 × 200 cm",
+        "contents": "O saltea în dimensiunea selectată, înălțime 23 cm, fermitate dură și husă detașabilă.",
+        "images": [
+          "/products/110902/hero-reviewed-v1.png",
+          "/products/110902/side-reviewed-v1.png",
+          "/products/110902/top-reviewed-v1.png",
+          "/products/110902/detail-reviewed-v1.png"
+        ],
+        "price": 1389,
+        "stock": 20,
+        "inStock": true
+      },
+      {
+        "id": 110914,
+        "sku": "110914",
+        "name": "90 × 200 cm",
+        "dimensions": "90 × 200 cm",
+        "contents": "O saltea în dimensiunea selectată, înălțime 23 cm, fermitate dură și husă detașabilă.",
+        "images": [
+          "/products/110902/hero-reviewed-v1.png",
+          "/products/110902/side-reviewed-v1.png",
+          "/products/110902/top-reviewed-v1.png",
+          "/products/110902/detail-reviewed-v1.png"
+        ],
+        "price": 1139,
+        "stock": 20,
+        "inStock": true
+      },
+      {
+        "id": 110911,
+        "sku": "110911",
+        "name": "140 × 200 cm",
+        "dimensions": "140 × 200 cm",
+        "contents": "O saltea în dimensiunea selectată, înălțime 23 cm, fermitate dură și husă detașabilă.",
+        "images": [
+          "/products/110902/hero-reviewed-v1.png",
+          "/products/110902/side-reviewed-v1.png",
+          "/products/110902/top-reviewed-v1.png",
+          "/products/110902/detail-reviewed-v1.png"
+        ],
+        "price": 1639,
+        "stock": 19,
+        "inStock": true
+      },
+      {
+        "id": 110912,
+        "sku": "110912",
+        "name": "160 × 200 cm",
+        "dimensions": "160 × 200 cm",
+        "contents": "O saltea în dimensiunea selectată, înălțime 23 cm, fermitate dură și husă detașabilă.",
+        "images": [
+          "/products/110902/hero-reviewed-v1.png",
+          "/products/110902/side-reviewed-v1.png",
+          "/products/110902/top-reviewed-v1.png",
+          "/products/110902/detail-reviewed-v1.png"
+        ],
+        "price": 1839,
+        "stock": 18,
+        "inStock": true
+      },
+      {
+        "id": 110913,
+        "sku": "110913",
+        "name": "180 × 200 cm",
+        "dimensions": "180 × 200 cm",
+        "contents": "O saltea în dimensiunea selectată, înălțime 23 cm, fermitate dură și husă detașabilă.",
+        "images": [
+          "/products/110902/hero-reviewed-v1.png",
+          "/products/110902/side-reviewed-v1.png",
+          "/products/110902/top-reviewed-v1.png",
+          "/products/110902/detail-reviewed-v1.png"
+        ],
+        "price": 2039,
+        "stock": 18,
+        "inStock": true
+      }
+    ]
   }
 ]

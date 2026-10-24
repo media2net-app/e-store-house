@@ -9028,5 +9028,35 @@
       "110517": false
     },
     "checkedAt": "2026-10-24T01:59:09.014454+00:00"
+  },
+  {
+    "id": 77317,
+    "supplierUrl": "https://ralexpucioasa.ro/store/produse-hotel/lenjerie-pat-finet-horeca-king-size/",
+    "costs": {
+      "77317": 121.0
+    },
+    "availability": {
+      "77317": true
+    },
+    "checkedAt": "2026-10-24T02:06:13.930626+00:00"
+  },
+  {
+    "id": 110902,
+    "supplierUrl": "https://ralexpucioasa.ro/store/saltele-si-toppere/saltea-ortopedica-dura-inaltime-23-cm-cu-husa-detasabila-rlx13/",
+    "costs": {
+      "110910": 1072,
+      "110914": 880,
+      "110911": 1267,
+      "110912": 1423,
+      "110913": 1579
+    },
+    "availability": {
+      "110910": true,
+      "110914": true,
+      "110911": true,
+      "110912": true,
+      "110913": true
+    },
+    "checkedAt": "2026-10-24T02:06:13.930626+00:00"
   }
 ]
