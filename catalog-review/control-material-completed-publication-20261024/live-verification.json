@@ -1,0 +1,31 @@
+{
+  "batch": "control-material-completed-publication-20261024",
+  "checkedAt": "2026-10-24T01:50:43.041967+00:00",
+  "catalogCount": 743,
+  "results": [
+    {
+      "id": 388,
+      "status": "live"
+    },
+    {
+      "id": 442,
+      "status": "live"
+    },
+    {
+      "id": 98131,
+      "status": "live"
+    },
+    {
+      "id": 37964,
+      "status": "live"
+    },
+    {
+      "id": 451,
+      "status": "live"
+    },
+    {
+      "id": 79880,
+      "status": "live"
+    }
+  ]
+}

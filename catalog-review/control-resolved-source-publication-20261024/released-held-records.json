@@ -1,0 +1,438 @@
+[
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "id": 160109,
+      "name": "Saltea Luxury 7 Zone Memory, 30 cm — RLX19",
+      "categoryPath": "saltele-si-toppere",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-8.webp",
+      "images": [
+        "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-8.webp",
+        "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-9.webp",
+        "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-10.webp",
+        "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-11.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/saltele-si-toppere/saltea-luxury-7-zone-memory-30cm-rlx-19/",
+      "material": "Spumă cu memorie, spumă poliuretanică și arcuri Pocket",
+      "features": [
+        {
+          "label": "Înălțime",
+          "value": "aproximativ 30 cm"
+        },
+        {
+          "label": "Confort",
+          "value": "7 zone, arcuri Pocket"
+        },
+        {
+          "label": "Strat Memory Foam",
+          "value": "3 cm"
+        },
+        {
+          "label": "Husă",
+          "value": "Tricot premium matlasat, detașabilă"
+        }
+      ],
+      "description": "Saltea Luxury 7 Zone Memory, 30 cm — RLX19. Caracteristici produs înălțime totală de aproximativ 30 cm; 3 cm Memory Foam, densitate 4020, pentru adaptabilitate și confort; 5 cm spumă poliuretanică T3546 pentru tranziția către nucleul saltelei; sistem de arcuri Pocket în 7 zone de confort pentru susținere diferențiată; bordură perimetrală din spumă poliuretanică, densitate 2542, pentru stabilitatea marginilor; 6,5 cm spumă poliuretanică T3040 în partea inferioară; husă premium din tricot, matlasată cu spumă cu memorie 40er; husă detașabilă cu fermoar, pentru întreținere facilă; bordură laterală Spacer, pentru îmbunătățirea circulației aerului; construcție hibridă și multistrat pentru confort, stabilitate și susținere. Conținut pachet: 1 saltea.",
+      "category": "Saltele și toppere",
+      "variants": [
+        {
+          "id": 160126,
+          "sku": "160126",
+          "name": "Dimensiune",
+          "dimensions": "90 × 200 cm",
+          "price": 1909,
+          "images": [
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-8.webp",
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-9.webp",
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-10.webp",
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-11.webp"
+          ],
+          "inStock": true,
+          "contents": "1 saltea — 90 × 200 cm",
+          "stock": 100
+        },
+        {
+          "id": 160127,
+          "sku": "160127",
+          "name": "Dimensiune",
+          "dimensions": "120 × 200 cm",
+          "price": 2409,
+          "images": [
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-8.webp",
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-9.webp",
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-10.webp",
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-11.webp"
+          ],
+          "inStock": true,
+          "contents": "1 saltea — 120 × 200 cm",
+          "stock": 100
+        },
+        {
+          "id": 160128,
+          "sku": "160128",
+          "name": "Dimensiune",
+          "dimensions": "140 × 200 cm",
+          "price": 2719,
+          "images": [
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-8.webp",
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-9.webp",
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-10.webp",
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-11.webp"
+          ],
+          "inStock": true,
+          "contents": "1 saltea — 140 × 200 cm",
+          "stock": 100
+        },
+        {
+          "id": 160129,
+          "sku": "160129",
+          "name": "Dimensiune",
+          "dimensions": "160 × 200 cm",
+          "price": 3119,
+          "images": [
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-8.webp",
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-9.webp",
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-10.webp",
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-11.webp"
+          ],
+          "inStock": true,
+          "contents": "1 saltea — 160 × 200 cm",
+          "stock": 100
+        },
+        {
+          "id": 160130,
+          "sku": "160130",
+          "name": "Dimensiune",
+          "dimensions": "180 × 200 cm",
+          "price": 3339,
+          "images": [
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-8.webp",
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-9.webp",
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-10.webp",
+            "/products/saltea-luxury-7-zone-memory-30cm-rlx-19/local-11.webp"
+          ],
+          "inStock": true,
+          "contents": "1 saltea — 180 × 200 cm",
+          "stock": 100
+        }
+      ],
+      "price": 1909,
+      "inStock": true
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete"
+    ],
+    "product": {
+      "id": 100758,
+      "name": "Protecție pat matlasată impermeabilă (înălțime saltea 26cm) cu două fețe de pernă (50cm x 70cm)",
+      "categoryPath": "protectii-saltea",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/protectie-pat-matlasata-impermeabila-200cm-x-200cm-cu-o-fata-de-perna-50cm-x-70cm/local-14.webp",
+      "images": [
+        "/products/protectie-pat-matlasata-impermeabila-200cm-x-200cm-cu-o-fata-de-perna-50cm-x-70cm/local-14.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/protectii-saltea/protectie-pat-matlasata-impermeabila-200cm-x-200cm-cu-o-fata-de-perna-50cm-x-70cm/",
+      "material": "Microfibră matlasată cu vatelină; dos impermeabil",
+      "features": [
+        {
+          "label": "Înălțime saltea",
+          "value": "Până la 26 cm"
+        },
+        {
+          "label": "Fețe de pernă",
+          "value": "2 bucăți, 50 × 70 cm"
+        },
+        {
+          "label": "Prindere",
+          "value": "Elastic de jur împrejur"
+        },
+        {
+          "label": "Structură",
+          "value": "Matlasată, dos impermeabil"
+        }
+      ],
+      "description": "Protecție pat matlasată impermeabilă (înălțime saltea 26cm) cu două fețe de pernă (50cm x 70cm). Descriere: Î nălțime: 26cm Două fețe de pernă: 50cm x 70cm Compoziție textilă: Față din microfibră, structură matlasată cu vatelină, dos microfibră impermeabilă, țesătură sandw, bordură microfibră și elastic de jur împrejur Conținut pachet: 1 protecție saltea și 2 fețe de pernă.",
+      "category": "Protecții saltea",
+      "variants": [
+        {
+          "id": 100759,
+          "sku": "100759",
+          "name": "Dimensiune",
+          "dimensions": "120 × 200 cm",
+          "price": 119,
+          "images": [
+            "/products/protectie-pat-matlasata-impermeabila-200cm-x-200cm-cu-o-fata-de-perna-50cm-x-70cm/local-14.webp"
+          ],
+          "inStock": true,
+          "contents": "1 protecție saltea și 2 fețe de pernă — 120 × 200 cm"
+        },
+        {
+          "id": 100760,
+          "sku": "100760",
+          "name": "Dimensiune",
+          "dimensions": "140 × 200 cm",
+          "price": 129,
+          "images": [
+            "/products/protectie-pat-matlasata-impermeabila-200cm-x-200cm-cu-o-fata-de-perna-50cm-x-70cm/local-15.webp",
+            "/products/protectie-pat-matlasata-impermeabila-200cm-x-200cm-cu-o-fata-de-perna-50cm-x-70cm/local-14.webp"
+          ],
+          "inStock": true,
+          "contents": "1 protecție saltea și 2 fețe de pernă — 140 × 200 cm"
+        },
+        {
+          "id": 100761,
+          "sku": "100761",
+          "name": "Dimensiune",
+          "dimensions": "160 × 200 cm",
+          "price": 139,
+          "images": [
+            "/products/protectie-pat-matlasata-impermeabila-200cm-x-200cm-cu-o-fata-de-perna-50cm-x-70cm/local-16.webp",
+            "/products/protectie-pat-matlasata-impermeabila-200cm-x-200cm-cu-o-fata-de-perna-50cm-x-70cm/local-14.webp"
+          ],
+          "inStock": true,
+          "contents": "1 protecție saltea și 2 fețe de pernă — 160 × 200 cm"
+        },
+        {
+          "id": 100762,
+          "sku": "100762",
+          "name": "Dimensiune",
+          "dimensions": "180 × 200 cm",
+          "price": 219,
+          "images": [
+            "/products/protectie-pat-matlasata-impermeabila-200cm-x-200cm-cu-o-fata-de-perna-50cm-x-70cm/local-17.webp",
+            "/products/protectie-pat-matlasata-impermeabila-200cm-x-200cm-cu-o-fata-de-perna-50cm-x-70cm/local-14.webp"
+          ],
+          "inStock": true,
+          "contents": "1 protecție saltea și 2 fețe de pernă — 180 × 200 cm",
+          "stock": 50
+        },
+        {
+          "id": 100763,
+          "sku": "100763",
+          "name": "Dimensiune",
+          "dimensions": "200 × 200 cm",
+          "price": 239,
+          "images": [
+            "/products/protectie-pat-matlasata-impermeabila-200cm-x-200cm-cu-o-fata-de-perna-50cm-x-70cm/local-18.webp",
+            "/products/protectie-pat-matlasata-impermeabila-200cm-x-200cm-cu-o-fata-de-perna-50cm-x-70cm/local-14.webp"
+          ],
+          "inStock": true,
+          "contents": "1 protecție saltea și 2 fețe de pernă — 200 × 200 cm",
+          "stock": 47
+        },
+        {
+          "id": 101923,
+          "sku": "101923",
+          "name": "Dimensiune",
+          "dimensions": "90 × 200 cm",
+          "price": 149,
+          "images": [
+            "/products/protectie-pat-matlasata-impermeabila-200cm-x-200cm-cu-o-fata-de-perna-50cm-x-70cm/local-19.webp",
+            "/products/protectie-pat-matlasata-impermeabila-200cm-x-200cm-cu-o-fata-de-perna-50cm-x-70cm/local-14.webp"
+          ],
+          "inStock": true,
+          "contents": "1 protecție saltea și 2 fețe de pernă — 90 × 200 cm",
+          "stock": 50
+        }
+      ],
+      "price": 119,
+      "inStock": true
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 81218,
+      "name": "Lenjerie de pat natur uni baroque 6 piese cu cearsaf (capucino) — bej",
+      "category": "LENJERII DE PAT NATUR UNI",
+      "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Descriere produs\nȚesătură uni\nCompoziție textilă: 50% bumbac + 50% poliester\nDimensiuni cearșaf pat: 230cm x 250cm\nDimensiuni cearșaf pilotă: 200cm x 230cm\nDimensiuni fețe pernă: 2buc – 50cm x 70cm / 2buc – 70cm x 70cm",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-cearsaf-capucino/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260610/14/9b9c91b6-7df8-3304-b692-03daef95e9c0/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260610/14/7a80e378-3e75-3a7e-9e33-543a0882a84b/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260610/14/7b774318-0e57-3892-a9bb-8edb8bef169c/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260610/14/53cb6505-f76b-30e6-a696-aaecbcb036aa/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260610/20/8ce0f875-132e-34b0-b06f-9f81f49515ec/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260610/14/9b9c91b6-7df8-3304-b692-03daef95e9c0/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 329,
+      "sku": "81218",
+      "stock": 49
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete",
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 103378,
+      "name": "Protecție Saltea Impermeabilă „AquaStop” — alb",
+      "category": "PROTECȚII SALTEA",
+      "categoryPath": "protectii-saltea",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Descriere:\nCompoziție textilă: tricot 100% poliester impermeabil\nDensitate: 160g/m²\nLavabilă la 30°C\nÎnălțime saltea până la 30cm\nProtecție Saltea Impermeabilă „AquaStop” – Siguranță și Confort pentru Somnul Tău\nPrelungește viața saltelei tale și bucură-te de un mediu de dormit igienic cu protecția de saltea impermeabilă AquaStop. Proiectată pentru a oferi o barieră impenetrabilă împotriva lichidelor, această protecție este accesoriul indispensabil pentru orice dormitor modern, fiind ideală pentru familii cu copii, posesori de animale de companie sau pentru cei care își doresc o întreținere facilă a patului.\nDe ce să alegi Protecția AquaStop?\nSpre deosebire de protecțiile obișnuite, modelul AquaStop combină durabilitatea poliesterului cu o membrană specială care oprește umezeala, fără a compromite confortul.\nImpermeabilitate Totală: Tehnologia AquaStop garantează protecția împotriva accidentelor lichide, transpirației sau petelor, menținând salteaua curată și uscată.\nFixare Perfectă: Concepută cu margini elastice, aceasta îmbracă perfect saltele cu o înălțime de până la 30 cm, rămânând fixă chiar și dacă te miști mult în timpul somnului.\nMaterial de Calitate: Realizată din tricot 100% poliester, protecția oferă o atingere moale și o rezistență crescută în timp.\nBeneficii Cheie pentru Utilizator\nIgienă Desăvârșită: Previne dezvoltarea acarienilor și a bacteriilor prin blocarea pătrunderii celulelor moarte și a umezelii în interiorul saltelei.\nEconomisire: Este mult mai ieftin să speli o protecție de saltea decât să cureți profesional sau să înlocuiești o saltea deteriorată.\nSilențioasă: Textura tricotului este concepută să nu producă foșnetul specific plasticului, asigurând un somn liniștit.\nSfaturi de Întreținere\nPentru a menține proprietățile impermeabile ale stratului protector, recomandăm spălarea la o temperatură de 30°C. Evitați utilizarea înălbitorilor chimici agresivi și călcarea cu fierul de călcat, pentru a proteja integritatea membranei AquaStop.\nAsigură-ți confortul de care ai nevoie! Adaugă acum în coș protecția de saltea AquaStop și uită de grija petelor sau a uzurii premature.",
+      "externalUrl": "https://ralexpucioasa.ro/store/protectii-saltea/protectie-saltea-impermeabila-aquastop/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260702/12/6acc3de1-b650-3e48-9834-a3d91295179f/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260702/12/5a1e469d-a4db-3864-8d66-ce68f98ceb1a/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260702/12/6acc3de1-b650-3e48-9834-a3d91295179f/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 99,
+      "variants": [
+        {
+          "id": 103379,
+          "sku": "103379",
+          "name": "200cm-x-200cm",
+          "dimensions": "",
+          "contents": "200cm-x-200cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260702/12/6acc3de1-b650-3e48-9834-a3d91295179f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260702/12/5a1e469d-a4db-3864-8d66-ce68f98ceb1a/1_org_zoom.jpg"
+          ],
+          "price": 149,
+          "inStock": true,
+          "stock": 96
+        },
+        {
+          "id": 103380,
+          "sku": "103380",
+          "name": "180cm-x-200cm",
+          "dimensions": "",
+          "contents": "180cm-x-200cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260702/12/6acc3de1-b650-3e48-9834-a3d91295179f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260702/12/5a1e469d-a4db-3864-8d66-ce68f98ceb1a/1_org_zoom.jpg"
+          ],
+          "price": 139,
+          "inStock": true,
+          "stock": 98
+        },
+        {
+          "id": 103381,
+          "sku": "103381",
+          "name": "160cm-x-200cm",
+          "dimensions": "",
+          "contents": "160cm-x-200cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260702/12/6acc3de1-b650-3e48-9834-a3d91295179f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260702/12/5a1e469d-a4db-3864-8d66-ce68f98ceb1a/1_org_zoom.jpg"
+          ],
+          "price": 129,
+          "inStock": true,
+          "stock": 99
+        },
+        {
+          "id": 103382,
+          "sku": "103382",
+          "name": "140cm-x-200cm",
+          "dimensions": "",
+          "contents": "140cm-x-200cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260702/12/6acc3de1-b650-3e48-9834-a3d91295179f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260702/12/5a1e469d-a4db-3864-8d66-ce68f98ceb1a/1_org_zoom.jpg"
+          ],
+          "price": 119,
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 103383,
+          "sku": "103383",
+          "name": "90cm-x-200cm",
+          "dimensions": "",
+          "contents": "90cm-x-200cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260702/12/6acc3de1-b650-3e48-9834-a3d91295179f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260702/12/5a1e469d-a4db-3864-8d66-ce68f98ceb1a/1_org_zoom.jpg"
+          ],
+          "price": 99,
+          "inStock": true,
+          "stock": 100
+        }
+      ]
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 95327,
+      "name": "Față de masă antimurdărire — Crem cu imprimeu bordo",
+      "category": "Fețe de masă antimurdărire",
+      "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Specificații:\n– 70% bumbac + 30% poliester\n– tratată cu teflon (impermeabilă)\n– se spală la 40*\n– se calcă ușor la 150*\nAdaugă un strop de eleganță și funcționalitate mesei tale cu fața de masă, tratată cu Teflon pentru protecție suplimentară! Confecționată dintr-un material natural, de înaltă calitate, această față de masă nu doar că îți va înfrumuseța locul de servire, dar va rezista și în fața diverselor provocări zilnice.\nTratamentul cu Teflon o face antiaderentă, protejând-o eficient împotriva petelor și lichidelor, astfel încât să te bucuri de mese fără grija curățării constante. Datorită acestui strat inovator, fața de masă își menține aspectul impecabil, chiar și în fața celor mai încăpățânate urme de alimente sau băuturi.\nAvantaje:\nTratament Teflon: Protecție de lungă durată împotriva petelor și umezelii.\nUșor de întreținut: Se curăță rapid și simplu, păstrându-și aspectul ca nou.\nRezistentă și durabilă: Ideală pentru orice tip de eveniment, de la cine de zi cu zi până la petreceri festive.\nPerfectă pentru orice masă, fie că este vorba de un prânz în familie sau de o cină elegantă, fața de masă din bumbac tratată cu Teflon adaugă atât stil, cât și practică în orice bucătărie sau sufragerie.",
+      "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-100-bumbac-16/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261013/16/f60c79ed-4722-3d79-b16d-677c6dd23540/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261013/16/e4d1bddd-3c33-3d63-a8d6-9a6f3c1caf69/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261013/16/94bdc441-d944-3c77-9d06-6bf3198292e7/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261013/16/a04cf5cb-b051-3bb9-8f62-dd9c21e5984e/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261013/16/f60c79ed-4722-3d79-b16d-677c6dd23540/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 189,
+      "variants": [
+        {
+          "id": 95331,
+          "sku": "95331",
+          "name": "160cm x 240cm",
+          "dimensions": "",
+          "contents": "160cm x 240cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261013/16/f60c79ed-4722-3d79-b16d-677c6dd23540/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261013/16/e4d1bddd-3c33-3d63-a8d6-9a6f3c1caf69/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261013/16/94bdc441-d944-3c77-9d06-6bf3198292e7/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261013/16/a04cf5cb-b051-3bb9-8f62-dd9c21e5984e/1_org_zoom.jpg"
+          ],
+          "price": 189,
+          "inStock": true,
+          "stock": 100
+        }
+      ]
+    }
+  }
+]

@@ -8895,5 +8895,108 @@
       "79880": true
     },
     "checkedAt": "2026-10-24T01:44:40.896870+00:00"
+  },
+  {
+    "id": 161817,
+    "supplierUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-28/",
+    "costs": {
+      "161818": 58,
+      "161819": 64
+    },
+    "availability": {
+      "161818": true,
+      "161819": true
+    },
+    "checkedAt": "2026-10-24T01:49:48.777836+00:00"
+  },
+  {
+    "id": 95327,
+    "supplierUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-100-bumbac-16/",
+    "costs": {
+      "95331": 105
+    },
+    "availability": {
+      "95331": true
+    },
+    "checkedAt": "2026-10-24T01:49:48.777836+00:00"
+  },
+  {
+    "id": 103378,
+    "supplierUrl": "https://ralexpucioasa.ro/store/protectii-saltea/protectie-saltea-impermeabila-aquastop/",
+    "costs": {
+      "103379": 82,
+      "103380": 75,
+      "103381": 67,
+      "103382": 63,
+      "103383": 54
+    },
+    "availability": {
+      "103379": true,
+      "103380": true,
+      "103381": true,
+      "103382": true,
+      "103383": true
+    },
+    "checkedAt": "2026-10-24T01:49:48.777836+00:00"
+  },
+  {
+    "id": 160109,
+    "supplierUrl": "https://ralexpucioasa.ro/store/saltele-si-toppere/saltea-luxury-7-zone-memory-30cm-rlx-19/",
+    "costs": {
+      "160127": 1336,
+      "160130": 1854,
+      "160126": 1060,
+      "160128": 1509,
+      "160129": 1731
+    },
+    "availability": {
+      "160127": true,
+      "160130": true,
+      "160126": true,
+      "160128": true,
+      "160129": true
+    },
+    "checkedAt": "2026-10-24T01:49:48.777836+00:00"
+  },
+  {
+    "id": 81218,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-baroque-6-piese-cu-cearsaf-capucino/",
+    "costs": {
+      "81218": 178.0
+    },
+    "availability": {
+      "81218": true
+    },
+    "checkedAt": "2026-10-24T01:49:48.777836+00:00"
+  },
+  {
+    "id": 100758,
+    "supplierUrl": "https://ralexpucioasa.ro/store/protectii-saltea/protectie-pat-matlasata-impermeabila-200cm-x-200cm-cu-o-fata-de-perna-50cm-x-70cm/",
+    "costs": {
+      "100763": 129,
+      "101923": 81,
+      "100761": 112,
+      "100760": 105,
+      "100762": 121
+    },
+    "availability": {
+      "100763": true,
+      "101923": true,
+      "100761": true,
+      "100760": true,
+      "100762": true
+    },
+    "checkedAt": "2026-10-24T01:49:48.777836+00:00"
+  },
+  {
+    "id": 104173,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-nesifonabila-gofre/",
+    "costs": {
+      "104174": 177
+    },
+    "availability": {
+      "104174": true
+    },
+    "checkedAt": "2026-10-24T01:49:48.777836+00:00"
   }
 ]

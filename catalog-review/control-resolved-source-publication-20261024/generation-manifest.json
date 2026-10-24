@@ -1,0 +1,706 @@
+{
+  "tool": "image_gen",
+  "outputs": [
+    {
+      "key": "0075c84c7e29",
+      "products": [
+        {
+          "barcode": "161818",
+          "sku": "161818",
+          "model": "161817",
+          "title": "Față de masă anti-pete model 28, verde-ivoar, 140x180 cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "Verde-fildeș",
+          "size": "",
+          "price": 80,
+          "listPrice": 80,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/20/ace7776f-ccf0-35d4-ac36-1cf118e14993/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/20/f84f6094-9f4a-3507-9186-6f155b711735/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/20/a023d48c-d260-3589-9ec6-6389025474df/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/20/05287212-0260-37ce-a5ff-4492d081d3a7/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1207927325?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "161819",
+          "sku": "161819",
+          "model": "161817",
+          "title": "Față de masă anti-pete model 28, verde-ivoar, 140x180 cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "Verde-fildeș",
+          "size": "",
+          "price": 90,
+          "listPrice": 90,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/20/ace7776f-ccf0-35d4-ac36-1cf118e14993/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/20/f84f6094-9f4a-3507-9186-6f155b711735/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/20/a023d48c-d260-3589-9ec6-6389025474df/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/20/05287212-0260-37ce-a5ff-4492d081d3a7/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1207927325?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "supplierId": 161817,
+      "source": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-28/",
+      "sourceImage": "https://ralexpucioasa.ro/wp-content/uploads/2026/09/Cozy-Farmhouse-Dining-Table-Setting-turn.webp",
+      "urls": [
+        "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/20/ace7776f-ccf0-35d4-ac36-1cf118e14993/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261001/20/f84f6094-9f4a-3507-9186-6f155b711735/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/20/a023d48c-d260-3589-9ec6-6389025474df/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/20/05287212-0260-37ce-a5ff-4492d081d3a7/1_org_zoom.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/c8696e5f973f694aa322e24dca4785ece6d4934a30bf860432101b7773401d1c.img",
+        "/tmp/estore-control-gallery-audit-20261023/021a736087dd5e90176f6a3aa311537d27dadacf329099c6f7741f37dc67113a.img",
+        "/tmp/estore-control-gallery-audit-20261023/c7c70375decad681d7b313d382f7ab910bfafb820a12939c210bce4fa36f1d20.img",
+        "/tmp/estore-control-gallery-audit-20261023/0a5a83425c67ad3a3e07228acbb2a71866c331617405de22ff757443d9017c6d.img",
+        "/tmp/estore-control-gallery-audit-20261023/f3c488e30dd1f267ee3706b9ad1ec39e2a53969c72c50e4083ca8b584e14431c.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/c8696e5f973f694aa322e24dca4785ece6d4934a30bf860432101b7773401d1c.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/161817-final-repair-review.jpg",
+      "generated": {},
+      "prompts": {}
+    },
+    {
+      "key": "a8b6336c8c75",
+      "products": [
+        {
+          "barcode": "95331",
+          "sku": "95331",
+          "model": "95327",
+          "title": "Față de masă antimurdărire, 160 x 240 cm, crem cu imprimeu bordo",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "Crem cu imprimeu bordo",
+          "size": "",
+          "price": 194,
+          "listPrice": 194,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261013/16/f60c79ed-4722-3d79-b16d-677c6dd23540/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261013/16/e4d1bddd-3c33-3d63-a8d6-9a6f3c1caf69/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261013/16/94bdc441-d944-3c77-9d06-6bf3198292e7/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261013/16/a04cf5cb-b051-3bb9-8f62-dd9c21e5984e/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1215396072?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "supplierId": 95327,
+      "source": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-100-bumbac-16/",
+      "sourceImage": "https://ralexpucioasa.ro/wp-content/uploads/2025/06/fm23.jpg",
+      "urls": [
+        "https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261013/16/f60c79ed-4722-3d79-b16d-677c6dd23540/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1979/prod/QC_PREP/20261013/16/e4d1bddd-3c33-3d63-a8d6-9a6f3c1caf69/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261013/16/94bdc441-d944-3c77-9d06-6bf3198292e7/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1977/prod/QC_PREP/20261013/16/a04cf5cb-b051-3bb9-8f62-dd9c21e5984e/1_org_zoom.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/fdf560007b92083248e74bad412525a580ae5c8438f763d54daabe8d07e1c086.img",
+        "/tmp/estore-control-gallery-audit-20261023/1973d13c7646032d4bc33184ace88ef397867e594ec3431de824dec1674315fa.img",
+        "/tmp/estore-control-gallery-audit-20261023/28f12075781a1827d2b5bdbc64340c5a21e1cc350844acbc1a5f298c1e06d8a9.img",
+        "/tmp/estore-control-gallery-audit-20261023/d8f553bd17ba6e62ea19a43082cb1b3e00d4de17ee738989dd7d607c7618b028.img",
+        "/tmp/estore-control-gallery-audit-20261023/f172fb74b2e90bc06c0ecdbc8019da60adee5dc878aa616315b86d203ec32866.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/fdf560007b92083248e74bad412525a580ae5c8438f763d54daabe8d07e1c086.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/95327-final-repair-review.jpg",
+      "generated": {},
+      "prompts": {}
+    },
+    {
+      "key": "7f671305ec1c",
+      "products": [
+        {
+          "barcode": "3153892YJNZWFRXWX",
+          "sku": "103379",
+          "model": "3153892YJNZWFRXWX",
+          "title": "Protectie saltea Ralex AquaStop, 200 x 200 cm, pentru saltea pana la 30 cm, alb",
+          "description": "<p>Protectie saltea Ralex AquaStop, 200 x 200 cm, pentru saltea pana la 30 cm, alb</p><ul><li>Dimensiune protecție saltea: 200 x 200 cm.</li><li>Potrivită pentru saltele cu înălțimea de până la 30 cm; fixare cu margini elastice.</li><li>Conține 1 protecție de saltea, fără fețe de pernă.</li><li>Material: tricot 100% poliester cu strat protector impermeabil.</li><li>Densitate: 160 g/m².</li><li>Spălare la maximum 30°C, conform indicațiilor furnizorului. Fără înălbitori și fără călcare.</li></ul><p>Protecție împotriva umezelii; furnizorul indică în catalog un nivel de impermeabilitate de 90%. Respectați instrucțiunile de pe eticheta produsului. Salteaua, umpluturile de pernă, mobilierul și decorul nu sunt incluse.</p>",
+          "category": "Protectoare pentru saltele",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "200 x 200 cm",
+          "price": 149,
+          "listPrice": 149,
+          "images": [
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-hero.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-side.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-detail.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-overhead.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1163692798?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "stock": 96,
+          "revision": 1,
+          "updated": "2026-10-21T10:19:10.337Z"
+        },
+        {
+          "barcode": "3153891TQKBCFBU0F",
+          "sku": "103380",
+          "model": "3153891TQKBCFBU0F",
+          "title": "Protectie saltea Ralex AquaStop, 180 x 200 cm, pentru saltea pana la 30 cm, alb",
+          "description": "<p>Protectie saltea Ralex AquaStop, 180 x 200 cm, pentru saltea pana la 30 cm, alb</p><ul><li>Dimensiune protecție saltea: 180 x 200 cm.</li><li>Potrivită pentru saltele cu înălțimea de până la 30 cm; fixare cu margini elastice.</li><li>Conține 1 protecție de saltea, fără fețe de pernă.</li><li>Material: tricot 100% poliester cu strat protector impermeabil.</li><li>Densitate: 160 g/m².</li><li>Spălare la maximum 30°C, conform indicațiilor furnizorului. Fără înălbitori și fără călcare.</li></ul><p>Protecție împotriva umezelii; furnizorul indică în catalog un nivel de impermeabilitate de 90%. Respectați instrucțiunile de pe eticheta produsului. Salteaua, umpluturile de pernă, mobilierul și decorul nu sunt incluse.</p>",
+          "category": "Protectoare pentru saltele",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "180 x 200 cm",
+          "price": 144,
+          "listPrice": 144,
+          "images": [
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-hero.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-side.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-detail.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-overhead.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1163692788?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "stock": 98,
+          "revision": 1,
+          "updated": "2026-10-21T10:19:09.850Z"
+        },
+        {
+          "barcode": "3153890G3E5TUFTIQ",
+          "sku": "103381",
+          "model": "3153890G3E5TUFTIQ",
+          "title": "Protectie saltea Ralex AquaStop, 160 x 200 cm, pentru saltea pana la 30 cm, alb",
+          "description": "<p>Protectie saltea Ralex AquaStop, 160 x 200 cm, pentru saltea pana la 30 cm, alb</p><ul><li>Dimensiune protecție saltea: 160 x 200 cm.</li><li>Potrivită pentru saltele cu înălțimea de până la 30 cm; fixare cu margini elastice.</li><li>Conține 1 protecție de saltea, fără fețe de pernă.</li><li>Material: tricot 100% poliester cu strat protector impermeabil.</li><li>Densitate: 160 g/m².</li><li>Spălare la maximum 30°C, conform indicațiilor furnizorului. Fără înălbitori și fără călcare.</li></ul><p>Protecție împotriva umezelii; furnizorul indică în catalog un nivel de impermeabilitate de 90%. Respectați instrucțiunile de pe eticheta produsului. Salteaua, umpluturile de pernă, mobilierul și decorul nu sunt incluse.</p>",
+          "category": "Protectoare pentru saltele",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "160 x 200 cm",
+          "price": 139,
+          "listPrice": 139,
+          "images": [
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-hero.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-side.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-detail.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-overhead.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1163692790?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "stock": 99,
+          "revision": 1,
+          "updated": "2026-10-21T10:19:09.409Z"
+        },
+        {
+          "barcode": "3153889OKXTJLGBCE",
+          "sku": "103382",
+          "model": "3153889OKXTJLGBCE",
+          "title": "Protectie saltea Ralex AquaStop, 140 x 200 cm, pentru saltea pana la 30 cm, alb",
+          "description": "<p>Protectie saltea Ralex AquaStop, 140 x 200 cm, pentru saltea pana la 30 cm, alb</p><ul><li>Dimensiune protecție saltea: 140 x 200 cm.</li><li>Potrivită pentru saltele cu înălțimea de până la 30 cm; fixare cu margini elastice.</li><li>Conține 1 protecție de saltea, fără fețe de pernă.</li><li>Material: tricot 100% poliester cu strat protector impermeabil.</li><li>Densitate: 160 g/m².</li><li>Spălare la maximum 30°C, conform indicațiilor furnizorului. Fără înălbitori și fără călcare.</li></ul><p>Protecție împotriva umezelii; furnizorul indică în catalog un nivel de impermeabilitate de 90%. Respectați instrucțiunile de pe eticheta produsului. Salteaua, umpluturile de pernă, mobilierul și decorul nu sunt incluse.</p>",
+          "category": "Protectoare pentru saltele",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "140 x 200 cm",
+          "price": 129,
+          "listPrice": 129,
+          "images": [
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-hero.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-side.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-detail.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-overhead.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1163692801?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "stock": 100,
+          "revision": 1,
+          "updated": "2026-10-21T10:19:08.984Z"
+        },
+        {
+          "barcode": "3153888LSFAAAR7DT",
+          "sku": "103383",
+          "model": "3153888LSFAAAR7DT",
+          "title": "Protectie saltea Ralex AquaStop, 90 x 200 cm, pentru saltea pana la 30 cm, alb",
+          "description": "<p>Protectie saltea Ralex AquaStop, 90 x 200 cm, pentru saltea pana la 30 cm, alb</p><ul><li>Dimensiune protecție saltea: 90 x 200 cm.</li><li>Potrivită pentru saltele cu înălțimea de până la 30 cm; fixare cu margini elastice.</li><li>Conține 1 protecție de saltea, fără fețe de pernă.</li><li>Material: tricot 100% poliester cu strat protector impermeabil.</li><li>Densitate: 160 g/m².</li><li>Spălare la maximum 30°C, conform indicațiilor furnizorului. Fără înălbitori și fără călcare.</li></ul><p>Protecție împotriva umezelii; furnizorul indică în catalog un nivel de impermeabilitate de 90%. Respectați instrucțiunile de pe eticheta produsului. Salteaua, umpluturile de pernă, mobilierul și decorul nu sunt incluse.</p>",
+          "category": "Protectoare pentru saltele",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "90 x 200 cm",
+          "price": 119,
+          "listPrice": 119,
+          "images": [
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-hero.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-side.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-detail.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-overhead.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1163692795?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "stock": 100,
+          "revision": 1,
+          "updated": "2026-10-21T10:19:08.557Z"
+        }
+      ],
+      "supplierId": 103378,
+      "source": null,
+      "sourceImage": null,
+      "urls": [
+        "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-hero.jpg",
+        "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-side.jpg",
+        "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-detail.jpg",
+        "https://emag-api.estorehouse.ro/media/ralex-20261020/aqua-overhead.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/d8e9d0f0bf3fb8819aca9aabc7dd7c9064749fceb30228077bddb53841a61179.img",
+        "/tmp/estore-control-gallery-audit-20261023/5ed0ae9746ae0a884de8be5e0501a2943638d3950dd3b9a2d175a393f7a158c5.img",
+        "/tmp/estore-control-gallery-audit-20261023/0d48a081eed13f4f50a22ac5667625926c82bb6cda032dd711cd942a82d6debb.img",
+        "/tmp/estore-control-gallery-audit-20261023/e9c4e6375013b43197d1f3b12609ccb606d17156752b4f5ea6a383d03151266a.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/3815574ee0e0e8bc35beb067e0b7a3d3fb0a37e36243ee0ba29cb078f6124bab.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/103378-final-repair-review.jpg",
+      "generated": {},
+      "prompts": {}
+    },
+    {
+      "key": "992ea6270d65",
+      "products": [
+        {
+          "barcode": "3622707ZP8ZZUBVS4",
+          "sku": "160127",
+          "model": "3622707ZP8ZZUBVS4",
+          "title": "Saltea de lux cu memorie, 7 zone, 30 cm, Dimensiune 120x200cm",
+          "description": "",
+          "category": "Protecții pentru saltele și toppere",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 1550,
+          "listPrice": 1550,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/99c2073e-2c9a-3c51-b860-53e586ac9319/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/13/7cbd8774-a64c-3cfc-8bd8-d9a11cea4301/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/588cb14d-b94e-3896-ba62-3c8188c33d10/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/d4ecdf7b-a967-3130-bbe8-81dcb6a68dfc/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198077853?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3622708PBRXQRHNMT",
+          "sku": "160130",
+          "model": "3622708PBRXQRHNMT",
+          "title": "Saltea de lux cu memorie, 7 zone, 30 cm, Dimensiune 180x200cm",
+          "description": "",
+          "category": "Protecții pentru saltele și toppere",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 2750,
+          "listPrice": 2750,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/99c2073e-2c9a-3c51-b860-53e586ac9319/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/13/7cbd8774-a64c-3cfc-8bd8-d9a11cea4301/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/588cb14d-b94e-3896-ba62-3c8188c33d10/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/d4ecdf7b-a967-3130-bbe8-81dcb6a68dfc/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198078151?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3622709ORIYJOJTXH",
+          "sku": "160126",
+          "model": "3622709ORIYJOJTXH",
+          "title": "Saltea de lux cu 7 zone de memorie, 30 cm, Dimensiune 90x200cm",
+          "description": "",
+          "category": "Protecții pentru saltele și toppere",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 1250,
+          "listPrice": 1250,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/99c2073e-2c9a-3c51-b860-53e586ac9319/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/13/7cbd8774-a64c-3cfc-8bd8-d9a11cea4301/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/588cb14d-b94e-3896-ba62-3c8188c33d10/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/d4ecdf7b-a967-3130-bbe8-81dcb6a68dfc/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198077824?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3622710BZGBWOUGEP",
+          "sku": "160128",
+          "model": "3622710BZGBWOUGEP",
+          "title": "Saltea de lux cu memorie, 7 zone, 30 cm, dimensiune 140x200cm",
+          "description": "",
+          "category": "Protecții pentru saltele și toppere",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 1950,
+          "listPrice": 1950,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/99c2073e-2c9a-3c51-b860-53e586ac9319/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/13/7cbd8774-a64c-3cfc-8bd8-d9a11cea4301/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/588cb14d-b94e-3896-ba62-3c8188c33d10/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/d4ecdf7b-a967-3130-bbe8-81dcb6a68dfc/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198077989?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3622711B5QSZCAA9A",
+          "sku": "160129",
+          "model": "3622711B5QSZCAA9A",
+          "title": "Saltea de lux cu memorie, 7 zone, 30 cm, dimensiune 160x200cm",
+          "description": "",
+          "category": "Protecții pentru saltele și toppere",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 2550,
+          "listPrice": 2550,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/99c2073e-2c9a-3c51-b860-53e586ac9319/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/13/7cbd8774-a64c-3cfc-8bd8-d9a11cea4301/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/588cb14d-b94e-3896-ba62-3c8188c33d10/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/d4ecdf7b-a967-3130-bbe8-81dcb6a68dfc/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198078090?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "supplierId": 160109,
+      "source": null,
+      "sourceImage": null,
+      "urls": [
+        "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/99c2073e-2c9a-3c51-b860-53e586ac9319/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/13/7cbd8774-a64c-3cfc-8bd8-d9a11cea4301/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/588cb14d-b94e-3896-ba62-3c8188c33d10/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/13/d4ecdf7b-a967-3130-bbe8-81dcb6a68dfc/1_org_zoom.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/57a9a48eb92dfca57a47c8c814b646666213f15167302366217c5cce76952f88.img",
+        "/tmp/estore-control-gallery-audit-20261023/8360b0796dcff5ad1e6e3d972178b39ad12a795bab2eb42a23243874fac350ef.img",
+        "/tmp/estore-control-gallery-audit-20261023/b482282a44fc5a7d2d50b5f2f93d3136d31e7b23f5252fef967e3b1cf8eff964.img",
+        "/tmp/estore-control-gallery-audit-20261023/890f2c53dbf0d77552a48f87c41f73fe61357383a317fdc2faa3d294e6b457ea.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/394e9ecb838efa82cdcf59a9587d79dcfd2bef3a8651dd12051efeb9321cf18e.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/160109-final-repair-review.jpg",
+      "generated": {
+        "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-3cd906df-aa0e-4678-9add-6b76afeecf63.png",
+        "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-49977f92-e4b8-4cef-ad97-9fc56c1acd07.png",
+        "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-af05df16-dbf1-436e-8d88-6d094a54ce03.png"
+      },
+      "prompts": {
+        "side": "ONE premium product photo of EXACT Luxury RLX19 mattress shown in actual supplier reference. Low SIDE camera angle showing the side edge and full approximately 30 cm height of the white mattress on a simple bed base, no bedding or pillows covering it. Preserve original white quilted cover pattern, loft, construction and white side band. Warm neutral bedroom, realistic daylight, portrait 2:3. Remove all typography and graphics. No diagram, no cutaway, no foam layers, no invented zipper, no promotional claims, no collage.",
+        "top": "Corrected overhead: source octagon-and-small-square tessellation, not hexagons.",
+        "detail": "ONE premium product photo of EXACT Luxury RLX19 mattress shown in actual supplier reference. True close-up of a small corner of the white quilted mattress surface and its side seam. Exact source quilting and white side fabric. No whole bed. Do not open the cover. Preserve original white quilted cover pattern, loft, construction and white side band. Warm neutral bedroom, realistic daylight, portrait 2:3. Remove all typography and graphics. No diagram, no cutaway, no foam layers, no invented zipper, no promotional claims, no collage."
+      }
+    },
+    {
+      "key": "c14e4d141175",
+      "products": [
+        {
+          "barcode": "3050695KGXZ6FA72C",
+          "sku": "81218",
+          "model": "3050695KGXZ6FA72C",
+          "title": "Set de lenjerie de pat elegant, baroc, din 6 piese, cu cearșaf cu elastic standard – Fabricat în România",
+          "description": "",
+          "category": "Lenjerie de pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "bej",
+          "size": "",
+          "price": 279,
+          "listPrice": 319,
+          "stock": 49,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260610/14/9b9c91b6-7df8-3304-b692-03daef95e9c0/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260610/14/7a80e378-3e75-3a7e-9e33-543a0882a84b/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260610/14/7b774318-0e57-3892-a9bb-8edb8bef169c/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260610/14/53cb6505-f76b-30e6-a696-aaecbcb036aa/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260610/20/8ce0f875-132e-34b0-b06f-9f81f49515ec/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1155142229?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "supplierId": 81218,
+      "source": null,
+      "sourceImage": null,
+      "urls": [
+        "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260610/14/9b9c91b6-7df8-3304-b692-03daef95e9c0/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260610/14/7a80e378-3e75-3a7e-9e33-543a0882a84b/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260610/14/7b774318-0e57-3892-a9bb-8edb8bef169c/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260610/14/53cb6505-f76b-30e6-a696-aaecbcb036aa/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260610/20/8ce0f875-132e-34b0-b06f-9f81f49515ec/1_org_zoom.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/ecb51151a7e0e6fee347045b214a77094fbcde5c8f6309a047a6842e65e66e13.img",
+        "/tmp/estore-control-gallery-audit-20261023/77bb54062c6935be10890d2b4688a13f09d53b53924fcd6c9e8c3079821e59dc.img",
+        "/tmp/estore-control-gallery-audit-20261023/2b031e63d0bd6b6286c0809d7ba9d8e1ed9a573594783bf2ed402e1ac259d955.img",
+        "/tmp/estore-control-gallery-audit-20261023/9dbfd4f6ea9fdcc52631beefae981c4d2fd3e23968046b8124d37c129e003de8.img",
+        "/tmp/estore-control-gallery-audit-20261023/07ace89813b2848d47082532797d7806149dbb7e2ef9f5e1fe1f2b92eb64ac1f.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/3e90b42438d04d0a801d4b946696cda53737b2773968dae33791b88391114ed7.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/81218-final-repair-review.jpg",
+      "generated": {},
+      "prompts": {}
+    },
+    {
+      "key": "c3f77a89a82c",
+      "products": [
+        {
+          "barcode": "3040876JF95BECBSQ",
+          "sku": "100763",
+          "model": "3040876JF95BECBSQ",
+          "title": "Set protectie saltea matlasata Ralex, 200 x 200 cm, bordura 26 cm, 2 fete de perna 50 x 70 cm, alb",
+          "description": "<p>Set protectie saltea matlasata Ralex, 200 x 200 cm, bordura 26 cm, 2 fete de perna 50 x 70 cm, alb</p><ul><li>Dimensiune protecție saltea: 200 x 200 cm.</li><li>Bordură de 26 cm, cu elastic de jur împrejur.</li><li>Setul conține 1 protecție de saltea și 2 fețe de pernă de 50 x 70 cm.</li><li>Față din microfibră 100% poliester, strat matlasat cu vatelină din poliester și dos din microfibră cu folie de poliuretan.</li><li>Densitate umplutură: 80 g/m².</li></ul><p>Protecție împotriva umezelii; furnizorul indică în catalog un nivel de impermeabilitate de 90%. Respectați instrucțiunile de pe eticheta produsului. Salteaua, umpluturile de pernă, mobilierul și decorul nu sunt incluse.</p>",
+          "category": "Protecție saltea",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "200 x 200 cm",
+          "price": 229,
+          "listPrice": 279,
+          "images": [
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-hero.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-side.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-detail.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-overhead.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1154412239?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "stock": 47,
+          "revision": 1,
+          "updated": "2026-10-21T10:19:08.139Z"
+        },
+        {
+          "barcode": "3040875C6DIVEPDQJ",
+          "sku": "101923",
+          "model": "3040875C6DIVEPDQJ",
+          "title": "Set protectie saltea matlasata Ralex, 90 x 200 cm, bordura 26 cm, 2 fete de perna 50 x 70 cm, alb",
+          "description": "<p>Set protectie saltea matlasata Ralex, 90 x 200 cm, bordura 26 cm, 2 fete de perna 50 x 70 cm, alb</p><ul><li>Dimensiune protecție saltea: 90 x 200 cm.</li><li>Bordură de 26 cm, cu elastic de jur împrejur.</li><li>Setul conține 1 protecție de saltea și 2 fețe de pernă de 50 x 70 cm.</li><li>Față din microfibră 100% poliester, strat matlasat cu vatelină din poliester și dos din microfibră cu folie de poliuretan.</li><li>Densitate umplutură: 80 g/m².</li></ul><p>Protecție împotriva umezelii; furnizorul indică în catalog un nivel de impermeabilitate de 90%. Respectați instrucțiunile de pe eticheta produsului. Salteaua, umpluturile de pernă, mobilierul și decorul nu sunt incluse.</p>",
+          "category": "Protecție saltea",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "90 x 200 cm",
+          "price": 179,
+          "listPrice": 219,
+          "images": [
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-hero.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-side.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-detail.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-overhead.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1154411537?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "stock": 50,
+          "revision": 1,
+          "updated": "2026-10-21T10:19:07.720Z"
+        },
+        {
+          "barcode": "3040838CSNBDFMZQZ",
+          "sku": "1007610",
+          "model": "3040838CSNBDFMZQZ",
+          "title": "Set protectie saltea matlasata Ralex, 160 x 200 cm, bordura 26 cm, 2 fete de perna 50 x 70 cm, alb",
+          "description": "<p>Set protectie saltea matlasata Ralex, 160 x 200 cm, bordura 26 cm, 2 fete de perna 50 x 70 cm, alb</p><ul><li>Dimensiune protecție saltea: 160 x 200 cm.</li><li>Bordură de 26 cm, cu elastic de jur împrejur.</li><li>Setul conține 1 protecție de saltea și 2 fețe de pernă de 50 x 70 cm.</li><li>Față din microfibră 100% poliester, strat matlasat cu vatelină din poliester și dos din microfibră cu folie de poliuretan.</li><li>Densitate umplutură: 80 g/m².</li></ul><p>Protecție împotriva umezelii; furnizorul indică în catalog un nivel de impermeabilitate de 90%. Respectați instrucțiunile de pe eticheta produsului. Salteaua, umpluturile de pernă, mobilierul și decorul nu sunt incluse.</p>",
+          "category": "Protecție saltea",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "160 x 200 cm",
+          "price": 199,
+          "listPrice": 249,
+          "images": [
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-hero.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-side.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-detail.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-overhead.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1154401070?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "stock": 39,
+          "revision": 1,
+          "updated": "2026-10-21T10:19:07.214Z"
+        },
+        {
+          "barcode": "3040837KDJRGNAGIK",
+          "sku": "1007600",
+          "model": "3040837KDJRGNAGIK",
+          "title": "Set protectie saltea matlasata Ralex, 140 x 200 cm, bordura 26 cm, 2 fete de perna 50 x 70 cm, alb",
+          "description": "<p>Set protectie saltea matlasata Ralex, 140 x 200 cm, bordura 26 cm, 2 fete de perna 50 x 70 cm, alb</p><ul><li>Dimensiune protecție saltea: 140 x 200 cm.</li><li>Bordură de 26 cm, cu elastic de jur împrejur.</li><li>Setul conține 1 protecție de saltea și 2 fețe de pernă de 50 x 70 cm.</li><li>Față din microfibră 100% poliester, strat matlasat cu vatelină din poliester și dos din microfibră cu folie de poliuretan.</li><li>Densitate umplutură: 80 g/m².</li></ul><p>Protecție împotriva umezelii; furnizorul indică în catalog un nivel de impermeabilitate de 90%. Respectați instrucțiunile de pe eticheta produsului. Salteaua, umpluturile de pernă, mobilierul și decorul nu sunt incluse.</p>",
+          "category": "Protecție saltea",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "140 x 200 cm",
+          "price": 189,
+          "listPrice": 239,
+          "images": [
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-hero.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-side.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-detail.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-overhead.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1154400875?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "stock": 50,
+          "revision": 1,
+          "updated": "2026-10-21T10:19:06.680Z"
+        },
+        {
+          "barcode": "3040836FRXDHMSGMD",
+          "sku": "100762",
+          "model": "3040836FRXDHMSGMD",
+          "title": "Set protectie saltea matlasata Ralex, 180 x 200 cm, bordura 26 cm, 2 fete de perna 50 x 70 cm, alb",
+          "description": "<p>Set protectie saltea matlasata Ralex, 180 x 200 cm, bordura 26 cm, 2 fete de perna 50 x 70 cm, alb</p><ul><li>Dimensiune protecție saltea: 180 x 200 cm.</li><li>Bordură de 26 cm, cu elastic de jur împrejur.</li><li>Setul conține 1 protecție de saltea și 2 fețe de pernă de 50 x 70 cm.</li><li>Față din microfibră 100% poliester, strat matlasat cu vatelină din poliester și dos din microfibră cu folie de poliuretan.</li><li>Densitate umplutură: 80 g/m².</li></ul><p>Protecție împotriva umezelii; furnizorul indică în catalog un nivel de impermeabilitate de 90%. Respectați instrucțiunile de pe eticheta produsului. Salteaua, umpluturile de pernă, mobilierul și decorul nu sunt incluse.</p>",
+          "category": "Protectoare pentru saltele",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "180 x 200 cm",
+          "price": 219,
+          "listPrice": 269,
+          "images": [
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-hero.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-side.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-detail.jpg",
+            "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-overhead.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1154399774?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "stock": 50,
+          "revision": 1,
+          "updated": "2026-10-21T10:19:06.165Z"
+        }
+      ],
+      "supplierId": 100758,
+      "source": null,
+      "sourceImage": null,
+      "urls": [
+        "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-hero.jpg",
+        "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-side.jpg",
+        "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-detail.jpg",
+        "https://emag-api.estorehouse.ro/media/ralex-20261020/quilt-overhead.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/3289e95b569d5ded765f6d0d2f7a5683af7e9c00c34de1a545f5797b7b7829b1.img",
+        "/tmp/estore-control-gallery-audit-20261023/1922564699d1f238e3cfa319e8259ab355efcf9c74fef4688d863ceecdeceeb0.img",
+        "/tmp/estore-control-gallery-audit-20261023/9e8ae550e27d852f2cdfa80d6ac0001b8c7dbdccd129aaf13f6efb86fc755ca4.img",
+        "/tmp/estore-control-gallery-audit-20261023/d9e9bb035f61ca863534c7456e254a975b79ae994cf0a7b967d4c83bf150b17e.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/89a73596bba4f88acc52328284f33dc1bae81e122914f6497a2969de78259048.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/100758-final-repair-review.jpg",
+      "generated": {},
+      "prompts": {}
+    },
+    {
+      "key": "eaeabf154abd",
+      "products": [
+        {
+          "barcode": "2547514DF4JFFFBKA",
+          "sku": "104173",
+          "model": "2547514DF4JFFFBKA",
+          "title": "Set de lenjerie de pat din 6 piese, tip waffle, cu husă, fără călcare, amestec de bumbac, fabricat în România",
+          "description": "Lenjerie de pat tip waffle, care nu necesită călcare – practică, durabilă și perfectă pentru utilizarea zilnică. Această lenjerie de pat este alegerea ideală pentru cei care caută un produs durabil, ușor de întreținut și cu un aspect modern. ; Fabricat dintr-un amestec echilibrat de 50% bumbac (BBC) și 50% polibumbac, oferă confort optim și durabilitate de lungă durată, fără a fi dificil de întreținut. ; Textura tip waffle (creponată) elimină necesitatea călcării și menține patul aranjat ordonat pentru mai mult timp – perfectă atât pentru uz casnic, cât și pentru hoteluri, pensiuni sau revânzare. ; ⸻ ✅   Avantaje cheie: • Material care nu necesită călcare – nu este nevoie de călcat • Rezistență ridicată la spălări repetate • Textură modernă tip waffle • Întreținere ușoară, uscare rapidă • Ideal pentru utilizare intensivă (acasă sau HoReCa) ⸻ 📦   Conținutul pachetului (6 piese): • Husă de pilotă: 200 x 230 cm • Cearșaf cu elastic: potrivit pentru 160x200 și 180x200 cm (până la 26 cm înălțime) • 2 fețe de pernă: 50 x 70 cm • 2 fețe de pernă: 70 x 70 cm ⸻ 🧵   Material: • 50% bumbac (BBC) • 50% polibumbac ➡️   Combinația perfectă de confort și durabilitate ⸻ 🧼   Instrucțiuni de îngrijire: • Spălați la 40 ° C • Nu necesită călcare • Rezistent la utilizare frecventă ⸻ 🇷 🇴   Origine: Fabricat în România",
+          "category": "Lenjerie de pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 269,
+          "listPrice": 269,
+          "stock": 13,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1855/prod/QC_PREP/20260417/14/c36f2b0a-f9e7-3691-8781-3b28b016a828/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260417/14/14b8118d-d77c-33dd-94fe-2af07f58f33a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260417/14/12684d4d-a5b3-3133-9ce0-ce70f55625a4/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1855/prod/QC_PREP/20260417/14/408075c0-8014-3872-9739-45187b699438/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260417/14/7d54517f-dcf7-35ef-a66d-00a2b0e90124/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1856/prod/QC_PREP/20260417/14/00e776f7-8f50-363e-be3b-7018cfd5357f/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1134395264?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3036548FJNZCMH5DM",
+          "sku": "1041730",
+          "model": "3036548FJNZCMH5DM",
+          "title": "Set lenjerie de pat tip waffle, 4 piese, cearșaf normal , nu necesită călcare, amestec de bumbac, Fabricat în România",
+          "description": "",
+          "category": "Lenjerie de pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 269,
+          "listPrice": 269,
+          "stock": 49,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1855/prod/QC_PREP/20260417/14/c36f2b0a-f9e7-3691-8781-3b28b016a828/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260417/14/14b8118d-d77c-33dd-94fe-2af07f58f33a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260417/14/12684d4d-a5b3-3133-9ce0-ce70f55625a4/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1855/prod/QC_PREP/20260417/14/408075c0-8014-3872-9739-45187b699438/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260417/14/7d54517f-dcf7-35ef-a66d-00a2b0e90124/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1856/prod/QC_PREP/20260417/14/00e776f7-8f50-363e-be3b-7018cfd5357f/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1154014801?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "supplierId": 104173,
+      "source": null,
+      "sourceImage": null,
+      "urls": [
+        "https://cdn.dsmcdn.com/ty1855/prod/QC_PREP/20260417/14/c36f2b0a-f9e7-3691-8781-3b28b016a828/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260417/14/14b8118d-d77c-33dd-94fe-2af07f58f33a/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260417/14/12684d4d-a5b3-3133-9ce0-ce70f55625a4/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1855/prod/QC_PREP/20260417/14/408075c0-8014-3872-9739-45187b699438/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260417/14/7d54517f-dcf7-35ef-a66d-00a2b0e90124/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1856/prod/QC_PREP/20260417/14/00e776f7-8f50-363e-be3b-7018cfd5357f/1_org_zoom.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/16ed5ff1463fcb09ddc1aa27d59dbb0e872e7c0a759aea1ff7bda384c20c75f2.img",
+        "/tmp/estore-control-gallery-audit-20261023/80d1b9a416051f515d0c00ca24af55ecc8b58fbbf3bb103dde92abb565f2227e.img",
+        "/tmp/estore-control-gallery-audit-20261023/837998e2a99e3613c0c46b5367ba66037bcf6eccdc819d48a1bd0746388da407.img",
+        "/tmp/estore-control-gallery-audit-20261023/a95e01403f3e35f44f9c50f7650db347c81a3dc918d087be1c6091c8afcf6e04.img",
+        "/tmp/estore-control-gallery-audit-20261023/7b0710b778b75e40fc98f5fcf88f782028e31f1e2ccc565965fdfcb2939f033f.img",
+        "/tmp/estore-control-gallery-audit-20261023/17d405f4333a7f72a91ab2caedb6edbd57381ffda17f00784caaf90b5cd250ee.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/df24aee3571798cc7301371e0787d167784da22f0a06272117b3ba66b8b4f1b5.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/104173-final-repair-review.jpg",
+      "generated": {},
+      "prompts": {}
+    }
+  ],
+  "review": "Three final mattress outputs and every selected Control photograph visually reviewed. Own supplier text and actual variation barcodes resolve stale Control claims; source-caption conflicts recorded, not copied to storefront."
+}
