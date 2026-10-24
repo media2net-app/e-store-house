@@ -1,0 +1,67 @@
+{
+  "batch": "control-waffle-robe-completed-publication-20261024",
+  "checkedAt": "2026-10-24T00:37:09.337835+00:00",
+  "catalogCount": 687,
+  "results": [
+    {
+      "id": 160050,
+      "status": "live"
+    },
+    {
+      "id": 160045,
+      "status": "live"
+    },
+    {
+      "id": 160040,
+      "status": "live"
+    },
+    {
+      "id": 160030,
+      "status": "live"
+    },
+    {
+      "id": 160025,
+      "status": "live"
+    },
+    {
+      "id": 160035,
+      "status": "live"
+    },
+    {
+      "id": 159980,
+      "status": "live"
+    },
+    {
+      "id": 159974,
+      "status": "live"
+    },
+    {
+      "id": 110328,
+      "status": "live"
+    },
+    {
+      "id": 159969,
+      "status": "live"
+    },
+    {
+      "id": 110340,
+      "status": "live"
+    },
+    {
+      "id": 110322,
+      "status": "live"
+    },
+    {
+      "id": 110317,
+      "status": "live"
+    },
+    {
+      "id": 110308,
+      "status": "live"
+    },
+    {
+      "id": 159966,
+      "status": "live"
+    }
+  ]
+}

@@ -8051,5 +8051,49 @@
       "159968": true
     },
     "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+  },
+  {
+    "id": 106958,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-plaja-greek-border-500g-turcoaz/",
+    "costs": {
+      "106958": 67.0
+    },
+    "availability": {
+      "106958": true
+    },
+    "checkedAt": "2026-10-24T00:36:55.605932+00:00"
+  },
+  {
+    "id": 109655,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-plaja-greek-border-500g-crem/",
+    "costs": {
+      "109655": 67.0
+    },
+    "availability": {
+      "109655": true
+    },
+    "checkedAt": "2026-10-24T00:36:55.605932+00:00"
+  },
+  {
+    "id": 106969,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-plaja-greek-border-500g-cappucino/",
+    "costs": {
+      "106969": 67.0
+    },
+    "availability": {
+      "106969": true
+    },
+    "checkedAt": "2026-10-24T00:36:55.605932+00:00"
+  },
+  {
+    "id": 106966,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-plaja-greek-border-500g-bej/",
+    "costs": {
+      "106966": 67.0
+    },
+    "availability": {
+      "106966": true
+    },
+    "checkedAt": "2026-10-24T00:36:55.605932+00:00"
   }
 ]
