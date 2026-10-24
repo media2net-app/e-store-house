@@ -7858,5 +7858,198 @@
       "111650": true
     },
     "checkedAt": "2026-10-24T00:14:02.233165+00:00"
+  },
+  {
+    "id": 160050,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-verde/",
+    "costs": {
+      "160052": 160,
+      "160051": 145
+    },
+    "availability": {
+      "160052": false,
+      "160051": false
+    },
+    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+  },
+  {
+    "id": 160045,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-mov/",
+    "costs": {
+      "160046": 145,
+      "160047": 160
+    },
+    "availability": {
+      "160046": true,
+      "160047": true
+    },
+    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+  },
+  {
+    "id": 160040,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-roz/",
+    "costs": {
+      "160041": 145,
+      "160042": 160
+    },
+    "availability": {
+      "160041": true,
+      "160042": true
+    },
+    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+  },
+  {
+    "id": 160030,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-crem/",
+    "costs": {
+      "160031": 145
+    },
+    "availability": {
+      "160031": false
+    },
+    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+  },
+  {
+    "id": 160025,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-caramiziu/",
+    "costs": {
+      "160027": 160,
+      "160026": 145
+    },
+    "availability": {
+      "160027": true,
+      "160026": true
+    },
+    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+  },
+  {
+    "id": 160035,
+    "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-bej/",
+    "costs": {
+      "160036": 145,
+      "160037": 160
+    },
+    "availability": {
+      "160036": false,
+      "160037": false
+    },
+    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+  },
+  {
+    "id": 159980,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-yellow-int/",
+    "costs": {
+      "159982": 145,
+      "159981": 145
+    },
+    "availability": {
+      "159982": true,
+      "159981": true
+    },
+    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+  },
+  {
+    "id": 159974,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-red-new/",
+    "costs": {
+      "159975": 145,
+      "159976": 145
+    },
+    "availability": {
+      "159975": true,
+      "159976": true
+    },
+    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+  },
+  {
+    "id": 110328,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-mint-whisper/",
+    "costs": {
+      "110330": 145,
+      "110329": 145
+    },
+    "availability": {
+      "110330": true,
+      "110329": true
+    },
+    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+  },
+  {
+    "id": 159969,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-gray-new/",
+    "costs": {
+      "159971": 145,
+      "159970": 145
+    },
+    "availability": {
+      "159971": true,
+      "159970": true
+    },
+    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+  },
+  {
+    "id": 110340,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-alpine-white/",
+    "costs": {
+      "110342": 145,
+      "110341": 145
+    },
+    "availability": {
+      "110342": true,
+      "110341": true
+    },
+    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+  },
+  {
+    "id": 110322,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-lavender-dream/",
+    "costs": {
+      "110323": 145,
+      "110324": 145
+    },
+    "availability": {
+      "110323": true,
+      "110324": true
+    },
+    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+  },
+  {
+    "id": 110317,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-blush-serenity/",
+    "costs": {
+      "110318": 145,
+      "110319": 145
+    },
+    "availability": {
+      "110318": true,
+      "110319": true
+    },
+    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+  },
+  {
+    "id": 110308,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-savanna-brew/",
+    "costs": {
+      "110310": 145,
+      "110309": 145
+    },
+    "availability": {
+      "110310": true,
+      "110309": true
+    },
+    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+  },
+  {
+    "id": 159966,
+    "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-blue-sea-new-2/",
+    "costs": {
+      "159967": 145,
+      "159968": 145
+    },
+    "availability": {
+      "159967": true,
+      "159968": true
+    },
+    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
   }
 ]

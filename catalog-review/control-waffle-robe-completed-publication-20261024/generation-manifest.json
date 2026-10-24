@@ -1,0 +1,972 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "outputs": [
+    {
+      "supplierId": "160050",
+      "products": [
+        {
+          "barcode": "3623413P652ZMEOF2",
+          "sku": "160052",
+          "model": "3623413P652ZMEOF2",
+          "title": "Pătură 100% bumbac, tip vaflă, 350 g/m², dimensiune 240x260",
+          "description": "",
+          "category": "Pături pentru pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "verde",
+          "size": "",
+          "price": 315,
+          "listPrice": 315,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/81cc93e1-ecd7-3b00-84a7-d077194c8892/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/2a08a2c5-966a-3653-af96-6c89c7218ff3/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/258c3c2d-a15a-31f0-b9ee-0dceb5c47d50/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198148100?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3623414PKP5Z2MPHP",
+          "sku": "160051",
+          "model": "3623414PKP5Z2MPHP",
+          "title": "Pătură 100% bumbac tip vaflă, 350 g/m², dimensiune 220x240",
+          "description": "",
+          "category": "Pături pentru pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "verde",
+          "size": "",
+          "price": 289,
+          "listPrice": 289,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/81cc93e1-ecd7-3b00-84a7-d077194c8892/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/2a08a2c5-966a-3653-af96-6c89c7218ff3/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/258c3c2d-a15a-31f0-b9ee-0dceb5c47d50/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198148022?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/f7e57fb94200035ec53fb667e8ccd9f247bf2dedda63b0cc4486fd5949f5e12b.img",
+        "/tmp/estore-short-gallery-audit-20261024/aef6427d27938027ea8e6fdf93b6b1f233c8cf954b5ac8862905427250e1210f.img",
+        "/tmp/estore-short-gallery-audit-20261024/8f4e2fa0ce6510a0f0b7701e45165d92324c4073706c6b75a3b3c7e98b1bf423.img",
+        "/tmp/estore-short-gallery-audit-20261024/0a1d4af444ac231881ff441238e1733e4dbd13748430692e7151e2f2b03d73f0.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/160050-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-verde/",
+      "controlGalleryId": "160050",
+      "referencePaths": [
+        "/tmp/estore-short-gallery-audit-20261024/f7e57fb94200035ec53fb667e8ccd9f247bf2dedda63b0cc4486fd5949f5e12b.img",
+        "/tmp/estore-short-gallery-audit-20261024/aef6427d27938027ea8e6fdf93b6b1f233c8cf954b5ac8862905427250e1210f.img"
+      ],
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-9c399923-f71f-4364-bb3e-8fb398d17e2f.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-5138ed29-f05b-480f-a61b-a3462ad64b35.png"
+    },
+    {
+      "supplierId": "160045",
+      "products": [
+        {
+          "barcode": "3623415DUMSXVXHAW",
+          "sku": "160046",
+          "model": "3623415DUMSXVXHAW",
+          "title": "Pătură tip waffle 100% bumbac, 350 g/m², dimensiune 220x240",
+          "description": "",
+          "category": "Cuverturi de pat pentru două persoane",
+          "brand": "RALEX PUCIOASA",
+          "color": "mov",
+          "size": "",
+          "price": 289,
+          "listPrice": 289,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/7d5e439a-93ce-3b54-b913-b8bf1a8de42a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/f1ec2d33-0c19-3d2e-b584-097be1017b85/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/8819a411-435d-3c90-ac56-88ee6b850ff1/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198148157?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3623416RO4RCKHVN8",
+          "sku": "160047",
+          "model": "3623416RO4RCKHVN8",
+          "title": "Pătură tip waffle 100% bumbac, 350 g/m², dimensiune 240x220",
+          "description": "",
+          "category": "Pături pentru pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "mov",
+          "size": "",
+          "price": 315,
+          "listPrice": 315,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/7d5e439a-93ce-3b54-b913-b8bf1a8de42a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/f1ec2d33-0c19-3d2e-b584-097be1017b85/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/8819a411-435d-3c90-ac56-88ee6b850ff1/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198148226?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/c912cb1c797110f4d3b3590c411efabd259cab5b2a3791544138c59d1b241cd3.img",
+        "/tmp/estore-short-gallery-audit-20261024/e821337d11ef41d52e87dd722ce32fd947b6fa63fb2b8544c5652c8a617f14fe.img",
+        "/tmp/estore-short-gallery-audit-20261024/62c1b83f6f3aa14af741359a3aa81023a76a8bb3657f906705512daa44c376b3.img",
+        "/tmp/estore-short-gallery-audit-20261024/f47029e99763bf4dddfa9a3854f0bd52b21dbc496ac0b75ba2c0d8a9876c9249.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/160045-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-mov/",
+      "controlGalleryId": "160045",
+      "referencePaths": [
+        "/tmp/estore-short-gallery-audit-20261024/c912cb1c797110f4d3b3590c411efabd259cab5b2a3791544138c59d1b241cd3.img",
+        "/tmp/estore-short-gallery-audit-20261024/e821337d11ef41d52e87dd722ce32fd947b6fa63fb2b8544c5652c8a617f14fe.img"
+      ],
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-98862e10-873d-4564-9865-9e81442f6e21.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-9b42e77d-3442-4af7-b2d0-4687e8d749d4.png"
+    },
+    {
+      "supplierId": "160040",
+      "products": [
+        {
+          "barcode": "3623421FONWE08LFP",
+          "sku": "160041",
+          "model": "3623421FONWE08LFP",
+          "title": "Pătură 100% bumbac tip vaflă, 350 g/m², dimensiune 220x240",
+          "description": "",
+          "category": "Cuverturi de pat pentru două persoane",
+          "brand": "RALEX PUCIOASA",
+          "color": "roz",
+          "size": "",
+          "price": 289,
+          "listPrice": 289,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/15daa8ad-d791-3b27-9417-843537bc0859/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/cd12d208-21ed-3164-9808-a8ea51a10039/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/eca26e7a-00d0-3fb9-8f69-87ac9b508618/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198148368?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3623425T81J9HN2ZY",
+          "sku": "160042",
+          "model": "3623425T81J9HN2ZY",
+          "title": "Pătură 100% bumbac, tip vaflă, 350 g/m², dimensiune 240x260",
+          "description": "",
+          "category": "Pături pentru pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "roz",
+          "size": "",
+          "price": 315,
+          "listPrice": 315,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/15daa8ad-d791-3b27-9417-843537bc0859/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/cd12d208-21ed-3164-9808-a8ea51a10039/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/eca26e7a-00d0-3fb9-8f69-87ac9b508618/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198148402?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/99bfa4bdb6228886847d66f903ab380752ebaad944e6a34f46e752ae07c6748f.img",
+        "/tmp/estore-short-gallery-audit-20261024/3f79c607b0d55ec8692172002f21d21cf8e6fe414c3514f1bb1417aa5640f285.img",
+        "/tmp/estore-short-gallery-audit-20261024/2953ff85a3e0e42fee37f345d7268a5bdc256e4218f393a0e5c6e1f7d52de2ac.img",
+        "/tmp/estore-short-gallery-audit-20261024/8681f016ef20df74a25fba0becbeccc88c6969f27892f3037b8ba87b7a8e7681.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/160040-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-roz/",
+      "controlGalleryId": "160040",
+      "referencePaths": [
+        "/tmp/estore-short-gallery-audit-20261024/99bfa4bdb6228886847d66f903ab380752ebaad944e6a34f46e752ae07c6748f.img",
+        "/tmp/estore-short-gallery-audit-20261024/3f79c607b0d55ec8692172002f21d21cf8e6fe414c3514f1bb1417aa5640f285.img"
+      ],
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a76a172b-120b-457e-a9be-378032703f6d.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-9cd6b708-122b-474e-ac8d-b856d535697d.png"
+    },
+    {
+      "supplierId": "160030",
+      "products": [
+        {
+          "barcode": "3623422WUFGWHUTB6",
+          "sku": "160031",
+          "model": "3623422WUFGWHUTB6",
+          "title": "Pătură tip waffle 100% bumbac, 350 g/m², dimensiune 220x240",
+          "description": "",
+          "category": "Cuverturi de pat pentru două persoane",
+          "brand": "RALEX PUCIOASA",
+          "color": "crem",
+          "size": "",
+          "price": 289,
+          "listPrice": 289,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/29898258-35c9-371c-8e7a-7d93d7f36a93/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/50dacf13-8855-3189-aab1-3c57e0b35f6d/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/0776c622-49b2-3896-bb0d-630dbebafac4/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198148580?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/758354a83f25930ff0bbb7ceaf36b2c15e3357a130bd317defc5243b6648ada5.img",
+        "/tmp/estore-short-gallery-audit-20261024/cca58eb17a627e6c1caabca274ed656e06b5b244fd6038474f16a1b8cb464a14.img",
+        "/tmp/estore-short-gallery-audit-20261024/f2b19b709a9a20e6f5e346a7d1cf595bc1be6d557fc632e8cd66211a18c7957b.img",
+        "/tmp/estore-short-gallery-audit-20261024/8cb4d1b9762c529d952e49de92f6c1c34863e6196fb41d860e1fc5e9878ca130.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/160030-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-crem/",
+      "controlGalleryId": "160030",
+      "referencePaths": [
+        "/tmp/estore-short-gallery-audit-20261024/758354a83f25930ff0bbb7ceaf36b2c15e3357a130bd317defc5243b6648ada5.img",
+        "/tmp/estore-short-gallery-audit-20261024/cca58eb17a627e6c1caabca274ed656e06b5b244fd6038474f16a1b8cb464a14.img"
+      ],
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-23387130-9c24-48a4-ba96-869337fb9484.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-e1f872ce-d8cb-4d89-94bf-3276abc8b3c8.png"
+    },
+    {
+      "supplierId": "160025",
+      "products": [
+        {
+          "barcode": "3623424X8XU80EANW",
+          "sku": "160027",
+          "model": "3623424X8XU80EANW",
+          "title": "Pătură 100% bumbac, tip vaflă, 350 g/m², dimensiune 240x260",
+          "description": "",
+          "category": "Pături pentru pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "caramiziu",
+          "size": "",
+          "price": 315,
+          "listPrice": 315,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/7ab1c707-9203-3b63-98ec-568d8bae25ca/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/51fbb523-fbe5-3c75-ac25-e037a9a9f60c/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/1a2664c8-0812-396e-beac-7e07e9d3c83b/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198148876?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3623428GXCQTCN9CY",
+          "sku": "160026",
+          "model": "3623428GXCQTCN9CY",
+          "title": "Pătură 100% bumbac tip vaflă, 350 g/m², dimensiune 220x240",
+          "description": "",
+          "category": "Pături pentru pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "caramiziu",
+          "size": "",
+          "price": 289,
+          "listPrice": 289,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/7ab1c707-9203-3b63-98ec-568d8bae25ca/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/51fbb523-fbe5-3c75-ac25-e037a9a9f60c/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/1a2664c8-0812-396e-beac-7e07e9d3c83b/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198148804?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/cdf766851cf6461fede17a12085e6d56e44d817de515d3f3aa809b4fce2a0f1b.img",
+        "/tmp/estore-short-gallery-audit-20261024/bfaa17464f349bd14b22cf136eda89facc832c26e90132b3bd31eb8fc5c18890.img",
+        "/tmp/estore-short-gallery-audit-20261024/d273600d9d4db39b5a51a905512dad24b561418409b6b4cdb4bb32a0587c68a9.img",
+        "/tmp/estore-short-gallery-audit-20261024/41b999cd47ccd7ef95fcab4cbc8bc86fd8ec0680dc244847d129544ad9926b95.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/160025-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-caramiziu/",
+      "controlGalleryId": "160025",
+      "referencePaths": [
+        "/tmp/estore-short-gallery-audit-20261024/cdf766851cf6461fede17a12085e6d56e44d817de515d3f3aa809b4fce2a0f1b.img",
+        "/tmp/estore-short-gallery-audit-20261024/bfaa17464f349bd14b22cf136eda89facc832c26e90132b3bd31eb8fc5c18890.img"
+      ],
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-9129c52e-2b7f-4730-a6f5-cf97a62b5891.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-d2c1d7fe-76af-43e3-bd60-4f618c6fe9d4.png"
+    },
+    {
+      "supplierId": "160035",
+      "products": [
+        {
+          "barcode": "3623426FQTHZ7VBQE",
+          "sku": "160036",
+          "model": "3623426FQTHZ7VBQE",
+          "title": "Pătură 100% bumbac tip vaflă, 350 g/m², dimensiune 220x240",
+          "description": "",
+          "category": "Pături pentru pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "bej",
+          "size": "",
+          "price": 289,
+          "listPrice": 289,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/b2b03149-bcf1-30c6-af50-eb5f105e8af5/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/e146fb5c-3ac7-3f95-84f2-87b02812b3fb/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/da89f5b2-95bf-3f8e-9f70-ebee707a395c/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198148527?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "36234276C9VGHDRWG",
+          "sku": "160037",
+          "model": "36234276C9VGHDRWG",
+          "title": "Pătură 100% bumbac, tip vaflă, 350 g/m², dimensiune 240x260",
+          "description": "",
+          "category": "Pături pentru pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "bej",
+          "size": "",
+          "price": 315,
+          "listPrice": 315,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/b2b03149-bcf1-30c6-af50-eb5f105e8af5/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/e146fb5c-3ac7-3f95-84f2-87b02812b3fb/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/da89f5b2-95bf-3f8e-9f70-ebee707a395c/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198148571?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/2e13a997b0b6491a62dc3b234ca04acd69b4a0017442511006e7f15c0efd6bf0.img",
+        "/tmp/estore-short-gallery-audit-20261024/2f33d1b05fbbd3402aebb90ec87778868bebd8af1b7f8cbd50922780a6f4b202.img",
+        "/tmp/estore-short-gallery-audit-20261024/51b3bae04124bb07ef7c1d31b9d0a3bd559bbaf478989b8cf8caeb53d2acf6d2.img",
+        "/tmp/estore-short-gallery-audit-20261024/edb755a25790503560cdf22d3563546ad418118a67352607a724943a459d20eb.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/160035-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-bej/",
+      "controlGalleryId": "160035",
+      "referencePaths": [
+        "/tmp/estore-short-gallery-audit-20261024/2e13a997b0b6491a62dc3b234ca04acd69b4a0017442511006e7f15c0efd6bf0.img",
+        "/tmp/estore-short-gallery-audit-20261024/2f33d1b05fbbd3402aebb90ec87778868bebd8af1b7f8cbd50922780a6f4b202.img"
+      ],
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-bbde3ca9-9506-4bd1-ae5a-69ffed78c017.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-75e57c26-9823-47b3-a47d-50160491427f.png"
+    },
+    {
+      "supplierId": "159980",
+      "products": [
+        {
+          "barcode": "3628880FVHC4C2YCN",
+          "sku": "159982",
+          "model": "3628880FVHC4C2YCN",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea XXL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "rosu",
+          "size": "XL-XXL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/09/f16d1671-8214-3532-975c-d176d55b8ccd/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/09/b3973c99-0598-3eb1-a3a4-8f589d6baf96/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/87aa1bb5-347e-3811-97fb-459f8b892508/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198421932?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3628881HCG7AZE0GC",
+          "sku": "159981",
+          "model": "3628881HCG7AZE0GC",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea L/XL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "rosu",
+          "size": "XL/L",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/09/f16d1671-8214-3532-975c-d176d55b8ccd/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/09/b3973c99-0598-3eb1-a3a4-8f589d6baf96/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/87aa1bb5-347e-3811-97fb-459f8b892508/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198427454?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/dcc03cad713504fdfeaefa6f1716c1577df0d0139a522ef78d05e60a2ec87df6.img",
+        "/tmp/estore-short-gallery-audit-20261024/da9f2d0a5c5fcc1b99303ad622680ed2c1a5bcd39ab7ee02e74fa77925f5d182.img",
+        "/tmp/estore-short-gallery-audit-20261024/cbdb217733e981ec10b331dbf68a7e0a12126bfade53c0ce0468509d53837369.img",
+        "/tmp/estore-short-gallery-audit-20261024/fbe2efc5123d971b3fa73c688b427f5b9234fa3f6d812b6716c1818b2614797c.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/159980-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-yellow-int/",
+      "controlGalleryId": "159974",
+      "referencePaths": [
+        "/tmp/estore-short-gallery-audit-20261024/dcc03cad713504fdfeaefa6f1716c1577df0d0139a522ef78d05e60a2ec87df6.img",
+        "/tmp/estore-short-gallery-audit-20261024/7d1355291ca51ba3852f470e72f3d29db26ab6877572d529629900ce8be2cadc.img"
+      ],
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-7954369b-f8de-4b2b-b688-69c21b295001.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-54c49023-c285-43aa-88df-4a40576da8cc.png"
+    },
+    {
+      "supplierId": "159974",
+      "products": [
+        {
+          "barcode": "3628885CWZGHZAJEK",
+          "sku": "159975",
+          "model": "3628885CWZGHZAJEK",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea L/XL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "galben",
+          "size": "L/XL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/7bc622c7-0f5d-3eb6-86bb-9e4804d2b829/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/09/bf060db2-151e-3592-8222-c578e3d8e153/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/09/abc0878b-6c1b-3ec1-93f9-3a606608038a/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198441050?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3628893L5ZCX2JTBD",
+          "sku": "159976",
+          "model": "3628893L5ZCX2JTBD",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea XXL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "galben",
+          "size": "XL-XXL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/7bc622c7-0f5d-3eb6-86bb-9e4804d2b829/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/09/bf060db2-151e-3592-8222-c578e3d8e153/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/09/abc0878b-6c1b-3ec1-93f9-3a606608038a/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198441048?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/80f949533ab564aaeecd9a2704ad73f67f6d8f2946d2b1c5ae37b2d6905d983c.img",
+        "/tmp/estore-short-gallery-audit-20261024/7d1355291ca51ba3852f470e72f3d29db26ab6877572d529629900ce8be2cadc.img",
+        "/tmp/estore-short-gallery-audit-20261024/be125b2208acb92ba4aa9ee4ec62733c4b240bdf215e01a666531f62f759a1b5.img",
+        "/tmp/estore-short-gallery-audit-20261024/45c79077f8da988b9d92805d690e20f5f7fc01c7e5ba668002b9fb264c9ff4e5.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/159974-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-red-new/",
+      "controlGalleryId": "159980",
+      "referencePaths": [
+        "/tmp/estore-short-gallery-audit-20261024/80f949533ab564aaeecd9a2704ad73f67f6d8f2946d2b1c5ae37b2d6905d983c.img",
+        "/tmp/estore-short-gallery-audit-20261024/da9f2d0a5c5fcc1b99303ad622680ed2c1a5bcd39ab7ee02e74fa77925f5d182.img"
+      ],
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-0481e4c4-c118-45f0-a4ab-ec93b29907e4.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c42cb3fd-661c-42fc-9e68-85580c8a0f2f.png"
+    },
+    {
+      "supplierId": "110328",
+      "products": [
+        {
+          "barcode": "3628886L9SU1EAY4D",
+          "sku": "110330",
+          "model": "3628886L9SU1EAY4D",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea XXL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "mentă",
+          "size": "XL-XXL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/af9ff376-aaaa-37d2-9580-e800c2db13a6/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/09/8d427dbd-482c-398b-913d-51956798c11c/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/785f83fa-6195-3eac-9b8b-43aaf30a659a/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198666186?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "36288948MTWYWBAYX",
+          "sku": "110329",
+          "model": "36288948MTWYWBAYX",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea L/XL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "mentă",
+          "size": "L/XL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/af9ff376-aaaa-37d2-9580-e800c2db13a6/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/09/8d427dbd-482c-398b-913d-51956798c11c/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/785f83fa-6195-3eac-9b8b-43aaf30a659a/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198441350?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/3d7f44053d95a084ff70f594f471cba9f34107948ef41376274dbe5b9151564f.img",
+        "/tmp/estore-short-gallery-audit-20261024/2a04252e54f0610a7017e9e89ebc0bff0936607df511d1dfd51fe8f4a5bb6ddd.img",
+        "/tmp/estore-short-gallery-audit-20261024/1eb83ff23b385df56639f3f39a5c753de26425affd3f643e3ca137689dc7c485.img",
+        "/tmp/estore-short-gallery-audit-20261024/e15d6c83832d0d00adeaa64d6a5e5014b0a56d74bb9f269421f02b26161a3b02.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110328-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-mint-whisper/",
+      "controlGalleryId": "110328",
+      "referencePaths": [
+        "/tmp/estore-short-gallery-audit-20261024/3d7f44053d95a084ff70f594f471cba9f34107948ef41376274dbe5b9151564f.img",
+        "/tmp/estore-short-gallery-audit-20261024/2a04252e54f0610a7017e9e89ebc0bff0936607df511d1dfd51fe8f4a5bb6ddd.img"
+      ],
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a1e04fac-65e2-4745-9474-cdd53c0a8637.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-4182bb08-f3da-43bb-a1ff-70c384aa5f02.png"
+    },
+    {
+      "supplierId": "159969",
+      "products": [
+        {
+          "barcode": "36288871UWEKFGRJB",
+          "sku": "159971",
+          "model": "36288871UWEKFGRJB",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea XXL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "gri",
+          "size": "XL-XXL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/a60e7606-a45c-36db-889c-620def6f8a70/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/507c1909-350d-3b5f-9448-551bbb2b98c2/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/6e2796aa-b348-3f08-aa06-349e6b7a168d/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198666372?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3628895UVXWPKTMTC",
+          "sku": "159970",
+          "model": "3628895UVXWPKTMTC",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea L/XL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "gri",
+          "size": "L/XL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/a60e7606-a45c-36db-889c-620def6f8a70/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/507c1909-350d-3b5f-9448-551bbb2b98c2/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/6e2796aa-b348-3f08-aa06-349e6b7a168d/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198666296?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/684b4efa5288d6a3dc7021e2d05f7e338bcf746f19acbd3b81f18f1d0f0f580a.img",
+        "/tmp/estore-short-gallery-audit-20261024/75247dad6824e1579cf00f2128d6de4ec0002a06d8b71009451caca44566772b.img",
+        "/tmp/estore-short-gallery-audit-20261024/2d0c12235a8e757737decc0d10c74253fe085b53745812a780e37a6e62e680be.img",
+        "/tmp/estore-short-gallery-audit-20261024/21a8e14066689e16f8b397af4b5387aca92ec9d140e2dd7fd049b1f65c2edba4.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/159969-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-gray-new/",
+      "controlGalleryId": "159969",
+      "referencePaths": [
+        "/tmp/estore-short-gallery-audit-20261024/684b4efa5288d6a3dc7021e2d05f7e338bcf746f19acbd3b81f18f1d0f0f580a.img",
+        "/tmp/estore-short-gallery-audit-20261024/75247dad6824e1579cf00f2128d6de4ec0002a06d8b71009451caca44566772b.img"
+      ],
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-5b48eb2c-b1f7-4712-93ed-afa7f37b97ce.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-8fdcf94d-6bea-40a4-8984-bc1052e57bb9.png"
+    },
+    {
+      "supplierId": "110340",
+      "products": [
+        {
+          "barcode": "3628888FOETBBBWW1",
+          "sku": "110342",
+          "model": "3628888FOETBBBWW1",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea XXL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "XL-XXL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/4b5d1eae-ee7f-3de8-b6bd-0f2fe3262c09/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/e12224a1-5c8f-3af1-a328-74a1c41d19e9/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/8cd94812-c5ef-3e8a-9792-790942f9842b/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198666825?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3628896JHTNMPCRXI",
+          "sku": "110341",
+          "model": "3628896JHTNMPCRXI",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea L/XL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "L/XL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/4b5d1eae-ee7f-3de8-b6bd-0f2fe3262c09/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/e12224a1-5c8f-3af1-a328-74a1c41d19e9/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/8cd94812-c5ef-3e8a-9792-790942f9842b/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198666601?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/367d8fe0ca06c0ee0df5f4372a384c9d40771d6e96f4be4c5cec5c5392706ad3.img",
+        "/tmp/estore-short-gallery-audit-20261024/c1eb2ad963da00e9b9b239aa1503f993feda069b50b29d88337ed4f7ee52cb2c.img",
+        "/tmp/estore-short-gallery-audit-20261024/fa5769c8feca2fa959e3d9975711826776a7bdff5e41ab86e9b0835c11381df9.img",
+        "/tmp/estore-short-gallery-audit-20261024/1c285ffc797dd9ecc3ada4ffdfe61aa8a557475d3267380526994194a7304716.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110340-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-alpine-white/",
+      "controlGalleryId": "110340",
+      "referencePaths": [
+        "/tmp/estore-short-gallery-audit-20261024/367d8fe0ca06c0ee0df5f4372a384c9d40771d6e96f4be4c5cec5c5392706ad3.img",
+        "/tmp/estore-short-gallery-audit-20261024/c1eb2ad963da00e9b9b239aa1503f993feda069b50b29d88337ed4f7ee52cb2c.img"
+      ],
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-3e35e03a-f491-439c-b2fa-259ed7e7c5bc.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-83aadf2d-68db-40c2-88a5-4b102092e8e7.png"
+    },
+    {
+      "supplierId": "110322",
+      "products": [
+        {
+          "barcode": "3628889PAM5EV1GCA",
+          "sku": "110323",
+          "model": "3628889PAM5EV1GCA",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea L/XL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "mov",
+          "size": "L/XL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/e12af02a-f12c-3f1d-aaa9-18662e562611/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/f468b8e3-d793-3ec6-93ac-126b41760183/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/75456b8b-3a33-3c11-bf79-db7adbd385ac/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198668185?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "36288905OU0TDU6NV",
+          "sku": "110324",
+          "model": "36288905OU0TDU6NV",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea XXL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "mov",
+          "size": "XL-XXL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/e12af02a-f12c-3f1d-aaa9-18662e562611/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/f468b8e3-d793-3ec6-93ac-126b41760183/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/75456b8b-3a33-3c11-bf79-db7adbd385ac/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198668277?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/2e5cfe4cf641a56343255924821ffe7f971afac2bc10f4a29a6e2f968ae2e8b6.img",
+        "/tmp/estore-short-gallery-audit-20261024/d4c2871f8c0c19aa1b6ef276ff84b63b2076c1a42770dcb8a100730b6f1494dd.img",
+        "/tmp/estore-short-gallery-audit-20261024/a2f0e5699d573b5967bfcc40a3ec29122128d5e9a1dd75a34a7288efe35b3527.img",
+        "/tmp/estore-short-gallery-audit-20261024/949f8c2d78573c81915503b79853b2741fed9c7f56cd14fb43ecdf984338f0cd.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110322-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-lavender-dream/",
+      "controlGalleryId": "110322",
+      "referencePaths": [
+        "/tmp/estore-short-gallery-audit-20261024/2e5cfe4cf641a56343255924821ffe7f971afac2bc10f4a29a6e2f968ae2e8b6.img",
+        "/tmp/estore-short-gallery-audit-20261024/d4c2871f8c0c19aa1b6ef276ff84b63b2076c1a42770dcb8a100730b6f1494dd.img"
+      ],
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-5984d51d-8fc1-4f45-8c1b-77c759e86c56.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-9cf01ef2-f634-48ee-8839-6b3f9e5284a9.png"
+    },
+    {
+      "supplierId": "110317",
+      "products": [
+        {
+          "barcode": "3628891QHLQRKPRRD",
+          "sku": "110318",
+          "model": "3628891QHLQRKPRRD",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea L/XL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "roz",
+          "size": "L/XL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/4a7af212-7de3-3afa-8b59-c98ba8acd098/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/5adb7ccf-057f-3620-8e8f-4fcc2a1ebedc/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198668437?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3628899V6EVK35XZQ",
+          "sku": "110319",
+          "model": "3628899V6EVK35XZQ",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea XXL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "roz",
+          "size": "XL-XXL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/4a7af212-7de3-3afa-8b59-c98ba8acd098/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/5adb7ccf-057f-3620-8e8f-4fcc2a1ebedc/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198668640?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/2eeef1da1efb848190f15e4eb03949e5767fc6776f06f7556df4284d69a0d780.img",
+        "/tmp/estore-short-gallery-audit-20261024/938df902c50d6ea0a7588c8f40f96c3a12d990d67b5bb4148acae7ade64181ce.img",
+        "/tmp/estore-short-gallery-audit-20261024/213f366c5c5379367bb190874031e67300f6dc122c7fd2cc54edda932dd69b51.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110317-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-blush-serenity/",
+      "controlGalleryId": "110317",
+      "referencePaths": [
+        "/tmp/estore-short-gallery-audit-20261024/2eeef1da1efb848190f15e4eb03949e5767fc6776f06f7556df4284d69a0d780.img",
+        "/tmp/estore-short-gallery-audit-20261024/938df902c50d6ea0a7588c8f40f96c3a12d990d67b5bb4148acae7ade64181ce.img"
+      ],
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-f42c5788-381e-4e3e-b01c-380c1680ed4b.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-66df0732-c455-40d3-ab3f-150a07089952.png"
+    },
+    {
+      "supplierId": "110308",
+      "products": [
+        {
+          "barcode": "3628892HKQ5ETDU3M",
+          "sku": "110310",
+          "model": "3628892HKQ5ETDU3M",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea XXL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "gri",
+          "size": "XL-XXL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/b9b97a4b-9899-3b5d-aa3e-fb76c86da068/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/383af385-75f2-3569-908d-050b60150702/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/796a2c2f-0aac-3861-a80c-d240bd87af05/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198670216?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3628900EGODYLNRGA",
+          "sku": "110309",
+          "model": "3628900EGODYLNRGA",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea L/XL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "gri",
+          "size": "L/XL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/b9b97a4b-9899-3b5d-aa3e-fb76c86da068/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/383af385-75f2-3569-908d-050b60150702/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/796a2c2f-0aac-3861-a80c-d240bd87af05/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198668849?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/42fda85ac14683f2450fcd776dfba15900f3cb4a53c04ce83d2409e059d9702b.img",
+        "/tmp/estore-short-gallery-audit-20261024/297d28a75528f83d586dd857d32827b1716e487e281adc755cd2f5e9b3c71fc8.img",
+        "/tmp/estore-short-gallery-audit-20261024/f6c3fcbcbe0cfc4f47c5afc35763811470b1737794ce1cba6f10608d3f1c4255.img",
+        "/tmp/estore-short-gallery-audit-20261024/688c42ad948a94732c61b001fb26097c8fbf7223ceb294097931b179a3a85a91.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110308-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-savanna-brew/",
+      "controlGalleryId": "110308",
+      "referencePaths": [
+        "/tmp/estore-short-gallery-audit-20261024/42fda85ac14683f2450fcd776dfba15900f3cb4a53c04ce83d2409e059d9702b.img",
+        "/tmp/estore-short-gallery-audit-20261024/297d28a75528f83d586dd857d32827b1716e487e281adc755cd2f5e9b3c71fc8.img"
+      ],
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-f0e374a6-d2a7-4cbe-a89b-ef0425aaee06.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-4ccc172e-f719-47af-aa36-acb40fe24ff0.png"
+    },
+    {
+      "supplierId": "159966",
+      "products": [
+        {
+          "barcode": "3628897MLX13S7CGC",
+          "sku": "159967",
+          "model": "3628897MLX13S7CGC",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea L/XL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "albastru sea",
+          "size": "L/XL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/1103ef56-47dc-3b4c-a925-1c4dad50a2fc/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/b1b348c3-72aa-3bcd-85b7-dd8c67790195/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/bef34870-7518-34c6-8fca-640267420206/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198667017?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3628898BDVSUT5ZEO",
+          "sku": "159968",
+          "model": "3628898BDVSUT5ZEO",
+          "title": "Halat de baie unisex din velur, 100% bumbac, mărimea XXL, cu buzunare și șnur.",
+          "description": "",
+          "category": "Halate de baie",
+          "brand": "RALEX PUCIOASA",
+          "color": "albastru marin",
+          "size": "XL-XXL",
+          "price": 299,
+          "listPrice": 299,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/1103ef56-47dc-3b4c-a925-1c4dad50a2fc/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/b1b348c3-72aa-3bcd-85b7-dd8c67790195/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/bef34870-7518-34c6-8fca-640267420206/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1198667258?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/35699ace2181cd77c4391373aab821450ae107e3048824aa16ea7b3e72e9f37b.img",
+        "/tmp/estore-short-gallery-audit-20261024/77cd83fc785af80d8a2b65af0fe6a24b871a9e412add1dbe9172addfa1b5ea01.img",
+        "/tmp/estore-short-gallery-audit-20261024/6b9d6d3d55390d94cac0bf670106cf7decbaefc5cd92b6f551fd87112a23cb60.img",
+        "/tmp/estore-short-gallery-audit-20261024/bf20bde44c3a33dbdafcfbfc94d7d210e10769a726375af0c2775d7fea5172d2.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/159966-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-blue-sea-new-2/",
+      "controlGalleryId": "159966",
+      "referencePaths": [
+        "/tmp/estore-short-gallery-audit-20261024/35699ace2181cd77c4391373aab821450ae107e3048824aa16ea7b3e72e9f37b.img",
+        "/tmp/estore-short-gallery-audit-20261024/77cd83fc785af80d8a2b65af0fe6a24b871a9e412add1dbe9172addfa1b5ea01.img"
+      ],
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c11dc2e6-b3e5-482d-9982-967f6cd72a6c.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-e13820f3-eced-4a09-b7c9-b7f6b2db9b86.png"
+    }
+  ],
+  "review": "All 30 actual generated photographs visually reviewed. Four distinct product photographs per model and size. Red/yellow Control galleries reassigned to matching supplier colors.",
+  "prompt": "Exact own source and matched Control references. Waffle blankets: preserve color, weave and plain hem, folded on bench and draped on sofa. Robes: preserve velour, color, shawl collar, belt and patch pockets, folded and hanging. Portrait 2:3, soft daylight, neutral premium staging, no text or added features."
+}

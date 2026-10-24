@@ -1,0 +1,1055 @@
+[
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete"
+    ],
+    "product": {
+      "id": 159980,
+      "name": "HALAT DE BAIE VELUR 100% BUMBAC (Yellow Int)",
+      "categoryPath": "articole-baie/halate-baie",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/halat-de-baie-velur-100-bumbac-yellow-int/local-67.webp",
+      "images": [
+        "/products/halat-de-baie-velur-100-bumbac-yellow-int/local-67.webp",
+        "/products/halat-de-baie-velur-100-bumbac-yellow-int/local-68.webp",
+        "/products/halat-de-baie-velur-100-bumbac-yellow-int/local-65.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-yellow-int/",
+      "material": "Velur 100% bumbac",
+      "features": [
+        {
+          "label": "Compoziție",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Densitate",
+          "value": "420 g/m²"
+        },
+        {
+          "label": "Mărimi",
+          "value": "L–XL și XXL"
+        },
+        {
+          "label": "Conținut",
+          "value": "1 halat cu cordon"
+        }
+      ],
+      "description": "HALAT DE BAIE VELUR 100% BUMBAC (Yellow Int). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+      "category": "Halate baie",
+      "variants": [
+        {
+          "id": 159981,
+          "sku": "159981",
+          "name": "Mărime",
+          "dimensions": "L–XL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-yellow-int/local-67.webp",
+            "/products/halat-de-baie-velur-100-bumbac-yellow-int/local-68.webp",
+            "/products/halat-de-baie-velur-100-bumbac-yellow-int/local-65.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — L–XL",
+          "stock": 100
+        },
+        {
+          "id": 159982,
+          "sku": "159982",
+          "name": "Mărime",
+          "dimensions": "XXL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-yellow-int/local-67.webp",
+            "/products/halat-de-baie-velur-100-bumbac-yellow-int/local-68.webp",
+            "/products/halat-de-baie-velur-100-bumbac-yellow-int/local-65.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — XXL",
+          "stock": 100
+        }
+      ],
+      "price": 269,
+      "inStock": true
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete"
+    ],
+    "product": {
+      "id": 159974,
+      "name": "HALAT DE BAIE VELUR 100% BUMBAC (Red New)",
+      "categoryPath": "articole-baie/halate-baie",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/halat-de-baie-velur-100-bumbac-red-new/local-55.webp",
+      "images": [
+        "/products/halat-de-baie-velur-100-bumbac-red-new/local-55.webp",
+        "/products/halat-de-baie-velur-100-bumbac-red-new/local-66.webp",
+        "/products/halat-de-baie-velur-100-bumbac-red-new/local-75.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-red-new/",
+      "material": "Velur 100% bumbac",
+      "features": [
+        {
+          "label": "Compoziție",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Densitate",
+          "value": "420 g/m²"
+        },
+        {
+          "label": "Mărimi",
+          "value": "L–XL și XXL"
+        },
+        {
+          "label": "Conținut",
+          "value": "1 halat cu cordon"
+        }
+      ],
+      "description": "HALAT DE BAIE VELUR 100% BUMBAC (Red New). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+      "category": "Halate baie",
+      "variants": [
+        {
+          "id": 159975,
+          "sku": "159975",
+          "name": "Mărime",
+          "dimensions": "L–XL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-red-new/local-55.webp",
+            "/products/halat-de-baie-velur-100-bumbac-red-new/local-66.webp",
+            "/products/halat-de-baie-velur-100-bumbac-red-new/local-75.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — L–XL",
+          "stock": 100
+        },
+        {
+          "id": 159976,
+          "sku": "159976",
+          "name": "Mărime",
+          "dimensions": "XXL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-red-new/local-55.webp",
+            "/products/halat-de-baie-velur-100-bumbac-red-new/local-66.webp",
+            "/products/halat-de-baie-velur-100-bumbac-red-new/local-75.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — XXL",
+          "stock": 100
+        }
+      ],
+      "price": 269,
+      "inStock": true
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete"
+    ],
+    "product": {
+      "id": 159969,
+      "name": "HALAT DE BAIE VELUR 100% BUMBAC (Gray New)",
+      "categoryPath": "articole-baie/halate-baie",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/halat-de-baie-velur-100-bumbac-gray-new/local-81.webp",
+      "images": [
+        "/products/halat-de-baie-velur-100-bumbac-gray-new/local-81.webp",
+        "/products/halat-de-baie-velur-100-bumbac-gray-new/local-80.webp",
+        "/products/halat-de-baie-velur-100-bumbac-gray-new/local-79.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-gray-new/",
+      "material": "Velur 100% bumbac",
+      "features": [
+        {
+          "label": "Compoziție",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Densitate",
+          "value": "420 g/m²"
+        },
+        {
+          "label": "Mărimi",
+          "value": "L–XL și XXL"
+        },
+        {
+          "label": "Conținut",
+          "value": "1 halat cu cordon"
+        }
+      ],
+      "description": "HALAT DE BAIE VELUR 100% BUMBAC (Gray New). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+      "category": "Halate baie",
+      "variants": [
+        {
+          "id": 159970,
+          "sku": "159970",
+          "name": "Mărime",
+          "dimensions": "L–XL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-gray-new/local-81.webp",
+            "/products/halat-de-baie-velur-100-bumbac-gray-new/local-80.webp",
+            "/products/halat-de-baie-velur-100-bumbac-gray-new/local-79.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — L–XL",
+          "stock": 100
+        },
+        {
+          "id": 159971,
+          "sku": "159971",
+          "name": "Mărime",
+          "dimensions": "XXL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-gray-new/local-81.webp",
+            "/products/halat-de-baie-velur-100-bumbac-gray-new/local-80.webp",
+            "/products/halat-de-baie-velur-100-bumbac-gray-new/local-79.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — XXL",
+          "stock": 100
+        }
+      ],
+      "price": 269,
+      "inStock": true
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete"
+    ],
+    "product": {
+      "id": 159966,
+      "name": "HALAT DE BAIE VELUR 100% BUMBAC (Blue Sea New)",
+      "categoryPath": "articole-baie/halate-baie",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/halat-de-baie-velur-100-bumbac-blue-sea-new-2/local-59.webp",
+      "images": [
+        "/products/halat-de-baie-velur-100-bumbac-blue-sea-new-2/local-59.webp",
+        "/products/halat-de-baie-velur-100-bumbac-blue-sea-new-2/local-60.webp",
+        "/products/halat-de-baie-velur-100-bumbac-blue-sea-new-2/local-61.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-blue-sea-new-2/",
+      "material": "Velur 100% bumbac",
+      "features": [
+        {
+          "label": "Compoziție",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Densitate",
+          "value": "420 g/m²"
+        },
+        {
+          "label": "Mărimi",
+          "value": "L–XL și XXL"
+        },
+        {
+          "label": "Conținut",
+          "value": "1 halat cu cordon"
+        }
+      ],
+      "description": "HALAT DE BAIE VELUR 100% BUMBAC (Blue Sea New). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+      "category": "Halate baie",
+      "variants": [
+        {
+          "id": 159967,
+          "sku": "159967",
+          "name": "Mărime",
+          "dimensions": "L–XL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-blue-sea-new-2/local-59.webp",
+            "/products/halat-de-baie-velur-100-bumbac-blue-sea-new-2/local-60.webp",
+            "/products/halat-de-baie-velur-100-bumbac-blue-sea-new-2/local-61.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — L–XL",
+          "stock": 100
+        },
+        {
+          "id": 159968,
+          "sku": "159968",
+          "name": "Mărime",
+          "dimensions": "XXL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-blue-sea-new-2/local-59.webp",
+            "/products/halat-de-baie-velur-100-bumbac-blue-sea-new-2/local-60.webp",
+            "/products/halat-de-baie-velur-100-bumbac-blue-sea-new-2/local-61.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — XXL",
+          "stock": 100
+        }
+      ],
+      "price": 269,
+      "inStock": true
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete"
+    ],
+    "product": {
+      "id": 110340,
+      "name": "HALAT DE BAIE VELUR 100% BUMBAC (Alpine White)",
+      "categoryPath": "articole-baie/halate-baie",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/halat-de-baie-velur-100-bumbac-alpine-white/local-57.webp",
+      "images": [
+        "/products/halat-de-baie-velur-100-bumbac-alpine-white/local-57.webp",
+        "/products/halat-de-baie-velur-100-bumbac-alpine-white/local-58.webp",
+        "/products/halat-de-baie-velur-100-bumbac-alpine-white/local-56.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-alpine-white/",
+      "material": "Velur 100% bumbac",
+      "features": [
+        {
+          "label": "Compoziție",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Densitate",
+          "value": "420 g/m²"
+        },
+        {
+          "label": "Mărimi",
+          "value": "L–XL și XXL"
+        },
+        {
+          "label": "Conținut",
+          "value": "1 halat cu cordon"
+        }
+      ],
+      "description": "HALAT DE BAIE VELUR 100% BUMBAC (Alpine White). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+      "category": "Halate baie",
+      "variants": [
+        {
+          "id": 110341,
+          "sku": "110341",
+          "name": "Mărime",
+          "dimensions": "L–XL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-alpine-white/local-57.webp",
+            "/products/halat-de-baie-velur-100-bumbac-alpine-white/local-58.webp",
+            "/products/halat-de-baie-velur-100-bumbac-alpine-white/local-56.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — L–XL",
+          "stock": 100
+        },
+        {
+          "id": 110342,
+          "sku": "110342",
+          "name": "Mărime",
+          "dimensions": "XXL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-alpine-white/local-57.webp",
+            "/products/halat-de-baie-velur-100-bumbac-alpine-white/local-58.webp",
+            "/products/halat-de-baie-velur-100-bumbac-alpine-white/local-56.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — XXL",
+          "stock": 100
+        }
+      ],
+      "price": 269,
+      "inStock": true
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete"
+    ],
+    "product": {
+      "id": 110328,
+      "name": "HALAT DE BAIE VELUR 100% BUMBAC (Mint Whisper)",
+      "categoryPath": "articole-baie/halate-baie",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/halat-de-baie-velur-100-bumbac-mint-whisper/local-78.webp",
+      "images": [
+        "/products/halat-de-baie-velur-100-bumbac-mint-whisper/local-78.webp",
+        "/products/halat-de-baie-velur-100-bumbac-mint-whisper/local-76.webp",
+        "/products/halat-de-baie-velur-100-bumbac-mint-whisper/local-77.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-mint-whisper/",
+      "material": "Velur 100% bumbac",
+      "features": [
+        {
+          "label": "Compoziție",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Densitate",
+          "value": "420 g/m²"
+        },
+        {
+          "label": "Mărimi",
+          "value": "L–XL și XXL"
+        },
+        {
+          "label": "Conținut",
+          "value": "1 halat cu cordon"
+        }
+      ],
+      "description": "HALAT DE BAIE VELUR 100% BUMBAC (Mint Whisper). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+      "category": "Halate baie",
+      "variants": [
+        {
+          "id": 110329,
+          "sku": "110329",
+          "name": "Mărime",
+          "dimensions": "L–XL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-mint-whisper/local-78.webp",
+            "/products/halat-de-baie-velur-100-bumbac-mint-whisper/local-76.webp",
+            "/products/halat-de-baie-velur-100-bumbac-mint-whisper/local-77.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — L–XL",
+          "stock": 100
+        },
+        {
+          "id": 110330,
+          "sku": "110330",
+          "name": "Mărime",
+          "dimensions": "XXL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-mint-whisper/local-78.webp",
+            "/products/halat-de-baie-velur-100-bumbac-mint-whisper/local-76.webp",
+            "/products/halat-de-baie-velur-100-bumbac-mint-whisper/local-77.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — XXL",
+          "stock": 100
+        }
+      ],
+      "price": 269,
+      "inStock": true
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete"
+    ],
+    "product": {
+      "id": 110322,
+      "name": "HALAT DE BAIE VELUR 100% BUMBAC (Lavender Dream)",
+      "categoryPath": "articole-baie/halate-baie",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/halat-de-baie-velur-100-bumbac-lavender-dream/local-64.webp",
+      "images": [
+        "/products/halat-de-baie-velur-100-bumbac-lavender-dream/local-64.webp",
+        "/products/halat-de-baie-velur-100-bumbac-lavender-dream/local-62.webp",
+        "/products/halat-de-baie-velur-100-bumbac-lavender-dream/local-63.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-lavender-dream/",
+      "material": "Velur 100% bumbac",
+      "features": [
+        {
+          "label": "Compoziție",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Densitate",
+          "value": "420 g/m²"
+        },
+        {
+          "label": "Mărimi",
+          "value": "L–XL și XXL"
+        },
+        {
+          "label": "Conținut",
+          "value": "1 halat cu cordon"
+        }
+      ],
+      "description": "HALAT DE BAIE VELUR 100% BUMBAC (Lavender Dream). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+      "category": "Halate baie",
+      "variants": [
+        {
+          "id": 110323,
+          "sku": "110323",
+          "name": "Mărime",
+          "dimensions": "L–XL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-lavender-dream/local-64.webp",
+            "/products/halat-de-baie-velur-100-bumbac-lavender-dream/local-62.webp",
+            "/products/halat-de-baie-velur-100-bumbac-lavender-dream/local-63.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — L–XL",
+          "stock": 100
+        },
+        {
+          "id": 110324,
+          "sku": "110324",
+          "name": "Mărime",
+          "dimensions": "XXL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-lavender-dream/local-64.webp",
+            "/products/halat-de-baie-velur-100-bumbac-lavender-dream/local-62.webp",
+            "/products/halat-de-baie-velur-100-bumbac-lavender-dream/local-63.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — XXL",
+          "stock": 100
+        }
+      ],
+      "price": 269,
+      "inStock": true
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete"
+    ],
+    "product": {
+      "id": 110317,
+      "name": "HALAT DE BAIE VELUR 100% BUMBAC (Blush Serenity)",
+      "categoryPath": "articole-baie/halate-baie",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/halat-de-baie-velur-100-bumbac-blush-serenity/local-71.webp",
+      "images": [
+        "/products/halat-de-baie-velur-100-bumbac-blush-serenity/local-71.webp",
+        "/products/halat-de-baie-velur-100-bumbac-blush-serenity/local-69.webp",
+        "/products/halat-de-baie-velur-100-bumbac-blush-serenity/local-70.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-blush-serenity/",
+      "material": "Velur 100% bumbac",
+      "features": [
+        {
+          "label": "Compoziție",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Densitate",
+          "value": "420 g/m²"
+        },
+        {
+          "label": "Mărimi",
+          "value": "L–XL și XXL"
+        },
+        {
+          "label": "Conținut",
+          "value": "1 halat cu cordon"
+        }
+      ],
+      "description": "HALAT DE BAIE VELUR 100% BUMBAC (Blush Serenity). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+      "category": "Halate baie",
+      "variants": [
+        {
+          "id": 110318,
+          "sku": "110318",
+          "name": "Mărime",
+          "dimensions": "L–XL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-blush-serenity/local-71.webp",
+            "/products/halat-de-baie-velur-100-bumbac-blush-serenity/local-69.webp",
+            "/products/halat-de-baie-velur-100-bumbac-blush-serenity/local-70.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — L–XL",
+          "stock": 100
+        },
+        {
+          "id": 110319,
+          "sku": "110319",
+          "name": "Mărime",
+          "dimensions": "XXL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-blush-serenity/local-71.webp",
+            "/products/halat-de-baie-velur-100-bumbac-blush-serenity/local-69.webp",
+            "/products/halat-de-baie-velur-100-bumbac-blush-serenity/local-70.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — XXL",
+          "stock": 100
+        }
+      ],
+      "price": 269,
+      "inStock": true
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete"
+    ],
+    "product": {
+      "id": 110308,
+      "name": "HALAT DE BAIE VELUR 100% BUMBAC (Savanna Brew)",
+      "categoryPath": "articole-baie/halate-baie",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/halat-de-baie-velur-100-bumbac-savanna-brew/local-72.webp",
+      "images": [
+        "/products/halat-de-baie-velur-100-bumbac-savanna-brew/local-72.webp",
+        "/products/halat-de-baie-velur-100-bumbac-savanna-brew/local-74.webp",
+        "/products/halat-de-baie-velur-100-bumbac-savanna-brew/local-73.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-savanna-brew/",
+      "material": "Velur 100% bumbac",
+      "features": [
+        {
+          "label": "Compoziție",
+          "value": "100% bumbac"
+        },
+        {
+          "label": "Densitate",
+          "value": "420 g/m²"
+        },
+        {
+          "label": "Mărimi",
+          "value": "L–XL și XXL"
+        },
+        {
+          "label": "Conținut",
+          "value": "1 halat cu cordon"
+        }
+      ],
+      "description": "HALAT DE BAIE VELUR 100% BUMBAC (Savanna Brew). Compoziție textilă: 100% bumbac Densitate: 420gr.m2 Conținut pachet: 1 halat cu cordon.",
+      "category": "Halate baie",
+      "variants": [
+        {
+          "id": 110309,
+          "sku": "110309",
+          "name": "Mărime",
+          "dimensions": "L–XL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-savanna-brew/local-72.webp",
+            "/products/halat-de-baie-velur-100-bumbac-savanna-brew/local-74.webp",
+            "/products/halat-de-baie-velur-100-bumbac-savanna-brew/local-73.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — L–XL",
+          "stock": 100
+        },
+        {
+          "id": 110310,
+          "sku": "110310",
+          "name": "Mărime",
+          "dimensions": "XXL",
+          "price": 269,
+          "images": [
+            "/products/halat-de-baie-velur-100-bumbac-savanna-brew/local-72.webp",
+            "/products/halat-de-baie-velur-100-bumbac-savanna-brew/local-74.webp",
+            "/products/halat-de-baie-velur-100-bumbac-savanna-brew/local-73.webp"
+          ],
+          "inStock": true,
+          "contents": "1 halat cu cordon — XXL",
+          "stock": 100
+        }
+      ],
+      "price": 269,
+      "inStock": true
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete",
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 160050,
+      "name": "Pled Waffles 100%bumbac (Verde)",
+      "category": "Pled Waffles",
+      "categoryPath": "cuverturi/pled-waffles",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Pled Waffles 100% Bumbac – Confort Natural, Textură Premium\nDescoperă răsfățul unui somn perfect cu Pledul Waffles din 100% bumbac, creat pentru cei care prețuiesc calitatea și naturalețea în fiecare detaliu. Textura unică în relief tip fagure (waffle) oferă un aspect elegant și o senzație plăcută la atingere, transformând orice dormitor sau living într-un spațiu cald și primitor.\nCaracteristici principale:\nCompoziție: 100% bumbac natural – respirabil, hipoalergenic, ideal pentru pielea sensibilă\nDensitate: 350 gr/m² – greutate optimă pentru un confort termic echilibrat în orice anotimp\nContracție la spălat: max. 5% – dimensiunile rămân stabile după spălare\nTextură waffle – suprafață în relief care asigură o circulație superioară a aerului\nDe ce să alegi Pledul Waffles?\nBumbacul 100% natural reglează temperatura corpului în mod natural, menținându-te răcoros vara și cald iarna. Densitatea de 350 gr/m² asigură o greutate confortabilă fără a fi sufocantă, iar țesătura waffle adaugă un plus de textură și stil oricărui decor. Ușor de întreținut – se spală la mașină, se usucă rapid și își păstrează forma.\nPerfect pentru: dormitor, canapea, lectură, picnic sau cadou.",
+      "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-verde/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/81cc93e1-ecd7-3b00-84a7-d077194c8892/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/2a08a2c5-966a-3653-af96-6c89c7218ff3/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/258c3c2d-a15a-31f0-b9ee-0dceb5c47d50/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/81cc93e1-ecd7-3b00-84a7-d077194c8892/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 269,
+      "variants": [
+        {
+          "id": 160051,
+          "sku": "160051",
+          "name": "220x240cm",
+          "dimensions": "220x240cm",
+          "contents": "220x240cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/81cc93e1-ecd7-3b00-84a7-d077194c8892/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/2a08a2c5-966a-3653-af96-6c89c7218ff3/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/258c3c2d-a15a-31f0-b9ee-0dceb5c47d50/1_org_zoom.jpg"
+          ],
+          "price": 269,
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 160052,
+          "sku": "160052",
+          "name": "240x260cm",
+          "dimensions": "240x260cm",
+          "contents": "240x260cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/81cc93e1-ecd7-3b00-84a7-d077194c8892/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/2a08a2c5-966a-3653-af96-6c89c7218ff3/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/258c3c2d-a15a-31f0-b9ee-0dceb5c47d50/1_org_zoom.jpg"
+          ],
+          "price": 289,
+          "inStock": true,
+          "stock": 100
+        }
+      ]
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete",
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 160045,
+      "name": "Pled Waffles 100%bumbac (Mov)",
+      "category": "Pled Waffles",
+      "categoryPath": "cuverturi/pled-waffles",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Pled Waffles 100% Bumbac – Confort Natural, Textură Premium\nDescoperă răsfățul unui somn perfect cu Pledul Waffles din 100% bumbac, creat pentru cei care prețuiesc calitatea și naturalețea în fiecare detaliu. Textura unică în relief tip fagure (waffle) oferă un aspect elegant și o senzație plăcută la atingere, transformând orice dormitor sau living într-un spațiu cald și primitor.\nCaracteristici principale:\nCompoziție: 100% bumbac natural – respirabil, hipoalergenic, ideal pentru pielea sensibilă\nDensitate: 350 gr/m² – greutate optimă pentru un confort termic echilibrat în orice anotimp\nContracție la spălat: max. 5% – dimensiunile rămân stabile după spălare\nTextură waffle – suprafață în relief care asigură o circulație superioară a aerului\nDe ce să alegi Pledul Waffles?\nBumbacul 100% natural reglează temperatura corpului în mod natural, menținându-te răcoros vara și cald iarna. Densitatea de 350 gr/m² asigură o greutate confortabilă fără a fi sufocantă, iar țesătura waffle adaugă un plus de textură și stil oricărui decor. Ușor de întreținut – se spală la mașină, se usucă rapid și își păstrează forma.\nPerfect pentru: dormitor, canapea, lectură, picnic sau cadou.",
+      "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-mov/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/7d5e439a-93ce-3b54-b913-b8bf1a8de42a/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/f1ec2d33-0c19-3d2e-b584-097be1017b85/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/8819a411-435d-3c90-ac56-88ee6b850ff1/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/7d5e439a-93ce-3b54-b913-b8bf1a8de42a/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 269,
+      "variants": [
+        {
+          "id": 160046,
+          "sku": "160046",
+          "name": "220x240cm",
+          "dimensions": "220x240cm",
+          "contents": "220x240cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/7d5e439a-93ce-3b54-b913-b8bf1a8de42a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/f1ec2d33-0c19-3d2e-b584-097be1017b85/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/8819a411-435d-3c90-ac56-88ee6b850ff1/1_org_zoom.jpg"
+          ],
+          "price": 269,
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 160047,
+          "sku": "160047",
+          "name": "240x260cm",
+          "dimensions": "240x260cm",
+          "contents": "240x260cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/7d5e439a-93ce-3b54-b913-b8bf1a8de42a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/f1ec2d33-0c19-3d2e-b584-097be1017b85/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/8819a411-435d-3c90-ac56-88ee6b850ff1/1_org_zoom.jpg"
+          ],
+          "price": 289,
+          "inStock": true,
+          "stock": 100
+        }
+      ]
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete",
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 160040,
+      "name": "Pled Waffles 100%bumbac (Roz)",
+      "category": "Pled Waffles",
+      "categoryPath": "cuverturi/pled-waffles",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Pled Waffles 100% Bumbac – Confort Natural, Textură Premium\nDescoperă răsfățul unui somn perfect cu Pledul Waffles din 100% bumbac, creat pentru cei care prețuiesc calitatea și naturalețea în fiecare detaliu. Textura unică în relief tip fagure (waffle) oferă un aspect elegant și o senzație plăcută la atingere, transformând orice dormitor sau living într-un spațiu cald și primitor.\nCaracteristici principale:\nCompoziție: 100% bumbac natural – respirabil, hipoalergenic, ideal pentru pielea sensibilă\nDensitate: 350 gr/m² – greutate optimă pentru un confort termic echilibrat în orice anotimp\nContracție la spălat: max. 5% – dimensiunile rămân stabile după spălare\nTextură waffle – suprafață în relief care asigură o circulație superioară a aerului\nDe ce să alegi Pledul Waffles?\nBumbacul 100% natural reglează temperatura corpului în mod natural, menținându-te răcoros vara și cald iarna. Densitatea de 350 gr/m² asigură o greutate confortabilă fără a fi sufocantă, iar țesătura waffle adaugă un plus de textură și stil oricărui decor. Ușor de întreținut – se spală la mașină, se usucă rapid și își păstrează forma.\nPerfect pentru: dormitor, canapea, lectură, picnic sau cadou.",
+      "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-roz/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/15daa8ad-d791-3b27-9417-843537bc0859/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/cd12d208-21ed-3164-9808-a8ea51a10039/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/eca26e7a-00d0-3fb9-8f69-87ac9b508618/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/15daa8ad-d791-3b27-9417-843537bc0859/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 269,
+      "variants": [
+        {
+          "id": 160041,
+          "sku": "160041",
+          "name": "220x240cm",
+          "dimensions": "220x240cm",
+          "contents": "220x240cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/15daa8ad-d791-3b27-9417-843537bc0859/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/cd12d208-21ed-3164-9808-a8ea51a10039/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/eca26e7a-00d0-3fb9-8f69-87ac9b508618/1_org_zoom.jpg"
+          ],
+          "price": 269,
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 160042,
+          "sku": "160042",
+          "name": "240x260cm",
+          "dimensions": "240x260cm",
+          "contents": "240x260cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/15daa8ad-d791-3b27-9417-843537bc0859/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/cd12d208-21ed-3164-9808-a8ea51a10039/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/eca26e7a-00d0-3fb9-8f69-87ac9b508618/1_org_zoom.jpg"
+          ],
+          "price": 289,
+          "inStock": true,
+          "stock": 100
+        }
+      ]
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete",
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 160030,
+      "name": "Pled Waffles 100%bumbac (Crem)",
+      "category": "Pled Waffles",
+      "categoryPath": "cuverturi/pled-waffles",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Pled Waffles 100% Bumbac – Confort Natural, Textură Premium\nDescoperă răsfățul unui somn perfect cu Pledul Waffles din 100% bumbac, creat pentru cei care prețuiesc calitatea și naturalețea în fiecare detaliu. Textura unică în relief tip fagure (waffle) oferă un aspect elegant și o senzație plăcută la atingere, transformând orice dormitor sau living într-un spațiu cald și primitor.\nCaracteristici principale:\nCompoziție: 100% bumbac natural – respirabil, hipoalergenic, ideal pentru pielea sensibilă\nDensitate: 350 gr/m² – greutate optimă pentru un confort termic echilibrat în orice anotimp\nContracție la spălat: max. 5% – dimensiunile rămân stabile după spălare\nTextură waffle – suprafață în relief care asigură o circulație superioară a aerului\nDe ce să alegi Pledul Waffles?\nBumbacul 100% natural reglează temperatura corpului în mod natural, menținându-te răcoros vara și cald iarna. Densitatea de 350 gr/m² asigură o greutate confortabilă fără a fi sufocantă, iar țesătura waffle adaugă un plus de textură și stil oricărui decor. Ușor de întreținut – se spală la mașină, se usucă rapid și își păstrează forma.\nPerfect pentru: dormitor, canapea, lectură, picnic sau cadou.",
+      "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-crem/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/29898258-35c9-371c-8e7a-7d93d7f36a93/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/50dacf13-8855-3189-aab1-3c57e0b35f6d/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/0776c622-49b2-3896-bb0d-630dbebafac4/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/29898258-35c9-371c-8e7a-7d93d7f36a93/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 269,
+      "variants": [
+        {
+          "id": 160031,
+          "sku": "160031",
+          "name": "220x240cm",
+          "dimensions": "220x240cm",
+          "contents": "220x240cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/29898258-35c9-371c-8e7a-7d93d7f36a93/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/50dacf13-8855-3189-aab1-3c57e0b35f6d/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/0776c622-49b2-3896-bb0d-630dbebafac4/1_org_zoom.jpg"
+          ],
+          "price": 269,
+          "inStock": true,
+          "stock": 100
+        }
+      ]
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete",
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 160025,
+      "name": "Pled Waffles 100%bumbac (Cărămiziu)",
+      "category": "Pled Waffles",
+      "categoryPath": "cuverturi/pled-waffles",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Pled Waffles 100% Bumbac – Confort Natural, Textură Premium\nDescoperă răsfățul unui somn perfect cu Pledul Waffles din 100% bumbac, creat pentru cei care prețuiesc calitatea și naturalețea în fiecare detaliu. Textura unică în relief tip fagure (waffle) oferă un aspect elegant și o senzație plăcută la atingere, transformând orice dormitor sau living într-un spațiu cald și primitor.\nCaracteristici principale:\nCompoziție: 100% bumbac natural – respirabil, hipoalergenic, ideal pentru pielea sensibilă\nDensitate: 350 gr/m² – greutate optimă pentru un confort termic echilibrat în orice anotimp\nContracție la spălat: max. 5% – dimensiunile rămân stabile după spălare\nTextură waffle – suprafață în relief care asigură o circulație superioară a aerului\nDe ce să alegi Pledul Waffles?\nBumbacul 100% natural reglează temperatura corpului în mod natural, menținându-te răcoros vara și cald iarna. Densitatea de 350 gr/m² asigură o greutate confortabilă fără a fi sufocantă, iar țesătura waffle adaugă un plus de textură și stil oricărui decor. Ușor de întreținut – se spală la mașină, se usucă rapid și își păstrează forma.\nPerfect pentru: dormitor, canapea, lectură, picnic sau cadou.",
+      "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-caramiziu/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/7ab1c707-9203-3b63-98ec-568d8bae25ca/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/51fbb523-fbe5-3c75-ac25-e037a9a9f60c/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/1a2664c8-0812-396e-beac-7e07e9d3c83b/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/7ab1c707-9203-3b63-98ec-568d8bae25ca/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 269,
+      "variants": [
+        {
+          "id": 160026,
+          "sku": "160026",
+          "name": "220x240cm",
+          "dimensions": "220x240cm",
+          "contents": "220x240cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/7ab1c707-9203-3b63-98ec-568d8bae25ca/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/51fbb523-fbe5-3c75-ac25-e037a9a9f60c/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/1a2664c8-0812-396e-beac-7e07e9d3c83b/1_org_zoom.jpg"
+          ],
+          "price": 269,
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 160027,
+          "sku": "160027",
+          "name": "240x260cm",
+          "dimensions": "240x260cm",
+          "contents": "240x260cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/7ab1c707-9203-3b63-98ec-568d8bae25ca/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/51fbb523-fbe5-3c75-ac25-e037a9a9f60c/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/1a2664c8-0812-396e-beac-7e07e9d3c83b/1_org_zoom.jpg"
+          ],
+          "price": 289,
+          "inStock": true,
+          "stock": 100
+        }
+      ]
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images",
+      "variant_gallery_incomplete",
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 160035,
+      "name": "Pled Waffles 100%bumbac (Bej)",
+      "category": "Pled Waffles",
+      "categoryPath": "cuverturi/pled-waffles",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "Pled Waffles 100% Bumbac – Confort Natural, Textură Premium\nDescoperă răsfățul unui somn perfect cu Pledul Waffles din 100% bumbac, creat pentru cei care prețuiesc calitatea și naturalețea în fiecare detaliu. Textura unică în relief tip fagure (waffle) oferă un aspect elegant și o senzație plăcută la atingere, transformând orice dormitor sau living într-un spațiu cald și primitor.\nCaracteristici principale:\nCompoziție: 100% bumbac natural – respirabil, hipoalergenic, ideal pentru pielea sensibilă\nDensitate: 350 gr/m² – greutate optimă pentru un confort termic echilibrat în orice anotimp\nContracție la spălat: max. 5% – dimensiunile rămân stabile după spălare\nTextură waffle – suprafață în relief care asigură o circulație superioară a aerului\nDe ce să alegi Pledul Waffles?\nBumbacul 100% natural reglează temperatura corpului în mod natural, menținându-te răcoros vara și cald iarna. Densitatea de 350 gr/m² asigură o greutate confortabilă fără a fi sufocantă, iar țesătura waffle adaugă un plus de textură și stil oricărui decor. Ușor de întreținut – se spală la mașină, se usucă rapid și își păstrează forma.\nPerfect pentru: dormitor, canapea, lectură, picnic sau cadou.",
+      "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-bej/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/b2b03149-bcf1-30c6-af50-eb5f105e8af5/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/e146fb5c-3ac7-3f95-84f2-87b02812b3fb/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/da89f5b2-95bf-3f8e-9f70-ebee707a395c/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/b2b03149-bcf1-30c6-af50-eb5f105e8af5/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 269,
+      "variants": [
+        {
+          "id": 160036,
+          "sku": "160036",
+          "name": "220x240cm",
+          "dimensions": "220x240cm",
+          "contents": "220x240cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/b2b03149-bcf1-30c6-af50-eb5f105e8af5/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/e146fb5c-3ac7-3f95-84f2-87b02812b3fb/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/da89f5b2-95bf-3f8e-9f70-ebee707a395c/1_org_zoom.jpg"
+          ],
+          "price": 269,
+          "inStock": true,
+          "stock": 100
+        },
+        {
+          "id": 160037,
+          "sku": "160037",
+          "name": "240x260cm",
+          "dimensions": "240x260cm",
+          "contents": "240x260cm",
+          "images": [
+            "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/b2b03149-bcf1-30c6-af50-eb5f105e8af5/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/e146fb5c-3ac7-3f95-84f2-87b02812b3fb/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/da89f5b2-95bf-3f8e-9f70-ebee707a395c/1_org_zoom.jpg"
+          ],
+          "price": 289,
+          "inStock": true,
+          "stock": 100
+        }
+      ]
+    }
+  }
+]

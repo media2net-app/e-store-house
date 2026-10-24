@@ -1,0 +1,126 @@
+{
+  "preparedAt": "2026-10-24T00:32:51.683169+00:00",
+  "products": [
+    {
+      "id": 160050,
+      "skus": [
+        "160052",
+        "160051"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 160045,
+      "skus": [
+        "160046",
+        "160047"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 160040,
+      "skus": [
+        "160041",
+        "160042"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 160030,
+      "skus": [
+        "160031"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 160025,
+      "skus": [
+        "160027",
+        "160026"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 160035,
+      "skus": [
+        "160036",
+        "160037"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 159980,
+      "skus": [
+        "159982",
+        "159981"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 159974,
+      "skus": [
+        "159975",
+        "159976"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 110328,
+      "skus": [
+        "110330",
+        "110329"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 159969,
+      "skus": [
+        "159971",
+        "159970"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 110340,
+      "skus": [
+        "110342",
+        "110341"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 110322,
+      "skus": [
+        "110323",
+        "110324"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 110317,
+      "skus": [
+        "110318",
+        "110319"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 110308,
+      "skus": [
+        "110310",
+        "110309"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 159966,
+      "skus": [
+        "159967",
+        "159968"
+      ],
+      "status": "verified-ready"
+    }
+  ],
+  "newModels": 15,
+  "newSkus": 29
+}

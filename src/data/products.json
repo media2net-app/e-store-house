@@ -29304,5 +29304,949 @@
     "price": 249,
     "stock": 20,
     "inStock": true
+  },
+  {
+    "id": 160050,
+    "name": "Pătură waffle din 100% bumbac, 350 g/m² – verde",
+    "category": "Pled waffles",
+    "categoryPath": "cuverturi/pled-waffles",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, textură waffle, 350 g/m²",
+    "description": "Pătură waffle din 100% bumbac, 350 g/m² – verde.\n\nMaterial: 100% bumbac, textură waffle, 350 g/m².\n\nConținut: 1 pătură, în dimensiunea selectată. Mărimi disponibile în catalog: 220 × 240 cm, 240 × 260 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-verde/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/81cc93e1-ecd7-3b00-84a7-d077194c8892/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/2a08a2c5-966a-3653-af96-6c89c7218ff3/1_org_zoom.jpg",
+      "/products/160050/fold-reviewed-v1.png",
+      "/products/160050/side-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/81cc93e1-ecd7-3b00-84a7-d077194c8892/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, textură waffle, 350 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 pătură, în dimensiunea selectată."
+      }
+    ],
+    "price": 189,
+    "variants": [
+      {
+        "id": 160051,
+        "sku": "160051",
+        "name": "220 × 240 cm",
+        "dimensions": "220 × 240 cm",
+        "contents": "1 pătură, 220 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/81cc93e1-ecd7-3b00-84a7-d077194c8892/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/2a08a2c5-966a-3653-af96-6c89c7218ff3/1_org_zoom.jpg",
+          "/products/160050/fold-reviewed-v1.png",
+          "/products/160050/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 0,
+        "inStock": false
+      },
+      {
+        "id": 160052,
+        "sku": "160052",
+        "name": "240 × 260 cm",
+        "dimensions": "240 × 260 cm",
+        "contents": "1 pătură, 240 × 260 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/81cc93e1-ecd7-3b00-84a7-d077194c8892/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/2a08a2c5-966a-3653-af96-6c89c7218ff3/1_org_zoom.jpg",
+          "/products/160050/fold-reviewed-v1.png",
+          "/products/160050/side-reviewed-v1.png"
+        ],
+        "price": 209,
+        "stock": 0,
+        "inStock": false
+      }
+    ],
+    "inStock": false
+  },
+  {
+    "id": 160045,
+    "name": "Pătură waffle din 100% bumbac, 350 g/m² – mov",
+    "category": "Pled waffles",
+    "categoryPath": "cuverturi/pled-waffles",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, textură waffle, 350 g/m²",
+    "description": "Pătură waffle din 100% bumbac, 350 g/m² – mov.\n\nMaterial: 100% bumbac, textură waffle, 350 g/m².\n\nConținut: 1 pătură, în dimensiunea selectată. Mărimi disponibile în catalog: 220 × 240 cm, 240 × 260 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-mov/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/7d5e439a-93ce-3b54-b913-b8bf1a8de42a/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/f1ec2d33-0c19-3d2e-b584-097be1017b85/1_org_zoom.jpg",
+      "/products/160045/fold-reviewed-v1.png",
+      "/products/160045/side-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/7d5e439a-93ce-3b54-b913-b8bf1a8de42a/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, textură waffle, 350 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 pătură, în dimensiunea selectată."
+      }
+    ],
+    "price": 189,
+    "variants": [
+      {
+        "id": 160046,
+        "sku": "160046",
+        "name": "220 × 240 cm",
+        "dimensions": "220 × 240 cm",
+        "contents": "1 pătură, 220 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/7d5e439a-93ce-3b54-b913-b8bf1a8de42a/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/f1ec2d33-0c19-3d2e-b584-097be1017b85/1_org_zoom.jpg",
+          "/products/160045/fold-reviewed-v1.png",
+          "/products/160045/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 160047,
+        "sku": "160047",
+        "name": "240 × 260 cm",
+        "dimensions": "240 × 260 cm",
+        "contents": "1 pătură, 240 × 260 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/7d5e439a-93ce-3b54-b913-b8bf1a8de42a/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/f1ec2d33-0c19-3d2e-b584-097be1017b85/1_org_zoom.jpg",
+          "/products/160045/fold-reviewed-v1.png",
+          "/products/160045/side-reviewed-v1.png"
+        ],
+        "price": 209,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 160040,
+    "name": "Pătură waffle din 100% bumbac, 350 g/m² – roz",
+    "category": "Pled waffles",
+    "categoryPath": "cuverturi/pled-waffles",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, textură waffle, 350 g/m²",
+    "description": "Pătură waffle din 100% bumbac, 350 g/m² – roz.\n\nMaterial: 100% bumbac, textură waffle, 350 g/m².\n\nConținut: 1 pătură, în dimensiunea selectată. Mărimi disponibile în catalog: 220 × 240 cm, 240 × 260 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-roz/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/15daa8ad-d791-3b27-9417-843537bc0859/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/cd12d208-21ed-3164-9808-a8ea51a10039/1_org_zoom.jpg",
+      "/products/160040/fold-reviewed-v1.png",
+      "/products/160040/side-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/15daa8ad-d791-3b27-9417-843537bc0859/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, textură waffle, 350 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 pătură, în dimensiunea selectată."
+      }
+    ],
+    "price": 189,
+    "variants": [
+      {
+        "id": 160041,
+        "sku": "160041",
+        "name": "220 × 240 cm",
+        "dimensions": "220 × 240 cm",
+        "contents": "1 pătură, 220 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/15daa8ad-d791-3b27-9417-843537bc0859/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/cd12d208-21ed-3164-9808-a8ea51a10039/1_org_zoom.jpg",
+          "/products/160040/fold-reviewed-v1.png",
+          "/products/160040/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 160042,
+        "sku": "160042",
+        "name": "240 × 260 cm",
+        "dimensions": "240 × 260 cm",
+        "contents": "1 pătură, 240 × 260 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/15daa8ad-d791-3b27-9417-843537bc0859/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/cd12d208-21ed-3164-9808-a8ea51a10039/1_org_zoom.jpg",
+          "/products/160040/fold-reviewed-v1.png",
+          "/products/160040/side-reviewed-v1.png"
+        ],
+        "price": 209,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 160030,
+    "name": "Pătură waffle din 100% bumbac, 350 g/m² – crem",
+    "category": "Pled waffles",
+    "categoryPath": "cuverturi/pled-waffles",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, textură waffle, 350 g/m²",
+    "description": "Pătură waffle din 100% bumbac, 350 g/m² – crem.\n\nMaterial: 100% bumbac, textură waffle, 350 g/m².\n\nConținut: 1 pătură, în dimensiunea selectată. Mărimi disponibile în catalog: 220 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-crem/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/29898258-35c9-371c-8e7a-7d93d7f36a93/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/50dacf13-8855-3189-aab1-3c57e0b35f6d/1_org_zoom.jpg",
+      "/products/160030/fold-reviewed-v1.png",
+      "/products/160030/side-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/29898258-35c9-371c-8e7a-7d93d7f36a93/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, textură waffle, 350 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 pătură, în dimensiunea selectată."
+      }
+    ],
+    "price": 189,
+    "variants": [
+      {
+        "id": 160031,
+        "sku": "160031",
+        "name": "220 × 240 cm",
+        "dimensions": "220 × 240 cm",
+        "contents": "1 pătură, 220 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/29898258-35c9-371c-8e7a-7d93d7f36a93/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/50dacf13-8855-3189-aab1-3c57e0b35f6d/1_org_zoom.jpg",
+          "/products/160030/fold-reviewed-v1.png",
+          "/products/160030/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 0,
+        "inStock": false
+      }
+    ],
+    "inStock": false
+  },
+  {
+    "id": 160025,
+    "name": "Pătură waffle din 100% bumbac, 350 g/m² – cărămiziu",
+    "category": "Pled waffles",
+    "categoryPath": "cuverturi/pled-waffles",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, textură waffle, 350 g/m²",
+    "description": "Pătură waffle din 100% bumbac, 350 g/m² – cărămiziu.\n\nMaterial: 100% bumbac, textură waffle, 350 g/m².\n\nConținut: 1 pătură, în dimensiunea selectată. Mărimi disponibile în catalog: 220 × 240 cm, 240 × 260 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-caramiziu/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/7ab1c707-9203-3b63-98ec-568d8bae25ca/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/51fbb523-fbe5-3c75-ac25-e037a9a9f60c/1_org_zoom.jpg",
+      "/products/160025/fold-reviewed-v1.png",
+      "/products/160025/side-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/7ab1c707-9203-3b63-98ec-568d8bae25ca/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, textură waffle, 350 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 pătură, în dimensiunea selectată."
+      }
+    ],
+    "price": 189,
+    "variants": [
+      {
+        "id": 160026,
+        "sku": "160026",
+        "name": "220 × 240 cm",
+        "dimensions": "220 × 240 cm",
+        "contents": "1 pătură, 220 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/7ab1c707-9203-3b63-98ec-568d8bae25ca/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/51fbb523-fbe5-3c75-ac25-e037a9a9f60c/1_org_zoom.jpg",
+          "/products/160025/fold-reviewed-v1.png",
+          "/products/160025/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 160027,
+        "sku": "160027",
+        "name": "240 × 260 cm",
+        "dimensions": "240 × 260 cm",
+        "contents": "1 pătură, 240 × 260 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/7ab1c707-9203-3b63-98ec-568d8bae25ca/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260910/15/51fbb523-fbe5-3c75-ac25-e037a9a9f60c/1_org_zoom.jpg",
+          "/products/160025/fold-reviewed-v1.png",
+          "/products/160025/side-reviewed-v1.png"
+        ],
+        "price": 209,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 160035,
+    "name": "Pătură waffle din 100% bumbac, 350 g/m² – bej",
+    "category": "Pled waffles",
+    "categoryPath": "cuverturi/pled-waffles",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, textură waffle, 350 g/m²",
+    "description": "Pătură waffle din 100% bumbac, 350 g/m² – bej.\n\nMaterial: 100% bumbac, textură waffle, 350 g/m².\n\nConținut: 1 pătură, în dimensiunea selectată. Mărimi disponibile în catalog: 220 × 240 cm, 240 × 260 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-bej/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/b2b03149-bcf1-30c6-af50-eb5f105e8af5/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/e146fb5c-3ac7-3f95-84f2-87b02812b3fb/1_org_zoom.jpg",
+      "/products/160035/fold-reviewed-v1.png",
+      "/products/160035/side-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/b2b03149-bcf1-30c6-af50-eb5f105e8af5/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, textură waffle, 350 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 pătură, în dimensiunea selectată."
+      }
+    ],
+    "price": 189,
+    "variants": [
+      {
+        "id": 160036,
+        "sku": "160036",
+        "name": "220 × 240 cm",
+        "dimensions": "220 × 240 cm",
+        "contents": "1 pătură, 220 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/b2b03149-bcf1-30c6-af50-eb5f105e8af5/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/e146fb5c-3ac7-3f95-84f2-87b02812b3fb/1_org_zoom.jpg",
+          "/products/160035/fold-reviewed-v1.png",
+          "/products/160035/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 0,
+        "inStock": false
+      },
+      {
+        "id": 160037,
+        "sku": "160037",
+        "name": "240 × 260 cm",
+        "dimensions": "240 × 260 cm",
+        "contents": "1 pătură, 240 × 260 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260910/15/b2b03149-bcf1-30c6-af50-eb5f105e8af5/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260910/15/e146fb5c-3ac7-3f95-84f2-87b02812b3fb/1_org_zoom.jpg",
+          "/products/160035/fold-reviewed-v1.png",
+          "/products/160035/side-reviewed-v1.png"
+        ],
+        "price": 209,
+        "stock": 0,
+        "inStock": false
+      }
+    ],
+    "inStock": false
+  },
+  {
+    "id": 159980,
+    "name": "Halat de baie din velur, 100% bumbac, 420 g/m² – galben",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Velur din 100% bumbac, 420 g/m²",
+    "description": "Halat de baie din velur, 100% bumbac, 420 g/m² – galben.\n\nMaterial: Velur din 100% bumbac, 420 g/m².\n\nConținut: 1 halat de baie cu cordon, în mărimea selectată. Mărimi disponibile în catalog: L/XL, XXL.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-yellow-int/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/7bc622c7-0f5d-3eb6-86bb-9e4804d2b829/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/09/abc0878b-6c1b-3ec1-93f9-3a606608038a/1_org_zoom.jpg",
+      "/products/159980/fold-reviewed-v1.png",
+      "/products/159980/side-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/7bc622c7-0f5d-3eb6-86bb-9e4804d2b829/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Velur din 100% bumbac, 420 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 halat de baie cu cordon, în mărimea selectată."
+      }
+    ],
+    "price": 189,
+    "variants": [
+      {
+        "id": 159981,
+        "sku": "159981",
+        "name": "L/XL",
+        "dimensions": "L/XL",
+        "contents": "1 halat cu cordon, mărimea L/XL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/7bc622c7-0f5d-3eb6-86bb-9e4804d2b829/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/09/abc0878b-6c1b-3ec1-93f9-3a606608038a/1_org_zoom.jpg",
+          "/products/159980/fold-reviewed-v1.png",
+          "/products/159980/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 159982,
+        "sku": "159982",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "1 halat cu cordon, mărimea XXL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/7bc622c7-0f5d-3eb6-86bb-9e4804d2b829/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/09/abc0878b-6c1b-3ec1-93f9-3a606608038a/1_org_zoom.jpg",
+          "/products/159980/fold-reviewed-v1.png",
+          "/products/159980/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 159974,
+    "name": "Halat de baie din velur, 100% bumbac, 420 g/m² – roșu",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Velur din 100% bumbac, 420 g/m²",
+    "description": "Halat de baie din velur, 100% bumbac, 420 g/m² – roșu.\n\nMaterial: Velur din 100% bumbac, 420 g/m².\n\nConținut: 1 halat de baie cu cordon, în mărimea selectată. Mărimi disponibile în catalog: L/XL, XXL.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-red-new/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/09/f16d1671-8214-3532-975c-d176d55b8ccd/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/87aa1bb5-347e-3811-97fb-459f8b892508/1_org_zoom.jpg",
+      "/products/159974/fold-reviewed-v1.png",
+      "/products/159974/side-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/09/f16d1671-8214-3532-975c-d176d55b8ccd/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Velur din 100% bumbac, 420 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 halat de baie cu cordon, în mărimea selectată."
+      }
+    ],
+    "price": 189,
+    "variants": [
+      {
+        "id": 159975,
+        "sku": "159975",
+        "name": "L/XL",
+        "dimensions": "L/XL",
+        "contents": "1 halat cu cordon, mărimea L/XL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/09/f16d1671-8214-3532-975c-d176d55b8ccd/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/87aa1bb5-347e-3811-97fb-459f8b892508/1_org_zoom.jpg",
+          "/products/159974/fold-reviewed-v1.png",
+          "/products/159974/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 159976,
+        "sku": "159976",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "1 halat cu cordon, mărimea XXL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/09/f16d1671-8214-3532-975c-d176d55b8ccd/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/87aa1bb5-347e-3811-97fb-459f8b892508/1_org_zoom.jpg",
+          "/products/159974/fold-reviewed-v1.png",
+          "/products/159974/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110328,
+    "name": "Halat de baie din velur, 100% bumbac, 420 g/m² – mentă",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Velur din 100% bumbac, 420 g/m²",
+    "description": "Halat de baie din velur, 100% bumbac, 420 g/m² – mentă.\n\nMaterial: Velur din 100% bumbac, 420 g/m².\n\nConținut: 1 halat de baie cu cordon, în mărimea selectată. Mărimi disponibile în catalog: L/XL, XXL.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-mint-whisper/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/af9ff376-aaaa-37d2-9580-e800c2db13a6/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/785f83fa-6195-3eac-9b8b-43aaf30a659a/1_org_zoom.jpg",
+      "/products/110328/fold-reviewed-v1.png",
+      "/products/110328/side-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/af9ff376-aaaa-37d2-9580-e800c2db13a6/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Velur din 100% bumbac, 420 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 halat de baie cu cordon, în mărimea selectată."
+      }
+    ],
+    "price": 189,
+    "variants": [
+      {
+        "id": 110329,
+        "sku": "110329",
+        "name": "L/XL",
+        "dimensions": "L/XL",
+        "contents": "1 halat cu cordon, mărimea L/XL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/af9ff376-aaaa-37d2-9580-e800c2db13a6/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/785f83fa-6195-3eac-9b8b-43aaf30a659a/1_org_zoom.jpg",
+          "/products/110328/fold-reviewed-v1.png",
+          "/products/110328/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110330,
+        "sku": "110330",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "1 halat cu cordon, mărimea XXL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/af9ff376-aaaa-37d2-9580-e800c2db13a6/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/09/785f83fa-6195-3eac-9b8b-43aaf30a659a/1_org_zoom.jpg",
+          "/products/110328/fold-reviewed-v1.png",
+          "/products/110328/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 159969,
+    "name": "Halat de baie din velur, 100% bumbac, 420 g/m² – gri",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Velur din 100% bumbac, 420 g/m²",
+    "description": "Halat de baie din velur, 100% bumbac, 420 g/m² – gri.\n\nMaterial: Velur din 100% bumbac, 420 g/m².\n\nConținut: 1 halat de baie cu cordon, în mărimea selectată. Mărimi disponibile în catalog: L/XL, XXL.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-gray-new/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/a60e7606-a45c-36db-889c-620def6f8a70/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/507c1909-350d-3b5f-9448-551bbb2b98c2/1_org_zoom.jpg",
+      "/products/159969/fold-reviewed-v1.png",
+      "/products/159969/side-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/a60e7606-a45c-36db-889c-620def6f8a70/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Velur din 100% bumbac, 420 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 halat de baie cu cordon, în mărimea selectată."
+      }
+    ],
+    "price": 189,
+    "variants": [
+      {
+        "id": 159970,
+        "sku": "159970",
+        "name": "L/XL",
+        "dimensions": "L/XL",
+        "contents": "1 halat cu cordon, mărimea L/XL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/a60e7606-a45c-36db-889c-620def6f8a70/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/507c1909-350d-3b5f-9448-551bbb2b98c2/1_org_zoom.jpg",
+          "/products/159969/fold-reviewed-v1.png",
+          "/products/159969/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 159971,
+        "sku": "159971",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "1 halat cu cordon, mărimea XXL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/a60e7606-a45c-36db-889c-620def6f8a70/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/507c1909-350d-3b5f-9448-551bbb2b98c2/1_org_zoom.jpg",
+          "/products/159969/fold-reviewed-v1.png",
+          "/products/159969/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110340,
+    "name": "Halat de baie din velur, 100% bumbac, 420 g/m² – alb",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Velur din 100% bumbac, 420 g/m²",
+    "description": "Halat de baie din velur, 100% bumbac, 420 g/m² – alb.\n\nMaterial: Velur din 100% bumbac, 420 g/m².\n\nConținut: 1 halat de baie cu cordon, în mărimea selectată. Mărimi disponibile în catalog: L/XL, XXL.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-alpine-white/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/4b5d1eae-ee7f-3de8-b6bd-0f2fe3262c09/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/e12224a1-5c8f-3af1-a328-74a1c41d19e9/1_org_zoom.jpg",
+      "/products/110340/fold-reviewed-v1.png",
+      "/products/110340/side-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/4b5d1eae-ee7f-3de8-b6bd-0f2fe3262c09/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Velur din 100% bumbac, 420 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 halat de baie cu cordon, în mărimea selectată."
+      }
+    ],
+    "price": 189,
+    "variants": [
+      {
+        "id": 110341,
+        "sku": "110341",
+        "name": "L/XL",
+        "dimensions": "L/XL",
+        "contents": "1 halat cu cordon, mărimea L/XL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/4b5d1eae-ee7f-3de8-b6bd-0f2fe3262c09/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/e12224a1-5c8f-3af1-a328-74a1c41d19e9/1_org_zoom.jpg",
+          "/products/110340/fold-reviewed-v1.png",
+          "/products/110340/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110342,
+        "sku": "110342",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "1 halat cu cordon, mărimea XXL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/4b5d1eae-ee7f-3de8-b6bd-0f2fe3262c09/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/e12224a1-5c8f-3af1-a328-74a1c41d19e9/1_org_zoom.jpg",
+          "/products/110340/fold-reviewed-v1.png",
+          "/products/110340/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110322,
+    "name": "Halat de baie din velur, 100% bumbac, 420 g/m² – lavandă",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Velur din 100% bumbac, 420 g/m²",
+    "description": "Halat de baie din velur, 100% bumbac, 420 g/m² – lavandă.\n\nMaterial: Velur din 100% bumbac, 420 g/m².\n\nConținut: 1 halat de baie cu cordon, în mărimea selectată. Mărimi disponibile în catalog: L/XL, XXL.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-lavender-dream/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/e12af02a-f12c-3f1d-aaa9-18662e562611/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/f468b8e3-d793-3ec6-93ac-126b41760183/1_org_zoom.jpg",
+      "/products/110322/fold-reviewed-v1.png",
+      "/products/110322/side-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/e12af02a-f12c-3f1d-aaa9-18662e562611/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Velur din 100% bumbac, 420 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 halat de baie cu cordon, în mărimea selectată."
+      }
+    ],
+    "price": 189,
+    "variants": [
+      {
+        "id": 110323,
+        "sku": "110323",
+        "name": "L/XL",
+        "dimensions": "L/XL",
+        "contents": "1 halat cu cordon, mărimea L/XL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/e12af02a-f12c-3f1d-aaa9-18662e562611/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/f468b8e3-d793-3ec6-93ac-126b41760183/1_org_zoom.jpg",
+          "/products/110322/fold-reviewed-v1.png",
+          "/products/110322/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110324,
+        "sku": "110324",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "1 halat cu cordon, mărimea XXL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/e12af02a-f12c-3f1d-aaa9-18662e562611/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/f468b8e3-d793-3ec6-93ac-126b41760183/1_org_zoom.jpg",
+          "/products/110322/fold-reviewed-v1.png",
+          "/products/110322/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110317,
+    "name": "Halat de baie din velur, 100% bumbac, 420 g/m² – roz",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Velur din 100% bumbac, 420 g/m²",
+    "description": "Halat de baie din velur, 100% bumbac, 420 g/m² – roz.\n\nMaterial: Velur din 100% bumbac, 420 g/m².\n\nConținut: 1 halat de baie cu cordon, în mărimea selectată. Mărimi disponibile în catalog: L/XL, XXL.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-blush-serenity/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/4a7af212-7de3-3afa-8b59-c98ba8acd098/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/5adb7ccf-057f-3620-8e8f-4fcc2a1ebedc/1_org_zoom.jpg",
+      "/products/110317/fold-reviewed-v1.png",
+      "/products/110317/side-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/4a7af212-7de3-3afa-8b59-c98ba8acd098/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Velur din 100% bumbac, 420 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 halat de baie cu cordon, în mărimea selectată."
+      }
+    ],
+    "price": 189,
+    "variants": [
+      {
+        "id": 110318,
+        "sku": "110318",
+        "name": "L/XL",
+        "dimensions": "L/XL",
+        "contents": "1 halat cu cordon, mărimea L/XL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/4a7af212-7de3-3afa-8b59-c98ba8acd098/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/5adb7ccf-057f-3620-8e8f-4fcc2a1ebedc/1_org_zoom.jpg",
+          "/products/110317/fold-reviewed-v1.png",
+          "/products/110317/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110319,
+        "sku": "110319",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "1 halat cu cordon, mărimea XXL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/4a7af212-7de3-3afa-8b59-c98ba8acd098/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1958/prod/QC_PREP/20260911/23/5adb7ccf-057f-3620-8e8f-4fcc2a1ebedc/1_org_zoom.jpg",
+          "/products/110317/fold-reviewed-v1.png",
+          "/products/110317/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110308,
+    "name": "Halat de baie din velur, 100% bumbac, 420 g/m² – bej",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Velur din 100% bumbac, 420 g/m²",
+    "description": "Halat de baie din velur, 100% bumbac, 420 g/m² – bej.\n\nMaterial: Velur din 100% bumbac, 420 g/m².\n\nConținut: 1 halat de baie cu cordon, în mărimea selectată. Mărimi disponibile în catalog: L/XL, XXL.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-savanna-brew/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/b9b97a4b-9899-3b5d-aa3e-fb76c86da068/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/383af385-75f2-3569-908d-050b60150702/1_org_zoom.jpg",
+      "/products/110308/fold-reviewed-v1.png",
+      "/products/110308/side-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/b9b97a4b-9899-3b5d-aa3e-fb76c86da068/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Velur din 100% bumbac, 420 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 halat de baie cu cordon, în mărimea selectată."
+      }
+    ],
+    "price": 189,
+    "variants": [
+      {
+        "id": 110309,
+        "sku": "110309",
+        "name": "L/XL",
+        "dimensions": "L/XL",
+        "contents": "1 halat cu cordon, mărimea L/XL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/b9b97a4b-9899-3b5d-aa3e-fb76c86da068/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/383af385-75f2-3569-908d-050b60150702/1_org_zoom.jpg",
+          "/products/110308/fold-reviewed-v1.png",
+          "/products/110308/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110310,
+        "sku": "110310",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "1 halat cu cordon, mărimea XXL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/b9b97a4b-9899-3b5d-aa3e-fb76c86da068/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1957/prod/QC_PREP/20260911/23/383af385-75f2-3569-908d-050b60150702/1_org_zoom.jpg",
+          "/products/110308/fold-reviewed-v1.png",
+          "/products/110308/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 159966,
+    "name": "Halat de baie din velur, 100% bumbac, 420 g/m² – turcoaz",
+    "category": "Halate baie",
+    "categoryPath": "articole-baie/halate-baie",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Velur din 100% bumbac, 420 g/m²",
+    "description": "Halat de baie din velur, 100% bumbac, 420 g/m² – turcoaz.\n\nMaterial: Velur din 100% bumbac, 420 g/m².\n\nConținut: 1 halat de baie cu cordon, în mărimea selectată. Mărimi disponibile în catalog: L/XL, XXL.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/halate-baie/halat-de-baie-velur-100-bumbac-blue-sea-new-2/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/1103ef56-47dc-3b4c-a925-1c4dad50a2fc/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/b1b348c3-72aa-3bcd-85b7-dd8c67790195/1_org_zoom.jpg",
+      "/products/159966/fold-reviewed-v1.png",
+      "/products/159966/side-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/1103ef56-47dc-3b4c-a925-1c4dad50a2fc/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Velur din 100% bumbac, 420 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 halat de baie cu cordon, în mărimea selectată."
+      }
+    ],
+    "price": 189,
+    "variants": [
+      {
+        "id": 159967,
+        "sku": "159967",
+        "name": "L/XL",
+        "dimensions": "L/XL",
+        "contents": "1 halat cu cordon, mărimea L/XL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/1103ef56-47dc-3b4c-a925-1c4dad50a2fc/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/b1b348c3-72aa-3bcd-85b7-dd8c67790195/1_org_zoom.jpg",
+          "/products/159966/fold-reviewed-v1.png",
+          "/products/159966/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 159968,
+        "sku": "159968",
+        "name": "XXL",
+        "dimensions": "XXL",
+        "contents": "1 halat cu cordon, mărimea XXL.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/1103ef56-47dc-3b4c-a925-1c4dad50a2fc/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1956/prod/QC_PREP/20260911/23/b1b348c3-72aa-3bcd-85b7-dd8c67790195/1_org_zoom.jpg",
+          "/products/159966/fold-reviewed-v1.png",
+          "/products/159966/side-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
   }
 ]
