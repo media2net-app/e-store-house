@@ -8992,11 +8992,41 @@
     "id": 104173,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-nesifonabila-gofre/",
     "costs": {
-      "104174": 177
+      "104174": 177,
+      "104175": 153
     },
     "availability": {
-      "104174": true
+      "104174": true,
+      "104175": true
     },
     "checkedAt": "2026-10-24T01:49:48.777836+00:00"
+  },
+  {
+    "id": 110755,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-satin-grace/",
+    "costs": {
+      "110756": 25,
+      "110757": 30
+    },
+    "availability": {
+      "110756": false,
+      "110757": false
+    },
+    "checkedAt": "2026-10-24T01:59:09.014454+00:00"
+  },
+  {
+    "id": 110516,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-crem/",
+    "costs": {
+      "110519": 33,
+      "110518": 30,
+      "110517": 25
+    },
+    "availability": {
+      "110519": false,
+      "110518": false,
+      "110517": false
+    },
+    "checkedAt": "2026-10-24T01:59:09.014454+00:00"
   }
 ]

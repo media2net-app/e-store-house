@@ -34875,14 +34875,13 @@
   },
   {
     "id": 104173,
-    "sku": "104174",
-    "name": "Lenjerie Gofre albă, 6 piese, husă universală",
+    "name": "Lenjerie Gofre albă",
     "category": "Lenjerii de pat creponat uni",
     "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Gofre, amestec de bumbac și policoton",
-    "description": "Lenjerie Gofre albă, 6 piese, husă universală.\n\nMaterial: Gofre, amestec de bumbac și policoton.\n\nConținut: 1 husă universală pentru saltele de 160 × 200 cm sau 180 × 200 cm, înălțime 26 cm, 1 cearșaf de pilotă 200 × 230 cm, 2 fețe de pernă 50 × 70 cm și 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie Gofre albă.\n\nMaterial: Gofre, amestec de bumbac și policoton.\n\nVarianta 4 piese: 1 cearșaf de pat 230 × 240 cm, 1 cearșaf de pilotă 200 × 230 cm și 2 fețe de pernă 50 × 70 cm.\n\nVarianta 6 piese: 1 husă universală pentru saltele de 160 × 200 cm sau 180 × 200 cm, înălțime 26 cm, 1 cearșaf de pilotă 200 × 230 cm, 2 fețe de pernă 50 × 70 cm și 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere conform etichetei produsului. Mobilierul și decorul nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-nesifonabila-gofre/",
     "images": [
       "https://cdn.dsmcdn.com/ty1855/prod/QC_PREP/20260417/14/c36f2b0a-f9e7-3691-8781-3b28b016a828/1_org_zoom.jpg",
@@ -34898,11 +34897,191 @@
       },
       {
         "label": "Conținut",
-        "value": "1 husă universală pentru saltele de 160 × 200 cm sau 180 × 200 cm, înălțime 26 cm, 1 cearșaf de pilotă 200 × 230 cm, 2 fețe de pernă 50 × 70 cm și 2 fețe de pernă 70 × 70 cm."
+        "value": "Alegeți varianta de 4 sau 6 piese; conținutul și dimensiunile sunt afișate pentru fiecare variantă."
       }
     ],
-    "price": 229,
-    "stock": 13,
-    "inStock": true
+    "price": 199,
+    "stock": 62,
+    "inStock": true,
+    "variants": [
+      {
+        "id": 104174,
+        "sku": "104174",
+        "name": "6 piese, husă universală",
+        "dimensions": "160/180 × 200 × 26 cm",
+        "contents": "1 husă universală pentru saltele de 160 × 200 cm sau 180 × 200 cm, înălțime 26 cm, 1 cearșaf de pilotă 200 × 230 cm, 2 fețe de pernă 50 × 70 cm și 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1855/prod/QC_PREP/20260417/14/c36f2b0a-f9e7-3691-8781-3b28b016a828/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260417/14/14b8118d-d77c-33dd-94fe-2af07f58f33a/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260417/14/12684d4d-a5b3-3133-9ce0-ce70f55625a4/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260417/14/7d54517f-dcf7-35ef-a66d-00a2b0e90124/1_org_zoom.jpg"
+        ],
+        "price": 229,
+        "stock": 13,
+        "inStock": true
+      },
+      {
+        "id": 104175,
+        "sku": "104175",
+        "name": "4 piese, cearșaf normal",
+        "dimensions": "230 × 240 cm",
+        "contents": "1 cearșaf de pat 230 × 240 cm, 1 cearșaf de pilotă 200 × 230 cm și 2 fețe de pernă 50 × 70 cm.",
+        "images": [
+          "/products/104173/four-piece-hero-reviewed-v1.png",
+          "/products/104173/four-piece-top-reviewed-v1.png",
+          "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260417/14/12684d4d-a5b3-3133-9ce0-ce70f55625a4/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1856/prod/QC_PREP/20260417/14/00e776f7-8f50-363e-be3b-7018cfd5357f/1_org_zoom.jpg"
+        ],
+        "price": 199,
+        "stock": 49,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 110755,
+    "name": "Față de masă terasă / grădină Satin Grace",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Satin Grace.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-satin-grace/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260612/23/4894b772-40fa-3715-b8e9-4e4a34ae666e/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260612/23/1bbdfed1-872f-3f28-b7c5-9a515ed466f9/1_org_zoom.jpg",
+      "/products/110755/fold-reviewed-v1.png",
+      "/products/110755/detail-reviewed-v1.png",
+      "/products/110755/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260612/23/4894b772-40fa-3715-b8e9-4e4a34ae666e/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110756,
+        "sku": "110756",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260612/23/1bbdfed1-872f-3f28-b7c5-9a515ed466f9/1_org_zoom.jpg",
+          "/products/110755/fold-reviewed-v1.png",
+          "/products/110755/detail-reviewed-v1.png",
+          "/products/110755/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 0,
+        "inStock": false
+      },
+      {
+        "id": 110757,
+        "sku": "110757",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260612/23/4894b772-40fa-3715-b8e9-4e4a34ae666e/1_org_zoom.jpg",
+          "/products/110755/fold-reviewed-v1.png",
+          "/products/110755/detail-reviewed-v1.png",
+          "/products/110755/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 0,
+        "inStock": false
+      }
+    ],
+    "inStock": false
+  },
+  {
+    "id": 110516,
+    "name": "Față de masă terasă / grădină Pure Essence",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Pure Essence.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-crem/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260613/20/40966ee0-229c-3b12-b98c-b20caff6628f/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260613/20/d0683b6f-a159-3624-adfe-a691af8eef5b/1_org_zoom.jpg",
+      "/products/110516/fold-reviewed-v1.png",
+      "/products/110516/detail-reviewed-v1.png",
+      "/products/110516/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260613/20/40966ee0-229c-3b12-b98c-b20caff6628f/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110517,
+        "sku": "110517",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260613/20/d0683b6f-a159-3624-adfe-a691af8eef5b/1_org_zoom.jpg",
+          "/products/110516/fold-reviewed-v1.png",
+          "/products/110516/detail-reviewed-v1.png",
+          "/products/110516/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 0,
+        "inStock": false
+      },
+      {
+        "id": 110518,
+        "sku": "110518",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260613/20/40966ee0-229c-3b12-b98c-b20caff6628f/1_org_zoom.jpg",
+          "/products/110516/fold-reviewed-v1.png",
+          "/products/110516/detail-reviewed-v1.png",
+          "/products/110516/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 0,
+        "inStock": false
+      },
+      {
+        "id": 110519,
+        "sku": "110519",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260613/20/40966ee0-229c-3b12-b98c-b20caff6628f/1_org_zoom.jpg",
+          "/products/110516/fold-reviewed-v1.png",
+          "/products/110516/detail-reviewed-v1.png",
+          "/products/110516/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 0,
+        "inStock": false
+      }
+    ],
+    "inStock": false
   }
 ]

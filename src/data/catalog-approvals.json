@@ -22840,7 +22840,7 @@
     "reviewedAt": "2026-10-24T01:49:48.777836+00:00",
     "source": "control-resolved-source-publication-20261024",
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-nesifonabila-gofre/",
-    "visualReview": "Actual Control photos and own supplier references compared. Supplier description controls dimensions, composition and contents over outdated source-image captions: no contradictory source captions published. Corrected table 161818 size, Baroque flat-sheet title, Gofre parent to unique six-piece variation, and two protector trailing-zero SKUs. Retained four distinct photographs per model; mattress uses Control hero and three reviewed new views, overhead regenerated to preserve octagon-and-square quilting. Gofre excludes supplier original and separate four-piece listing pending its gallery review.",
+    "visualReview": "Actual Control photos and own supplier references compared. Supplier description controls dimensions, composition and contents over outdated source-image captions: no contradictory source captions published. Corrected table 161818 size, Baroque flat-sheet title, Gofre parent to unique six-piece variation, and two protector trailing-zero SKUs. Retained four distinct photographs per model; mattress uses Control hero and three reviewed new views, overhead regenerated to preserve octagon-and-square quilting. Gofre excludes supplier original and separate four-piece listing pending its gallery review. Four-piece variant: reviewed two new full-bed photos showing exactly two rectangular cases, plus retained Control fabric macro and folded-textile detail. Own supplier variation 104175 confirms four-piece contents; Control alias 1041730 corrected.",
     "photographicViews": 4,
     "media": [
       {
@@ -22858,8 +22858,82 @@
       {
         "url": "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260417/14/7d54517f-dcf7-35ef-a66d-00a2b0e90124/1_org_zoom.jpg",
         "sha256": "343be8bc426ad0d9f98dafc44b6b067aca5991ae564f1d5e663b97d76ee26a7b"
+      },
+      {
+        "url": "/products/104173/four-piece-hero-reviewed-v1.png",
+        "sha256": "1784c22c93feadb4316c02f4c0ea4049a291c9c03e2942969217e423d9dc7a20"
+      },
+      {
+        "url": "/products/104173/four-piece-top-reviewed-v1.png",
+        "sha256": "07fc0538d6046e89860f4f678b8b0fbab9cdb6db0830e3c3da17e183ee587e87"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1856/prod/QC_PREP/20260417/14/00e776f7-8f50-363e-be3b-7018cfd5357f/1_org_zoom.jpg",
+        "sha256": "0188cf9999307be1f24710479de19faadad49d3419e8351dc4e5e871f88d62b0"
       }
     ],
-    "fingerprint": "fcc062e2cb8b580949cc5613fc5fb8dca5343682debcae1e0d45ad9a6a88a196"
+    "fingerprint": "d346ece2f20e9c01dd1bcd8f9f6961ffbb39a2c007e63d4d2fa219da9175e82d"
+  },
+  {
+    "id": 110755,
+    "reviewedAt": "2026-10-24T01:59:09.014454+00:00",
+    "source": "control-recovered-outdoor-publication-20261024",
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-satin-grace/",
+    "visualReview": "Own supplier and both Control table photographs visually reviewed. Folded, fabric/hem detail and draped cloth outputs inspected against actual source, preserving color, weave and patterns. Four distinct views per size: corresponding square/rectangular Control hero plus three shared fabric views. Supplier numeric barcode renderer and own embedded size variations verified.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260612/23/4894b772-40fa-3715-b8e9-4e4a34ae666e/1_org_zoom.jpg",
+        "sha256": "c9b9c1a4be8496aa99105da5fa7ca90383a415e56c5f7fde365a251d07c78cc0"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260612/23/1bbdfed1-872f-3f28-b7c5-9a515ed466f9/1_org_zoom.jpg",
+        "sha256": "9a4c30efb9b24913be6295cbefb55fa3fe18d5ef81377e0b01f7392fcc687a91"
+      },
+      {
+        "url": "/products/110755/fold-reviewed-v1.png",
+        "sha256": "80461104155e2fbbc9fd622c9f6dc735a5f8ed696a1504149bac1f3809692f1e"
+      },
+      {
+        "url": "/products/110755/detail-reviewed-v1.png",
+        "sha256": "dea6cce75e5191a005fcf94cd7aec4637c7dd24bde3de755bcec48c80bc99a19"
+      },
+      {
+        "url": "/products/110755/drape-reviewed-v1.png",
+        "sha256": "0fd2f3b52e4df326cf16139f116a49f4b823e93e1b49298c126bbdb49c566452"
+      }
+    ],
+    "fingerprint": "92cd34993b17d5ddc40c34162086ecd1390536fa5ebc6173a520b6fc5e726a24"
+  },
+  {
+    "id": 110516,
+    "reviewedAt": "2026-10-24T01:59:09.014454+00:00",
+    "source": "control-recovered-outdoor-publication-20261024",
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-crem/",
+    "visualReview": "Own supplier and both Control table photographs visually reviewed. Folded, fabric/hem detail and draped cloth outputs inspected against actual source, preserving color, weave and patterns. Four distinct views per size: corresponding square/rectangular Control hero plus three shared fabric views. Supplier numeric barcode renderer and own embedded size variations verified.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260613/20/40966ee0-229c-3b12-b98c-b20caff6628f/1_org_zoom.jpg",
+        "sha256": "a968ed9cc9ff7cedd67491235732e837c1a95a2e645e7f031d84a8e771d1d066"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260613/20/d0683b6f-a159-3624-adfe-a691af8eef5b/1_org_zoom.jpg",
+        "sha256": "946e0061c9f34c6bfea6c18d6a860026015f581c3047553b4147b33ce5bb8d79"
+      },
+      {
+        "url": "/products/110516/fold-reviewed-v1.png",
+        "sha256": "2e291113a9e6bab9d6707950458494501a0502f71934e20195646f4b79424bd2"
+      },
+      {
+        "url": "/products/110516/detail-reviewed-v1.png",
+        "sha256": "da68613c9911fc11028bb41e12e0fdc41ce16ed9db56c7399b16fd6d7a5e064a"
+      },
+      {
+        "url": "/products/110516/drape-reviewed-v1.png",
+        "sha256": "1add715db41653da87ee9eac5b687753c1ccd07940f2f592700edeca7c87ad76"
+      }
+    ],
+    "fingerprint": "c3b74b32d44c65e1bf4922ced93733fd13a92aa68251279fc8cb5d13f9d56481"
   }
 ]

@@ -1,0 +1,9 @@
+{
+  "tool": "image_gen",
+  "outputs": {
+    "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-4a8dfcdf-0d4d-4348-9dbe-1d75355c5cc7.png",
+    "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-cc9ceeb5-e998-4d60-98c3-984f339cfa6b.png"
+  },
+  "review": "Both actual images reviewed: exact white gofre and two rectangular pillowcases; distinct hero and overhead. Retained Control images indices 2 and 5 reviewed.",
+  "prompt": "Exact own white gofre reference, four-piece variant with two rectangular pillowcases, flat sheet, duvet; ivory bedroom, no typography; front three-quarter and overhead."
+}

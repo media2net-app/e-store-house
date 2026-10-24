@@ -1,0 +1,158 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "outputs": [
+    {
+      "supplierId": "110755",
+      "products": [
+        {
+          "barcode": "3078664KYO8B7XC4N",
+          "sku": "110756",
+          "model": "3078664KYO8B7XC4N",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "verde",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260612/23/4894b772-40fa-3715-b8e9-4e4a34ae666e/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260612/23/1bbdfed1-872f-3f28-b7c5-9a515ed466f9/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1155913468?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3078665QJTUQRFBXH",
+          "sku": "110757",
+          "model": "3078665QJTUQRFBXH",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "verde",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260612/23/4894b772-40fa-3715-b8e9-4e4a34ae666e/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260612/23/1bbdfed1-872f-3f28-b7c5-9a515ed466f9/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1155913462?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/e9daa69cfb1bc8e2d217738b946675fd44180f97a17603d536dfeb99c7261e21.img",
+        "/tmp/estore-short-gallery-audit-20261024/9259edebef15da15eac8b42a70651c2144c5dfbae0066b70ceda97ec2637c033.img",
+        "/tmp/estore-short-gallery-audit-20261024/19d742b9cbf1d55d821099fafad318a3877052613b68aa7ddbb56b5b8e207343.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110755-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-satin-grace/",
+      "prompts": {
+        "fold": "ONE premium e-commerce photograph of the exact Oxford tablecloth in reference. Preserve exact olive-green fine mottled woven texture, 300gsm cloth weight, color and simple hem. Neatly folded single tablecloth on neutral pale stone tabletop, three-quarter view. Quiet Mediterranean patio setting, soft daylight. No additional patterns, tassels, lace, embroidery, logos, captions or collage. Preserve source material and color. Portrait 2:3.",
+        "detail": "ONE premium e-commerce photograph of the exact Oxford tablecloth in reference. Preserve exact olive-green fine mottled woven texture, 300gsm cloth weight, color and simple hem. True macro close-up of cloth weave and simple folded hem, no entire table. Quiet Mediterranean patio setting, soft daylight. No additional patterns, tassels, lace, embroidery, logos, captions or collage. Preserve source material and color. Portrait 2:3.",
+        "drape": "ONE premium e-commerce photograph of the exact Oxford tablecloth in reference. Preserve exact olive-green fine mottled woven texture, 300gsm cloth weight, color and simple hem. One cloth draped over a simple wooden chair back with fabric hanging, side angle to show drape. Quiet Mediterranean patio setting, soft daylight. No additional patterns, tassels, lace, embroidery, logos, captions or collage. Preserve source material and color. Portrait 2:3."
+      },
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-0cda8c99-1c14-49f9-8be8-eea548574cb2.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-6bd3e7e1-1a00-45ad-bc14-45014a466ab6.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-733e88c3-e848-4071-87a3-2e161546e9be.png"
+    },
+    {
+      "supplierId": "110516",
+      "products": [
+        {
+          "barcode": "3080884QJD62S0WDP",
+          "sku": "110519",
+          "model": "3080884QJD62S0WDP",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "crem",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260613/20/40966ee0-229c-3b12-b98c-b20caff6628f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260613/20/d0683b6f-a159-3624-adfe-a691af8eef5b/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185936?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "30808851OAPRC92KY",
+          "sku": "110518",
+          "model": "30808851OAPRC92KY",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "crem",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260613/20/40966ee0-229c-3b12-b98c-b20caff6628f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260613/20/d0683b6f-a159-3624-adfe-a691af8eef5b/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185957?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080886QOVCAVL2DM",
+          "sku": "110517",
+          "model": "3080886QOVCAVL2DM",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "crem",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260613/20/40966ee0-229c-3b12-b98c-b20caff6628f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260613/20/d0683b6f-a159-3624-adfe-a691af8eef5b/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185991?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/f27467f94e5df047a5f05c3ea2d8596631fe6044481963e5dad256c23a8def3a.img",
+        "/tmp/estore-short-gallery-audit-20261024/ed68732ac5db9705cce8f9bb318d860322fd65c895933eb398c4e13803a17cbd.img",
+        "/tmp/estore-short-gallery-audit-20261024/3b9b0f26ddad1c1e51a80a4a9fed4725d1ef34b69fa16c59d977326fcc2087fa.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110516-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-crem/",
+      "prompts": {
+        "fold": "ONE premium e-commerce photograph of the exact Oxford tablecloth in reference. Preserve exact plain warm ivory-beige woven textile, 300gsm cloth weight, color and simple hem. Neatly folded single tablecloth on neutral pale stone tabletop, three-quarter view. Quiet Mediterranean patio setting, soft daylight. No additional patterns, tassels, lace, embroidery, logos, captions or collage. Preserve source material and color. Portrait 2:3.",
+        "detail": "ONE premium e-commerce photograph of the exact Oxford tablecloth in reference. Preserve exact plain warm ivory-beige woven textile, 300gsm cloth weight, color and simple hem. True macro close-up of cloth weave and simple folded hem, no entire table. Quiet Mediterranean patio setting, soft daylight. No additional patterns, tassels, lace, embroidery, logos, captions or collage. Preserve source material and color. Portrait 2:3.",
+        "drape": "ONE premium e-commerce photograph of the exact Oxford tablecloth in reference. Preserve exact plain warm ivory-beige woven textile, 300gsm cloth weight, color and simple hem. One cloth draped over a simple wooden chair back with fabric hanging, side angle to show drape. Quiet Mediterranean patio setting, soft daylight. No additional patterns, tassels, lace, embroidery, logos, captions or collage. Preserve source material and color. Portrait 2:3."
+      },
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-94a19003-1208-4166-882d-e843840d6f48.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-424d94b7-be60-4b28-b0e5-fd8fabf67b8b.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-632d9fa6-8c11-4105-b616-0b960faf7efe.png"
+    }
+  ],
+  "review": "6 generated images visually reviewed against own supplier references. Each gallery contains four distinct product photographs; existing Control galleries and sources retained for audit.",
+  "prompt": "Actual own supplier and Control references. Preserve precise fabric texture, color, seams, cushion square shape and four-tuften construction, robe shape and loop. Overhead and close detail views; bean bags also low side view. No invented zippers, patterns, labels or claims. Portrait 2:3."
+}
