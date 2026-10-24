@@ -1,0 +1,231 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "outputs": [
+    {
+      "supplierId": "111285",
+      "products": [
+        {
+          "barcode": "31561098SLWCKBYHT",
+          "sku": "111286",
+          "model": "31561098SLWCKBYHT",
+          "title": "Față de masă antimurdărește 120x160cm, impermeabilă cu teflon, 70% bumbac, Fabricată în România",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260702/19/2b3fcc23-6254-3a64-a83d-e49c5cebaa52/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260702/19/e0d02e99-d294-3339-9eb8-9ef82520c66a/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1163862678?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z",
+          "reviewPaths": [
+            "/tmp/estore-short-gallery-audit-20261024/79652560703ee922c34ec248118847162a99e0fb6273d432ba263d41804e2864.img",
+            "/tmp/estore-short-gallery-audit-20261024/b189351fcc6df8c00e09bc4a6861a9ccdba5c6871b617c9d53b72018acea4122.img"
+          ]
+        },
+        {
+          "barcode": "3156116O9CKRNXOYD",
+          "sku": "111289",
+          "model": "3156116O9CKRNXOYD",
+          "title": "Față de masă anti-pată 160x240cm, impermeabilă cu teflon, 70% bumbac, Fabricată în România",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 165,
+          "listPrice": 165,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260702/19/f778458f-e401-315b-b04e-7097c6cebcda/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260702/19/d8574028-68e3-31fb-86ca-a5d51c4d68f2/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1163863065?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z",
+          "reviewPaths": [
+            "/tmp/estore-short-gallery-audit-20261024/25feab7f8760911ace60a36f55e87a2d0058816524fdd4a079ba206a6b0da40c.img",
+            "/tmp/estore-short-gallery-audit-20261024/8c9cd35756fa6f4a5e207cb218187320ac5c8ef20a3c1026dd6fbf7ebe08b3c9.img"
+          ]
+        },
+        {
+          "barcode": "3156118MQF7CYF8PR",
+          "sku": "111292",
+          "model": "3156118MQF7CYF8PR",
+          "title": "Față de masă anti-pată, diametru 160cm, impermeabilă cu teflon, 70% bumbac, fabricată în România",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 139,
+          "listPrice": 139,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260702/19/1c155b14-b61a-3a41-a5fc-30612ed48e84/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260702/19/5ecb71ba-38af-3184-92eb-69f4e872e01c/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1163863027?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z",
+          "reviewPaths": [
+            "/tmp/estore-short-gallery-audit-20261024/a389e9f98a743bd47963904f20bf960afda57b21d07a55ef4af5973e3e92128d.img",
+            "/tmp/estore-short-gallery-audit-20261024/bb4f3685c2185b83176b645a25022a384c4db893694b0cdc1dbdb9ac60854999.img"
+          ]
+        },
+        {
+          "barcode": "3156129NNLZLO71O3",
+          "sku": "111287",
+          "model": "3156129NNLZLO71O3",
+          "title": "Față de masă anti-pată 140x180cm, impermeabilă cu teflon, 70% bumbac, Fabricată în România",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 120,
+          "listPrice": 120,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260702/19/218abfc9-e57c-351f-8bad-18bd17a99412/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260702/19/ca09318a-a244-3fd0-af33-9cba014aedf6/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1163862719?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z",
+          "reviewPaths": [
+            "/tmp/estore-short-gallery-audit-20261024/912bbf7794f6f1089520e2e5afe1b5bdc1892224d5e533107287651707c89d06.img",
+            "/tmp/estore-short-gallery-audit-20261024/4d2b3027ac8762c9b7fa87194920374d3a19f18ec70daef6127d008d4da704b9.img"
+          ]
+        },
+        {
+          "barcode": "3156130LIDBYNG0QL",
+          "sku": "111288",
+          "model": "3156130LIDBYNG0QL",
+          "title": "Față de masă anti-pată 160x220cm, impermeabilă cu teflon, 70% bumbac, Fabricată în România",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 159,
+          "listPrice": 159,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260702/19/288b6f98-ddb9-3a98-b759-af5e35e0b752/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260702/19/a9baf9e2-3689-318c-a924-80b41e7d743c/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1163862778?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z",
+          "reviewPaths": [
+            "/tmp/estore-short-gallery-audit-20261024/37062c7aa0c536a4c713ed8fc1c23e46732f1bbdd66dd330c50d85169d1e967a.img",
+            "/tmp/estore-short-gallery-audit-20261024/0725b420fd1f04e7f87c9c2d4fb475dcb4c940891f8fb0e7b8e0c4a83bbfbe09.img"
+          ]
+        },
+        {
+          "barcode": "3156131BTPHINMIMH",
+          "sku": "111290",
+          "model": "3156131BTPHINMIMH",
+          "title": "Față de masă anti-pată 160x320cm, impermeabilă cu teflon, 70% bumbac, Fabricată în România",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 219,
+          "listPrice": 219,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260702/19/edd23119-cdec-3511-82a4-16092c7335a7/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260702/19/3cdcae9f-2d8c-39be-9846-1b5342d531f3/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1163862962?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z",
+          "reviewPaths": [
+            "/tmp/estore-short-gallery-audit-20261024/0dec7570a5f05a892aa48a5a70cfde08c67f3bb8d436c8ac433c8b7bf92433a1.img",
+            "/tmp/estore-short-gallery-audit-20261024/92c3b13ca7e2793eb55344cf81136bad419372ea6cfeba50167d9c1f059ce54f.img"
+          ]
+        },
+        {
+          "barcode": "3156132NEGLRARTDK",
+          "sku": "111291",
+          "model": "3156132NEGLRARTDK",
+          "title": "Față de masă anti-pată, diametru 140cm, impermeabilă cu teflon, 70% bumbac, fabricată în România",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 120,
+          "listPrice": 120,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260702/19/ec254062-2a7e-3f9a-ad93-1c2abd139766/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260702/19/5cb7a867-bbec-3673-b434-cac040bf8d78/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1163863064?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z",
+          "reviewPaths": [
+            "/tmp/estore-short-gallery-audit-20261024/95ed4560b3429f69a6a86233f9df01d18e3ebf8ac08d29d62fcbe5d41dccc022.img",
+            "/tmp/estore-short-gallery-audit-20261024/30bd5033d198f54b20c2d68c8efc757e8cabaa342ae9a494a97fb6333d11fa47.img"
+          ]
+        },
+        {
+          "barcode": "3156133MD1QKLZZQV",
+          "sku": "111293",
+          "model": "3156133MD1QKLZZQV",
+          "title": "Față de masă anti-pete, diametru 180cm, impermeabilă cu teflon, 70% bumbac, fabricată în România",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 169,
+          "listPrice": 169,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260702/19/922372f8-a54e-3f09-a53d-bc3b7bb9a6ed/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260702/19/415f93bb-a65c-3068-91b1-eeb080b93d48/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1163863379?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z",
+          "reviewPaths": [
+            "/tmp/estore-short-gallery-audit-20261024/c8ddcf37c32b89662bd439a245b55f89ecf896f3c65e999592204fba0486183e.img",
+            "/tmp/estore-short-gallery-audit-20261024/8f9078fbffa789d8428bf510e4e65398fe9b51697677843014a5cb672b2f631b.img"
+          ]
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/5659dd5a34fef4122bbc7ea965fcbc3ad8347e00ad43c814c7da390b051c72fe.img",
+        "/tmp/estore-short-gallery-audit-20261024/79652560703ee922c34ec248118847162a99e0fb6273d432ba263d41804e2864.img",
+        "/tmp/estore-short-gallery-audit-20261024/b189351fcc6df8c00e09bc4a6861a9ccdba5c6871b617c9d53b72018acea4122.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/111285-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-big-lemon/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a0c7c1dd-daaa-4cce-8cbe-ed83833a5640.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ad495c83-1eac-412a-aff2-b9ef01550e12.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-61bf67fc-3b34-449e-938d-0ec9da5eb6e2.png"
+    }
+  ],
+  "review": "Three generated photographs visually reviewed against own source, plus eight existing Control hero images checked for correct round or rectangular shape. Four photographs per variant.",
+  "prompt": "Exact own source Big Lemon print: large yellow lemons, slices, green leaves and small flowers on white. Folded cloth on bench, textile and hem close-up over sideboard, loosely folded cloth draped over dining chair. Preserve pattern and scale, no blue tile motif, no text, portrait 2:3."
+}

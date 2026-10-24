@@ -1,0 +1,37 @@
+{
+  "preparedAt": "2026-10-24T01:28:08.091286+00:00",
+  "products": [
+    {
+      "id": 102989,
+      "skus": [
+        "102995"
+      ],
+      "controlSku": "1029950",
+      "dimensions": "90 × 200 cm",
+      "sourceBarcode": "102995",
+      "status": "verified-ready"
+    },
+    {
+      "id": 111211,
+      "skus": [
+        "111215"
+      ],
+      "controlSku": "11215",
+      "dimensions": "160 × 240 cm",
+      "sourceBarcode": "111215",
+      "status": "verified-ready"
+    },
+    {
+      "id": 160030,
+      "skus": [
+        "160032"
+      ],
+      "controlSku": "160032",
+      "dimensions": "240 × 260 cm",
+      "sourceBarcode": "160032",
+      "status": "verified-ready"
+    }
+  ],
+  "newModels": 0,
+  "newSkus": 3
+}

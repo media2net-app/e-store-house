@@ -7902,12 +7902,14 @@
     "id": 160030,
     "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-crem/",
     "costs": {
-      "160031": 145
+      "160031": 145,
+      "160032": 160
     },
     "availability": {
-      "160031": false
+      "160031": false,
+      "160032": false
     },
-    "checkedAt": "2026-10-24T00:32:51.683169+00:00"
+    "checkedAt": "2026-10-24T01:28:08.091286+00:00"
   },
   {
     "id": 160025,
@@ -8501,7 +8503,8 @@
       "111216": 145,
       "111217": 64,
       "111218": 81,
-      "111219": 97
+      "111219": 97,
+      "111215": 105
     },
     "availability": {
       "111213": true,
@@ -8510,9 +8513,10 @@
       "111216": true,
       "111217": true,
       "111218": true,
-      "111219": true
+      "111219": true,
+      "111215": true
     },
-    "checkedAt": "2026-10-24T01:08:53.133125+00:00"
+    "checkedAt": "2026-10-24T01:28:08.091286+00:00"
   },
   {
     "id": 111185,
@@ -8673,5 +8677,66 @@
       "111987": true
     },
     "checkedAt": "2026-10-24T01:17:32.483250+00:00"
+  },
+  {
+    "id": 102989,
+    "supplierUrl": "https://ralexpucioasa.ro/store/saltele-si-toppere/toper-memory-aloe-vera/",
+    "costs": {
+      "102992": 388,
+      "102990": 351,
+      "102993": 418,
+      "102995": 252
+    },
+    "availability": {
+      "102992": true,
+      "102990": true,
+      "102993": true,
+      "102995": true
+    },
+    "checkedAt": "2026-10-24T01:28:08.091286+00:00"
+  },
+  {
+    "id": 107247,
+    "supplierUrl": "https://ralexpucioasa.ro/store/saltele-si-toppere/topper-aloe-vera-fresh-waterproof/",
+    "costs": {
+      "107249": 156,
+      "107248": 123,
+      "107250": 177,
+      "107251": 187,
+      "107252": 201
+    },
+    "availability": {
+      "107249": true,
+      "107248": true,
+      "107250": true,
+      "107251": true,
+      "107252": true
+    },
+    "checkedAt": "2026-10-24T01:24:03.204574+00:00"
+  },
+  {
+    "id": 111285,
+    "supplierUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-big-lemon/",
+    "costs": {
+      "111286": 58,
+      "111289": 105,
+      "111292": 81,
+      "111287": 64,
+      "111288": 97,
+      "111290": 145,
+      "111291": 64,
+      "111293": 97
+    },
+    "availability": {
+      "111286": false,
+      "111289": false,
+      "111292": false,
+      "111287": false,
+      "111288": false,
+      "111290": false,
+      "111291": false,
+      "111293": false
+    },
+    "checkedAt": "2026-10-24T01:26:53.325948+00:00"
   }
 ]

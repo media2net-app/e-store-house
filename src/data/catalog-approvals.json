@@ -20527,10 +20527,10 @@
   },
   {
     "id": 160030,
-    "reviewedAt": "2026-10-24T00:32:51.683169+00:00",
+    "reviewedAt": "2026-10-24T01:28:08.091286+00:00",
     "source": "control-waffle-robe-completed-publication-20261024",
     "supplierUrl": "https://ralexpucioasa.ro/store/cuverturi/pled-waffles/pled-waffles-100bumbac-crem/",
-    "visualReview": "Own source and Control galleries visually reviewed, plus folded and side generated photographs. Preserve weave, velour, color and construction. Red/yellow Control galleries swapped to match supplier colors. Size and barcode verified against own embedded variations and barcode renderer. Shared galleries show the same model across sizes.",
+    "visualReview": "Own source and Control galleries visually reviewed, plus folded and side generated photographs. Preserve weave, velour, color and construction. Red/yellow Control galleries swapped to match supplier colors. Size and barcode verified against own embedded variations and barcode renderer. Shared galleries show the same model across sizes. Additional size 240 × 260 cm verified from own embedded variant 160032; Control code 160032 resolved by model, dimensions and visual review. Uses already reviewed model gallery; incorrect Control-specific image claims omitted.",
     "photographicViews": 4,
     "media": [
       {
@@ -20550,7 +20550,7 @@
         "sha256": "f410ccb1c14a31cf63e84f687bed5cc5c3e5a0eee1f40177c925893eda3e93dc"
       }
     ],
-    "fingerprint": "564496097cfa80d693671479b368894d35f3f409744feb31a8d17f0774bc2365"
+    "fingerprint": "9d5bc9cacd317f4eb342ba3fe61487706eb6e5b397f4c0956d923ee58f6edd5d"
   },
   {
     "id": 160025,
@@ -21768,10 +21768,10 @@
   },
   {
     "id": 111211,
-    "reviewedAt": "2026-10-24T01:08:53.133125+00:00",
+    "reviewedAt": "2026-10-24T01:28:08.091286+00:00",
     "source": "control-patterned-table-completed-publication-20261024",
     "supplierUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-meadow/",
-    "visualReview": "Own supplier and both Control table photographs visually reviewed. Folded, fabric/hem detail and draped cloth outputs inspected against actual source, preserving color, weave and patterns. Four distinct views per size: corresponding round/rectangular Control hero plus three shared fabric views. Supplier numeric barcode renderer and own embedded size variations verified.",
+    "visualReview": "Own supplier and both Control table photographs visually reviewed. Folded, fabric/hem detail and draped cloth outputs inspected against actual source, preserving color, weave and patterns. Four distinct views per size: corresponding round/rectangular Control hero plus three shared fabric views. Supplier numeric barcode renderer and own embedded size variations verified. Additional size 160 × 240 cm verified from own embedded variant 111215; Control code 11215 resolved by model, dimensions and visual review. Uses already reviewed model gallery; incorrect Control-specific image claims omitted.",
     "photographicViews": 4,
     "media": [
       {
@@ -21815,7 +21815,7 @@
         "sha256": "ce525d07fce589bf97cd3a91da0ae3ed27f89c20c0766a44b366ffc81c41a284"
       }
     ],
-    "fingerprint": "472eff70fb7316104eb506c59af5aadea41d1783b76c80d1b5c4e41ec054de20"
+    "fingerprint": "18d88cd6277ef6ceb21f45ad54b53d35533c3a60c58747334d386db2ff1f3bcf"
   },
   {
     "id": 111185,
@@ -22196,5 +22196,114 @@
       }
     ],
     "fingerprint": "d87a4af34fce0f2fadbb7df842eeb3d422acabd4b6642dce0f4144a86d534e46"
+  },
+  {
+    "id": 102989,
+    "reviewedAt": "2026-10-24T01:28:08.091286+00:00",
+    "source": "control-topper-completed-publication-20261024",
+    "supplierUrl": "https://ralexpucioasa.ro/store/saltele-si-toppere/toper-memory-aloe-vera/",
+    "visualReview": "Own supplier reference and actual output photos reviewed for Aloe print, quilting, edge and thickness. Memory: new full hero, low edge, fabric surface and hand-compression view; unverified Control infographic claims omitted. Fresh Waterproof: retain Control clean hero and hand detail plus new edge and surface photographs. Own embedded variant dimensions, price and barcode renderer verified; no invented internal foam color or cutaway. Additional size 90 × 200 cm verified from own embedded variant 102995; Control code 1029950 resolved by model, dimensions and visual review. Uses already reviewed model gallery; incorrect Control-specific image claims omitted.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "/products/102989/hero-reviewed-v1.png",
+        "sha256": "6b8d004787c4f3817b6976168254e3c8e749f30a60faed7f82943f0c65c90549"
+      },
+      {
+        "url": "/products/102989/side-reviewed-v1.png",
+        "sha256": "8a6785e36bbc7c57fcec7e1d812cc40f021d370d5a80afb05ebdadf9e5dc260a"
+      },
+      {
+        "url": "/products/102989/surface-reviewed-v1.png",
+        "sha256": "dcd3ab7e7ce49d62fb762e2129c5ab3acec7cdf472efdd5bcc3cc0d60691d7bf"
+      },
+      {
+        "url": "/products/102989/press-reviewed-v1.png",
+        "sha256": "57a72e05c52bd5912da0c3061ffce49dc8c3458e717edc26c6e2eab959f0c249"
+      }
+    ],
+    "fingerprint": "27774af7776f328c31451022fd2582f2ce83bccea6c6d8a8b1bbf79442e8bba4"
+  },
+  {
+    "id": 107247,
+    "reviewedAt": "2026-10-24T01:24:03.204574+00:00",
+    "source": "control-topper-completed-publication-20261024",
+    "supplierUrl": "https://ralexpucioasa.ro/store/saltele-si-toppere/topper-aloe-vera-fresh-waterproof/",
+    "visualReview": "Own supplier reference and actual output photos reviewed for Aloe print, quilting, edge and thickness. Memory: new full hero, low edge, fabric surface and hand-compression view; unverified Control infographic claims omitted. Fresh Waterproof: retain Control clean hero and hand detail plus new edge and surface photographs. Own embedded variant dimensions, price and barcode renderer verified; no invented internal foam color or cutaway.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260617/11/75fdcfcb-6940-33bd-8766-cd1d23313ce4/1_org_zoom.jpg",
+        "sha256": "3f8bf65fc7b573dc1e47010347b82c0b11f0752c64fc45d87ad8ded84a71d991"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260617/11/8884fa16-2a15-3790-b5e1-1cb875fb213f/1_org_zoom.jpg",
+        "sha256": "f57def65afabeef2261089caf4f76f044b5f26e7c853addf39e4a41db2f54d0a"
+      },
+      {
+        "url": "/products/107247/side-reviewed-v1.png",
+        "sha256": "074cf492818cfff2bec92b2186dc5daca549f25cbc0da00d333d00caf6a0889e"
+      },
+      {
+        "url": "/products/107247/surface-reviewed-v1.png",
+        "sha256": "f98bea4ffc5e325165c00ce5afbf4ed61d1c12a7cec8a8406e72c547a6af9cc9"
+      }
+    ],
+    "fingerprint": "2ac50c467e0459bb370f30a2c03bab13e8d444aa1e11be167c952be728de3d78"
+  },
+  {
+    "id": 111285,
+    "reviewedAt": "2026-10-24T01:26:53.325948+00:00",
+    "source": "control-big-lemon-completed-publication-20261024",
+    "supplierUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-big-lemon/",
+    "visualReview": "Own supplier and both Control table photographs visually reviewed. Folded, fabric/hem detail and draped cloth outputs inspected against actual source, preserving color, weave and patterns. Four distinct views per size: corresponding round/rectangular Control hero plus three shared fabric views. Supplier numeric barcode renderer and own embedded size variations verified.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260702/19/2b3fcc23-6254-3a64-a83d-e49c5cebaa52/1_org_zoom.jpg",
+        "sha256": "1a3dc15fe9b969c205234fc133c6996441c285f7c1761263afc14be4437b0e80"
+      },
+      {
+        "url": "/products/111285/fold-reviewed-v1.png",
+        "sha256": "a3c315ef3a0ed2563a4d48002babe963cc1a47828e0f8f40e18fd324d05026e2"
+      },
+      {
+        "url": "/products/111285/detail-reviewed-v1.png",
+        "sha256": "416f21e0af7485bd5fcd80b96332b65f41edc081e667bc1ebc802a8dfd6b43ed"
+      },
+      {
+        "url": "/products/111285/drape-reviewed-v1.png",
+        "sha256": "16876e1d621d43e31578c33528b3dc6064359fa0da7fdd81c224edf420874167"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260702/19/f778458f-e401-315b-b04e-7097c6cebcda/1_org_zoom.jpg",
+        "sha256": "1a3dc15fe9b969c205234fc133c6996441c285f7c1761263afc14be4437b0e80"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260702/19/1c155b14-b61a-3a41-a5fc-30612ed48e84/1_org_zoom.jpg",
+        "sha256": "3b390a3907fca2d685d8deee25b5587fe6c49b47070719e4b762c07f876a41b9"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260702/19/218abfc9-e57c-351f-8bad-18bd17a99412/1_org_zoom.jpg",
+        "sha256": "1a3dc15fe9b969c205234fc133c6996441c285f7c1761263afc14be4437b0e80"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260702/19/288b6f98-ddb9-3a98-b759-af5e35e0b752/1_org_zoom.jpg",
+        "sha256": "1a3dc15fe9b969c205234fc133c6996441c285f7c1761263afc14be4437b0e80"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260702/19/edd23119-cdec-3511-82a4-16092c7335a7/1_org_zoom.jpg",
+        "sha256": "1a3dc15fe9b969c205234fc133c6996441c285f7c1761263afc14be4437b0e80"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260702/19/ec254062-2a7e-3f9a-ad93-1c2abd139766/1_org_zoom.jpg",
+        "sha256": "3b390a3907fca2d685d8deee25b5587fe6c49b47070719e4b762c07f876a41b9"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260702/19/922372f8-a54e-3f09-a53d-bc3b7bb9a6ed/1_org_zoom.jpg",
+        "sha256": "3b390a3907fca2d685d8deee25b5587fe6c49b47070719e4b762c07f876a41b9"
+      }
+    ],
+    "fingerprint": "17db4d21b6451484ca6a1f68d758a7397750431f50eed8b8646ef69c39a6126e"
   }
 ]

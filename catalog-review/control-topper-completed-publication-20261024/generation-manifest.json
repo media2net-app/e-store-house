@@ -1,0 +1,220 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "outputs": [
+    {
+      "supplierId": "102989",
+      "products": [
+        {
+          "barcode": "30555425QJVSGPJBB",
+          "sku": "102992",
+          "model": "30555425QJVSGPJBB",
+          "title": "Suprasaltea cu memorie 160x200cm Aloe Vera 5 cm, Husă detașabilă cu fermoar",
+          "description": "",
+          "category": "Protecții pentru saltele și toppere",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 489,
+          "listPrice": 559,
+          "stock": 29,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260611/13/4ee15973-a284-3595-a4dd-60147f67bd03/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260611/13/0f32ffe8-68ae-33a8-aeed-cdc51b204231/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1155388419?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3055543YOUQR4NZUQ",
+          "sku": "102990",
+          "model": "3055543YOUQR4NZUQ",
+          "title": "Suprasaltea din spumă cu memorie Saltea 120x200cm Aloe Vera 5 cm, Husă detașabilă cu fermoar",
+          "description": "",
+          "category": "Protecții pentru saltele și toppere",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 349,
+          "listPrice": 499,
+          "stock": 40,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260611/13/b29b57e5-a982-3727-91d5-781399c410d4/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260611/13/aee0a035-8e22-3711-a7c1-d1659af8c523/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1155387967?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3055546X6INEUCC8O",
+          "sku": "102993",
+          "model": "3055546X6INEUCC8O",
+          "title": "Suprasaltea cu memorie Saltea 180x200cm Aloe Vera 5 cm, Husă detașabilă cu fermoar",
+          "description": "",
+          "category": "Protecții pentru saltele și toppere",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 449,
+          "listPrice": 599,
+          "stock": 47,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260611/13/bf598ecc-3bcc-3e48-9806-0378225768e0/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260611/13/bcf877eb-1121-3335-aaff-968e5c921997/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1155388532?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/f7aec0fae849c63c55c78bc425794175a8fbb99b08e237fbfac40889b61ff73a.img",
+        "/tmp/estore-short-gallery-audit-20261024/f2ad6d6deb5e6fc6dedfa0cb27c31166f1b997d110a0dd97922e940a64c54340.img",
+        "/tmp/estore-short-gallery-audit-20261024/dac6185d6846e72475174faf4d356cbb260cbfd2f2613812d7a2daabaca0ea58.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/102989-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/saltele-si-toppere/toper-memory-aloe-vera/",
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-1154f275-12d2-4c61-82f2-6690f864c7ef.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-8c7c70e6-7c7a-45f4-8cf9-30d553f0212e.png",
+      "surface": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-98486c87-29ae-4485-9dd5-af39c6112158.png",
+      "press": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a409bccf-101d-4a6c-8b74-b2f9a2a9a334.png"
+    },
+    {
+      "supplierId": "107247",
+      "products": [
+        {
+          "barcode": "3096323JMXDMA7GBZ",
+          "sku": "107249",
+          "model": "3096323JMXDMA7GBZ",
+          "title": "Suprasaltea Aloe Vera 3,5 cm, 120x200 cm, Impermeabilă cu husă detașabilă.",
+          "description": "",
+          "category": "Protectoare pentru saltele",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 289,
+          "listPrice": 399,
+          "stock": 99,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260617/11/d05737b3-8bee-375d-8b8d-8046b92c795a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260617/11/75fdcfcb-6940-33bd-8766-cd1d23313ce4/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260617/11/8884fa16-2a15-3790-b5e1-1cb875fb213f/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1157347678?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3096324U6MFQ6TYBX",
+          "sku": "107248",
+          "model": "3096324U6MFQ6TYBX",
+          "title": "Suprasaltea Aloe Vera 3,5 cm, 90x200, Impermeabilă cu husă detașabilă.",
+          "description": "",
+          "category": "Protectoare pentru saltele",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 249,
+          "listPrice": 399,
+          "stock": 97,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260617/11/d05737b3-8bee-375d-8b8d-8046b92c795a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260617/11/75fdcfcb-6940-33bd-8766-cd1d23313ce4/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260617/11/8884fa16-2a15-3790-b5e1-1cb875fb213f/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1157347537?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3096325LVQVMZBNOG",
+          "sku": "107250",
+          "model": "3096325LVQVMZBNOG",
+          "title": "Suprasaltea Aloe Vera 3,5 cm, 140x200 cm, Impermeabilă cu husă detașabilă.",
+          "description": "",
+          "category": "Protectoare pentru saltele",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 339,
+          "listPrice": 399,
+          "stock": 96,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260617/11/d05737b3-8bee-375d-8b8d-8046b92c795a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260617/11/75fdcfcb-6940-33bd-8766-cd1d23313ce4/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260617/11/8884fa16-2a15-3790-b5e1-1cb875fb213f/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1157347779?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3096326XQ3KGPB36R",
+          "sku": "107251",
+          "model": "3096326XQ3KGPB36R",
+          "title": "Topper saltea cu Aloe Vera 3,5 cm, 160x200 cm, Impermeabil cu husă detașabilă.",
+          "description": "",
+          "category": "Protectoare pentru saltele",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 369,
+          "listPrice": 399,
+          "stock": 97,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260617/11/d05737b3-8bee-375d-8b8d-8046b92c795a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260617/11/75fdcfcb-6940-33bd-8766-cd1d23313ce4/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260617/11/8884fa16-2a15-3790-b5e1-1cb875fb213f/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1157347867?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "30963275SLCKI6TG6",
+          "sku": "107252",
+          "model": "30963275SLCKI6TG6",
+          "title": "Suprasaltea Aloe Vera 3,5 cm, 180x200 cm, Impermeabilă cu husă detașabilă.",
+          "description": "",
+          "category": "Protectoare pentru saltele",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 399,
+          "listPrice": 399,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260617/11/d05737b3-8bee-375d-8b8d-8046b92c795a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260617/11/75fdcfcb-6940-33bd-8766-cd1d23313ce4/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260617/11/8884fa16-2a15-3790-b5e1-1cb875fb213f/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1157347939?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/00ad761f9d8db813a1e8aaea82738ac8876946d51c2ea838879780ed61e2028b.img",
+        "/tmp/estore-short-gallery-audit-20261024/6efd1e82c428b57f1250a8d61be3165846c5082dbe9624a0d969f9a1b606e9f0.img",
+        "/tmp/estore-short-gallery-audit-20261024/6bc22e89dfb05362ec393155cbb5e09a0ba5d7d044115d3fed321e1e3e61728b.img",
+        "/tmp/estore-short-gallery-audit-20261024/e1354867e881a95db35acba23df7a9647f2f773742b28f6ed72092bbab9a768a.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/107247-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/saltele-si-toppere/topper-aloe-vera-fresh-waterproof/",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-7c5c0ee7-0704-422d-a3ef-4712001c691b.png",
+      "surface": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-2c26053b-5c5d-47ba-b5db-ee2717cbcad3.png"
+    }
+  ],
+  "review": "Six actual generated images reviewed; four distinct photographs per model/size. Existing Fresh hero and hand detail also reviewed. Source verifies cover, foam type, thickness, zipper, transport bag and size variants.",
+  "prompt": "Exact supplier references, preserve white Aloe fabric, distinct green motifs, quilting and sewn edge. Memory 5 cm: full-bed hero, low edge view, textile surface close-up, adult hand gently compressing closed cover. Fresh 3.5 cm: low edge and surface. No invented foam color, cutaway or added straps. Portrait 2:3, soft daylight, ivory bedroom."
+}
