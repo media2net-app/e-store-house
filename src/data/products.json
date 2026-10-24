@@ -30376,5 +30376,1463 @@
     "price": 89,
     "stock": 95,
     "inStock": true
+  },
+  {
+    "id": 110532,
+    "name": "Față de masă terasă / grădină Mirage Élégant",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Mirage Élégant.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-gri/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260612/23/edf1518e-07c4-38be-b405-8ec5e00437f6/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260612/23/38ed86bb-41eb-37b5-b4b4-524259abdaa9/1_org_zoom.jpg",
+      "/products/110532/fold-reviewed-v1.png",
+      "/products/110532/detail-reviewed-v1.png",
+      "/products/110532/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260612/23/edf1518e-07c4-38be-b405-8ec5e00437f6/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110533,
+        "sku": "110533",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260612/23/38ed86bb-41eb-37b5-b4b4-524259abdaa9/1_org_zoom.jpg",
+          "/products/110532/fold-reviewed-v1.png",
+          "/products/110532/detail-reviewed-v1.png",
+          "/products/110532/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110534,
+        "sku": "110534",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260612/23/edf1518e-07c4-38be-b405-8ec5e00437f6/1_org_zoom.jpg",
+          "/products/110532/fold-reviewed-v1.png",
+          "/products/110532/detail-reviewed-v1.png",
+          "/products/110532/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110535,
+        "sku": "110535",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260612/23/edf1518e-07c4-38be-b405-8ec5e00437f6/1_org_zoom.jpg",
+          "/products/110532/fold-reviewed-v1.png",
+          "/products/110532/detail-reviewed-v1.png",
+          "/products/110532/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110735,
+    "name": "Față de masă terasă / grădină Belle Maison",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Belle Maison.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-belle-maison/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260613/20/b8e23f42-4b50-344f-a1dc-ce4c5818673f/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260613/20/7496d051-e0a5-35f8-9afd-af1ffe3f27cc/1_org_zoom.jpg",
+      "/products/110735/fold-reviewed-v1.png",
+      "/products/110735/detail-reviewed-v1.png",
+      "/products/110735/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260613/20/b8e23f42-4b50-344f-a1dc-ce4c5818673f/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110736,
+        "sku": "110736",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260613/20/7496d051-e0a5-35f8-9afd-af1ffe3f27cc/1_org_zoom.jpg",
+          "/products/110735/fold-reviewed-v1.png",
+          "/products/110735/detail-reviewed-v1.png",
+          "/products/110735/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110737,
+        "sku": "110737",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260613/20/b8e23f42-4b50-344f-a1dc-ce4c5818673f/1_org_zoom.jpg",
+          "/products/110735/fold-reviewed-v1.png",
+          "/products/110735/detail-reviewed-v1.png",
+          "/products/110735/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110738,
+        "sku": "110738",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260613/20/b8e23f42-4b50-344f-a1dc-ce4c5818673f/1_org_zoom.jpg",
+          "/products/110735/fold-reviewed-v1.png",
+          "/products/110735/detail-reviewed-v1.png",
+          "/products/110735/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110747,
+    "name": "Față de masă terasă / grădină Fleur Royale",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Fleur Royale.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-fleur-royale/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260613/20/ebb5332b-668d-3cbd-bb21-5e89cad4a593/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260613/20/c551d024-8f1d-3682-8ced-64773ca41bed/1_org_zoom.jpg",
+      "/products/110747/fold-reviewed-v1.png",
+      "/products/110747/detail-reviewed-v1.png",
+      "/products/110747/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260613/20/ebb5332b-668d-3cbd-bb21-5e89cad4a593/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110748,
+        "sku": "110748",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260613/20/c551d024-8f1d-3682-8ced-64773ca41bed/1_org_zoom.jpg",
+          "/products/110747/fold-reviewed-v1.png",
+          "/products/110747/detail-reviewed-v1.png",
+          "/products/110747/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110749,
+        "sku": "110749",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260613/20/ebb5332b-668d-3cbd-bb21-5e89cad4a593/1_org_zoom.jpg",
+          "/products/110747/fold-reviewed-v1.png",
+          "/products/110747/detail-reviewed-v1.png",
+          "/products/110747/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110750,
+        "sku": "110750",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260613/20/ebb5332b-668d-3cbd-bb21-5e89cad4a593/1_org_zoom.jpg",
+          "/products/110747/fold-reviewed-v1.png",
+          "/products/110747/detail-reviewed-v1.png",
+          "/products/110747/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110497,
+    "name": "Față de masă terasă / grădină Harmony Luxe",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Harmony Luxe.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-burgundi/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260613/20/561d4c1f-3590-37b4-86f3-efa4c13623c5/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260613/20/9c7cafd6-171c-34d2-8e32-7d774f280ac2/1_org_zoom.jpg",
+      "/products/110497/fold-reviewed-v1.png",
+      "/products/110497/detail-reviewed-v1.png",
+      "/products/110497/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260613/20/561d4c1f-3590-37b4-86f3-efa4c13623c5/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110498,
+        "sku": "110498",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260613/20/9c7cafd6-171c-34d2-8e32-7d774f280ac2/1_org_zoom.jpg",
+          "/products/110497/fold-reviewed-v1.png",
+          "/products/110497/detail-reviewed-v1.png",
+          "/products/110497/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110499,
+        "sku": "110499",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260613/20/561d4c1f-3590-37b4-86f3-efa4c13623c5/1_org_zoom.jpg",
+          "/products/110497/fold-reviewed-v1.png",
+          "/products/110497/detail-reviewed-v1.png",
+          "/products/110497/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110500,
+        "sku": "110500",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260613/20/561d4c1f-3590-37b4-86f3-efa4c13623c5/1_org_zoom.jpg",
+          "/products/110497/fold-reviewed-v1.png",
+          "/products/110497/detail-reviewed-v1.png",
+          "/products/110497/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110480,
+    "name": "Față de masă terasă / grădină Imperial Grace",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Imperial Grace.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-albastru-dungi/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260613/20/fe98ea43-d8ea-3568-b9f2-b13e20d8f624/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/9c6b0a75-9c2c-3a24-99de-586372743d77/1_org_zoom.jpg",
+      "/products/110480/fold-reviewed-v1.png",
+      "/products/110480/detail-reviewed-v1.png",
+      "/products/110480/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260613/20/fe98ea43-d8ea-3568-b9f2-b13e20d8f624/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110487,
+        "sku": "110487",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/9c6b0a75-9c2c-3a24-99de-586372743d77/1_org_zoom.jpg",
+          "/products/110480/fold-reviewed-v1.png",
+          "/products/110480/detail-reviewed-v1.png",
+          "/products/110480/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110488,
+        "sku": "110488",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260613/20/fe98ea43-d8ea-3568-b9f2-b13e20d8f624/1_org_zoom.jpg",
+          "/products/110480/fold-reviewed-v1.png",
+          "/products/110480/detail-reviewed-v1.png",
+          "/products/110480/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110489,
+        "sku": "110489",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260613/20/fe98ea43-d8ea-3568-b9f2-b13e20d8f624/1_org_zoom.jpg",
+          "/products/110480/fold-reviewed-v1.png",
+          "/products/110480/detail-reviewed-v1.png",
+          "/products/110480/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110490,
+    "name": "Față de masă terasă / grădină Chateau Linen",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Chateau Linen.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-bleumarin/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260613/21/8072cdc3-02eb-3be2-b62d-0dfeca292560/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260613/21/a9a31947-07d1-366b-8538-32d411e92c0c/1_org_zoom.jpg",
+      "/products/110490/fold-reviewed-v1.png",
+      "/products/110490/detail-reviewed-v1.png",
+      "/products/110490/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260613/21/8072cdc3-02eb-3be2-b62d-0dfeca292560/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110491,
+        "sku": "110491",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260613/21/a9a31947-07d1-366b-8538-32d411e92c0c/1_org_zoom.jpg",
+          "/products/110490/fold-reviewed-v1.png",
+          "/products/110490/detail-reviewed-v1.png",
+          "/products/110490/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110492,
+        "sku": "110492",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260613/21/8072cdc3-02eb-3be2-b62d-0dfeca292560/1_org_zoom.jpg",
+          "/products/110490/fold-reviewed-v1.png",
+          "/products/110490/detail-reviewed-v1.png",
+          "/products/110490/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110493,
+        "sku": "110493",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260613/21/8072cdc3-02eb-3be2-b62d-0dfeca292560/1_org_zoom.jpg",
+          "/products/110490/fold-reviewed-v1.png",
+          "/products/110490/detail-reviewed-v1.png",
+          "/products/110490/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110740,
+    "name": "Față de masă terasă / grădină Ivory Charm",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Ivory Charm.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-ivory-charm/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260613/20/8f53d48b-35c7-3bcd-bbd0-47c5c8cdb058/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260613/20/64e7a4e6-9c17-34e0-a744-cd80fcbf2c35/1_org_zoom.jpg",
+      "/products/110740/fold-reviewed-v1.png",
+      "/products/110740/detail-reviewed-v1.png",
+      "/products/110740/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260613/20/8f53d48b-35c7-3bcd-bbd0-47c5c8cdb058/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110741,
+        "sku": "110741",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260613/20/64e7a4e6-9c17-34e0-a744-cd80fcbf2c35/1_org_zoom.jpg",
+          "/products/110740/fold-reviewed-v1.png",
+          "/products/110740/detail-reviewed-v1.png",
+          "/products/110740/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110742,
+        "sku": "110742",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260613/20/8f53d48b-35c7-3bcd-bbd0-47c5c8cdb058/1_org_zoom.jpg",
+          "/products/110740/fold-reviewed-v1.png",
+          "/products/110740/detail-reviewed-v1.png",
+          "/products/110740/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110743,
+        "sku": "110743",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260613/20/8f53d48b-35c7-3bcd-bbd0-47c5c8cdb058/1_org_zoom.jpg",
+          "/products/110740/fold-reviewed-v1.png",
+          "/products/110740/detail-reviewed-v1.png",
+          "/products/110740/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110716,
+    "name": "Față de masă terasă / grădină Noble Touch",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Noble Touch.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-noble-touch/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260613/20/9dc0ffa5-8eeb-3a1f-a92c-9decb6de8123/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260613/20/bbaf9170-bcb4-3061-b57c-42d29d7a9def/1_org_zoom.jpg",
+      "/products/110716/fold-reviewed-v1.png",
+      "/products/110716/detail-reviewed-v1.png",
+      "/products/110716/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260613/20/9dc0ffa5-8eeb-3a1f-a92c-9decb6de8123/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110717,
+        "sku": "110717",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260613/20/bbaf9170-bcb4-3061-b57c-42d29d7a9def/1_org_zoom.jpg",
+          "/products/110716/fold-reviewed-v1.png",
+          "/products/110716/detail-reviewed-v1.png",
+          "/products/110716/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110718,
+        "sku": "110718",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260613/20/9dc0ffa5-8eeb-3a1f-a92c-9decb6de8123/1_org_zoom.jpg",
+          "/products/110716/fold-reviewed-v1.png",
+          "/products/110716/detail-reviewed-v1.png",
+          "/products/110716/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110719,
+        "sku": "110719",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260613/20/9dc0ffa5-8eeb-3a1f-a92c-9decb6de8123/1_org_zoom.jpg",
+          "/products/110716/fold-reviewed-v1.png",
+          "/products/110716/detail-reviewed-v1.png",
+          "/products/110716/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110709,
+    "name": "Față de masă terasă / grădină Serena Lux",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Serena Lux.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-serena-lux/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260613/20/9656e0ed-2747-35b6-bc13-76efba979ef7/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/988b4215-52f6-3a7c-a09b-73b880cacaff/1_org_zoom.jpg",
+      "/products/110709/fold-reviewed-v1.png",
+      "/products/110709/detail-reviewed-v1.png",
+      "/products/110709/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260613/20/9656e0ed-2747-35b6-bc13-76efba979ef7/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110710,
+        "sku": "110710",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/988b4215-52f6-3a7c-a09b-73b880cacaff/1_org_zoom.jpg",
+          "/products/110709/fold-reviewed-v1.png",
+          "/products/110709/detail-reviewed-v1.png",
+          "/products/110709/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110711,
+        "sku": "110711",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260613/20/9656e0ed-2747-35b6-bc13-76efba979ef7/1_org_zoom.jpg",
+          "/products/110709/fold-reviewed-v1.png",
+          "/products/110709/detail-reviewed-v1.png",
+          "/products/110709/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110712,
+        "sku": "110712",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260613/20/9656e0ed-2747-35b6-bc13-76efba979ef7/1_org_zoom.jpg",
+          "/products/110709/fold-reviewed-v1.png",
+          "/products/110709/detail-reviewed-v1.png",
+          "/products/110709/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110701,
+    "name": "Față de masă terasă / grădină Velvet Aura",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Velvet Aura.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-velvet-aura/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260613/20/99e3d120-1a28-3ed6-a4c6-efe70ee4db90/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260613/20/feee688e-6800-309b-9b91-b315e90d7189/1_org_zoom.jpg",
+      "/products/110701/fold-reviewed-v1.png",
+      "/products/110701/detail-reviewed-v1.png",
+      "/products/110701/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260613/20/99e3d120-1a28-3ed6-a4c6-efe70ee4db90/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110702,
+        "sku": "110702",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260613/20/feee688e-6800-309b-9b91-b315e90d7189/1_org_zoom.jpg",
+          "/products/110701/fold-reviewed-v1.png",
+          "/products/110701/detail-reviewed-v1.png",
+          "/products/110701/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110703,
+        "sku": "110703",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260613/20/99e3d120-1a28-3ed6-a4c6-efe70ee4db90/1_org_zoom.jpg",
+          "/products/110701/fold-reviewed-v1.png",
+          "/products/110701/detail-reviewed-v1.png",
+          "/products/110701/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110704,
+        "sku": "110704",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260613/20/99e3d120-1a28-3ed6-a4c6-efe70ee4db90/1_org_zoom.jpg",
+          "/products/110701/fold-reviewed-v1.png",
+          "/products/110701/detail-reviewed-v1.png",
+          "/products/110701/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110567,
+    "name": "Față de masă terasă / grădină Opaline Chic",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Opaline Chic.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-rosu/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260613/20/1e1e8a17-348b-3892-a68f-23d5600f234a/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/10244928-507e-3014-8407-864006f85534/1_org_zoom.jpg",
+      "/products/110567/fold-reviewed-v1.png",
+      "/products/110567/detail-reviewed-v1.png",
+      "/products/110567/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260613/20/1e1e8a17-348b-3892-a68f-23d5600f234a/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110568,
+        "sku": "110568",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/10244928-507e-3014-8407-864006f85534/1_org_zoom.jpg",
+          "/products/110567/fold-reviewed-v1.png",
+          "/products/110567/detail-reviewed-v1.png",
+          "/products/110567/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110569,
+        "sku": "110569",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260613/20/1e1e8a17-348b-3892-a68f-23d5600f234a/1_org_zoom.jpg",
+          "/products/110567/fold-reviewed-v1.png",
+          "/products/110567/detail-reviewed-v1.png",
+          "/products/110567/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110570,
+        "sku": "110570",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260613/20/1e1e8a17-348b-3892-a68f-23d5600f234a/1_org_zoom.jpg",
+          "/products/110567/fold-reviewed-v1.png",
+          "/products/110567/detail-reviewed-v1.png",
+          "/products/110567/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110559,
+    "name": "Față de masă terasă / grădină Éclat Dining",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Éclat Dining.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-negru/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260613/20/fa976ae6-05bb-3c5e-b131-eebe422cf664/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260613/20/dbb55278-04f5-3c85-8f9d-57afe4cb039a/1_org_zoom.jpg",
+      "/products/110559/fold-reviewed-v1.png",
+      "/products/110559/detail-reviewed-v1.png",
+      "/products/110559/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260613/20/fa976ae6-05bb-3c5e-b131-eebe422cf664/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110560,
+        "sku": "110560",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260613/20/dbb55278-04f5-3c85-8f9d-57afe4cb039a/1_org_zoom.jpg",
+          "/products/110559/fold-reviewed-v1.png",
+          "/products/110559/detail-reviewed-v1.png",
+          "/products/110559/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110561,
+        "sku": "110561",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260613/20/fa976ae6-05bb-3c5e-b131-eebe422cf664/1_org_zoom.jpg",
+          "/products/110559/fold-reviewed-v1.png",
+          "/products/110559/detail-reviewed-v1.png",
+          "/products/110559/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110562,
+        "sku": "110562",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260613/20/fa976ae6-05bb-3c5e-b131-eebe422cf664/1_org_zoom.jpg",
+          "/products/110559/fold-reviewed-v1.png",
+          "/products/110559/detail-reviewed-v1.png",
+          "/products/110559/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110552,
+    "name": "Față de masă terasă / grădină Royal Petals",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Royal Petals.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-mov/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260613/20/55fb3353-5d40-3709-98d9-1d64be7e2462/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260613/20/a51a46fc-477e-331b-8f7c-7fc0d26f4a48/1_org_zoom.jpg",
+      "/products/110552/fold-reviewed-v1.png",
+      "/products/110552/detail-reviewed-v1.png",
+      "/products/110552/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260613/20/55fb3353-5d40-3709-98d9-1d64be7e2462/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110553,
+        "sku": "110553",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260613/20/a51a46fc-477e-331b-8f7c-7fc0d26f4a48/1_org_zoom.jpg",
+          "/products/110552/fold-reviewed-v1.png",
+          "/products/110552/detail-reviewed-v1.png",
+          "/products/110552/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110554,
+        "sku": "110554",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260613/20/55fb3353-5d40-3709-98d9-1d64be7e2462/1_org_zoom.jpg",
+          "/products/110552/fold-reviewed-v1.png",
+          "/products/110552/detail-reviewed-v1.png",
+          "/products/110552/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110555,
+        "sku": "110555",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260613/20/55fb3353-5d40-3709-98d9-1d64be7e2462/1_org_zoom.jpg",
+          "/products/110552/fold-reviewed-v1.png",
+          "/products/110552/detail-reviewed-v1.png",
+          "/products/110552/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 99,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110546,
+    "name": "Față de masă terasă / grădină Silken Harmony",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Silken Harmony.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-ivoire/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260613/20/26334ba0-ed90-32d6-a149-4a2bb46d3fa8/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/b210227e-9f45-39c6-b462-e786c9d773dc/1_org_zoom.jpg",
+      "/products/110546/fold-reviewed-v1.png",
+      "/products/110546/detail-reviewed-v1.png",
+      "/products/110546/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260613/20/26334ba0-ed90-32d6-a149-4a2bb46d3fa8/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110547,
+        "sku": "110547",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/b210227e-9f45-39c6-b462-e786c9d773dc/1_org_zoom.jpg",
+          "/products/110546/fold-reviewed-v1.png",
+          "/products/110546/detail-reviewed-v1.png",
+          "/products/110546/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 0,
+        "inStock": false
+      },
+      {
+        "id": 110548,
+        "sku": "110548",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260613/20/26334ba0-ed90-32d6-a149-4a2bb46d3fa8/1_org_zoom.jpg",
+          "/products/110546/fold-reviewed-v1.png",
+          "/products/110546/detail-reviewed-v1.png",
+          "/products/110546/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 0,
+        "inStock": false
+      },
+      {
+        "id": 110549,
+        "sku": "110549",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260613/20/26334ba0-ed90-32d6-a149-4a2bb46d3fa8/1_org_zoom.jpg",
+          "/products/110546/fold-reviewed-v1.png",
+          "/products/110546/detail-reviewed-v1.png",
+          "/products/110546/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 0,
+        "inStock": false
+      }
+    ],
+    "inStock": false
+  },
+  {
+    "id": 110539,
+    "name": "Față de masă terasă / grădină Aurora Linen",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Aurora Linen.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-dungi/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260613/20/bd2264c3-d1cc-3fbf-a985-cefd536e7325/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260613/20/931743b5-fbc7-3df0-a24c-066a866bdc60/1_org_zoom.jpg",
+      "/products/110539/fold-reviewed-v1.png",
+      "/products/110539/detail-reviewed-v1.png",
+      "/products/110539/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260613/20/bd2264c3-d1cc-3fbf-a985-cefd536e7325/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110540,
+        "sku": "110540",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260613/20/931743b5-fbc7-3df0-a24c-066a866bdc60/1_org_zoom.jpg",
+          "/products/110539/fold-reviewed-v1.png",
+          "/products/110539/detail-reviewed-v1.png",
+          "/products/110539/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110541,
+        "sku": "110541",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260613/20/bd2264c3-d1cc-3fbf-a985-cefd536e7325/1_org_zoom.jpg",
+          "/products/110539/fold-reviewed-v1.png",
+          "/products/110539/detail-reviewed-v1.png",
+          "/products/110539/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110542,
+        "sku": "110542",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260613/20/bd2264c3-d1cc-3fbf-a985-cefd536e7325/1_org_zoom.jpg",
+          "/products/110539/fold-reviewed-v1.png",
+          "/products/110539/detail-reviewed-v1.png",
+          "/products/110539/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110522,
+    "name": "Față de masă terasă / grădină Mon Chéri Table",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Mon Chéri Table.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-grena/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260613/20/3943d1b3-d0fa-3f4a-a53a-9e07fdc19e9a/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260613/20/5b6d77f7-bc96-39e6-9351-37c835f8e976/1_org_zoom.jpg",
+      "/products/110522/fold-reviewed-v1.png",
+      "/products/110522/detail-reviewed-v1.png",
+      "/products/110522/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260613/20/3943d1b3-d0fa-3f4a-a53a-9e07fdc19e9a/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110523,
+        "sku": "110523",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260613/20/5b6d77f7-bc96-39e6-9351-37c835f8e976/1_org_zoom.jpg",
+          "/products/110522/fold-reviewed-v1.png",
+          "/products/110522/detail-reviewed-v1.png",
+          "/products/110522/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110524,
+        "sku": "110524",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260613/20/3943d1b3-d0fa-3f4a-a53a-9e07fdc19e9a/1_org_zoom.jpg",
+          "/products/110522/fold-reviewed-v1.png",
+          "/products/110522/detail-reviewed-v1.png",
+          "/products/110522/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110525,
+        "sku": "110525",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260613/20/3943d1b3-d0fa-3f4a-a53a-9e07fdc19e9a/1_org_zoom.jpg",
+          "/products/110522/fold-reviewed-v1.png",
+          "/products/110522/detail-reviewed-v1.png",
+          "/products/110522/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110509,
+    "name": "Față de masă terasă / grădină Diamond Weave",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Diamond Weave.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-ciclame/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260613/20/2883193e-a5af-3062-84fd-cd6e8758b96f/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260613/20/cccb9073-483e-3fe7-a9d8-43dab417d3e0/1_org_zoom.jpg",
+      "/products/110509/fold-reviewed-v1.png",
+      "/products/110509/detail-reviewed-v1.png",
+      "/products/110509/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260613/20/2883193e-a5af-3062-84fd-cd6e8758b96f/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110510,
+        "sku": "110510",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260613/20/2883193e-a5af-3062-84fd-cd6e8758b96f/1_org_zoom.jpg",
+          "/products/110509/fold-reviewed-v1.png",
+          "/products/110509/detail-reviewed-v1.png",
+          "/products/110509/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110511,
+        "sku": "110511",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260613/20/cccb9073-483e-3fe7-a9d8-43dab417d3e0/1_org_zoom.jpg",
+          "/products/110509/fold-reviewed-v1.png",
+          "/products/110509/detail-reviewed-v1.png",
+          "/products/110509/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110512,
+        "sku": "110512",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260613/20/cccb9073-483e-3fe7-a9d8-43dab417d3e0/1_org_zoom.jpg",
+          "/products/110509/fold-reviewed-v1.png",
+          "/products/110509/detail-reviewed-v1.png",
+          "/products/110509/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 110503,
+    "name": "Față de masă terasă / grădină Elite Maison",
+    "category": "Fețe masă terasă / grădină",
+    "categoryPath": "terasa-si-gradina/fete-masa-terasa-gradina",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
+    "description": "Față de masă terasă / grădină Elite Maison.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-capucino/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260613/20/e9771865-cdbe-3440-8dd7-a8a0ee7535d1/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260613/20/2b717232-590d-3e35-b0ee-31187b1cc261/1_org_zoom.jpg",
+      "/products/110503/fold-reviewed-v1.png",
+      "/products/110503/detail-reviewed-v1.png",
+      "/products/110503/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260613/20/e9771865-cdbe-3440-8dd7-a8a0ee7535d1/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Oxford: 50% bumbac și 50% poliester, 300 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "id": 110504,
+        "sku": "110504",
+        "name": "140 × 140 cm",
+        "dimensions": "140 × 140 cm",
+        "contents": "1 față de masă, 140 × 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260613/20/2b717232-590d-3e35-b0ee-31187b1cc261/1_org_zoom.jpg",
+          "/products/110503/fold-reviewed-v1.png",
+          "/products/110503/detail-reviewed-v1.png",
+          "/products/110503/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110505,
+        "sku": "110505",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260613/20/e9771865-cdbe-3440-8dd7-a8a0ee7535d1/1_org_zoom.jpg",
+          "/products/110503/fold-reviewed-v1.png",
+          "/products/110503/detail-reviewed-v1.png",
+          "/products/110503/drape-reviewed-v1.png"
+        ],
+        "price": 39,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 110506,
+        "sku": "110506",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260613/20/e9771865-cdbe-3440-8dd7-a8a0ee7535d1/1_org_zoom.jpg",
+          "/products/110503/fold-reviewed-v1.png",
+          "/products/110503/detail-reviewed-v1.png",
+          "/products/110503/drape-reviewed-v1.png"
+        ],
+        "price": 49,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
   }
 ]

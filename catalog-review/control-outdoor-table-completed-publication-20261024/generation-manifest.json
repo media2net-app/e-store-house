@@ -1,0 +1,1466 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "outputs": [
+    {
+      "supplierId": "110532",
+      "products": [
+        {
+          "barcode": "3078667I4JM9MRU9F",
+          "sku": "110535",
+          "model": "3078667I4JM9MRU9F",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "gri",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260612/23/edf1518e-07c4-38be-b405-8ec5e00437f6/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260612/23/38ed86bb-41eb-37b5-b4b4-524259abdaa9/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1155913645?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3078668JSNNFJHWJ0",
+          "sku": "110534",
+          "model": "3078668JSNNFJHWJ0",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "gri",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260612/23/edf1518e-07c4-38be-b405-8ec5e00437f6/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260612/23/38ed86bb-41eb-37b5-b4b4-524259abdaa9/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1155913643?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3078669ILCJFZFR5Q",
+          "sku": "110533",
+          "model": "3078669ILCJFZFR5Q",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "gri",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260612/23/edf1518e-07c4-38be-b405-8ec5e00437f6/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260612/23/38ed86bb-41eb-37b5-b4b4-524259abdaa9/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1155913644?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/5f34844fefd1839b5b3e6e6672a675ebcd313062ff5c84ffc50e54802b3577b5.img",
+        "/tmp/estore-short-gallery-audit-20261024/c40f478f6bcd3f9ba9f22ab6d16df586c80e4950ce5c1477cf7afe6a61f0e8ce.img",
+        "/tmp/estore-short-gallery-audit-20261024/0478032a423ef862c3db6a366cfa67db020e2b4f3ec4c0e603e331b8d7eb5567.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110532-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-gri/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-d7980ee1-c9e1-4c3f-9ed6-b0579849bb4a.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-d877f552-a7d3-44fd-b2c4-31ad13dd29f1.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-9fe1a72a-c413-40aa-96db-a81456353abf.png"
+    },
+    {
+      "supplierId": "110735",
+      "products": [
+        {
+          "barcode": "3080845LHKX4XUAND",
+          "sku": "110737",
+          "model": "3080845LHKX4XUAND",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "negru",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260613/20/b8e23f42-4b50-344f-a1dc-ce4c5818673f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260613/20/7496d051-e0a5-35f8-9afd-af1ffe3f27cc/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156183963?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "30808492BIPQNYLYT",
+          "sku": "110738",
+          "model": "30808492BIPQNYLYT",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "negru",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260613/20/b8e23f42-4b50-344f-a1dc-ce4c5818673f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260613/20/7496d051-e0a5-35f8-9afd-af1ffe3f27cc/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156184563?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080856HABD5YXSGP",
+          "sku": "110736",
+          "model": "3080856HABD5YXSGP",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "negru",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260613/20/b8e23f42-4b50-344f-a1dc-ce4c5818673f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260613/20/7496d051-e0a5-35f8-9afd-af1ffe3f27cc/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156184784?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/29817dc5ee431dc9a2168120efbe2be5c93d78d6c01b79afbc209086fb55403b.img",
+        "/tmp/estore-short-gallery-audit-20261024/1603cf8adeb2ee160e571b7dbd6bee63f391e960c140a818b241ded5951add6c.img",
+        "/tmp/estore-short-gallery-audit-20261024/ba93b9bf344152507d035a211c564e15aedf0b0887439f22320d7d15caf3325b.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110735-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-belle-maison/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c8ed6f0c-8060-4cdc-9168-66d6e1be5bcc.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-db04fdb9-2779-47c7-8b6d-fb1504459aac.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-674dd880-81db-4b5d-95a7-ef684f5bf7bc.png"
+    },
+    {
+      "supplierId": "110747",
+      "products": [
+        {
+          "barcode": "3080846ASCEGRXKSP",
+          "sku": "110750",
+          "model": "3080846ASCEGRXKSP",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "portocale",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260613/20/ebb5332b-668d-3cbd-bb21-5e89cad4a593/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260613/20/c551d024-8f1d-3682-8ced-64773ca41bed/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156184102?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080851NK8MZGTAUX",
+          "sku": "110749",
+          "model": "3080851NK8MZGTAUX",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "portocale",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260613/20/ebb5332b-668d-3cbd-bb21-5e89cad4a593/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260613/20/c551d024-8f1d-3682-8ced-64773ca41bed/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156184155?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080852MGPEPW2ARD",
+          "sku": "110748",
+          "model": "3080852MGPEPW2ARD",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "portocale",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260613/20/ebb5332b-668d-3cbd-bb21-5e89cad4a593/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260613/20/c551d024-8f1d-3682-8ced-64773ca41bed/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156184380?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/569ed87b3bc1ff47c52d944363f30bbc7dbdca779b7d6e6959c2fa343e60fcf7.img",
+        "/tmp/estore-short-gallery-audit-20261024/d27c02993cb8f94682a790d826db90da14fe7b9ece195edc2be2cca2bd0dba6f.img",
+        "/tmp/estore-short-gallery-audit-20261024/cf53e3d9b63065685d68e76768b52cde0d48851188950200913cce8433c29e63.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110747-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-fleur-royale/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c1799342-825c-43b9-8d1a-ae841e325e66.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-f674c851-bd76-4963-8477-5ba358faaaba.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-1bfc2556-08bf-4a6d-89eb-f5bed824ace1.png"
+    },
+    {
+      "supplierId": "110497",
+      "products": [
+        {
+          "barcode": "3080847R7LSO8FUSY",
+          "sku": "110500",
+          "model": "3080847R7LSO8FUSY",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "Maro",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260613/20/561d4c1f-3590-37b4-86f3-efa4c13623c5/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260613/20/9c7cafd6-171c-34d2-8e32-7d774f280ac2/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156183992?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080893ONYCW4PTSK",
+          "sku": "110498",
+          "model": "3080893ONYCW4PTSK",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "maro",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260613/20/561d4c1f-3590-37b4-86f3-efa4c13623c5/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260613/20/9c7cafd6-171c-34d2-8e32-7d774f280ac2/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156186199?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080894GIEGLZOZJX",
+          "sku": "110499",
+          "model": "3080894GIEGLZOZJX",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "maro",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260613/20/561d4c1f-3590-37b4-86f3-efa4c13623c5/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260613/20/9c7cafd6-171c-34d2-8e32-7d774f280ac2/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156186217?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/efe9a5085766d55fac7ff93e672b1402928e0223eaab6e6b1b6cb8c524a5f310.img",
+        "/tmp/estore-short-gallery-audit-20261024/34fa911951b635b791758e0dc6fa727bac9a48accd6464426dcb200279660472.img",
+        "/tmp/estore-short-gallery-audit-20261024/bb99ff155f77ab8983ccb9af978fa8ff97e70d877708acf34675a9b35465ee93.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110497-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-burgundi/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-5a7fe6a0-56bd-4cb8-a04e-9fc6d9cb2f8d.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-48b11c99-661e-46a0-90ca-bbaa718db9a3.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-3d623f9d-8121-475d-bb54-e73ec9408916.png"
+    },
+    {
+      "supplierId": "110480",
+      "products": [
+        {
+          "barcode": "3080848OZO1GRJ3HF",
+          "sku": "110488",
+          "model": "3080848OZO1GRJ3HF",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "bleumarin",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260613/20/fe98ea43-d8ea-3568-b9f2-b13e20d8f624/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/9c6b0a75-9c2c-3a24-99de-586372743d77/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156184060?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080897PY1UD62QB1",
+          "sku": "110487",
+          "model": "3080897PY1UD62QB1",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "albastru",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260613/20/fe98ea43-d8ea-3568-b9f2-b13e20d8f624/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/9c6b0a75-9c2c-3a24-99de-586372743d77/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156186329?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080898QTLKYNYTR3",
+          "sku": "110489",
+          "model": "3080898QTLKYNYTR3",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "albastru",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260613/20/fe98ea43-d8ea-3568-b9f2-b13e20d8f624/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/9c6b0a75-9c2c-3a24-99de-586372743d77/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156186442?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/0801d1c7b9de2e226cdec21399004536751e31075b600c5f0a54370bd78d6c90.img",
+        "/tmp/estore-short-gallery-audit-20261024/74c3e8db61b439d2e267fc197f0dc4889e106b680a1efb26e51a90b456a1c25c.img",
+        "/tmp/estore-short-gallery-audit-20261024/21dbe10c34b0d481a195b0857095b1f20d94b2d80497e3dc830ce0c86b3ad28c.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110480-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-albastru-dungi/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-16f2f8bd-358d-4c7d-b177-7086ced1ab84.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-8912e962-4a3b-4a85-b447-ba3e85637f68.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-45f5a9fb-ed2b-4d56-9ce0-d460f2efde89.png"
+    },
+    {
+      "supplierId": "110490",
+      "products": [
+        {
+          "barcode": "3080850CDIVUHU3SL",
+          "sku": "110492",
+          "model": "3080850CDIVUHU3SL",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "albastru închis",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260613/21/8072cdc3-02eb-3be2-b62d-0dfeca292560/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260613/21/a9a31947-07d1-366b-8538-32d411e92c0c/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156186284?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080895TUXO9WL5PL",
+          "sku": "110493",
+          "model": "3080895TUXO9WL5PL",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "albastru închis",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260613/21/8072cdc3-02eb-3be2-b62d-0dfeca292560/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260613/21/a9a31947-07d1-366b-8538-32d411e92c0c/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156186271?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080896VGYISFCKTE",
+          "sku": "110491",
+          "model": "3080896VGYISFCKTE",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "albastru închis",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260613/21/8072cdc3-02eb-3be2-b62d-0dfeca292560/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260613/21/a9a31947-07d1-366b-8538-32d411e92c0c/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156186305?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/f1c7f99d9aadee2e1ca1fd33a9e80473f2807d226e11074183848fb13984b048.img",
+        "/tmp/estore-short-gallery-audit-20261024/14c40747d812b6554282e88cc7b5dcf97c4be06335b6fee1ca06197789119711.img",
+        "/tmp/estore-short-gallery-audit-20261024/d43d06e46785fa93467a8c0aecb8aa85606248b59e7b1c7c1795ccd46c0cdf5c.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110490-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-bleumarin/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a3cc45b0-2c18-4b87-94ec-f08eed10611a.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-13bfc2d6-5e69-4b21-b6fd-3004f1129a1c.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-624cb1df-1b70-4f81-bff0-dd5fb24d0717.png"
+    },
+    {
+      "supplierId": "110740",
+      "products": [
+        {
+          "barcode": "3080853379DZTCHMA",
+          "sku": "110741",
+          "model": "3080853379DZTCHMA",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "mov",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260613/20/8f53d48b-35c7-3bcd-bbd0-47c5c8cdb058/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260613/20/64e7a4e6-9c17-34e0-a744-cd80fcbf2c35/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156184491?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080854Q5LIEJVB3O",
+          "sku": "110742",
+          "model": "3080854Q5LIEJVB3O",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "mov",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260613/20/8f53d48b-35c7-3bcd-bbd0-47c5c8cdb058/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260613/20/64e7a4e6-9c17-34e0-a744-cd80fcbf2c35/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156184524?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080855TV7ODKXLVY",
+          "sku": "110743",
+          "model": "3080855TV7ODKXLVY",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "mov",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260613/20/8f53d48b-35c7-3bcd-bbd0-47c5c8cdb058/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260613/20/64e7a4e6-9c17-34e0-a744-cd80fcbf2c35/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156184537?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/4fa521c41fa5dc5f320de528fc9453465ba088ed7cf34ff8f99733e5ad408233.img",
+        "/tmp/estore-short-gallery-audit-20261024/4b3dc49a7cf8b3cea7d4c07bec1265e6526bb157725caf80f8dee73a1e08f2c3.img",
+        "/tmp/estore-short-gallery-audit-20261024/00fa9005158a3ca05cd2baff3f80171de02994dd1a9298429f247db701766312.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110740-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-ivory-charm/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-129a3bf5-f1ec-4736-abf3-63d94a15585b.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-b2526346-0617-4d28-a524-7b0e2080ad7c.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-30f9b781-cdae-4e1d-9f49-54dae8aa81b5.png"
+    },
+    {
+      "supplierId": "110716",
+      "products": [
+        {
+          "barcode": "3080857EYE6KLPYZE",
+          "sku": "110717",
+          "model": "3080857EYE6KLPYZE",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "bej",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260613/20/9dc0ffa5-8eeb-3a1f-a92c-9decb6de8123/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260613/20/bbaf9170-bcb4-3061-b57c-42d29d7a9def/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156184824?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080858GRKUDZLDCC",
+          "sku": "110718",
+          "model": "3080858GRKUDZLDCC",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "bej",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260613/20/9dc0ffa5-8eeb-3a1f-a92c-9decb6de8123/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260613/20/bbaf9170-bcb4-3061-b57c-42d29d7a9def/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156184874?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080859IYXUPTBCGQ",
+          "sku": "110719",
+          "model": "3080859IYXUPTBCGQ",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "bej",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260613/20/9dc0ffa5-8eeb-3a1f-a92c-9decb6de8123/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260613/20/bbaf9170-bcb4-3061-b57c-42d29d7a9def/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156184925?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/d04aa833254b32a3074ea069e841ff0e2703147d2ecc54d3036297e6794b5cae.img",
+        "/tmp/estore-short-gallery-audit-20261024/78cccca7dc9b7a1482d4674386480045e55c28fa58599e8f3ed4e6d0edc61d90.img",
+        "/tmp/estore-short-gallery-audit-20261024/3567261dc49dd599fd031657a53d5dada76933a1146b3ea96272fa6650f20dc8.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110716-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-noble-touch/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-00d007d6-3cee-47c2-887d-b576fef89dfe.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c2fae90c-21e4-46e9-bc95-009f8051bd91.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-b7bbe8ba-b400-4d0c-8f7c-73be24e6c71a.png"
+    },
+    {
+      "supplierId": "110709",
+      "products": [
+        {
+          "barcode": "3080860JK3NQQ3WPQ",
+          "sku": "110712",
+          "model": "3080860JK3NQQ3WPQ",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260613/20/9656e0ed-2747-35b6-bc13-76efba979ef7/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/988b4215-52f6-3a7c-a09b-73b880cacaff/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185050?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "30808617ZB2EK2KGT",
+          "sku": "110711",
+          "model": "30808617ZB2EK2KGT",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260613/20/9656e0ed-2747-35b6-bc13-76efba979ef7/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/988b4215-52f6-3a7c-a09b-73b880cacaff/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185085?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080862BFFU3FGLWD",
+          "sku": "110710",
+          "model": "3080862BFFU3FGLWD",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260613/20/9656e0ed-2747-35b6-bc13-76efba979ef7/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/988b4215-52f6-3a7c-a09b-73b880cacaff/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185136?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/fcdcb366980af50f638f1c759e5e07790e2c00af0f9d32732e2929f79487ee8f.img",
+        "/tmp/estore-short-gallery-audit-20261024/cded0008c11c7fe8548d1032c6585322388ee3276b659da3e6e16b07937257a2.img",
+        "/tmp/estore-short-gallery-audit-20261024/35f6860ef247af9eab39617bbccd5b4e9e2bcaf2b8958c9a26588fb322f16770.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110709-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-serena-lux/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a81d565b-eb47-4cfb-ae53-d774d23438a4.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-6f79c7a2-05dd-4573-bd96-3cdee6fde1bf.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-87323c1c-8d4c-4b5a-af95-dde936e459fe.png"
+    },
+    {
+      "supplierId": "110701",
+      "products": [
+        {
+          "barcode": "30808633FFNQGKRPD",
+          "sku": "110702",
+          "model": "30808633FFNQGKRPD",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "albastru",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260613/20/99e3d120-1a28-3ed6-a4c6-efe70ee4db90/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260613/20/feee688e-6800-309b-9b91-b315e90d7189/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185199?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080864TVDWMM0FMJ",
+          "sku": "110703",
+          "model": "3080864TVDWMM0FMJ",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "albastru",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260613/20/99e3d120-1a28-3ed6-a4c6-efe70ee4db90/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260613/20/feee688e-6800-309b-9b91-b315e90d7189/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185223?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080865FVMAUADAMG",
+          "sku": "110704",
+          "model": "3080865FVMAUADAMG",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "albastru",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260613/20/99e3d120-1a28-3ed6-a4c6-efe70ee4db90/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260613/20/feee688e-6800-309b-9b91-b315e90d7189/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185252?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/eff1e4e2151821b60982584f411f929fbd194f4bd4af4dd2d9300b2cba81f223.img",
+        "/tmp/estore-short-gallery-audit-20261024/e9c23e659a8fe598e94a5b7955db216286b8e8dd790fa6b226ed168b6f16c071.img",
+        "/tmp/estore-short-gallery-audit-20261024/7395e2e6548bec8cf5a2712449db9e409d9ba5c86262cba252510ffdf63a9dd7.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110701-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-velvet-aura/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-4518181b-feb5-4d88-b5a5-aa81c65fe7bd.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-aed27665-d5e6-4f5e-9f64-0285363d584a.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-d3c378e4-668f-4390-a261-efe43702b459.png"
+    },
+    {
+      "supplierId": "110567",
+      "products": [
+        {
+          "barcode": "3080866KFH0GPKBUO",
+          "sku": "110570",
+          "model": "3080866KFH0GPKBUO",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "rosu",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260613/20/1e1e8a17-348b-3892-a68f-23d5600f234a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/10244928-507e-3014-8407-864006f85534/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185281?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080867G1VTTEGLHX",
+          "sku": "110569",
+          "model": "3080867G1VTTEGLHX",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "rosu",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260613/20/1e1e8a17-348b-3892-a68f-23d5600f234a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/10244928-507e-3014-8407-864006f85534/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185310?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080868RRNCPSACJS",
+          "sku": "110568",
+          "model": "3080868RRNCPSACJS",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "rosu",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260613/20/1e1e8a17-348b-3892-a68f-23d5600f234a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/10244928-507e-3014-8407-864006f85534/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185350?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/84a2d9a7445324c767803c0f36e6c3533f57933342442280c5bb4d2f115c408d.img",
+        "/tmp/estore-short-gallery-audit-20261024/025b5ce64169b52c4c752026a214707c57747f719a2650a1143180d760e09874.img",
+        "/tmp/estore-short-gallery-audit-20261024/340a994835ffd0a0a1e7433861f1ab4ca33b026f086ecb110a9d724d415387fe.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110567-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-rosu/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-2e1a1b57-23f6-476b-b0bb-5f92434a1678.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-1b9ccccb-9606-42d7-ba0e-e1425bbe2e01.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-490a72fc-2405-435c-96f4-4d471b912fbb.png"
+    },
+    {
+      "supplierId": "110559",
+      "products": [
+        {
+          "barcode": "3080869VMDYKDQA5G",
+          "sku": "110560",
+          "model": "3080869VMDYKDQA5G",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "negru",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260613/20/fa976ae6-05bb-3c5e-b131-eebe422cf664/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260613/20/dbb55278-04f5-3c85-8f9d-57afe4cb039a/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185397?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080870CSQBVVQNWX",
+          "sku": "110561",
+          "model": "3080870CSQBVVQNWX",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "negru",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260613/20/fa976ae6-05bb-3c5e-b131-eebe422cf664/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260613/20/dbb55278-04f5-3c85-8f9d-57afe4cb039a/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185416?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080871GUAOXHKSOO",
+          "sku": "110562",
+          "model": "3080871GUAOXHKSOO",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "negru",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260613/20/fa976ae6-05bb-3c5e-b131-eebe422cf664/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260613/20/dbb55278-04f5-3c85-8f9d-57afe4cb039a/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185453?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/cafc252a5adfa7a729f7499f7aca335a7f62a829e5504996b9c2c8d9dbfed74b.img",
+        "/tmp/estore-short-gallery-audit-20261024/187ab4cab5f7c8c4bf8d10399143d47e0ad2b65d930fb0dfea9f58f3141324a1.img",
+        "/tmp/estore-short-gallery-audit-20261024/d01f60f6d09c0bbb387d7ed47f47a1bb0e8224487177ac724d1c5767b698d140.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110559-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-negru/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-848c584d-692a-463a-8b52-8810b254125d.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-b0a6dbd4-2c02-43c1-86bc-a5cd56a96e01.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-2ddfdff6-fb68-47da-aeea-762f3865690b.png"
+    },
+    {
+      "supplierId": "110552",
+      "products": [
+        {
+          "barcode": "3080872GGLF6ETHDB",
+          "sku": "110555",
+          "model": "3080872GGLF6ETHDB",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "Lila",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 99,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260613/20/55fb3353-5d40-3709-98d9-1d64be7e2462/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260613/20/a51a46fc-477e-331b-8f7c-7fc0d26f4a48/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185484?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "30808734UXTC8ROZ7",
+          "sku": "110554",
+          "model": "30808734UXTC8ROZ7",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "Lila",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260613/20/55fb3353-5d40-3709-98d9-1d64be7e2462/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260613/20/a51a46fc-477e-331b-8f7c-7fc0d26f4a48/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185503?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080874N5BOUHS5ML",
+          "sku": "110553",
+          "model": "3080874N5BOUHS5ML",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "Lila",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260613/20/55fb3353-5d40-3709-98d9-1d64be7e2462/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260613/20/a51a46fc-477e-331b-8f7c-7fc0d26f4a48/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185538?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/eb32a4836048dfaf61e76ecae2599f106d5a563d69a856dd06414f3e8130889c.img",
+        "/tmp/estore-short-gallery-audit-20261024/faaa4c97be90dce7153563faf23f36280708b2a7f12cee6edfc9923954a2f0ee.img",
+        "/tmp/estore-short-gallery-audit-20261024/3a7623222db438a728d3d25696117335a8ed2416c0d8661068900514f73abc79.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110552-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-mov/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ff3e0654-2bdf-4f19-9b37-79a35b2aece5.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-f3b2426f-b184-4f9d-81e9-f759f257276d.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-b42801c5-c624-4380-9107-6d64bdca0548.png"
+    },
+    {
+      "supplierId": "110546",
+      "products": [
+        {
+          "barcode": "3080875O1P7SFFNIR",
+          "sku": "110547",
+          "model": "3080875O1P7SFFNIR",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "unt",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 99,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260613/20/26334ba0-ed90-32d6-a149-4a2bb46d3fa8/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/b210227e-9f45-39c6-b462-e786c9d773dc/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185565?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080876VFZKITW3KW",
+          "sku": "110548",
+          "model": "3080876VFZKITW3KW",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "unt",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260613/20/26334ba0-ed90-32d6-a149-4a2bb46d3fa8/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/b210227e-9f45-39c6-b462-e786c9d773dc/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185610?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080877ABAC7NNZKF",
+          "sku": "110549",
+          "model": "3080877ABAC7NNZKF",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "unt",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260613/20/26334ba0-ed90-32d6-a149-4a2bb46d3fa8/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260613/20/b210227e-9f45-39c6-b462-e786c9d773dc/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185629?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/417f600511fff0618b2556c04375a1fa74b14369b2e8050b30662389dfd01171.img",
+        "/tmp/estore-short-gallery-audit-20261024/8295280bd5f702db2c988ad003a399969e52a85afd02ac0112d0980c60937349.img",
+        "/tmp/estore-short-gallery-audit-20261024/9ee40f4f24b1099ff5000b0dfb648420edbf847b4c09c7a0688ce73f2b9d569f.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110546-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-ivoire/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-043b42d8-f0a1-4d9c-bbf1-e008e018303a.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-14149bfb-196f-4492-8fd3-eefb860e58d3.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-62fed3f5-fb4d-44ff-9e72-35e196d1ea4a.png"
+    },
+    {
+      "supplierId": "110539",
+      "products": [
+        {
+          "barcode": "3080878XZQAV5PMRI",
+          "sku": "110542",
+          "model": "3080878XZQAV5PMRI",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260613/20/bd2264c3-d1cc-3fbf-a985-cefd536e7325/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260613/20/931743b5-fbc7-3df0-a24c-066a866bdc60/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185676?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "30808799YHPDVJS6P",
+          "sku": "110541",
+          "model": "30808799YHPDVJS6P",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260613/20/bd2264c3-d1cc-3fbf-a985-cefd536e7325/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260613/20/931743b5-fbc7-3df0-a24c-066a866bdc60/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185697?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080880SWWMG8Y2IH",
+          "sku": "110540",
+          "model": "3080880SWWMG8Y2IH",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260613/20/bd2264c3-d1cc-3fbf-a985-cefd536e7325/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260613/20/931743b5-fbc7-3df0-a24c-066a866bdc60/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185732?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/5262ecfef8245e8961c185eae60a80be1564154649ede418862a853bebe885fa.img",
+        "/tmp/estore-short-gallery-audit-20261024/089d1c22b9bcd45c4256349d7cc68f1ea1d3bd0b487e2195ed50b383f7472c1c.img",
+        "/tmp/estore-short-gallery-audit-20261024/d686cf9f4daff78663a40c0c6bd038ce6df44f4a92256bf46a643fef81d7daa0.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110539-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-dungi/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-71ffc1a7-48e3-400e-8017-4c5848642c52.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-f328f104-ae03-44b7-a0c8-568c9d3f1bf2.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-68e76f44-df5e-4435-baa4-b2b2881ba0be.png"
+    },
+    {
+      "supplierId": "110522",
+      "products": [
+        {
+          "barcode": "30808814EPVV4WHD2",
+          "sku": "110523",
+          "model": "30808814EPVV4WHD2",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "Burgundia",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260613/20/3943d1b3-d0fa-3f4a-a53a-9e07fdc19e9a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260613/20/5b6d77f7-bc96-39e6-9351-37c835f8e976/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185789?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080882EHNN8R4FBT",
+          "sku": "110524",
+          "model": "3080882EHNN8R4FBT",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "Burgundia",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260613/20/3943d1b3-d0fa-3f4a-a53a-9e07fdc19e9a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260613/20/5b6d77f7-bc96-39e6-9351-37c835f8e976/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185844?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080883X6MKZPY5LM",
+          "sku": "110525",
+          "model": "3080883X6MKZPY5LM",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "Burgundia",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260613/20/3943d1b3-d0fa-3f4a-a53a-9e07fdc19e9a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260613/20/5b6d77f7-bc96-39e6-9351-37c835f8e976/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156185886?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/f9cbe9b0fe4d5ff9309614be4a84092657a424c586b69499bd174953a63ed857.img",
+        "/tmp/estore-short-gallery-audit-20261024/fdb72d1622d19346fbb91b0d3397a25376d005d99e9de51fc5c6fde5865f4392.img",
+        "/tmp/estore-short-gallery-audit-20261024/ac7197cde3c6a0c9e60ea74f7ab9fcbde6caf81ca363a9d67de39b015b866c21.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110522-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-grena/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-97caf0df-df85-4e19-afb6-003f84fa6b7c.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-e10fc0e2-06eb-4efc-ae99-e27b05503e6c.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-430b31d5-bd34-4705-8e82-6fb7361c3e8e.png"
+    },
+    {
+      "supplierId": "110509",
+      "products": [
+        {
+          "barcode": "3080887XRR1MRCMBN",
+          "sku": "110510",
+          "model": "3080887XRR1MRCMBN",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "roz",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260613/20/2883193e-a5af-3062-84fd-cd6e8758b96f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260613/20/cccb9073-483e-3fe7-a9d8-43dab417d3e0/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156186023?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080888AHMQ4Y5MHU",
+          "sku": "110511",
+          "model": "3080888AHMQ4Y5MHU",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "roz",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260613/20/2883193e-a5af-3062-84fd-cd6e8758b96f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260613/20/cccb9073-483e-3fe7-a9d8-43dab417d3e0/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156186069?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080889UOUGPUGEDY",
+          "sku": "110512",
+          "model": "3080889UOUGPUGEDY",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "roz",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260613/20/2883193e-a5af-3062-84fd-cd6e8758b96f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260613/20/cccb9073-483e-3fe7-a9d8-43dab417d3e0/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156186096?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/a953dd944a06c7848ea38846bd763f83187777bf4313bec9636819143da41b23.img",
+        "/tmp/estore-short-gallery-audit-20261024/a8ff8920e579f4aa017ae0643d441c5e48e10e35c6200805daf17cda4b4d2e23.img",
+        "/tmp/estore-short-gallery-audit-20261024/fc1386512406d39ed17a43f20f3a4436c86d921fa5e96c2c2d16479ab22b6308.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110509-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-ciclame/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-026409cb-355b-4127-b197-26650fc37562.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-06c1aa08-86c8-48d9-9618-476d6d44122b.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-9a080fb4-a412-4bed-842b-0d3b015934ee.png"
+    },
+    {
+      "supplierId": "110503",
+      "products": [
+        {
+          "barcode": "3080890WMENZPJKIN",
+          "sku": "110506",
+          "model": "3080890WMENZPJKIN",
+          "title": "Față de masă premium pentru terasă și grădină, 140x240cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "gri",
+          "size": "",
+          "price": 109,
+          "listPrice": 109,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260613/20/e9771865-cdbe-3440-8dd7-a8a0ee7535d1/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260613/20/2b717232-590d-3e35-b0ee-31187b1cc261/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156186142?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080891GOGEFTW8FA",
+          "sku": "110505",
+          "model": "3080891GOGEFTW8FA",
+          "title": "Față de masă premium pentru terasă și grădină, 140x180cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "gri",
+          "size": "",
+          "price": 99,
+          "listPrice": 99,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260613/20/e9771865-cdbe-3440-8dd7-a8a0ee7535d1/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260613/20/2b717232-590d-3e35-b0ee-31187b1cc261/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156186159?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        },
+        {
+          "barcode": "3080892ICGCHWGSEB",
+          "sku": "110504",
+          "model": "3080892ICGCHWGSEB",
+          "title": "Față de masă premium pentru terasă și grădină, 140x140cm",
+          "description": "",
+          "category": "Fețe de masă",
+          "brand": "RALEX PUCIOASA",
+          "color": "gri",
+          "size": "",
+          "price": 89,
+          "listPrice": 89,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260613/20/e9771865-cdbe-3440-8dd7-a8a0ee7535d1/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260613/20/2b717232-590d-3e35-b0ee-31187b1cc261/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1156186186?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/6f2e6c68410363feb0c283b5002acb694c8384e9c8093ff2476d5f10b9a17859.img",
+        "/tmp/estore-short-gallery-audit-20261024/e66ef30e6652f0cb81ea9c3ac0a151c33ee8a5709beba22eaeb2631f5116b9f7.img",
+        "/tmp/estore-short-gallery-audit-20261024/b0fad3bda43e99b69b19e668010b058ca0fa0f43c3f45de5a9158be6aa8cde94.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110503-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-capucino/",
+      "fold": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c2b09c37-0083-4606-ade3-249f489afc88.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-3531fcd9-c8b4-436f-af4b-2b1eef376b9c.png",
+      "drape": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-999c5e37-3290-4137-948b-c6c08d3518a1.png"
+    }
+  ],
+  "review": "All 54 generated images visually reviewed against source and Control. Four distinct photos per variant, with square or rectangular Control hero selected by actual size. All own source embedded variants and barcode renderer checked.",
+  "prompt": "Own supplier and Control references. Preserve exact color, pattern, weave and plain hem. Folded tablecloth on garden bench, close view of fabric and hem over table edge, loosely folded cloth draped over chair. One cloth only, no added fringe or embroidery. Portrait 2:3, natural daylight, no text."
+}

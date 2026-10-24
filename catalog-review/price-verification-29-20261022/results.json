@@ -8095,5 +8095,275 @@
       "106966": true
     },
     "checkedAt": "2026-10-24T00:36:55.605932+00:00"
+  },
+  {
+    "id": 110532,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-gri/",
+    "costs": {
+      "110535": 33,
+      "110534": 30,
+      "110533": 25
+    },
+    "availability": {
+      "110535": true,
+      "110534": true,
+      "110533": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110735,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-belle-maison/",
+    "costs": {
+      "110737": 30,
+      "110738": 33,
+      "110736": 25
+    },
+    "availability": {
+      "110737": true,
+      "110738": true,
+      "110736": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110747,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-fleur-royale/",
+    "costs": {
+      "110750": 33,
+      "110749": 30,
+      "110748": 25
+    },
+    "availability": {
+      "110750": true,
+      "110749": true,
+      "110748": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110497,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-burgundi/",
+    "costs": {
+      "110500": 33,
+      "110498": 25,
+      "110499": 30
+    },
+    "availability": {
+      "110500": true,
+      "110498": true,
+      "110499": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110480,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-albastru-dungi/",
+    "costs": {
+      "110488": 30,
+      "110487": 25,
+      "110489": 33
+    },
+    "availability": {
+      "110488": true,
+      "110487": true,
+      "110489": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110490,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-bleumarin/",
+    "costs": {
+      "110492": 30,
+      "110493": 33,
+      "110491": 25
+    },
+    "availability": {
+      "110492": true,
+      "110493": true,
+      "110491": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110740,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-ivory-charm/",
+    "costs": {
+      "110741": 25,
+      "110742": 30,
+      "110743": 33
+    },
+    "availability": {
+      "110741": true,
+      "110742": true,
+      "110743": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110716,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-noble-touch/",
+    "costs": {
+      "110717": 25,
+      "110718": 30,
+      "110719": 33
+    },
+    "availability": {
+      "110717": true,
+      "110718": true,
+      "110719": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110709,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-serena-lux/",
+    "costs": {
+      "110712": 33,
+      "110711": 30,
+      "110710": 25
+    },
+    "availability": {
+      "110712": true,
+      "110711": true,
+      "110710": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110701,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-velvet-aura/",
+    "costs": {
+      "110702": 25,
+      "110703": 30,
+      "110704": 33
+    },
+    "availability": {
+      "110702": true,
+      "110703": true,
+      "110704": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110567,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-rosu/",
+    "costs": {
+      "110570": 33,
+      "110569": 30,
+      "110568": 25
+    },
+    "availability": {
+      "110570": true,
+      "110569": true,
+      "110568": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110559,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-negru/",
+    "costs": {
+      "110560": 25,
+      "110561": 30,
+      "110562": 33
+    },
+    "availability": {
+      "110560": true,
+      "110561": true,
+      "110562": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110552,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-mov/",
+    "costs": {
+      "110555": 33,
+      "110554": 30,
+      "110553": 25
+    },
+    "availability": {
+      "110555": true,
+      "110554": true,
+      "110553": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110546,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-ivoire/",
+    "costs": {
+      "110547": 25,
+      "110548": 30,
+      "110549": 33
+    },
+    "availability": {
+      "110547": false,
+      "110548": false,
+      "110549": false
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110539,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-dungi/",
+    "costs": {
+      "110542": 33,
+      "110541": 30,
+      "110540": 25
+    },
+    "availability": {
+      "110542": true,
+      "110541": true,
+      "110540": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110522,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-grena/",
+    "costs": {
+      "110523": 25,
+      "110524": 30,
+      "110525": 33
+    },
+    "availability": {
+      "110523": true,
+      "110524": true,
+      "110525": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110509,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-ciclame/",
+    "costs": {
+      "110510": 25,
+      "110511": 30,
+      "110512": 33
+    },
+    "availability": {
+      "110510": true,
+      "110511": true,
+      "110512": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 110503,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-capucino/",
+    "costs": {
+      "110506": 33,
+      "110505": 30,
+      "110504": 25
+    },
+    "availability": {
+      "110506": true,
+      "110505": true,
+      "110504": true
+    },
+    "checkedAt": "2026-10-24T00:55:07.759814+00:00"
   }
 ]
