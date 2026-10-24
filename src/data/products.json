@@ -31834,5 +31834,1269 @@
       }
     ],
     "inStock": true
+  },
+  {
+    "id": 111356,
+    "name": "Față de masă antimurdărire (Savane)",
+    "category": "Fețe de masă antimurdărire",
+    "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "70% bumbac și 30% poliester, tratament cu teflon",
+    "description": "Față de masă antimurdărire (Savane).\n\nMaterial: 70% bumbac și 30% poliester, tratament cu teflon.\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 120 × 160 cm, 140 × 180 cm, 160 × 220 cm, 160 × 240 cm, 160 × 320 cm, Diametru 140 cm, Diametru 160 cm, Diametru 180 cm.\n\nÎntreținere: Spălare la 40°C; călcare la maximum 150°C. Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-savane/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260702/12/55f092af-17a9-346a-a58e-9c842e975619/1_org_zoom.jpg",
+      "/products/111356/fold-reviewed-v1.png",
+      "/products/111356/detail-reviewed-v1.png",
+      "/products/111356/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260702/12/55f092af-17a9-346a-a58e-9c842e975619/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac și 30% poliester, tratament cu teflon"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 79,
+    "variants": [
+      {
+        "id": 111357,
+        "sku": "111357",
+        "name": "120 × 160 cm",
+        "dimensions": "120 × 160 cm",
+        "contents": "1 față de masă, 120 × 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260702/12/55f092af-17a9-346a-a58e-9c842e975619/1_org_zoom.jpg",
+          "/products/111356/fold-reviewed-v1.png",
+          "/products/111356/detail-reviewed-v1.png",
+          "/products/111356/drape-reviewed-v1.png"
+        ],
+        "price": 79,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111358,
+        "sku": "111358",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260702/12/55f092af-17a9-346a-a58e-9c842e975619/1_org_zoom.jpg",
+          "/products/111356/fold-reviewed-v1.png",
+          "/products/111356/detail-reviewed-v1.png",
+          "/products/111356/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111359,
+        "sku": "111359",
+        "name": "160 × 220 cm",
+        "dimensions": "160 × 220 cm",
+        "contents": "1 față de masă, 160 × 220 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260702/12/55f092af-17a9-346a-a58e-9c842e975619/1_org_zoom.jpg",
+          "/products/111356/fold-reviewed-v1.png",
+          "/products/111356/detail-reviewed-v1.png",
+          "/products/111356/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111360,
+        "sku": "111360",
+        "name": "160 × 240 cm",
+        "dimensions": "160 × 240 cm",
+        "contents": "1 față de masă, 160 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260702/12/55f092af-17a9-346a-a58e-9c842e975619/1_org_zoom.jpg",
+          "/products/111356/fold-reviewed-v1.png",
+          "/products/111356/detail-reviewed-v1.png",
+          "/products/111356/drape-reviewed-v1.png"
+        ],
+        "price": 139,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111361,
+        "sku": "111361",
+        "name": "160 × 320 cm",
+        "dimensions": "160 × 320 cm",
+        "contents": "1 față de masă, 160 × 320 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260702/12/55f092af-17a9-346a-a58e-9c842e975619/1_org_zoom.jpg",
+          "/products/111356/fold-reviewed-v1.png",
+          "/products/111356/detail-reviewed-v1.png",
+          "/products/111356/drape-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111362,
+        "sku": "111362",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă, Diametru 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260702/12/cf1324fb-35ed-3ce3-9ee2-c6eedb59df9a/1_org_zoom.jpg",
+          "/products/111356/fold-reviewed-v1.png",
+          "/products/111356/detail-reviewed-v1.png",
+          "/products/111356/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111363,
+        "sku": "111363",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă, Diametru 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260702/12/cf1324fb-35ed-3ce3-9ee2-c6eedb59df9a/1_org_zoom.jpg",
+          "/products/111356/fold-reviewed-v1.png",
+          "/products/111356/detail-reviewed-v1.png",
+          "/products/111356/drape-reviewed-v1.png"
+        ],
+        "price": 109,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111364,
+        "sku": "111364",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă, Diametru 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260702/12/cf1324fb-35ed-3ce3-9ee2-c6eedb59df9a/1_org_zoom.jpg",
+          "/products/111356/fold-reviewed-v1.png",
+          "/products/111356/detail-reviewed-v1.png",
+          "/products/111356/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 111344,
+    "name": "Față de masă antimurdărire (Watermelon)",
+    "category": "Fețe de masă antimurdărire",
+    "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "70% bumbac și 30% poliester, tratament cu teflon",
+    "description": "Față de masă antimurdărire (Watermelon).\n\nMaterial: 70% bumbac și 30% poliester, tratament cu teflon.\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 120 × 160 cm, 140 × 180 cm, 160 × 220 cm, 160 × 240 cm, 160 × 320 cm, Diametru 140 cm, Diametru 160 cm, Diametru 180 cm.\n\nÎntreținere: Spălare la 40°C; călcare la maximum 150°C. Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-watermelon/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260702/13/e8628f63-dab0-38da-a392-18e01464ecae/1_org_zoom.jpg",
+      "/products/111344/fold-reviewed-v1.png",
+      "/products/111344/detail-reviewed-v1.png",
+      "/products/111344/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260702/13/e8628f63-dab0-38da-a392-18e01464ecae/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac și 30% poliester, tratament cu teflon"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 79,
+    "variants": [
+      {
+        "id": 111345,
+        "sku": "111345",
+        "name": "120 × 160 cm",
+        "dimensions": "120 × 160 cm",
+        "contents": "1 față de masă, 120 × 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260702/13/e8628f63-dab0-38da-a392-18e01464ecae/1_org_zoom.jpg",
+          "/products/111344/fold-reviewed-v1.png",
+          "/products/111344/detail-reviewed-v1.png",
+          "/products/111344/drape-reviewed-v1.png"
+        ],
+        "price": 79,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111346,
+        "sku": "111346",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260702/13/ece0c7d1-cd6a-3e7c-905f-5bc987ae5b82/1_org_zoom.jpg",
+          "/products/111344/fold-reviewed-v1.png",
+          "/products/111344/detail-reviewed-v1.png",
+          "/products/111344/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111347,
+        "sku": "111347",
+        "name": "160 × 220 cm",
+        "dimensions": "160 × 220 cm",
+        "contents": "1 față de masă, 160 × 220 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260702/13/d657e320-2b34-34ae-ac1a-8be5de1eb429/1_org_zoom.jpg",
+          "/products/111344/fold-reviewed-v1.png",
+          "/products/111344/detail-reviewed-v1.png",
+          "/products/111344/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111348,
+        "sku": "111348",
+        "name": "160 × 240 cm",
+        "dimensions": "160 × 240 cm",
+        "contents": "1 față de masă, 160 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1923/prod/QC_PREP/20260702/13/f4642c6e-6113-3604-b03c-15986b397786/1_org_zoom.jpg",
+          "/products/111344/fold-reviewed-v1.png",
+          "/products/111344/detail-reviewed-v1.png",
+          "/products/111344/drape-reviewed-v1.png"
+        ],
+        "price": 139,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111349,
+        "sku": "111349",
+        "name": "160 × 320 cm",
+        "dimensions": "160 × 320 cm",
+        "contents": "1 față de masă, 160 × 320 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1901/prod/QC_PREP/20260702/13/3d1fdc9b-bdf5-35e5-a26a-9ef00eae8b27/1_org_zoom.jpg",
+          "/products/111344/fold-reviewed-v1.png",
+          "/products/111344/detail-reviewed-v1.png",
+          "/products/111344/drape-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111350,
+        "sku": "111350",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă, Diametru 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260702/13/56a2f98c-cd1f-359b-a101-68f7a3ee700c/1_org_zoom.jpg",
+          "/products/111344/fold-reviewed-v1.png",
+          "/products/111344/detail-reviewed-v1.png",
+          "/products/111344/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111351,
+        "sku": "111351",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă, Diametru 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260702/13/6180a871-9f18-3dcd-9bc0-75b37da7d557/1_org_zoom.jpg",
+          "/products/111344/fold-reviewed-v1.png",
+          "/products/111344/detail-reviewed-v1.png",
+          "/products/111344/drape-reviewed-v1.png"
+        ],
+        "price": 109,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111352,
+        "sku": "111352",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă, Diametru 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260702/13/05977577-b2e2-3885-8c17-434eb85c6cf6/1_org_zoom.jpg",
+          "/products/111344/fold-reviewed-v1.png",
+          "/products/111344/detail-reviewed-v1.png",
+          "/products/111344/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 111309,
+    "name": "Față de masă antimurdărire (Draped)",
+    "category": "Fețe de masă antimurdărire",
+    "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "70% bumbac și 30% poliester, tratament cu teflon",
+    "description": "Față de masă antimurdărire (Draped).\n\nMaterial: 70% bumbac și 30% poliester, tratament cu teflon.\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 120 × 160 cm, 140 × 180 cm, 160 × 220 cm, 160 × 240 cm, 160 × 320 cm, Diametru 140 cm, Diametru 160 cm, Diametru 180 cm.\n\nÎntreținere: Spălare la 40°C; călcare la maximum 150°C. Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-draped/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260702/14/b984232e-2f22-3fc0-aefc-b753fcf28ddc/1_org_zoom.jpg",
+      "/products/111309/fold-reviewed-v1.png",
+      "/products/111309/detail-reviewed-v1.png",
+      "/products/111309/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260702/14/b984232e-2f22-3fc0-aefc-b753fcf28ddc/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac și 30% poliester, tratament cu teflon"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 79,
+    "variants": [
+      {
+        "id": 111310,
+        "sku": "111310",
+        "name": "120 × 160 cm",
+        "dimensions": "120 × 160 cm",
+        "contents": "1 față de masă, 120 × 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260702/14/d0267fb4-b87e-31bb-963d-8ae475b2d3b7/1_org_zoom.jpg",
+          "/products/111309/fold-reviewed-v1.png",
+          "/products/111309/detail-reviewed-v1.png",
+          "/products/111309/drape-reviewed-v1.png"
+        ],
+        "price": 79,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111311,
+        "sku": "111311",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260702/14/b984232e-2f22-3fc0-aefc-b753fcf28ddc/1_org_zoom.jpg",
+          "/products/111309/fold-reviewed-v1.png",
+          "/products/111309/detail-reviewed-v1.png",
+          "/products/111309/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111312,
+        "sku": "111312",
+        "name": "160 × 220 cm",
+        "dimensions": "160 × 220 cm",
+        "contents": "1 față de masă, 160 × 220 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260702/14/5c179d1d-1308-334f-b996-56ef80b73045/1_org_zoom.jpg",
+          "/products/111309/fold-reviewed-v1.png",
+          "/products/111309/detail-reviewed-v1.png",
+          "/products/111309/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111313,
+        "sku": "111313",
+        "name": "160 × 240 cm",
+        "dimensions": "160 × 240 cm",
+        "contents": "1 față de masă, 160 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260702/14/a7c66d8a-35c9-396d-8572-9875c69f020c/1_org_zoom.jpg",
+          "/products/111309/fold-reviewed-v1.png",
+          "/products/111309/detail-reviewed-v1.png",
+          "/products/111309/drape-reviewed-v1.png"
+        ],
+        "price": 139,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111314,
+        "sku": "111314",
+        "name": "160 × 320 cm",
+        "dimensions": "160 × 320 cm",
+        "contents": "1 față de masă, 160 × 320 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260702/14/08614598-e8c3-34d5-8ec4-cdb59bf214ea/1_org_zoom.jpg",
+          "/products/111309/fold-reviewed-v1.png",
+          "/products/111309/detail-reviewed-v1.png",
+          "/products/111309/drape-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111315,
+        "sku": "111315",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă, Diametru 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260702/14/6dd6fa98-f0cb-3978-ad67-2cee8641b922/1_org_zoom.jpg",
+          "/products/111309/fold-reviewed-v1.png",
+          "/products/111309/detail-reviewed-v1.png",
+          "/products/111309/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111316,
+        "sku": "111316",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă, Diametru 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260702/14/df470605-9828-36cc-b654-7104087082dd/1_org_zoom.jpg",
+          "/products/111309/fold-reviewed-v1.png",
+          "/products/111309/detail-reviewed-v1.png",
+          "/products/111309/drape-reviewed-v1.png"
+        ],
+        "price": 109,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111317,
+        "sku": "111317",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă, Diametru 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260702/14/6ffe31f3-b2b3-342d-b45c-d3387ae54345/1_org_zoom.jpg",
+          "/products/111309/fold-reviewed-v1.png",
+          "/products/111309/detail-reviewed-v1.png",
+          "/products/111309/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 111297,
+    "name": "Față de masă antimurdărire (Small Lemon)",
+    "category": "Fețe de masă antimurdărire",
+    "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "70% bumbac și 30% poliester, tratament cu teflon",
+    "description": "Față de masă antimurdărire (Small Lemon).\n\nMaterial: 70% bumbac și 30% poliester, tratament cu teflon.\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 120 × 160 cm, 140 × 180 cm, 160 × 220 cm, 160 × 240 cm, 160 × 320 cm, Diametru 140 cm, Diametru 160 cm, Diametru 180 cm.\n\nÎntreținere: Spălare la 40°C; călcare la maximum 150°C. Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-small-lemon/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260702/18/44708759-26be-3f3a-a2ef-10a283dc4ee7/1_org_zoom.jpg",
+      "/products/111297/fold-reviewed-v1.png",
+      "/products/111297/detail-reviewed-v1.png",
+      "/products/111297/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260702/18/44708759-26be-3f3a-a2ef-10a283dc4ee7/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac și 30% poliester, tratament cu teflon"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 79,
+    "variants": [
+      {
+        "id": 111298,
+        "sku": "111298",
+        "name": "120 × 160 cm",
+        "dimensions": "120 × 160 cm",
+        "contents": "1 față de masă, 120 × 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260702/18/46619cd7-f1f7-3de0-b751-ed75b8c9b98d/1_org_zoom.jpg",
+          "/products/111297/fold-reviewed-v1.png",
+          "/products/111297/detail-reviewed-v1.png",
+          "/products/111297/drape-reviewed-v1.png"
+        ],
+        "price": 79,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111299,
+        "sku": "111299",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260702/18/50abe28a-d5e7-3885-b2b4-36ebfa8b9890/1_org_zoom.jpg",
+          "/products/111297/fold-reviewed-v1.png",
+          "/products/111297/detail-reviewed-v1.png",
+          "/products/111297/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111300,
+        "sku": "111300",
+        "name": "160 × 220 cm",
+        "dimensions": "160 × 220 cm",
+        "contents": "1 față de masă, 160 × 220 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260702/18/6bf68d01-06f9-3451-97f0-47d5f62ca0cd/1_org_zoom.jpg",
+          "/products/111297/fold-reviewed-v1.png",
+          "/products/111297/detail-reviewed-v1.png",
+          "/products/111297/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111301,
+        "sku": "111301",
+        "name": "160 × 240 cm",
+        "dimensions": "160 × 240 cm",
+        "contents": "1 față de masă, 160 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260702/18/5145b012-00e3-361b-9b6c-5a3171ad95dd/1_org_zoom.jpg",
+          "/products/111297/fold-reviewed-v1.png",
+          "/products/111297/detail-reviewed-v1.png",
+          "/products/111297/drape-reviewed-v1.png"
+        ],
+        "price": 139,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111302,
+        "sku": "111302",
+        "name": "160 × 320 cm",
+        "dimensions": "160 × 320 cm",
+        "contents": "1 față de masă, 160 × 320 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260702/18/44708759-26be-3f3a-a2ef-10a283dc4ee7/1_org_zoom.jpg",
+          "/products/111297/fold-reviewed-v1.png",
+          "/products/111297/detail-reviewed-v1.png",
+          "/products/111297/drape-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111303,
+        "sku": "111303",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă, Diametru 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1907/prod/QC_PREP/20260702/18/30242c5d-3322-3049-80e2-e39b62bab13c/1_org_zoom.jpg",
+          "/products/111297/fold-reviewed-v1.png",
+          "/products/111297/detail-reviewed-v1.png",
+          "/products/111297/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111304,
+        "sku": "111304",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă, Diametru 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260702/18/fa34b73a-b245-3938-b9c7-2379388a1389/1_org_zoom.jpg",
+          "/products/111297/fold-reviewed-v1.png",
+          "/products/111297/detail-reviewed-v1.png",
+          "/products/111297/drape-reviewed-v1.png"
+        ],
+        "price": 109,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111305,
+        "sku": "111305",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă, Diametru 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260702/18/afe0a7e9-0282-3701-a4e9-a5f5388e628f/1_org_zoom.jpg",
+          "/products/111297/fold-reviewed-v1.png",
+          "/products/111297/detail-reviewed-v1.png",
+          "/products/111297/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 111224,
+    "name": "Față de masă antimurdărire (Heirloom)",
+    "category": "Fețe de masă antimurdărire",
+    "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "70% bumbac și 30% poliester, tratament cu teflon",
+    "description": "Față de masă antimurdărire (Heirloom).\n\nMaterial: 70% bumbac și 30% poliester, tratament cu teflon.\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 120 × 160 cm, 140 × 180 cm, 160 × 220 cm, 160 × 240 cm, 160 × 320 cm, Diametru 140 cm, Diametru 160 cm, Diametru 180 cm.\n\nÎntreținere: Spălare la 40°C; călcare la maximum 150°C. Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-heirloom/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260702/19/7bd3078b-9da0-3b12-90c8-6ac6c0c7e43e/1_org_zoom.jpg",
+      "/products/111224/fold-reviewed-v1.png",
+      "/products/111224/detail-reviewed-v1.png",
+      "/products/111224/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260702/19/7bd3078b-9da0-3b12-90c8-6ac6c0c7e43e/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac și 30% poliester, tratament cu teflon"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 79,
+    "variants": [
+      {
+        "id": 111225,
+        "sku": "111225",
+        "name": "120 × 160 cm",
+        "dimensions": "120 × 160 cm",
+        "contents": "1 față de masă, 120 × 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260702/19/7bd3078b-9da0-3b12-90c8-6ac6c0c7e43e/1_org_zoom.jpg",
+          "/products/111224/fold-reviewed-v1.png",
+          "/products/111224/detail-reviewed-v1.png",
+          "/products/111224/drape-reviewed-v1.png"
+        ],
+        "price": 79,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111226,
+        "sku": "111226",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260702/19/1facf5dd-1f38-3b23-960a-73729c6efb59/1_org_zoom.jpg",
+          "/products/111224/fold-reviewed-v1.png",
+          "/products/111224/detail-reviewed-v1.png",
+          "/products/111224/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111227,
+        "sku": "111227",
+        "name": "160 × 220 cm",
+        "dimensions": "160 × 220 cm",
+        "contents": "1 față de masă, 160 × 220 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260702/19/c4488779-2bb5-3465-9ac0-be5e6aac4181/1_org_zoom.jpg",
+          "/products/111224/fold-reviewed-v1.png",
+          "/products/111224/detail-reviewed-v1.png",
+          "/products/111224/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111228,
+        "sku": "111228",
+        "name": "160 × 240 cm",
+        "dimensions": "160 × 240 cm",
+        "contents": "1 față de masă, 160 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260702/19/acd5ed80-ccb1-38de-ad98-4214608ea81d/1_org_zoom.jpg",
+          "/products/111224/fold-reviewed-v1.png",
+          "/products/111224/detail-reviewed-v1.png",
+          "/products/111224/drape-reviewed-v1.png"
+        ],
+        "price": 139,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111229,
+        "sku": "111229",
+        "name": "160 × 320 cm",
+        "dimensions": "160 × 320 cm",
+        "contents": "1 față de masă, 160 × 320 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260702/19/1d05c5c9-a1ef-3c2a-8c92-ba044404402e/1_org_zoom.jpg",
+          "/products/111224/fold-reviewed-v1.png",
+          "/products/111224/detail-reviewed-v1.png",
+          "/products/111224/drape-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111230,
+        "sku": "111230",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă, Diametru 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260702/19/b3abccef-e9d5-3ad5-ad4a-dda663a1f422/1_org_zoom.jpg",
+          "/products/111224/fold-reviewed-v1.png",
+          "/products/111224/detail-reviewed-v1.png",
+          "/products/111224/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111231,
+        "sku": "111231",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă, Diametru 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260702/19/2ef39d57-d601-3f11-9ecb-7384bb888562/1_org_zoom.jpg",
+          "/products/111224/fold-reviewed-v1.png",
+          "/products/111224/detail-reviewed-v1.png",
+          "/products/111224/drape-reviewed-v1.png"
+        ],
+        "price": 109,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111232,
+        "sku": "111232",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă, Diametru 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260702/19/d32ada77-ec20-3a36-8ceb-4116699b1754/1_org_zoom.jpg",
+          "/products/111224/fold-reviewed-v1.png",
+          "/products/111224/detail-reviewed-v1.png",
+          "/products/111224/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 111211,
+    "name": "Față de masă antimurdărire (Meadow)",
+    "category": "Fețe de masă antimurdărire",
+    "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "70% bumbac și 30% poliester, tratament cu teflon",
+    "description": "Față de masă antimurdărire (Meadow).\n\nMaterial: 70% bumbac și 30% poliester, tratament cu teflon.\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 120 × 160 cm, 140 × 180 cm, 160 × 220 cm, 160 × 320 cm, Diametru 140 cm, Diametru 160 cm, Diametru 180 cm.\n\nÎntreținere: Spălare la 40°C; călcare la maximum 150°C. Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-meadow/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260702/20/93d5b1c5-84d3-3021-b9df-1df53f8dcd34/1_org_zoom.jpg",
+      "/products/111211/fold-reviewed-v1.png",
+      "/products/111211/detail-reviewed-v1.png",
+      "/products/111211/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260702/20/93d5b1c5-84d3-3021-b9df-1df53f8dcd34/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac și 30% poliester, tratament cu teflon"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 79,
+    "variants": [
+      {
+        "id": 111212,
+        "sku": "111212",
+        "name": "120 × 160 cm",
+        "dimensions": "120 × 160 cm",
+        "contents": "1 față de masă, 120 × 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260702/19/4d73018b-2170-3eaa-b34a-8bf67698ccd5/1_org_zoom.jpg",
+          "/products/111211/fold-reviewed-v1.png",
+          "/products/111211/detail-reviewed-v1.png",
+          "/products/111211/drape-reviewed-v1.png"
+        ],
+        "price": 79,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111213,
+        "sku": "111213",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260702/20/93d5b1c5-84d3-3021-b9df-1df53f8dcd34/1_org_zoom.jpg",
+          "/products/111211/fold-reviewed-v1.png",
+          "/products/111211/detail-reviewed-v1.png",
+          "/products/111211/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111214,
+        "sku": "111214",
+        "name": "160 × 220 cm",
+        "dimensions": "160 × 220 cm",
+        "contents": "1 față de masă, 160 × 220 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260702/20/30a47331-c2d1-38c6-b6aa-55d401c32da7/1_org_zoom.jpg",
+          "/products/111211/fold-reviewed-v1.png",
+          "/products/111211/detail-reviewed-v1.png",
+          "/products/111211/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111216,
+        "sku": "111216",
+        "name": "160 × 320 cm",
+        "dimensions": "160 × 320 cm",
+        "contents": "1 față de masă, 160 × 320 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260702/20/e7f38477-0375-30f9-999b-8a5b359a777d/1_org_zoom.jpg",
+          "/products/111211/fold-reviewed-v1.png",
+          "/products/111211/detail-reviewed-v1.png",
+          "/products/111211/drape-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111217,
+        "sku": "111217",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă, Diametru 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260702/20/9dc44989-a724-38e3-aa63-6f23da891af9/1_org_zoom.jpg",
+          "/products/111211/fold-reviewed-v1.png",
+          "/products/111211/detail-reviewed-v1.png",
+          "/products/111211/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111218,
+        "sku": "111218",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă, Diametru 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260702/20/c53b6690-de05-3a48-a19f-8c37b1f36036/1_org_zoom.jpg",
+          "/products/111211/fold-reviewed-v1.png",
+          "/products/111211/detail-reviewed-v1.png",
+          "/products/111211/drape-reviewed-v1.png"
+        ],
+        "price": 109,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111219,
+        "sku": "111219",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă, Diametru 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260702/20/457dc7e5-c51f-3f32-8706-c352a8fdc1dd/1_org_zoom.jpg",
+          "/products/111211/fold-reviewed-v1.png",
+          "/products/111211/detail-reviewed-v1.png",
+          "/products/111211/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 111185,
+    "name": "Față de masă antimurdărire (Breeze)",
+    "category": "Fețe de masă antimurdărire",
+    "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "70% bumbac și 30% poliester, tratament cu teflon",
+    "description": "Față de masă antimurdărire (Breeze).\n\nMaterial: 70% bumbac și 30% poliester, tratament cu teflon.\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 120 × 160 cm, 140 × 180 cm, 160 × 220 cm, 160 × 240 cm, 160 × 320 cm, Diametru 140 cm, Diametru 160 cm, Diametru 180 cm.\n\nÎntreținere: Spălare la 40°C; călcare la maximum 150°C. Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-breeze/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260702/20/30f0a1d9-ad3a-373d-b112-8be693e91659/1_org_zoom.jpg",
+      "/products/111185/fold-reviewed-v1.png",
+      "/products/111185/detail-reviewed-v1.png",
+      "/products/111185/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260702/20/30f0a1d9-ad3a-373d-b112-8be693e91659/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac și 30% poliester, tratament cu teflon"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 79,
+    "variants": [
+      {
+        "id": 111186,
+        "sku": "111186",
+        "name": "120 × 160 cm",
+        "dimensions": "120 × 160 cm",
+        "contents": "1 față de masă, 120 × 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260702/20/30f0a1d9-ad3a-373d-b112-8be693e91659/1_org_zoom.jpg",
+          "/products/111185/fold-reviewed-v1.png",
+          "/products/111185/detail-reviewed-v1.png",
+          "/products/111185/drape-reviewed-v1.png"
+        ],
+        "price": 79,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111187,
+        "sku": "111187",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260702/20/4ce884ca-da92-3b12-8dd4-1353dc225451/1_org_zoom.jpg",
+          "/products/111185/fold-reviewed-v1.png",
+          "/products/111185/detail-reviewed-v1.png",
+          "/products/111185/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111188,
+        "sku": "111188",
+        "name": "160 × 220 cm",
+        "dimensions": "160 × 220 cm",
+        "contents": "1 față de masă, 160 × 220 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260702/20/1869a059-8473-3f57-abf0-bf43d3024dba/1_org_zoom.jpg",
+          "/products/111185/fold-reviewed-v1.png",
+          "/products/111185/detail-reviewed-v1.png",
+          "/products/111185/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111189,
+        "sku": "111189",
+        "name": "160 × 240 cm",
+        "dimensions": "160 × 240 cm",
+        "contents": "1 față de masă, 160 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260702/20/29c0c374-f7a4-3b73-8569-c42ff9a756a1/1_org_zoom.jpg",
+          "/products/111185/fold-reviewed-v1.png",
+          "/products/111185/detail-reviewed-v1.png",
+          "/products/111185/drape-reviewed-v1.png"
+        ],
+        "price": 139,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111190,
+        "sku": "111190",
+        "name": "160 × 320 cm",
+        "dimensions": "160 × 320 cm",
+        "contents": "1 față de masă, 160 × 320 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260702/20/7ba32aec-e99b-366f-8d94-a11181a699f7/1_org_zoom.jpg",
+          "/products/111185/fold-reviewed-v1.png",
+          "/products/111185/detail-reviewed-v1.png",
+          "/products/111185/drape-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111191,
+        "sku": "111191",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă, Diametru 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260702/20/9ded483c-b5ad-3475-92f8-d09da4885b64/1_org_zoom.jpg",
+          "/products/111185/fold-reviewed-v1.png",
+          "/products/111185/detail-reviewed-v1.png",
+          "/products/111185/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111192,
+        "sku": "111192",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă, Diametru 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260702/20/1a191da8-27f3-3026-bdaa-d72a2eab596c/1_org_zoom.jpg",
+          "/products/111185/fold-reviewed-v1.png",
+          "/products/111185/detail-reviewed-v1.png",
+          "/products/111185/drape-reviewed-v1.png"
+        ],
+        "price": 109,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 111193,
+        "sku": "111193",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă, Diametru 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260702/20/cc97ee4c-9be5-3946-b6d7-da62f796657d/1_org_zoom.jpg",
+          "/products/111185/fold-reviewed-v1.png",
+          "/products/111185/detail-reviewed-v1.png",
+          "/products/111185/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 158808,
+    "name": "Față de masă antimurdărire – dungi florale",
+    "category": "Fețe de masă antimurdărire",
+    "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "70% bumbac și 30% poliester, tratament cu teflon",
+    "description": "Față de masă antimurdărire – dungi florale.\n\nMaterial: 70% bumbac și 30% poliester, tratament cu teflon.\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 120 × 160 cm, 140 × 180 cm, 160 × 220 cm, 160 × 240 cm, 160 × 320 cm, Diametru 140 cm, Diametru 160 cm, Diametru 180 cm.\n\nÎntreținere: Spălare la 40°C; călcare la maximum 150°C. Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-10/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260703/16/3edeee4b-5088-3a49-b45f-c0181d624441/1_org_zoom.jpg",
+      "/products/158808/fold-reviewed-v1.png",
+      "/products/158808/detail-reviewed-v1.png",
+      "/products/158808/drape-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260703/16/3edeee4b-5088-3a49-b45f-c0181d624441/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac și 30% poliester, tratament cu teflon"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 față de masă, în dimensiunea selectată."
+      }
+    ],
+    "price": 79,
+    "variants": [
+      {
+        "id": 158809,
+        "sku": "158809",
+        "name": "120 × 160 cm",
+        "dimensions": "120 × 160 cm",
+        "contents": "1 față de masă, 120 × 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260703/16/11eb0b93-18a6-3277-8a73-d16edbc16bfe/1_org_zoom.jpg",
+          "/products/158808/fold-reviewed-v1.png",
+          "/products/158808/detail-reviewed-v1.png",
+          "/products/158808/drape-reviewed-v1.png"
+        ],
+        "price": 79,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 158810,
+        "sku": "158810",
+        "name": "140 × 180 cm",
+        "dimensions": "140 × 180 cm",
+        "contents": "1 față de masă, 140 × 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260703/16/1f0ba43d-74cd-324f-9838-1b1ec3d4fcc3/1_org_zoom.jpg",
+          "/products/158808/fold-reviewed-v1.png",
+          "/products/158808/detail-reviewed-v1.png",
+          "/products/158808/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 158811,
+        "sku": "158811",
+        "name": "160 × 220 cm",
+        "dimensions": "160 × 220 cm",
+        "contents": "1 față de masă, 160 × 220 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260703/16/3edeee4b-5088-3a49-b45f-c0181d624441/1_org_zoom.jpg",
+          "/products/158808/fold-reviewed-v1.png",
+          "/products/158808/detail-reviewed-v1.png",
+          "/products/158808/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 99,
+        "inStock": true
+      },
+      {
+        "id": 158812,
+        "sku": "158812",
+        "name": "160 × 240 cm",
+        "dimensions": "160 × 240 cm",
+        "contents": "1 față de masă, 160 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260703/16/fa46d30e-467d-34c8-98bd-5a98eb26c9f2/1_org_zoom.jpg",
+          "/products/158808/fold-reviewed-v1.png",
+          "/products/158808/detail-reviewed-v1.png",
+          "/products/158808/drape-reviewed-v1.png"
+        ],
+        "price": 139,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 158813,
+        "sku": "158813",
+        "name": "160 × 320 cm",
+        "dimensions": "160 × 320 cm",
+        "contents": "1 față de masă, 160 × 320 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260703/16/dd5a3a42-97da-3235-a28c-03a737f70c36/1_org_zoom.jpg",
+          "/products/158808/fold-reviewed-v1.png",
+          "/products/158808/detail-reviewed-v1.png",
+          "/products/158808/drape-reviewed-v1.png"
+        ],
+        "price": 189,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 158814,
+        "sku": "158814",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă, Diametru 140 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260703/16/95d13872-7f49-3442-b6f5-727850d520ea/1_org_zoom.jpg",
+          "/products/158808/fold-reviewed-v1.png",
+          "/products/158808/detail-reviewed-v1.png",
+          "/products/158808/drape-reviewed-v1.png"
+        ],
+        "price": 89,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 158815,
+        "sku": "158815",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă, Diametru 160 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260703/16/bf0059f8-5994-3a19-87b0-e8c5bed9f642/1_org_zoom.jpg",
+          "/products/158808/fold-reviewed-v1.png",
+          "/products/158808/detail-reviewed-v1.png",
+          "/products/158808/drape-reviewed-v1.png"
+        ],
+        "price": 109,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 158816,
+        "sku": "158816",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă, Diametru 180 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260703/16/b9850190-fcff-3c17-b309-a4c79b757269/1_org_zoom.jpg",
+          "/products/158808/fold-reviewed-v1.png",
+          "/products/158808/detail-reviewed-v1.png",
+          "/products/158808/drape-reviewed-v1.png"
+        ],
+        "price": 129,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "inStock": true
   }
 ]

@@ -8365,5 +8365,203 @@
       "110504": true
     },
     "checkedAt": "2026-10-24T00:55:07.759814+00:00"
+  },
+  {
+    "id": 111356,
+    "supplierUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-savane/",
+    "costs": {
+      "111361": 145,
+      "111357": 58,
+      "111358": 64,
+      "111359": 97,
+      "111360": 105,
+      "111362": 64,
+      "111363": 81,
+      "111364": 97
+    },
+    "availability": {
+      "111361": true,
+      "111357": true,
+      "111358": true,
+      "111359": true,
+      "111360": true,
+      "111362": true,
+      "111363": true,
+      "111364": true
+    },
+    "checkedAt": "2026-10-24T01:08:53.133125+00:00"
+  },
+  {
+    "id": 111344,
+    "supplierUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-watermelon/",
+    "costs": {
+      "111345": 58,
+      "111346": 64,
+      "111347": 97,
+      "111348": 105,
+      "111349": 145,
+      "111351": 81,
+      "111350": 64,
+      "111352": 97
+    },
+    "availability": {
+      "111345": true,
+      "111346": true,
+      "111347": true,
+      "111348": true,
+      "111349": true,
+      "111351": true,
+      "111350": true,
+      "111352": true
+    },
+    "checkedAt": "2026-10-24T01:08:53.133125+00:00"
+  },
+  {
+    "id": 111309,
+    "supplierUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-draped/",
+    "costs": {
+      "111311": 64,
+      "111314": 145,
+      "111315": 64,
+      "111310": 58,
+      "111312": 97,
+      "111313": 105,
+      "111316": 81,
+      "111317": 97
+    },
+    "availability": {
+      "111311": true,
+      "111314": true,
+      "111315": true,
+      "111310": true,
+      "111312": true,
+      "111313": true,
+      "111316": true,
+      "111317": true
+    },
+    "checkedAt": "2026-10-24T01:08:53.133125+00:00"
+  },
+  {
+    "id": 111297,
+    "supplierUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-small-lemon/",
+    "costs": {
+      "111302": 145,
+      "111298": 58,
+      "111299": 64,
+      "111300": 97,
+      "111301": 105,
+      "111303": 64,
+      "111304": 81,
+      "111305": 97
+    },
+    "availability": {
+      "111302": true,
+      "111298": true,
+      "111299": true,
+      "111300": true,
+      "111301": true,
+      "111303": true,
+      "111304": true,
+      "111305": true
+    },
+    "checkedAt": "2026-10-24T01:08:53.133125+00:00"
+  },
+  {
+    "id": 111224,
+    "supplierUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-heirloom/",
+    "costs": {
+      "111225": 58,
+      "111230": 64,
+      "111226": 64,
+      "111227": 97,
+      "111228": 105,
+      "111229": 145,
+      "111231": 81,
+      "111232": 97
+    },
+    "availability": {
+      "111225": true,
+      "111230": true,
+      "111226": true,
+      "111227": true,
+      "111228": true,
+      "111229": true,
+      "111231": true,
+      "111232": true
+    },
+    "checkedAt": "2026-10-24T01:08:53.133125+00:00"
+  },
+  {
+    "id": 111211,
+    "supplierUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-meadow/",
+    "costs": {
+      "111213": 64,
+      "111212": 58,
+      "111214": 97,
+      "111216": 145,
+      "111217": 64,
+      "111218": 81,
+      "111219": 97
+    },
+    "availability": {
+      "111213": true,
+      "111212": true,
+      "111214": true,
+      "111216": true,
+      "111217": true,
+      "111218": true,
+      "111219": true
+    },
+    "checkedAt": "2026-10-24T01:08:53.133125+00:00"
+  },
+  {
+    "id": 111185,
+    "supplierUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-breeze/",
+    "costs": {
+      "111186": 58,
+      "111188": 97,
+      "111190": 145,
+      "111193": 97,
+      "111187": 64,
+      "111189": 105,
+      "111191": 64,
+      "111192": 81
+    },
+    "availability": {
+      "111186": true,
+      "111188": true,
+      "111190": true,
+      "111193": true,
+      "111187": true,
+      "111189": true,
+      "111191": true,
+      "111192": true
+    },
+    "checkedAt": "2026-10-24T01:08:53.133125+00:00"
+  },
+  {
+    "id": 158808,
+    "supplierUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-10/",
+    "costs": {
+      "158811": 97,
+      "158815": 81,
+      "158809": 58,
+      "158810": 64,
+      "158812": 105,
+      "158813": 145,
+      "158814": 64,
+      "158816": 97
+    },
+    "availability": {
+      "158811": true,
+      "158815": true,
+      "158809": true,
+      "158810": true,
+      "158812": true,
+      "158813": true,
+      "158814": true,
+      "158816": true
+    },
+    "checkedAt": "2026-10-24T01:08:53.133125+00:00"
   }
 ]

@@ -1,0 +1,79 @@
+{
+  "batch": "control-outdoor-table-completed-publication-20261024",
+  "checkedAt": "2026-10-24T01:03:14.465114+00:00",
+  "catalogCount": 709,
+  "results": [
+    {
+      "id": 110532,
+      "status": "live"
+    },
+    {
+      "id": 110735,
+      "status": "live"
+    },
+    {
+      "id": 110747,
+      "status": "live"
+    },
+    {
+      "id": 110497,
+      "status": "live"
+    },
+    {
+      "id": 110480,
+      "status": "live"
+    },
+    {
+      "id": 110490,
+      "status": "live"
+    },
+    {
+      "id": 110740,
+      "status": "live"
+    },
+    {
+      "id": 110716,
+      "status": "live"
+    },
+    {
+      "id": 110709,
+      "status": "live"
+    },
+    {
+      "id": 110701,
+      "status": "live"
+    },
+    {
+      "id": 110567,
+      "status": "live"
+    },
+    {
+      "id": 110559,
+      "status": "live"
+    },
+    {
+      "id": 110552,
+      "status": "live"
+    },
+    {
+      "id": 110546,
+      "status": "live"
+    },
+    {
+      "id": 110539,
+      "status": "live"
+    },
+    {
+      "id": 110522,
+      "status": "live"
+    },
+    {
+      "id": 110509,
+      "status": "live"
+    },
+    {
+      "id": 110503,
+      "status": "live"
+    }
+  ]
+}
