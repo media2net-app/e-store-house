@@ -8563,5 +8563,93 @@
       "158816": true
     },
     "checkedAt": "2026-10-24T01:08:53.133125+00:00"
+  },
+  {
+    "id": 109522,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-kyoto-mist/",
+    "costs": {
+      "109528": 306
+    },
+    "availability": {
+      "109528": true
+    },
+    "checkedAt": "2026-10-24T01:11:47.080147+00:00"
+  },
+  {
+    "id": 109286,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-zen-life-green/",
+    "costs": {
+      "109292": 306
+    },
+    "availability": {
+      "109292": true
+    },
+    "checkedAt": "2026-10-24T01:11:47.080147+00:00"
+  },
+  {
+    "id": 108876,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-cedar/",
+    "costs": {
+      "108882": 306
+    },
+    "availability": {
+      "108882": true
+    },
+    "checkedAt": "2026-10-24T01:11:47.080147+00:00"
+  },
+  {
+    "id": 108921,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-driftwood/",
+    "costs": {
+      "108927": 306
+    },
+    "availability": {
+      "108927": true
+    },
+    "checkedAt": "2026-10-24T01:11:47.080147+00:00"
+  },
+  {
+    "id": 109025,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-moonlit/",
+    "costs": {
+      "109031": 306
+    },
+    "availability": {
+      "109031": false
+    },
+    "checkedAt": "2026-10-24T01:11:47.080147+00:00"
+  },
+  {
+    "id": 109276,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-zen-life/",
+    "costs": {
+      "109282": 306
+    },
+    "availability": {
+      "109282": true
+    },
+    "checkedAt": "2026-10-24T01:11:47.080147+00:00"
+  },
+  {
+    "id": 109494,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-botanica-home/",
+    "costs": {
+      "109500": 306
+    },
+    "availability": {
+      "109500": true
+    },
+    "checkedAt": "2026-10-24T01:11:47.080147+00:00"
+  },
+  {
+    "id": 108945,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-etheria/",
+    "costs": {
+      "108951": 306
+    },
+    "availability": {
+      "108951": true
+    },
+    "checkedAt": "2026-10-24T01:11:47.080147+00:00"
   }
 ]
