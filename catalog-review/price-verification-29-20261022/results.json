@@ -8651,5 +8651,27 @@
       "108951": true
     },
     "checkedAt": "2026-10-24T01:11:47.080147+00:00"
+  },
+  {
+    "id": 109512,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-amazonia-lush/",
+    "costs": {
+      "109518": 306
+    },
+    "availability": {
+      "109518": true
+    },
+    "checkedAt": "2026-10-24T01:17:32.483250+00:00"
+  },
+  {
+    "id": 111987,
+    "supplierUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-damasc-pilota-2-perne-alb/",
+    "costs": {
+      "111987": 105.0
+    },
+    "availability": {
+      "111987": true
+    },
+    "checkedAt": "2026-10-24T01:17:32.483250+00:00"
   }
 ]

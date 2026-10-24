@@ -1,0 +1,86 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "outputs": [
+    {
+      "supplierId": "109512",
+      "products": [
+        {
+          "barcode": "2614200BY4KKFVEX7",
+          "sku": "109512",
+          "model": "2614200BY4KKFVEX7",
+          "title": "Lenjerie de pat Ranforce 100% Bumbac, 6 piese, Husă 180x200x25, Set Premium",
+          "description": "Transformă-ți dormitorul într-un spațiu de confort autentic cu lenjerie de pat 100% bumbac Ranforce. Material premium, durabil și moale la atingere, ideal pentru utilizare zilnică. ⸻ Husă de pilotă 200x230cm, cearșaf cu elastic (potrivit pentru saltele de 180x200x25 cm), 2 fețe de pernă 50x70cm, 70x70cm. Set complet de 6 piese. ⸻ 🔝 SPECIFICAȚII TEHNICE Material: 100% bumbac Ranforce. Densitate: 130 g/m². Număr de fire: TC 240. Țesătură durabilă (30x30). Sistem de fixare: elastic pentru o potrivire perfectă. ⸻ ✔ Nu alunecă de pe saltea (elastic complet). ✔ Nu se decolorează la spălat. ✔ Respirabil – răcoros vara, confortabil i",
+          "category": "Lenjerie de pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "bej",
+          "size": "",
+          "price": 449,
+          "listPrice": 449,
+          "stock": 19,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260424/15/5edef6b2-df15-3240-bb77-c8ca7a25d58f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260424/15/e3002cfe-5230-302d-8a0e-65eaff88e6e3/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260424/15/beca85d7-a4e6-374e-98eb-316dd250795c/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1137774467?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/3c9e25e26791c9d89c87a303d13cd0abdd9e6b8d90b5dafa69dda1688bf09195.img",
+        "/tmp/estore-short-gallery-audit-20261024/da0842fa73a0e0b95d55df03bf8dbb78b46f6871a17cfaafe1b229b54860be79.img",
+        "/tmp/estore-short-gallery-audit-20261024/89127553c8f1149c62c765d04526cf38f089ba231f1fad540360aef2544a6648.img",
+        "/tmp/estore-short-gallery-audit-20261024/669f5b232b8c386434010878e4aa9acc59e88c69a8f30695ec98c99f1ad3c656.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/109512-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-amazonia-lush/",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c9b3f70e-97f2-4c7b-a9e8-2ad2488f04c0.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-75c7b5bb-551e-41a3-812c-7fb7e55f5ad8.png"
+    },
+    {
+      "supplierId": "111987",
+      "products": [
+        {
+          "barcode": "3053022ZWVQKCJ8LO",
+          "sku": "111987",
+          "model": "3053022ZWVQKCJ8LO",
+          "title": "Set de pilote Damasc 200x215 cm + 2 perne 50x70 cm, Alb, Matlasat, Fabricat în România",
+          "description": "",
+          "category": "Huse de pilotă pentru pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "alb",
+          "size": "",
+          "price": 250,
+          "listPrice": 289,
+          "stock": 93,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260611/01/30af1b27-9a67-37dd-a725-40bfdb49a9e7/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260611/01/3d94fff9-8c30-30c8-a35f-da7723132326/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260611/01/729d038a-e8e6-3d0e-991d-eb2d3a57706d/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1155242974?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/01f390fe34407a990fe12f71bd575b589df40202f50f9289a40ea31b350945ed.img",
+        "/tmp/estore-short-gallery-audit-20261024/2204557595036995651e1abe19496b2ea70f7d71ad6a682ce83a889620271ed4.img",
+        "/tmp/estore-short-gallery-audit-20261024/e304b02f67e59046aaffd8077a8f55b36fddb1938b3df4b6398b22e1fc24845e.img",
+        "/tmp/estore-short-gallery-audit-20261024/5381eb5c9c267ed8d1c1b517bdb774370c010605c5d48715d630f3982c4cebd3.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/111987-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-damasc-pilota-2-perne-alb/",
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a85ee8b1-bc9a-4a01-b1a4-d635b45e241b.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-08767b90-e439-41f9-b543-44b8d95dd33d.png",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-5c8a7483-da57-4729-98bc-9fbd95161eea.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-98459efc-bbd2-4e20-87ac-cb8d6a846c1c.png"
+    }
+  ],
+  "review": "Six selected generated photographs visually reviewed. First detail attempts rejected for insufficient distinctness or collage, then regenerated and inspected. Four photographs per model.",
+  "prompt": "Own supplier references. Amazonia floral bedding: overhead matching source print and four pillows, plus tight printed-fabric macro. White bundle: fine small woven check, not diamond quilting; two pillows plus folded duvet front and side, one-pillow overhead, single edge and piping macro. No invented stitching, closures or text. Portrait 2:3."
+}

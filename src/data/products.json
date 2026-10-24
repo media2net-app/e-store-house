@@ -33354,5 +33354,69 @@
     "price": 399,
     "stock": 20,
     "inStock": true
+  },
+  {
+    "id": 109512,
+    "sku": "109518",
+    "name": "Lenjerie Ranforce Cotton Pro Amazonia Lush, 6 piese, husă 180 × 200 × 25 cm",
+    "category": "Ranforce 100% cotton pro",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac Ranforce, 130 g/m²",
+    "description": "Lenjerie Ranforce Cotton Pro Amazonia Lush, 6 piese, husă 180 × 200 × 25 cm.\n\nMaterial: 100% bumbac Ranforce, 130 g/m².\n\nConținut și dimensiuni: 1 husă de pat cu elastic 180 × 200 × 25 cm, 1 cearșaf de pilotă 200 × 230 cm, 2 fețe de pernă 50 × 70 cm și 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-amazonia-lush/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260424/15/5edef6b2-df15-3240-bb77-c8ca7a25d58f/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260424/15/beca85d7-a4e6-374e-98eb-316dd250795c/1_org_zoom.jpg",
+      "/products/109512/top-reviewed-v1.png",
+      "/products/109512/detail-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260424/15/5edef6b2-df15-3240-bb77-c8ca7a25d58f/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac Ranforce, 130 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 husă de pat cu elastic 180 × 200 × 25 cm, 1 cearșaf de pilotă 200 × 230 cm, 2 fețe de pernă 50 × 70 cm și 2 fețe de pernă 70 × 70 cm."
+      }
+    ],
+    "price": 399,
+    "stock": 19,
+    "inStock": true
+  },
+  {
+    "id": 111987,
+    "sku": "111987",
+    "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, Damasc – alb",
+    "category": "Oferte",
+    "categoryPath": "oferte",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²",
+    "description": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, Damasc – alb.\n\nMaterial: Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m².\n\nConținut și dimensiuni: 1 pilotă de 200 × 215 cm, greutate 370 g/m², și 2 perne de 50 × 70 cm, fiecare de 600 g.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-damasc-pilota-2-perne-alb/",
+    "images": [
+      "/products/111987/hero-reviewed-v1.png",
+      "/products/111987/side-reviewed-v1.png",
+      "/products/111987/top-reviewed-v1.png",
+      "/products/111987/detail-reviewed-v1.png"
+    ],
+    "image": "/products/111987/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 215 cm, greutate 370 g/m², și 2 perne de 50 × 70 cm, fiecare de 600 g."
+      }
+    ],
+    "price": 139,
+    "stock": 93,
+    "inStock": true
   }
 ]

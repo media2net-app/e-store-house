@@ -1,0 +1,53 @@
+[
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "complete_current_estore_review_not_confirmed"
+    ],
+    "product": {
+      "id": 111987,
+      "name": "Pachet Primăvară PROMO DAMASC - Pilotă + 2 Perne (ALB)",
+      "categoryPath": "oferte",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/pachet-primavara-promo-damasc-pilota-2-perne-alb/local-41.webp",
+      "images": [
+        "/products/pachet-primavara-promo-damasc-pilota-2-perne-alb/local-41.webp",
+        "/products/pachet-primavara-promo-damasc-pilota-2-perne-alb/local-42.webp",
+        "/products/pachet-primavara-promo-damasc-pilota-2-perne-alb/local-43.webp",
+        "/products/pachet-primavara-promo-damasc-pilota-2-perne-alb/local-44.webp",
+        "/products/pachet-primavara-promo-damasc-pilota-2-perne-alb/local-45.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-damasc-pilota-2-perne-alb/",
+      "material": "Țesătură microfibră; umplutură poliester",
+      "features": [
+        {
+          "label": "Pilotă",
+          "value": "200 × 215 cm"
+        },
+        {
+          "label": "Perne",
+          "value": "2 bucăți, 50 × 70 cm"
+        },
+        {
+          "label": "Țesătură",
+          "value": "Microfibră 170 g/m²"
+        },
+        {
+          "label": "Umplutură pilotă",
+          "value": "Poliester 200 g/m²"
+        },
+        {
+          "label": "Greutate perne",
+          "value": "600 g / bucată"
+        }
+      ],
+      "description": "Pachet Primăvară PROMO DAMASC - Pilotă + 2 Perne (ALB). Descriere: Țesătură microfibră 170g / mp Umplutură poliester 200g / mp Dimensiune pilotă: 200cm x 215cm Greutate pilotă: 370g / mp Dimensiune perne: 50cm x 70cm Greutate perne: 600g / buc. Conținut pachet: 1 pilotă și 2 perne.",
+      "category": "Oferte",
+      "sku": "111987",
+      "price": 189,
+      "inStock": true,
+      "stock": 93
+    }
+  }
+]

@@ -22142,5 +22142,59 @@
       }
     ],
     "fingerprint": "06c7a3a2f87feefb72e0c611f428150a35902dfca290d711477dc250e8bc5c27"
+  },
+  {
+    "id": 109512,
+    "reviewedAt": "2026-10-24T01:17:32.483250+00:00",
+    "source": "control-pair-completed-publication-20261024",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-amazonia-lush/",
+    "visualReview": "Own sources, Control gallery and actual new outputs visually reviewed. Amazonia: retain Control side and hero, add overhead and true fabric close-up; parent barcode corrected to own unique six-piece fitted variant. White bundle: source has fine check weave, all diamond-quilt Control images replaced with source-faithful folded bundle front and side, one-pillow overhead and edge macro. Initial detail outputs rejected and regenerated to distinct macro views.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260424/15/5edef6b2-df15-3240-bb77-c8ca7a25d58f/1_org_zoom.jpg",
+        "sha256": "efc3b33a4502047606cc8ec13e6f849edc79190e3892d6616be7b88a1f0486d0"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260424/15/beca85d7-a4e6-374e-98eb-316dd250795c/1_org_zoom.jpg",
+        "sha256": "a495f0266c93e55dd83eeb0935f0c521c37e2dc1f12c094e1136324d2fb0e1aa"
+      },
+      {
+        "url": "/products/109512/top-reviewed-v1.png",
+        "sha256": "2283a7a6f86b98023a5b09a48777b5f330e39d19cf2cd467ab0ae7838323d7f8"
+      },
+      {
+        "url": "/products/109512/detail-reviewed-v1.png",
+        "sha256": "8bf1d0c5195ff1000672d1910b341bf36f597f799532425826c08cb38fec1588"
+      }
+    ],
+    "fingerprint": "b475d1d0521c4257b014ecfb30e7b4895f25da9349602108521ec3313a0709bf"
+  },
+  {
+    "id": 111987,
+    "reviewedAt": "2026-10-24T01:17:32.483250+00:00",
+    "source": "control-pair-completed-publication-20261024",
+    "supplierUrl": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-damasc-pilota-2-perne-alb/",
+    "visualReview": "Own sources, Control gallery and actual new outputs visually reviewed. Amazonia: retain Control side and hero, add overhead and true fabric close-up; parent barcode corrected to own unique six-piece fitted variant. White bundle: source has fine check weave, all diamond-quilt Control images replaced with source-faithful folded bundle front and side, one-pillow overhead and edge macro. Initial detail outputs rejected and regenerated to distinct macro views.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "/products/111987/hero-reviewed-v1.png",
+        "sha256": "39d6adebf10daa71145c01b00c190f11d671aa5616f037188dbd015442484d9c"
+      },
+      {
+        "url": "/products/111987/side-reviewed-v1.png",
+        "sha256": "af2e7a1ca92da33b0e825cd91307182aba10e9da90b245174ec8c00fca7c99ba"
+      },
+      {
+        "url": "/products/111987/top-reviewed-v1.png",
+        "sha256": "cdf1cceb32556baba31a7b1506a8f602a78bb680be88442e741288821fc0189c"
+      },
+      {
+        "url": "/products/111987/detail-reviewed-v1.png",
+        "sha256": "9033b6fbbcd906d7dac8e0ab25e55816a471ab73a2a196050887b137d507e80e"
+      }
+    ],
+    "fingerprint": "d87a4af34fce0f2fadbb7df842eeb3d422acabd4b6642dce0f4144a86d534e46"
   }
 ]
