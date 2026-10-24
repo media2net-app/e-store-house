@@ -7715,5 +7715,148 @@
       "112032": true
     },
     "checkedAt": "2026-10-23T23:54:30.913480+00:00"
+  },
+  {
+    "id": 110879,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-burgundi/",
+    "costs": {
+      "110879": 54.0
+    },
+    "availability": {
+      "110879": true
+    },
+    "checkedAt": "2026-10-24T00:14:02.233165+00:00"
+  },
+  {
+    "id": 110866,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-gri/",
+    "costs": {
+      "110866": 54.0
+    },
+    "availability": {
+      "110866": false
+    },
+    "checkedAt": "2026-10-24T00:14:02.233165+00:00"
+  },
+  {
+    "id": 110884,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-negru/",
+    "costs": {
+      "110884": 54.0
+    },
+    "availability": {
+      "110884": true
+    },
+    "checkedAt": "2026-10-24T00:14:02.233165+00:00"
+  },
+  {
+    "id": 110890,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-dungi/",
+    "costs": {
+      "110890": 54.0
+    },
+    "availability": {
+      "110890": false
+    },
+    "checkedAt": "2026-10-24T00:14:02.233165+00:00"
+  },
+  {
+    "id": 110869,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-mov/",
+    "costs": {
+      "110869": 54.0
+    },
+    "availability": {
+      "110869": true
+    },
+    "checkedAt": "2026-10-24T00:14:02.233165+00:00"
+  },
+  {
+    "id": 110876,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-gri-2/",
+    "costs": {
+      "110876": 54.0
+    },
+    "availability": {
+      "110876": false
+    },
+    "checkedAt": "2026-10-24T00:14:02.233165+00:00"
+  },
+  {
+    "id": 110893,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-mov-2/",
+    "costs": {
+      "110893": 54.0
+    },
+    "availability": {
+      "110893": true
+    },
+    "checkedAt": "2026-10-24T00:14:02.233165+00:00"
+  },
+  {
+    "id": 111648,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fotolii-bean-bag/fotoliu-bean-bag-interior-exterior-9/",
+    "costs": {
+      "111648": 193.0
+    },
+    "availability": {
+      "111648": false
+    },
+    "checkedAt": "2026-10-24T00:14:02.233165+00:00"
+  },
+  {
+    "id": 111652,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fotolii-bean-bag/fotoliu-bean-bag-interior-exterior-13/",
+    "costs": {
+      "111652": 193.0
+    },
+    "availability": {
+      "111652": true
+    },
+    "checkedAt": "2026-10-24T00:14:02.233165+00:00"
+  },
+  {
+    "id": 111645,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fotolii-bean-bag/fotoliu-bean-bag-interior-exterior-6/",
+    "costs": {
+      "111645": 193.0
+    },
+    "availability": {
+      "111645": true
+    },
+    "checkedAt": "2026-10-24T00:14:02.233165+00:00"
+  },
+  {
+    "id": 111646,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fotolii-bean-bag/fotoliu-bean-bag-interior-exterior-7/",
+    "costs": {
+      "111646": 193.0
+    },
+    "availability": {
+      "111646": true
+    },
+    "checkedAt": "2026-10-24T00:14:02.233165+00:00"
+  },
+  {
+    "id": 111647,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fotolii-bean-bag/fotoliu-bean-bag-interior-exterior-8/",
+    "costs": {
+      "111647": 193.0
+    },
+    "availability": {
+      "111647": true
+    },
+    "checkedAt": "2026-10-24T00:14:02.233165+00:00"
+  },
+  {
+    "id": 111650,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fotolii-bean-bag/fotoliu-bean-bag-interior-exterior-11/",
+    "costs": {
+      "111650": 193.0
+    },
+    "availability": {
+      "111650": true
+    },
+    "checkedAt": "2026-10-24T00:14:02.233165+00:00"
   }
 ]

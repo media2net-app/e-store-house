@@ -1,0 +1,489 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "outputs": [
+    {
+      "supplierId": "110879",
+      "products": [
+        {
+          "barcode": "2712970YFXYEH6AEK",
+          "sku": "110879",
+          "model": "2712970YFXYEH6AEK",
+          "title": "Set de 4 perne 40x40 cm, pentru interior/exterior, din Oxford, groase, confort premium",
+          "description": "",
+          "category": "Perne pentru scaun",
+          "brand": "RALEX PUCIOASA",
+          "color": "Burgundia",
+          "size": "",
+          "price": 129,
+          "listPrice": 129,
+          "stock": 93,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260518/20/d6ea5e56-da07-36fe-b50d-d817c1d82839/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260518/20/68a0ddc6-4e64-3771-bcb9-d7245a75005a/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1147192042?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/62a0e111e2bd5744278e12698f71a9475cb9383be0f98f60d1b76cee370fa42e.img",
+        "/tmp/estore-short-gallery-audit-20261024/287f1bb93d271ac2d6808455e3ae20c2a027feb8e781dffd0337ada655ca819e.img",
+        "/tmp/estore-short-gallery-audit-20261024/10f679e91525497d242dc35904c1295cdf8b6b124f1238bf5c888540827e5568.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110879-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-burgundi/",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-84a46b91-d92c-4f72-9af1-6369fb8df6ac.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ff827fda-7f36-4623-af7c-7f14eea2d24f.png",
+      "side": null
+    },
+    {
+      "supplierId": "110866",
+      "products": [
+        {
+          "barcode": "2712971ITTKSJABGP",
+          "sku": "110866",
+          "model": "2712971ITTKSJABGP",
+          "title": "Set de 4 perne 40x40 cm, pentru interior/exterior, din Oxford, groase, confortabile, premium",
+          "description": "",
+          "category": "Perne pentru scaun",
+          "brand": "RALEX PUCIOASA",
+          "color": "cafenea",
+          "size": "",
+          "price": 129,
+          "listPrice": 129,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260518/20/5dcc579b-29ca-3ad7-98e2-69dde9a70c9b/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260518/20/d9502af9-bf6f-3f33-ac43-291013939747/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1147191551?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/e106731090ee3ec5a8627cb7226112818f327cfcf5824c99f2345594f1423bc6.img",
+        "/tmp/estore-short-gallery-audit-20261024/ca02b562c1e2240160b17e69f7591df9734dbeb319cf49d7ce0d5f2787d1ca2d.img",
+        "/tmp/estore-short-gallery-audit-20261024/f757dd71f3a35d0a8daa6c83b71d94d0bdc0a559878889a46064f6f675fe6e04.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110866-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-gri/",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-519a753b-a329-4473-b07f-8d7c0eb890dd.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-fa907548-df2b-4465-acfd-d08e2c033492.png",
+      "side": null
+    },
+    {
+      "supplierId": "110884",
+      "products": [
+        {
+          "barcode": "2712972VC3TIZPR4L",
+          "sku": "110884",
+          "model": "2712972VC3TIZPR4L",
+          "title": "Set de 4 perne 40x40 cm, pentru interior/exterior, din Oxford, groase, negre",
+          "description": "",
+          "category": "Perne pentru scaun",
+          "brand": "RALEX PUCIOASA",
+          "color": "negru",
+          "size": "",
+          "price": 129,
+          "listPrice": 129,
+          "stock": 95,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1923/prod/QC_PREP/20260518/20/4acc768d-26f7-35d4-bebf-1d9b80b36a23/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260518/20/f1f47b7b-6bbd-3e57-9893-fcd610af90f2/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1147190942?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/5a948ea53e33934b918374be4053fa41251c64685c7cea006f635315a387e544.img",
+        "/tmp/estore-short-gallery-audit-20261024/5184c66ba42c9979ac9c166d04aa7680167dbe06b27fc9265c122b557cddc2fc.img",
+        "/tmp/estore-short-gallery-audit-20261024/68c8a122519ddbd0eacbba44019641ed87dc829bd31187beba7cc9a34c6079e4.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110884-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-negru/",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-b09cedea-714e-4ba7-8ca1-a2f3450c8dbd.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-5c339354-0ee4-47ac-b92b-dba6b1b41efd.png",
+      "side": null
+    },
+    {
+      "supplierId": "110890",
+      "products": [
+        {
+          "barcode": "2712973ZFYZ2SVFKD",
+          "sku": "110890",
+          "model": "2712973ZFYZ2SVFKD",
+          "title": "Set de 4 perne 40x40 cm, pentru interior și exterior, din Oxford, groase, multicolore",
+          "description": "",
+          "category": "Perne pentru scaun",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 129,
+          "listPrice": 129,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260518/20/87edc579-4230-3ff7-a58f-be33d5fb4142/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260518/20/f3ff12c5-8a12-3734-b044-8339bc4474d1/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1147190593?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/e7480badd81e60857f94c03217c34f71359f83b189b4a6208dd96dc999bb3a8f.img",
+        "/tmp/estore-short-gallery-audit-20261024/6abcfdfad8fbc42fa7fb31092d5d01614a47627fd3fd4fb39e68655be3486389.img",
+        "/tmp/estore-short-gallery-audit-20261024/3976e5d0e6df3efc5b0f11c17b18c30b79f53da2ea978c99df5609c1d478edd2.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110890-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-dungi/",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-e6a3f3af-5cd8-4beb-9b68-4b5006eb6e13.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-2e564d64-5fc2-4eba-8543-fcb7f011a64a.png",
+      "side": null
+    },
+    {
+      "supplierId": "110869",
+      "products": [
+        {
+          "barcode": "2712975FXPXQN2SXH",
+          "sku": "110869",
+          "model": "2712975FXPXQN2SXH",
+          "title": "Set de 4 perne 40x40 cm, pentru interior/exterior, din Oxford gros - Lila",
+          "description": "",
+          "category": "Perne pentru scaun",
+          "brand": "RALEX PUCIOASA",
+          "color": "Lila",
+          "size": "",
+          "price": 129,
+          "listPrice": 129,
+          "stock": 96,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260518/20/28c99b70-6e33-3fd5-afa3-b924cd330e6d/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260518/20/a6d5e673-7b16-33c4-8cfc-e3b911e96785/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1147190645?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/51f77b4e817bd83963109b6279b520d9a3bbb61e4c16bba9a99abbb284d8fc10.img",
+        "/tmp/estore-short-gallery-audit-20261024/a21939f49f63285fb0c9b1ae3642b06c0203dc31f30001d99ced015949e3e29d.img",
+        "/tmp/estore-short-gallery-audit-20261024/6b0f6f02b725eb1cd60c9757f66a9ecf9c024a7b67efa7af23ae379f49cc07d1.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110869-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-mov/",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c608f4f2-c4fb-4a50-a9c6-da659b4f2baf.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-09157443-6701-43cd-bd9d-3f3a157639e2.png",
+      "side": null
+    },
+    {
+      "supplierId": "110876",
+      "products": [
+        {
+          "barcode": "2712976HXLYVRLOG6",
+          "sku": "110876",
+          "model": "2712976HXLYVRLOG6",
+          "title": "Set de 4 perne 40x40 cm, pentru interior/exterior, din Oxford, groase, confortabile, premium",
+          "description": "",
+          "category": "Perne pentru scaun",
+          "brand": "RALEX PUCIOASA",
+          "color": "gri",
+          "size": "",
+          "price": 129,
+          "listPrice": 129,
+          "stock": 99,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260518/20/60ea6ced-49b6-3025-8e52-bf35bd740656/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1923/prod/QC_PREP/20260518/20/1853479c-b6f2-31d5-b8ad-89b40995ae73/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1147192503?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/58bc6bd06abeeea03c1bf75ba131ea96b42ac6aea7a72c78908d84e42bb232cc.img",
+        "/tmp/estore-short-gallery-audit-20261024/9ca3966a4961e202118e72f08a14fb25737ea1c381d0409f93fed31029a92bf0.img",
+        "/tmp/estore-short-gallery-audit-20261024/f701303b5f612931d84d360b15810cbf4762767afe3a057827ceac67bdffefda.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110876-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-gri-2/",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-aae11d34-4b76-4de3-8df0-2fb592612985.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-07ee1d3b-f2a9-453e-bf1a-66a62519b344.png",
+      "side": null
+    },
+    {
+      "supplierId": "110893",
+      "products": [
+        {
+          "barcode": "27129770BMWNIA1XH",
+          "sku": "110893",
+          "model": "27129770BMWNIA1XH",
+          "title": "Set de 4 perne 40x40 cm de interior/exterior Oxford Mov închis",
+          "description": "",
+          "category": "Perne pentru scaun",
+          "brand": "RALEX PUCIOASA",
+          "color": "mov",
+          "size": "",
+          "price": 129,
+          "listPrice": 129,
+          "stock": 100,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260518/20/70a4858d-9449-3600-8401-27e1e72bb890/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260518/20/b0761388-916f-3825-b743-e7a7b77308b6/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1147190033?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/68c1522f93e66ffa1165455612980cd3d6707ae23882df0a11dcee791f1b1613.img",
+        "/tmp/estore-short-gallery-audit-20261024/61d2ecaad83eb626781e8b6663a93d6cba6165e80d5548c538ef6bec2dddb718.img",
+        "/tmp/estore-short-gallery-audit-20261024/75ace0c10cbc3db82088c8417cd72082ae98f991ae6230d5ff719bbba8cf35b8.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/110893-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-mov-2/",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-8e89e659-77d6-43be-b477-611294e6afab.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ddf169d5-bb3d-43ec-8ad0-71990d4b32e9.png",
+      "side": null
+    },
+    {
+      "supplierId": "111648",
+      "products": [
+        {
+          "barcode": "29986844ACH6XV7YP",
+          "sku": "111648",
+          "model": "29986844ACH6XV7YP",
+          "title": "Fotoliu puf pentru interior și exterior, Oxford Premium 300g/m², Umplutură din poliuretan",
+          "description": "",
+          "category": "Pufuri și bănci",
+          "brand": "RALEX PUCIOASA",
+          "color": "rosu",
+          "size": "",
+          "price": 280,
+          "listPrice": 599,
+          "stock": 20,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260602/22/425ac525-6e0f-3144-a810-bafbd292e5fd/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260602/22/b18b2b68-f722-3725-be16-e6e1bf936cfd/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1152094966?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/806665301c77179b0965bec5498a8de89bf7b8d7fb60134b57e9ae127b3e6380.img",
+        "/tmp/estore-short-gallery-audit-20261024/899c99825554bcc3b34101edac486ca1dca1e848ba05cb2c009ce7cda0ae1ef8.img",
+        "/tmp/estore-short-gallery-audit-20261024/ff5c4bfd19710b2be3ffc785be9b0d980114365279b740996a19bae81e908643.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/111648-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fotolii-bean-bag/fotoliu-bean-bag-interior-exterior-9/",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-6165632b-1145-4c0e-a2f9-a60d9d6a23a3.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-e6067334-c345-4c2d-9e30-ba9720ae0ffd.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-7d853904-f474-43d3-9a7f-23e8c7b73939.png"
+    },
+    {
+      "supplierId": "111652",
+      "products": [
+        {
+          "barcode": "2998685XGP9CD4MEH",
+          "sku": "111652",
+          "model": "2998685XGP9CD4MEH",
+          "title": "Fotoliu puf pentru interior și exterior, Oxford Premium 300g/m², Umplutură din poliuretan",
+          "description": "",
+          "category": "Pufuri și bănci",
+          "brand": "RALEX PUCIOASA",
+          "color": "galben",
+          "size": "",
+          "price": 280,
+          "listPrice": 599,
+          "stock": 20,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260602/22/b99712b7-af2a-3341-a8c3-8f810f54faaf/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260602/22/617012ea-60cb-31cd-9c6b-11b730ee015b/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1152094175?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/78185c033b33ad56baaf04590d2d21b46961a010d9eb7c17d0126f2b72e7e698.img",
+        "/tmp/estore-short-gallery-audit-20261024/441f3f9f6c840052dcb3f9ac3364ef108b585ecf68a8de7228881c4243d7a7ee.img",
+        "/tmp/estore-short-gallery-audit-20261024/5ff88be560e45a3f2b27e8e8e83dd61deb18514d5b49e7ee16882b63ac49873c.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/111652-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fotolii-bean-bag/fotoliu-bean-bag-interior-exterior-13/",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-f611cc30-fb48-4e5e-bbeb-b6077475b987.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c71648ee-8ebc-4715-b31d-1a277968f49d.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-97d5acf9-55cd-4feb-a7a8-23f5bc429c7e.png"
+    },
+    {
+      "supplierId": "111645",
+      "products": [
+        {
+          "barcode": "2998686UT5PGAXZOA",
+          "sku": "111645",
+          "model": "2998686UT5PGAXZOA",
+          "title": "Fotoliu puf pentru interior și exterior, Oxford Premium 300g/m², Umplutură din poliuretan",
+          "description": "",
+          "category": "Pufuri și bănci",
+          "brand": "RALEX PUCIOASA",
+          "color": "negru",
+          "size": "",
+          "price": 280,
+          "listPrice": 599,
+          "stock": 20,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260602/22/d1bfa63a-4759-3d76-80f8-f6da2c1e7b13/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260602/22/823d05fa-4d93-34a4-939c-7d15b153d818/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1152094332?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/155e8aa4d6e4217bba86114863d3ed24c5656d2cda5fa282ff340599075f3a01.img",
+        "/tmp/estore-short-gallery-audit-20261024/c152fb16c29bfd353ead2aec6118ceb439583e16b5b7a910981af5462f5114f2.img",
+        "/tmp/estore-short-gallery-audit-20261024/c4a55dc9e375e5ae6e75ccce3fab00744a25c5db9c8600c4d4c84f3c77378dd9.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/111645-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fotolii-bean-bag/fotoliu-bean-bag-interior-exterior-6/",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-dc2ebde4-d130-41db-b70b-017d42edf118.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-d315e985-ef9c-485f-a672-239d401802b8.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-5a8054f3-c2c0-4751-80e1-408c622c3c4b.png"
+    },
+    {
+      "supplierId": "111646",
+      "products": [
+        {
+          "barcode": "2998687OSQDQUCKUN",
+          "sku": "111646",
+          "model": "2998687OSQDQUCKUN",
+          "title": "Fotoliu puf de interior-exterior, Oxford Premium 300g/mp, Umplutură din poliuretan",
+          "description": "",
+          "category": "Pufuri și bănci",
+          "brand": "RALEX PUCIOASA",
+          "color": "albastru",
+          "size": "",
+          "price": 280,
+          "listPrice": 599,
+          "stock": 20,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260602/22/535c3813-03c3-37de-b391-31dbff5a55bc/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260602/22/20e887b6-cafa-3b14-b368-d3ed9e48093b/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1152094426?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/23907456e683101302fba7b95deaec86203966e8b62966b1aa962d75ad99a2ff.img",
+        "/tmp/estore-short-gallery-audit-20261024/b0ffc3fe6ecbe9ed6f6386b1fd9556e7b272f65963a13ded65937e821501cbb5.img",
+        "/tmp/estore-short-gallery-audit-20261024/17423fd3a0fce62f945219e20f11edb83fe35d2a883115d3a9e1aee2cf00dac5.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/111646-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fotolii-bean-bag/fotoliu-bean-bag-interior-exterior-7/",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-6f515c3d-a196-4c7f-8e4d-d16f708ed818.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-f941237b-4576-46e7-8ee5-d985f5e91d0e.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-280cd923-f259-4c53-9eed-c31c3778a978.png"
+    },
+    {
+      "supplierId": "111647",
+      "products": [
+        {
+          "barcode": "299868890TZ92JJQB",
+          "sku": "111647",
+          "model": "299868890TZ92JJQB",
+          "title": "Fotoliu puf pentru interior și exterior, Oxford Premium 300g/m², Umplutură din poliuretan",
+          "description": "",
+          "category": "Pufuri și bănci",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 280,
+          "listPrice": 599,
+          "stock": 20,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260602/22/39f125a5-089d-3bb5-875b-dd036e082775/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260602/22/2f2c188c-6e1c-3634-a602-b40b870bead5/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1152094768?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/767c050fb776b5141bfa07ad9dd91d9310683da7ce780f467dfedd24692e2b8e.img",
+        "/tmp/estore-short-gallery-audit-20261024/887b2e2697f47b2ed2b3c3e26ab70a201075eb571a3076e0e07572d1ebf81e02.img",
+        "/tmp/estore-short-gallery-audit-20261024/b0ff00422615d1f14d8da46920a38afbedd7bb5bb188ccf5c3309bac8de41222.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/111647-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fotolii-bean-bag/fotoliu-bean-bag-interior-exterior-8/",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a749c477-146a-4516-8fee-912b3b795991.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ded23601-450f-4076-ae5c-f52313be411e.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-be4bdab6-78e1-4274-a435-4c66e459412c.png"
+    },
+    {
+      "supplierId": "111650",
+      "products": [
+        {
+          "barcode": "2998689DBPUVU8EUP",
+          "sku": "111650",
+          "model": "2998689DBPUVU8EUP",
+          "title": "Fotoliu puf de interior-exterior, Oxford Premium 300g/mp, Umplutură din poliuretan",
+          "description": "",
+          "category": "Pufuri și bănci",
+          "brand": "RALEX PUCIOASA",
+          "color": "portocaliu",
+          "size": "",
+          "price": 280,
+          "listPrice": 599,
+          "stock": 20,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260602/22/b7fef4ac-cc92-3b89-b21c-e122231d32dc/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260602/22/a3b1e4e6-2074-32f6-94dd-d3f3dfea4e16/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1152095136?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "paths": [
+        "/tmp/estore-short-gallery-audit-20261024/3b8b0d8b4cef83abb8efe958cea94eefae680541360901b622239b8276f49194.img",
+        "/tmp/estore-short-gallery-audit-20261024/f4b79310d02ee6ca2b5eb9daceec6ea993028594e2dfceb8f3b707b5b49d630b.img",
+        "/tmp/estore-short-gallery-audit-20261024/3d514f943f1bca09114a8477a1382f9bf8af8b7ab90001f44d0201b234dcd929.img"
+      ],
+      "review": "/tmp/estore-short-gallery-audit-20261024/111650-review.jpg",
+      "source": "https://ralexpucioasa.ro/store/terasa-si-gradina/fotolii-bean-bag/fotoliu-bean-bag-interior-exterior-11/",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-9aae617c-1d32-4f9e-95ac-f9ebf0787b11.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-572f807b-f179-429d-bffd-24c417abcbac.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-4f5cd133-c223-46ff-b0b7-55f153f32a9b.png"
+    }
+  ],
+  "review": "32 generated images visually reviewed against own supplier references. Each gallery contains four distinct product photographs; existing Control galleries and sources retained for audit.",
+  "prompt": "Actual own supplier and Control references. Preserve precise fabric texture, color, seams, cushion square shape and four-tuften construction, chair pear shape and loop. Overhead and close detail views; bean bags also low side view. No invented zippers, patterns, labels or claims. Portrait 2:3."
+}
