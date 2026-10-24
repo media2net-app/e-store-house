@@ -1,0 +1,261 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "outputs": [
+    {
+      "key": "dd182dd04c2d",
+      "products": [
+        {
+          "barcode": "3108878CJPQ8MBUGG",
+          "sku": "79628",
+          "model": "3108878CJPQ8MBUGG",
+          "title": "Lenjerie de pat Finet 3D 6 piese, 70% bumbac, Fabricat în România",
+          "description": "",
+          "category": "Lenjerie de pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 399,
+          "listPrice": 499,
+          "stock": 50,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260618/17/fb233355-263e-3b69-aae0-15a50e7dca74/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260618/17/7506b342-13e5-37b4-b644-d1031d1db46f/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260618/17/f1af7aa5-8207-3703-ac40-5afa18728ea2/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260618/17/c58e1893-ff59-39cb-901a-645bd34ce46c/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1157957670?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "supplierId": 79628,
+      "source": null,
+      "sourceImage": null,
+      "urls": [
+        "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260618/17/fb233355-263e-3b69-aae0-15a50e7dca74/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260618/17/7506b342-13e5-37b4-b644-d1031d1db46f/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260618/17/f1af7aa5-8207-3703-ac40-5afa18728ea2/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260618/17/c58e1893-ff59-39cb-901a-645bd34ce46c/1_org_zoom.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/65f217342c8e11b8a16d73a0ed406f07be9059f076f1fdaef7f389943fd87128.img",
+        "/tmp/estore-control-gallery-audit-20261023/6595bdd21da9c5f94847a66e532393b459f0d63f45c8d50a251ef1c1eb890281.img",
+        "/tmp/estore-control-gallery-audit-20261023/01709fdd23650e981cda5f8425fa6ca5c5bac3d70201ec5e25900246782a2fb0.img",
+        "/tmp/estore-control-gallery-audit-20261023/7d5666b6da60f96aab6b8ea13dbe7904c36c00c31c9ede1b01dd0cca03a68f3b.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/e9650ffeb0ea9c9d04672b146039058943d494a1f9b1cdc7ab002a00f34fecfa.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/79628-repair-review.jpg",
+      "prompts": {
+        "hero": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact single male lion with front paws on dark log printed on black duvet, lion portrait on rectangular cases, sage grey solid reverse and plain square pillows. Do NOT replace with just a lion face. Full made bed, front three-quarter view, full duvet and 4 pillows visible: 2 squares behind 2 rectangular cases. No decorative fifth pillow. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+        "side": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact single male lion with front paws on dark log printed on black duvet, lion portrait on rectangular cases, sage grey solid reverse and plain square pillows. Do NOT replace with just a lion face. Distinct LOW SIDE angle along the bed edge, showing drape and depth, not repeating frontal hero. Four pillowcases only, no additional pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+        "top": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact single male lion with front paws on dark log printed on black duvet, lion portrait on rectangular cases, sage grey solid reverse and plain square pillows. Do NOT replace with just a lion face. Straight overhead view of the complete made bed, duvet print geometry faithful, two square pillows behind two rectangular pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+        "detail": "Corrected true macro, faithful source textile and no whole bed. Damask parallel stripes only; lion mane crop."
+      },
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-cc935dfa-d2b9-4e8d-9f83-4a6f1e5d8dbb.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-45a67c65-0b08-456a-9aab-6ca3279c3c9c.png",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-658406fc-47a7-45ec-88f4-6010ccd0e023.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-64495396-43f0-4c61-a632-d995a386c7e5.png"
+    },
+    {
+      "key": "0d10e04cb5be",
+      "products": [
+        {
+          "barcode": "3104005XE35B53UY3",
+          "sku": "96422",
+          "model": "3104005XE35B53UY3",
+          "title": "Set de lenjerie de pat Damasc din policoton, 6 piese, cu husă elastică, Fabricat în România",
+          "description": "",
+          "category": "Lenjerie de pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "petrol inchis",
+          "size": "",
+          "price": 269,
+          "listPrice": 269,
+          "stock": 50,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260618/15/54c53ba2-6966-3bef-91b4-bbb23d644523/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260618/15/7e9192e8-9dca-3902-bab7-1eee25bacfa1/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260618/15/b8168c0f-e961-3c92-a6ba-4afa31337ae5/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260618/15/a871a834-ed58-344d-b95a-22e532cdc9be/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1157901299?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "supplierId": 96422,
+      "source": null,
+      "sourceImage": null,
+      "urls": [
+        "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260618/15/54c53ba2-6966-3bef-91b4-bbb23d644523/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260618/15/7e9192e8-9dca-3902-bab7-1eee25bacfa1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260618/15/b8168c0f-e961-3c92-a6ba-4afa31337ae5/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260618/15/a871a834-ed58-344d-b95a-22e532cdc9be/1_org_zoom.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/225fb86fe6bed074a105d2cb7911627606fb7de445f96230ae57cc42dd3a2ef2.img",
+        "/tmp/estore-control-gallery-audit-20261023/d126af0d6d2d61ca2c721930849f5867e84755712d3aa95b8dd6ae3ea4732eb2.img",
+        "/tmp/estore-control-gallery-audit-20261023/e5527c68527a6ee967d2ae72fd5024ba1bccc409d7d32c6c69ba9bd9a4d9c6aa.img",
+        "/tmp/estore-control-gallery-audit-20261023/12632dcbf0ca722d39c87e71c12fd3c06e6f8f230261effaf1aeab52d955bec4.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/0634234bac04f4ee2b3cb5ae3024b592ac85428be2a0601c7d7265c9cd7d5de9.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/96422-repair-review.jpg",
+      "prompts": {
+        "hero": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact muted slate grey-green damask bedding and fine tonal woven stripe/check texture. NOT navy blue. Full made bed, front three-quarter view, full duvet and 4 pillows visible: 2 squares behind 2 rectangular cases. No decorative fifth pillow. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+        "side": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact muted slate grey-green damask bedding and fine tonal woven stripe/check texture. NOT navy blue. Distinct LOW SIDE angle along the bed edge, showing drape and depth, not repeating frontal hero. Four pillowcases only, no additional pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+        "top": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact muted slate grey-green damask bedding and fine tonal woven stripe/check texture. NOT navy blue. Straight overhead view of the complete made bed, duvet print geometry faithful, two square pillows behind two rectangular pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+        "detail": "Corrected true macro, faithful source textile and no whole bed. Damask parallel stripes only; lion mane crop."
+      },
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-e6cf76f8-ff65-431b-9d31-0f5625b69564.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-a7123fb9-0982-4b34-80b4-d6ff209d603f.png",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-f833634a-dfe7-41cd-9ef8-6f877f9e025f.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-fdec9525-3c23-4050-a1a2-27478f0badae.png"
+    },
+    {
+      "key": "e5b2444cda8c",
+      "products": [
+        {
+          "barcode": "2993543RL9S8W5SHN",
+          "sku": "104819",
+          "model": "2993543RL9S8W5SHN",
+          "title": "Set de lenjerie de pat Finet din 6 piese cu cearșaf cu elastic pentru paturi de 160 și 180 cm, Fabricat în România",
+          "description": "",
+          "category": "Lenjerie de pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 209,
+          "listPrice": 239,
+          "stock": 14,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260601/19/2827e8d4-dbe2-3dab-80e9-0546cf11ac1b/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260601/19/2f67aad5-db02-371f-8050-fdd705b7c52b/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260601/19/da54d893-736f-3c80-be07-0e9403e1db0a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260601/19/37834df8-3163-329d-8d64-f3d92c57aa71/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1151723415?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "supplierId": 104819,
+      "source": null,
+      "sourceImage": null,
+      "urls": [
+        "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260601/19/2827e8d4-dbe2-3dab-80e9-0546cf11ac1b/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260601/19/2f67aad5-db02-371f-8050-fdd705b7c52b/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260601/19/da54d893-736f-3c80-be07-0e9403e1db0a/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260601/19/37834df8-3163-329d-8d64-f3d92c57aa71/1_org_zoom.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/24395dd639e2ec139ee42816d49898e06286bdca0e1d152a7953aee09dad1c3b.img",
+        "/tmp/estore-control-gallery-audit-20261023/1afee0cb9fd14d5086a9f4e5e892333ba950ef9c5fae9e12088ffef35c5147f1.img",
+        "/tmp/estore-control-gallery-audit-20261023/adfd1ac168ee435ef6790bd776c62d95ef2129e8c625b5194b8e2aa61915d5f8.img",
+        "/tmp/estore-control-gallery-audit-20261023/be78f2091932ea53c914cd737227a616d4e32b9cc5c0326a6d3ec33586878a92.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/0645426a46bf56b5aa2a4caa9b4f8602f01026b7626e7728bd38e55f7d975d49.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/104819-repair-review.jpg",
+      "prompts": {
+        "hero": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve EXACT LARGE irregular black and dark brown leopard blotches on cream, with warm taupe solid reverse. Do not shrink into small uniform spots. Full made bed, front three-quarter view, full duvet and 4 pillows visible: 2 squares behind 2 rectangular cases. No decorative fifth pillow. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+        "side": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve EXACT LARGE irregular black and dark brown leopard blotches on cream, with warm taupe solid reverse. Do not shrink into small uniform spots. Distinct LOW SIDE angle along the bed edge, showing drape and depth, not repeating frontal hero. Four pillowcases only, no additional pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+        "top": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve EXACT LARGE irregular black and dark brown leopard blotches on cream, with warm taupe solid reverse. Do not shrink into small uniform spots. Straight overhead view of the complete made bed, duvet print geometry faithful, two square pillows behind two rectangular pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+        "detail": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve EXACT LARGE irregular black and dark brown leopard blotches on cream, with warm taupe solid reverse. Do not shrink into small uniform spots. TRUE CLOSE MACRO of a small printed textile area and soft fold. No whole bed, no whole pillows, no collage, no repeated hero shot. Flat printed textile, no raised animals. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference."
+      },
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-956df249-9ce1-4e99-bd70-cad9787775c3.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ae0aae2e-bbd2-422d-b3f7-14796f440188.png",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-c0468f97-5b77-4651-bfc4-ac1f6634fa1c.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-5f81ecd2-89e2-49cc-afbc-baf5bd76520c.png"
+    },
+    {
+      "key": "e8f10dee6286",
+      "products": [
+        {
+          "barcode": "2993555IT4TZ0DK3L",
+          "sku": "104727",
+          "model": "2993555IT4TZ0DK3L",
+          "title": "Set de lenjerie de pat Finet din 6 piese cu cearșaf cu elastic pentru paturi de 160 și 180 cm, Fabricat în România",
+          "description": "",
+          "category": "Lenjerie de pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "negru",
+          "size": "",
+          "price": 209,
+          "listPrice": 239,
+          "stock": 17,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260601/19/972bd22b-c453-3ac5-aa30-3fb785f0f24c/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260601/19/ab6f67eb-8f6b-342b-bc6f-084b8caf75f9/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260601/19/094a89ff-5109-3467-9962-762ee4891c23/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260601/19/135c0ba8-b276-3dac-abbc-ffe54f6acb03/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1151724116?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "supplierId": 104727,
+      "source": null,
+      "sourceImage": null,
+      "urls": [
+        "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260601/19/972bd22b-c453-3ac5-aa30-3fb785f0f24c/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260601/19/ab6f67eb-8f6b-342b-bc6f-084b8caf75f9/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260601/19/094a89ff-5109-3467-9962-762ee4891c23/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260601/19/135c0ba8-b276-3dac-abbc-ffe54f6acb03/1_org_zoom.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/a46d955671304897ba504f077325af2bbf78528618ebdd2bb695b092007ca400.img",
+        "/tmp/estore-control-gallery-audit-20261023/4f8b5a5f9e3430d4c71a7ac051a0b0d505f24614b5b1cbeb5366386f19c36247.img",
+        "/tmp/estore-control-gallery-audit-20261023/4bb9cffc6a3f1e5be366ee43ac446cbd2f6b5e5299e8b8c8395fca4fe27ed340.img",
+        "/tmp/estore-control-gallery-audit-20261023/07cd0522f9d70a37c8e4a2cc3d4cd0e60d7802b6d241b641ba1ba491b788895a.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/df63c80be135a6c33be89a593eb65a0b18d9bb58b703ef09448cffcc557063d9.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/104727-repair-review.jpg",
+      "prompts": {
+        "hero": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact broad irregular zebra print in warm deep brown-black and ivory, with medium taupe brown solid reverse/plain square pillowcases. NOT solid black reverse. Full made bed, front three-quarter view, full duvet and 4 pillows visible: 2 squares behind 2 rectangular cases. No decorative fifth pillow. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+        "side": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact broad irregular zebra print in warm deep brown-black and ivory, with medium taupe brown solid reverse/plain square pillowcases. NOT solid black reverse. Distinct LOW SIDE angle along the bed edge, showing drape and depth, not repeating frontal hero. Four pillowcases only, no additional pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+        "top": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact broad irregular zebra print in warm deep brown-black and ivory, with medium taupe brown solid reverse/plain square pillowcases. NOT solid black reverse. Straight overhead view of the complete made bed, duvet print geometry faithful, two square pillows behind two rectangular pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+        "detail": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact broad irregular zebra print in warm deep brown-black and ivory, with medium taupe brown solid reverse/plain square pillowcases. NOT solid black reverse. TRUE CLOSE MACRO of a small printed textile area and soft fold. No whole bed, no whole pillows, no collage, no repeated hero shot. Flat printed textile, no raised animals. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference."
+      },
+      "hero": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-17650b59-c88c-4859-9cf1-7e2ac0903680.png",
+      "side": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-42695670-68e1-4151-b0ca-94071ea40ea0.png",
+      "top": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-1809dd0c-8cb2-4e7a-bdec-d1b32affc657.png",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-ea835412-1aa0-42b7-a5e5-7f9db364305c.png"
+    }
+  ],
+  "review": "Sixteen selected generated photos visually reviewed against exact own source. Four distinct photographs per model.",
+  "prompts": [
+    {
+      "hero": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact single male lion with front paws on dark log printed on black duvet, lion portrait on rectangular cases, sage grey solid reverse and plain square pillows. Do NOT replace with just a lion face. Full made bed, front three-quarter view, full duvet and 4 pillows visible: 2 squares behind 2 rectangular cases. No decorative fifth pillow. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+      "side": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact single male lion with front paws on dark log printed on black duvet, lion portrait on rectangular cases, sage grey solid reverse and plain square pillows. Do NOT replace with just a lion face. Distinct LOW SIDE angle along the bed edge, showing drape and depth, not repeating frontal hero. Four pillowcases only, no additional pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+      "top": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact single male lion with front paws on dark log printed on black duvet, lion portrait on rectangular cases, sage grey solid reverse and plain square pillows. Do NOT replace with just a lion face. Straight overhead view of the complete made bed, duvet print geometry faithful, two square pillows behind two rectangular pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+      "detail": "Corrected true macro, faithful source textile and no whole bed. Damask parallel stripes only; lion mane crop."
+    },
+    {
+      "hero": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact muted slate grey-green damask bedding and fine tonal woven stripe/check texture. NOT navy blue. Full made bed, front three-quarter view, full duvet and 4 pillows visible: 2 squares behind 2 rectangular cases. No decorative fifth pillow. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+      "side": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact muted slate grey-green damask bedding and fine tonal woven stripe/check texture. NOT navy blue. Distinct LOW SIDE angle along the bed edge, showing drape and depth, not repeating frontal hero. Four pillowcases only, no additional pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+      "top": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact muted slate grey-green damask bedding and fine tonal woven stripe/check texture. NOT navy blue. Straight overhead view of the complete made bed, duvet print geometry faithful, two square pillows behind two rectangular pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+      "detail": "Corrected true macro, faithful source textile and no whole bed. Damask parallel stripes only; lion mane crop."
+    },
+    {
+      "hero": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve EXACT LARGE irregular black and dark brown leopard blotches on cream, with warm taupe solid reverse. Do not shrink into small uniform spots. Full made bed, front three-quarter view, full duvet and 4 pillows visible: 2 squares behind 2 rectangular cases. No decorative fifth pillow. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+      "side": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve EXACT LARGE irregular black and dark brown leopard blotches on cream, with warm taupe solid reverse. Do not shrink into small uniform spots. Distinct LOW SIDE angle along the bed edge, showing drape and depth, not repeating frontal hero. Four pillowcases only, no additional pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+      "top": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve EXACT LARGE irregular black and dark brown leopard blotches on cream, with warm taupe solid reverse. Do not shrink into small uniform spots. Straight overhead view of the complete made bed, duvet print geometry faithful, two square pillows behind two rectangular pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+      "detail": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve EXACT LARGE irregular black and dark brown leopard blotches on cream, with warm taupe solid reverse. Do not shrink into small uniform spots. TRUE CLOSE MACRO of a small printed textile area and soft fold. No whole bed, no whole pillows, no collage, no repeated hero shot. Flat printed textile, no raised animals. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference."
+    },
+    {
+      "hero": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact broad irregular zebra print in warm deep brown-black and ivory, with medium taupe brown solid reverse/plain square pillowcases. NOT solid black reverse. Full made bed, front three-quarter view, full duvet and 4 pillows visible: 2 squares behind 2 rectangular cases. No decorative fifth pillow. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+      "side": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact broad irregular zebra print in warm deep brown-black and ivory, with medium taupe brown solid reverse/plain square pillowcases. NOT solid black reverse. Distinct LOW SIDE angle along the bed edge, showing drape and depth, not repeating frontal hero. Four pillowcases only, no additional pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+      "top": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact broad irregular zebra print in warm deep brown-black and ivory, with medium taupe brown solid reverse/plain square pillowcases. NOT solid black reverse. Straight overhead view of the complete made bed, duvet print geometry faithful, two square pillows behind two rectangular pillows. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference.",
+      "detail": "Use case: product-mockup. Create one premium E-Store House product photograph, portrait 2:3. Actual supplier reference is sole authority for fabric pattern, color, scale and construction. Preserve exact broad irregular zebra print in warm deep brown-black and ivory, with medium taupe brown solid reverse/plain square pillowcases. NOT solid black reverse. TRUE CLOSE MACRO of a small printed textile area and soft fold. No whole bed, no whole pillows, no collage, no repeated hero shot. Flat printed textile, no raised animals. Quiet ivory and walnut bedroom, realistic soft daylight. Preserve merchandise exactly while improving setting. No text, logos, infographic, borders, watermarks, promotional claims, invented stitching or zipper. Pattern is fabric print. Accurate modest fabric weave, not coarse upholstery. Keep print placement consistent with reference."
+    }
+  ]
+}

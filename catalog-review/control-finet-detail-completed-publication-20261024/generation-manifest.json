@@ -1,0 +1,159 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "outputs": [
+    {
+      "key": "f9add81d6608",
+      "products": [
+        {
+          "barcode": "31088741USRDWFWF3",
+          "sku": "46010",
+          "model": "31088741USRDWFWF3",
+          "title": "Set de lenjerie de pat Finet 3D, 6 piese, 70% bumbac, Fabricat în România",
+          "description": "",
+          "category": "Lenjerie de pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 399,
+          "listPrice": 499,
+          "stock": 50,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260618/17/e3b91716-577f-3711-af0f-47bcfd1b25ae/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260618/17/a8beacfe-b128-3a55-822d-48f1f5c1ecba/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260618/17/70d6d486-2750-3fb7-9196-cb3d48d07e42/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260618/17/2012b3c2-0cdb-3f1f-9be9-68f01228d285/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1157957143?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "supplierId": 46010,
+      "source": null,
+      "sourceImage": null,
+      "urls": [
+        "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260618/17/e3b91716-577f-3711-af0f-47bcfd1b25ae/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260618/17/a8beacfe-b128-3a55-822d-48f1f5c1ecba/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260618/17/70d6d486-2750-3fb7-9196-cb3d48d07e42/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260618/17/2012b3c2-0cdb-3f1f-9be9-68f01228d285/1_org_zoom.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/3eb6050ab1fb80b5f388b2f85097273160476a487831e64ac6b3d9fafe95d5a8.img",
+        "/tmp/estore-control-gallery-audit-20261023/51a0eb66ee1bf33aee875ff847a8e0ec00dc10efdb65bdb479a7a6482b93eef9.img",
+        "/tmp/estore-control-gallery-audit-20261023/36e3ce832da739e2e9b4494238dbc62aa3c1593492b20c94b09620582f1c81a2.img",
+        "/tmp/estore-control-gallery-audit-20261023/743815e39a1f1d3d40d18206bae192818505f0a6cc6d85d81dc564ce9385fdf4.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/3bc2f3d09c56d1a4038d889e0110b259e3a0bf9bebc7bda1fc5a2803b579b307.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/46010-repair-review.jpg",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-305b5139-dd2a-4a5f-90db-3fd53771debb.png",
+      "prompt": "Create ONE premium e-commerce fabric detail photograph, portrait 2:3. Reference is the exact actual bedding design. Preserve its precise printed motifs and palette without redesign. Tight close-up from above of a small area of printed duvet fabric, gently folded with realistic fine soft cotton-poly weave. Crop close enough that only a portion of the animal print and its background is visible, not a whole bed, not a pillow ensemble. Printed animals are flat textile prints, never living or raised objects. Soft neutral daylight. NO collage, inset, typography, logos, product claims, embroidery or quilting. This must be a distinct true fabric macro detail to complement full bed photos."
+    },
+    {
+      "key": "773973dbee5e",
+      "products": [
+        {
+          "barcode": "31088752NC1GN06DB",
+          "sku": "50412",
+          "model": "31088752NC1GN06DB",
+          "title": "Set de lenjerie de pat Finet 3D, 6 piese, 70% bumbac, Fabricat în România",
+          "description": "",
+          "category": "Lenjerie de pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 399,
+          "listPrice": 499,
+          "stock": 50,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260618/17/1e7323b2-7a9b-3bc8-813c-b5120e1e849d/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260618/17/b5abeaee-8b4c-30dd-9cfd-a5b4f6b988fb/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260618/17/118f7be8-baf4-377d-ab8d-14d9fbf07fef/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260618/17/9da8b797-093e-3ce2-89a8-5ce2eb94151c/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1157957610?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "supplierId": 50412,
+      "source": null,
+      "sourceImage": null,
+      "urls": [
+        "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260618/17/1e7323b2-7a9b-3bc8-813c-b5120e1e849d/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260618/17/b5abeaee-8b4c-30dd-9cfd-a5b4f6b988fb/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260618/17/118f7be8-baf4-377d-ab8d-14d9fbf07fef/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260618/17/9da8b797-093e-3ce2-89a8-5ce2eb94151c/1_org_zoom.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/c770919252939ffe0e8cbd031a79a027a4e33c1c2d918f1f9fddaca7bfe578c5.img",
+        "/tmp/estore-control-gallery-audit-20261023/2329a2a65bf818e58b86c0707ffa426c880dc95707381c11f3e1e2098733df03.img",
+        "/tmp/estore-control-gallery-audit-20261023/0a40621019fc324d3463643cc5c5451f09c5d0b01f0ee6c5a33dc3c08d5eb142.img",
+        "/tmp/estore-control-gallery-audit-20261023/c4f9e9ffa6a7117127e6a0281419e736c7dbc9d9ade1ae2dc1501c16d1b154af.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/154f8814e90d6819f226a6c0bb6f7c33ccbaf35ed4a2becabd69db1c930a83ed.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/50412-repair-review.jpg",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-e4ac943b-b4b2-47e0-bae8-3a9edefc84c3.png",
+      "prompt": "Create ONE premium e-commerce fabric detail photograph, portrait 2:3. Reference is the exact actual bedding design. Preserve its precise printed motifs and palette without redesign. Tight close-up from above of a small area of printed duvet fabric, gently folded with realistic fine soft cotton-poly weave. Crop close enough that only a portion of the animal print and its background is visible, not a whole bed, not a pillow ensemble. Printed animals are flat textile prints, never living or raised objects. Soft neutral daylight. NO collage, inset, typography, logos, product claims, embroidery or quilting. This must be a distinct true fabric macro detail to complement full bed photos."
+    },
+    {
+      "key": "6cd72c377a78",
+      "products": [
+        {
+          "barcode": "31088772NUJMDTBJP",
+          "sku": "50427",
+          "model": "31088772NUJMDTBJP",
+          "title": "Set de lenjerie de pat Finet 3D, 6 piese, 70% bumbac, Fabricat în România",
+          "description": "",
+          "category": "Lenjerie de pat dublu",
+          "brand": "RALEX PUCIOASA",
+          "color": "multicolor",
+          "size": "",
+          "price": 399,
+          "listPrice": 499,
+          "stock": 50,
+          "images": [
+            "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260618/17/9e7b5c9c-2d18-3b5f-8143-c1a966d69dc2/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260618/17/66103f08-452f-3157-8f2c-8f7d2692856a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260618/17/010adb16-1fa8-3451-9a89-308ff47a769a/1_org_zoom.jpg",
+            "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260618/17/e2cd28a0-8c93-3eca-bf0e-b277f59847ae/1_org_zoom.jpg"
+          ],
+          "trendyolUrl": "https://www.trendyol.com/en/x-p-1157957609?language=ro&countryCode=RO&storefrontId=29&filterOverPriceListings=false&merchantId=1185891",
+          "origin": "Trendyol · export 17.10.2026",
+          "revision": 0,
+          "updated": "2026-10-17T13:10:26Z"
+        }
+      ],
+      "supplierId": 50427,
+      "source": null,
+      "sourceImage": null,
+      "urls": [
+        "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260618/17/9e7b5c9c-2d18-3b5f-8143-c1a966d69dc2/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260618/17/66103f08-452f-3157-8f2c-8f7d2692856a/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260618/17/010adb16-1fa8-3451-9a89-308ff47a769a/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260618/17/e2cd28a0-8c93-3eca-bf0e-b277f59847ae/1_org_zoom.jpg"
+      ],
+      "paths": [
+        "/tmp/estore-control-gallery-audit-20261023/69868a3b3b37360a2b62c624bcf4138aea83dd4fb1722e2ad63c367a5cffb3d1.img",
+        "/tmp/estore-control-gallery-audit-20261023/b050279cd2bcadd1f4731d822d04d551739a0c99f51ada19c3019766ef475689.img",
+        "/tmp/estore-control-gallery-audit-20261023/277e3ae31264e7d9bec5f0b82d39f4f55ba1417bc345077ef791c4fff863c094.img",
+        "/tmp/estore-control-gallery-audit-20261023/37ad74f8e9108e49ca5c22f2d31425815f60bc8c9bdfbd399a40c5ecf304ae59.img"
+      ],
+      "downloadStatus": "ok",
+      "sourcePath": "/tmp/estore-short-gallery-audit-20261024/cda8ccb8cfac323477478ce9d5903ed7bda0bd58dce1cff0b67f2bb75c2ea624.img",
+      "review": "/tmp/estore-short-gallery-audit-20261024/50427-repair-review.jpg",
+      "detail": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-77ef9983-35d5-4a09-b05d-93cfc1ba47a1.png",
+      "prompt": "Create ONE premium e-commerce fabric detail photograph, portrait 2:3. Reference is the exact actual bedding design. Preserve its precise printed motifs and palette without redesign. Tight close-up from above of a small area of printed duvet fabric, gently folded with realistic fine soft cotton-poly weave. Crop close enough that only a portion of the animal print and its background is visible, not a whole bed, not a pillow ensemble. Printed animals are flat textile prints, never living or raised objects. Soft neutral daylight. NO collage, inset, typography, logos, product claims, embroidery or quilting. This must be a distinct true fabric macro detail to complement full bed photos."
+    }
+  ],
+  "review": "Three generated detail photographs and all nine retained Control photos visually reviewed against own source. Four distinct product photographs per model.",
+  "prompts": [
+    "Create ONE premium e-commerce fabric detail photograph, portrait 2:3. Reference is the exact actual bedding design. Preserve its precise printed motifs and palette without redesign. Tight close-up from above of a small area of printed duvet fabric, gently folded with realistic fine soft cotton-poly weave. Crop close enough that only a portion of the animal print and its background is visible, not a whole bed, not a pillow ensemble. Printed animals are flat textile prints, never living or raised objects. Soft neutral daylight. NO collage, inset, typography, logos, product claims, embroidery or quilting. This must be a distinct true fabric macro detail to complement full bed photos.",
+    "Create ONE premium e-commerce fabric detail photograph, portrait 2:3. Reference is the exact actual bedding design. Preserve its precise printed motifs and palette without redesign. Tight close-up from above of a small area of printed duvet fabric, gently folded with realistic fine soft cotton-poly weave. Crop close enough that only a portion of the animal print and its background is visible, not a whole bed, not a pillow ensemble. Printed animals are flat textile prints, never living or raised objects. Soft neutral daylight. NO collage, inset, typography, logos, product claims, embroidery or quilting. This must be a distinct true fabric macro detail to complement full bed photos.",
+    "Create ONE premium e-commerce fabric detail photograph, portrait 2:3. Reference is the exact actual bedding design. Preserve its precise printed motifs and palette without redesign. Tight close-up from above of a small area of printed duvet fabric, gently folded with realistic fine soft cotton-poly weave. Crop close enough that only a portion of the animal print and its background is visible, not a whole bed, not a pillow ensemble. Printed animals are flat textile prints, never living or raised objects. Soft neutral daylight. NO collage, inset, typography, logos, product claims, embroidery or quilting. This must be a distinct true fabric macro detail to complement full bed photos."
+  ]
+}

@@ -8738,5 +8738,82 @@
       "111293": false
     },
     "checkedAt": "2026-10-24T01:26:53.325948+00:00"
+  },
+  {
+    "id": 46010,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d30/",
+    "costs": {
+      "46010": 171.0
+    },
+    "availability": {
+      "46010": true
+    },
+    "checkedAt": "2026-10-24T01:33:10.363616+00:00"
+  },
+  {
+    "id": 50412,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d52/",
+    "costs": {
+      "50412": 171.0
+    },
+    "availability": {
+      "50412": true
+    },
+    "checkedAt": "2026-10-24T01:33:10.363616+00:00"
+  },
+  {
+    "id": 50427,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d59/",
+    "costs": {
+      "50427": 171.0
+    },
+    "availability": {
+      "50427": true
+    },
+    "checkedAt": "2026-10-24T01:33:10.363616+00:00"
+  },
+  {
+    "id": 79628,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d88/",
+    "costs": {
+      "79628": 171.0
+    },
+    "availability": {
+      "79628": true
+    },
+    "checkedAt": "2026-10-24T01:40:35.796041+00:00"
+  },
+  {
+    "id": 96422,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph47/",
+    "costs": {
+      "96422": 141.0
+    },
+    "availability": {
+      "96422": true
+    },
+    "checkedAt": "2026-10-24T01:40:35.796041+00:00"
+  },
+  {
+    "id": 104819,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-fnt20/",
+    "costs": {
+      "104819": 127.0
+    },
+    "availability": {
+      "104819": true
+    },
+    "checkedAt": "2026-10-24T01:40:35.796041+00:00"
+  },
+  {
+    "id": 104727,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea/lenjerie-finet-6-piese-cu-husa-de-pat-pentru-saltea-de-160x200-si-180x200-tgrr3/",
+    "costs": {
+      "104727": 127.0
+    },
+    "availability": {
+      "104727": true
+    },
+    "checkedAt": "2026-10-24T01:40:35.796041+00:00"
   }
 ]
