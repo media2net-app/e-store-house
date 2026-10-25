@@ -9,6 +9,7 @@ import { useEffect, useRef, useState, type FormEvent } from "react";
 import { useCart } from "@/components/cart/CartProvider";
 import { formatProductPrice } from "@/lib/products";
 import { cartOffers } from "@/lib/cart-offers";
+import { shippingExplanation } from "@/lib/shipping-information";
 import { store } from "@/lib/store-info";
 import { type ShippingCarrier, type ShippingMethod, type ShippingOption } from "@/lib/shipping";
 import { shippingPaymentAvailable } from "@/lib/checkout-payment-options";
@@ -133,6 +134,15 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
     <h1 className="text-3xl font-semibold">Finalizarea comenzii</h1>
     {!items.length ? <p className="mt-6">Coșul este gol. <Link href="/shop" className="underline">Vezi produsele</Link></p> :
     <div className="mt-8">
+      <section className="checkout-overview" aria-labelledby="checkout-overview-title">
+        <h2 id="checkout-overview-title">Rezumatul comenzii</h2>
+        <p><span>{totals.quantity} {totals.quantity === 1 ? "articol" : "articole"} · Produse după reduceri</span><strong>{formatProductPrice(totals.totalCents / 100, "RON")}</strong></p>
+        <p><span>Transport</span><strong>{totals.freeShipping ? "Gratuit" : shippingCents === null ? "De confirmat" : formatProductPrice(shippingCents / 100, "RON")}</strong></p>
+        {shippingCents !== null && <p><span>Total de plată</span><strong>{formatProductPrice((totals.totalCents + shippingCents) / 100, "RON")}</strong></p>}
+        <details><summary>Vezi produsele și cantitățile</summary><ul>{items.map(item => <li key={item.productId}>{item.name} × {item.quantity} — {formatProductPrice(item.price * item.quantity, "RON")}</li>)}</ul><Link href="/cos">Modifică în coș</Link></details>
+        {!totals.freeShipping && <p className="checkout-shipping-explanation">{shippingExplanation}</p>}
+        {!totals.freeShipping && selectedShipping && (!selectedShipping.dynamic || paymentMethod === "cod") && <p className="checkout-shipping-explanation">Tarif pentru {selectedShipping.label}{paymentMethod === "cod" ? " cu ramburs" : ""}: {formatProductPrice(selectedShipping.priceRon, "RON")}, confirmat înainte de trimiterea comenzii.</p>}
+      </section>
       <form onSubmit={submit} className="space-y-5">
         <h2 className="text-xl font-semibold">Date de contact și livrare</h2>
         <div className="grid gap-4">
@@ -195,7 +205,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         <p className="mt-5 border-t border-[#c9bda9] pt-3 text-sm">Produse: {formatProductPrice(totals.subtotalCents / 100, "RON")}</p>
         {totals.discountCents ? <p className="mt-1 text-sm">Reducere −10%: −{formatProductPrice(totals.discountCents / 100, "RON")}</p> : null}
         {store.taxNotice ? <p className="mt-1 text-xs">{store.taxNotice}</p> : null}
-        <p className="mt-1 text-sm">Transport{selectedShipping ? ` prin ${selectedShipping.label}` : ""}: {shippingCents === null ? "în curs de stabilire" : shippingCents === 0 ? "Gratuit" : formatProductPrice(shippingCents / 100, "RON")}</p>
+        <p className="mt-1 text-sm">Transport{selectedShipping ? ` prin ${selectedShipping.label}` : ""}: {shippingCents === null ? (totals.freeShipping ? "Gratuit" : "în curs de stabilire") : shippingCents === 0 ? "Gratuit" : formatProductPrice(shippingCents / 100, "RON")}</p>
         {store.deliveryEstimate ? <p className="mt-1 text-sm">Termen estimat de livrare: {store.deliveryEstimate}</p> : null}
         {shippingCents !== null && <p className="mt-3 border-t border-[#c9bda9] pt-3 text-lg font-semibold">Total de plată: {formatProductPrice((totals.totalCents + shippingCents) / 100, "RON")}</p>}
       </section>

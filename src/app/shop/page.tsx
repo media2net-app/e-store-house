@@ -9,7 +9,7 @@ import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import TrustBar from "@/components/layout/TrustBar";
 import { allProducts } from "@/lib/products";
-import { matchesCatalogFilters, type CatalogFilterState } from "@/lib/catalog-filters";
+import { canonicalMaterial, matchesCatalogFilters, type CatalogFilterState } from "@/lib/catalog-filters";
 import type { Metadata } from "next";
 import { navigationGroups } from "@/lib/navigation-groups";
 import CategorySummary from "@/components/catalog/CategorySummary";
@@ -41,7 +41,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
   const query = typeof q === "string" ? q.trim().slice(0, 200) : "";
   const sort = typeof sortare === "string" && ["pret-crescator", "pret-descrescator", "nume"].includes(sortare) ? sortare : "nume";
   const filters: CatalogFilterState = {
-    material: typeof material === "string" ? material : "", culoare: typeof culoare === "string" ? culoare : "",
+    material: typeof material === "string" ? canonicalMaterial(material) : "", culoare: typeof culoare === "string" ? culoare : "",
     dimensiune: typeof dimensiune === "string" ? dimensiune : "", cearsaf: typeof cearsaf === "string" ? cearsaf : "",
     stoc: stoc === "da" ? "da" : "", pretMin: typeof pret_min === "string" ? pret_min : "",
     pretMax: typeof pret_max === "string" ? pret_max : "",

@@ -13,12 +13,17 @@ export default function Hero() {
   });
   const mobileBanner = getImageProps({src: "/editorial/produse-ambalate-mobile-v2.webp", alt: "", width: 684, height: 2048, sizes: "35vw"}).props;
   return <section className="home-shop-start" aria-label="Produse și inspirație pentru acasă">
+      <div className="home-start-message home-local-message">
+        <p className="eyebrow"><span className="home-ro-flag" aria-hidden="true"/> FABRICATE ÎN ROMÂNIA</p>
+        <h1>Din Pucioasa,<em>pentru casa ta.</em></h1>
+        <p>Susținem producătorii locali.</p>
+      </div>
     <div className="home-start-catalog">
       <h2 className="home-sale-title"><Link href="/shop?categorie=oferte" className="home-sale-link" aria-label="Vezi toate produsele Super Sale"><span>Super Sale</span><span className="home-sale-link-action">Vezi toate produsele <span aria-hidden="true">→</span></span></Link></h2>
       <nav className="home-mini-picks" aria-label="Selecție Super Sale">{saleSelection.map(({ id, label }) => {
         const product = getProductById(id);
         if (!product || product.inStock === false || product.tag !== "Super Sale") return null;
-        return <Link key={id} href={`/product/${product.id}`} aria-label={label}><Image src={product.image} alt="" width={180} height={150} sizes="(max-width:700px) 18vw, 20vw"/><span>{label}</span><span className="home-mini-pricing">{product.oldPrice && <del aria-label="Preț anterior">{formatProductPrice(product.oldPrice, product.currency)}</del>}<strong className="home-mini-price">{formatProductPriceRange(product)}</strong></span>{product.discount && <span className="sale-percent-badge">−{product.discount}%</span>}</Link>;
+        return <Link key={id} href={`/product/${product.id}`} aria-label={label}><Image src={product.image} alt="" width={180} height={150} sizes="(max-width:700px) 45vw, 20vw"/><span>{label}</span><span className="home-mini-pricing">{product.oldPrice && <del aria-label="Preț anterior">{formatProductPrice(product.oldPrice, product.currency)}</del>}<strong className="home-mini-price">{formatProductPriceRange(product)}</strong></span>{product.discount && <span className="sale-percent-badge">−{product.discount}%</span>}</Link>;
       })}</nav>
       </div>
       <nav className="home-mini-categories" aria-label="Categorii de produse">{navigationGroups.map(group => {
@@ -43,11 +48,6 @@ export default function Hero() {
       <Link href="/shop" className="button-primary home-start-more">Vezi toate produsele</Link>
     </div>
     <aside className="home-start-editorial">
-      <div className="home-start-message home-local-message">
-        <p className="eyebrow"><span className="home-ro-flag" aria-hidden="true"/> FABRICATE ÎN ROMÂNIA</p>
-        <h1>Din Pucioasa,<em>pentru casa ta.</em></h1>
-        <p>Susținem producătorii locali.</p>
-      </div>
       <Link href="/shop" className="home-packaged-scene" aria-label="Descoperă produsele pentru casă"><picture><source media="(max-width:700px)" srcSet={mobileBanner.srcSet} sizes="35vw"/><Image src="/editorial/produse-ambalate-pucioasa-v1.png" alt="Aranjament ilustrativ cu lenjerii în cutii cadou, saltea, halate, prosoape, perne și pilote ambalate" width={1024} height={1536} sizes="(max-width:700px) 32vw, 35vw" loading="eager" fetchPriority="high"/></picture></Link>
       <p className="home-start-note">Imagine de prezentare.</p>
     </aside>
