@@ -12,10 +12,10 @@ const sale=load('src/lib/super-sale.ts',{'@/data/super-sale.json':offers});
 const {allProducts}=load('src/lib/products.ts',{'./super-sale':sale,'@/data/quality-hold.json':[],'@/data/products.json':products,'./product-format':{}});
 const cartOffers=load('src/lib/cart-offers.ts',{});
 const {quoteCart}=load('src/lib/cart-quote.ts',{'server-only':{},'@/lib/cart-offers':cartOffers,'@/lib/products':{allProducts}});
-test('exactly 30 verified supplier +10% prices and unchanged regular products',()=>{
+test('exactly 30 verified campaign prices with additional 30% and unchanged regular products',()=>{
  assert.equal(validateSuperSale(products,offers,evidence),30);
  assert.equal(allProducts.filter(p=>p.tag==='Super Sale').length,30);
- for(const p of products){const actual=allProducts.find(x=>x.id===p.id),offer=offers.find(x=>x.id===p.id);if(!offer){assert.deepEqual(actual,p);continue;}assert.equal(actual.price,offer.price);assert.equal(actual.oldPrice,offer.referencePrice);assert.equal(actual.discount,Math.floor((1-actual.price/actual.oldPrice)*100));assert(actual.saleReferencePeriod);}
+ for(const p of products){const actual=allProducts.find(x=>x.id===p.id),offer=offers.find(x=>x.id===p.id);if(!offer){assert.deepEqual(actual,p);continue;}assert.equal(actual.price,offer.price);if(offer.price < offer.referencePrice){assert.equal(actual.oldPrice,offer.referencePrice);assert.equal(actual.discount,Math.floor((1-actual.price/actual.oldPrice)*100)||undefined);assert(actual.saleReferencePeriod);}else{assert.equal(actual.oldPrice,undefined);assert.equal(actual.discount,undefined);assert.equal(actual.saleReferencePeriod,undefined);}}
 });
 test('all promotion prices are charged on the server, with no extra second-item discount',()=>{
  for(const offer of offers){const q=quoteCart([{productId:offer.id,quantity:2}]);assert.equal(q.lines[0].price,offer.price);assert.equal(q.lines[0].superSale,true);assert.equal(q.totals.discountCents,0);assert.equal(q.totals.totalCents,Math.round(offer.price*100)*2);}

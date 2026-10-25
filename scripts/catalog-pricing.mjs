@@ -1,10 +1,11 @@
-// Merchant instruction, 25 October 2026: add 20% to the prior rounded website price.
-// Recompute both stages from supplier cost so repeated imports cannot compound the increase.
+// Merchant instruction, 26 October 2026: add another 30% to website prices.
+// Recompute all stages from supplier cost so imports cannot compound increases.
 export function supplierSalePrice(costRon) {
   if (!Number.isFinite(costRon) || costRon <= 0) throw new TypeError("A positive verified supplier cost is required.");
   const costCents = Math.round(costRon * 100);
   const previousPrice = Math.max(9, Math.ceil((costCents * 129 - 90000) / 100000) * 10 + 9);
-  return Math.ceil((previousPrice * 120 - 900) / 1000) * 10 + 9;
+  const basePrice = Math.ceil((previousPrice * 120 - 900) / 1000) * 10 + 9;
+  return Math.ceil((basePrice * 130 - 900) / 1000) * 10 + 9;
 }
 
 export function validateSupplierPrices(products, evidence) {
@@ -17,7 +18,7 @@ export function validateSupplierPrices(products, evidence) {
     for (const variant of variants) {
       if (seenSkus.has(variant.sku)) throw new Error(`Duplicate saleable SKU: ${variant.sku}`);
       seenSkus.add(variant.sku);
-      if (variant.price !== supplierSalePrice(source.costs[variant.sku])) throw new Error(`Price differs from supplier +29% rounded, then +20% rounded, ending in 9: ${variant.sku}`);
+      if (variant.price !== supplierSalePrice(source.costs[variant.sku])) throw new Error(`Price differs from supplier +29% rounded, then +20% rounded, then +30% rounded, ending in 9: ${variant.sku}`);
     }
     if (product.price !== Math.min(...variants.map((variant) => variant.price))) throw new Error(`Parent must use cheapest variant: ${product.id}`);
   }

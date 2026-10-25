@@ -9,8 +9,9 @@ export function applySuperSale(product: Product): Product {
   const offer = offers.find(entry => entry.id === product.id);
   if (!offer) return product;
   if (product.variants?.length || product.sku !== offer.sku) throw new Error(`Super Sale SKU changed: ${product.id}`);
-  return { ...product, price: offer.price, oldPrice: offer.referencePrice,
-    discount: Math.floor((1 - offer.price / offer.referencePrice) * 100),
-    saleReferencePeriod: `${offer.referenceFrom.split('-').reverse().join('.')}–${offer.referenceTo.split('-').reverse().join('.')}`,
+  const reduced = offer.price < offer.referencePrice;
+  return { ...product, price: offer.price, oldPrice: reduced ? offer.referencePrice : undefined,
+    discount: reduced ? Math.floor((1 - offer.price / offer.referencePrice) * 100) || undefined : undefined,
+    saleReferencePeriod: reduced ? `${offer.referenceFrom.split('-').reverse().join('.')}–${offer.referenceTo.split('-').reverse().join('.')}` : undefined,
     tag: 'Super Sale' };
 }

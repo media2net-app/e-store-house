@@ -7,8 +7,8 @@ export function validateSuperSale(products, offers, evidence) {
     assert(product && !product.variants?.length && product.sku===offer.sku,`Wrong campaign SKU ${offer.id}`);
     const cost=evidence.find(p=>p.id===offer.id)?.costs[offer.sku];
     assert.equal(offer.supplierCost,cost,`Supplier cost changed for ${offer.sku}`);
-    assert.equal(Math.round(offer.price*100),Math.round(cost*110),`Campaign markup differs from 10%: ${offer.sku}`);
-    assert(offer.price>0 && offer.referencePrice>offer.price && offer.referencePrice<=product.price,`Invalid reference price ${offer.sku}`);
+    assert.equal(Math.round(offer.price*100),Math.round(Math.round(cost*110)*130/100),`Campaign price differs from prior supplier +10% with additional +30%: ${offer.sku}`);
+    assert(offer.price>0 && offer.referencePrice>0 && offer.price<product.price,`Invalid reference price ${offer.sku}`);
     assert(/^\d{4}-\d{2}-\d{2}$/.test(offer.referenceFrom) && offer.referenceFrom<=offer.referenceTo && /^[a-f0-9]{40}$/.test(offer.referenceEvidence),'Missing historical evidence');
   }
   return offers.length;

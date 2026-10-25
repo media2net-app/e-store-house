@@ -31,7 +31,7 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
   const filtered = ['q','material','culoare','dimensiune','cearsaf','stoc','pret_min','pret_max','sortare'].some(key => Boolean(params[key as keyof ShopParams]));
   return {
     title, description: categorie === "oferte"
-      ? "Produse Super Sale cu preț redus direct. Nu se cumulează cu reducerea de 10% la al doilea produs."
+      ? "Descoperă selecția de produse Super Sale. Nu se cumulează cu reducerea de 10% la al doilea produs."
       : active ? `Descoperă ${active.name.toLocaleLowerCase("ro-RO")} în magazinul E-Store House.`
         : "Descoperă textile pentru casă disponibile în magazinul E-Store House.",
     alternates: { canonical }, robots: filtered ? { index: false, follow: true } : undefined,

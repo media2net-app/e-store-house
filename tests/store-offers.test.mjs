@@ -82,7 +82,7 @@ test("psychological prices remain exact when discount and shipping progress are 
   assert.equal(cartOffers([item(1, 229, 5)]).freeShipping, true);
 });
 
-test("application imports use supplier cost plus 29% rounded, then another 20% rounded", () => {
+test("application imports use supplier cost plus 29% rounded, then 20% and 30% rounded", () => {
   const audit = JSON.parse(readFileSync(new URL("../catalog-review/app-import-20261022.json", import.meta.url), "utf8"));
   const codes = new Set();
   for (const model of audit.models) {
@@ -92,7 +92,8 @@ test("application imports use supplier cost plus 29% rounded, then another 20% r
       const cost = model.supplierPrices[entry.sku];
       assert.ok(cost > 0 && Number.isFinite(cost));
       const previous = Math.ceil((Math.round(cost * 100) * 129 - 90000) / 100000) * 10 + 9;
-      const expected = Math.ceil((previous * 120 - 900) / 1000) * 10 + 9;
+      const base = Math.ceil((previous * 120 - 900) / 1000) * 10 + 9;
+      const expected = Math.ceil((base * 130 - 900) / 1000) * 10 + 9;
       assert.equal(entry.price, expected, `Wrong markup for ${entry.sku}`);
       assert.equal(codes.has(entry.sku), false, `Repeated variant ${entry.sku}`);
       codes.add(entry.sku);
