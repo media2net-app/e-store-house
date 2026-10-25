@@ -24572,5 +24572,59 @@
       }
     ],
     "fingerprint": "8db33aa14ff82d598fad0f81608d2b95fea48352499c326afa8b3d937402fd83"
+  },
+  {
+    "id": 83422,
+    "reviewedAt": "2026-10-25T09:32:04.129883+00:00",
+    "source": "control-alias-completed-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph23/",
+    "visualReview": "Own supplier reference compared with Control gallery to resolve wrong legacy code. 82422 maps to83422 (identical turquoise damask model, stripe pattern and source staging, verified six-piece dimensions/material);110881 maps to110887 (same cappuccino four-chair-cushion set and tufted construction). Current numeric supplier barcode independently verified in own HTML. Actual five generated photographs reviewed; Damasc generated views correct source decorative extra pillow to four included pillowcases. Two existing cushion photos and one Damasc frontal photo retained.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "/products/83422/hero-reviewed-v1.png",
+        "sha256": "00a0e104f9e3ecd13faa86405c25e45475a35e31923ab16ea14fa5bf8f0a1b32"
+      },
+      {
+        "url": "/products/83422/side-reviewed-v1.png",
+        "sha256": "c7395e540219371466d5d92e9eff88a8cddc1ee9d9c340ea708887fc4985d046"
+      },
+      {
+        "url": "/products/83422/detail-reviewed-v1.png",
+        "sha256": "3aab62a69d93438be09d2461c112beb573e328b549ad82cd89e51f8d6ae9650d"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260618/16/c3e8a25d-f496-3e33-8c7a-780c8e622c33/1_org_zoom.jpg",
+        "sha256": "525abba951f4c28fd2edb36f38536f74a640b18e7f9fd23b9ab86106391ea4af"
+      }
+    ],
+    "fingerprint": "ca0f2a0c9c0e411e1860cd4a511beab29b910d9aa58de0fe0f4d58dfb50d4f29"
+  },
+  {
+    "id": 110887,
+    "reviewedAt": "2026-10-25T09:32:04.129883+00:00",
+    "source": "control-alias-completed-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-cappucino/",
+    "visualReview": "Own supplier reference compared with Control gallery to resolve wrong legacy code. 82422 maps to83422 (identical turquoise damask model, stripe pattern and source staging, verified six-piece dimensions/material);110881 maps to110887 (same cappuccino four-chair-cushion set and tufted construction). Current numeric supplier barcode independently verified in own HTML. Actual five generated photographs reviewed; Damasc generated views correct source decorative extra pillow to four included pillowcases. Two existing cushion photos and one Damasc frontal photo retained.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260518/20/d6370781-0877-38a9-b247-6d1f3864a9f9/1_org_zoom.jpg",
+        "sha256": "03d5fafb341b3be0348fb4936710acff89e3a2978cff19f48986c2fc63b58ab0"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260518/20/61f10040-64ac-31a4-adba-e9aad31db30a/1_org_zoom.jpg",
+        "sha256": "4abc9793caf558e09186e073e57ca2584543bc1cf9333bedb1bd474689389f34"
+      },
+      {
+        "url": "/products/110887/overhead-reviewed-v1.png",
+        "sha256": "6d2fb8f3230e77ef3683692e99cd4039360641ee4e2ff5e919681301f2bed320"
+      },
+      {
+        "url": "/products/110887/detail-reviewed-v1.png",
+        "sha256": "855ae9a135b7ffb03d8dda376bab2fcfa0181e8f0aa8a7df6dd751107233b958"
+      }
+    ],
+    "fingerprint": "e8f4bf6980a9a38d8449be98fb795c78f711613ebdea3434e6a2c433a4a25db7"
   }
 ]

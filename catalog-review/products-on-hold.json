@@ -8134,49 +8134,6 @@
     {
       "status": "awaiting_rework_or_verification",
       "reasonCodes": [
-        "fewer_than_four_images"
-      ],
-      "product": {
-        "id": 110887,
-        "name": "Set 4 pernuțe scaun interior / exterior - cappucino",
-        "categoryPath": "terasa-si-gradina/pernute-scaun",
-        "brand": "Ralex Pucioasa",
-        "currency": "RON",
-        "image": "/products/set-4-pernute-scaun-interior-exterior-cappucino/local-31.webp",
-        "images": [
-          "/products/set-4-pernute-scaun-interior-exterior-cappucino/local-31.webp",
-          "/products/set-4-pernute-scaun-interior-exterior-cappucino/local-32.webp"
-        ],
-        "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-cappucino/",
-        "material": "Țesătură Oxford poliester; umplutură fulgi poliuretan",
-        "features": [
-          {
-            "label": "Dimensiune pernă",
-            "value": "40 × 40 × 7 cm"
-          },
-          {
-            "label": "Țesătură",
-            "value": "Oxford poliester 300 g/m²"
-          },
-          {
-            "label": "Umplutură",
-            "value": "Fulgi poliuretan"
-          },
-          {
-            "label": "Conținut",
-            "value": "4 pernuțe scaun"
-          }
-        ],
-        "description": "Set 4 pernuțe scaun interior / exterior - cappucino. Descriere produs: Set 4 perne pentru scaun Dimensiuni: 40 x 40 x 7 cm Material: țesătură Oxford poliester 300 g/mp Umplutură: fulgi poliuretan Utilizare: interior și exterior Design matlasat modern Confort ridicat și întreținere ușoară Conținut pachet: 4 pernuțe scaun.",
-        "category": "Pernuțe scaun interior / exterior",
-        "sku": "110887",
-        "price": 69,
-        "inStock": false
-      }
-    },
-    {
-      "status": "awaiting_rework_or_verification",
-      "reasonCodes": [
         "complete_current_estore_review_not_confirmed"
       ],
       "product": {

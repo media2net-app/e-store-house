@@ -37596,5 +37596,69 @@
     "price": 479,
     "stock": 10,
     "inStock": true
+  },
+  {
+    "id": 83422,
+    "sku": "83422",
+    "name": "Lenjerie Damasc Policoton 6DPH23, turcoaz, 6 piese, cu husă elastică",
+    "category": "Lenjerii pat damasc policoton 6 piese cu husa",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "80% poliester, 20% bumbac",
+    "description": "Lenjerie Damasc Policoton 6DPH23, turcoaz, 6 piese, cu husă elastică.\n\nMaterial: 80% poliester, 20% bumbac.\n\nConținut și dimensiuni: 1 husă universală pentru saltele de 160 × 200 × 24 cm sau 180 × 200 × 24 cm, 1 husă de pilotă 200 × 230 cm, 2 fețe de pernă 70 × 70 cm și 2 fețe de pernă 50 × 70 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph23/",
+    "images": [
+      "/products/83422/hero-reviewed-v1.png",
+      "/products/83422/side-reviewed-v1.png",
+      "/products/83422/detail-reviewed-v1.png",
+      "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260618/16/c3e8a25d-f496-3e33-8c7a-780c8e622c33/1_org_zoom.jpg"
+    ],
+    "image": "/products/83422/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "80% poliester, 20% bumbac"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 husă universală pentru saltele de 160 × 200 × 24 cm sau 180 × 200 × 24 cm, 1 husă de pilotă 200 × 230 cm, 2 fețe de pernă 70 × 70 cm și 2 fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "price": 189,
+    "stock": 50,
+    "inStock": true
+  },
+  {
+    "id": 110887,
+    "sku": "110887",
+    "name": "Set 4 pernuțe pentru scaun, cappuccino, 40 × 40 × 7 cm",
+    "category": "Pernuțe scaun interior / exterior",
+    "categoryPath": "terasa-si-gradina/pernute-scaun",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Țesătură Oxford din poliester, 300 g/m²; umplutură din fulgi de poliuretan",
+    "description": "Set 4 pernuțe pentru scaun, cappuccino, 40 × 40 × 7 cm.\n\nMaterial: Țesătură Oxford din poliester, 300 g/m²; umplutură din fulgi de poliuretan.\n\nConținut și dimensiuni: 4 pernuțe pentru scaun, fiecare de 40 × 40 × 7 cm. Potrivite pentru interior și exterior.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-cappucino/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260518/20/d6370781-0877-38a9-b247-6d1f3864a9f9/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260518/20/61f10040-64ac-31a4-adba-e9aad31db30a/1_org_zoom.jpg",
+      "/products/110887/overhead-reviewed-v1.png",
+      "/products/110887/detail-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260518/20/d6370781-0877-38a9-b247-6d1f3864a9f9/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură Oxford din poliester, 300 g/m²; umplutură din fulgi de poliuretan"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "4 pernuțe pentru scaun, fiecare de 40 × 40 × 7 cm. Potrivite pentru interior și exterior."
+      }
+    ],
+    "price": 79,
+    "stock": 98,
+    "inStock": false
   }
 ]

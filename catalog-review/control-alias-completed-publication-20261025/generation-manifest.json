@@ -1,0 +1,44 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "outputs": [
+    {
+      "id": 83422,
+      "view": "hero",
+      "prompt": "Premium ecommerce bedding photo, portrait2:3. Match exact vivid cyan turquoise tone and narrow woven damask stripe pattern of reference; same warm neutral bedroom aesthetic. Correct six-piece set: one fitted sheet, one duvet cover, FOUR pillowcases: two square70x70 behind and two rectangular50x70 in front. EXACTLY FOUR PILLOWS, no fifth bolster, no decorative cushion. Source shows extra staging pillow; omit that fifth pillow. No tray, no book on bed, no overlays, no text, no country badges. Full bed three-quarter hero view with fitted sheet edge visible and exactly four pillows counted.",
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-26fd13c8-fda0-4e0c-8c6c-0a8d86366e84.png"
+    },
+    {
+      "id": 83422,
+      "view": "side",
+      "prompt": "Premium ecommerce bedding photo, portrait2:3. Match exact vivid cyan turquoise tone and narrow woven damask stripe pattern of reference; same warm neutral bedroom aesthetic. Correct six-piece set: one fitted sheet, one duvet cover, FOUR pillowcases: two square70x70 behind and two rectangular50x70 in front. EXACTLY FOUR PILLOWS, no fifth bolster, no decorative cushion. Source shows extra staging pillow; omit that fifth pillow. No tray, no book on bed, no overlays, no text, no country badges. True side-on profile of full bed, camera perpendicular to long side, distinct from foot-facing hero. Preserve turquoise woven narrow stripes.",
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-389c99f4-dd56-485d-a886-095fbd18ce2e.png"
+    },
+    {
+      "id": 83422,
+      "view": "detail",
+      "prompt": "Premium ecommerce bedding photo, portrait2:3. Match exact vivid cyan turquoise tone and narrow woven damask stripe pattern of reference; same warm neutral bedroom aesthetic. Correct six-piece set: one fitted sheet, one duvet cover, FOUR pillowcases: two square70x70 behind and two rectangular50x70 in front. EXACTLY FOUR PILLOWS, no fifth bolster, no decorative cushion. Source shows extra staging pillow; omit that fifth pillow. No tray, no book on bed, no overlays, no text, no country badges. SINGLE uninterrupted tight macro photograph of fitted sheet stretching around one mattress corner and the nearby duvet fold, showing narrow satin/matte damask stripes and seam; no whole bed, no collage, no pillows.",
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-d7ed91f4-1527-4961-ace2-ff8e0e947e72.png"
+    },
+    {
+      "id": 110887,
+      "view": "overhead",
+      "prompt": "Premium ecommerce portrait2:3 photograph of exact cappuccino light greige square chair cushions from reference. Preserve woven Oxford fabric texture, softly rounded40x40cm square shape,7cm loft, four tufting points in a2x2 grid forming nine padded sections, matching color and edge construction. Neutral natural daylight, pale walnut or oak setting, no text, no labels, no flags, no collage. True perpendicular overhead view of EXACTLY FOUR identical cushions laid separately in a tidy2x2 arrangement on warm ivory stone patio floor; four complete cushions visible, no stacks, no extra cushion.",
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-312f2de7-14f5-41a3-86a7-a00204bf90ef.png"
+    },
+    {
+      "id": 110887,
+      "view": "detail",
+      "prompt": "Premium ecommerce portrait2:3 photograph of exact cappuccino light greige square chair cushions from reference. Preserve woven Oxford fabric texture, softly rounded40x40cm square shape,7cm loft, four tufting points in a2x2 grid forming nine padded sections, matching color and edge construction. Neutral natural daylight, pale walnut or oak setting, no text, no labels, no flags, no collage. SINGLE tight macro photograph of ONE cushion corner and adjacent tuft, showing real weave, edge seam and7cm loft; no whole cushion, no extra cushions, no inset panels.",
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-f92c8143-dca4-42c2-9ce4-fd317a07a8a8.png"
+    }
+  ],
+  "review": "Five actual generated images and three Control photos reviewed against own sources. Legacy aliases82422→83422 and110881→110887 resolved by product/design match; new supplier numeric barcodes verified.",
+  "prompts": [
+    "Premium ecommerce bedding photo, portrait2:3. Match exact vivid cyan turquoise tone and narrow woven damask stripe pattern of reference; same warm neutral bedroom aesthetic. Correct six-piece set: one fitted sheet, one duvet cover, FOUR pillowcases: two square70x70 behind and two rectangular50x70 in front. EXACTLY FOUR PILLOWS, no fifth bolster, no decorative cushion. Source shows extra staging pillow; omit that fifth pillow. No tray, no book on bed, no overlays, no text, no country badges. Full bed three-quarter hero view with fitted sheet edge visible and exactly four pillows counted.",
+    "Premium ecommerce bedding photo, portrait2:3. Match exact vivid cyan turquoise tone and narrow woven damask stripe pattern of reference; same warm neutral bedroom aesthetic. Correct six-piece set: one fitted sheet, one duvet cover, FOUR pillowcases: two square70x70 behind and two rectangular50x70 in front. EXACTLY FOUR PILLOWS, no fifth bolster, no decorative cushion. Source shows extra staging pillow; omit that fifth pillow. No tray, no book on bed, no overlays, no text, no country badges. True side-on profile of full bed, camera perpendicular to long side, distinct from foot-facing hero. Preserve turquoise woven narrow stripes.",
+    "Premium ecommerce bedding photo, portrait2:3. Match exact vivid cyan turquoise tone and narrow woven damask stripe pattern of reference; same warm neutral bedroom aesthetic. Correct six-piece set: one fitted sheet, one duvet cover, FOUR pillowcases: two square70x70 behind and two rectangular50x70 in front. EXACTLY FOUR PILLOWS, no fifth bolster, no decorative cushion. Source shows extra staging pillow; omit that fifth pillow. No tray, no book on bed, no overlays, no text, no country badges. SINGLE uninterrupted tight macro photograph of fitted sheet stretching around one mattress corner and the nearby duvet fold, showing narrow satin/matte damask stripes and seam; no whole bed, no collage, no pillows.",
+    "Premium ecommerce portrait2:3 photograph of exact cappuccino light greige square chair cushions from reference. Preserve woven Oxford fabric texture, softly rounded40x40cm square shape,7cm loft, four tufting points in a2x2 grid forming nine padded sections, matching color and edge construction. Neutral natural daylight, pale walnut or oak setting, no text, no labels, no flags, no collage. True perpendicular overhead view of EXACTLY FOUR identical cushions laid separately in a tidy2x2 arrangement on warm ivory stone patio floor; four complete cushions visible, no stacks, no extra cushion.",
+    "Premium ecommerce portrait2:3 photograph of exact cappuccino light greige square chair cushions from reference. Preserve woven Oxford fabric texture, softly rounded40x40cm square shape,7cm loft, four tufting points in a2x2 grid forming nine padded sections, matching color and edge construction. Neutral natural daylight, pale walnut or oak setting, no text, no labels, no flags, no collage. SINGLE tight macro photograph of ONE cushion corner and adjacent tuft, showing real weave, edge seam and7cm loft; no whole cushion, no extra cushions, no inset panels."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "preparedAt": "2026-10-25T09:32:04.129883+00:00",
+  "products": [
+    {
+      "id": 83422,
+      "skus": [
+        "83422"
+      ],
+      "status": "verified-ready"
+    },
+    {
+      "id": 110887,
+      "skus": [
+        "110887"
+      ],
+      "status": "verified-ready"
+    }
+  ],
+  "newModels": 2,
+  "newSkus": 2
+}

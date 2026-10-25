@@ -9718,5 +9718,27 @@
       "15535": true
     },
     "checkedAt": "2026-10-25T09:27:17.017087+00:00"
+  },
+  {
+    "id": 83422,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph23/",
+    "costs": {
+      "83422": 141.0
+    },
+    "availability": {
+      "83422": true
+    },
+    "checkedAt": "2026-10-25T09:32:04.129883+00:00"
+  },
+  {
+    "id": 110887,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/pernute-scaun/set-4-pernute-scaun-interior-exterior-cappucino/",
+    "costs": {
+      "110887": 54.0
+    },
+    "availability": {
+      "110887": false
+    },
+    "checkedAt": "2026-10-25T09:32:04.129883+00:00"
   }
 ]
