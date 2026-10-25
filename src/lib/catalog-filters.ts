@@ -53,16 +53,33 @@ export function facetOptions(products: Product[]) {
   };
 }
 
-export function matchesCatalogFilters(product: Product, filters: CatalogFilterState) {
-  const facets = productFacets(product);
-  const price = product.variants?.length ? Math.min(...product.variants.map((variant) => variant.price)) : product.price;
+/** Restrict price, size and stock to the same purchasable configuration. */
+export function matchingCatalogVariants(product: Product, filters: CatalogFilterState) {
   const min = filters.pretMin === "" ? null : Number(filters.pretMin);
   const max = filters.pretMax === "" ? null : Number(filters.pretMax);
+  const validPrice = (price: number) => (min === null || Number.isFinite(min) && min >= 0 && price >= min)
+    && (max === null || Number.isFinite(max) && max >= 0 && price <= max);
+  const available = (stock?: boolean) => filters.stoc !== "da" || product.inStock !== false && stock !== false;
+  const dimensions = productFacets(product).dimensiuni;
+  return (product.variants?.length ? product.variants : [{ id: product.id, price: product.price, dimensions: '', inStock: product.inStock }]).filter(variant =>
+    validPrice(variant.price) && available(variant.inStock)
+    && (!filters.dimensiune || (product.variants?.length ? variant.dimensions === filters.dimensiune : dimensions.includes(filters.dimensiune))));
+}
+
+export function matchesCatalogFilters(product: Product, filters: CatalogFilterState) {
+  const facets = productFacets(product);
   return (!filters.material || facets.material === canonicalMaterial(filters.material))
     && (!filters.culoare || facets.culoare === filters.culoare)
-    && (!filters.dimensiune || facets.dimensiuni.includes(filters.dimensiune))
     && (!filters.cearsaf || facets.cearsaf === filters.cearsaf)
-    && (filters.stoc !== "da" || (product.inStock !== false && (!product.variants?.length || product.variants.some((variant) => variant.inStock !== false))))
-    && (min === null || Number.isFinite(min) && min >= 0 && price >= min)
-    && (max === null || Number.isFinite(max) && max >= 0 && price <= max);
+    && matchingCatalogVariants(product, filters).length > 0;
+}
+
+/** Send the filter dialog only the fields it needs, without galleries or long product copy. */
+export function compactFilterProduct(product: Product): Product {
+  const facets = productFacets(product);
+  return { id: product.id, name: facets.cearsaf === 'Cu elastic' ? 'cearșaf cu elastic' : facets.cearsaf === 'Simplu' ? 'cearșaf simplu' : '',
+    category: '', price: product.price, currency: product.currency, image: '', images: [], externalUrl: '',
+    material: facets.material, inStock: product.inStock,
+    features: [{ label: 'Culoare', value: facets.culoare }, ...(product.variants?.length ? [] : facets.dimensiuni).map(value => ({ label: 'Dimensiune', value }))],
+    variants: product.variants?.map(v => ({ id: v.id, name: '', dimensions: v.dimensions, price: v.price, inStock: v.inStock, sku: '', contents: '' })) };
 }

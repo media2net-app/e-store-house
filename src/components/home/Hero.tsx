@@ -17,13 +17,14 @@ export default function Hero() {
         <p className="eyebrow"><span className="home-ro-flag" aria-hidden="true"/> FABRICATE ÎN ROMÂNIA</p>
         <h1>Din Pucioasa,<em>pentru casa ta.</em></h1>
         <p>Susținem producătorii locali.</p>
+        <Link href="/ghid-dimensiuni" className="button-primary home-finder-button">Găsește lenjeria potrivită <span aria-hidden="true">→</span></Link>
       </div>
     <div className="home-start-catalog">
       <h2 className="home-sale-title"><Link href="/shop?categorie=oferte" className="home-sale-link" aria-label="Vezi toate produsele Super Sale"><span>Super Sale</span><span className="home-sale-link-action">Vezi toate produsele <span aria-hidden="true">→</span></span></Link></h2>
-      <nav className="home-mini-picks" aria-label="Selecție Super Sale">{saleSelection.map(({ id, label }) => {
+      <nav className="home-mini-picks" aria-label="Selecție Super Sale">{saleSelection.map(({ id, label }, index) => {
         const product = getProductById(id);
         if (!product || product.inStock === false || product.tag !== "Super Sale") return null;
-        return <Link key={id} href={`/product/${product.id}`} aria-label={label}><Image src={product.image} alt="" width={180} height={150} sizes="(max-width:700px) 45vw, 20vw"/><span>{label}</span><span className="home-mini-pricing">{product.oldPrice && <del aria-label="Preț anterior">{formatProductPrice(product.oldPrice, product.currency)}</del>}<strong className="home-mini-price">{formatProductPriceRange(product)}</strong></span>{product.discount && <span className="sale-percent-badge">−{product.discount}%</span>}</Link>;
+        return <Link key={id} href={`/product/${product.id}`} aria-label={label}><Image src={product.image} alt="" width={180} height={150} loading={index < 2 ? "eager" : "lazy"} fetchPriority={index === 0 ? "high" : "auto"} sizes="(max-width:700px) 45vw, 20vw"/><span>{label}</span><span className="home-mini-pricing">{product.oldPrice && <del aria-label="Preț anterior">{formatProductPrice(product.oldPrice, product.currency)}</del>}<strong className="home-mini-price">{formatProductPriceRange(product)}</strong></span>{product.discount && <span className="sale-percent-badge">−{product.discount}%</span>}</Link>;
       })}</nav>
       </div>
       <nav className="home-mini-categories" aria-label="Categorii de produse">{navigationGroups.map(group => {

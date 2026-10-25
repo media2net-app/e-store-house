@@ -4,11 +4,24 @@ export const normalizeSearch = (text: string) => text.normalize("NFD")
   .replace(/[\u0300-\u036f]/g, "")
   .toLocaleLowerCase("ro-RO")
   .replace(/(\d)\s*[x×]\s*(\d)/g, "$1x$2");
+const searchAliases: Record<string, string> = { cearceaf: 'cearsaf', cearceafuri: 'cearsaf', cearsafuri: 'cearsaf', lenjerii: 'lenjer', lenjerie: 'lenjer' };
+const searchWords = (query: string) => normalizeSearch(query).split(/\s+/).filter(Boolean).map(word => searchAliases[word] || word);
+/** Suggestions are explicit links; never silently alter numeric SKUs or measurements. */
+export function suggestSearch(query: string) {
+  const typos: Record<string, string> = { lenjrie: 'lenjerie', lenjeriee: 'lenjerie', lenjerrie: 'lenjerie', bumbak: 'bumbac', cersaf: 'cearșaf', pilta: 'pilotă' };
+  let changed = false;
+  const words = normalizeSearch(query).split(/\s+/).filter(Boolean).map(word => {
+    if (typos[word]) { changed = true; return typos[word]; }
+    return word;
+  });
+  return changed ? words.join(' ') : null;
+}
 export function matchesSearch(product: Product, query: string) {
   const text = normalizeSearch([product.name, product.category, product.brand, product.material, product.sku,
     ...(product.features?.flatMap((feature) => [feature.label, feature.value]) ?? []),
     ...(product.variants?.flatMap((variant) => [variant.sku, variant.name, variant.dimensions, variant.contents]) ?? [])].join(" "));
-  return normalizeSearch(query).split(/\s+/).filter(Boolean).every((word) => text.includes(word));
+  const searchable = searchWords(text).join(" ");
+  return searchWords(query).every((word) => searchable.includes(word));
 }
 const root = (product: Product) => product.categoryPath?.split("/")[0] ?? product.category;
 const sameKind = (a: Product, b: Product) => root(a) === root(b)

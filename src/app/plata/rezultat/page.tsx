@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { clearCheckoutDraft } from "@/lib/checkout-draft";
 import { useEffect, useState } from "react";
 import { store } from "@/lib/store-info";
 import { formatProductPrice } from "@/lib/product-format";
@@ -30,10 +31,12 @@ export default function PaymentResultPage() {
           setStatus("Anularea comenzii este în verificare. Contactează magazinul pentru confirmare; nu iniția o nouă plată."); return;
         }
         if (order.paymentMethod === "cod" && order.status === "pending_cod") {
+          clearCheckoutDraft();
           setStatus(`Comanda a fost înregistrată. Vei achita ${formatProductPrice(order.totalCents / 100, "RON")} ${order.shippingMethod === "easybox" ? "cu cardul la easybox, la ridicarea coletului. Nu se acceptă numerar la easybox." : "la curier, la livrarea la domiciliu."}`);
           return;
         }
         if (order.status === "paid_review") {
+          clearCheckoutDraft();
           setStatus("Plata a fost confirmată. Verificăm tranzacția înainte de expediere.");
           return;
         }

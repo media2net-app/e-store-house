@@ -1,11 +1,13 @@
 "use client";
 
 import Link from "next/link";
+import { useCheckoutDraft } from '@/components/cart/useCheckoutDraft';
+import { clearCheckoutDraft } from '@/lib/checkout-draft';
 import Image from "next/image";
 import AddressLocalityFields from "@/components/cart/AddressLocalityFields";
 import EasyboxSelector from "@/components/cart/EasyboxSelector";
 import type { SamedayLocker } from "@/lib/sameday-protocol";
-import { useEffect, useRef, useState, type FormEvent } from "react";
+import { useEffect, useRef, useState, type FormEvent, type SetStateAction } from "react";
 import { useCart } from "@/components/cart/CartProvider";
 import { formatProductPrice } from "@/lib/products";
 import { cartOffers } from "@/lib/cart-offers";
@@ -27,15 +29,18 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [fieldErrors, setFieldErrors] = useState<Record<string,string>>({});
-  const [separateBilling, setSeparateBilling] = useState(false);
+  const [draft, setDraft] = useCheckoutDraft();
+  const { customer: customerDraft, billing: billingDraft, separateBilling } = draft;
+  const setSeparateBilling = (value: boolean) => setDraft(current => ({ ...current, separateBilling: value }));
+  const setCustomerDraft = (update: SetStateAction<Record<string, string>>) => setDraft(current => ({ ...current, customer: typeof update === 'function' ? update(current.customer) : update }));
+  const billingLocation = { county: billingDraft.billingCounty || '', city: billingDraft.billingCity || '' };
+  const setBillingLocation = (value: { county: string; city: string }) => setDraft(current => ({ ...current, billing: { ...current.billing, billingCounty: value.county, billingCity: value.city } }));
   const [shippingLocationValid, setShippingLocationValid] = useState(false);
-  const [billingLocation, setBillingLocation] = useState({ county: "", city: "" });
   const defaultShipping = shippingOptions.find((option) => shippingPaymentAvailable(option, cardEnabled, codEnabled)) || shippingOptions[0];
   const [carrier, setCarrier] = useState<ShippingCarrier | null>(defaultShipping?.carrier ?? null);
   const [method, setMethod] = useState<ShippingMethod>(defaultShipping?.method || "home");
   const [locker, setLocker] = useState<SamedayLocker | null>(null);
   const [easyboxCartKey, setEasyboxCartKey] = useState("");
-  const [customerDraft, setCustomerDraft] = useState<Record<string, string>>({});
   const [rateResult, setRateResult] = useState<{ key: string; token?: string; cents?: number; expiresAt?: number; totals?: ReturnType<typeof cartOffers>; error?: string } | null>(null);
   const [rateRefresh, setRateRefresh] = useState(0);
   const intentRef = useRef<{ checkoutKey: string; id: string } | null>(null);
@@ -112,7 +117,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         try { localStorage.removeItem("estore-cart-v1"); } catch { /* The in-memory cart can still be cleared. */ }
         try { sessionStorage.removeItem("estore-checkout-intent"); } catch { /* A subsequent order uses a fresh intent when storage is available. */ }
         intentRef.current = null;
-        clearCart(); window.location.assign(result.redirectUrl); return;
+        clearCheckoutDraft(); clearCart(); window.location.assign(result.redirectUrl); return;
       }
       if (!response.ok || result.url !== "https://secure.euplatesc.ro/tdsprocess/tranzactd.php" || !result.fields) throw new Error(result.error || "Comanda nu poate fi trimisă acum.");
       const form = document.createElement("form");
@@ -149,7 +154,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
           {fields.filter(([name]) => name !== "city").map(([name, label]) => name === "county" ?
             <AddressLocalityFields key={name} county={customerDraft.county || ""} city={customerDraft.city || ""}
               onChange={(county, city) => setCustomerDraft(value => ({ ...value, county, city }))} onValidityChange={setShippingLocationValid} /> : <label key={name} className="block text-sm font-medium">{label}
-            <input className="mt-1 w-full rounded-lg border border-[#c9bda9] bg-white px-3 py-3" name={name}
+            <input className="mt-1 w-full rounded-lg border border-[#c9bda9] bg-white px-3 py-3" name={name} value={customerDraft[name] || ""}
               type={name === "email" ? "email" : name === "phone" ? "tel" : "text"}
               autoComplete={({ firstName: "given-name", lastName: "family-name", email: "email", phone: "tel", address: "street-address", city: "address-level2", county: "address-level1", postalCode: "postal-code" })[name]}
               aria-invalid={Boolean(fieldErrors[name])} aria-describedby={fieldErrors[name] ? `error-${name}` : undefined}
@@ -197,7 +202,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         {separateBilling ? <div className="grid gap-4 rounded-xl border border-[#c9bda9] p-4">
           {[["billingName", "Nume pentru facturare"], ["billingAddress", "Adresă de facturare"], ["billingCity", "Localitate"], ["billingCounty", "Județ"], ["billingPostalCode", "Cod poștal"], ["billingCompany", "Denumire firmă (opțional)"], ["billingCui", "CUI (opțional)"]].filter(([name]) => name !== "billingCity").map(([name, label]) => name === "billingCounty" ?
             <AddressLocalityFields key={name} billing county={billingLocation.county} city={billingLocation.city}
-              onChange={(county, city) => setBillingLocation({ county, city })} /> : <label key={name} className="block text-sm font-medium">{label}<input name={name} required={!name.endsWith("Company") && !name.endsWith("Cui")} maxLength={name === "billingCui" ? 24 : 200} className="mt-1 w-full rounded-lg border border-[#c9bda9] bg-white px-3 py-3" /></label>)}
+              onChange={(county, city) => setBillingLocation({ county, city })} /> : <label key={name} className="block text-sm font-medium">{label}<input name={name} value={billingDraft[name] || ""} onChange={event => setDraft(current => ({ ...current, billing: { ...current.billing, [name]: event.target.value } }))} required={!name.endsWith("Company") && !name.endsWith("Cui")} maxLength={name === "billingCui" ? 24 : 200} className="mt-1 w-full rounded-lg border border-[#c9bda9] bg-white px-3 py-3" /></label>)}
         </div> : null}
       <section className="self-start rounded-xl bg-[#f8f4ec] p-5">
         <h2 className="text-xl font-semibold">Comanda ta</h2>

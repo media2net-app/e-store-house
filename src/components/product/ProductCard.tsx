@@ -3,9 +3,9 @@ import Link from "next/link";
 import type { Product } from "@/lib/products";
 import { formatProductPrice, formatProductPriceRange } from "@/lib/product-format";
 
-export default function ProductCard({ product, reason }: { product: Product; reason?: string }) {
-  return <Link href={"/product/" + product.id} className="catalog-card catalog-card-link" aria-label={product.name + " — " + formatProductPriceRange(product)}>
-    <div className="catalog-card-image"><Image src={product.image} alt={product.name} loading="lazy" width={400} height={600} sizes="(max-width: 700px) 45vw, (max-width: 1000px) 30vw, 300px" />{product.discount && <span className="sale-percent-badge">−{product.discount}%</span>}</div>
+export default function ProductCard({ product, reason, priority = false, variantId }: { product: Product; reason?: string; priority?: boolean; variantId?: number }) {
+  return <Link href={"/product/" + product.id + (variantId ? `?varianta=${variantId}` : "")} className="catalog-card catalog-card-link" aria-label={product.name + " — " + formatProductPriceRange(product)}>
+    <div className="catalog-card-image"><Image src={product.image} alt={product.name} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : "auto"} width={400} height={600} sizes="(max-width: 700px) 45vw, (max-width: 1000px) 30vw, 300px" />{product.discount && <span className="sale-percent-badge">−{product.discount}%</span>}</div>
     <div className="catalog-card-copy">
 
       <h3>{product.name}</h3>

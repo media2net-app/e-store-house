@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  images: { remotePatterns: [
+  images: { formats: ["image/avif", "image/webp"], remotePatterns: [
     { protocol: "https", hostname: "cdn.dsmcdn.com", port: "", pathname: "/**", search: "" },
     { protocol: "https", hostname: "raw.githubusercontent.com", pathname: "/media2net-app/**" },
     { protocol: "https", hostname: "www.estorehouse.ro", pathname: "/**" },
