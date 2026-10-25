@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-25T09:37:43.748702+00:00",
+  "results": [
+    {
+      "controlSku": "109967",
+      "url": "https://ralexpucioasa.ro/wp-json/wc/store/v1/products/109967",
+      "httpStatus": 404,
+      "supplierName": null,
+      "errorCode": "woocommerce_rest_product_invalid_id"
+    },
+    {
+      "controlSku": "109987",
+      "url": "https://ralexpucioasa.ro/wp-json/wc/store/v1/products/109987",
+      "httpStatus": 404,
+      "supplierName": null,
+      "errorCode": "woocommerce_rest_product_invalid_id"
+    },
+    {
+      "controlSku": "110037",
+      "url": "https://ralexpucioasa.ro/wp-json/wc/store/v1/products/110037",
+      "httpStatus": 404,
+      "supplierName": null,
+      "errorCode": "woocommerce_rest_product_invalid_id"
+    },
+    {
+      "controlSku": "109657",
+      "url": "https://ralexpucioasa.ro/wp-json/wc/store/v1/products/109657",
+      "httpStatus": 404,
+      "supplierName": null,
+      "errorCode": "woocommerce_rest_product_invalid_id"
+    },
+    {
+      "controlSku": "109992",
+      "url": "https://ralexpucioasa.ro/wp-json/wc/store/v1/products/109992",
+      "httpStatus": 404,
+      "supplierName": null,
+      "errorCode": "woocommerce_rest_product_invalid_id"
+    },
+    {
+      "controlSku": "110032",
+      "url": "https://ralexpucioasa.ro/wp-json/wc/store/v1/products/110032",
+      "httpStatus": 404,
+      "supplierName": null,
+      "errorCode": "woocommerce_rest_product_invalid_id"
+    },
+    {
+      "controlSku": "101838",
+      "url": "https://ralexpucioasa.ro/wp-json/wc/store/v1/products/101838",
+      "httpStatus": 404,
+      "supplierName": null,
+      "errorCode": "woocommerce_rest_product_invalid_id"
+    }
+  ],
+  "note": "Store API missing numeric endpoint does not independently prove a variant is unavailable; exact parent/color mapping is still required."
+}

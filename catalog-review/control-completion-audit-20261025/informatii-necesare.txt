@@ -1,0 +1,62 @@
+E-STORE HOUSE — completarea catalogului existent în Store Control
+25 octombrie 2026
+
+Se publică numai produsele deja existente în Store Control. Nu se adaugă produse doar din catalogul Ralex pentru atingerea unui număr-țintă.
+
+Catalog publicat și verificat live: 810 modele distincte și 1.226 SKU-uri.
+În această etapă: 10 modele și 43 SKU-uri adăugate, inclusiv 32 de variante Jersey fără fețe de pernă.
+Toate cele 18 pagini noi sau actualizate și cele 31 de imagini noi au fost verificate live, fără erori.
+
+INFORMAȚII NECESARE DE LA FURNIZOR
+
+1. Percale: pentru cele 20 de variante cu husă elastică, confirmarea dimensiunii 180 × 200 + 25 cm. Control indică această dimensiune; pagina furnizorului o omite.
+2. Crăciun F-XMAS46, F-XMAS47, F-XMAS84, F-XMAS85, F-XMAS91 și F-XMAS95: compoziția procentuală a fibrelor.
+3. Nimbus 102847: culoarea livrată și fotografia produsului efectiv. În referință apar alb și gri.
+4. Pilotă 64397: fotografia pilotei. Sursa actuală arată o lenjerie montată pe pat, nu construcția pilotei.
+5. Deep Sleep 95893: confirmarea dimensiunii 50 × 70 cm. Sursa confirmă compoziția, dar omite dimensiunea.
+6. Prosop Luxury gri 102921: codul actual și confirmarea culorii. Referința alternativă găsită este albastră.
+7. Șezlonguri 109967, 109987, 110037, 109657, 109992 și 110032: corespondența cu codurile actuale ale furnizorului. Codurile vechi nu se regăsesc în catalog. Există modele vizual apropiate, dar similitudinea nu confirmă sigur identitatea.
+8. Boutique 106354 și 71769: fotografii proprii sau confirmarea identității. Furnizorul folosește fotografii identice cu unele modele deja publicate.
+9. Economy 101838: linkul sau codul actual. Vechiul endpoint nu mai există.
+
+CELE 39 DE POZIȚII DIN CONTROL RĂMASE DE CONFIRMAT
+
+102847 — Pernă Nimbus MicroGel, 50 × 70 cm, 1.250 g
+106354 — Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Roz
+102921 — Set de 2 prosoape de bumbac premium pentru hotel, 100% bumbac, 600g/m2, 70x140cm + 50x90cm, Fabricat în România
+109967 — Saltea șezlong premium cu 2 secțiuni, husă detașabilă, pentru interior/exterior, fabricată în România
+109987 — Saltea premium pentru șezlong cu 2 segmente, husă detașabilă, pentru interior/exterior, fabricată în România
+110037 — Saltea șezlong premium cu 2 secțiuni, husă detașabilă, pentru interior/exterior, fabricată în România
+109992 — Saltea premium pentru șezlong cu 2 segmente, husă detașabilă, pentru interior/exterior, fabricată în România
+110032 — Saltea premium pentru șezlong, cu 2 segmente, husă detașabilă, pentru interior/exterior, fabricată în România
+95893 — Pernă premium cu puf de gâscă 50x70 cm, 100% bumbac, Fabricată în România
+64397 — Pilotă cu umplutură din puf de gâscă 80%, 200 × 230 cm
+71769 — Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Roșu
+80631 — Lenjerie de pat Finet de Crăciun F-XMAS46, 6 piese
+80632 — Lenjerie de pat Finet de Crăciun F-XMAS47, 6 piese
+81824 — Lenjerie de pat Finet de Crăciun F-XMAS84, 6 piese
+81825 — Lenjerie de pat Finet de Crăciun F-XMAS85, 6 piese
+81831 — Lenjerie de pat Finet de Crăciun F-XMAS91, 6 piese
+81835 — Lenjerie de pat Finet de Crăciun F-XMAS95, 6 piese
+94752 — Set de lenjerie de pat din percal, 100% bumbac, PRC181, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94757 — Set de lenjerie de pat din percal, 100% bumbac, PRC182, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94762 — Lenjerie de pat din percal, 100% bumbac, PRC183, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94767 — Set de lenjerie de pat din percal, 100% bumbac, PRC184, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94772 — Lenjerie de pat din percal, 100% bumbac, PRC185, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94777 — Lenjerie de pat Percale, 100% bumbac, PRC186, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94782 — Lenjerie de pat din percal, 100% bumbac, PRC187, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94787 — Lenjerie de pat Percale, 100% bumbac, PRC188, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94792 — Lenjerie de pat din percal, 100% bumbac, PRC189, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94802 — Lenjerie de pat din percal, 100% bumbac, PRC191, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94807 — Set de lenjerie de pat din percal, 100% bumbac, PRC192, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94812 — Lenjerie de pat Percale, 100% bumbac, PRC193, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94817 — Set de lenjerie de pat din percal, 100% bumbac, PRC194, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94822 — Lenjerie de pat din percal, 100% bumbac, PRC195, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94832 — Set de lenjerie de pat din percal, 100% bumbac, PRC197, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94837 — Lenjerie de pat din percal, 100% bumbac, PRC198, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94847 — Set de lenjerie de pat din percal, 100% bumbac, PRC200, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94852 — Set de lenjerie de pat din percal, 100% bumbac, PRC201, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94857 — Set de lenjerie de pat din percal, 100% bumbac, PRC202, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+94862 — Set de lenjerie de pat din percal, 100% bumbac, PRC203, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm
+101838 — Lenjerie pat 6 piese cu elastic pentru Pat 160 si 180, microfibră soft, Made in Romania
+109657 — Saltea premium pentru șezlong cu 2 segmente, husă detașabilă, pentru interior/exterior, fabricată în România
