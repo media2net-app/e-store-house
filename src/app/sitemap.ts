@@ -6,7 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://www.estorehouse.ro";
   const pages = ["/", "/shop", "/categorii", "/ghid-dimensiuni", "/promotii", "/livrare-retur", "/informatii-clienti", "/termeni-si-conditii", "/confidentialitate", "/cookie-uri", "/retragere", "/reclamatii", "/garantie-legala"];
   return [
-    ...pages.map((path) => ({ url: `${base}${path}` })),
+    ...pages.map((path) => ({ url: `${base}${path}`, ...(path === "/ghid-dimensiuni" ? { lastModified: "2026-10-26" } : {}) })),
     ...categories.filter((category) => categoryCount(category.path) > 0).map((category) => ({ url: `${base}/shop?categorie=${encodeURIComponent(category.path)}` })),
     ...allProducts.map((product) => ({ url: `${base}/product/${product.id}` })),
   ];
