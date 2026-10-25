@@ -1,3 +1,4 @@
+import BeddingFinderLink from '@/components/catalog/BeddingFinderLink';
 import Image, { getImageProps } from "next/image";
 import { categoryProducts } from "@/lib/categories";
 import { navigationGroups, groupHref } from "@/lib/navigation-groups";
@@ -17,7 +18,7 @@ export default function Hero() {
         <p className="eyebrow"><span className="home-ro-flag" aria-hidden="true"/> FABRICATE ÎN ROMÂNIA</p>
         <h1>Din Pucioasa,<em>pentru casa ta.</em></h1>
         <p>Susținem producătorii locali.</p>
-        <Link href="/ghid-dimensiuni" className="button-primary home-finder-button">Găsește lenjeria potrivită <span aria-hidden="true">→</span></Link>
+        <BeddingFinderLink className="home-finder-button"/>
       </div>
     <div className="home-start-catalog">
       <h2 className="home-sale-title"><Link href="/shop?categorie=oferte" className="home-sale-link" aria-label="Vezi toate produsele Super Sale"><span>Super Sale</span><span className="home-sale-link-action">Vezi toate produsele <span aria-hidden="true">→</span></span></Link></h2>

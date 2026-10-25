@@ -1,3 +1,4 @@
+import BeddingFinderLink from '@/components/catalog/BeddingFinderLink';
 import FilterPanel from "@/components/catalog/FilterPanel";
 import ProductCard from "@/components/product/ProductCard";
 import { matchesSearch, suggestSearch } from "@/lib/discovery";
@@ -105,7 +106,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
         </p> : null}
 
         {subcategories.length > 0 && <nav className="subcategory-links" aria-label="Subcategorii">{subcategories.map(c=><Link key={c.path} href={categoryHref(c.path)}><span>{c.name}</span><CategorySummary path={c.path}/></Link>)}</nav>}
-        {active?.path.startsWith("lenjerii-de-pat") && <Link href="/ghid-dimensiuni" className="button-primary category-finder-button">Găsește lenjeria potrivită →</Link>}
+        {active?.path.startsWith("lenjerii-de-pat") && <BeddingFinderLink className="category-finder-button"/>}
         <FilterPanel key={JSON.stringify(filters)+query+(categorie??'')} products={categoryItems.filter(p=>matchesSearch(p,query)).map(compactFilterProduct)} initial={filters} category={categorie} query={query} sort={sort}/>
 
         <form action="/shop" method="get" className="catalog-sort mt-6 flex flex-wrap items-end gap-3">
