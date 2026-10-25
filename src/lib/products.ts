@@ -1,4 +1,4 @@
-import { isSuperSale, superSalePrice } from "./super-sale";
+import { applySuperSale } from "./super-sale";
 import qualityHold from "@/data/quality-hold.json";
 import productsData from "@/data/products.json";
 
@@ -17,6 +17,7 @@ export type Product = {
   brand?: string;
   price: number;
   oldPrice?: number;
+  saleReferencePeriod?: string;
   currency: string;
   image: string;
   images: string[];
@@ -30,14 +31,7 @@ export type Product = {
   tag?: string;
 };
 
-export const allProducts: Product[] = (productsData as Product[]).filter((product) => !qualityHold.includes(product.id)).map(product => isSuperSale(product.id) ? {
-  ...product,
-  price: superSalePrice(product.price),
-  oldPrice: product.price,
-  discount: Math.floor((1 - superSalePrice(product.price) / product.price) * 100),
-  tag: "Super Sale",
-  variants: product.variants?.map(variant => ({ ...variant, oldPrice: variant.price, price: superSalePrice(variant.price) })),
-} : product);
+export const allProducts: Product[] = (productsData as Product[]).filter((product) => !qualityHold.includes(product.id)).map(applySuperSale);
 export const featuredProducts: Product[] = [
   ...allProducts.filter((product) => product.categoryPath?.endsWith("/lenjerii-percale-imprimat")).slice(0, 4),
   ...allProducts.filter((product) => product.categoryPath?.endsWith("/lenjerii-de-pat-ranforce-butique")).slice(0, 4),

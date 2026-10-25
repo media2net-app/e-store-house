@@ -73,3 +73,5 @@ html{scroll-behavior:auto}
 .home-sale-link:focus-visible{outline:3px solid #8b352b;outline-offset:4px}
 .home-sale-link-action{font:600 14px/1.4 var(--font-inter),sans-serif}
 @media(max-width:700px){.home-sale-link{padding:12px;gap:5px}.home-sale-link-action{font-size:13px}}
+
+.sale-reference-note{font-size:13px;line-height:1.5;color:#61554c;margin:8px 0 16px}.sale-reference-note a{text-decoration:underline}

@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import { pathToFileURL } from "node:url";
+import { validateSuperSale } from "./validate-super-sale.mjs";
 import { validateSupplierPrices } from "./catalog-pricing.mjs";
 
 const copyKeys = ["id", "sku", "name", "category", "categoryPath", "description", "material", "features", "externalUrl", "image", "images", "bundleComponents"];
@@ -49,6 +50,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   const count = validateCatalog(read("src/data/products.json"), read("src/data/catalog-approvals.json"), read("src/data/quality-hold.json"));
   validateCategoryAssignments(read("src/data/products.json"), read("src/data/categories.json"));
   const skus = validateSupplierPrices(read("src/data/products.json"), read("catalog-review/price-verification-29-20261022/results.json"));
+  validateSuperSale(read("src/data/products.json"), read("src/data/super-sale.json"), read("catalog-review/price-verification-29-20261022/results.json"));
   console.log(`E-Store catalog: ${count} reviewed models; no held models included.`);
   console.log(`Verified supplier +29% rounded, then +20% rounded prices, ending in 9: ${skus} saleable SKUs.`);
 }

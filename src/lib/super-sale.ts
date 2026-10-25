@@ -1,10 +1,16 @@
-/** Real reductions from the catalog prices; reference-price advertising is separate. */
-export const SUPER_SALE_IDS: readonly number[] = [];
-export const SUPER_SALE_PERCENT = 20;
-export function superSalePrice(price: number) {
-  // Round down to whole lei: the customer receives at least the requested reduction.
-  return Math.floor(Math.round(price * 100) * (100 - SUPER_SALE_PERCENT) / 10000);
-}
-export function isSuperSale(id: number) {
-  return (SUPER_SALE_IDS as readonly number[]).includes(id);
+import offers from '@/data/super-sale.json';
+import type { Product } from './products';
+
+export const SUPER_SALE_IDS: readonly number[] = offers.map(offer => offer.id);
+export function isSuperSale(id: number) { return SUPER_SALE_IDS.includes(id); }
+
+/** Campaign prices are fixed from verified supplier costs, never from a discount guess. */
+export function applySuperSale(product: Product): Product {
+  const offer = offers.find(entry => entry.id === product.id);
+  if (!offer) return product;
+  if (product.variants?.length || product.sku !== offer.sku) throw new Error(`Super Sale SKU changed: ${product.id}`);
+  return { ...product, price: offer.price, oldPrice: offer.referencePrice,
+    discount: Math.floor((1 - offer.price / offer.referencePrice) * 100),
+    saleReferencePeriod: `${offer.referenceFrom.split('-').reverse().join('.')}–${offer.referenceTo.split('-').reverse().join('.')}`,
+    tag: 'Super Sale' };
 }

@@ -2,17 +2,10 @@ import Image, { getImageProps } from "next/image";
 import { categoryProducts } from "@/lib/categories";
 import { navigationGroups, groupHref } from "@/lib/navigation-groups";
 import Link from "next/link";
-import { getProductById, formatProductPriceRange, formatProductPrice } from "@/lib/products";
+import { allProducts, getProductById, formatProductPriceRange, formatProductPrice } from "@/lib/products";
 
 const selectionIds = [101399, 101400, 158295, 158310, 138602, 138608, 76882, 76885, 76895, 76899];
-const saleSelection = [
-  { id: 163321, label: "Pilotă Finet florală" },
-  { id: 163319, label: "Pilotă Finet florală" },
-  { id: 163317, label: "Pilotă Finet" },
-  { id: 90801, label: "Capot de baie" },
-  { id: 102893, label: "Pernă MicroGel" },
-  { id: 102537, label: "Pernă Zen Microgel" },
-];
+const saleSelection = allProducts.filter(p => p.tag === "Super Sale" && p.inStock !== false).filter((p,i,all) => all.findIndex(other => other.categoryPath?.split("/")[0] === p.categoryPath?.split("/")[0]) === i).slice(0,6).map(p => ({id:p.id,label:({"lenjerii-de-pat":"Lenjerie creponată",pilote:"Pilotă Finet",perne:"Pernă cu puf",paturi:"Pătură Cocolino",cuverturi:"Cuvertură muselină","huse-de-pat":"Husă Finet"} as Record<string,string>)[p.categoryPath?.split("/")[0] ?? ""] ?? p.name}));
 export default function Hero() {
   const products = selectionIds.flatMap(id => {
     const product = getProductById(id);
@@ -22,7 +15,7 @@ export default function Hero() {
   return <section className="home-shop-start" aria-label="Produse și inspirație pentru acasă">
     <div className="home-start-catalog">
       <h2 className="home-sale-title"><Link href="/shop?categorie=oferte" className="home-sale-link" aria-label="Vezi toate produsele Super Sale"><span>Super Sale</span><span className="home-sale-link-action">Vezi toate produsele <span aria-hidden="true">→</span></span></Link></h2>
-      <nav className="home-mini-picks" aria-label="Super Sale: pilote, capot și perne">{saleSelection.map(({ id, label }) => {
+      <nav className="home-mini-picks" aria-label="Selecție Super Sale">{saleSelection.map(({ id, label }) => {
         const product = getProductById(id);
         if (!product || product.inStock === false || product.tag !== "Super Sale") return null;
         return <Link key={id} href={`/product/${product.id}`} aria-label={label}><Image src={product.image} alt="" width={180} height={150} sizes="(max-width:700px) 18vw, 20vw"/><span>{label}</span><span className="home-mini-pricing">{product.oldPrice && <del aria-label="Preț anterior">{formatProductPrice(product.oldPrice, product.currency)}</del>}<strong className="home-mini-price">{formatProductPriceRange(product)}</strong></span>{product.discount && <span className="sale-percent-badge">−{product.discount}%</span>}</Link>;

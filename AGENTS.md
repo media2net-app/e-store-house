@@ -49,3 +49,9 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Merchant requested removal of the HoReCa navigation category and redistribution into the existing product categories. Keep all reviewed products; do not reintroduce a HoReCa menu link.
 - Do not treat Control's brand label alone as proof that a supplier product is absent or ineligible. The audit recovered 22 existing Control Finet duvet rows labelled Generic, 13 Clasy rows and a Butterfly pillow by their own Ralex numeric product pages and actual galleries. These are existing Control products, not supplier-only additions. Continue excluding Casa Pucioasa and unresolved identities.
 - Category counts describe distinct models; price ranges must include all published size variants. Super Sale membership comes from the store's active promotion, not the supplier's `oferte` taxonomy.
+
+## Super Sale campaign — 25 October 2026
+
+- Merchant authorized 30 selected models at verified supplier cost +10%, rounded only to bani (not ending 9). Campaign configuration is src/data/super-sale.json; base catalog prices remain the regular two-stage prices.
+- Advertised crossed-out prices use the historical minimum, not the just-increased regular price. Show the reference period on the product page and floor the advertised percentage. Keep reference evidence in the campaign configuration.
+- Super Sale items remain excluded from the additional second-item discount. Validate each campaign SKU and price before publishing; do not automatically transfer a campaign to a different SKU or variant.
