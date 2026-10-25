@@ -1,10 +1,10 @@
 [
   {
     "id": 163031,
-    "reviewedAt": "2026-10-21",
-    "source": "reviewed-new-batch-20261021",
+    "reviewedAt": "2026-10-25T09:15:12.308457+00:00",
+    "source": "control-jersey-completion-20261025",
     "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-8/",
-    "visualReview": "Current gallery compared with individual source references and prior reviewed batch; E-Store House gallery, distinct product views and accurate Romanian copy checked.",
+    "visualReview": "Existing approved set variants preserved. Actual supplier reference and four distinct existing Control photographs for sheet-only variants visually reviewed: hero, side, corner detail, overhead. All eight supplier numeric variant barcodes and contents checked. Turquoise Control SKUs 163032–163039 are aliases of supplier turquoise 163008–163015; red supplier 163031 is not imported.",
     "photographicViews": 4,
     "media": [
       {
@@ -26,14 +26,25 @@
       {
         "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v3-perna-2.png",
         "sha256": "5ed7c8d235a07782ccb5fa29ad420f368005e7ca4893c4c1711b0c6f7a18a9cf"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-01.png",
+        "sha256": "719e8cd207f491d7279197ecfd5e52802add8ba24ac112e5a7d3d012dbd1f278"
       }
     ],
-    "fingerprint": "4eaa25a9fb3cd7ade01d609e37f2aee526fffa6f2c6b0fe41acc6b1bbe75f7e2",
+    "fingerprint": "66a7ad892a16893c3916fe45ab223cc225f352b279d182bc6b2d4043db26901d",
     "manufacturerCopyReview": {
       "date": "2026-10-23",
       "source": "Merchant explicit instruction: produs de ralex pucioasa",
       "scope": "Brand Ralex Pucioasa only; existing photographs and technical details unchanged"
-    }
+    },
+    "priorReviews": [
+      {
+        "source": "reviewed-new-batch-20261021",
+        "reviewedAt": "2026-10-21",
+        "fingerprint": "4eaa25a9fb3cd7ade01d609e37f2aee526fffa6f2c6b0fe41acc6b1bbe75f7e2"
+      }
+    ]
   },
   {
     "id": 81336,
@@ -9681,10 +9692,10 @@
   },
   {
     "id": 162980,
-    "reviewedAt": "2026-10-23T19:55:07.123106+00:00",
-    "source": "control-direct-publication-20261023",
+    "reviewedAt": "2026-10-25T09:15:12.308457+00:00",
+    "source": "control-jersey-completion-20261025",
     "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-5/",
-    "visualReview": "Existing Control gallery compared visually against this supplier model: distinct full product, side angle, fabric/corner detail and overhead views; color/pattern and captions checked. No images generated for this publication. Variant contents matched by supplier numeric barcode.",
+    "visualReview": "Existing approved set variants preserved. Actual supplier reference and four distinct existing Control photographs for sheet-only variants visually reviewed: hero, side, corner detail, overhead. All eight supplier numeric variant barcodes and contents checked. Turquoise Control SKUs 163032–163039 are aliases of supplier turquoise 163008–163015; red supplier 163031 is not imported.",
     "photographicViews": 4,
     "media": [
       {
@@ -9710,16 +9721,27 @@
       {
         "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/07-doua-fete-perna.png",
         "sha256": "29b0391630359aaea903bc127c3191e0fc3503e92a6739a6a7a13bdff3bb0a76"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/01-principala.png",
+        "sha256": "2f2d4fb96615745307142ad073dc568d699f5e4056c02291081a315b1468927f"
       }
     ],
-    "fingerprint": "529bf7ae8b47c7a132c39f5bfd93ad3e04a1c833696d8b73d87e1524567642c5"
+    "fingerprint": "5a63543657d56a814788ea364ed13246d028fc9a8def47e4432ec170c39e0762",
+    "priorReviews": [
+      {
+        "source": "control-direct-publication-20261023",
+        "reviewedAt": "2026-10-23T19:55:07.123106+00:00",
+        "fingerprint": "529bf7ae8b47c7a132c39f5bfd93ad3e04a1c833696d8b73d87e1524567642c5"
+      }
+    ]
   },
   {
     "id": 162971,
-    "reviewedAt": "2026-10-23T19:55:07.123106+00:00",
-    "source": "control-direct-publication-20261023",
+    "reviewedAt": "2026-10-25T09:15:12.308457+00:00",
+    "source": "control-jersey-completion-20261025",
     "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-4/",
-    "visualReview": "Existing Control gallery compared visually against this supplier model: distinct full product, side angle, fabric/corner detail and overhead views; color/pattern and captions checked. No images generated for this publication. Variant contents matched by supplier numeric barcode.",
+    "visualReview": "Existing approved set variants preserved. Actual supplier reference and four distinct existing Control photographs for sheet-only variants visually reviewed: hero, side, corner detail, overhead. All eight supplier numeric variant barcodes and contents checked. Turquoise Control SKUs 163032–163039 are aliases of supplier turquoise 163008–163015; red supplier 163031 is not imported.",
     "photographicViews": 4,
     "media": [
       {
@@ -9745,16 +9767,27 @@
       {
         "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/07-doua-fete-perna.png",
         "sha256": "92b504ea363e2f2333931e0db8f5fa112b17c17f7cfc6f4ca6af5c434fe22cce"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/01-principala.png",
+        "sha256": "ff965fb278e747eb9bfc4cacac74ee106d390fad6564529a13f39da93088c328"
       }
     ],
-    "fingerprint": "3dbdf223003bf2919aa2c4e03de081ae21a472d38d084ef1aee6cd497228ccb1"
+    "fingerprint": "cad5da21be8daed189bb8df0f372d01d1925a2d2118b11916604dc9163119a07",
+    "priorReviews": [
+      {
+        "source": "control-direct-publication-20261023",
+        "reviewedAt": "2026-10-23T19:55:07.123106+00:00",
+        "fingerprint": "3dbdf223003bf2919aa2c4e03de081ae21a472d38d084ef1aee6cd497228ccb1"
+      }
+    ]
   },
   {
     "id": 162998,
-    "reviewedAt": "2026-10-23T19:55:07.123106+00:00",
-    "source": "control-direct-publication-20261023",
+    "reviewedAt": "2026-10-25T09:15:12.308457+00:00",
+    "source": "control-jersey-completion-20261025",
     "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-7/",
-    "visualReview": "Existing Control gallery compared visually against this supplier model: distinct full product, side angle, fabric/corner detail and overhead views; color/pattern and captions checked. No images generated for this publication. Variant contents matched by supplier numeric barcode.",
+    "visualReview": "Existing approved set variants preserved. Actual supplier reference and four distinct existing Control photographs for sheet-only variants visually reviewed: hero, side, corner detail, overhead. All eight supplier numeric variant barcodes and contents checked. Turquoise Control SKUs 163032–163039 are aliases of supplier turquoise 163008–163015; red supplier 163031 is not imported.",
     "photographicViews": 4,
     "media": [
       {
@@ -9780,16 +9813,27 @@
       {
         "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/07-doua-fete-perna.png",
         "sha256": "16ed76ea2ea6ad77b38492bf3c2c466f5956f6ce8ed0c95178a54a6b8a7b795a"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/01-principala.png",
+        "sha256": "365883e708581ef90d64eaaeb4cfd90156562a8b9ebb0b4e929396e54b95e81a"
       }
     ],
-    "fingerprint": "43dbe1533e93cb0f159a3ec1b36fd73b823afdc8853d5af73ab7063229e4e6d3"
+    "fingerprint": "bb578affcd4a337d8f9c96d5358a32fa08fe8495e6e183bbd6d4783765cc7a85",
+    "priorReviews": [
+      {
+        "source": "control-direct-publication-20261023",
+        "reviewedAt": "2026-10-23T19:55:07.123106+00:00",
+        "fingerprint": "43dbe1533e93cb0f159a3ec1b36fd73b823afdc8853d5af73ab7063229e4e6d3"
+      }
+    ]
   },
   {
     "id": 162944,
-    "reviewedAt": "2026-10-23T19:55:07.123106+00:00",
-    "source": "control-direct-publication-20261023",
+    "reviewedAt": "2026-10-25T09:15:12.308457+00:00",
+    "source": "control-jersey-completion-20261025",
     "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac/",
-    "visualReview": "Existing Control gallery compared visually against this supplier model: distinct full product, side angle, fabric/corner detail and overhead views; color/pattern and captions checked. No images generated for this publication. Variant contents matched by supplier numeric barcode.",
+    "visualReview": "Existing approved set variants preserved. Actual supplier reference and four distinct existing Control photographs for sheet-only variants visually reviewed: hero, side, corner detail, overhead. All eight supplier numeric variant barcodes and contents checked. Turquoise Control SKUs 163032–163039 are aliases of supplier turquoise 163008–163015; red supplier 163031 is not imported.",
     "photographicViews": 4,
     "media": [
       {
@@ -9815,16 +9859,27 @@
       {
         "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/07-doua-fete-perna.png",
         "sha256": "ae040e797826a252513957a3df731aee0197280f4a3b94d843672c04141e03f8"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/01-principala.png",
+        "sha256": "cab571f77c17a4c7d54c94a0fcd55d2b1912fb31a33dd82848d5d8a0f637d77a"
       }
     ],
-    "fingerprint": "ad8f69260527e632d7cfa88c76f953a0fb61c85a2540a1c574289c91131f962f"
+    "fingerprint": "9e77539516dc5fabd82dda95bd1ec12191f6a2dc6b8f5bd680db6738da3dbf6b",
+    "priorReviews": [
+      {
+        "source": "control-direct-publication-20261023",
+        "reviewedAt": "2026-10-23T19:55:07.123106+00:00",
+        "fingerprint": "ad8f69260527e632d7cfa88c76f953a0fb61c85a2540a1c574289c91131f962f"
+      }
+    ]
   },
   {
     "id": 162989,
-    "reviewedAt": "2026-10-23T19:55:07.123106+00:00",
-    "source": "control-direct-publication-20261023",
+    "reviewedAt": "2026-10-25T09:15:12.308457+00:00",
+    "source": "control-jersey-completion-20261025",
     "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-6/",
-    "visualReview": "Existing Control gallery compared visually against this supplier model: distinct full product, side angle, fabric/corner detail and overhead views; color/pattern and captions checked. No images generated for this publication. Variant contents matched by supplier numeric barcode.",
+    "visualReview": "Existing approved set variants preserved. Actual supplier reference and four distinct existing Control photographs for sheet-only variants visually reviewed: hero, side, corner detail, overhead. All eight supplier numeric variant barcodes and contents checked. Turquoise Control SKUs 163032–163039 are aliases of supplier turquoise 163008–163015; red supplier 163031 is not imported.",
     "photographicViews": 4,
     "media": [
       {
@@ -9850,16 +9905,27 @@
       {
         "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/07-doua-fete-perna.png",
         "sha256": "f7457e61448e95c5ff6d8685bbde01be42d5b44381701fd5fa9b00f81016cc45"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/01-principala.png",
+        "sha256": "853023f2b2dbff1a6ccbe248f880dc162a6cfd1023b0de03e13b6aa01c80dd69"
       }
     ],
-    "fingerprint": "b70cf275a144f44e53ff123d9456dc69b03ca95a4c9004b16a757bbd28eec449"
+    "fingerprint": "5f24a856cf31387ebf501dbdec47293977dfd15a0a3823594f6618d79e0ea446",
+    "priorReviews": [
+      {
+        "source": "control-direct-publication-20261023",
+        "reviewedAt": "2026-10-23T19:55:07.123106+00:00",
+        "fingerprint": "b70cf275a144f44e53ff123d9456dc69b03ca95a4c9004b16a757bbd28eec449"
+      }
+    ]
   },
   {
     "id": 162953,
-    "reviewedAt": "2026-10-23T19:55:07.123106+00:00",
-    "source": "control-direct-publication-20261023",
+    "reviewedAt": "2026-10-25T09:15:12.308457+00:00",
+    "source": "control-jersey-completion-20261025",
     "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-2/",
-    "visualReview": "Existing Control gallery compared visually against this supplier model: distinct full product, side angle, fabric/corner detail and overhead views; color/pattern and captions checked. No images generated for this publication. Variant contents matched by supplier numeric barcode.",
+    "visualReview": "Existing approved set variants preserved. Actual supplier reference and four distinct existing Control photographs for sheet-only variants visually reviewed: hero, side, corner detail, overhead. All eight supplier numeric variant barcodes and contents checked. Turquoise Control SKUs 163032–163039 are aliases of supplier turquoise 163008–163015; red supplier 163031 is not imported.",
     "photographicViews": 4,
     "media": [
       {
@@ -9885,16 +9951,27 @@
       {
         "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/07-doua-fete-perna.png",
         "sha256": "2b0bb3a3637932f4faa9dd6f0e9f55e5c854c3f92f753cea147975680e6f1a92"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/01-principala.png",
+        "sha256": "4c8a0ed156742e09687c1f9a9cad338552f57fde6fdae7352939c1895334335f"
       }
     ],
-    "fingerprint": "ac3f25d77c77fb9e33a9b4a98756a5bdece58877868f5cecc8229ede55ef0fd0"
+    "fingerprint": "150d122c88aad288fd6877c13b1d6286bc3da02fc6e4680c298ca5c919ee124e",
+    "priorReviews": [
+      {
+        "source": "control-direct-publication-20261023",
+        "reviewedAt": "2026-10-23T19:55:07.123106+00:00",
+        "fingerprint": "ac3f25d77c77fb9e33a9b4a98756a5bdece58877868f5cecc8229ede55ef0fd0"
+      }
+    ]
   },
   {
     "id": 162962,
-    "reviewedAt": "2026-10-23T19:55:07.123106+00:00",
-    "source": "control-direct-publication-20261023",
+    "reviewedAt": "2026-10-25T09:15:12.308457+00:00",
+    "source": "control-jersey-completion-20261025",
     "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-3/",
-    "visualReview": "Existing Control gallery compared visually against this supplier model: distinct full product, side angle, fabric/corner detail and overhead views; color/pattern and captions checked. No images generated for this publication. Variant contents matched by supplier numeric barcode.",
+    "visualReview": "Existing approved set variants preserved. Actual supplier reference and four distinct existing Control photographs for sheet-only variants visually reviewed: hero, side, corner detail, overhead. All eight supplier numeric variant barcodes and contents checked. Turquoise Control SKUs 163032–163039 are aliases of supplier turquoise 163008–163015; red supplier 163031 is not imported.",
     "photographicViews": 4,
     "media": [
       {
@@ -9920,9 +9997,20 @@
       {
         "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/07-doua-fete-perna.png",
         "sha256": "d92a7a6a9d3f72647a9b937378e26f6fd21ceeadbaa979b6e5c29c21a0a8e036"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/01-principala.png",
+        "sha256": "72807d9df54b1932b273836df4e3e94a1fcda5fb5c6841fe1e378718e4dae4eb"
       }
     ],
-    "fingerprint": "6ef754612558453c39895679e03b68453eeb27ca00fce3d64344b2531c1a5277"
+    "fingerprint": "7fc68b3272fd2203fe2f5f33b36690d9e87c606ee7eee7f36d8fba6a68f5f420",
+    "priorReviews": [
+      {
+        "source": "control-direct-publication-20261023",
+        "reviewedAt": "2026-10-23T19:55:07.123106+00:00",
+        "fingerprint": "6ef754612558453c39895679e03b68453eeb27ca00fce3d64344b2531c1a5277"
+      }
+    ]
   },
   {
     "id": 95144,
@@ -24256,5 +24344,59 @@
       }
     ],
     "fingerprint": "b8600c7240b50b9c1b46b5e4e4710026b599fb714df810c16dac08ce50851144"
+  },
+  {
+    "id": 46030,
+    "reviewedAt": "2026-10-25T09:15:31.736464+00:00",
+    "source": "control-next-completed-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d49/",
+    "visualReview": "Actual supplier photos and all generated outputs inspected. FN3D49 retains three distinct Control photographs and replaces information graphic with textile macro. Memory pillow is one supplier unit, not unverified two-piece Control bundle; four new single-pillow photos, first overhead rejected for square proportions and replacement reviewed.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260618/17/8e802a7b-b637-34f7-a7a2-eceb4941c606/1_org_zoom.jpg",
+        "sha256": "aea5c868a7067026182ec5343826a8c633f73065fbb5b89a60eb8bfd85506f3f"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260618/17/56a79091-e83d-3ec2-aef7-bc13bed9e19f/1_org_zoom.jpg",
+        "sha256": "954003f9a7f9bb441ce0c272caadbc147189579427886fe144fdb6fb5452c3ba"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260618/17/a245ae6e-7bba-3c7c-b6e4-651aaa87e450/1_org_zoom.jpg",
+        "sha256": "3e8766d850c631621ae5eeb5adbdca65a63f9b8eb050929369d8b56bb5837d05"
+      },
+      {
+        "url": "/products/46030/detail-reviewed-v1.png",
+        "sha256": "7d4f40db5c8b1c3cef0226cea2a5ee6922e3a611cf65ea613aa506f3f1ce4797"
+      }
+    ],
+    "fingerprint": "6c1798893e1b1736908c3c70e44309668861ced0a5d9c0ab8cfa6de17122b1ad"
+  },
+  {
+    "id": 106975,
+    "reviewedAt": "2026-10-25T09:15:31.736464+00:00",
+    "source": "control-next-completed-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-fulgi-memory-50cm-x-70cm/",
+    "visualReview": "Actual supplier photos and all generated outputs inspected. FN3D49 retains three distinct Control photographs and replaces information graphic with textile macro. Memory pillow is one supplier unit, not unverified two-piece Control bundle; four new single-pillow photos, first overhead rejected for square proportions and replacement reviewed.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "/products/106975/hero-reviewed-v1.png",
+        "sha256": "b2c11a74816d9a34b9b53d4f9e99a5779cd7d8d8981cbf1f8c590de140612376"
+      },
+      {
+        "url": "/products/106975/side-reviewed-v1.png",
+        "sha256": "b8237b30b9ca242641ef30ca4abfba26e8f0f4b54a121a390ebf8e423fb4c9d3"
+      },
+      {
+        "url": "/products/106975/detail-reviewed-v1.png",
+        "sha256": "08f7473f70c8f9945a5cb70b2c08e33fdce7a2aba0756a20af5280e67880f641"
+      },
+      {
+        "url": "/products/106975/overhead-reviewed-v1.png",
+        "sha256": "787f150a274eb627bfe5a51a23f635de0668d03249e52406643d1096b44de032"
+      }
+    ],
+    "fingerprint": "25c7741e5a27e9e25ea9f283317d6ff77ad3046466adb0787e8a6cf88d26d90d"
   }
 ]

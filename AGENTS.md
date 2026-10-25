@@ -38,3 +38,8 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Preserve existing pricing, reviewed catalog, order/payment/shipping security and data correctness.
 - Card payment activation is pending the user's email from EuPlatesc.ro. Complete independent work; never display unavailable online payment as active.
 - Keep progress and unresolved evidence in DESIGN-PROGRESS.md. Do not claim all acceptance criteria pass without evidence.
+
+## Merchant scope update — 25 October 2026
+
+- Complete and repair the products already present in E-Store Control. Do not add new products sourced only from the Ralex catalog to reach 1,000. The numerical target is subordinate to this scope; publish all eligible distinct Control models and resolve their variants without duplicates.
+- Merchant explicitly accepts the supplier’s Ralex classification for the Control products discussed, including supplier-sold Clasy series; retain that classification. Continue excluding Casa Pucioasa.

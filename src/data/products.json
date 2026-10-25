@@ -1,20 +1,20 @@
 [
   {
     "id": 163031,
-    "name": "Set Jersey cu husă de pat cu elastic și fețe de pernă, 100% bumbac, turcoaz — dimensiuni la alegere",
+    "name": "Husă de pat Jersey 100% bumbac, turcoaz, cu sau fără fețe de pernă",
     "category": "HUSE PAT JERSE / TRICOT 100% BUMBAC",
     "categoryPath": "huse-de-pat/huse-pat-jerse-100",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
-    "description": "Set Jersey cu husă de pat cu elastic și fețe de pernă, 100% bumbac, turcoaz — dimensiuni la alegere.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nPachetul conține, în funcție de varianta selectată:\n• 90 × 200 cm: 1 husă cu elastic + 1 față de pernă.\n• 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă.\n\nSe alege dimensiunea potrivită saltelei.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului.\nAccesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Husă de pat Jersey 100% bumbac, turcoaz, cu sau fără fețe de pernă.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nConținut: Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă.\n\nSelectați atât dimensiunea, cât și conținutul pachetului dorit.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-8/",
     "images": [
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v3-perna-1.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-01.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-03.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-04.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-05.png"
     ],
-    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v3-perna-1.png",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-01.png",
     "features": [
       {
         "label": "Material",
@@ -22,11 +22,11 @@
       },
       {
         "label": "Conținut",
-        "value": "Husă cu elastic și fețe de pernă; numărul depinde de dimensiunea selectată."
+        "value": "Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă."
       }
     ],
     "inStock": true,
-    "price": 79,
+    "price": 59,
     "variants": [
       {
         "id": 163009,
@@ -91,6 +91,66 @@
         "price": 109,
         "inStock": true,
         "stock": 100
+      },
+      {
+        "id": 163008,
+        "sku": "163008",
+        "name": "90 × 200 cm — fără fețe de pernă",
+        "price": 59,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-01.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-03.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-04.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-05.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-01.png"
+      },
+      {
+        "id": 163010,
+        "sku": "163010",
+        "name": "140 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-01.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-03.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-04.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-05.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-01.png"
+      },
+      {
+        "id": 163012,
+        "sku": "163012",
+        "name": "160 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-01.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-03.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-04.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-05.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-01.png"
+      },
+      {
+        "id": 163014,
+        "sku": "163014",
+        "name": "180 × 200 cm — fără fețe de pernă",
+        "price": 79,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-01.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-03.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-04.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-05.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/3ba48c0245af5cb7b9409c1956f0d40320826e29/public/products/husa-jerse-turcoaz-163031/luxury-v2-01.png"
       }
     ],
     "supplierProductId": 163007,
@@ -15022,22 +15082,21 @@
   },
   {
     "id": 162980,
-    "name": "Set Jersey cu husă de pat cu elastic și fețe de pernă, bleu — dimensiuni la alegere",
+    "name": "Husă de pat Jersey 100% bumbac, bleu, cu sau fără fețe de pernă",
     "category": "Huse pat jerse / tricot 100% bumbac",
     "categoryPath": "huse-de-pat/huse-pat-jerse-100",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "100% bumbac, tricot Jersey",
-    "description": "Set Jersey cu husă de pat cu elastic și fețe de pernă, bleu — dimensiuni la alegere.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nPachetul conține: 90 × 200 cm: 1 husă cu elastic + 1 față de pernă. 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Husă de pat Jersey 100% bumbac, bleu, cu sau fără fețe de pernă.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nConținut: Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă.\n\nSelectați atât dimensiunea, cât și conținutul pachetului dorit.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-5/",
     "images": [
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/06-o-fata-perna.png",
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/02-detalii.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/01-principala.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/03-lateral.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/04-detaliu-colt.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/05-de-sus.png"
     ],
-    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/06-o-fata-perna.png",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/01-principala.png",
     "features": [
       {
         "label": "Material",
@@ -15045,7 +15104,7 @@
       },
       {
         "label": "Conținut",
-        "value": "90 × 200 cm: 1 husă cu elastic + 1 față de pernă. 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă."
+        "value": "Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă."
       }
     ],
     "variants": [
@@ -15116,29 +15175,88 @@
         "price": 109,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 162981,
+        "sku": "162981",
+        "name": "90 × 200 cm — fără fețe de pernă",
+        "price": 59,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/01-principala.png"
+      },
+      {
+        "id": 162983,
+        "sku": "162983",
+        "name": "140 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/01-principala.png"
+      },
+      {
+        "id": 162985,
+        "sku": "162985",
+        "name": "160 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/01-principala.png"
+      },
+      {
+        "id": 162987,
+        "sku": "162987",
+        "name": "180 × 200 cm — fără fețe de pernă",
+        "price": 79,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-bleu-162980/01-principala.png"
       }
     ],
-    "price": 79,
+    "price": 59,
     "inStock": true
   },
   {
     "id": 162971,
-    "name": "Set Jersey cu husă de pat cu elastic și fețe de pernă, crem — dimensiuni la alegere",
+    "name": "Husă de pat Jersey 100% bumbac, crem, cu sau fără fețe de pernă",
     "category": "Huse pat jerse / tricot 100% bumbac",
     "categoryPath": "huse-de-pat/huse-pat-jerse-100",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "100% bumbac, tricot Jersey",
-    "description": "Set Jersey cu husă de pat cu elastic și fețe de pernă, crem — dimensiuni la alegere.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nPachetul conține: 90 × 200 cm: 1 husă cu elastic + 1 față de pernă. 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Husă de pat Jersey 100% bumbac, crem, cu sau fără fețe de pernă.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nConținut: Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă.\n\nSelectați atât dimensiunea, cât și conținutul pachetului dorit.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-4/",
     "images": [
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/06-o-fata-perna.png",
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/02-detalii.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/01-principala.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/03-lateral.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/04-detaliu-colt.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/05-de-sus.png"
     ],
-    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/06-o-fata-perna.png",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/01-principala.png",
     "features": [
       {
         "label": "Material",
@@ -15146,7 +15264,7 @@
       },
       {
         "label": "Conținut",
-        "value": "90 × 200 cm: 1 husă cu elastic + 1 față de pernă. 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă."
+        "value": "Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă."
       }
     ],
     "variants": [
@@ -15217,29 +15335,88 @@
         "price": 109,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 162972,
+        "sku": "162972",
+        "name": "90 × 200 cm — fără fețe de pernă",
+        "price": 59,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/01-principala.png"
+      },
+      {
+        "id": 162974,
+        "sku": "162974",
+        "name": "140 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/01-principala.png"
+      },
+      {
+        "id": 162976,
+        "sku": "162976",
+        "name": "160 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/01-principala.png"
+      },
+      {
+        "id": 162978,
+        "sku": "162978",
+        "name": "180 × 200 cm — fără fețe de pernă",
+        "price": 79,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-crem-162971/01-principala.png"
       }
     ],
-    "price": 79,
+    "price": 59,
     "inStock": true
   },
   {
     "id": 162998,
-    "name": "Set Jersey cu husă de pat cu elastic și fețe de pernă, galben — dimensiuni la alegere",
+    "name": "Husă de pat Jersey 100% bumbac, galben, cu sau fără fețe de pernă",
     "category": "Huse pat jerse / tricot 100% bumbac",
     "categoryPath": "huse-de-pat/huse-pat-jerse-100",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "100% bumbac, tricot Jersey",
-    "description": "Set Jersey cu husă de pat cu elastic și fețe de pernă, galben — dimensiuni la alegere.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nPachetul conține: 90 × 200 cm: 1 husă cu elastic + 1 față de pernă. 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Husă de pat Jersey 100% bumbac, galben, cu sau fără fețe de pernă.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nConținut: Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă.\n\nSelectați atât dimensiunea, cât și conținutul pachetului dorit.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-7/",
     "images": [
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/06-o-fata-perna.png",
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/02-detalii.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/01-principala.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/03-lateral.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/04-detaliu-colt.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/05-de-sus.png"
     ],
-    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/06-o-fata-perna.png",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/01-principala.png",
     "features": [
       {
         "label": "Material",
@@ -15247,7 +15424,7 @@
       },
       {
         "label": "Conținut",
-        "value": "90 × 200 cm: 1 husă cu elastic + 1 față de pernă. 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă."
+        "value": "Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă."
       }
     ],
     "variants": [
@@ -15318,29 +15495,88 @@
         "price": 109,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 162999,
+        "sku": "162999",
+        "name": "90 × 200 cm — fără fețe de pernă",
+        "price": 59,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/01-principala.png"
+      },
+      {
+        "id": 163001,
+        "sku": "163001",
+        "name": "140 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/01-principala.png"
+      },
+      {
+        "id": 163003,
+        "sku": "163003",
+        "name": "160 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/01-principala.png"
+      },
+      {
+        "id": 163005,
+        "sku": "163005",
+        "name": "180 × 200 cm — fără fețe de pernă",
+        "price": 79,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-galben-162998/01-principala.png"
       }
     ],
-    "price": 79,
+    "price": 59,
     "inStock": true
   },
   {
     "id": 162944,
-    "name": "Set Jersey cu husă de pat cu elastic și fețe de pernă, portocaliu — dimensiuni la alegere",
+    "name": "Husă de pat Jersey 100% bumbac, portocaliu, cu sau fără fețe de pernă",
     "category": "Huse pat jerse / tricot 100% bumbac",
     "categoryPath": "huse-de-pat/huse-pat-jerse-100",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "100% bumbac, tricot Jersey",
-    "description": "Set Jersey cu husă de pat cu elastic și fețe de pernă, portocaliu — dimensiuni la alegere.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nPachetul conține: 90 × 200 cm: 1 husă cu elastic + 1 față de pernă. 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Husă de pat Jersey 100% bumbac, portocaliu, cu sau fără fețe de pernă.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nConținut: Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă.\n\nSelectați atât dimensiunea, cât și conținutul pachetului dorit.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac/",
     "images": [
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/06-o-fata-perna.png",
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/02-detalii.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/01-principala.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/03-lateral.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/04-detaliu-colt.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/05-de-sus.png"
     ],
-    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/06-o-fata-perna.png",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/01-principala.png",
     "features": [
       {
         "label": "Material",
@@ -15348,7 +15584,7 @@
       },
       {
         "label": "Conținut",
-        "value": "90 × 200 cm: 1 husă cu elastic + 1 față de pernă. 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă."
+        "value": "Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă."
       }
     ],
     "variants": [
@@ -15419,29 +15655,88 @@
         "price": 109,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 162945,
+        "sku": "162945",
+        "name": "90 × 200 cm — fără fețe de pernă",
+        "price": 59,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/01-principala.png"
+      },
+      {
+        "id": 162947,
+        "sku": "162947",
+        "name": "140 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/01-principala.png"
+      },
+      {
+        "id": 162949,
+        "sku": "162949",
+        "name": "160 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/01-principala.png"
+      },
+      {
+        "id": 162951,
+        "sku": "162951",
+        "name": "180 × 200 cm — fără fețe de pernă",
+        "price": 79,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-portocaliu-162944/01-principala.png"
       }
     ],
-    "price": 79,
+    "price": 59,
     "inStock": true
   },
   {
     "id": 162989,
-    "name": "Set Jersey cu husă de pat cu elastic și fețe de pernă, roz deschis — dimensiuni la alegere",
+    "name": "Husă de pat Jersey 100% bumbac, roz deschis, cu sau fără fețe de pernă",
     "category": "Huse pat jerse / tricot 100% bumbac",
     "categoryPath": "huse-de-pat/huse-pat-jerse-100",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "100% bumbac, tricot Jersey",
-    "description": "Set Jersey cu husă de pat cu elastic și fețe de pernă, roz deschis — dimensiuni la alegere.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nPachetul conține: 90 × 200 cm: 1 husă cu elastic + 1 față de pernă. 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Husă de pat Jersey 100% bumbac, roz deschis, cu sau fără fețe de pernă.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nConținut: Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă.\n\nSelectați atât dimensiunea, cât și conținutul pachetului dorit.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-6/",
     "images": [
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/06-o-fata-perna.png",
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/02-detalii.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/01-principala.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/03-lateral.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/04-detaliu-colt.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/05-de-sus.png"
     ],
-    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/06-o-fata-perna.png",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/01-principala.png",
     "features": [
       {
         "label": "Material",
@@ -15449,7 +15744,7 @@
       },
       {
         "label": "Conținut",
-        "value": "90 × 200 cm: 1 husă cu elastic + 1 față de pernă. 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă."
+        "value": "Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă."
       }
     ],
     "variants": [
@@ -15520,29 +15815,88 @@
         "price": 109,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 162990,
+        "sku": "162990",
+        "name": "90 × 200 cm — fără fețe de pernă",
+        "price": 59,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/01-principala.png"
+      },
+      {
+        "id": 162992,
+        "sku": "162992",
+        "name": "140 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/01-principala.png"
+      },
+      {
+        "id": 162994,
+        "sku": "162994",
+        "name": "160 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/01-principala.png"
+      },
+      {
+        "id": 162996,
+        "sku": "162996",
+        "name": "180 × 200 cm — fără fețe de pernă",
+        "price": 79,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-deschis-162989/01-principala.png"
       }
     ],
-    "price": 79,
+    "price": 59,
     "inStock": true
   },
   {
     "id": 162953,
-    "name": "Set Jersey cu husă de pat cu elastic și fețe de pernă, roz pudrat — dimensiuni la alegere",
+    "name": "Husă de pat Jersey 100% bumbac, roz pudrat, cu sau fără fețe de pernă",
     "category": "Huse pat jerse / tricot 100% bumbac",
     "categoryPath": "huse-de-pat/huse-pat-jerse-100",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "100% bumbac, tricot Jersey",
-    "description": "Set Jersey cu husă de pat cu elastic și fețe de pernă, roz pudrat — dimensiuni la alegere.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nPachetul conține: 90 × 200 cm: 1 husă cu elastic + 1 față de pernă. 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Husă de pat Jersey 100% bumbac, roz pudrat, cu sau fără fețe de pernă.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nConținut: Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă.\n\nSelectați atât dimensiunea, cât și conținutul pachetului dorit.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-2/",
     "images": [
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/06-o-fata-perna.png",
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/02-detalii.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/01-principala.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/03-lateral.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/04-detaliu-colt.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/05-de-sus.png"
     ],
-    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/06-o-fata-perna.png",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/01-principala.png",
     "features": [
       {
         "label": "Material",
@@ -15550,7 +15904,7 @@
       },
       {
         "label": "Conținut",
-        "value": "90 × 200 cm: 1 husă cu elastic + 1 față de pernă. 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă."
+        "value": "Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă."
       }
     ],
     "variants": [
@@ -15621,29 +15975,88 @@
         "price": 109,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 162954,
+        "sku": "162954",
+        "name": "90 × 200 cm — fără fețe de pernă",
+        "price": 59,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/01-principala.png"
+      },
+      {
+        "id": 162956,
+        "sku": "162956",
+        "name": "140 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/01-principala.png"
+      },
+      {
+        "id": 162958,
+        "sku": "162958",
+        "name": "160 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/01-principala.png"
+      },
+      {
+        "id": 162960,
+        "sku": "162960",
+        "name": "180 × 200 cm — fără fețe de pernă",
+        "price": 79,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-roz-pudrat-162953/01-principala.png"
       }
     ],
-    "price": 79,
+    "price": 59,
     "inStock": true
   },
   {
     "id": 162962,
-    "name": "Set Jersey cu husă de pat cu elastic și fețe de pernă, verde lime — dimensiuni la alegere",
+    "name": "Husă de pat Jersey 100% bumbac, verde lime, cu sau fără fețe de pernă",
     "category": "Huse pat jerse / tricot 100% bumbac",
     "categoryPath": "huse-de-pat/huse-pat-jerse-100",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "100% bumbac, tricot Jersey",
-    "description": "Set Jersey cu husă de pat cu elastic și fețe de pernă, verde lime — dimensiuni la alegere.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nPachetul conține: 90 × 200 cm: 1 husă cu elastic + 1 față de pernă. 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Husă de pat Jersey 100% bumbac, verde lime, cu sau fără fețe de pernă.\n\nMaterial: 100% bumbac, tricot Jersey.\n\nConținut: Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă.\n\nSelectați atât dimensiunea, cât și conținutul pachetului dorit.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-3/",
     "images": [
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/06-o-fata-perna.png",
-      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/02-detalii.png",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/01-principala.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/03-lateral.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/04-detaliu-colt.png",
       "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/05-de-sus.png"
     ],
-    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/06-o-fata-perna.png",
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/01-principala.png",
     "features": [
       {
         "label": "Material",
@@ -15651,7 +16064,7 @@
       },
       {
         "label": "Conținut",
-        "value": "90 × 200 cm: 1 husă cu elastic + 1 față de pernă. 140 × 200, 160 × 200 sau 180 × 200 cm: 1 husă cu elastic + 2 fețe de pernă."
+        "value": "Variante fără fețe de pernă: 1 husă de pat cu elastic, la dimensiunea selectată. Variante cu fețe de pernă: 90 × 200 cm — 1 husă + 1 față de pernă; 140 × 200, 160 × 200 sau 180 × 200 cm — 1 husă + 2 fețe de pernă."
       }
     ],
     "variants": [
@@ -15722,9 +16135,69 @@
         "price": 109,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 162963,
+        "sku": "162963",
+        "name": "90 × 200 cm — fără fețe de pernă",
+        "price": 59,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/01-principala.png"
+      },
+      {
+        "id": 162965,
+        "sku": "162965",
+        "name": "140 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/01-principala.png"
+      },
+      {
+        "id": 162967,
+        "sku": "162967",
+        "name": "160 × 200 cm — fără fețe de pernă",
+        "price": 69,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/01-principala.png"
+      },
+      {
+        "id": 162969,
+        "sku": "162969",
+        "name": "180 × 200 cm — fără fețe de pernă",
+        "price": 79,
+        "stock": 100,
+        "inStock": true,
+        "images": [
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/01-principala.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/03-lateral.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/04-detaliu-colt.png",
+          "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/05-de-sus.png"
+        ],
+        "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/9e63a7f2694b815785eea7856ab6e91fb708fe96/public/products/husa-jerse-verde-lime-162962/01-principala.png"
       }
     ],
-    "price": 79,
+    "price": 59,
     "inStock": true
   },
   {
@@ -36836,6 +37309,70 @@
     ],
     "price": 59,
     "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 46030,
+    "sku": "46030",
+    "name": "Lenjerie de pat Finet 3D FN3D49, 6 piese",
+    "category": "Lenjerii de pat finet 3D",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "70% bumbac, 30% poliester",
+    "description": "Lenjerie de pat Finet 3D FN3D49, 6 piese.\n\nMaterial: 70% bumbac, 30% poliester.\n\nConținut și dimensiuni: 1 cearșaf de pat uni 220 × 240 cm, 1 husă de pilotă 200 × 230 cm, 2 fețe de pernă 50 × 70 cm și 2 fețe de pernă 70 × 70 cm. Fața este imprimată, iar verso-ul este uni.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d49/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260618/17/8e802a7b-b637-34f7-a7a2-eceb4941c606/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260618/17/56a79091-e83d-3ec2-aef7-bc13bed9e19f/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260618/17/a245ae6e-7bba-3c7c-b6e4-651aaa87e450/1_org_zoom.jpg",
+      "/products/46030/detail-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260618/17/8e802a7b-b637-34f7-a7a2-eceb4941c606/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "70% bumbac, 30% poliester"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat uni 220 × 240 cm, 1 husă de pilotă 200 × 230 cm, 2 fețe de pernă 50 × 70 cm și 2 fețe de pernă 70 × 70 cm. Fața este imprimată, iar verso-ul este uni."
+      }
+    ],
+    "price": 229,
+    "stock": 50,
+    "inStock": false
+  },
+  {
+    "id": 106975,
+    "sku": "106975",
+    "name": "Pernă Fulgi Memory, 50 × 70 cm",
+    "category": "Perne și protecții pernă",
+    "categoryPath": "perne",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Umplutură din fulgi de spumă cu memorie; husă matlasată",
+    "description": "Pernă Fulgi Memory, 50 × 70 cm.\n\nMaterial: Umplutură din fulgi de spumă cu memorie; husă matlasată.\n\nConținut și dimensiuni: 1 pernă de 50 × 70 cm. Produsul se comercializează individual.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/perne/perna-fulgi-memory-50cm-x-70cm/",
+    "images": [
+      "/products/106975/hero-reviewed-v1.png",
+      "/products/106975/side-reviewed-v1.png",
+      "/products/106975/detail-reviewed-v1.png",
+      "/products/106975/overhead-reviewed-v1.png"
+    ],
+    "image": "/products/106975/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Umplutură din fulgi de spumă cu memorie; husă matlasată"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pernă de 50 × 70 cm. Produsul se comercializează individual."
+      }
+    ],
+    "price": 59,
+    "stock": 64,
     "inStock": true
   }
 ]

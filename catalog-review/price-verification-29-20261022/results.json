@@ -1,22 +1,5 @@
 [
   {
-    "id": 163031,
-    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-8/",
-    "costs": {
-      "163009": 57,
-      "163011": 81,
-      "163013": 81,
-      "163015": 81
-    },
-    "availability": {
-      "163009": true,
-      "163011": true,
-      "163013": true,
-      "163015": true
-    },
-    "checkedAt": "2026-10-22T20:13:14.568487+00:00"
-  },
-  {
     "id": 81336,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni/lenjerie-de-pat-creponata-uni-6-piese-cu-cearsaf-cappucino/",
     "costs": {
@@ -3601,125 +3584,6 @@
       "163152": true
     },
     "checkedAt": "2026-10-23"
-  },
-  {
-    "id": 162980,
-    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-5/",
-    "costs": {
-      "162982": 57,
-      "162988": 81,
-      "162986": 81,
-      "162984": 81
-    },
-    "availability": {
-      "162982": true,
-      "162988": true,
-      "162986": true,
-      "162984": true
-    },
-    "checkedAt": "2026-10-23T19:55:07.123106+00:00"
-  },
-  {
-    "id": 162971,
-    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-4/",
-    "costs": {
-      "162973": 57,
-      "162979": 81,
-      "162975": 81,
-      "162977": 81
-    },
-    "availability": {
-      "162973": true,
-      "162979": true,
-      "162975": true,
-      "162977": true
-    },
-    "checkedAt": "2026-10-23T19:55:07.123106+00:00"
-  },
-  {
-    "id": 162998,
-    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-7/",
-    "costs": {
-      "163000": 57,
-      "163006": 81,
-      "163002": 81,
-      "163004": 81
-    },
-    "availability": {
-      "163000": true,
-      "163006": true,
-      "163002": true,
-      "163004": true
-    },
-    "checkedAt": "2026-10-23T19:55:07.123106+00:00"
-  },
-  {
-    "id": 162944,
-    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac/",
-    "costs": {
-      "162946": 57,
-      "162952": 81,
-      "162948": 81,
-      "162950": 81
-    },
-    "availability": {
-      "162946": true,
-      "162952": true,
-      "162948": true,
-      "162950": true
-    },
-    "checkedAt": "2026-10-23T19:55:07.123106+00:00"
-  },
-  {
-    "id": 162989,
-    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-6/",
-    "costs": {
-      "162991": 57,
-      "162997": 81,
-      "162995": 81,
-      "162993": 81
-    },
-    "availability": {
-      "162991": true,
-      "162997": true,
-      "162995": true,
-      "162993": true
-    },
-    "checkedAt": "2026-10-23T19:55:07.123106+00:00"
-  },
-  {
-    "id": 162953,
-    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-2/",
-    "costs": {
-      "162955": 57,
-      "162961": 81,
-      "162959": 81,
-      "162957": 81
-    },
-    "availability": {
-      "162955": true,
-      "162961": true,
-      "162959": true,
-      "162957": true
-    },
-    "checkedAt": "2026-10-23T19:55:07.123106+00:00"
-  },
-  {
-    "id": 162962,
-    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-3/",
-    "costs": {
-      "162964": 57,
-      "162968": 81,
-      "162970": 81,
-      "162966": 81
-    },
-    "availability": {
-      "162964": true,
-      "162968": true,
-      "162970": true,
-      "162966": true
-    },
-    "checkedAt": "2026-10-23T19:55:07.123106+00:00"
   },
   {
     "id": 95144,
@@ -9564,5 +9428,227 @@
       "110238": true
     },
     "checkedAt": "2026-10-25T08:57:08.184885+00:00"
+  },
+  {
+    "id": 162998,
+    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-7/",
+    "costs": {
+      "162999": 39,
+      "163000": 57,
+      "163001": 49,
+      "163002": 81,
+      "163003": 52,
+      "163004": 81,
+      "163005": 55,
+      "163006": 81
+    },
+    "availability": {
+      "162999": true,
+      "163000": true,
+      "163001": true,
+      "163002": true,
+      "163003": true,
+      "163004": true,
+      "163005": true,
+      "163006": true
+    },
+    "checkedAt": "2026-10-25T09:15:12.308457+00:00"
+  },
+  {
+    "id": 162989,
+    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-6/",
+    "costs": {
+      "162990": 39,
+      "162991": 57,
+      "162992": 49,
+      "162993": 81,
+      "162994": 52,
+      "162995": 81,
+      "162996": 55,
+      "162997": 81
+    },
+    "availability": {
+      "162990": true,
+      "162991": true,
+      "162992": true,
+      "162993": true,
+      "162994": true,
+      "162995": true,
+      "162996": true,
+      "162997": true
+    },
+    "checkedAt": "2026-10-25T09:15:12.308457+00:00"
+  },
+  {
+    "id": 162980,
+    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-5/",
+    "costs": {
+      "162981": 39,
+      "162982": 57,
+      "162983": 49,
+      "162984": 81,
+      "162985": 52,
+      "162986": 81,
+      "162987": 55,
+      "162988": 81
+    },
+    "availability": {
+      "162981": true,
+      "162982": true,
+      "162983": true,
+      "162984": true,
+      "162985": true,
+      "162986": true,
+      "162987": true,
+      "162988": true
+    },
+    "checkedAt": "2026-10-25T09:15:12.308457+00:00"
+  },
+  {
+    "id": 162962,
+    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-3/",
+    "costs": {
+      "162963": 39,
+      "162964": 57,
+      "162965": 49,
+      "162966": 81,
+      "162967": 52,
+      "162968": 81,
+      "162969": 55,
+      "162970": 81
+    },
+    "availability": {
+      "162963": true,
+      "162964": true,
+      "162965": true,
+      "162966": true,
+      "162967": true,
+      "162968": true,
+      "162969": true,
+      "162970": true
+    },
+    "checkedAt": "2026-10-25T09:15:12.308457+00:00"
+  },
+  {
+    "id": 162953,
+    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-2/",
+    "costs": {
+      "162954": 39,
+      "162955": 57,
+      "162956": 49,
+      "162957": 81,
+      "162958": 52,
+      "162959": 81,
+      "162960": 55,
+      "162961": 81
+    },
+    "availability": {
+      "162954": true,
+      "162955": true,
+      "162956": true,
+      "162957": true,
+      "162958": true,
+      "162959": true,
+      "162960": true,
+      "162961": true
+    },
+    "checkedAt": "2026-10-25T09:15:12.308457+00:00"
+  },
+  {
+    "id": 162944,
+    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac/",
+    "costs": {
+      "162945": 39,
+      "162946": 57,
+      "162947": 49,
+      "162948": 81,
+      "162949": 52,
+      "162950": 81,
+      "162951": 55,
+      "162952": 81
+    },
+    "availability": {
+      "162945": true,
+      "162946": true,
+      "162947": true,
+      "162948": true,
+      "162949": true,
+      "162950": true,
+      "162951": true,
+      "162952": true
+    },
+    "checkedAt": "2026-10-25T09:15:12.308457+00:00"
+  },
+  {
+    "id": 162971,
+    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-4/",
+    "costs": {
+      "162972": 39,
+      "162973": 57,
+      "162974": 49,
+      "162975": 81,
+      "162976": 52,
+      "162977": 81,
+      "162978": 55,
+      "162979": 81
+    },
+    "availability": {
+      "162972": true,
+      "162973": true,
+      "162974": true,
+      "162975": true,
+      "162976": true,
+      "162977": true,
+      "162978": true,
+      "162979": true
+    },
+    "checkedAt": "2026-10-25T09:15:12.308457+00:00"
+  },
+  {
+    "id": 163031,
+    "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-8/",
+    "costs": {
+      "163008": 39,
+      "163009": 57,
+      "163010": 49,
+      "163011": 81,
+      "163012": 52,
+      "163013": 81,
+      "163014": 55,
+      "163015": 81
+    },
+    "availability": {
+      "163008": true,
+      "163009": true,
+      "163010": true,
+      "163011": true,
+      "163012": true,
+      "163013": true,
+      "163014": true,
+      "163015": true
+    },
+    "checkedAt": "2026-10-25T09:15:12.308457+00:00"
+  },
+  {
+    "id": 46030,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d49/",
+    "costs": {
+      "46030": 171.0
+    },
+    "availability": {
+      "46030": false
+    },
+    "checkedAt": "2026-10-25T09:15:31.736464+00:00"
+  },
+  {
+    "id": 106975,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-fulgi-memory-50cm-x-70cm/",
+    "costs": {
+      "106975": 40.0
+    },
+    "availability": {
+      "106975": true
+    },
+    "checkedAt": "2026-10-25T09:15:31.736464+00:00"
   }
 ]

@@ -1,0 +1,87 @@
+[
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "fewer_than_four_images"
+    ],
+    "product": {
+      "id": 106975,
+      "name": "Set 2 perne Fulgi Memory, 50 × 70 cm",
+      "categoryPath": "perne",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "image": "/products/perna-fulgi-memory-50cm-x-70cm/local-0.webp",
+      "images": [
+        "/products/perna-fulgi-memory-50cm-x-70cm/local-0.webp",
+        "/products/perna-fulgi-memory-50cm-x-70cm/local-1.webp",
+        "/products/perna-fulgi-memory-50cm-x-70cm/local-2.webp"
+      ],
+      "externalUrl": "https://ralexpucioasa.ro/store/perne/perna-fulgi-memory-50cm-x-70cm/",
+      "material": "Fulgi de spumă cu memorie; husă matlasată",
+      "features": [
+        {
+          "label": "Dimensiuni",
+          "value": "50 × 70 cm"
+        },
+        {
+          "label": "Umplutură",
+          "value": "Fulgi Memory Foam"
+        },
+        {
+          "label": "Husă",
+          "value": "Matlasată"
+        },
+        {
+          "label": "Conținut",
+          "value": "2 perne"
+        }
+      ],
+      "description": "Set de două perne matlasate cu umplutură din fulgi de spumă cu memorie, fiecare de 50 × 70 cm. Prețul afișat este pentru întregul set.",
+      "category": "Perne și protecții pernă",
+      "sku": "106975",
+      "price": 79,
+      "inStock": true,
+      "bundleComponents": [
+        {
+          "sku": "106975",
+          "quantity": 2,
+          "name": "Pernă Fulgi Memory 50 × 70 cm"
+        }
+      ],
+      "stock": 64
+    }
+  },
+  {
+    "status": "awaiting_rework_or_verification",
+    "reasonCodes": [
+      "composition_not_recorded"
+    ],
+    "product": {
+      "id": 46030,
+      "name": "Lenjerie de pat finet 3d – 6 piese (fn3d49) — multicolor",
+      "category": "LENJERII DE PAT FINET 3D",
+      "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
+      "brand": "Ralex Pucioasa",
+      "currency": "RON",
+      "description": "DIMENSIUNI\n– cearșaf pat uni: 220cm x 240cm\n– cearșaf pilotă: 200cm x 230cm (față imprimat 3D, verso uni)\n– 2 fețe pernă 50cm x 70cm (față imprimat 3D, verso uni)\n– 2 fețe pernă 70cm x 70xm (față imprimat 3D, verso uni)\nCOMPOZIȚIE TEXTILĂ\n– 70% BUMBAC + 30% POLIESTER\nCARACTERISTICI\n– Imprimată colorant reactiv\n– antișifonare\nProducator\nLenjeria de pat din finet 3D este o alegere fascinantă pentru cei care doresc să aducă o notă de realitate și profunzime în decorul dormitorului lor. Această lenjerie este realizată dintr-un material finet moale și plăcut la atingere, care oferă confort optim în timpul somnului.\nCeea ce face lenjeria de pat din finet 3D specială este efectul 3D al imprimeurilor sale. Aceste imprimeuri sunt create cu tehnologie avansată pentru a da iluzia unei imagini tridimensionale pe suprafața plată a lenjeriei. Astfel, poți găsi lenjerii de pat cu imprimeuri 3D care creează iluzia unui peisaj natural, a unor flori înflorite sau a altor scene spectaculoase.\nImaginile 3D sunt vibrante și realiste, aducând un plus de profunzime și viață în dormitorul tău. Această lenjerie poate fi o alegere minunată pentru cei care doresc să aducă un element de originalitate și personalitate în decorul lor, în timp ce se bucură în continuare de confortul oferit de finet.\nÎn plus, lenjeria de pat din finet 3D este ușor de întreținut, fiind rezistentă la decolorare și păstrându-și calitatea moale și plăcută la atingere chiar și după multiple spălări.\nInstrucțiuni de întreținere:\n– Înmuiați la 40°C cu adaos de 1 -2gr/l detergent sintetic.\n– Spălați normal sau mecanic cu adaos de 4-5gr/l detergent sintetic.\n– Se calcă la maxim 120°\n– Evitați utilizarea sodei și a clorului. A se spăla înainte de prima utilizare",
+      "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d49/",
+      "images": [
+        "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260618/17/8e802a7b-b637-34f7-a7a2-eceb4941c606/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260618/17/56a79091-e83d-3ec2-aef7-bc13bed9e19f/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260618/17/a245ae6e-7bba-3c7c-b6e4-651aaa87e450/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1907/prod/QC_PREP/20260618/17/86cfa614-4450-31e2-b247-59de9583cdec/1_org_zoom.jpg"
+      ],
+      "image": "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260618/17/8e802a7b-b637-34f7-a7a2-eceb4941c606/1_org_zoom.jpg",
+      "features": [
+        {
+          "label": "Brand",
+          "value": "Ralex Pucioasa"
+        }
+      ],
+      "inStock": true,
+      "price": 309,
+      "sku": "46030",
+      "stock": 50
+    }
+  }
+]

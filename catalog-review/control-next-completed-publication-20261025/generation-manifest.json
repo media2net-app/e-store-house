@@ -1,0 +1,48 @@
+{
+  "tool": "image_gen",
+  "authorization": "Merchant requested repairs and necessary generation",
+  "outputs": [
+    {
+      "id": 106975,
+      "view": "hero",
+      "ref": "/tmp/estore-next-control-20261025/7434decf42aea80455c2fc1c4f94760fb385b3026e3ddf2effe20444b335b466.img",
+      "prompt": "Premium ecommerce portrait 2:3 photo of EXACTLY ONE white 50x70 cm rectangular pillow from source. Preserve source wavy cloud-shaped quilting, piping seam, volume and material; no invented zipper, no exposed filling, no labels, no overlays, no text. One pillow only, no other pillows. Ivory and walnut setting, neutral natural daylight. Three-quarter full product still-life on pale oak bench; entire pillow visible.",
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-b32f1873-1fd4-4a60-82aa-e3d365e04de8.png"
+    },
+    {
+      "id": 46030,
+      "view": "detail",
+      "ref": "/tmp/estore-next-control-20261025/f1262d350f830b9f4fde02c88e6e4638facb363d8c3b5d896b9eec7dd18bf95b.img",
+      "prompt": "Create a premium ecommerce macro textile photograph, portrait 2:3, of this exact bedding. Tight close-up of a naturally folded corner showing the pale blue plain reverse and white printed face with the SAME blue butterfly wing and pale gray printed roses visible in reference. Faithfully preserve print colors and pattern, fine smooth finet cloth, not embossed roses. Neutral daylight, walnut bedside edge blurred behind. No whole bed, no pillows, no added text, no labels. Frame only the fabric detail away from printed lettering; do not redesign pattern.",
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-7950c45d-1552-45ea-a7b9-d42fdd3da5d7.png"
+    },
+    {
+      "id": 106975,
+      "view": "detail",
+      "ref": "/tmp/estore-next-control-20261025/7434decf42aea80455c2fc1c4f94760fb385b3026e3ddf2effe20444b335b466.img",
+      "prompt": "Premium ecommerce portrait 2:3 photo of EXACTLY ONE white 50x70 cm rectangular pillow from source. Preserve source wavy cloud-shaped quilting, piping seam, volume and material; no invented zipper, no exposed filling, no labels, no overlays, no text. One pillow only, no other pillows. Ivory and walnut setting, neutral natural daylight. Tight macro corner view of quilting stitches and edge seam, shallow depth of field, only one pillow corner visible.",
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-80b6f72c-e6d8-411b-a421-04bd3213577e.png"
+    },
+    {
+      "id": 106975,
+      "view": "side",
+      "ref": "/tmp/estore-next-control-20261025/7434decf42aea80455c2fc1c4f94760fb385b3026e3ddf2effe20444b335b466.img",
+      "prompt": "Premium ecommerce portrait 2:3 photo of EXACTLY ONE white 50x70 cm rectangular pillow from source. Preserve source wavy cloud-shaped quilting, piping seam, volume and material; no invented zipper, no exposed filling, no labels, no overlays, no text. One pillow only, no other pillows. Ivory and walnut setting, neutral natural daylight. Low side-angle view across one pillow resting horizontally on ivory linen bench, focusing on natural loft and edge profile, full pillow visible.",
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-06a5ecc6-1d2f-4725-b89b-be3223f04de7.png"
+    },
+    {
+      "id": 106975,
+      "view": "overhead",
+      "prompt": "Create a premium ecommerce top-down product photograph, portrait canvas 2:3. EXACTLY ONE white rectangular 50 x 70 cm pillow laid FLAT horizontally on an ivory linen-covered bench. The pillow must be visibly RECTANGULAR, width 1.4 times height, NOT SQUARE; entire pillow and edges visible. Preserve the reference pillow's white cloud-like meandering quilting and edge piping. True overhead camera perpendicular to bench. No other pillows, no blanket, no text, no filler, no invented zipper or labels. Neutral natural daylight, subtle walnut bench edge.",
+      "path": "/Users/mihaipopescu/.codex/generated_images/01a169c6-1a10-7540-b1b2-cd4f45fcaab5/exec-98c992cb-eea6-411a-b61c-35c8d0d3ba14.png"
+    }
+  ],
+  "review": "Five selected generated outputs and three existing Control photographs visually reviewed. Rejected square pillow overhead replaced with rectangular 50x70 proportions.",
+  "prompts": [
+    "Premium ecommerce portrait 2:3 photo of EXACTLY ONE white 50x70 cm rectangular pillow from source. Preserve source wavy cloud-shaped quilting, piping seam, volume and material; no invented zipper, no exposed filling, no labels, no overlays, no text. One pillow only, no other pillows. Ivory and walnut setting, neutral natural daylight. Three-quarter full product still-life on pale oak bench; entire pillow visible.",
+    "Create a premium ecommerce macro textile photograph, portrait 2:3, of this exact bedding. Tight close-up of a naturally folded corner showing the pale blue plain reverse and white printed face with the SAME blue butterfly wing and pale gray printed roses visible in reference. Faithfully preserve print colors and pattern, fine smooth finet cloth, not embossed roses. Neutral daylight, walnut bedside edge blurred behind. No whole bed, no pillows, no added text, no labels. Frame only the fabric detail away from printed lettering; do not redesign pattern.",
+    "Premium ecommerce portrait 2:3 photo of EXACTLY ONE white 50x70 cm rectangular pillow from source. Preserve source wavy cloud-shaped quilting, piping seam, volume and material; no invented zipper, no exposed filling, no labels, no overlays, no text. One pillow only, no other pillows. Ivory and walnut setting, neutral natural daylight. Tight macro corner view of quilting stitches and edge seam, shallow depth of field, only one pillow corner visible.",
+    "Premium ecommerce portrait 2:3 photo of EXACTLY ONE white 50x70 cm rectangular pillow from source. Preserve source wavy cloud-shaped quilting, piping seam, volume and material; no invented zipper, no exposed filling, no labels, no overlays, no text. One pillow only, no other pillows. Ivory and walnut setting, neutral natural daylight. Low side-angle view across one pillow resting horizontally on ivory linen bench, focusing on natural loft and edge profile, full pillow visible.",
+    "Create a premium ecommerce top-down product photograph, portrait canvas 2:3. EXACTLY ONE white rectangular 50 x 70 cm pillow laid FLAT horizontally on an ivory linen-covered bench. The pillow must be visibly RECTANGULAR, width 1.4 times height, NOT SQUARE; entire pillow and edges visible. Preserve the reference pillow's white cloud-like meandering quilting and edge piping. True overhead camera perpendicular to bench. No other pillows, no blanket, no text, no filler, no invented zipper or labels. Neutral natural daylight, subtle walnut bench edge."
+  ]
+}
