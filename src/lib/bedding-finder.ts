@@ -11,11 +11,12 @@ const sizes = (text: string) => unique([...text.matchAll(/(\d{2,3})\s*[x×]\s*(\
 
 /** Only dimensions explicitly attached to a component may be used for matching. */
 export function beddingDimensions(text: string) {
-  const lines = normalizeSearch(text).replace(/dimensiuni\s+/g, '\n').split(/[\n;]+/).map(s => s.trim()).filter(Boolean);
+  const lines = normalizeSearch(text).replace(/dimensiuni\s+/g, '\n')
+    .replace(/cm\s*(?:,\s*|\s+si\s+)(?=(?:\d+|o|un|doua)\s+(?:cearsaf|husa|fete|fata|patura|cuvertura))/g, 'cm\n').split(/[\n;•]+|\s+[–—]\s+/).map(s => s.trim()).filter(Boolean);
   const duvet = lines.filter(s => /pilot/.test(s) && !/pern|saltea/.test(s));
   const pillow = lines.filter(s => /pern/.test(s) && !/pilot|saltea|cears/.test(s));
-  const mattress = lines.filter(s => /saltea|elastic/.test(s) && !/pilot|pern/.test(s));
-  const flat = lines.some(s => /cearsaf/.test(s) && !/pilot|pern|elastic/.test(s) && (sizes(s).length > 0 || /simplu/.test(s)));
+  const mattress = lines.filter(s => /salte[al]|elastic|husa (?:de )?pat/.test(s) && !/pilot|pern/.test(s) && !/fara elastic|cearsaf (?:de )?pat (?:simplu|plat)/.test(s));
+  const flat = lines.some(s => /cearsaf/.test(s) && !/pilot|pern/.test(s) && (!/elastic/.test(s) || /fara elastic/.test(s)) && (sizes(s).length > 0 || /simplu/.test(s)));
   return { duvet: unique(duvet.flatMap(sizes)), pillow: unique(pillow.flatMap(sizes)), mattress: unique(mattress.flatMap(sizes)), sheet: mattress.length ? 'Cu elastic / husă pentru saltea' : flat ? 'Cearșaf simplu' : '' };
 }
 
@@ -23,7 +24,7 @@ export function beddingDimensions(text: string) {
 export function buildBeddingModels(products: Product[]): BeddingModel[] {
   return products.filter(p => p.categoryPath?.startsWith('lenjerii-de-pat') && p.inStock !== false).flatMap(p => {
     const choices = p.variants?.length ? p.variants.filter(v => v.inStock !== false).map(v => ({ id: v.id, name: v.name, price: v.price, image: v.images?.[0] || p.image, ...beddingDimensions(v.contents || '') }))
-      : [{ id: p.id, name: 'Setul prezentat', price: p.price, image: p.image, ...beddingDimensions(p.description || '') }];
+      : [{ id: p.id, name: 'Setul prezentat', price: p.price, image: p.image, ...beddingDimensions([p.description || '', ...(p.features || []).map(f => `${f.label}: ${f.value}`)].join('\n')) }];
     if (!choices.length) return [];
     const color = p.features?.find(f => normalizeSearch(f.label) === 'culoare')?.value
       || p.description?.match(/(?:^|\n|\.\s*)Culoare:\s*([^\n.;]+)/i)?.[1]?.trim() || '';

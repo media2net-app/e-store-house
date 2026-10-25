@@ -12,3 +12,31 @@ test('unavailable products and variants are excluded', () => { assert.equal(buil
 test('extracts named components from supplier inline labels and keeps ambiguous contents out', () => { const d = beddingDimensions('Dimensiuni cearsaf pat: 160x240cm Dimensiuni cearsaf pilotă: 140x210cm Dimensiuni față pernă: 50x70cm'); assert.deepEqual([...d.duvet], ['140 × 210 cm']); assert.deepEqual([...d.pillow], ['50 × 70 cm']); assert.equal(d.mattress.length, 0); const ambiguous = beddingDimensions('Cearșaf 230x250, husă pilotă 200x230 și fețe pernă 50x70'); assert.equal(ambiguous.duvet.length, 0); assert.equal(ambiguous.pillow.length, 0); });
 test('missing dimensions never become matches; reversed dimensions and mattress height do not contaminate sizes', () => { const d = beddingDimensions(contents); assert.deepEqual([...d.mattress], ['160 × 200 cm']); assert.deepEqual([...beddingDimensions('husă de pilotă 230x200').duvet], ['200 × 230 cm']); const m = buildBeddingModels([{ ...product, variants: undefined, description: 'Dimensiuni neprecizate' }]); assert.equal(filterBedding(m, { ...emptyBeddingFilters, duvet: '200 × 230 cm' }).length, 0); });
 test('zero and invalid budgets do not silently show higher priced products', () => { const m = buildBeddingModels([product]); for (const maxPrice of ['0', '-1', 'invalid']) assert.equal(filterBedding(m, { ...emptyBeddingFilters, maxPrice }).length, 0); assert.equal(filterBedding(m, { ...emptyBeddingFilters, material: 'Poliester' }).length, 0); });
+test('supplier dash lists preserve separate sheet, duvet and pillow sizes', () => {
+  const d = beddingDimensions('– Husă pat: 90x200x25cm – Cearșaf pilotă: 150x220cm – O față pernă: 50x70cm');
+  assert.deepEqual([...d.mattress], ['90 × 200 cm']);
+  assert.deepEqual([...d.duvet], ['150 × 220 cm']);
+  assert.deepEqual([...d.pillow], ['50 × 70 cm']);
+});
+test('explicit quantity-and-unit lists support commas without mixing component sizes', () => {
+  const d = beddingDimensions('4 piese: 1 cearșaf de pat 240 × 260 cm, 1 husă de pilotă 200 × 230 cm și 2 fețe de pernă 50 × 70 cm.');
+  assert.deepEqual([...d.duvet], ['200 × 230 cm']); assert.deepEqual([...d.pillow], ['50 × 70 cm']); assert.equal(d.mattress.length, 0);
+  const fitted = beddingDimensions('1 husă universală pentru saltele de 160 × 200 × 24 cm sau 180 × 200 × 24 cm, 1 cearșaf de pilotă 200 × 230 cm, 2 fețe de pernă 50 × 70 cm și 2 fețe de pernă 70 × 70 cm.');
+  assert.deepEqual([...fitted.mattress], ['160 × 200 cm', '180 × 200 cm']); assert.deepEqual([...fitted.pillow], ['50 × 70 cm', '70 × 70 cm']);
+});
+test('without elastic is a flat sheet, never a fitted mattress measurement', () => {
+  const d = beddingDimensions('1 cearșaf de pat fără elastic 230 × 250 cm; 1 husă de pilotă 200 × 230 cm');
+  assert.equal(d.sheet, 'Cearșaf simplu'); assert.equal(d.mattress.length, 0);
+});
+test('reviewed catalog examples remain discoverable through their own component dimensions', () => {
+  const catalog = JSON.parse(fs.readFileSync('src/data/products.json', 'utf8'));
+  const models = buildBeddingModels(catalog.filter(p => [101369,161998,95063,96422,163175].includes(p.id)));
+  const find = (id, filters) => filterBedding(models, { ...emptyBeddingFilters, ...filters }).find(p => p.id === id);
+  assert(find(101369, { duvet:'200 × 230 cm', pillow:'50 × 70 cm' }));
+  assert(find(95063, { duvet:'200 × 230 cm', sheet:'Cearșaf simplu' }));
+  assert(find(96422, { mattress:'180 × 200 cm', pillow:'70 × 70 cm' }));
+  const fitted = find(161998, { mattress:'90 × 200 cm', duvet:'150 × 220 cm' });
+  assert(fitted); assert(fitted.choices.every(v => v.mattress.includes('90 × 200 cm') && v.duvet.includes('150 × 220 cm')));
+  assert(find(163175, { pillow:'50 × 70 cm' }));
+  assert(!find(163175, { duvet:'220 × 240 cm' })); // This set contains a blanket, not a duvet cover.
+});
