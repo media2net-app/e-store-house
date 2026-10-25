@@ -1,0 +1,160 @@
+{
+  "preparedAt": "2026-10-25T08:57:08.184885+00:00",
+  "products": [
+    {
+      "id": 102934,
+      "skus": [
+        "102941"
+      ],
+      "status": "verified-ready",
+      "controlSku": "102934",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 102924,
+      "skus": [
+        "102945"
+      ],
+      "status": "verified-ready",
+      "controlSku": "102924",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 102929,
+      "skus": [
+        "102943"
+      ],
+      "status": "verified-ready",
+      "controlSku": "102929",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 102917,
+      "skus": [
+        "102949"
+      ],
+      "status": "verified-ready",
+      "controlSku": "102917",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 102908,
+      "skus": [
+        "102954"
+      ],
+      "status": "verified-ready",
+      "controlSku": "102908",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 102901,
+      "skus": [
+        "102940"
+      ],
+      "status": "verified-ready",
+      "controlSku": "102901",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 110267,
+      "skus": [
+        "110270"
+      ],
+      "status": "verified-ready",
+      "controlSku": "110270",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 110333,
+      "skus": [
+        "110336"
+      ],
+      "status": "verified-ready",
+      "controlSku": "110336",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 110311,
+      "skus": [
+        "110314"
+      ],
+      "status": "verified-ready",
+      "controlSku": "110314",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 110289,
+      "skus": [
+        "110292"
+      ],
+      "status": "verified-ready",
+      "controlSku": "110292",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 110282,
+      "skus": [
+        "110285"
+      ],
+      "status": "verified-ready",
+      "controlSku": "110285",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 110274,
+      "skus": [
+        "110277"
+      ],
+      "status": "verified-ready",
+      "controlSku": "110277",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 110261,
+      "skus": [
+        "110264"
+      ],
+      "status": "verified-ready",
+      "controlSku": "110264",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 110254,
+      "skus": [
+        "110257"
+      ],
+      "status": "verified-ready",
+      "controlSku": "110257",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 110247,
+      "skus": [
+        "110250"
+      ],
+      "status": "verified-ready",
+      "controlSku": "110250",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 110241,
+      "skus": [
+        "110244"
+      ],
+      "status": "verified-ready",
+      "controlSku": "110244",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    },
+    {
+      "id": 110235,
+      "skus": [
+        "110238"
+      ],
+      "status": "verified-ready",
+      "controlSku": "110238",
+      "offer": "One 70x140 cm towel; supplier variant unit price, not Control bundle"
+    }
+  ],
+  "newModels": 17,
+  "newSkus": 17
+}

@@ -36029,5 +36029,813 @@
     "price": 479,
     "stock": 100,
     "inStock": true
+  },
+  {
+    "id": 74798,
+    "sku": "74798",
+    "name": "Lenjerie din bumbac satinat Le Pala, 6 piese",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac dublu satin",
+    "description": "Lenjerie din bumbac satinat Le Pala, 6 piese.\n\nMaterial: 100% bumbac dublu satin.\n\nConținut și dimensiuni: 1 cearșaf de pat 260 × 240 cm, 1 cearșaf de pilotă 200 × 220 cm și 4 fețe de pernă 50 × 70 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-le-pala/",
+    "images": [
+      "/products/74798/hero-reviewed-v1.png",
+      "/products/74798/overhead-reviewed-v1.png",
+      "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260614/01/0129499e-e7b7-32eb-9272-2a1004d6ff7c/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260614/01/4dde7099-928f-3bad-b753-e69ad4ecb2ed/1_org_zoom.jpg"
+    ],
+    "image": "/products/74798/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac dublu satin"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat 260 × 240 cm, 1 cearșaf de pilotă 200 × 220 cm și 4 fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "price": 489,
+    "stock": 10,
+    "inStock": true
+  },
+  {
+    "id": 158328,
+    "sku": "158328",
+    "name": "Set cuvertură piqué Velda V3, cărămiziu, 4 piese",
+    "category": "Seturi de pat cu pled",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Țesătură piqué gofrată",
+    "description": "Set cuvertură piqué Velda V3, cărămiziu, 4 piese.\n\nMaterial: Țesătură piqué gofrată.\n\nConținut și dimensiuni: 1 cuvertură gofrată cu ciucuri 220 × 240 cm, 1 cearșaf de pat uni 240 × 260 cm și 2 fețe de pernă 50 × 70 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled/set-cuvertura-velda-v3-pique-clasy-4-piese-cuvertura-gofrata-cu-ciucuri/",
+    "images": [
+      "/products/158328/hero-reviewed-v1.png",
+      "/products/158328/side-reviewed-v1.png",
+      "/products/158328/overhead-reviewed-v1.png",
+      "/products/158328/detail-reviewed-v1.png"
+    ],
+    "image": "/products/158328/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură piqué gofrată"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cuvertură gofrată cu ciucuri 220 × 240 cm, 1 cearșaf de pat uni 240 × 260 cm și 2 fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "price": 439,
+    "stock": 100,
+    "inStock": false
+  },
+  {
+    "id": 158325,
+    "sku": "158325",
+    "name": "Set cuvertură piqué Velda V2, verde salvie, 4 piese",
+    "category": "Seturi de pat cu pled",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Țesătură piqué gofrată",
+    "description": "Set cuvertură piqué Velda V2, verde salvie, 4 piese.\n\nMaterial: Țesătură piqué gofrată.\n\nConținut și dimensiuni: 1 cuvertură gofrată cu ciucuri 220 × 240 cm, 1 cearșaf de pat uni 240 × 260 cm și 2 fețe de pernă 50 × 70 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled/set-cuvertura-velda-v2-pique-clasy-4-piese-cuvertura-gofrata-cu-ciucuri/",
+    "images": [
+      "/products/158325/hero-reviewed-v1.png",
+      "/products/158325/side-reviewed-v1.png",
+      "/products/158325/overhead-reviewed-v1.png",
+      "/products/158325/detail-reviewed-v1.png"
+    ],
+    "image": "/products/158325/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură piqué gofrată"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cuvertură gofrată cu ciucuri 220 × 240 cm, 1 cearșaf de pat uni 240 × 260 cm și 2 fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "price": 439,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 84134,
+    "sku": "84134",
+    "name": "Lenjerie Ranforce Sone, 4 piese",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac ranforce",
+    "description": "Lenjerie Ranforce Sone, 4 piese.\n\nMaterial: 100% bumbac ranforce.\n\nConținut și dimensiuni: 1 cearșaf de pat 260 × 240 cm, 1 cearșaf de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-sone/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/14/a8bfe0ac-79c5-3d29-8728-da2fea0f6602/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1970/prod/QC_PREP/20261001/14/2c73ca42-cdd0-335f-aad1-d03f8daf7294/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/14/1ccf4458-2bcb-3669-80ac-9d174b9b912f/1_org_zoom.jpg",
+      "/products/84134/folded-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261001/14/a8bfe0ac-79c5-3d29-8728-da2fea0f6602/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac ranforce"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat 260 × 240 cm, 1 cearșaf de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm."
+      }
+    ],
+    "price": 339,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 102934,
+    "sku": "102941",
+    "name": "Prosop Luxury roz, 70 × 140 cm, 600 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Luxury roz, 70 × 140 cm, 600 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 600 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-luxury-bumbac-100-70x140cm-600g-m2-roz/",
+    "images": [
+      "/products/102934/hero-individual-reviewed-v1.png",
+      "/products/102934/hanging-individual-reviewed-v1.png",
+      "/products/102934/detail-individual-reviewed-v1.png",
+      "/products/102934/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/102934/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "600 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 69,
+    "stock": 43,
+    "inStock": false
+  },
+  {
+    "id": 102924,
+    "sku": "102945",
+    "name": "Prosop Luxury mov, 70 × 140 cm, 600 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Luxury mov, 70 × 140 cm, 600 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 600 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-luxury-bumbac-100-70x140cm-600g-m2-mov/",
+    "images": [
+      "/products/102924/hero-individual-reviewed-v1.png",
+      "/products/102924/hanging-individual-reviewed-v1.png",
+      "/products/102924/detail-individual-reviewed-v1.png",
+      "/products/102924/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/102924/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "600 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 69,
+    "stock": 41,
+    "inStock": true
+  },
+  {
+    "id": 102929,
+    "sku": "102943",
+    "name": "Prosop Luxury roșu, 70 × 140 cm, 600 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Luxury roșu, 70 × 140 cm, 600 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 600 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-luxury-bumbac-100-70x140cm-600g-m2-rosu/",
+    "images": [
+      "/products/102929/hero-individual-reviewed-v1.png",
+      "/products/102929/hanging-individual-reviewed-v1.png",
+      "/products/102929/detail-individual-reviewed-v1.png",
+      "/products/102929/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/102929/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "600 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 69,
+    "stock": 45,
+    "inStock": true
+  },
+  {
+    "id": 102917,
+    "sku": "102949",
+    "name": "Prosop Luxury galben pal, 70 × 140 cm, 600 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Luxury galben pal, 70 × 140 cm, 600 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 600 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-luxury-bumbac-100-70x140cm-600g-m2-bleu-2/",
+    "images": [
+      "/products/102917/hero-individual-reviewed-v1.png",
+      "/products/102917/hanging-individual-reviewed-v1.png",
+      "/products/102917/detail-individual-reviewed-v1.png",
+      "/products/102917/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/102917/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "600 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 69,
+    "stock": 47,
+    "inStock": true
+  },
+  {
+    "id": 102908,
+    "sku": "102954",
+    "name": "Prosop Luxury turcoaz, 70 × 140 cm, 600 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Luxury turcoaz, 70 × 140 cm, 600 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 600 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-luxury-bumbac-100-70x140cm-600g-m2-albastru/",
+    "images": [
+      "/products/102908/hero-individual-reviewed-v1.png",
+      "/products/102908/hanging-individual-reviewed-v1.png",
+      "/products/102908/detail-individual-reviewed-v1.png",
+      "/products/102908/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/102908/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "600 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 69,
+    "stock": 46,
+    "inStock": true
+  },
+  {
+    "id": 102901,
+    "sku": "102940",
+    "name": "Prosop Luxury alb ivory, 70 × 140 cm, 600 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Luxury alb ivory, 70 × 140 cm, 600 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 600 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-linii-bumbac-100-70x140cm-60g-m2-alb/",
+    "images": [
+      "/products/102901/hero-individual-reviewed-v1.png",
+      "/products/102901/hanging-individual-reviewed-v1.png",
+      "/products/102901/detail-individual-reviewed-v1.png",
+      "/products/102901/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/102901/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "600 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 69,
+    "stock": 50,
+    "inStock": true
+  },
+  {
+    "id": 110267,
+    "sku": "110270",
+    "name": "Prosop Greek Border Emerald Jungle, 70 × 140 cm, 500 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Greek Border Emerald Jungle, 70 × 140 cm, 500 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 500 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-horeca-greek-border-500g-emerald-jungle/",
+    "images": [
+      "/products/110267/hero-individual-reviewed-v1.png",
+      "/products/110267/hanging-individual-reviewed-v1.png",
+      "/products/110267/detail-individual-reviewed-v1.png",
+      "/products/110267/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/110267/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "500 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 59,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 110333,
+    "sku": "110336",
+    "name": "Prosop Greek Border Alpine White, 70 × 140 cm, 500 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Greek Border Alpine White, 70 × 140 cm, 500 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 500 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-horeca-greek-border-500g-alpine-white/",
+    "images": [
+      "/products/110333/hero-individual-reviewed-v1.png",
+      "/products/110333/hanging-individual-reviewed-v1.png",
+      "/products/110333/detail-individual-reviewed-v1.png",
+      "/products/110333/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/110333/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "500 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 59,
+    "stock": 98,
+    "inStock": true
+  },
+  {
+    "id": 110311,
+    "sku": "110314",
+    "name": "Prosop Greek Border Café Sahara, 70 × 140 cm, 500 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Greek Border Café Sahara, 70 × 140 cm, 500 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 500 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-horeca-greek-border-500g-cafe-sahara-2/",
+    "images": [
+      "/products/110311/hero-individual-reviewed-v1.png",
+      "/products/110311/hanging-individual-reviewed-v1.png",
+      "/products/110311/detail-individual-reviewed-v1.png",
+      "/products/110311/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/110311/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "500 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 59,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 110289,
+    "sku": "110292",
+    "name": "Prosop Greek Border Midnight Stone, 70 × 140 cm, 500 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Greek Border Midnight Stone, 70 × 140 cm, 500 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 500 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-horeca-greek-border-500g-cafe-sahara/",
+    "images": [
+      "/products/110289/hero-individual-reviewed-v1.png",
+      "/products/110289/hanging-individual-reviewed-v1.png",
+      "/products/110289/detail-individual-reviewed-v1.png",
+      "/products/110289/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/110289/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "500 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 59,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 110282,
+    "sku": "110285",
+    "name": "Prosop Greek Border Rose Paradise, 70 × 140 cm, 500 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Greek Border Rose Paradise, 70 × 140 cm, 500 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 500 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-horeca-greek-border-500g-rose-paradise/",
+    "images": [
+      "/products/110282/hero-individual-reviewed-v1.png",
+      "/products/110282/hanging-individual-reviewed-v1.png",
+      "/products/110282/detail-individual-reviewed-v1.png",
+      "/products/110282/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/110282/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "500 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 59,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 110274,
+    "sku": "110277",
+    "name": "Prosop Greek Border Desert Ivory, 70 × 140 cm, 500 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Greek Border Desert Ivory, 70 × 140 cm, 500 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 500 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-horeca-greek-border-500g-desert-ivory/",
+    "images": [
+      "/products/110274/hero-individual-reviewed-v1.png",
+      "/products/110274/hanging-individual-reviewed-v1.png",
+      "/products/110274/detail-individual-reviewed-v1.png",
+      "/products/110274/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/110274/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "500 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 59,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 110261,
+    "sku": "110264",
+    "name": "Prosop Greek Border Royal Amethyst, 70 × 140 cm, 500 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Greek Border Royal Amethyst, 70 × 140 cm, 500 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 500 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-horeca-greek-border-500g-royal-amethyst/",
+    "images": [
+      "/products/110261/hero-individual-reviewed-v1.png",
+      "/products/110261/hanging-individual-reviewed-v1.png",
+      "/products/110261/detail-individual-reviewed-v1.png",
+      "/products/110261/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/110261/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "500 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 59,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 110254,
+    "sku": "110257",
+    "name": "Prosop Greek Border Vanilla Sands, 70 × 140 cm, 500 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Greek Border Vanilla Sands, 70 × 140 cm, 500 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 500 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-horeca-greek-border-500g-vanilla-sands/",
+    "images": [
+      "/products/110254/hero-individual-reviewed-v1.png",
+      "/products/110254/hanging-individual-reviewed-v1.png",
+      "/products/110254/detail-individual-reviewed-v1.png",
+      "/products/110254/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/110254/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "500 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 59,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 110247,
+    "sku": "110250",
+    "name": "Prosop Greek Border Mint Lagoon, 70 × 140 cm, 500 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Greek Border Mint Lagoon, 70 × 140 cm, 500 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 500 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-horeca-greek-border-500g-mint-lagoon/",
+    "images": [
+      "/products/110247/hero-individual-reviewed-v1.png",
+      "/products/110247/hanging-individual-reviewed-v1.png",
+      "/products/110247/detail-individual-reviewed-v1.png",
+      "/products/110247/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/110247/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "500 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 59,
+    "stock": 99,
+    "inStock": true
+  },
+  {
+    "id": 110241,
+    "sku": "110244",
+    "name": "Prosop Greek Border Azure Oasis, 70 × 140 cm, 500 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Greek Border Azure Oasis, 70 × 140 cm, 500 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 500 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-horeca-greek-border-500g-azure-oasis/",
+    "images": [
+      "/products/110241/hero-individual-reviewed-v1.png",
+      "/products/110241/hanging-individual-reviewed-v1.png",
+      "/products/110241/detail-individual-reviewed-v1.png",
+      "/products/110241/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/110241/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "500 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 59,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 110235,
+    "sku": "110238",
+    "name": "Prosop Greek Border Liliac Mirage, 70 × 140 cm, 500 g/m²",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac, fir dublu",
+    "description": "Prosop Greek Border Liliac Mirage, 70 × 140 cm, 500 g/m².\n\nMaterial: 100% bumbac, fir dublu. Densitate: 500 g/m².\n\nConținut: 1 prosop de baie, 70 × 140 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-horeca-greek-border-500g-liliac-mirage/",
+    "images": [
+      "/products/110235/hero-individual-reviewed-v1.png",
+      "/products/110235/hanging-individual-reviewed-v1.png",
+      "/products/110235/detail-individual-reviewed-v1.png",
+      "/products/110235/rolled-individual-reviewed-v1.png"
+    ],
+    "image": "/products/110235/hero-individual-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac, fir dublu"
+      },
+      {
+        "label": "Dimensiuni",
+        "value": "70 × 140 cm"
+      },
+      {
+        "label": "Densitate",
+        "value": "500 g/m²"
+      },
+      {
+        "label": "Conținut",
+        "value": "1 prosop de baie, 70 × 140 cm."
+      }
+    ],
+    "price": 59,
+    "stock": 100,
+    "inStock": true
   }
 ]
