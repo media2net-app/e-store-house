@@ -1,0 +1,75 @@
+{
+  "batch": "control-individual-towels-publication-20261025",
+  "checkedAt": "2026-10-25T09:03:26.269482+00:00",
+  "catalogCount": 800,
+  "results": [
+    {
+      "id": 102934,
+      "status": "live"
+    },
+    {
+      "id": 102924,
+      "status": "live"
+    },
+    {
+      "id": 102929,
+      "status": "live"
+    },
+    {
+      "id": 102917,
+      "status": "live"
+    },
+    {
+      "id": 102908,
+      "status": "live"
+    },
+    {
+      "id": 102901,
+      "status": "live"
+    },
+    {
+      "id": 110267,
+      "status": "live"
+    },
+    {
+      "id": 110333,
+      "status": "live"
+    },
+    {
+      "id": 110311,
+      "status": "live"
+    },
+    {
+      "id": 110289,
+      "status": "live"
+    },
+    {
+      "id": 110282,
+      "status": "live"
+    },
+    {
+      "id": 110274,
+      "status": "live"
+    },
+    {
+      "id": 110261,
+      "status": "live"
+    },
+    {
+      "id": 110254,
+      "status": "live"
+    },
+    {
+      "id": 110247,
+      "status": "live"
+    },
+    {
+      "id": 110241,
+      "status": "live"
+    },
+    {
+      "id": 110235,
+      "status": "live"
+    }
+  ]
+}

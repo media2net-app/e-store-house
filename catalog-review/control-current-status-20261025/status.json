@@ -1,0 +1,755 @@
+{
+  "checkedAt": "2026-10-25T08:58:03.172364+00:00",
+  "preparedModels": 800,
+  "saleableSkus": 1183,
+  "targetModels": 800,
+  "modelsRemainingToTarget": 0,
+  "publicationCommit": "aff54d0",
+  "liveVerification": {
+    "checkedAt": "2026-10-25T09:03:35.858673+00:00",
+    "catalogCount": 800,
+    "lastBatchPagesVerified": 21,
+    "errors": [],
+    "deployment": "success",
+    "newImagesVerified": 79
+  },
+  "remainingUnpublishedControlRecords": [
+    {
+      "controlSku": "102847",
+      "controlBarcode": "102847",
+      "title": "Pernă Nimbus MicroGel, 50 × 70 cm, 1.250 g",
+      "status": "actual_color_unconfirmed_no_control_gallery",
+      "supplierParentId": 102847,
+      "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-pufoasa-nimbus-50cm-x-70cm/"
+    },
+    {
+      "controlSku": "64397",
+      "controlBarcode": "64397",
+      "title": "Pilotă cu umplutură din puf de gâscă 80%, 200 × 230 cm",
+      "status": "supplier_photo_does_not_show_actual_duvet_construction_no_control_gallery",
+      "supplierParentId": 64397,
+      "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilota-puf-gasca/"
+    },
+    {
+      "controlSku": "80631",
+      "controlBarcode": "80631",
+      "title": "Lenjerie de pat Finet de Crăciun F-XMAS46, 6 piese",
+      "status": "supplier_composition_missing",
+      "supplierParentId": 80631,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-xmas/lenjerie-pat-finet-3d-6-piese-craciun-f-xmas46/"
+    },
+    {
+      "controlSku": "80632",
+      "controlBarcode": "80632",
+      "title": "Lenjerie de pat Finet de Crăciun F-XMAS47, 6 piese",
+      "status": "supplier_composition_missing",
+      "supplierParentId": 80632,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-xmas/lenjerie-pat-finet-3d-6-piese-craciun-f-xmas47/"
+    },
+    {
+      "controlSku": "81824",
+      "controlBarcode": "81824",
+      "title": "Lenjerie de pat Finet de Crăciun F-XMAS84, 6 piese",
+      "status": "supplier_composition_missing",
+      "supplierParentId": 81824,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-xmas/lenjerie-pat-finet-3d-6-piese-craciun-f-xmas84/"
+    },
+    {
+      "controlSku": "81825",
+      "controlBarcode": "81825",
+      "title": "Lenjerie de pat Finet de Crăciun F-XMAS85, 6 piese",
+      "status": "supplier_composition_missing",
+      "supplierParentId": 81825,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-xmas/lenjerie-pat-finet-3d-6-piese-craciun-f-xmas85/"
+    },
+    {
+      "controlSku": "81831",
+      "controlBarcode": "81831",
+      "title": "Lenjerie de pat Finet de Crăciun F-XMAS91, 6 piese",
+      "status": "supplier_composition_missing",
+      "supplierParentId": 81831,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-xmas/lenjerie-pat-finet-3d-6-piese-craciun-f-xmas91/"
+    },
+    {
+      "controlSku": "81835",
+      "controlBarcode": "81835",
+      "title": "Lenjerie de pat Finet de Crăciun F-XMAS95, 6 piese",
+      "status": "supplier_composition_missing",
+      "supplierParentId": 81835,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-xmas/lenjerie-pat-finet-3d-6-piese-craciun-f-xmas95/"
+    },
+    {
+      "controlSku": "163005",
+      "controlBarcode": "163005",
+      "title": "Husă de pat jerse 100% bumbac, galben",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162998,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-7/"
+    },
+    {
+      "controlSku": "163003",
+      "controlBarcode": "163003",
+      "title": "Husă de pat jerse 100% bumbac, galben",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162998,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-7/"
+    },
+    {
+      "controlSku": "163001",
+      "controlBarcode": "163001",
+      "title": "Husă de pat jerse 100% bumbac, galben",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162998,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-7/"
+    },
+    {
+      "controlSku": "162999",
+      "controlBarcode": "162999",
+      "title": "Husă de pat jerse 100% bumbac, galben",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162998,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-7/"
+    },
+    {
+      "controlSku": "162996",
+      "controlBarcode": "162996",
+      "title": "Husă de pat jerse 100% bumbac, roz deschis",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162989,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-6/"
+    },
+    {
+      "controlSku": "162994",
+      "controlBarcode": "162994",
+      "title": "Husă de pat jerse 100% bumbac, roz deschis",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162989,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-6/"
+    },
+    {
+      "controlSku": "162992",
+      "controlBarcode": "162992",
+      "title": "Husă de pat jerse 100% bumbac, roz deschis",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162989,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-6/"
+    },
+    {
+      "controlSku": "162990",
+      "controlBarcode": "162990",
+      "title": "Husă de pat jerse 100% bumbac, roz deschis",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162989,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-6/"
+    },
+    {
+      "controlSku": "162987",
+      "controlBarcode": "162987",
+      "title": "Husă de pat jerse 100% bumbac, bleu",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162980,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-5/"
+    },
+    {
+      "controlSku": "162985",
+      "controlBarcode": "162985",
+      "title": "Husă de pat jerse 100% bumbac, bleu",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162980,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-5/"
+    },
+    {
+      "controlSku": "162983",
+      "controlBarcode": "162983",
+      "title": "Husă de pat jerse 100% bumbac, bleu",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162980,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-5/"
+    },
+    {
+      "controlSku": "162981",
+      "controlBarcode": "162981",
+      "title": "Husă de pat jerse 100% bumbac, bleu",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162980,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-5/"
+    },
+    {
+      "controlSku": "162978",
+      "controlBarcode": "162978",
+      "title": "Husă de pat jerse 100% bumbac, crem",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162971,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-4/"
+    },
+    {
+      "controlSku": "162976",
+      "controlBarcode": "162976",
+      "title": "Husă de pat jerse 100% bumbac, crem",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162971,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-4/"
+    },
+    {
+      "controlSku": "162974",
+      "controlBarcode": "162974",
+      "title": "Husă de pat jerse 100% bumbac, crem",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162971,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-4/"
+    },
+    {
+      "controlSku": "162972",
+      "controlBarcode": "162972",
+      "title": "Husă de pat jerse 100% bumbac, crem",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162971,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-4/"
+    },
+    {
+      "controlSku": "162969",
+      "controlBarcode": "162969",
+      "title": "Husă de pat jerse 100% bumbac, verde lime",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162962,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-3/"
+    },
+    {
+      "controlSku": "162967",
+      "controlBarcode": "162967",
+      "title": "Husă de pat jerse 100% bumbac, verde lime",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162962,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-3/"
+    },
+    {
+      "controlSku": "162965",
+      "controlBarcode": "162965",
+      "title": "Husă de pat jerse 100% bumbac, verde lime",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162962,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-3/"
+    },
+    {
+      "controlSku": "162963",
+      "controlBarcode": "162963",
+      "title": "Husă de pat jerse 100% bumbac, verde lime",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162962,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-3/"
+    },
+    {
+      "controlSku": "162960",
+      "controlBarcode": "162960",
+      "title": "Husă de pat jerse 100% bumbac, roz pudrat",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162953,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-2/"
+    },
+    {
+      "controlSku": "162958",
+      "controlBarcode": "162958",
+      "title": "Husă de pat jerse 100% bumbac, roz pudrat",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162953,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-2/"
+    },
+    {
+      "controlSku": "162956",
+      "controlBarcode": "162956",
+      "title": "Husă de pat jerse 100% bumbac, roz pudrat",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162953,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-2/"
+    },
+    {
+      "controlSku": "162951",
+      "controlBarcode": "162951",
+      "title": "Husă de pat jerse 100% bumbac, portocaliu",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162944,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac/"
+    },
+    {
+      "controlSku": "162954",
+      "controlBarcode": "162954",
+      "title": "Husă de pat jerse 100% bumbac, roz pudrat",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162953,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-2/"
+    },
+    {
+      "controlSku": "162949",
+      "controlBarcode": "162949",
+      "title": "Husă de pat jerse 100% bumbac, portocaliu",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162944,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac/"
+    },
+    {
+      "controlSku": "162947",
+      "controlBarcode": "162947",
+      "title": "Husă de pat jerse 100% bumbac, portocaliu",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162944,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac/"
+    },
+    {
+      "controlSku": "162945",
+      "controlBarcode": "162945",
+      "title": "Husă de pat jerse 100% bumbac, portocaliu",
+      "status": "supplier_variant_contents_conflict",
+      "supplierParentId": 162944,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac/"
+    },
+    {
+      "controlSku": "163039",
+      "controlBarcode": "163039",
+      "title": "Husă de pat jerse 100% bumbac, turcoaz, cu 2 fețe de pernă",
+      "status": "supplier_or_gallery_conflict",
+      "supplierParentId": 163031,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-copie-1/"
+    },
+    {
+      "controlSku": "163038",
+      "controlBarcode": "163038",
+      "title": "Husă de pat jerse 100% bumbac, turcoaz",
+      "status": "supplier_or_gallery_conflict",
+      "supplierParentId": 163031,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-copie-1/"
+    },
+    {
+      "controlSku": "163037",
+      "controlBarcode": "163037",
+      "title": "Husă de pat jerse 100% bumbac, turcoaz, cu 2 fețe de pernă",
+      "status": "supplier_or_gallery_conflict",
+      "supplierParentId": 163031,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-copie-1/"
+    },
+    {
+      "controlSku": "163036",
+      "controlBarcode": "163036",
+      "title": "Husă de pat jerse 100% bumbac, turcoaz",
+      "status": "supplier_or_gallery_conflict",
+      "supplierParentId": 163031,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-copie-1/"
+    },
+    {
+      "controlSku": "163035",
+      "controlBarcode": "163035",
+      "title": "Husă de pat jerse 100% bumbac, turcoaz, cu 2 fețe de pernă",
+      "status": "supplier_or_gallery_conflict",
+      "supplierParentId": 163031,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-copie-1/"
+    },
+    {
+      "controlSku": "163034",
+      "controlBarcode": "163034",
+      "title": "Husă de pat jerse 100% bumbac, turcoaz",
+      "status": "supplier_or_gallery_conflict",
+      "supplierParentId": 163031,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-copie-1/"
+    },
+    {
+      "controlSku": "163033",
+      "controlBarcode": "163033",
+      "title": "Husă de pat jerse 100% bumbac, turcoaz, cu 1 față de pernă",
+      "status": "supplier_or_gallery_conflict",
+      "supplierParentId": 163031,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-copie-1/"
+    },
+    {
+      "controlSku": "163032",
+      "controlBarcode": "163032",
+      "title": "Husă de pat jerse 100% bumbac, turcoaz",
+      "status": "supplier_or_gallery_conflict",
+      "supplierParentId": 163031,
+      "supplierUrl": "https://ralexpucioasa.ro/store/huse-de-pat/huse-pat-jerse-100/husa-pat-jerse-100-bumbac-copie-1/"
+    },
+    {
+      "controlSku": "106354",
+      "controlBarcode": "106354",
+      "title": "Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Roz",
+      "status": "gallery_piece_count_unconfirmed",
+      "supplierParentId": 106354,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-ranforce-butique-avola-v4-2/"
+    },
+    {
+      "controlSku": "101838",
+      "controlBarcode": "2496266MEPNK0WUX4",
+      "title": "Lenjerie pat 6 piese cu elastic pentru Pat 160 si 180, microfibră soft, Made in Romania",
+      "status": "supplier_endpoint_404",
+      "supplierParentId": null,
+      "supplierUrl": null
+    },
+    {
+      "controlSku": "102929",
+      "controlBarcode": "2545436IQ1CNEDVUK",
+      "title": "Set de 2 prosoape de bumbac premium pentru hotel, 100% bumbac, 600g/m2, 70x140cm + 50x90cm, Fabricat în România",
+      "status": "control_bundle_supplier_single_item",
+      "supplierParentId": null,
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-luxury-bumbac-100-70x140cm-600g-m2-rosu/"
+    },
+    {
+      "controlSku": "102921",
+      "controlBarcode": "25454378IL03HJGA5",
+      "title": "Set de 2 prosoape de bumbac premium pentru hotel, 100% bumbac, 600g/m2, 70x140cm + 50x90cm, Fabricat în România",
+      "status": "bundle_quantity_size_component_codes_and_order_mapping_unconfirmed",
+      "supplierParentId": null,
+      "supplierUrl": null
+    },
+    {
+      "controlSku": "102908",
+      "controlBarcode": "2545439WZV7HOUF6L",
+      "title": "Set de 2 prosoape de bumbac premium pentru hotel, 100% bumbac, 600g/m2, 70x140cm + 50x90cm, Fabricat în România",
+      "status": "control_bundle_supplier_single_item",
+      "supplierParentId": null,
+      "supplierUrl": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-luxury-bumbac-100-70x140cm-600g-m2-albastru/"
+    },
+    {
+      "controlSku": "109967",
+      "controlBarcode": "2665916FGZMFO8OSL",
+      "title": "Saltea șezlong premium cu 2 secțiuni, husă detașabilă, pentru interior/exterior, fabricată în România",
+      "status": "supplier_numeric_code_unresolved",
+      "supplierParentId": null,
+      "supplierUrl": null
+    },
+    {
+      "controlSku": "109987",
+      "controlBarcode": "2665917BEIYCHCHHC",
+      "title": "Saltea premium pentru șezlong cu 2 segmente, husă detașabilă, pentru interior/exterior, fabricată în România",
+      "status": "supplier_numeric_code_unresolved",
+      "supplierParentId": null,
+      "supplierUrl": null
+    },
+    {
+      "controlSku": "110037",
+      "controlBarcode": "2665918TGZ6CTV71A",
+      "title": "Saltea șezlong premium cu 2 secțiuni, husă detașabilă, pentru interior/exterior, fabricată în România",
+      "status": "supplier_numeric_code_unresolved",
+      "supplierParentId": null,
+      "supplierUrl": null
+    },
+    {
+      "controlSku": "109657",
+      "controlBarcode": "2665920DTWLXQDDH2",
+      "title": "Saltea premium pentru șezlong cu 2 segmente, husă detașabilă, pentru interior/exterior, fabricată în România",
+      "status": "supplier_numeric_code_unresolved",
+      "supplierParentId": null,
+      "supplierUrl": null
+    },
+    {
+      "controlSku": "109992",
+      "controlBarcode": "2665921U9DY2XCEPK",
+      "title": "Saltea premium pentru șezlong cu 2 segmente, husă detașabilă, pentru interior/exterior, fabricată în România",
+      "status": "supplier_numeric_code_unresolved",
+      "supplierParentId": null,
+      "supplierUrl": null
+    },
+    {
+      "controlSku": "110032",
+      "controlBarcode": "2665923JR4452X1AZ",
+      "title": "Saltea premium pentru șezlong, cu 2 segmente, husă detașabilă, pentru interior/exterior, fabricată în România",
+      "status": "supplier_numeric_code_unresolved",
+      "supplierParentId": null,
+      "supplierUrl": null
+    },
+    {
+      "controlSku": "110881",
+      "controlBarcode": "2712974TBE12T9ZIL",
+      "title": "Set de 4 perne 40x40 cm, pentru interior/exterior, din Oxford, groase, confortabile, premium",
+      "status": "supplier_code_unresolved_possible_existing_cappuccino_model",
+      "supplierParentId": null,
+      "supplierUrl": null
+    },
+    {
+      "controlSku": "813360",
+      "controlBarcode": "2981867OFO5ATLRZT",
+      "title": "Set de lenjerie de pat Gofre anti-umidificare, 6 piese, cearșaf standard 230 x 250, potrivit pentru 160x200 și 180x200",
+      "status": "possible_trailing_zero_duplicate_requires_visual_identity_confirmation",
+      "supplierParentId": null,
+      "supplierUrl": null
+    },
+    {
+      "controlSku": "813420",
+      "controlBarcode": "2981881KR6NEGZCGW",
+      "title": "Set de lenjerie de pat Gofre anti-umidificare, 6 piese, cearșaf standard 230 x 250, potrivit pentru 160x200 și 180x200",
+      "status": "possible_trailing_zero_duplicate_requires_visual_identity_confirmation",
+      "supplierParentId": null,
+      "supplierUrl": null
+    },
+    {
+      "controlSku": "15535",
+      "controlBarcode": "3081579YVMBSPBYWO",
+      "title": "Set de lenjerie de pat din satin, 100% bumbac satin dublu, 6 piese premium, ambalaj cutie cadou",
+      "status": "excluded_supplier_brand_clasy",
+      "supplierParentId": null,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-ivore-v1/"
+    },
+    {
+      "controlSku": "74798",
+      "controlBarcode": "3081957JNG57XM8ZR",
+      "title": "Set de lenjerie de pat din satin, 100% bumbac satin dublu, 6 piese premium, ambalaj cutie cadou",
+      "status": "excluded_supplier_brand_clasy",
+      "supplierParentId": null,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-le-pala/"
+    },
+    {
+      "controlSku": "82422",
+      "controlBarcode": "3108829Y4L9S7EC8G",
+      "title": "Set de lenjerie de pat Damasc din policoton, 6 piese, cu husă elastică, Fabricat în România",
+      "status": "supplier_endpoint_404",
+      "supplierParentId": null,
+      "supplierUrl": null
+    },
+    {
+      "controlSku": "46030",
+      "controlBarcode": "3108879GUPF2RLAYB",
+      "title": "Set de lenjerie de pat Finet 3D, 6 piese, 70% bumbac, Fabricat în România",
+      "status": "insufficient_distinct_photographs",
+      "supplierParentId": null,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d/lenjerie-de-pat-finet-3d-6-piese-fn3d49/"
+    },
+    {
+      "controlSku": "158560",
+      "controlBarcode": "3134077GCRJFMN0BM",
+      "title": "Saltea pentru șezlong 2 segmente 60x190 cm, spumă de 3 cm, rezistentă la UV",
+      "status": "head_pillow_inclusion_unconfirmed",
+      "supplierParentId": 158559,
+      "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/saltele-sezlong/saltea-sezlong-premium-doua-segmente-21/"
+    },
+    {
+      "controlSku": "158556",
+      "controlBarcode": "3134078X5TLLGBV1Q",
+      "title": "Saltea pentru șezlong 2 segmente 60x190 cm, spumă de 3 cm, rezistentă la UV",
+      "status": "head_pillow_inclusion_unconfirmed",
+      "supplierParentId": 158555,
+      "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/saltele-sezlong/saltea-sezlong-premium-doua-segmente-20/"
+    },
+    {
+      "controlSku": "94910",
+      "controlBarcode": "3142327KBQ78PXGJO",
+      "title": "Set de 4 perne Aloe Vera – 2x 50x70 cm + 2x 70x70 cm, Microfibră matlasată, Fabricat în România",
+      "status": "control_bundle_supplier_single_item",
+      "supplierParentId": null,
+      "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-aloe-vera/"
+    },
+    {
+      "controlSku": "106975",
+      "controlBarcode": "3142328G2B3VZOIDL",
+      "title": "Set de 2 perne cu umplutura din fulgi de spuma cu memorie, 50x70 cm, husa matlasata, alb",
+      "status": "control_bundle_supplier_single_item",
+      "supplierParentId": null,
+      "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-fulgi-memory-50cm-x-70cm/"
+    },
+    {
+      "controlSku": "95893",
+      "controlBarcode": "3145202FAQS2DPAXX",
+      "title": "Pernă premium cu puf de gâscă 50x70 cm, 100% bumbac, Fabricată în România",
+      "status": "supplier_dimensions_missing",
+      "supplierParentId": null,
+      "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-puf-gasca-deep-sleep/"
+    },
+    {
+      "controlSku": "94917",
+      "controlBarcode": "3145203QOXJBN5W3J",
+      "title": "Set de 4 perne Horeca 2x50x70 + 2x70x70 cm, Percale, Fabricat în România",
+      "status": "control_bundle_supplier_single_item",
+      "supplierParentId": null,
+      "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-horeca/"
+    },
+    {
+      "controlSku": "161296",
+      "controlBarcode": "39948018WSBSVLGOP",
+      "title": "Covor decorativ personalizat pentru pat de hotel, 80x150 cm, cu pernă de 30x50 cm – Pat individual",
+      "status": "supplier_runner_dimensions_and_pillow_count_missing",
+      "supplierParentId": 161294,
+      "supplierUrl": "https://ralexpucioasa.ro/store/traverse-pat-hotel/traversa-pat-hotel-personalizata-cu-pernute-decorative-30x50-cm-11/"
+    },
+    {
+      "controlSku": "161295",
+      "controlBarcode": "3994802DNKVF0TFOK",
+      "title": "Covor decorativ personalizat pentru pat de hotel, 80x220 cm, cu 2 perne 30x50 cm – Pat dublu",
+      "status": "supplier_runner_dimensions_and_pillow_count_missing",
+      "supplierParentId": 161294,
+      "supplierUrl": "https://ralexpucioasa.ro/store/traverse-pat-hotel/traversa-pat-hotel-personalizata-cu-pernute-decorative-30x50-cm-11/"
+    },
+    {
+      "controlSku": "71769",
+      "controlBarcode": "71769",
+      "title": "Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Roșu",
+      "status": "gallery_piece_count_unconfirmed",
+      "supplierParentId": 71769,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique/lenjerie-de-pat-ranforce-butique-olein-v2/"
+    },
+    {
+      "controlSku": "94752",
+      "controlBarcode": "94752",
+      "title": "Set de lenjerie de pat din percal, 100% bumbac, PRC181, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94748,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc181/"
+    },
+    {
+      "controlSku": "94757",
+      "controlBarcode": "94757",
+      "title": "Set de lenjerie de pat din percal, 100% bumbac, PRC182, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94753,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc182/"
+    },
+    {
+      "controlSku": "94762",
+      "controlBarcode": "94762",
+      "title": "Lenjerie de pat din percal, 100% bumbac, PRC183, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94758,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc183/"
+    },
+    {
+      "controlSku": "94767",
+      "controlBarcode": "94767",
+      "title": "Set de lenjerie de pat din percal, 100% bumbac, PRC184, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94763,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc184/"
+    },
+    {
+      "controlSku": "94772",
+      "controlBarcode": "94772",
+      "title": "Lenjerie de pat din percal, 100% bumbac, PRC185, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94768,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc185/"
+    },
+    {
+      "controlSku": "94777",
+      "controlBarcode": "94777",
+      "title": "Lenjerie de pat Percale, 100% bumbac, PRC186, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94773,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc186/"
+    },
+    {
+      "controlSku": "94782",
+      "controlBarcode": "94782",
+      "title": "Lenjerie de pat din percal, 100% bumbac, PRC187, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94778,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc187/"
+    },
+    {
+      "controlSku": "94787",
+      "controlBarcode": "94787",
+      "title": "Lenjerie de pat Percale, 100% bumbac, PRC188, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94783,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc188/"
+    },
+    {
+      "controlSku": "94792",
+      "controlBarcode": "94792",
+      "title": "Lenjerie de pat din percal, 100% bumbac, PRC189, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94788,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc189/"
+    },
+    {
+      "controlSku": "94802",
+      "controlBarcode": "94802",
+      "title": "Lenjerie de pat din percal, 100% bumbac, PRC191, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94798,
+      "supplierUrl": null
+    },
+    {
+      "controlSku": "94807",
+      "controlBarcode": "94807",
+      "title": "Set de lenjerie de pat din percal, 100% bumbac, PRC192, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94803,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc192/"
+    },
+    {
+      "controlSku": "94812",
+      "controlBarcode": "94812",
+      "title": "Lenjerie de pat Percale, 100% bumbac, PRC193, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94808,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc193/"
+    },
+    {
+      "controlSku": "94817",
+      "controlBarcode": "94817",
+      "title": "Set de lenjerie de pat din percal, 100% bumbac, PRC194, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94813,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc194/"
+    },
+    {
+      "controlSku": "94822",
+      "controlBarcode": "94822",
+      "title": "Lenjerie de pat din percal, 100% bumbac, PRC195, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94818,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc195/"
+    },
+    {
+      "controlSku": "94832",
+      "controlBarcode": "94832",
+      "title": "Set de lenjerie de pat din percal, 100% bumbac, PRC197, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94828,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc197/"
+    },
+    {
+      "controlSku": "94837",
+      "controlBarcode": "94837",
+      "title": "Lenjerie de pat din percal, 100% bumbac, PRC198, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94833,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc198/"
+    },
+    {
+      "controlSku": "94847",
+      "controlBarcode": "94847",
+      "title": "Set de lenjerie de pat din percal, 100% bumbac, PRC200, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94843,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc200/"
+    },
+    {
+      "controlSku": "94852",
+      "controlBarcode": "94852",
+      "title": "Set de lenjerie de pat din percal, 100% bumbac, PRC201, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94848,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc201/"
+    },
+    {
+      "controlSku": "94857",
+      "controlBarcode": "94857",
+      "title": "Set de lenjerie de pat din percal, 100% bumbac, PRC202, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94853,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc202/"
+    },
+    {
+      "controlSku": "94862",
+      "controlBarcode": "94862",
+      "title": "Set de lenjerie de pat din percal, 100% bumbac, PRC203, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm",
+      "status": "supplier_fitted_dimensions_missing",
+      "supplierParentId": 94858,
+      "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc203/"
+    }
+  ],
+  "notes": [
+    "This is 800 distinct website models, not 800 variants. Remaining unresolved Control offers are not claimed published.",
+    "17 towel models use verified individual 70x140 cm supplier variants with unit costs, not original unverified Control bundles. Control was not changed.",
+    "Supplier Ralex brand classification retained at merchant explicit request dated 2026-10-25.",
+    "No new main categories. Casa Pucioasa excluded from new publication.",
+    "Current Control API refresh returned 401. Mapping used cached 2026-10-23 Control export, checked against supplier own pages.",
+    "Earlier audit is historical; this report supersedes its target deficit.",
+    "Pending records retain earlier audit findings; they were not freshly re-audited in full."
+  ]
+}
