@@ -12,7 +12,8 @@ test("public catalog contains only reviewed records, disjoint from the recoverab
   assert.ok(products.length > 0 && archive.length > 0);
   assert.equal(new Set([...products.map((p) => p.id), ...archive.map((p) => p.product.id)]).size, products.length + archive.length);
   assert.deepEqual(new Set(held), new Set(archive.map((p) => p.product.id)));
-  assert.ok(archive.some((p) => p.reasonCodes.includes("supplier_original_frames_in_gallery")));
+  // A resolved gallery issue must not be required to remain in the archive.
+  assert.ok(archive.every((p) => Array.isArray(p.reasonCodes) && p.reasonCodes.length > 0));
 });
 test("reimporting an archived listing or adding an unreviewed listing blocks publication", () => {
   assert.throws(() => validateCatalog([...products, archive[0].product], approvals, held));

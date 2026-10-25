@@ -43,3 +43,9 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 - Complete and repair the products already present in E-Store Control. Do not add new products sourced only from the Ralex catalog to reach 1,000. The numerical target is subordinate to this scope; publish all eligible distinct Control models and resolve their variants without duplicates.
 - Merchant explicitly accepts the supplier’s Ralex classification for the Control products discussed, including supplier-sold Clasy series; retain that classification. Continue excluding Casa Pucioasa.
+
+## Category audit correction — 25 October 2026
+
+- Merchant requested removal of the HoReCa navigation category and redistribution into the existing product categories. Keep all reviewed products; do not reintroduce a HoReCa menu link.
+- Do not treat Control's brand label alone as proof that a supplier product is absent or ineligible. The audit recovered 22 existing Control Finet duvet rows labelled Generic, 13 Clasy rows and a Butterfly pillow by their own Ralex numeric product pages and actual galleries. These are existing Control products, not supplier-only additions. Continue excluding Casa Pucioasa and unresolved identities.
+- Category counts describe distinct models; price ranges must include all published size variants. Super Sale membership comes from the store's active promotion, not the supplier's `oferte` taxonomy.

@@ -32,9 +32,22 @@ export function validateCatalog(products, approvals, heldIds) {
   if (ids.size !== approved.size) throw new Error("Approval list does not match the public catalog.");
   return ids.size;
 }
+export function validateCategoryAssignments(products, categories) {
+  const paths = new Set(categories.map(category => category.path));
+  if (paths.size !== categories.length) throw new Error("Duplicate category path.");
+  for (const category of categories) {
+    if (category.parent && (!paths.has(category.parent) || !category.path.startsWith(`${category.parent}/`))) {
+      throw new Error(`Invalid category parent: ${category.path}`);
+    }
+  }
+  for (const product of products) {
+    if (!paths.has(product.categoryPath)) throw new Error(`Unknown category for product: ${product.id}`);
+  }
+}
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const read = (file) => JSON.parse(readFileSync(new URL("../" + file, import.meta.url), "utf8"));
   const count = validateCatalog(read("src/data/products.json"), read("src/data/catalog-approvals.json"), read("src/data/quality-hold.json"));
+  validateCategoryAssignments(read("src/data/products.json"), read("src/data/categories.json"));
   const skus = validateSupplierPrices(read("src/data/products.json"), read("catalog-review/price-verification-29-20261022/results.json"));
   console.log(`E-Store catalog: ${count} reviewed models; no held models included.`);
   console.log(`Verified supplier +29% prices, ending in 9: ${skus} saleable SKUs.`);

@@ -25,7 +25,7 @@
   },
   {
     "path": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerie-de-pat-damasc-color",
-    "name": "Lenjerii de pat damasc-color",
+    "name": "Lenjerii damasc 100% bumbac",
     "parent": "lenjerii-de-pat/lenjerii-100-bumbac",
     "sourceUrl": "https://ralexpucioasa.ro/categorie-produs/lenjerii-de-pat/lenjerii-100-bumbac/lenjerie-de-pat-damasc-color/"
   },
@@ -468,14 +468,8 @@
     "sourceUrl": "https://ralexpucioasa.ro/categorie-produs/traverse-pat-hotel/"
   },
   {
-    "path": "produse-hotel",
-    "name": "Produse HoReCa",
-    "parent": null,
-    "sourceUrl": "https://ralexpucioasa.ro/categorie-produs/produse-hotel/"
-  },
-  {
     "path": "oferte",
-    "name": "Oferte",
+    "name": "Super Sale",
     "parent": null,
     "sourceUrl": "https://ralexpucioasa.ro/categorie-produs/oferte/"
   },
@@ -514,5 +508,17 @@
     "name": "Lenjerii de pat satin, 100% bumbac",
     "parent": "lenjerii-de-pat/lenjeriide-pat-deluxe",
     "sourceUrl": "https://ralexpucioasa.ro/categorie-produs/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc/"
+  },
+  {
+    "path": "pilote/seturi-pilota-perne",
+    "name": "Seturi pilotă și perne",
+    "parent": "pilote",
+    "sourceUrl": "https://ralexpucioasa.ro/categorie-produs/oferte/"
+  },
+  {
+    "path": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-4-piese",
+    "name": "Lenjerii Finet 4 piese",
+    "parent": "lenjerii-de-pat/lenjerii-de-pat-policoton",
+    "sourceUrl": "https://ralexpucioasa.ro/store/produse-hotel/lenjerie-pat-finet-horeca-king-size/"
   }
 ]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": 102981,
+    "name": "Pilotă matlasată HORECA",
+    "from": "produse-hotel",
+    "to": "pilote",
+    "source": "https://ralexpucioasa.ro/store/pilote/pilota-matlasata-horeca/"
+  },
+  {
+    "id": 509,
+    "name": "Protecție matlasată pentru pernă, cu fermoar, 50 × 70 cm",
+    "from": "produse-hotel",
+    "to": "perne",
+    "source": "https://ralexpucioasa.ro/store/perne/protectie-matlasata-perne-cu-fermoar-50x70cm-copiaza/"
+  },
+  {
+    "id": 95144,
+    "name": "Lenjerie Damasc 100% bumbac, King size, 4 piese, alb optic",
+    "from": "lenjerii-de-pat/lenjerii-100-bumbac",
+    "to": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerie-de-pat-damasc-color",
+    "source": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerie-damasc-exclusiv-100-bumbac/"
+  },
+  {
+    "id": 94317,
+    "name": "Prosop Line, 100% bumbac, 550 g/m², alb optic",
+    "from": "articole-baie",
+    "to": "articole-baie/prosoape",
+    "source": "https://ralexpucioasa.ro/store/articole-baie/prosoape/prosop-line-70x140cm-550g-m2/"
+  },
+  {
+    "id": 95157,
+    "name": "Lenjerie Damasc 80% bumbac, King size, 4 piese, alb optic",
+    "from": "lenjerii-de-pat/lenjerii-100-bumbac",
+    "to": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-i",
+    "source": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerie-de-pat-damasc-color/lenjerie-pat-damasc-80-bumbac-20-poliester-horeca/"
+  },
+  {
+    "id": 105804,
+    "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – alb",
+    "from": "oferte",
+    "to": "pilote/seturi-pilota-perne",
+    "source": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-alb/"
+  },
+  {
+    "id": 105829,
+    "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – roșu",
+    "from": "oferte",
+    "to": "pilote/seturi-pilota-perne",
+    "source": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-rosu/"
+  },
+  {
+    "id": 105820,
+    "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – galben",
+    "from": "oferte",
+    "to": "pilote/seturi-pilota-perne",
+    "source": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-galben/"
+  },
+  {
+    "id": 105811,
+    "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – albastru",
+    "from": "oferte",
+    "to": "pilote/seturi-pilota-perne",
+    "source": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-albastru/"
+  },
+  {
+    "id": 105825,
+    "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – mov",
+    "from": "oferte",
+    "to": "pilote/seturi-pilota-perne",
+    "source": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-mov/"
+  },
+  {
+    "id": 105816,
+    "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – bleu",
+    "from": "oferte",
+    "to": "pilote/seturi-pilota-perne",
+    "source": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-pilota-2-perne-bleu/"
+  },
+  {
+    "id": 111987,
+    "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, Damasc – alb",
+    "from": "oferte",
+    "to": "pilote/seturi-pilota-perne",
+    "source": "https://ralexpucioasa.ro/store/oferte/pachet-primavara-promo-damasc-pilota-2-perne-alb/"
+  },
+  {
+    "id": 77317,
+    "name": "Lenjerie Finet Horeca albă, 4 piese",
+    "from": "produse-hotel",
+    "to": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-4-piese",
+    "source": "https://ralexpucioasa.ro/store/produse-hotel/lenjerie-pat-finet-horeca-king-size/"
+  }
+]

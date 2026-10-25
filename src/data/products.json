@@ -1961,8 +1961,8 @@
   {
     "id": 102981,
     "name": "Pilotă matlasată HORECA",
-    "category": "Produse HoReCa",
-    "categoryPath": "produse-hotel",
+    "category": "Pilote",
+    "categoryPath": "pilote",
     "brand": "RALEX PUCIOASA",
     "price": 159,
     "currency": "RON",
@@ -9287,8 +9287,8 @@
   {
     "id": 509,
     "name": "Protecție matlasată pentru pernă, cu fermoar, 50 × 70 cm",
-    "category": "Produse HoReCa",
-    "categoryPath": "produse-hotel",
+    "category": "Perne și protecții pernă",
+    "categoryPath": "perne",
     "brand": "RALEX PUCIOASA",
     "price": 29,
     "currency": "RON",
@@ -16203,8 +16203,8 @@
   {
     "id": 95144,
     "name": "Lenjerie Damasc 100% bumbac, King size, 4 piese, alb optic",
-    "category": "Lenjerii 100% bumbac",
-    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac",
+    "category": "Lenjerii damasc 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerie-de-pat-damasc-color",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Damasc, 100% bumbac",
@@ -23147,8 +23147,8 @@
   {
     "id": 94317,
     "name": "Prosop Line, 100% bumbac, 550 g/m², alb optic",
-    "category": "Articole baie",
-    "categoryPath": "articole-baie",
+    "category": "Prosoape",
+    "categoryPath": "articole-baie/prosoape",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "100% bumbac, 550 g/m²",
@@ -28982,8 +28982,8 @@
     "id": 95157,
     "sku": "95160",
     "name": "Lenjerie Damasc 80% bumbac, King size, 4 piese, alb optic",
-    "category": "Lenjerii 100% bumbac",
-    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac",
+    "category": "Lenjerii de pat damasc policoton 4 pcs",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-i",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Damasc, 80% bumbac, 20% poliester",
@@ -29110,8 +29110,8 @@
     "id": 105804,
     "sku": "105804",
     "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – alb",
-    "category": "Oferte",
-    "categoryPath": "oferte",
+    "category": "Seturi pilotă și perne",
+    "categoryPath": "pilote/seturi-pilota-perne",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²",
@@ -29142,8 +29142,8 @@
     "id": 105829,
     "sku": "105829",
     "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – roșu",
-    "category": "Oferte",
-    "categoryPath": "oferte",
+    "category": "Seturi pilotă și perne",
+    "categoryPath": "pilote/seturi-pilota-perne",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²",
@@ -29174,8 +29174,8 @@
     "id": 105820,
     "sku": "105820",
     "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – galben",
-    "category": "Oferte",
-    "categoryPath": "oferte",
+    "category": "Seturi pilotă și perne",
+    "categoryPath": "pilote/seturi-pilota-perne",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²",
@@ -29206,8 +29206,8 @@
     "id": 105811,
     "sku": "105811",
     "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – albastru",
-    "category": "Oferte",
-    "categoryPath": "oferte",
+    "category": "Seturi pilotă și perne",
+    "categoryPath": "pilote/seturi-pilota-perne",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²",
@@ -29238,8 +29238,8 @@
     "id": 105825,
     "sku": "105825",
     "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – mov",
-    "category": "Oferte",
-    "categoryPath": "oferte",
+    "category": "Seturi pilotă și perne",
+    "categoryPath": "pilote/seturi-pilota-perne",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²",
@@ -29270,8 +29270,8 @@
     "id": 105816,
     "sku": "105816",
     "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, microfibră – bleu",
-    "category": "Oferte",
-    "categoryPath": "oferte",
+    "category": "Seturi pilotă și perne",
+    "categoryPath": "pilote/seturi-pilota-perne",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²",
@@ -33896,8 +33896,8 @@
     "id": 111987,
     "sku": "111987",
     "name": "Set pilotă 200 × 215 cm și 2 perne 50 × 70 cm, Damasc – alb",
-    "category": "Oferte",
-    "categoryPath": "oferte",
+    "category": "Seturi pilotă și perne",
+    "categoryPath": "pilote/seturi-pilota-perne",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Țesătură microfibră 170 g/m²; umplutură poliester 200 g/m²",
@@ -35561,8 +35561,8 @@
     "id": 77317,
     "sku": "77317",
     "name": "Lenjerie Finet Horeca albă, 4 piese",
-    "category": "Produse HoReCa",
-    "categoryPath": "produse-hotel",
+    "category": "Lenjerii Finet 4 piese",
+    "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-4-piese",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Finet, amestec de bumbac și policoton, 130 g/m²",
@@ -37660,5 +37660,1157 @@
     "price": 79,
     "stock": 98,
     "inStock": false
+  },
+  {
+    "id": 158236,
+    "sku": "158236",
+    "name": "Lenjerie de pat Clasy Arvona V2 cu pătură, 100% bumbac, 7 piese",
+    "category": "Lenjerii de pat premium heritage",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-premium-heritage",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac",
+    "description": "Lenjerie de pat Clasy Arvona V2 cu pătură, 100% bumbac, 7 piese.\n\nMaterial: 100% bumbac.\n\nConținut și dimensiuni: 1 pătură decorativă 220 × 240 cm, 1 husă pentru pilotă 200 × 220 cm, 1 cearșaf de pat 260 × 240 cm, 2 fețe de pernă brodate 50 × 70 cm și 2 fețe de pernă uni 50 × 70 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-premium-heritage/lenjerie-de-pat-clasy-arvona-v2-cu-patura-inclusa-100-bumbac-6-piese/",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158236/01-principala.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158236/02-lateral.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158236/03-detaliu.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158236/04-de-sus.jpg"
+    ],
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158236/01-principala.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pătură decorativă 220 × 240 cm, 1 husă pentru pilotă 200 × 220 cm, 1 cearșaf de pat 260 × 240 cm, 2 fețe de pernă brodate 50 × 70 cm și 2 fețe de pernă uni 50 × 70 cm."
+      }
+    ],
+    "price": 839,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 158322,
+    "sku": "158322",
+    "name": "Set cuvertură piqué Velda V1, crem, 4 piese",
+    "category": "Seturi de pat cu pled",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Țesătură piqué gofrată",
+    "description": "Set cuvertură piqué Velda V1, crem, 4 piese.\n\nMaterial: Țesătură piqué gofrată.\n\nConținut și dimensiuni: 1 cuvertură gofrată cu ciucuri 220 × 240 cm, 1 cearșaf de pat uni 240 × 260 cm și 2 fețe de pernă 50 × 70 cm.\n\nÎntreținere: Spălare la maximum 30°C, fără înălbitori. Uscare naturală și călcare la temperatură redusă, conform etichetei. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled/set-cuvertura-velda-v1-pique-clasy-4-piese-cuvertura-gofrata-cu-ciucuri/",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158322/01-principala.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158322/02-lateral.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158322/03-detaliu.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158322/04-de-sus.jpg"
+    ],
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158322/01-principala.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură piqué gofrată"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cuvertură gofrată cu ciucuri 220 × 240 cm, 1 cearșaf de pat uni 240 × 260 cm și 2 fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "price": 439,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 158330,
+    "sku": "158330",
+    "name": "Set cuvertură piqué Velda V4, roz pudră, 4 piese",
+    "category": "Seturi de pat cu pled",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Țesătură piqué gofrată",
+    "description": "Set cuvertură piqué Velda V4, roz pudră, 4 piese.\n\nMaterial: Țesătură piqué gofrată.\n\nConținut și dimensiuni: 1 cuvertură gofrată cu ciucuri 220 × 240 cm, 1 cearșaf de pat uni 240 × 260 cm și 2 fețe de pernă 50 × 70 cm.\n\nÎntreținere: Spălare la maximum 30°C, fără înălbitori. Uscare naturală și călcare la temperatură redusă, conform etichetei. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled/set-cuvertura-velda-v4-pique-clasy-4-piese-cuvertura-gofrata-cu-ciucuri/",
+    "images": [
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158330/01-principala.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158330/02-lateral.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158330/03-detaliu.jpg",
+      "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158330/04-de-sus.jpg"
+    ],
+    "image": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158330/01-principala.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură piqué gofrată"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cuvertură gofrată cu ciucuri 220 × 240 cm, 1 cearșaf de pat uni 240 × 260 cm și 2 fețe de pernă 50 × 70 cm."
+      }
+    ],
+    "price": 439,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162799,
+    "sku": "162799",
+    "name": "Lenjerie de pat Ranforce Clasy Virele, 100% bumbac, 4 piese",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Ranforce, 100% bumbac, 120 g/m²",
+    "description": "Lenjerie de pat Ranforce Clasy Virele, 100% bumbac, 4 piese.\n\nMaterial: Ranforce, 100% bumbac, 120 g/m².\n\nConținut și dimensiuni: 1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-virele/",
+    "images": [
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162799-hero.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162799-1.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162799-2.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162799-3.jpg"
+    ],
+    "image": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162799-hero.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Ranforce, 100% bumbac, 120 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm."
+      }
+    ],
+    "price": 339,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162803,
+    "sku": "162803",
+    "name": "Lenjerie de pat Ranforce Clasy Ruska, 100% bumbac, 4 piese",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Ranforce, 100% bumbac, 120 g/m²",
+    "description": "Lenjerie de pat Ranforce Clasy Ruska, 100% bumbac, 4 piese.\n\nMaterial: Ranforce, 100% bumbac, 120 g/m².\n\nConținut și dimensiuni: 1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-ruska/",
+    "images": [
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162803-hero.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162803-1.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162803-2.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162803-3.jpg"
+    ],
+    "image": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162803-hero.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Ranforce, 100% bumbac, 120 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm."
+      }
+    ],
+    "price": 339,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162804,
+    "sku": "162804",
+    "name": "Lenjerie de pat Ranforce Clasy Ramina, 100% bumbac, 4 piese",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Ranforce, 100% bumbac, 120 g/m²",
+    "description": "Lenjerie de pat Ranforce Clasy Ramina, 100% bumbac, 4 piese.\n\nMaterial: Ranforce, 100% bumbac, 120 g/m².\n\nConținut și dimensiuni: 1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-ramina/",
+    "images": [
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162804-hero.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162804-1.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162804-2.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162804-3.jpg"
+    ],
+    "image": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162804-hero.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Ranforce, 100% bumbac, 120 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm."
+      }
+    ],
+    "price": 339,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162806,
+    "sku": "162806",
+    "name": "Lenjerie de pat Ranforce Clasy Nerina, 100% bumbac, 4 piese",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Ranforce, 100% bumbac, 120 g/m²",
+    "description": "Lenjerie de pat Ranforce Clasy Nerina, 100% bumbac, 4 piese.\n\nMaterial: Ranforce, 100% bumbac, 120 g/m².\n\nConținut și dimensiuni: 1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-nerina/",
+    "images": [
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162806-hero.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162806-1.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162806-2.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162806-3.jpg"
+    ],
+    "image": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162806-hero.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Ranforce, 100% bumbac, 120 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm."
+      }
+    ],
+    "price": 339,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162809,
+    "sku": "162809",
+    "name": "Lenjerie de pat Ranforce Clasy Elara, 100% bumbac, 4 piese",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Ranforce, 100% bumbac, 120 g/m²",
+    "description": "Lenjerie de pat Ranforce Clasy Elara, 100% bumbac, 4 piese.\n\nMaterial: Ranforce, 100% bumbac, 120 g/m².\n\nConținut și dimensiuni: 1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-elara/",
+    "images": [
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162809-hero.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162809-1.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162809-2.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162809-3.jpg"
+    ],
+    "image": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162809-hero.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Ranforce, 100% bumbac, 120 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm."
+      }
+    ],
+    "price": 339,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162810,
+    "sku": "162810",
+    "name": "Lenjerie de pat Ranforce Clasy Devlin, 100% bumbac, 4 piese",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Ranforce, 100% bumbac, 120 g/m²",
+    "description": "Lenjerie de pat Ranforce Clasy Devlin, 100% bumbac, 4 piese.\n\nMaterial: Ranforce, 100% bumbac, 120 g/m².\n\nConținut și dimensiuni: 1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-devlin/",
+    "images": [
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162810-hero.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162810-1.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162810-2.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162810-3.jpg"
+    ],
+    "image": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162810-hero.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Ranforce, 100% bumbac, 120 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm."
+      }
+    ],
+    "price": 339,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162811,
+    "sku": "162811",
+    "name": "Lenjerie de pat Ranforce Clasy Bloomera, 100% bumbac, 4 piese",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Ranforce, 100% bumbac, 120 g/m²",
+    "description": "Lenjerie de pat Ranforce Clasy Bloomera, 100% bumbac, 4 piese.\n\nMaterial: Ranforce, 100% bumbac, 120 g/m².\n\nConținut și dimensiuni: 1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-bloomera/",
+    "images": [
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162811-hero.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162811-1.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162811-2.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162811-3.jpg"
+    ],
+    "image": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162811-hero.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Ranforce, 100% bumbac, 120 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm."
+      }
+    ],
+    "price": 339,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 102830,
+    "sku": "102830",
+    "name": "Pernă Butterfly Microgel, 50 × 70 cm, 1.200 g",
+    "category": "Perne și protecții pernă",
+    "categoryPath": "perne",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Față: 100% bumbac. Umplutură: fibră microgel",
+    "description": "Pernă Butterfly Microgel, 50 × 70 cm, 1.200 g.\n\nMaterial: Față: 100% bumbac. Umplutură: fibră microgel.\n\nConținut și dimensiuni: 1 pernă de 50 × 70 cm, cu greutatea de 1.200 g. Produsul se comercializează individual.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/perne/perna-umplutura-microgel/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260630/18/825a4eed-f319-3caa-9915-695687a7669c/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/102830-side.png",
+      "/products/control-recovered-20261025/102830-detail.png",
+      "/products/control-recovered-20261025/102830-overhead.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260630/18/825a4eed-f319-3caa-9915-695687a7669c/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Față: 100% bumbac. Umplutură: fibră microgel"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pernă de 50 × 70 cm, cu greutatea de 1.200 g. Produsul se comercializează individual."
+      }
+    ],
+    "price": 159,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162422,
+    "sku": "162422",
+    "name": "Pilotă Finet Abstract Sepia, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Abstract Sepia, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-abstract-sepia/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/08930afd-b9c3-3ea8-90d2-6af20b25b985/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/ad6bb2cf-79b4-36a7-8c19-6517c7106006/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/ba6e1589-57a2-34db-b1bc-d14ffd247467/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162422-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/08930afd-b9c3-3ea8-90d2-6af20b25b985/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": false
+  },
+  {
+    "id": 162419,
+    "sku": "162419",
+    "name": "Pilotă Finet Gray Sun, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Gray Sun, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-gray-sun/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/881e8756-3b65-3a89-b1b3-dff556480049/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/d27ca122-7021-301b-a154-d52943dc2a00/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/c96b3ed9-e5a5-3ee9-8aaf-dafe9dfaf780/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162419-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/881e8756-3b65-3a89-b1b3-dff556480049/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162370,
+    "sku": "162370",
+    "name": "Pilotă Finet Floral Duvet, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Floral Duvet, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-floral-duvet/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/f1a84376-0463-33b0-be73-ad3fffac0cb0/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/862eb331-d90a-315a-b9b9-2160f35afa90/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/e1670f50-baae-3f49-9395-54b9bd0f4489/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162370-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/f1a84376-0463-33b0-be73-ad3fffac0cb0/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162356,
+    "sku": "162356",
+    "name": "Pilotă Finet Floral Sun, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Floral Sun, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-floral-sun/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/fc5840dd-f6d5-39e9-949d-ac58f20a4cac/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/f56fb4a4-b377-37c5-bff5-d4c366b60f5f/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/0ecb876a-d737-3094-82d7-359884461ac7/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162356-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/fc5840dd-f6d5-39e9-949d-ac58f20a4cac/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162421,
+    "sku": "162421",
+    "name": "Pilotă Finet Autumn, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Autumn, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-autumn/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/4d5554bc-292c-3ada-a9a0-55e4e536cef6/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/d98b9f4d-223c-30b0-8cf6-de7001834b61/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/a2321bf5-0638-3ef3-910c-47104d7776de/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162421-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/4d5554bc-292c-3ada-a9a0-55e4e536cef6/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162420,
+    "sku": "162420",
+    "name": "Pilotă Finet Blue Feader, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Blue Feader, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-blue-feader/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/1d49bef7-57a2-38f2-a58e-0c3b65179fbb/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/d27b4392-3cfa-3825-8d63-82e2c21bdab1/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/f13f90b5-17b8-3070-94fb-66c12879f93f/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162420-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/1d49bef7-57a2-38f2-a58e-0c3b65179fbb/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162418,
+    "sku": "162418",
+    "name": "Pilotă Finet  Green Crystal, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet  Green Crystal, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-green-crystal/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/88387f1f-5da6-33d2-b429-7dfcf73c70ed/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/f99b2b7f-b805-3d91-b497-f65a56b88c5f/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/403efd1a-025f-3955-870f-b2b452c98dc8/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162418-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/88387f1f-5da6-33d2-b429-7dfcf73c70ed/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162417,
+    "sku": "162417",
+    "name": "Pilotă Finet Marcante, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Marcante, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-marcante/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/b24be677-6848-37c7-8096-e71773a6e2df/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/59f9485b-bcfa-3f43-a2f9-480c40a8421f/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/692c9d8f-12ad-3fc9-bc51-d155dfcd32f8/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162417-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/b24be677-6848-37c7-8096-e71773a6e2df/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162416,
+    "sku": "162416",
+    "name": "Pilotă Finet Roses, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Roses, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-roses/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/1ea7110e-4c7b-3355-b466-4ce030d8607a/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/8e225761-a409-3400-a693-5e56dcce1f56/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/c1804b57-525b-3e23-b453-a1f476655eb3/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162416-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/1ea7110e-4c7b-3355-b466-4ce030d8607a/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": false
+  },
+  {
+    "id": 162415,
+    "sku": "162415",
+    "name": "Pilotă Finet Sepia flow, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Sepia flow, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-sepia-flow/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/c2f779a9-9117-3dbe-9951-e256bd375a17/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/65ab431d-9999-3a69-b12c-ff2d4ff11336/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/741675ff-0e9e-3b3c-bef1-255055950dae/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162415-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/c2f779a9-9117-3dbe-9951-e256bd375a17/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162414,
+    "sku": "162414",
+    "name": "Pilotă Finet White, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet White, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-white/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/9600e66d-af5c-339b-8420-e680bd6a4ae4/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/e32123be-52d0-3b78-b1d6-b07841d16459/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/e28f65c1-155c-35be-9ac0-f54393e68215/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162414-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/9600e66d-af5c-339b-8420-e680bd6a4ae4/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162373,
+    "sku": "162373",
+    "name": "Pilotă Finet Vibrant Purple, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Vibrant Purple, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-vibrant-purple/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/c765ad59-f110-3882-9037-648687fe6015/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/7a06d3bb-1594-3d7f-9810-b27bbea5fce5/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/c531e26e-d894-31b7-a58f-d57bf00ebe0d/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162373-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/c765ad59-f110-3882-9037-648687fe6015/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162372,
+    "sku": "162372",
+    "name": "Pilotă Finet Sunlit Green, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Sunlit Green, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-sunlit-green/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/130d532d-a5a5-3de8-8726-a4f90e525404/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/17501216-c018-32af-8ee8-d33f41eb5a1f/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/1a33ac0d-72b8-35aa-bbbe-306557e26f98/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162372-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/130d532d-a5a5-3de8-8726-a4f90e525404/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162371,
+    "sku": "162371",
+    "name": "Pilotă Finet Serene Botanical, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Serene Botanical, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-serene-botanical/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/90158a0f-b839-34fe-aa07-1c90e50ec7b2/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/e7af93ae-afee-3982-ae4b-fb07682dfd7d/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/2ef4d0e8-8ced-344e-9a93-d44aaf925ec4/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162371-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/90158a0f-b839-34fe-aa07-1c90e50ec7b2/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162369,
+    "sku": "162369",
+    "name": "Pilotă Finet Heart Patterned, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Heart Patterned, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-heart-patterned/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/86c5887c-a538-38b4-be20-256bece37f85/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/3e6d4f6c-baf4-3e5d-9310-121a03b02730/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/ff0a943f-631b-3665-93b2-80257911235f/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162369-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/86c5887c-a538-38b4-be20-256bece37f85/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162368,
+    "sku": "162368",
+    "name": "Pilotă Finet Pastel Rose, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Pastel Rose, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-pastel-rose/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/c4f1e333-7957-3f0a-a6c3-dab80bdad15b/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/13ed9356-44f0-308b-b852-6dc5f668cfb6/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/52ce4405-a8a2-3a3b-96b6-26a918adb6cb/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162368-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/c4f1e333-7957-3f0a-a6c3-dab80bdad15b/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162367,
+    "sku": "162367",
+    "name": "Pilotă Finet Mint Feather, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Mint Feather, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-mint-feather/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/3323c3db-92cc-34c9-bec2-b8aad3dbc2d0/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/837ef235-c181-3f85-a54a-fad613fcb563/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/298836f3-2e04-3104-b3fc-72f07056071d/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162367-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/3323c3db-92cc-34c9-bec2-b8aad3dbc2d0/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162366,
+    "sku": "162366",
+    "name": "Pilotă Finet Plush Feather, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Plush Feather, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-plush-feather/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/953f8766-3393-3622-9b1d-eb18c61ed8bc/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/86d5ac66-9401-3264-8dc3-cfffe233e0f0/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/a637e174-a6df-3987-816f-61e0ae59422c/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162366-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/953f8766-3393-3622-9b1d-eb18c61ed8bc/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162365,
+    "sku": "162365",
+    "name": "Pilotă Finet Sage Botanical, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Sage Botanical, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-sage-botanical/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/3783b01e-89d7-3808-9da2-f46e7d898ff2/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/3088edff-f40f-3682-ad70-67bd78a01fce/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/e167c9dc-0eb8-395c-b200-61794da522d0/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162365-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/3783b01e-89d7-3808-9da2-f46e7d898ff2/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": false
+  },
+  {
+    "id": 162364,
+    "sku": "162364",
+    "name": "Pilotă Finet Sunlit Eucalyptus, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Sunlit Eucalyptus, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-sunlit-eucalyptus/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/1f407b3e-1bf5-3f63-ad53-026a18bf67fa/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/83ba7260-f34e-3e7f-be64-661092692dac/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/54789387-5263-3914-9bbc-6b55384c972e/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162364-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/1f407b3e-1bf5-3f63-ad53-026a18bf67fa/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 162363,
+    "sku": "162363",
+    "name": "Pilotă Finet Abstract Animal, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Abstract Animal, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-abstract-animal/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/249c7e89-5878-396e-89b0-15a206fb0844/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/480dd40f-77a1-3711-b5dc-c6abf916ca27/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/4260f904-a0dd-3942-8c99-47c701181b29/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162363-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/249c7e89-5878-396e-89b0-15a206fb0844/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": false
+  },
+  {
+    "id": 162362,
+    "sku": "162362",
+    "name": "Pilotă Finet Blush Floral, 200 × 220 cm",
+    "category": "Pilote finet",
+    "categoryPath": "pilote/pilote-finet",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică",
+    "description": "Pilotă Finet Blush Floral, 200 × 220 cm.\n\nMaterial: Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică.\n\nConținut și dimensiuni: 1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-blush-floral/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/a28d8e00-de00-3c93-b70b-6f79b3093ccb/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/8e564607-1da7-3634-8637-1139dfddc656/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/fae8b80c-65f7-3e70-93b5-c15d409230fe/1_org_zoom.jpg",
+      "/products/control-recovered-20261025/162362-detail.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/a28d8e00-de00-3c93-b70b-6f79b3093ccb/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș Finet: 50% bumbac, 50% poliester. Umplutură: 50% fibră microgel, 50% fibră siliconică"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pilotă de 200 × 220 cm. Pernele din fotografii sunt elemente de decor și nu sunt incluse."
+      }
+    ],
+    "price": 149,
+    "stock": 100,
+    "inStock": false
+  },
+  {
+    "id": 84126,
+    "sku": "84126",
+    "name": "Lenjerie de pat Ranforce Clasy Oliva, 100% bumbac, 4 piese",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Ranforce, 100% bumbac, 120 g/m²",
+    "description": "Lenjerie de pat Ranforce Clasy Oliva, 100% bumbac, 4 piese.\n\nMaterial: Ranforce, 100% bumbac, 120 g/m².\n\nConținut și dimensiuni: 1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-oliva/",
+    "images": [
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84126-hero.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84126-side.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84126-2.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84126-3.jpg"
+    ],
+    "image": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84126-hero.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Ranforce, 100% bumbac, 120 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm."
+      }
+    ],
+    "price": 339,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 84136,
+    "sku": "84136",
+    "name": "Lenjerie de pat Ranforce Clasy Visam, 100% bumbac, 4 piese",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Ranforce, 100% bumbac, 120 g/m²",
+    "description": "Lenjerie de pat Ranforce Clasy Visam, 100% bumbac, 4 piese.\n\nMaterial: Ranforce, 100% bumbac, 120 g/m².\n\nConținut și dimensiuni: 1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-visam/",
+    "images": [
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84136-hero.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84136-side.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84136-2.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84136-3.jpg"
+    ],
+    "image": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84136-hero.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Ranforce, 100% bumbac, 120 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm."
+      }
+    ],
+    "price": 339,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 84353,
+    "sku": "84353",
+    "name": "Lenjerie de pat Ranforce Clasy Simle, 100% bumbac, 4 piese",
+    "category": "Lenjerii de pat ranforce 100% bumbac",
+    "categoryPath": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Ranforce, 100% bumbac, 120 g/m²",
+    "description": "Lenjerie de pat Ranforce Clasy Simle, 100% bumbac, 4 piese.\n\nMaterial: Ranforce, 100% bumbac, 120 g/m².\n\nConținut și dimensiuni: 1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-simle/",
+    "images": [
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84353-hero.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84353-side.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84353-2.jpg",
+      "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84353-3.jpg"
+    ],
+    "image": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84353-hero.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Ranforce, 100% bumbac, 120 g/m²"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 2 fețe de pernă 50 × 70 cm, cu tiv de 2 cm."
+      }
+    ],
+    "price": 339,
+    "stock": 100,
+    "inStock": true
   }
 ]

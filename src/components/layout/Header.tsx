@@ -22,7 +22,7 @@ export default function Header({ query = "" }: { query?: string }) {
     </form>
     <dialog ref={menu} className="store-dialog navigation-dialog" aria-labelledby="navigation-title" onClick={(e) => { if (e.target === e.currentTarget) menu.current?.close(); }}>
       <div className="dialog-heading"><h2 id="navigation-title">Ce cauți pentru casa ta?</h2><button onClick={() => menu.current?.close()} aria-label="Închide meniul">✕</button></div>
-      <nav aria-label="Categorii de produse">{navigationGroups.map(group => <Link key={group.slug} href={groupHref(group.slug)} onClick={() => menu.current?.close()}>{group.name}<span aria-hidden="true">→</span></Link>)}<Link href="/categorii" onClick={() => menu.current?.close()}>Vezi toate categoriile</Link><Link href="/shop?categorie=produse-hotel" onClick={() => menu.current?.close()}>HoReCa</Link><Link href="/shop?categorie=terasa-si-gradina" onClick={() => menu.current?.close()}>Bucătărie, terasă și grădină</Link></nav>
+      <nav aria-label="Categorii de produse">{navigationGroups.map(group => <Link key={group.slug} href={groupHref(group.slug)} onClick={() => menu.current?.close()}>{group.name}<span aria-hidden="true">→</span></Link>)}<Link href="/categorii" onClick={() => menu.current?.close()}>Vezi toate categoriile</Link><Link href="/shop?categorie=terasa-si-gradina" onClick={() => menu.current?.close()}>Bucătărie, terasă și grădină</Link></nav>
       <Link className="help-link" href="/informatii-clienti" onClick={() => menu.current?.close()}>Ai nevoie de ajutor?</Link>
     </dialog>
   </header>;

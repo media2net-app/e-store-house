@@ -1,0 +1,142 @@
+TAP version 13
+# Subtest: supplier +29% keeps exact ending-nine boundaries and rounds other totals upward
+ok 1 - supplier +29% keeps exact ending-nine boundaries and rounds other totals upward
+  ---
+  duration_ms: 0.874917
+  type: 'test'
+  ...
+# Subtest: missing or invalid costs cannot silently create sale prices
+ok 2 - missing or invalid costs cannot silently create sale prices
+  ---
+  duration_ms: 0.242292
+  type: 'test'
+  ...
+# Subtest: every published configuration uses its own supplier cost and parent range minimum
+ok 3 - every published configuration uses its own supplier cost and parent range minimum
+  ---
+  duration_ms: 9.192458
+  type: 'test'
+  ...
+# Subtest: public catalog contains only reviewed records, disjoint from the recoverable archive
+ok 4 - public catalog contains only reviewed records, disjoint from the recoverable archive
+  ---
+  duration_ms: 17.981959
+  type: 'test'
+  ...
+# Subtest: reimporting an archived listing or adding an unreviewed listing blocks publication
+ok 5 - reimporting an archived listing or adding an unreviewed listing blocks publication
+  ---
+  duration_ms: 23.552916
+  type: 'test'
+  ...
+# Subtest: changing a reviewed image, composition, variant SKU or title requires another review
+ok 6 - changing a reviewed image, composition, variant SKU or title requires another review
+  ---
+  duration_ms: 17.136416
+  type: 'test'
+  ...
+# Subtest: stock and price updates preserve the independent copy/gallery approval
+ok 7 - stock and price updates preserve the independent copy/gallery approval
+  ---
+  duration_ms: 21.535083
+  type: 'test'
+  ...
+# Subtest: empty cart and one article receive no discount
+ok 8 - empty cart and one article receive no discount
+  ---
+  duration_ms: 0.751375
+  type: 'test'
+  ...
+# Subtest: discount applies once to the cheaper individual article
+ok 9 - discount applies once to the cheaper individual article
+  ---
+  duration_ms: 0.184834
+  type: 'test'
+  ...
+# Subtest: two units of the same model also qualify, only one unit is discounted
+ok 10 - two units of the same model also qualify, only one unit is discounted
+  ---
+  duration_ms: 0.068333
+  type: 'test'
+  ...
+# Subtest: removing the second article removes its discount
+ok 11 - removing the second article removes its discount
+  ---
+  duration_ms: 0.051792
+  type: 'test'
+  ...
+# Subtest: calculations round discounts to cents and are independent of cart order
+ok 12 - calculations round discounts to cents and are independent of cart order
+  ---
+  duration_ms: 0.115208
+  type: 'test'
+  ...
+# Subtest: free shipping starts at exactly 399 lei AFTER discount
+ok 13 - free shipping starts at exactly 399 lei AFTER discount
+  ---
+  duration_ms: 0.055208
+  type: 'test'
+  ...
+# Subtest: RON and Lei use the same promotion; invalid money and quantities are rejected
+ok 14 - RON and Lei use the same promotion; invalid money and quantities are rejected
+  ---
+  duration_ms: 0.169792
+  type: 'test'
+  ...
+# Subtest: curated catalog returns up to 5 available similar models and separate complementary choices
+ok 15 - curated catalog returns up to 5 available similar models and separate complementary choices
+  ---
+  duration_ms: 391.036292
+  type: 'test'
+  ...
+# Subtest: recommendations exclude unavailable models even when the category and price match
+ok 16 - recommendations exclude unavailable models even when the category and price match
+  ---
+  duration_ms: 78.630917
+  type: 'test'
+  ...
+# Subtest: all stored model and variant prices are whole lei ending in 9
+ok 17 - all stored model and variant prices are whole lei ending in 9
+  ---
+  duration_ms: 0.650208
+  type: 'test'
+  ...
+# Subtest: psychological prices remain exact when discount and shipping progress are calculated
+ok 18 - psychological prices remain exact when discount and shipping progress are calculated
+  ---
+  duration_ms: 0.106667
+  type: 'test'
+  ...
+# Subtest: application imports use supplier cost plus 29%, rounded up to a whole leu ending in 9
+ok 19 - application imports use supplier cost plus 29%, rounded up to a whole leu ending in 9
+  ---
+  duration_ms: 2.24975
+  type: 'test'
+  ...
+# Subtest: complementary recommendations fill eight slots across available categories
+ok 20 - complementary recommendations fill eight slots across available categories
+  ---
+  duration_ms: 104.412917
+  type: 'test'
+  ...
+# Subtest: robes complement towels without being labelled as similar towels
+ok 21 - robes complement towels without being labelled as similar towels
+  ---
+  duration_ms: 74.113708
+  type: 'test'
+  ...
+# Subtest: Super Sale units never qualify for or receive the second-item discount
+ok 22 - Super Sale units never qualify for or receive the second-item discount
+  ---
+  duration_ms: 0.081084
+  type: 'test'
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 22
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 970.829917

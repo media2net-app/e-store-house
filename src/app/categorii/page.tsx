@@ -32,7 +32,7 @@ export default function CategoriesPage() {
       <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold text-[#3b2d24]">Categorii de produse și oferte</h1>
       <p className="mt-2 text-sm text-[#3b2d24]/80">Compară numărul de modele și intervalele de preț, apoi alege categoria potrivită. Prețul exact depinde de produs și dimensiune.</p>
       <Collections />
-      <h2 className="all-categories-title">Toate categoriile, inclusiv HoReCa și bucătărie</h2>
+      <h2 className="all-categories-title">Toate categoriile pentru casa ta</h2>
       <div className="category-directory">
         {getCategoryChildren(null).map((category) => getCategoryChildren(category.path).length ? <details key={category.path} className="category-group category-tone">
           <summary><span className="category-group-title">{category.name}</span><CategorySummary path={category.path}/></summary>

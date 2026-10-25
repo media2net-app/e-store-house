@@ -1447,11 +1447,16 @@
     "source": "app-catalog-reviewed-20261022",
     "photographicViews": 4,
     "visualReview": "Compared actual four-view review sheets with the individual supplier source sheets: full product, alternate angle, textile detail, overhead view. Product colour, pattern, construction and Romanian product copy checked; held composition conflicts excluded.",
-    "fingerprint": "e0d8d0b89fe8a8bc0da4482193d80b1209b41b27afb5b15fc647f3afb9107f45",
+    "fingerprint": "0ec71e12bc6f9115a177bc23c42dc7df34762d231a96f714fa3f64e9f2873068",
     "manufacturerCopyReview": {
       "date": "2026-10-23",
       "source": "Merchant explicit instruction: produs de ralex pucioasa",
       "scope": "Brand Ralex Pucioasa only; existing photographs and technical details unchanged"
+    },
+    "categoryReview": {
+      "date": "2026-10-25",
+      "evidence": "catalog-review/category-audit-20261025/reclassified.json",
+      "scope": "Category-only correction; reviewed product copy, gallery and SKU unchanged."
     }
   },
   {
@@ -6083,11 +6088,16 @@
         "sha256": "729c413814178d817d649a9a35a7d629f5b7b7818c190df4c8efa9f35ce6fde2"
       }
     ],
-    "fingerprint": "643ad3105cb0e532668639a481206a6580ec6ab7d4b14595ba45e5412658e349",
+    "fingerprint": "926005b79c540f9731b549f92536e203ee9f782404e0071b4ceb3cbe122146ce",
     "manufacturerCopyReview": {
       "date": "2026-10-23",
       "source": "Merchant explicit instruction: produs de ralex pucioasa",
       "scope": "Brand Ralex Pucioasa only; existing photographs and technical details unchanged"
+    },
+    "categoryReview": {
+      "date": "2026-10-25",
+      "evidence": "catalog-review/category-audit-20261025/reclassified.json",
+      "scope": "Category-only correction; reviewed product copy, gallery and SKU unchanged."
     }
   },
   {
@@ -10037,7 +10047,12 @@
         "sha256": "f60d26020f251d19809efdd1460ac9b44d5e14f8d14a4620d755ea346e5ad144"
       }
     ],
-    "fingerprint": "14efcccc4c07727925ee6e224af5e179b3dcc402dd0d80e459f0ffdd6b0a0e81"
+    "fingerprint": "60952d77d15b449c44406634719e212b6da76335811bc1dfdbb264640c0c38f3",
+    "categoryReview": {
+      "date": "2026-10-25",
+      "evidence": "catalog-review/category-audit-20261025/reclassified.json",
+      "scope": "Category-only correction; reviewed product copy, gallery and SKU unchanged."
+    }
   },
   {
     "id": 159588,
@@ -14905,7 +14920,12 @@
         "sha256": "4a70e0533e4f947aba072529820829694a0c6c74e4d7747fa9b5b7c1685586f4"
       }
     ],
-    "fingerprint": "8c4614f9da0f47af486bcee89a34ca14ee8c65d1f4265c2a892ed4f783600dc1"
+    "fingerprint": "6bafaa0d441cbc6a5a89f8f29ee3c4b7a4dfa251d3d7a2084065fd119ef6987c",
+    "categoryReview": {
+      "date": "2026-10-25",
+      "evidence": "catalog-review/category-audit-20261025/reclassified.json",
+      "scope": "Category-only correction; reviewed product copy, gallery and SKU unchanged."
+    }
   },
   {
     "id": 94798,
@@ -19882,7 +19902,12 @@
         "sha256": "2163b58f7770b9f9e8fdebe21df1f5edcca80edfcafe88b8f9efd470b51b6661"
       }
     ],
-    "fingerprint": "386305a53f82a8a5167f7c8bdec4e18705450c395262dc07215eb2f180b7e4bf"
+    "fingerprint": "e3e957df170e585824ad3d39f2f632aa215f95fd5de0e802c6d7641c05ef5499",
+    "categoryReview": {
+      "date": "2026-10-25",
+      "evidence": "catalog-review/category-audit-20261025/reclassified.json",
+      "scope": "Category-only correction; reviewed product copy, gallery and SKU unchanged."
+    }
   },
   {
     "id": 101872,
@@ -19990,7 +20015,12 @@
         "sha256": "c51cb615c85dc622a1008b248eb86bf2b91b8988257f710f91d96072474124ff"
       }
     ],
-    "fingerprint": "e4789669f345ff1a55027e6bf57364427f887015e06a1b9fa5a4e0ba1f10af83"
+    "fingerprint": "29c3cb857a1a392601bada08498e9fe634aa12f05c325f4f1029b189cee38fe2",
+    "categoryReview": {
+      "date": "2026-10-25",
+      "evidence": "catalog-review/category-audit-20261025/reclassified.json",
+      "scope": "Category-only correction; reviewed product copy, gallery and SKU unchanged."
+    }
   },
   {
     "id": 105829,
@@ -20017,7 +20047,12 @@
         "sha256": "8aec5b26fe75e648afb250e3d72a7fea12ca247e322509621af2b46560b99a89"
       }
     ],
-    "fingerprint": "6e1d854d768a0c55d12b1b1eef87bcfc4564d12cbd7d9901f087191ccdc23b33"
+    "fingerprint": "61ef786a78bd959bf5ed35eb9ffba049bb726ae185b829ed2e2541f39e46afad",
+    "categoryReview": {
+      "date": "2026-10-25",
+      "evidence": "catalog-review/category-audit-20261025/reclassified.json",
+      "scope": "Category-only correction; reviewed product copy, gallery and SKU unchanged."
+    }
   },
   {
     "id": 105820,
@@ -20044,7 +20079,12 @@
         "sha256": "c9abed8de15c62e33a5b7dcf21cf8635470978d1c390c0ea9d8e17a84125c394"
       }
     ],
-    "fingerprint": "f999ad7244e500cbe650636dccf403b27562a2a4f307180953aa2249dbc8dfb0"
+    "fingerprint": "ce4e78f60d97b3062e0a97630eb103e00aaf6920863a6c6c9396db10628b58db",
+    "categoryReview": {
+      "date": "2026-10-25",
+      "evidence": "catalog-review/category-audit-20261025/reclassified.json",
+      "scope": "Category-only correction; reviewed product copy, gallery and SKU unchanged."
+    }
   },
   {
     "id": 105811,
@@ -20071,7 +20111,12 @@
         "sha256": "f4c59a8b55c3df48610bd4d499a9523a2195acc280089940d685b5d1d85f93aa"
       }
     ],
-    "fingerprint": "8a50dae8077d1069f8b6e6735e8d09aa6705c158a652d1d32fa618b5fb5bf2ed"
+    "fingerprint": "420a98d85c190a0d282d81dcdbb55ba85efdb1a735a0bd03a94447bf2504e01f",
+    "categoryReview": {
+      "date": "2026-10-25",
+      "evidence": "catalog-review/category-audit-20261025/reclassified.json",
+      "scope": "Category-only correction; reviewed product copy, gallery and SKU unchanged."
+    }
   },
   {
     "id": 105825,
@@ -20098,7 +20143,12 @@
         "sha256": "72af8f42786f24624c59e4180b454b3b0760b6d4c91e89fbc0905fca4ff49d86"
       }
     ],
-    "fingerprint": "c5dbed3fedeb40e2934350ac695f334d9e42913782eae0081d04f62ce603662b"
+    "fingerprint": "354ca4fec055601a91c6d69d128d09c7cdac077a0000336335f5ca87cb0aaa8d",
+    "categoryReview": {
+      "date": "2026-10-25",
+      "evidence": "catalog-review/category-audit-20261025/reclassified.json",
+      "scope": "Category-only correction; reviewed product copy, gallery and SKU unchanged."
+    }
   },
   {
     "id": 105816,
@@ -20125,7 +20175,12 @@
         "sha256": "7b7db22d075caee1dd53fff2e357dd8846e047b796143b6dc62d9a65dcfb80d2"
       }
     ],
-    "fingerprint": "21508f88e545235008c5304714599a87c0651fa9821f47639f4e948897f954a5"
+    "fingerprint": "89991c1eb58e89f2a9249b32fe335fffdecb7dd1c8e6e697a61af640d716c79e",
+    "categoryReview": {
+      "date": "2026-10-25",
+      "evidence": "catalog-review/category-audit-20261025/reclassified.json",
+      "scope": "Category-only correction; reviewed product copy, gallery and SKU unchanged."
+    }
   },
   {
     "id": 110001,
@@ -22283,7 +22338,12 @@
         "sha256": "9033b6fbbcd906d7dac8e0ab25e55816a471ab73a2a196050887b137d507e80e"
       }
     ],
-    "fingerprint": "d87a4af34fce0f2fadbb7df842eeb3d422acabd4b6642dce0f4144a86d534e46"
+    "fingerprint": "dbfa0b8dee913530a6721b97d9b845517007daff2f557c3fe6a7e26a09c23cbd",
+    "categoryReview": {
+      "date": "2026-10-25",
+      "evidence": "catalog-review/category-audit-20261025/reclassified.json",
+      "scope": "Category-only correction; reviewed product copy, gallery and SKU unchanged."
+    }
   },
   {
     "id": 102989,
@@ -23049,7 +23109,12 @@
         "sha256": "7fbac79258088058e281a749ff1f1abed625f5dc6eeac7081cad201d7c1dd9e6"
       }
     ],
-    "fingerprint": "462d8233b11efab0aa295a8d6a0ed153f82265230e541c255bf51f599a7a20ad"
+    "fingerprint": "3791b4cf6ab8e7c5e398776ae144a29130997ffbcc79744e79ec4f17f0ed272c",
+    "categoryReview": {
+      "date": "2026-10-25",
+      "evidence": "catalog-review/category-audit-20261025/reclassified.json",
+      "scope": "Category-only correction; reviewed product copy, gallery and SKU unchanged."
+    }
   },
   {
     "id": 110902,
@@ -24626,5 +24691,977 @@
       }
     ],
     "fingerprint": "e8f4bf6980a9a38d8449be98fb795c78f711613ebdea3434e6a2c433a4a25db7"
+  },
+  {
+    "id": 158236,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-premium-heritage/lenjerie-de-pat-clasy-arvona-v2-cu-patura-inclusa-100-bumbac-6-piese/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158236/01-principala.jpg",
+        "sha256": "6e92bf626408f7c7aa109fa0c0718fb582bcd7ac2e6687cd3852edc9ebbc814c"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158236/02-lateral.jpg",
+        "sha256": "5eef99e532b9a578eed6d19dfca0875e61e5504f7b12ad5e020383f8e24bea81"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158236/03-detaliu.jpg",
+        "sha256": "0ef77301e10b0dfbe5b99fc1b1bd894af2a203ad9613deb712c53d88e47a8764"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158236/04-de-sus.jpg",
+        "sha256": "0c19d91e5b39e4896a3f869bfdb226c7318945b4d698a2554e315f4e965e791c"
+      }
+    ],
+    "fingerprint": "462299f321f9ab893638454a8b60d62318e4eabad1296eb174bd061d4dfff1e6"
+  },
+  {
+    "id": 158322,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled/set-cuvertura-velda-v1-pique-clasy-4-piese-cuvertura-gofrata-cu-ciucuri/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158322/01-principala.jpg",
+        "sha256": "1f3581754ffed2b02c000bd048e6498e40c42ea89b51d7c0fa5f07342dc6f4d0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158322/02-lateral.jpg",
+        "sha256": "7f3d049af8e70f255ea5765a8ccc85e6172fcc3e729d9bb178c1cd90cc43006d"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158322/03-detaliu.jpg",
+        "sha256": "7ee6d16164ff93f074657924d0482b25e12b1d94c0704d088f1bcf56b35c18cd"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158322/04-de-sus.jpg",
+        "sha256": "938656f2e7868d3f7144100097b4094c9b4cb0449f8032a5b1d2502db597d06b"
+      }
+    ],
+    "fingerprint": "df77769376b30dc7094911a858c63f166e1b997771b2240e0abe4e9867e83502"
+  },
+  {
+    "id": 158330,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled/set-cuvertura-velda-v4-pique-clasy-4-piese-cuvertura-gofrata-cu-ciucuri/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158330/01-principala.jpg",
+        "sha256": "61cfdfb26c65dff2cf85be84d69c117055495e1dedcd71b8adaca6978165d113"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158330/02-lateral.jpg",
+        "sha256": "1c9eb457729a20373d5a9dc6dbc88ac74906e63b9702d11c99aa25160c49c77e"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158330/03-detaliu.jpg",
+        "sha256": "0ad8585854302efa698a26383cc369af0365d52febaa7bfd9b31a012d4ce5ed0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/media2net-app/e-store-house/4d379611f7e33f24c32bbc5e1af8df9752ad2122/public/products/ralex50-approved-20261021/158330/04-de-sus.jpg",
+        "sha256": "47f31eeaea0166bbb38c4a5a9ac2390b6eb877b0219db9a9f40994c34a56442d"
+      }
+    ],
+    "fingerprint": "9ec77a2f7486ef4b0f7781c4301736f179cd4fe18f2f50b78460a06db8f49485"
+  },
+  {
+    "id": 162799,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-virele/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162799-hero.jpg",
+        "sha256": "f82e87061de23e85d5dc184700f1301af2ae8b9c4f8269eaa1bcf76e4a172790"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162799-1.jpg",
+        "sha256": "f6db1a887638a4aa28491bf4a3d4c8b16715f708166ad19afcecd7fc88cce7f2"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162799-2.jpg",
+        "sha256": "c6e9199e5e21b29d3119c3686d98da3320c63805fed80c9ddd95d907e10aba95"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162799-3.jpg",
+        "sha256": "58dc1e9877e9b9ea9aed33acb8637427a1a9106718c3673a8e712e9562e8e898"
+      }
+    ],
+    "fingerprint": "9f101c9d635737f39d1482fab056fbb507f942405ba96035c6df72a01a30e440"
+  },
+  {
+    "id": 162803,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-ruska/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162803-hero.jpg",
+        "sha256": "3230f63ba95de43730af3e14616ad3c1a0e4f7ab1139c93eb8a66eab4d0eaa29"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162803-1.jpg",
+        "sha256": "20cd48e5d9083e12dff12b427b78479660bf48e0487e94c7a9abecc7c590b31c"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162803-2.jpg",
+        "sha256": "5ee90e3881e26f43163f3f628c844277e2701f754199db1c4320ad83b6924455"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162803-3.jpg",
+        "sha256": "657bb714b1cfe19fc7040028010127932f3b64c2c502a78a0ab2cda4d2109194"
+      }
+    ],
+    "fingerprint": "7b66700dd52fc9e00f59355fbd82ca1cbf36a80b5c112a8d85356971edc4cbdf"
+  },
+  {
+    "id": 162804,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-ramina/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162804-hero.jpg",
+        "sha256": "ff52365a5e3dab22b337e01b9f5b0c451c8778e2b4cfc83179557a3105bcf5f4"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162804-1.jpg",
+        "sha256": "174926998d326be2c05d3686bc1f35324ee004c8dc83471586f991f7b6c08bbb"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162804-2.jpg",
+        "sha256": "4844e566a60e28da6c796efd04bb4282f5a59f220c8621ed40ff293768f82af6"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162804-3.jpg",
+        "sha256": "bde101dfe54c7f54cdcb5b1a6affdda51fdf83e76ec2016e3f89938afc4a4e5b"
+      }
+    ],
+    "fingerprint": "04a7b27fa9119bb902b8e25001f3bfdf0058b65453270a7ee858f2e3e69cab49"
+  },
+  {
+    "id": 162806,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-nerina/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162806-hero.jpg",
+        "sha256": "a032e4edfbb376e458c3e646364f9d934421b0399aea71483dd1ec47e8bd48bf"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162806-1.jpg",
+        "sha256": "e42927865032abf77b2129073df9e2ba2f8d01fbefe164734ec3e370b6dedf8c"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162806-2.jpg",
+        "sha256": "be853bef0eae6044306e21412f983d40d2bd413f3548b87e6660fd08cfcdf6ac"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162806-3.jpg",
+        "sha256": "081aad5925ff0069f7fda034dbb6b95bf60ef2f7dd91c6b71d3d76d856be2196"
+      }
+    ],
+    "fingerprint": "e0970627875e078e374b7584f588459f91c622fa1a2642ab842ccccddf83bb4e"
+  },
+  {
+    "id": 162809,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-elara/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162809-hero.jpg",
+        "sha256": "2e316d48f62df0650fcda234ca89a4fa9c4c12f2c238f68a85b9d1944159f64b"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162809-1.jpg",
+        "sha256": "f171d6ed6a243e6ee9a188689ca339cb172d9e87f6bcc3691d9a41efd9adbeda"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162809-2.jpg",
+        "sha256": "e1580effb7998077c44ae630b4c55bc27567de9d86346a6544a0c71202ee98f4"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162809-3.jpg",
+        "sha256": "e61b3ba3d0ea874cfda4930c83628226c9f7713ba932dd7d5826cf29fd9d9b60"
+      }
+    ],
+    "fingerprint": "93acc89957bff2cbbc068847484b437c3f4ed11393e746b3c8a235a325352527"
+  },
+  {
+    "id": 162810,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-devlin/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162810-hero.jpg",
+        "sha256": "c5c693887d69afde69a6e3210e3040e55a1283d399c491ed48ac9dc614aec2ad"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162810-1.jpg",
+        "sha256": "1741e84c38757082c69727e4affe5cc979e679e98b1a4c2d6b4deec13de9d09b"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162810-2.jpg",
+        "sha256": "23db2d71555b2ed7cec3bef255a3fa41cd6d6d77f3e63ee525974d6fae8ee54c"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162810-3.jpg",
+        "sha256": "193a84cce577a8d70a33ab3fd5a6afd50dd54bbf673e0c9a55bc560756b1e35f"
+      }
+    ],
+    "fingerprint": "d60de1181220e62a01904a94a3a2eedc7b3d3839cdf07d804c6f15271620f9bc"
+  },
+  {
+    "id": 162811,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-bloomera/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162811-hero.jpg",
+        "sha256": "e15cc0db20b88cd125ea4037e3d7470b37c6fc098cf5dfd541143fa0034f93e8"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162811-1.jpg",
+        "sha256": "0397b17cf1bc4f22616837e35e8cdd4d90d4a21e4b35e6fd8ae41ae78d9f4ecb"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162811-2.jpg",
+        "sha256": "de98c444f7aaafb32ef8b40fb629f21aa15aebcf0849b1da24a82f73a6e4f7bd"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/162811-3.jpg",
+        "sha256": "d23087cbd7fb43c7b7de2111e0a9f19fb30a0c6a8c83a4c2f32207f58736d680"
+      }
+    ],
+    "fingerprint": "c61be874b8e0e2f204537f2375c63ea35b14319d4a8cd85311c0e4bee181ec66"
+  },
+  {
+    "id": 102830,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-umplutura-microgel/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260630/18/825a4eed-f319-3caa-9915-695687a7669c/1_org_zoom.jpg",
+        "sha256": "950e5868430eb6c2bf03461ecd8d69ac6fce828d84fdba361364f0d8e60487b7"
+      },
+      {
+        "url": "/products/control-recovered-20261025/102830-side.png",
+        "sha256": "10ba036fe72ddf28fceb2ad92825364cfab1489c737026f3d0741f59e749fd64"
+      },
+      {
+        "url": "/products/control-recovered-20261025/102830-detail.png",
+        "sha256": "0d24cb9673b5cd5fcee1b30633cb51c9d4896e3ead879ae1f8600572fdcb3782"
+      },
+      {
+        "url": "/products/control-recovered-20261025/102830-overhead.png",
+        "sha256": "80da159b6fc3e9fec3d66ed1b10e736b3733102123c6b84ac83712ffbb797a5c"
+      }
+    ],
+    "fingerprint": "e3c383e7cb71810c35f443c6ce1bf8353598dae31cc7662be6be1f81b8853cf2"
+  },
+  {
+    "id": 162422,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-abstract-sepia/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/08930afd-b9c3-3ea8-90d2-6af20b25b985/1_org_zoom.jpg",
+        "sha256": "83986803f4f3b6bea77d37176130718a1bcf3fbc91f026f2ef54b40503941796"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/ad6bb2cf-79b4-36a7-8c19-6517c7106006/1_org_zoom.jpg",
+        "sha256": "5ba28a3554a80fbb61d7ac1673c77dd684a58652743ca4a8eda9d3374b8cf39d"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/ba6e1589-57a2-34db-b1bc-d14ffd247467/1_org_zoom.jpg",
+        "sha256": "ef3ea44090ca73dcb0703d7b42ded274426e9255f7a820726226870ec5105b62"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162422-detail.png",
+        "sha256": "1bd972587532e3464abbcc5b53a149fbcc22151a79245405c512e59ba45a6f79"
+      }
+    ],
+    "fingerprint": "eb2ad90923b9d0538d8cdd5ae54a8467cba802ab0e01fed0ef94a44da6acdfca"
+  },
+  {
+    "id": 162419,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-gray-sun/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/881e8756-3b65-3a89-b1b3-dff556480049/1_org_zoom.jpg",
+        "sha256": "2f7fc2bbb6b6f2f3f896d41ebf34d16d97d4ad8ffbc539d5986c29bf7e718cd5"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/d27ca122-7021-301b-a154-d52943dc2a00/1_org_zoom.jpg",
+        "sha256": "40c53954069bd02168dcf03f92bb455a0f9be8e61107b4de56aa16638925329b"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/c96b3ed9-e5a5-3ee9-8aaf-dafe9dfaf780/1_org_zoom.jpg",
+        "sha256": "8de225ee1af465cba166618635fd03444176074affc0d461cd606a08ecc6e5df"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162419-detail.png",
+        "sha256": "32cc5ec25f33f7ed4f0650e3eb29c74f059e6f2a13a7b9def815cce58f175e6d"
+      }
+    ],
+    "fingerprint": "64d72fe0de7bf71ca8de7a10639670db79206bdb830a4122364ef782a1537b05"
+  },
+  {
+    "id": 162370,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-floral-duvet/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/f1a84376-0463-33b0-be73-ad3fffac0cb0/1_org_zoom.jpg",
+        "sha256": "999ff42c31d4dead7026a198e1efe88a1e56d00f7612fc0b4d33b5d3f6c04cb4"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/862eb331-d90a-315a-b9b9-2160f35afa90/1_org_zoom.jpg",
+        "sha256": "561783bda0d9a1188a874a74dff64fc0de81f3df2eda1ca3e16ac3b64c59f75d"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/e1670f50-baae-3f49-9395-54b9bd0f4489/1_org_zoom.jpg",
+        "sha256": "a02e8b0a10aca6268ee3118e9646fb14dd7e468ffd05f3c1a03ffceb985560e2"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162370-detail.png",
+        "sha256": "79a8febb544818ec96bb0361229ac4b1b32b0cbdc409e0d434e677df8733a3e8"
+      }
+    ],
+    "fingerprint": "b0c54fd59121e50ca0841dc3dcc3ce1c27cac37f29a64d894f2c458dc9bdc82a"
+  },
+  {
+    "id": 162356,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-floral-sun/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/fc5840dd-f6d5-39e9-949d-ac58f20a4cac/1_org_zoom.jpg",
+        "sha256": "d64bd52671bd18a7732777a1a9962bedf2ded6e2e5e4fdc1103669f631f351b1"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/f56fb4a4-b377-37c5-bff5-d4c366b60f5f/1_org_zoom.jpg",
+        "sha256": "3cffc0857597ff2ccf5f5e93ce53d5139d4ebb2e415c220da93e893069d81a7d"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/0ecb876a-d737-3094-82d7-359884461ac7/1_org_zoom.jpg",
+        "sha256": "c68190346974ea99e8ac17dc40e0e216418399f4ef39cea7a5c066286f580678"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162356-detail.png",
+        "sha256": "29354806cf3e3470e3b7c794ff28207e7194f510cfb3f36b569b18133f314a8f"
+      }
+    ],
+    "fingerprint": "18b71acb92ad3c3080f2fa9ac11d9f4c2a624fd260b5faaa63e7d73956b00e81"
+  },
+  {
+    "id": 162421,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-autumn/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/4d5554bc-292c-3ada-a9a0-55e4e536cef6/1_org_zoom.jpg",
+        "sha256": "b4587bc8afcacc90245f1354be6833967c7f005e20b7019b5e178d0e17136c1e"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/d98b9f4d-223c-30b0-8cf6-de7001834b61/1_org_zoom.jpg",
+        "sha256": "db669300b0fdad2c3db635e8199444924c4b27f88c7a9bff636657fa8cf4f50a"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/a2321bf5-0638-3ef3-910c-47104d7776de/1_org_zoom.jpg",
+        "sha256": "13ff0e71e2b8d783d7bce908f5652b6b88c851f79a31ea18081835a1991d96cc"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162421-detail.png",
+        "sha256": "f2611540038c997b708c6c042fcc1933088f2ac1afbc3aa99d56f085429cba8e"
+      }
+    ],
+    "fingerprint": "a61762ef88d23cf6ceb8e55e8a99b368b196e494cd9a65c414c7cb8dd70abac8"
+  },
+  {
+    "id": 162420,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-blue-feader/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/1d49bef7-57a2-38f2-a58e-0c3b65179fbb/1_org_zoom.jpg",
+        "sha256": "648d5234ca83bbc18ecf3280dfac8b48f71ebeb2ac91f9ed3965b14a06399f33"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/d27b4392-3cfa-3825-8d63-82e2c21bdab1/1_org_zoom.jpg",
+        "sha256": "cf821ad54a3521ec0b14b8ed930a8dc4f26b2209c9c0304467226043e44c1119"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/f13f90b5-17b8-3070-94fb-66c12879f93f/1_org_zoom.jpg",
+        "sha256": "179f312eec22b77a12b7ca03b96049c1dc8b0d489a251cafde85983f9c2c2704"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162420-detail.png",
+        "sha256": "5c3ad3ffd9e53f55a3c800d55ab94c25c5a000235de7112361abc90f35d0914e"
+      }
+    ],
+    "fingerprint": "def8bff008ef3eacaceca38f69892f24b354d04cee069a76c04391de8434b7f4"
+  },
+  {
+    "id": 162418,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-green-crystal/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/88387f1f-5da6-33d2-b429-7dfcf73c70ed/1_org_zoom.jpg",
+        "sha256": "bf9d8dd97a8ddcdbd3a5ed9af8e5a0087cead0620e4c0424527827a83a16ef57"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/f99b2b7f-b805-3d91-b497-f65a56b88c5f/1_org_zoom.jpg",
+        "sha256": "f81bfc08b9804e85ade3e97d0ab496acbcd3696ba2810ee3519583606b24d66b"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/403efd1a-025f-3955-870f-b2b452c98dc8/1_org_zoom.jpg",
+        "sha256": "93d834cad0511f7f92b546e3f99c07e9b8bb4fa4bc5ebda79add273f18d7dc46"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162418-detail.png",
+        "sha256": "a441768bed499cc6647069eee42e8db3a46d8e62b05c2c64f55e20cdb9a5be90"
+      }
+    ],
+    "fingerprint": "16ee6e552054fbaeaf26c0ada8c6424d10d9d35a3e46e9f183b8c06000e57d7b"
+  },
+  {
+    "id": 162417,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-marcante/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/b24be677-6848-37c7-8096-e71773a6e2df/1_org_zoom.jpg",
+        "sha256": "8f6ffbc43691209d169abbc0ba756212d58c9012791309e3268d1b82f989f76e"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/59f9485b-bcfa-3f43-a2f9-480c40a8421f/1_org_zoom.jpg",
+        "sha256": "78c00c7ca3b6225c363dbffe94f9b5e7726218aa5d61e75741c4c2261cf88844"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/692c9d8f-12ad-3fc9-bc51-d155dfcd32f8/1_org_zoom.jpg",
+        "sha256": "76876c8d0f5677274868fd137a8e76c8cd4ea4b0884b13c12f6b7a5a6efbcca1"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162417-detail.png",
+        "sha256": "e42a977af3138559390bf2bd65d9eb3013eeadba85b8c7402a72e858ce02ceb7"
+      }
+    ],
+    "fingerprint": "42f3aaf9d5923b704acf644af662b25020bb37ef05eb314904d8d12ebd3c0189"
+  },
+  {
+    "id": 162416,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-roses/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/1ea7110e-4c7b-3355-b466-4ce030d8607a/1_org_zoom.jpg",
+        "sha256": "b0aea8577c627c148175cc111f10a4b660f9f4f6ffc187b695fa9364dcf8065b"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/8e225761-a409-3400-a693-5e56dcce1f56/1_org_zoom.jpg",
+        "sha256": "626eaaa8c755c49b098a765c9e09c9bc609eb9752720e74ba397f9380d809609"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/c1804b57-525b-3e23-b453-a1f476655eb3/1_org_zoom.jpg",
+        "sha256": "5aabfbefab02169e207ca4f4d0723a42a2b2f86ae1682a473ef5bcffbd8b07df"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162416-detail.png",
+        "sha256": "fc7862acdece9ffa622f427538ef2434c02390bc4abcfde6d08a9505016d1689"
+      }
+    ],
+    "fingerprint": "2a2cb76afe9a0b8fcd73a1a08962ba59ac290c3da7be99bea397309f3a4781cf"
+  },
+  {
+    "id": 162415,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-sepia-flow/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/c2f779a9-9117-3dbe-9951-e256bd375a17/1_org_zoom.jpg",
+        "sha256": "aba70f33406e36d43b12c19f8626cbefe2b96d11c2ed9532ed055de423659d81"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/65ab431d-9999-3a69-b12c-ff2d4ff11336/1_org_zoom.jpg",
+        "sha256": "3330e61f2b6a2e940e52066be5683dc65cb7750eda76a919e9d8769c09dd2616"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/741675ff-0e9e-3b3c-bef1-255055950dae/1_org_zoom.jpg",
+        "sha256": "909c0f805dbdd582c0690b07ce4763866122bf65c14ae5855b3eb5dadd7be3d1"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162415-detail.png",
+        "sha256": "456e30bedbcbc4b50448f05b4c836461e7921d377a0c2de98d8ffa56830e17fd"
+      }
+    ],
+    "fingerprint": "7242acf52e02e1fbb6a915f2cda8da8aa2dd03e499cf9baddea42b34e0985b5f"
+  },
+  {
+    "id": 162414,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-white/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/9600e66d-af5c-339b-8420-e680bd6a4ae4/1_org_zoom.jpg",
+        "sha256": "70e59fb231b8f9093c26fd1383745bb58e762ebbd4fff61af2de7421218fd279"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/e32123be-52d0-3b78-b1d6-b07841d16459/1_org_zoom.jpg",
+        "sha256": "cbfa68d6e08cedba1908f56023b430bf4c08a3268072bcfd857a376acd87ca99"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/e28f65c1-155c-35be-9ac0-f54393e68215/1_org_zoom.jpg",
+        "sha256": "eecdaec50951f64790719a48c39fca516722b257517b5b171d013aedc958e4c7"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162414-detail.png",
+        "sha256": "a6e0167ede20dcc2cda665e52583e414f5195a75ebacbefb3b3aebb5918e75da"
+      }
+    ],
+    "fingerprint": "dfa305ccc7e4caf4b99e76718be1da43406fbc81fef5fb67a7cb418aef909a39"
+  },
+  {
+    "id": 162373,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-vibrant-purple/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/c765ad59-f110-3882-9037-648687fe6015/1_org_zoom.jpg",
+        "sha256": "ea50da7e7a771a16eb88e731708a41e0ad36336313f29a3e763627d4a78256a8"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/7a06d3bb-1594-3d7f-9810-b27bbea5fce5/1_org_zoom.jpg",
+        "sha256": "41ba5b7e49f9c90a2c6d583bfae508e5e17c33911004721d669b6e921bfc7f1b"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/c531e26e-d894-31b7-a58f-d57bf00ebe0d/1_org_zoom.jpg",
+        "sha256": "bd2685b121719772cc627e1e2ba88ed6fa8a55ab7e21223b6488535603af18cb"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162373-detail.png",
+        "sha256": "778868b1f26ba1264204477cc33339f929fdca553f298dfc0aa4b387ef26f275"
+      }
+    ],
+    "fingerprint": "4a77d8f330426b6cd93c348e2b7ef3e12546d2cff08aade070fe86e186d5344e"
+  },
+  {
+    "id": 162372,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-sunlit-green/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/130d532d-a5a5-3de8-8726-a4f90e525404/1_org_zoom.jpg",
+        "sha256": "8bb708244151beeb1685276760858ed30eb3559c698eb9cc281ee91b9c0ee652"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/17501216-c018-32af-8ee8-d33f41eb5a1f/1_org_zoom.jpg",
+        "sha256": "24ef7bd1dbd694bccf777d8ba7c28aa7bcf39696b8c6dfe6fb39d989e581cec6"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/1a33ac0d-72b8-35aa-bbbe-306557e26f98/1_org_zoom.jpg",
+        "sha256": "88f429df52424487d18be1cb31a718e64a88bc918ae1aba49bebca714ef5f892"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162372-detail.png",
+        "sha256": "9c65209ac6526894c23923f2301354c85d83df095a401ee3d590e46b5ffbc316"
+      }
+    ],
+    "fingerprint": "29728a845b3b0136b53c9c9bac13660ca9dc9e8fd986737cefb13560725e906e"
+  },
+  {
+    "id": 162371,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-serene-botanical/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/90158a0f-b839-34fe-aa07-1c90e50ec7b2/1_org_zoom.jpg",
+        "sha256": "27ef867d864c00034f3efcfba2e569e7606ee689b338ab34757c5e71f8f81358"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/e7af93ae-afee-3982-ae4b-fb07682dfd7d/1_org_zoom.jpg",
+        "sha256": "e6fad8eee1e450fc520c3fe296f894d180e0b8aaf3ad253afd9be80514ceecdd"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/2ef4d0e8-8ced-344e-9a93-d44aaf925ec4/1_org_zoom.jpg",
+        "sha256": "f27393b04fee896541a5ac5657dc13601aa59869d1692d8f9b41fb56290a3251"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162371-detail.png",
+        "sha256": "0cdd1225c97cccb15292e74c298fcde3901db7c099d456f2d77bb4fa96b52301"
+      }
+    ],
+    "fingerprint": "5018bbf717c89126002f4ca9bb6a107e32c382029526839051204819fa7ea6b0"
+  },
+  {
+    "id": 162369,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-heart-patterned/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/86c5887c-a538-38b4-be20-256bece37f85/1_org_zoom.jpg",
+        "sha256": "5565208b96f750ebdec427c907a3ea2cffa21233539303fdf3596a2c54bc868d"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/3e6d4f6c-baf4-3e5d-9310-121a03b02730/1_org_zoom.jpg",
+        "sha256": "edbc46bae1625a83fb4be7035a3bffefd32ea71b483056df38a829100e19a6ee"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/ff0a943f-631b-3665-93b2-80257911235f/1_org_zoom.jpg",
+        "sha256": "23d9fc06f789280ae9ba2874aa3db0caff33191359e51297e3340618be5ea0a1"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162369-detail.png",
+        "sha256": "e461ecb3136355a1cea35215db89b0cfb8ce05c8d69acb8a108273457e3d2e46"
+      }
+    ],
+    "fingerprint": "f2efc7728cf7f4f5da665ef8f7dcf6ce8263eaa585462d6eca4e7081b30228fc"
+  },
+  {
+    "id": 162368,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-pastel-rose/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/c4f1e333-7957-3f0a-a6c3-dab80bdad15b/1_org_zoom.jpg",
+        "sha256": "a9b84d4d6e5d6f10674e1273fa1f1ce529608e75d58a4ace6615e4e6addd7e4e"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/13ed9356-44f0-308b-b852-6dc5f668cfb6/1_org_zoom.jpg",
+        "sha256": "6b444052d7d7c25290f79b5cea604579bebcffc11e3b5bdbbc17da1b12f9c76c"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/52ce4405-a8a2-3a3b-96b6-26a918adb6cb/1_org_zoom.jpg",
+        "sha256": "b1c81a466697cc398cdc6807c8637e614915d1a13b177a47f1e99b3daa326fa8"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162368-detail.png",
+        "sha256": "7435c6d764e3fd9863457b453486cbcc87915ce446a3533d9152a738b55fa5e4"
+      }
+    ],
+    "fingerprint": "1b7782c00ebe29069a3302d6e222d687e2d617058b58b858499c77f787dcd14f"
+  },
+  {
+    "id": 162367,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-mint-feather/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/3323c3db-92cc-34c9-bec2-b8aad3dbc2d0/1_org_zoom.jpg",
+        "sha256": "1ad81578516090e193f63f6f45f19a44830acf06dc4aefca169306b7cc638bf4"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/837ef235-c181-3f85-a54a-fad613fcb563/1_org_zoom.jpg",
+        "sha256": "b3841130436db02e1c3a4a112d2da830a209d4899b5350b4108da311f355da9e"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/298836f3-2e04-3104-b3fc-72f07056071d/1_org_zoom.jpg",
+        "sha256": "afccf13d78df4b734766615824998aff78eb02ed8c54f230879aee97561e2763"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162367-detail.png",
+        "sha256": "8a192c4cf7d635a9bdaa9129b7fe57d61be68d4d87f9992b5e4cb5fb95fce232"
+      }
+    ],
+    "fingerprint": "c68be85884787cb5c6b8ba8de13e08f643313658533e8cd78a6f1453d2d1d836"
+  },
+  {
+    "id": 162366,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-plush-feather/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/953f8766-3393-3622-9b1d-eb18c61ed8bc/1_org_zoom.jpg",
+        "sha256": "eb8870de9825e4496611e8223b26b8243b8bb38ac3b6fe3ed1c08a825fd6d048"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/86d5ac66-9401-3264-8dc3-cfffe233e0f0/1_org_zoom.jpg",
+        "sha256": "62f62a594796648794e5b99e1d57d3f7d63c0df527e42f9a46e12a9e6aa191bc"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/a637e174-a6df-3987-816f-61e0ae59422c/1_org_zoom.jpg",
+        "sha256": "d8abb0968f857f8ac29c3f64da2293c9b36d38ade4d4a18d357b995123185ad4"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162366-detail.png",
+        "sha256": "568b652da247ba5ef2698cd1331b4d9e1a9083d00f495e76bddd22ab40398e09"
+      }
+    ],
+    "fingerprint": "66b083a0a9160bab6c2b3a02335108fec0f02d65cd61e70c6210650b55f67634"
+  },
+  {
+    "id": 162365,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-sage-botanical/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/3783b01e-89d7-3808-9da2-f46e7d898ff2/1_org_zoom.jpg",
+        "sha256": "a4844b08e4c5641c013cc475f09df04ce4769e3da8a1588d7d7cd47e5aa3f83c"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/3088edff-f40f-3682-ad70-67bd78a01fce/1_org_zoom.jpg",
+        "sha256": "761abf2cb00e26d70457201e9161304f1b305dec28af97df608ccfc65c8f0b40"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/e167c9dc-0eb8-395c-b200-61794da522d0/1_org_zoom.jpg",
+        "sha256": "66ab956a62e1cc7fe65737151c4218f1ad70140d653328514f718b72ce4d3329"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162365-detail.png",
+        "sha256": "c0458cb41deb0db2ec2da03f5993b57e041a5a03704ed24fa1f879ccefccc90a"
+      }
+    ],
+    "fingerprint": "2aa412d19244a0f3e1782c34a46b686eaa80620e035af8a254b02314df5a2130"
+  },
+  {
+    "id": 162364,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-sunlit-eucalyptus/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_PREP/20261010/10/1f407b3e-1bf5-3f63-ad53-026a18bf67fa/1_org_zoom.jpg",
+        "sha256": "617e826791d8fa976e36efad7e195d7a2e01220e261266183dd63acd978ac324"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/83ba7260-f34e-3e7f-be64-661092692dac/1_org_zoom.jpg",
+        "sha256": "0161839bba733f3894192e225e64956931e582e3df2c1677f6ae1113255c6033"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/54789387-5263-3914-9bbc-6b55384c972e/1_org_zoom.jpg",
+        "sha256": "5313453974f4a535f4fcf530b8ea45c589c7900ad60450cdca5bfd9ec0245c7e"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162364-detail.png",
+        "sha256": "9dec83a4e15677ab1a4480051ca63129e3f9d00f0327e4d18c8d9421256eeac8"
+      }
+    ],
+    "fingerprint": "ec76ca3f98a6db3a5fe2b708e8b97d083f0ec1948a15449713310f93c71250ce"
+  },
+  {
+    "id": 162363,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-abstract-animal/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/249c7e89-5878-396e-89b0-15a206fb0844/1_org_zoom.jpg",
+        "sha256": "786ce4778a74a840999a2b96da6015f45530c508f47859a083bbaf709a611273"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/480dd40f-77a1-3711-b5dc-c6abf916ca27/1_org_zoom.jpg",
+        "sha256": "7b897b89d47609cbcfe2557db8cac8c4c279dead5d417ca9b75b5648a1f10b9f"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/4260f904-a0dd-3942-8c99-47c701181b29/1_org_zoom.jpg",
+        "sha256": "12acc70c832a3b970244e9686c3b65b667c0db9bf1bf2c51b131b7768b2cc1f0"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162363-detail.png",
+        "sha256": "ba2a4ac6844086ae205333e0d3d0b6d1b571b4718b3e0dee2e3e9532ec4e61a1"
+      }
+    ],
+    "fingerprint": "058246e22cce5fe7e620ce3d56fbd33f15e151271df7c9fead240232a9fa3657"
+  },
+  {
+    "id": 162362,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/pilote/pilote-finet/pilota-finet-blush-floral/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/a28d8e00-de00-3c93-b70b-6f79b3093ccb/1_org_zoom.jpg",
+        "sha256": "35eed8242244818fd31c1740c95de19850e888e19299339fad23b34c042ab087"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_PREP/20261010/10/8e564607-1da7-3634-8637-1139dfddc656/1_org_zoom.jpg",
+        "sha256": "508711a3486bdff18376c158c6b7640b5dfc13a1735b59696c51be7aa9029064"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_PREP/20261010/10/fae8b80c-65f7-3e70-93b5-c15d409230fe/1_org_zoom.jpg",
+        "sha256": "6101a5c79e846ed339e482634172c5bb2b763e16633a402b25b99a596f3ad016"
+      },
+      {
+        "url": "/products/control-recovered-20261025/162362-detail.png",
+        "sha256": "d262c05a9a632894732cb08c386d0e9d455390e65d286a4b6383a74146b161ec"
+      }
+    ],
+    "fingerprint": "e1a93d0cb18fb4adc750830358789eb5bd41b49714a40aaf9793350f35912200"
+  },
+  {
+    "id": 84126,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-oliva/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84126-hero.jpg",
+        "sha256": "b2336bf595f90470674288cfeb014a21ed1317f69e1b36747a9255966000d481"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84126-side.jpg",
+        "sha256": "ced83eadc6ef1720ac0a60095af62ae2d9026cc34fb33802e52a3cbbda2f2e4e"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84126-2.jpg",
+        "sha256": "cbc2f1b70e757348c7f2982b8a715080c66d5f66e804e2452e545b3557d3bf99"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84126-3.jpg",
+        "sha256": "d879ff1636c2ea7d131945c41d5388ef34d9a51af48d043bce0886017df20435"
+      }
+    ],
+    "fingerprint": "86f6869dce46bd55030f55467781ac83cbf1339febae84022fcb0acf267df2a8"
+  },
+  {
+    "id": 84136,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-visam/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84136-hero.jpg",
+        "sha256": "3c5834477eca4485340a5166fb8464ad94c5685d8780d83ccfe33126f4a4a622"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84136-side.jpg",
+        "sha256": "d1c69495b62c0dc194de7c93f05d08305f35dbff919fd2a7a58ba2c2d4f7c254"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84136-2.jpg",
+        "sha256": "79837d8d71981612087dc5cb4110ba099d8ac9d011c38eedc4b60dff7b90a3f9"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84136-3.jpg",
+        "sha256": "c2c527d3940ca5a3748bbdfd784a9550e292f8c8fea09c34470b20543fb4df56"
+      }
+    ],
+    "fingerprint": "f01c7ff624192c55a4d7c553d8ccbc85fbd1630704ab346283d7252bb8b5f163"
+  },
+  {
+    "id": 84353,
+    "reviewedAt": "2026-10-25T10:03:44.142626+00:00",
+    "source": "control-recovered-publication-20261025",
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-simle/",
+    "visualReview": "Actual supplier photo and every Control gallery image reviewed side by side. Existing faithful galleries retained for Clasy models. Finet duvet repeated infographic replaced with reviewed textile detail, preserving hero, side and overhead. Butterfly retains single-pillow hero plus three reviewed single-pillow views. Source code, dimensions, contents, material and print matched to own supplier page.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84353-hero.jpg",
+        "sha256": "6dc4e9b3b27c3f73b4cf911ff7a3bfdca46324c797c895e56da0d74a2b2a776c"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84353-side.jpg",
+        "sha256": "af8717cc3e0714d670a3f9cee387ebc16c6b6e17d0b4a2b0439709e407e9da87"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84353-2.jpg",
+        "sha256": "de909347e6bfdaef765f297983156295efea41eb4ac39236d4fe14f248fa5a08"
+      },
+      {
+        "url": "https://emag-api.estorehouse.ro/media/ralex-20261020/rejection-20261021/84353-3.jpg",
+        "sha256": "544c7528013f9fef913ce3c7d8a4923e57fc65b78e654bcf22d62cced610466b"
+      }
+    ],
+    "fingerprint": "acbbb29b8378855df283df0306ebeb8b35f57c4d11b5a7ee83e1e33a8370cace"
   }
 ]

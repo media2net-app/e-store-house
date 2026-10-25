@@ -6,9 +6,10 @@ export type Category = (typeof categories)[number];
 export const getCategory = (path: string) => categories.find((category) => category.path === path);
 export const getCategoryChildren = (path: string | null, includeEmpty = false) => categories.filter((category) => category.parent === path && (includeEmpty || categoryCount(category.path) > 0));
 export const categoryHref = (path: string) => `/shop?categorie=${encodeURIComponent(path)}`;
-export const isInCategory = (product: Product, path: string) =>
-  (path === "oferte" && product.tag === "Super Sale") ||
-  product.categoryPath === path || product.categoryPath?.startsWith(`${path}/`) === true;
+export const isInCategory = (product: Product, path: string) => {
+  if (path === "oferte") return product.tag === "Super Sale";
+  return product.categoryPath === path || product.categoryPath?.startsWith(`${path}/`) === true;
+};
 export const categoryProducts = (path: string) => allProducts.filter((product) => isInCategory(product, path));
 export const categoryCount = (path: string) => categoryProducts(path).length;
 export const categoryTrail = (path: string) => {

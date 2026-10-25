@@ -2,7 +2,7 @@ import FilterPanel from "@/components/catalog/FilterPanel";
 import ProductCard from "@/components/product/ProductCard";
 import { matchesSearch } from "@/lib/discovery";
 import CatalogLayout from "@/components/layout/CatalogLayout";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { categoryHref, categoryProducts, categoryTrail, getCategory, getCategoryChildren } from "@/lib/categories";
 import Link from "next/link";
 import Footer from "@/components/layout/Footer";
@@ -34,6 +34,7 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
 export default async function MagazinPage({ searchParams }: { searchParams: Promise<ShopParams> }) {
   const { categorie, q, pagina, sortare, material, culoare, dimensiune, cearsaf, stoc, pret_min, pret_max } = await searchParams;
   if (Array.isArray(categorie)) notFound();
+  if (categorie === "produse-hotel") redirect("/categorii");
   const group = navigationGroups.find(group => group.slug === categorie);
   const active = categorie ? getCategory(categorie) ?? (group ? { path: group.slug, name: group.name } : undefined) : undefined;
   if (categorie && !active) notFound();
