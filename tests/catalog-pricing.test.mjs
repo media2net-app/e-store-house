@@ -3,16 +3,17 @@ import assert from 'node:assert/strict';
 import { supplierSalePrice, validateSupplierPrices } from '../scripts/catalog-pricing.mjs';
 import { readFileSync } from 'node:fs';
 
-test('supplier +29% keeps exact ending-nine boundaries and rounds other totals upward', () => {
-  assert.equal(supplierSalePrice(100), 129);
-  assert.equal(supplierSalePrice(120), 159);
-  assert.equal(supplierSalePrice(200), 259);
-  assert.equal(supplierSalePrice(999), 1289);
+test('supplier pricing preserves the prior rounded base and adds 20% rounded upward', () => {
+  assert.equal(supplierSalePrice(100), 159);
+  assert.equal(supplierSalePrice(120), 199);
+  assert.equal(supplierSalePrice(200), 319);
+  assert.equal(supplierSalePrice(999), 1549);
   for (const cost of [6.98, 7, 61.24, 100, 100.01, 1000.01, 4136.55]) {
     const price = supplierSalePrice(cost);
     assert.equal(price % 10, 9);
-    assert.ok(price >= cost * 1.29 - 0.000001);
-    assert.ok(price - 10 < cost * 1.29);
+    const previous = Math.max(9, Math.ceil((Math.round(cost * 100) * 129 - 90000) / 100000) * 10 + 9);
+    assert.ok(price >= previous * 1.2 - 0.000001);
+    assert.ok(price - 10 < previous * 1.2);
   }
 });
 test('missing or invalid costs cannot silently create sale prices', () => {

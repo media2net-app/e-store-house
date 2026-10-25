@@ -50,5 +50,5 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   validateCategoryAssignments(read("src/data/products.json"), read("src/data/categories.json"));
   const skus = validateSupplierPrices(read("src/data/products.json"), read("catalog-review/price-verification-29-20261022/results.json"));
   console.log(`E-Store catalog: ${count} reviewed models; no held models included.`);
-  console.log(`Verified supplier +29% prices, ending in 9: ${skus} saleable SKUs.`);
+  console.log(`Verified supplier +29% rounded, then +20% rounded prices, ending in 9: ${skus} saleable SKUs.`);
 }

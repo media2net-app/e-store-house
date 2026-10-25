@@ -26,7 +26,7 @@ for (const product of products) {
   }
 }
 writeFileSync(productsPath, JSON.stringify(products, null, 2) + '\n');
-writeFileSync(new URL('../catalog-review/pricing-29-20261022.json', import.meta.url), JSON.stringify({
-  markupPercent: 29, round: 'up_to_whole_leu_ending_in_9', evidencePath, models: products.length, skus: changes.length, changes,
+writeFileSync(new URL('../catalog-review/pricing-current.json', import.meta.url), JSON.stringify({
+  stages: [{ markupPercent: 29 }, { markupPercent: 20 }], round: 'up_to_whole_leu_ending_in_9', evidencePath, models: products.length, skus: changes.length, changes,
 }, null, 2) + '\n');
-console.log(`Applied verified supplier +29% prices: ${products.length} models, ${changes.length} SKUs.`);
+console.log(`Applied verified two-stage prices (+29%, then +20%, each rounded): ${products.length} models, ${changes.length} SKUs.`);
