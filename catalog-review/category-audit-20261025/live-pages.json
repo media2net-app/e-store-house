@@ -1,0 +1,395 @@
+{
+  "base": "https://estorehouse.ro",
+  "categoriesChecked": 64,
+  "errors": [],
+  "completePaginationChecked": [
+    "pilote/pilote-finet",
+    "lenjerii-de-pat"
+  ],
+  "categories": [
+    {
+      "category": "lenjerii-de-pat",
+      "models": 581,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-100-bumbac",
+      "models": 147,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerie-de-pat-damasc-color",
+      "models": 2,
+      "visibleCards": 2,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-creponate",
+      "models": 21,
+      "visibleCards": 21,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac",
+      "models": 42,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-tricot-rasfat-natural",
+      "models": 14,
+      "visibleCards": 14,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-pat-ranforce-100-bbc-cu-husa",
+      "models": 11,
+      "visibleCards": 11,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat",
+      "models": 34,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro",
+      "models": 23,
+      "visibleCards": 23,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-de-pat-policoton",
+      "models": 288,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-creponat-uni",
+      "models": 17,
+      "visibleCards": 17,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese",
+      "models": 12,
+      "visibleCards": 12,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-i",
+      "models": 15,
+      "visibleCards": 15,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-3d",
+      "models": 9,
+      "visibleCards": 9,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-6-piese",
+      "models": 13,
+      "visibleCards": 13,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-finet-enjoy-life",
+      "models": 31,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni",
+      "models": 23,
+      "visibleCards": 23,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-6-piese-cu-husa-pentru-saltea",
+      "models": 126,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa",
+      "models": 41,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-de-pat-promo",
+      "models": 80,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-cocolino-line",
+      "models": 6,
+      "visibleCards": 6,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-economy",
+      "models": 74,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjeriide-pat-deluxe",
+      "models": 66,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+      "models": 2,
+      "visibleCards": 2,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-jaquard-100-bumbac",
+      "models": 5,
+      "visibleCards": 5,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-premium-heritage",
+      "models": 2,
+      "visibleCards": 2,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-ranforce-butique",
+      "models": 40,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "cuverturi",
+      "models": 35,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "cuverturi/cuverturi-de-pat-clasy-doua-persoane",
+      "models": 7,
+      "visibleCards": 7,
+      "status": 200
+    },
+    {
+      "category": "cuverturi/cuverturi-de-pat-clasy-o-persoana",
+      "models": 1,
+      "visibleCards": 1,
+      "status": 200
+    },
+    {
+      "category": "cuverturi/cuverturi-fotoliu-si-canapea",
+      "models": 21,
+      "visibleCards": 21,
+      "status": 200
+    },
+    {
+      "category": "cuverturi/pled-waffles",
+      "models": 6,
+      "visibleCards": 6,
+      "status": 200
+    },
+    {
+      "category": "articole-baie",
+      "models": 45,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "articole-baie/halate-baie",
+      "models": 17,
+      "visibleCards": 17,
+      "status": 200
+    },
+    {
+      "category": "articole-baie/prosoape",
+      "models": 28,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "huse-de-pat",
+      "models": 12,
+      "visibleCards": 12,
+      "status": 200
+    },
+    {
+      "category": "huse-de-pat/huse-de-pat-finet-2-fete-perna",
+      "models": 4,
+      "visibleCards": 4,
+      "status": 200
+    },
+    {
+      "category": "perne",
+      "models": 16,
+      "visibleCards": 16,
+      "status": 200
+    },
+    {
+      "category": "pilote",
+      "models": 69,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "protectii-saltea",
+      "models": 7,
+      "visibleCards": 7,
+      "status": 200
+    },
+    {
+      "category": "paturi",
+      "models": 25,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "paturi/paruri-cocolino-dot",
+      "models": 5,
+      "visibleCards": 5,
+      "status": 200
+    },
+    {
+      "category": "paturi/paturi-cocolino-fluturi",
+      "models": 2,
+      "visibleCards": 2,
+      "status": 200
+    },
+    {
+      "category": "paturi/paturi-cocolino-line",
+      "models": 8,
+      "visibleCards": 8,
+      "status": 200
+    },
+    {
+      "category": "paturi/paturi-cocolino-sin",
+      "models": 9,
+      "visibleCards": 9,
+      "status": 200
+    },
+    {
+      "category": "paturi/paturi-tricot-cu-blanita",
+      "models": 1,
+      "visibleCards": 1,
+      "status": 200
+    },
+    {
+      "category": "saltele-si-toppere",
+      "models": 5,
+      "visibleCards": 5,
+      "status": 200
+    },
+    {
+      "category": "fete-de-masa",
+      "models": 11,
+      "visibleCards": 11,
+      "status": 200
+    },
+    {
+      "category": "fete-de-masa/fete-de-masa-antimurdarire",
+      "models": 11,
+      "visibleCards": 11,
+      "status": 200
+    },
+    {
+      "category": "terasa-si-gradina",
+      "models": 39,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "terasa-si-gradina/fete-masa-terasa-gradina",
+      "models": 20,
+      "visibleCards": 20,
+      "status": 200
+    },
+    {
+      "category": "terasa-si-gradina/fotolii-bean-bag",
+      "models": 6,
+      "visibleCards": 6,
+      "status": 200
+    },
+    {
+      "category": "terasa-si-gradina/pernute-scaun",
+      "models": 11,
+      "visibleCards": 11,
+      "status": 200
+    },
+    {
+      "category": "terasa-si-gradina/saltele-sezlong",
+      "models": 2,
+      "visibleCards": 2,
+      "status": 200
+    },
+    {
+      "category": "traverse-pat-hotel",
+      "models": 1,
+      "visibleCards": 1,
+      "status": 200
+    },
+    {
+      "category": "oferte",
+      "models": 0,
+      "visibleCards": 0,
+      "status": 200
+    },
+    {
+      "category": "huse-de-pat/huse-pat-jerse-100",
+      "models": 8,
+      "visibleCards": 8,
+      "status": 200
+    },
+    {
+      "category": "pilote/pilote-pufoase-matlasate",
+      "models": 12,
+      "visibleCards": 12,
+      "status": 200
+    },
+    {
+      "category": "pilote/pilote-finet",
+      "models": 29,
+      "visibleCards": 24,
+      "status": 200
+    },
+    {
+      "category": "pilote/set-pilota-ranforrce-100-bbc",
+      "models": 5,
+      "visibleCards": 5,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjeriide-pat-deluxe/seturi-cu-pled",
+      "models": 7,
+      "visibleCards": 7,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerii-de-pat-satin-100-bbc",
+      "models": 10,
+      "visibleCards": 10,
+      "status": 200
+    },
+    {
+      "category": "pilote/seturi-pilota-perne",
+      "models": 7,
+      "visibleCards": 7,
+      "status": 200
+    },
+    {
+      "category": "lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-finet-4-piese",
+      "models": 1,
+      "visibleCards": 1,
+      "status": 200
+    }
+  ]
+}

@@ -388,5 +388,7 @@
     "verifiedNewImageFiles": 31,
     "errors": []
   },
-  "remainingWork": "39 Control rows need supplier information or confirmed old-to-current numeric code mapping; merchant questions pending. No supplier-only additions authorized."
+  "remainingWork": "39 Control rows need supplier information or confirmed old-to-current numeric code mapping; merchant questions pending. No supplier-only additions authorized.",
+  "supersededBy": "catalog-review/category-audit-20261025/audit.json",
+  "supersededReason": "Later audit includes all Control brand labels and explicitly separates individual products from original bundle offers. Historical counts below describe the earlier snapshot, not the current catalog."
 }

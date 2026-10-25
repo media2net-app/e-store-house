@@ -3,7 +3,7 @@
   "controlSnapshotAt": "2026-10-25T09:47:06.958Z",
   "websiteModels": 846,
   "saleableSkus": 1262,
-  "publicationStatus": "prepared; pending deployment and live verification",
+  "publicationStatus": "published and verified live",
   "controlRows": 1337,
   "controlStatusCounts": {
     "matched_catalog_record": 1244,
@@ -22567,5 +22567,17 @@
       "sourceUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac/lenjerie-de-pat-ranforce-clasy-king-size-simle/",
       "supplierUrlCategory": "lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-de-pat-ranforce-100-bumbac"
     }
-  ]
+  ],
+  "liveVerification": {
+    "checkedAt": "2026-10-25T10:12:16.119867+00:00",
+    "contentCommit": "dc01500",
+    "websiteModels": 846,
+    "saleableSkus": 1262,
+    "newProductPagesChecked": 36,
+    "newAssetsVerifiedByHash": 25,
+    "categoryPagesChecked": 64,
+    "finetDuvets": 29,
+    "browser": "Headless Chrome, mobile/desktop emulation",
+    "errors": []
+  }
 }

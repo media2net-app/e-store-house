@@ -1,0 +1,164 @@
+E-STORE HOUSE — AUDIT CATEGORII ȘI IMAGINI
+25 octombrie 2026
+
+PUBLICAT ȘI VERIFICAT LIVE: 846 modele distincte și 1.262 SKU-uri.
+
+CORECȚII
+- Domeniul cdn.dsmcdn.com era respins de optimizatorul de imagini: răspuns 400 înainte, 200 după corecția publicată.
+- Cele 3.586 de imagini ale catalogului inițial au trecut verificarea adreselor/fișierelor. Lotul nou adaugă 144 de imagini verificate; total 3.730.
+- Butoanele categoriilor de la început deschid acum lista completă, cu filtre, sortare și paginare, nu doar patru exemple.
+- Categoriile și subcategoriile afișează numărul de modele și intervalul de preț, inclusiv toate variantele.
+- HoReCa a fost eliminată din navigare. Produsele ei au fost repartizate la pilote, perne/protecții și lenjerii.
+- 13 modele au primit încadrarea corectă. Șapte seturi pilotă + perne sunt acum la Pilote; nu sunt prezentate automat drept Super Sale.
+- O lenjerie cu 80% bumbac a fost scoasă din categoria 100% bumbac și mutată la policoton.
+- Au fost recuperate 36 modele existente în Control: 22 pilote Finet etichetate Generic, 13 Clasy și o pernă Butterfly. Identitatea a fost verificată după codul propriu Ralex și fotografii.
+- Pilote Finet: 29 modele (7 existente + 22 recuperate), în concordanță cu cele 29 din categoria furnizorului.
+- Nu au fost adăugate categorii principale sau produse aflate doar în catalogul furnizorului.
+
+CATEGORII ACTIVE — MODELE ȘI PREȚURI
+Lenjerii de pat: 581 modele; 109–839 lei
+  Lenjerii 100% bumbac: 147 modele; 229–399 lei
+    Lenjerii damasc 100% bumbac: 2 modele; 359–379 lei
+    Lenjerii de pat creponate: 21 modele; 249–379 lei
+    Lenjerii de pat ranforce 100% bumbac: 42 modele; 339–339 lei
+    Lenjerii de pat tricot ”răsfăț natural”: 14 modele; 379–379 lei
+    Lenjerii pat ranforce 100% BBC cu husă: 11 modele; 339–339 lei
+    Lenjerii percalle 100% bumbac: 34 modele; 249–389 lei
+    Ranforce 100% cotton pro: 23 modele; 229–399 lei
+  Lenjerii policoton: 288 modele; 149–319 lei
+    Lenjerii de pat creponat uni: 17 modele; 199–249 lei
+    Lenjerii de pat damasc - policoton 6 piese: 12 modele; 179–179 lei
+    Lenjerii de pat damasc policoton 4 pcs: 15 modele; 159–319 lei
+    Lenjerii de pat finet 3D: 9 modele; 229–229 lei
+    Lenjerii de pat finet 6 piese: 13 modele; 159–159 lei
+    Lenjerii de pat finet enjoy life: 31 modele; 169–169 lei
+    Lenjerii de pat natur uni: 23 modele; 239–259 lei
+    Lenjerii finet 6 piese cu husă pentru saltea: 126 modele; 149–169 lei
+    Lenjerii pat damasc policoton 6 piese cu husa: 41 modele; 159–189 lei
+  Lenjerii de pat promo: 80 modele; 109–279 lei
+    Lenjerii de pat cocolino line: 6 modele; 279–279 lei
+    Lenjerii de pat economy: 74 modele; 109–129 lei
+  Lenjerii de pat deluxe: 66 modele; 439–839 lei
+    Lenjerii de pat satin clasy-king: 2 modele; 479–489 lei
+    Lenjerii de pat jaquard 100% bumbac: 5 modele; 589–589 lei
+    Lenjerii de pat premium heritage: 2 modele; 819–839 lei
+    Lenjerii de pat ranforce butique: 40 modele; 479–489 lei
+Cuverturi: 35 modele; 69–599 lei
+  Cuverturi de pat clasy - două persoane: 7 modele; 369–599 lei
+  Cuverturi de pat clasy - o persoană: 1 modele; 329–329 lei
+  Cuverturi fotoliu si canapea: 21 modele; 69–99 lei
+  Pled waffles: 6 modele; 189–209 lei
+Articole baie: 45 modele; 19–189 lei
+  Halate baie: 17 modele; 189–189 lei
+  Prosoape: 28 modele; 19–89 lei
+Huse de pat: 12 modele; 59–109 lei
+  Huse de pat finet/elegance + 2 fețe pernă: 4 modele; 89–89 lei
+Perne și protecții pernă: 16 modele; 19–249 lei
+Pilote: 69 modele; 139–969 lei
+Protecții saltea: 7 modele; 69–209 lei
+Pături: 25 modele; 99–169 lei
+  Pături cocolino dot: 5 modele; 119–119 lei
+  Pături cocolino fluturi: 2 modele; 99–99 lei
+  Pături cocolino line: 8 modele; 169–169 lei
+  Pături cocolino sin: 9 modele; 119–119 lei
+  Paturi tricot cu blanita: 1 modele; 159–159 lei
+Saltele și toppere: 5 modele; 159–2399 lei
+Fețe de masă: 11 modele; 79–189 lei
+  Fețe de masă antimurdărire: 11 modele; 79–189 lei
+Bucătărie, terasă și grădină: 39 modele; 39–249 lei
+  Fețe masă terasă / grădină: 20 modele; 39–49 lei
+  Fotolii bean bag: 6 modele; 249–249 lei
+  Pernuțe scaun interior / exterior: 11 modele; 79–79 lei
+  Saltele șezlong: 2 modele; 139–139 lei
+Traverse pat hotel: 1 modele; 159–209 lei
+  Huse pat jerse / tricot 100% bumbac: 8 modele; 59–109 lei
+  Pilote pufoase matlasate: 12 modele; 149–149 lei
+  Pilote finet: 29 modele; 149–149 lei
+  Seturi cu pilotă Ranforce: 5 modele; 679–679 lei
+    Seturi de pat cu pled: 7 modele; 439–679 lei
+    Lenjerii de pat satin, 100% bumbac: 10 modele; 629–629 lei
+  Seturi pilotă și perne: 7 modele; 139–139 lei
+    Lenjerii Finet 4 piese: 1 modele; 159–159 lei
+
+LIMITE ȘI POZIȚII RĂMASE
+Baza Control verificată: 1.337 poziții. Cele 33 Casa Pucioasa rămân excluse conform cerinței.
+40 poziții nu sunt încă publicate: cele 39 cu informații/fotografii/coduri neclare, plus codul OEM 011 fără identificare Ralex confirmată.
+20 oferte de set din Control sunt reprezentate în magazin prin produse individuale, nu prin setul original. Le evidențiem separat și nu le numărăm drept oferte integral preluate. Nu sunt erori de categorisire.
+
+OFERTE DE SET CARE NU SUNT IDENTICE ÎN MAGAZIN
+102934 — Control: Set de 2 prosoape de bumbac premium pentru hotel, 100% bumbac, 600g/m2, 70x140cm + 50x90cm, Fabricat în România | Magazin: Prosop Luxury roz, 70 × 140 cm, 600 g/m²
+102924 — Control: Set de 2 prosoape de bumbac premium pentru hotel, 100% bumbac, 600g/m2, 70x140cm + 50x90cm, Fabricat în România | Magazin: Prosop Luxury mov, 70 × 140 cm, 600 g/m²
+102929 — Control: Set de 2 prosoape de bumbac premium pentru hotel, 100% bumbac, 600g/m2, 70x140cm + 50x90cm, Fabricat în România | Magazin: Prosop Luxury roșu, 70 × 140 cm, 600 g/m²
+102917 — Control: Set de 2 prosoape de bumbac premium pentru hotel, 100% bumbac, 600g/m2, 70x140cm + 50x90cm, Fabricat în România | Magazin: Prosop Luxury galben pal, 70 × 140 cm, 600 g/m²
+102908 — Control: Set de 2 prosoape de bumbac premium pentru hotel, 100% bumbac, 600g/m2, 70x140cm + 50x90cm, Fabricat în România | Magazin: Prosop Luxury turcoaz, 70 × 140 cm, 600 g/m²
+102901 — Control: Set de 2 prosoape de bumbac premium pentru hotel, 100% bumbac, 600g/m2, 70x140cm + 50x90cm, Fabricat în România | Magazin: Prosop Luxury alb ivory, 70 × 140 cm, 600 g/m²
+110270 — Control: Set de 6 prosoape premium cu bordură grecească, 100% bumbac, 500 g/m², Fabricate în România | Magazin: Prosop Greek Border Emerald Jungle, 70 × 140 cm, 500 g/m²
+110336 — Control: Set de 6 prosoape premium cu bordură grecească, 100% bumbac, 500 g/m², Fabricate în România | Magazin: Prosop Greek Border Alpine White, 70 × 140 cm, 500 g/m²
+110314 — Control: Set de 6 prosoape premium cu bordură grecească, 100% bumbac, 500 g/m², Fabricate în România | Magazin: Prosop Greek Border Café Sahara, 70 × 140 cm, 500 g/m²
+110292 — Control: Set de 6 prosoape premium cu bordură grecească, 100% bumbac, 500 g/m², Fabricate în România | Magazin: Prosop Greek Border Midnight Stone, 70 × 140 cm, 500 g/m²
+110285 — Control: Set de 6 prosoape premium cu bordură grecească, 100% bumbac, 500 g/m², Fabricate în România | Magazin: Prosop Greek Border Rose Paradise, 70 × 140 cm, 500 g/m²
+110277 — Control: Set de 6 prosoape premium cu bordură grecească, 100% bumbac, 500 g/m², Fabricate în România | Magazin: Prosop Greek Border Desert Ivory, 70 × 140 cm, 500 g/m²
+110264 — Control: Set de 6 prosoape premium cu bordură grecească, 100% bumbac, 500 g/m², Fabricate în România | Magazin: Prosop Greek Border Royal Amethyst, 70 × 140 cm, 500 g/m²
+110257 — Control: Set de 6 prosoape premium cu bordură grecească, 100% bumbac, 500 g/m², Fabricate în România | Magazin: Prosop Greek Border Vanilla Sands, 70 × 140 cm, 500 g/m²
+110250 — Control: Set de 6 prosoape premium cu bordură grecească, 100% bumbac, 500 g/m², Fabricate în România | Magazin: Prosop Greek Border Mint Lagoon, 70 × 140 cm, 500 g/m²
+110244 — Control: Set de 6 prosoape premium cu bordură grecească, 100% bumbac, 500 g/m², Fabricate în România | Magazin: Prosop Greek Border Azure Oasis, 70 × 140 cm, 500 g/m²
+110238 — Control: Set de 6 prosoape premium cu bordură grecească, 100% bumbac, 500 g/m², Fabricate în România | Magazin: Prosop Greek Border Liliac Mirage, 70 × 140 cm, 500 g/m²
+94910 — Control: Set de 4 perne Aloe Vera – 2x 50x70 cm + 2x 70x70 cm, Microfibră matlasată, Fabricat în România | Magazin: Pernă Aloe Vera, 50 × 70 cm
+106975 — Control: Set de 2 perne cu umplutura din fulgi de spuma cu memorie, 50x70 cm, husa matlasata, alb | Magazin: Pernă Fulgi Memory, 50 × 70 cm
+94917 — Control: Set de 4 perne Horeca 2x50x70 + 2x70x70 cm, Percale, Fabricat în România | Magazin: Pernă Horeca Percale, 50 × 70 cm
+
+POZIȚII NEPUBLICATE
+102847 — Pernă Nimbus MicroGel, 50 × 70 cm, 1.250 g | Culoarea livrată și fotografia produsului trebuie confirmate.
+106354 — Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Roz | Fotografie comună cu alt cod; identitatea modelului trebuie confirmată.
+101838 — Lenjerie pat 6 piese cu elastic pentru Pat 160 si 180, microfibră soft, Made in Romania | Vechiul cod/link nu mai răspunde; este necesar codul actual.
+102921 — Set de 2 prosoape de bumbac premium pentru hotel, 100% bumbac, 600g/m2, 70x140cm + 50x90cm, Fabricat în România | Lipsește corespondența sigură pentru varianta gri.
+109967 — Saltea șezlong premium cu 2 secțiuni, husă detașabilă, pentru interior/exterior, fabricată în România | Codul actual al furnizorului trebuie confirmat.
+109987 — Saltea premium pentru șezlong cu 2 segmente, husă detașabilă, pentru interior/exterior, fabricată în România | Codul actual al furnizorului trebuie confirmat.
+110037 — Saltea șezlong premium cu 2 secțiuni, husă detașabilă, pentru interior/exterior, fabricată în România | Codul actual al furnizorului trebuie confirmat.
+109657 — Saltea premium pentru șezlong cu 2 segmente, husă detașabilă, pentru interior/exterior, fabricată în România | Codul actual al furnizorului trebuie confirmat.
+109992 — Saltea premium pentru șezlong cu 2 segmente, husă detașabilă, pentru interior/exterior, fabricată în România | Codul actual al furnizorului trebuie confirmat.
+110032 — Saltea premium pentru șezlong, cu 2 segmente, husă detașabilă, pentru interior/exterior, fabricată în România | Codul actual al furnizorului trebuie confirmat.
+95893 — Pernă premium cu puf de gâscă 50x70 cm, 100% bumbac, Fabricată în România | Dimensiunea lipsește din descrierea furnizorului.
+011 — Lenjerie de pat Alba Bumbac Damasc cu dungi fine -4 piese ,stil hotel de lux ,moale, eleganta | Identificare furnizor neconfirmată
+64397 — Pilotă cu umplutură din puf de gâscă 80%, 200 × 230 cm | Este necesară o fotografie a pilotei efective.
+71769 — Set de lenjerie de pat Ranforce Boutique, 100% bumbac, 4 piese, Husă de pilotă 200 x 220 cm, Roșu | Fotografie comună cu alt cod; identitatea modelului trebuie confirmată.
+80631 — Lenjerie de pat Finet de Crăciun F-XMAS46, 6 piese | Compoziția fibrelor nu este precizată de furnizor.
+80632 — Lenjerie de pat Finet de Crăciun F-XMAS47, 6 piese | Compoziția fibrelor nu este precizată de furnizor.
+81824 — Lenjerie de pat Finet de Crăciun F-XMAS84, 6 piese | Compoziția fibrelor nu este precizată de furnizor.
+81825 — Lenjerie de pat Finet de Crăciun F-XMAS85, 6 piese | Compoziția fibrelor nu este precizată de furnizor.
+81831 — Lenjerie de pat Finet de Crăciun F-XMAS91, 6 piese | Compoziția fibrelor nu este precizată de furnizor.
+81835 — Lenjerie de pat Finet de Crăciun F-XMAS95, 6 piese | Compoziția fibrelor nu este precizată de furnizor.
+94752 — Set de lenjerie de pat din percal, 100% bumbac, PRC181, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94757 — Set de lenjerie de pat din percal, 100% bumbac, PRC182, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94762 — Lenjerie de pat din percal, 100% bumbac, PRC183, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94767 — Set de lenjerie de pat din percal, 100% bumbac, PRC184, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94772 — Lenjerie de pat din percal, 100% bumbac, PRC185, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94777 — Lenjerie de pat Percale, 100% bumbac, PRC186, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94782 — Lenjerie de pat din percal, 100% bumbac, PRC187, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94787 — Lenjerie de pat Percale, 100% bumbac, PRC188, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94792 — Lenjerie de pat din percal, 100% bumbac, PRC189, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94802 — Lenjerie de pat din percal, 100% bumbac, PRC191, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94807 — Set de lenjerie de pat din percal, 100% bumbac, PRC192, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94812 — Lenjerie de pat Percale, 100% bumbac, PRC193, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94817 — Set de lenjerie de pat din percal, 100% bumbac, PRC194, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94822 — Lenjerie de pat din percal, 100% bumbac, PRC195, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94832 — Set de lenjerie de pat din percal, 100% bumbac, PRC197, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94837 — Lenjerie de pat din percal, 100% bumbac, PRC198, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94847 — Set de lenjerie de pat din percal, 100% bumbac, PRC200, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94852 — Set de lenjerie de pat din percal, 100% bumbac, PRC201, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94857 — Set de lenjerie de pat din percal, 100% bumbac, PRC202, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+94862 — Set de lenjerie de pat din percal, 100% bumbac, PRC203, Mărime King cu elastic — 6 piese, 180 x 200 + 25 cm | Dimensiunile husei elastice nu sunt confirmate în pagina furnizorului.
+
+VERIFICĂRI
+Build: trecut. 22 teste de catalog/preț/oferte: trecute. Teste de navigare, prețuri min–max și domenii imagini: trecute.
+64 pagini de categorii verificate local și live; toate modelele de lenjerii și toate cele 29 pilote Finet sunt accesibile prin paginare.
+Chrome headless: 360, 390, 430, 768, 1440 px; fără erori JavaScript sau depășire orizontală. Galerie și filtre verificate. Testare prin emulare, nu pe telefon fizic.
+Nu s-au făcut comenzi sau plăți reale. Nu s-au modificat prețurile din Control.
+
+Test coș: produs disponibil, cantitate, reducere automată, intrare în checkout, SKU variantă saltea și prag transport gratuit — trecut. Produsele indisponibile rămân necomandabile.
+
+Imagini noi: /tmp/estore-order-numbers-20261023/public/products/control-recovered-20261025
+Prompturi și referințe (instrument integrat image_gen): /tmp/estore-order-numbers-20261023/catalog-review/control-recovered-publication-20261025/generation-manifest.json
+
+VERIFICARE FINALĂ LIVE
+Commit publicat: dc01500. Toate cele 36 pagini noi, 25 imagini noi (hash identic), 64 pagini de categorii și paginarea completă pentru Finet/lenjerii au trecut verificarea. Fără erori în aceste verificări.

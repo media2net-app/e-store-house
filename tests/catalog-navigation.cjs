@@ -33,3 +33,8 @@ assert(categoryProducts('perne').some(p=>p.id===509));
 assert(categoryProducts('pilote').some(p=>p.id===102981));
 assert(!categoryProducts('lenjerii-de-pat/lenjerii-100-bumbac').some(p=>p.id===95157));
 console.log('PASS: complete parent categories, full collection links, every variant price, no false Super Sale, corrected product placement and no HoReCa category.');
+const {hasRemoteMatch}=require('next/dist/shared/lib/match-remote-pattern');
+const config=load('next.config.ts').default;
+const imageUrls=new Set(products.flatMap(p=>[p.image,...p.images,...(p.variants||[]).flatMap(v=>v.images||[])]));
+for(const url of imageUrls){if(url.startsWith('https://'))assert(hasRemoteMatch([],config.images.remotePatterns,new URL(url)),`Image blocked by Next optimizer: ${url}`);else assert(fs.existsSync('public'+url),`Missing local image: ${url}`);}
+console.log(`PASS: all ${imageUrls.size} catalog image paths exist locally or match the actual Next.js remote image allowlist.`);
