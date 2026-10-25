@@ -43,6 +43,9 @@ test("Sameday payload uses PHP form encoding, rejects hidden lockers and client-
 const env = { SAMEDAY_MODE: "live", SAMEDAY_API_USERNAME: "private-user", SAMEDAY_API_PASSWORD: "private-password",
   SAMEDAY_PICKUP_POINT_ID: "371866", SAMEDAY_CONTACT_PERSON_ID: "538851", SAMEDAY_HOME_SERVICE_ID: "7", SAMEDAY_LOCKER_SERVICE_ID: "15" };
 const order = { id: "a".repeat(24), customer: { firstName: "Test", lastName: "Client", email: "client@example.test", phone: "0700000000", address: "Street 1", city: "Town", county: "County", postalCode: "123456" }, shippingCarrier: "sameday", status: "paid_review" };
+// The shared shipment action imports both carriers. Sameday tests must never call FAN.
+const unexpectedFanCall = () => { throw new Error("Unexpected FAN call in Sameday flow"); };
+const unusedFan = { fanConfiguration: unexpectedFanCall, estimateFan: unexpectedFanCall, createFanAwb: unexpectedFanCall };
 test("API authentication stays server-side, reuses token and never retries an uncertain AWB creation", async () => {
   const calls = [];
   const api = moduleAt("src/lib/sameday.ts", { "./sameday-protocol": protocol }, { process: { env }, fetch: async (url, init) => {
@@ -112,6 +115,7 @@ test("admin AWB flow rejects test/unpaid orders, reserves durably and blocks a d
     "@/lib/payment-methods": methods, "@/lib/orders": { getOrder: async () => currentOrder }, "@/lib/sameday-protocol": protocol,
     "@/lib/shipment-store": { claimShipment: async () => { if (claimed) return false; claimed = true; return true; }, getShipment: async () => stored, saveShipment: async (r) => { stored = r; } },
     "@/lib/sameday": { samedayConfiguration: () => ({ mode: "live" }), samedayPayload: () => ({}), createSamedayAwb: async () => { creations++; return { awbNumber: "TEST123456" }; } },
+    "@/lib/fan": unusedFan,
   }, { process: { env: { SAMEDAY_AWB_ENABLED: "true" } } });
   const request = () => new Request("https://estore.test/api/admin/sameday", { method: "POST", body: JSON.stringify({ action: "create", orderId: order.id, parcel: { weight: 2, length: 30, width: 30, height: 10 }, deliveryPermissionVerified: true }) });
   assert.equal((await route.POST(request())).status, 409);
@@ -129,6 +133,7 @@ test("uncertain AWB outcome remains reserved and requires manual eAWB reconcilia
     "@/lib/payment-methods": methods, "@/lib/orders": { getOrder: async () => order }, "@/lib/sameday-protocol": protocol,
     "@/lib/shipment-store": { claimShipment: async () => !stored, getShipment: async () => stored, saveShipment: async (r) => { stored = r; } },
     "@/lib/sameday": { samedayConfiguration: () => ({ mode: "live" }), samedayPayload: () => ({}), createSamedayAwb: async () => { creations++; throw new Error("timeout"); } },
+    "@/lib/fan": unusedFan,
   }, { process: { env: { SAMEDAY_AWB_ENABLED: "true" } } });
   const request = () => new Request("https://estore.test", { method: "POST", body: JSON.stringify({ action: "create", orderId: order.id, parcel: { weight: 2, length: 30, width: 30, height: 10 }, deliveryPermissionVerified: true }) });
   assert.equal((await route.POST(request())).status, 502);
