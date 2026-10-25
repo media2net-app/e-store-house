@@ -7,4 +7,7 @@ export const navigationGroups = [
   { slug: 'cuverturi-paturi', name: 'Cuverturi și pături', paths: ['cuverturi', 'paturi'] },
   { slug: 'saltele', name: 'Saltele și toppere', paths: ['saltele-si-toppere'] },
 ];
-export const groupHref = (slug: string) => `/colectii/${slug}`;
+export const groupHref = (slug: string) => {
+  const group = navigationGroups.find(group => group.slug === slug);
+  return `/shop?categorie=${encodeURIComponent(group?.paths.length === 1 ? group.paths[0] : slug)}`;
+};

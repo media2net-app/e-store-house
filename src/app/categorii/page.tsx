@@ -4,7 +4,9 @@ import Link from "next/link";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import TrustBar from "@/components/layout/TrustBar";
-import { categoryCount, categoryHref, getCategoryChildren } from "@/lib/categories";
+import { categoryHref, getCategoryChildren } from "@/lib/categories";
+
+import CategorySummary from "@/components/catalog/CategorySummary";
 
 export const metadata = { title: "Categorii de produse și oferte", alternates: { canonical: "/categorii" } };
 
@@ -14,10 +16,10 @@ function Subcategories({ parent }: { parent: string }) {
   return <ul className="category-children">
     {children.map((category) => <li key={category.path}>
       {getCategoryChildren(category.path).length ? <details>
-        <summary>{category.name} <span>({categoryCount(category.path)})</span></summary>
+        <summary>{category.name}<CategorySummary path={category.path}/></summary>
         <Link href={categoryHref(category.path)} className="category-view-all">Vezi toate produsele →</Link>
         <Subcategories parent={category.path} />
-      </details> : <Link href={categoryHref(category.path)}>{category.name} <span>({categoryCount(category.path)})</span></Link>}
+      </details> : <Link href={categoryHref(category.path)}>{category.name}<CategorySummary path={category.path}/></Link>}
     </li>)}
   </ul>;
 }
@@ -28,15 +30,15 @@ export default function CategoriesPage() {
       <CatalogLayout showSidebar={false}>
     <section className="mx-auto max-w-[1440px] px-4 py-6">
       <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-semibold text-[#3b2d24]">Categorii de produse și oferte</h1>
-      <p className="mt-2 text-sm text-[#3b2d24]/80">Alege o categorie sau deschide subcategoriile ei. În Oferte găsești produsele eligibile pentru reducerea automată la al doilea articol.</p>
+      <p className="mt-2 text-sm text-[#3b2d24]/80">Compară numărul de modele și intervalele de preț, apoi alege categoria potrivită. Prețul exact depinde de produs și dimensiune.</p>
       <Collections />
       <h2 className="all-categories-title">Toate categoriile, inclusiv HoReCa și bucătărie</h2>
       <div className="category-directory">
         {getCategoryChildren(null).map((category) => getCategoryChildren(category.path).length ? <details key={category.path} className="category-group category-tone">
-          <summary><span className="category-group-title">{category.name}</span><span className="category-group-count">{categoryCount(category.path) ? `${categoryCount(category.path)} ${categoryCount(category.path) === 1 ? "produs" : "produse"}` : "În pregătire"}</span></summary>
+          <summary><span className="category-group-title">{category.name}</span><CategorySummary path={category.path}/></summary>
           <Link href={categoryHref(category.path)} className="category-view-all">Vezi toate produsele →</Link>
           <Subcategories parent={category.path} />
-        </details> : <Link key={category.path} href={categoryHref(category.path)} className="category-group category-leaf category-tone"><span className="category-group-title">{category.name}</span><span className="category-group-count">{categoryCount(category.path) ? `${categoryCount(category.path)} ${categoryCount(category.path) === 1 ? "produs" : "produse"}` : "În pregătire"}</span></Link>)}
+        </details> : <Link key={category.path} href={categoryHref(category.path)} className="category-group category-leaf category-tone"><span className="category-group-title">{category.name}</span><CategorySummary path={category.path}/></Link>)}
       </div>
     </section>
     </CatalogLayout>

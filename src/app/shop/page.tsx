@@ -11,17 +11,19 @@ import TrustBar from "@/components/layout/TrustBar";
 import { allProducts } from "@/lib/products";
 import { matchesCatalogFilters, type CatalogFilterState } from "@/lib/catalog-filters";
 import type { Metadata } from "next";
+import { navigationGroups } from "@/lib/navigation-groups";
+import CategorySummary from "@/components/catalog/CategorySummary";
 
 type ShopParams = { categorie?: string | string[]; q?: string | string[]; pagina?: string | string[]; sortare?: string | string[];
   material?: string | string[]; culoare?: string | string[]; dimensiune?: string | string[]; cearsaf?: string | string[];
   stoc?: string | string[]; pret_min?: string | string[]; pret_max?: string | string[] };
 export async function generateMetadata({ searchParams }: { searchParams: Promise<ShopParams> }): Promise<Metadata> {
   const { categorie, q } = await searchParams;
-  const active = typeof categorie === "string" ? getCategory(categorie) : undefined;
-  const title = active?.path === "oferte" ? "Super Sale" : active?.name ?? "Magazinul de textile pentru casă";
-  const canonical = active ? `/shop?categorie=${encodeURIComponent(active.path)}` : "/shop";
+  const active = typeof categorie === "string" ? getCategory(categorie) ?? navigationGroups.find(group => group.slug === categorie) : undefined;
+  const title = categorie === "oferte" ? "Super Sale" : active?.name ?? "Magazinul de textile pentru casă";
+  const canonical = active && typeof categorie === "string" ? `/shop?categorie=${encodeURIComponent(categorie)}` : "/shop";
   return {
-    title, description: active?.path === "oferte"
+    title, description: categorie === "oferte"
       ? "Produse Super Sale cu preț redus direct. Nu se cumulează cu reducerea de 10% la al doilea produs."
       : active ? `Descoperă ${active.name.toLocaleLowerCase("ro-RO")} în magazinul E-Store House.`
         : "Descoperă textile pentru casă disponibile în magazinul E-Store House.",
@@ -32,7 +34,8 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
 export default async function MagazinPage({ searchParams }: { searchParams: Promise<ShopParams> }) {
   const { categorie, q, pagina, sortare, material, culoare, dimensiune, cearsaf, stoc, pret_min, pret_max } = await searchParams;
   if (Array.isArray(categorie)) notFound();
-  const active = categorie ? getCategory(categorie) : undefined;
+  const group = navigationGroups.find(group => group.slug === categorie);
+  const active = categorie ? getCategory(categorie) ?? (group ? { path: group.slug, name: group.name } : undefined) : undefined;
   if (categorie && !active) notFound();
   const query = typeof q === "string" ? q.trim().slice(0, 200) : "";
   const sort = typeof sortare === "string" && ["pret-crescator", "pret-descrescator", "nume"].includes(sortare) ? sortare : "nume";
@@ -42,7 +45,10 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
     stoc: stoc === "da" ? "da" : "", pretMin: typeof pret_min === "string" ? pret_min : "",
     pretMax: typeof pret_max === "string" ? pret_max : "",
   };
-  const categoryItems = active ? categoryProducts(active.path) : allProducts;
+  const categoryItems = group ? [...new Map(group.paths.flatMap(categoryProducts).map(product => [product.id, product])).values()]
+    : active ? categoryProducts(active.path) : allProducts;
+  const subcategories = group ? group.paths.flatMap(path => getCategory(path) ? [getCategory(path)!] : [])
+    : active ? getCategoryChildren(active.path) : [];
   const products = categoryItems.filter((product) => matchesSearch(product, query) && matchesCatalogFilters(product, filters))
     .sort((a, b) => sort === "pret-crescator" ? a.price - b.price : sort === "pret-descrescator" ? b.price - a.price : a.name.localeCompare(b.name, "ro"));
   const pageSize = 24;
@@ -72,6 +78,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
           <Link href="/categorii" className="hover:underline">Categorii</Link>
           <span>/</span><Link href="/shop" className="hover:underline">Toate produsele</Link>
           {active ? categoryTrail(active.path).map((category) => <span key={category.path}> / <Link href={categoryHref(category.path)} aria-current={category.path === active.path ? "page" : undefined} className="hover:underline">{category.name}</Link></span>) : null}
+          {group ? <span> / {group.name}</span> : null}
         </nav>
         <h1 className="font-[family-name:var(--font-playfair)] text-4xl font-semibold text-[#3b2d24]">
           {query ? `Rezultate pentru „${query}”` : active?.path === "oferte" ? "Super Sale" : active?.name ?? "Toate produsele"}
@@ -83,7 +90,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
           Produsele Super Sale au reducerea inclusă în prețul afișat și sunt excluse din oferta de 10% la al doilea produs. <Link href="/promotii" className="font-semibold underline">Vezi condițiile ofertei</Link>.
         </p> : null}
 
-        {active && <nav className="subcategory-links" aria-label="Subcategorii">{getCategoryChildren(active.path).map(c=><Link key={c.path} href={categoryHref(c.path)}>{c.name}</Link>)}</nav>}
+        {subcategories.length > 0 && <nav className="subcategory-links" aria-label="Subcategorii">{subcategories.map(c=><Link key={c.path} href={categoryHref(c.path)}><span>{c.name}</span><CategorySummary path={c.path}/></Link>)}</nav>}
         <FilterPanel key={JSON.stringify(filters)+query+(categorie??'')} products={categoryItems.filter(p=>matchesSearch(p,query))} initial={filters} category={categorie} query={query} sort={sort}/>
 
         <form action="/shop" method="get" className="catalog-sort mt-6 flex flex-wrap items-end gap-3">

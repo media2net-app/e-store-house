@@ -166,3 +166,11 @@ Reviewed Git source snapshots and found earlier development prices (including ro
 - Homepage Super Sale heading is now a prominent linked button: Super Sale / Vezi toate produsele.
 - Destination is the existing full offers collection, with filters and pagination, now titled Super Sale.
 - Current product previews and discount rules are preserved. Future Super Sale catalog entries appear in the full collection.
+
+## 25 October — image loading and complete category navigation
+
+- Confirmed production image optimizer returned HTTP 400 for cdn.dsmcdn.com; allowed the exact HTTPS image host. All 3,586 distinct catalog image paths checked: 1,077 local files exist and 2,509 remote URLs return HTTP 200.
+- Replaced four-item collection previews with full category/group listings using the existing shop, filters, sorting and pagination. Legacy collection links redirect to the complete listing.
+- Category/subcategory summaries now include model counts and minimum–maximum prices across every variant.
+- Build passed (810 approved models, 1,226 SKUs). Headless Chrome checked 360/390/430/768/1440 widths, pagination and grouped price filtering; no page errors or horizontal overflow. Local image optimizer returned HTTP 200 for the same image rejected in production. Screenshots: /tmp/estore-browser-check. No real order/payment submitted.
+- Follow-up authorized: audit all product category assignments, especially Finet duvets; keep existing main categories.
