@@ -37374,5 +37374,227 @@
     "price": 59,
     "stock": 64,
     "inStock": true
+  },
+  {
+    "id": 94906,
+    "name": "Pernă Aloe Vera, 50 × 70 cm",
+    "category": "Perne și protecții pernă",
+    "categoryPath": "perne",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Husă din microfibră matlasată; umplutură din fibră de poliester",
+    "description": "Pernă Aloe Vera, 50 × 70 cm.\n\nMaterial: Husă din microfibră matlasată; umplutură din fibră de poliester.\n\nConținut și dimensiuni: 1 pernă de 50 × 70 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul, lenjeria de decor și accesoriile care nu sunt enumerate în conținut nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/perne/perna-aloe-vera/",
+    "images": [
+      "/products/94906/hero-reviewed-v1.png",
+      "/products/94906/side-reviewed-v1.png",
+      "/products/94906/detail-reviewed-v1.png",
+      "/products/94906/overhead-reviewed-v1.png"
+    ],
+    "image": "/products/94906/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Husă din microfibră matlasată; umplutură din fibră de poliester"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pernă de 50 × 70 cm. Produsul se comercializează individual."
+      }
+    ],
+    "sku": "94910",
+    "price": 49,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 94915,
+    "name": "Pernă Horeca Percale, 50 × 70 cm",
+    "category": "Perne și protecții pernă",
+    "categoryPath": "perne",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Husă Percale: 80% bumbac, 20% poliester; umplutură din fibră de poliester",
+    "description": "Pernă Horeca Percale, 50 × 70 cm.\n\nMaterial: Husă Percale: 80% bumbac, 20% poliester; umplutură din fibră de poliester.\n\nConținut și dimensiuni: 1 pernă de 50 × 70 cm. Produsul se comercializează individual.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul, lenjeria de decor și accesoriile care nu sunt enumerate în conținut nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/perne/perna-horeca/",
+    "images": [
+      "/products/94915/hero-reviewed-v1.png",
+      "/products/94915/side-reviewed-v1.png",
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_ENRICHMENT/20261010/19/c451d7a4-3b2b-3861-af98-eea96172ad74/1_org_zoom.jpg",
+      "/products/94915/overhead-reviewed-v1.png"
+    ],
+    "image": "/products/94915/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Husă Percale: 80% bumbac, 20% poliester; umplutură din fibră de poliester"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 pernă de 50 × 70 cm. Produsul se comercializează individual."
+      }
+    ],
+    "sku": "94917",
+    "price": 59,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 158559,
+    "name": "Saltea pentru șezlong cu pernă, 60 × 190 × 3 cm, gri deschis",
+    "category": "Saltele șezlong",
+    "categoryPath": "terasa-si-gradina/saltele-sezlong",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Husă Oxford de 300 g/m²; miez din spumă poliuretanică de 3 cm",
+    "description": "Saltea pentru șezlong cu pernă, 60 × 190 × 3 cm, gri deschis.\n\nMaterial: Husă Oxford de 300 g/m²; miez din spumă poliuretanică de 3 cm.\n\nConținut și dimensiuni: 1 saltea formată din două segmente (60 × 70 cm și 60 × 120 cm), cu grosime de 3 cm, și 1 pernă pentru cap. Husa este detașabilă.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul, lenjeria de decor și accesoriile care nu sunt enumerate în conținut nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/saltele-sezlong/saltea-sezlong-premium-doua-segmente-21/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260627/12/74ba43ca-41bc-374f-b368-fb6580bf63ae/1_org_zoom.jpg",
+      "/products/158559/side-reviewed-v1.png",
+      "/products/158559/detail-reviewed-v1.png",
+      "/products/158559/overhead-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260627/12/74ba43ca-41bc-374f-b368-fb6580bf63ae/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Husă Oxford de 300 g/m²; miez din spumă poliuretanică de 3 cm"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 saltea formată din două segmente (60 × 70 cm și 60 × 120 cm), cu grosime de 3 cm, și 1 pernă pentru cap. Husa este detașabilă."
+      }
+    ],
+    "sku": "158560",
+    "price": 139,
+    "stock": 49,
+    "inStock": true
+  },
+  {
+    "id": 158555,
+    "name": "Saltea pentru șezlong cu pernă, 60 × 190 × 3 cm, turcoaz",
+    "category": "Saltele șezlong",
+    "categoryPath": "terasa-si-gradina/saltele-sezlong",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Husă Oxford de 300 g/m²; miez din spumă poliuretanică de 3 cm",
+    "description": "Saltea pentru șezlong cu pernă, 60 × 190 × 3 cm, turcoaz.\n\nMaterial: Husă Oxford de 300 g/m²; miez din spumă poliuretanică de 3 cm.\n\nConținut și dimensiuni: 1 saltea formată din două segmente (60 × 70 cm și 60 × 120 cm), cu grosime de 3 cm, și 1 pernă pentru cap. Husa este detașabilă.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul, lenjeria de decor și accesoriile care nu sunt enumerate în conținut nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/saltele-sezlong/saltea-sezlong-premium-doua-segmente-20/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260627/13/e3cfbf7a-69be-38c8-9133-495675a596d4/1_org_zoom.jpg",
+      "/products/158555/side-reviewed-v1.png",
+      "/products/158555/detail-reviewed-v1.png",
+      "/products/158555/overhead-reviewed-v1.png"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260627/13/e3cfbf7a-69be-38c8-9133-495675a596d4/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Husă Oxford de 300 g/m²; miez din spumă poliuretanică de 3 cm"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 saltea formată din două segmente (60 × 70 cm și 60 × 120 cm), cu grosime de 3 cm, și 1 pernă pentru cap. Husa este detașabilă."
+      }
+    ],
+    "sku": "158556",
+    "price": 139,
+    "stock": 50,
+    "inStock": true
+  },
+  {
+    "id": 161294,
+    "name": "Set traversă de pat cu pernuțe decorative personalizabile, mov",
+    "category": "Traverse pat hotel",
+    "categoryPath": "traverse-pat-hotel",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Țesătură 100% poliester, 300 g/m²; umplutură pernuțe din puf microgel",
+    "description": "Set traversă de pat cu pernuțe decorative personalizabile, mov.\n\nMaterial: Țesătură 100% poliester, 300 g/m²; umplutură pernuțe din puf microgel.\n\nConținut și dimensiuni: Pat single: 1 traversă 80 × 150 cm și 1 pernuță decorativă 30 × 50 cm. Pat dublu: 1 traversă 80 × 220 cm și 2 pernuțe decorative 30 × 50 cm. Fețele pernuțelor sunt detașabile. Personalizarea este inclusă; suprafața maximă este 20 × 15 cm. Imaginile prezintă un exemplu de personalizare.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul, lenjeria de decor și accesoriile care nu sunt enumerate în conținut nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/traverse-pat-hotel/traversa-pat-hotel-personalizata-cu-pernute-decorative-30x50-cm-11/",
+    "images": [
+      "/products/161294/single-hero-reviewed-v1.png",
+      "/products/161294/single-side-reviewed-v1.png",
+      "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261004/20/d59b65db-9d2f-3406-bd3b-699896e2fe19/1_org_zoom.jpg",
+      "/products/161294/single-overhead-reviewed-v1.png"
+    ],
+    "image": "/products/161294/single-hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Țesătură 100% poliester, 300 g/m²; umplutură pernuțe din puf microgel"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "Pat single: 1 traversă 80 × 150 cm și 1 pernuță decorativă 30 × 50 cm. Pat dublu: 1 traversă 80 × 220 cm și 2 pernuțe decorative 30 × 50 cm. Fețele pernuțelor sunt detașabile. Personalizarea este inclusă; suprafața maximă este 20 × 15 cm. Imaginile prezintă un exemplu de personalizare."
+      }
+    ],
+    "variants": [
+      {
+        "id": 161296,
+        "sku": "161296",
+        "name": "Pat single — 80 × 150 cm + 1 pernuță",
+        "images": [
+          "/products/161294/single-hero-reviewed-v1.png",
+          "/products/161294/single-side-reviewed-v1.png",
+          "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261004/20/d59b65db-9d2f-3406-bd3b-699896e2fe19/1_org_zoom.jpg",
+          "/products/161294/single-overhead-reviewed-v1.png"
+        ],
+        "image": "/products/161294/single-hero-reviewed-v1.png",
+        "price": 159,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 161295,
+        "sku": "161295",
+        "name": "Pat dublu — 80 × 220 cm + 2 pernuțe",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261004/20/aa0c6ba1-5195-37d8-ba35-8c55853ad7f6/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1969/prod/QC_PREP/20261004/20/25c2fa24-df6f-38fd-a212-d91447573a78/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261004/20/d59b65db-9d2f-3406-bd3b-699896e2fe19/1_org_zoom.jpg",
+          "/products/161294/double-overhead-reviewed-v1.png"
+        ],
+        "image": "https://cdn.dsmcdn.com/ty1968/prod/QC_PREP/20261004/20/aa0c6ba1-5195-37d8-ba35-8c55853ad7f6/1_org_zoom.jpg",
+        "price": 209,
+        "stock": 100,
+        "inStock": true
+      }
+    ],
+    "price": 159,
+    "inStock": true
+  },
+  {
+    "id": 15535,
+    "name": "Lenjerie din bumbac satinat Ivore V1, 6 piese",
+    "category": "Lenjerii de pat satin clasy-king",
+    "categoryPath": "lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "100% bumbac dublu satin",
+    "description": "Lenjerie din bumbac satinat Ivore V1, 6 piese.\n\nMaterial: 100% bumbac dublu satin.\n\nConținut și dimensiuni: 1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 4 fețe de pernă 50 × 70 cm, cu tiv de 2 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Mobilierul, lenjeria de decor și accesoriile care nu sunt enumerate în conținut nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-ivore-v1/",
+    "images": [
+      "/products/15535/hero-reviewed-v1.png",
+      "/products/15535/side-reviewed-v1.png",
+      "/products/15535/detail-reviewed-v1.png",
+      "/products/15535/overhead-reviewed-v1.png"
+    ],
+    "image": "/products/15535/hero-reviewed-v1.png",
+    "features": [
+      {
+        "label": "Material",
+        "value": "100% bumbac dublu satin"
+      },
+      {
+        "label": "Conținut și dimensiuni",
+        "value": "1 cearșaf de pat 260 × 240 cm, 1 husă de pilotă 200 × 220 cm și 4 fețe de pernă 50 × 70 cm, cu tiv de 2 cm."
+      }
+    ],
+    "sku": "15535",
+    "price": 479,
+    "stock": 10,
+    "inStock": true
   }
 ]

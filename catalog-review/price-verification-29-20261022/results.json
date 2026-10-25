@@ -9650,5 +9650,73 @@
       "106975": true
     },
     "checkedAt": "2026-10-25T09:15:31.736464+00:00"
+  },
+  {
+    "id": 94906,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-aloe-vera/",
+    "costs": {
+      "94910": 33
+    },
+    "availability": {
+      "94910": true
+    },
+    "checkedAt": "2026-10-25T09:27:17.017087+00:00"
+  },
+  {
+    "id": 94915,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-horeca/",
+    "costs": {
+      "94917": 39
+    },
+    "availability": {
+      "94917": true
+    },
+    "checkedAt": "2026-10-25T09:27:17.017087+00:00"
+  },
+  {
+    "id": 158559,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/saltele-sezlong/saltea-sezlong-premium-doua-segmente-21/",
+    "costs": {
+      "158560": 105
+    },
+    "availability": {
+      "158560": true
+    },
+    "checkedAt": "2026-10-25T09:27:17.017087+00:00"
+  },
+  {
+    "id": 158555,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/saltele-sezlong/saltea-sezlong-premium-doua-segmente-20/",
+    "costs": {
+      "158556": 105
+    },
+    "availability": {
+      "158556": true
+    },
+    "checkedAt": "2026-10-25T09:27:17.017087+00:00"
+  },
+  {
+    "id": 161294,
+    "supplierUrl": "https://ralexpucioasa.ro/store/traverse-pat-hotel/traversa-pat-hotel-personalizata-cu-pernute-decorative-30x50-cm-11/",
+    "costs": {
+      "161296": 121,
+      "161295": 160
+    },
+    "availability": {
+      "161296": true,
+      "161295": true
+    },
+    "checkedAt": "2026-10-25T09:27:17.017087+00:00"
+  },
+  {
+    "id": 15535,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjeriide-pat-deluxe/lenjerie-de-pat-satin-clasy-king-size/lenjerie-de-pat-satin-clasy-king-size-ivore-v1/",
+    "costs": {
+      "15535": 370.0
+    },
+    "availability": {
+      "15535": true
+    },
+    "checkedAt": "2026-10-25T09:27:17.017087+00:00"
   }
 ]

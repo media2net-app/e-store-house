@@ -1,0 +1,39 @@
+{
+  "batch": "control-jersey-completion-20261025",
+  "checkedAt": "2026-10-25T09:20:31.634540+00:00",
+  "catalogCount": 802,
+  "results": [
+    {
+      "id": 163031,
+      "status": "live"
+    },
+    {
+      "id": 162980,
+      "status": "live"
+    },
+    {
+      "id": 162971,
+      "status": "live"
+    },
+    {
+      "id": 162998,
+      "status": "live"
+    },
+    {
+      "id": 162944,
+      "status": "live"
+    },
+    {
+      "id": 162989,
+      "status": "live"
+    },
+    {
+      "id": 162953,
+      "status": "live"
+    },
+    {
+      "id": 162962,
+      "status": "live"
+    }
+  ]
+}
