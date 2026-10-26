@@ -142,3 +142,9 @@ html{scroll-behavior:auto}
   .finder-live-status{top:calc(73px + env(safe-area-inset-top))}
 }
 @media(max-width:360px){.store-header .wordmark.brand-lockup>.brand-copy{font-size:14px}.store-header .brand-copy small{display:none}.store-header .brand-icon{width:28px;height:28px}.store-header .cart-trigger{padding:6px;gap:4px}}
+@media(max-width:900px) and (max-height:500px){
+  .cart-drawer{display:block;overflow-y:auto;overscroll-behavior:contain}
+  .cart-drawer-header{position:sticky;top:0;z-index:1;background:var(--paper);padding:10px 16px}
+  .cart-drawer-items{overflow:visible}
+  .cart-drawer-summary{max-height:none;overflow:visible}
+}
