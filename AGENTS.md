@@ -60,3 +60,9 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 - Merchant authorized an additional 30% on all current website prices, including all variants and Super Sale. Regular prices retain upward rounding to whole lei ending in 9: supplier ×1.29 rounded, ×1.20 rounded, then ×1.30 rounded. Recompute from supplier cost on imports, never apply again to an already updated selling price. Campaign prices retain bani rounding: prior supplier +10% price ×1.30. This supersedes the earlier two-stage regular and +10% campaign price rules.
 - No separate price-history report requested. Never inflate historical references to create a discount; suppress crossed prices, percentages and reference notes when current prices exceed their existing reference. Preserve campaign membership and second-unit discount exclusions. Prices in Control and marketplaces are outside scope.
+
+## Super Sale launch update — 26 October 2026
+
+- Merchant now requests supplier +10% for the 30 Super Sale models, rounded UP to whole lei. This supersedes the additional 30% campaign rule; regular catalog prices are unchanged.
+- Merchant clarified the crossed-out price must be the ACTUAL current campaign selling price before this update, not the standard catalog price. Preserve it as comparisonPrice. Show only crossed-out price, new whole-lei price and percentage badge next to products, without explanatory copy. Floor the percentage after rounding the final selling price. Retain existing historical evidence unchanged, but do not assert that the launch comparison is the 30-day minimum.
+- The merchant will post on Instagram themselves. Do not publish social posts.

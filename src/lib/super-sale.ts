@@ -9,9 +9,10 @@ export function applySuperSale(product: Product): Product {
   const offer = offers.find(entry => entry.id === product.id);
   if (!offer) return product;
   if (product.variants?.length || product.sku !== offer.sku) throw new Error(`Super Sale SKU changed: ${product.id}`);
-  const reduced = offer.price < offer.referencePrice;
-  return { ...product, price: offer.price, oldPrice: reduced ? offer.referencePrice : undefined,
-    discount: reduced ? Math.floor((1 - offer.price / offer.referencePrice) * 100) || undefined : undefined,
-    saleReferencePeriod: reduced ? `${offer.referenceFrom.split('-').reverse().join('.')}–${offer.referenceTo.split('-').reverse().join('.')}` : undefined,
+  // Compare with the actual selling price immediately before this launch update.
+  const reduced = offer.price < offer.comparisonPrice;
+  return { ...product, price: offer.price, oldPrice: reduced ? offer.comparisonPrice : undefined,
+    discount: reduced ? Math.floor((Math.round(offer.comparisonPrice * 100) - Math.round(offer.price * 100)) * 100 / Math.round(offer.comparisonPrice * 100)) || undefined : undefined,
+    saleReferencePeriod: undefined,
     tag: 'Super Sale' };
 }
