@@ -6,7 +6,7 @@ import { useProductSelection } from "./ProductSelection";
 import { useCart } from "@/components/cart/CartProvider";
 import type { Product } from "@/lib/products";
 import { store } from "@/lib/store-info";
-import { shippingExplanation, dispatchExplanation } from "@/lib/shipping-information";
+import { shippingExplanation, shippingEstimate, dispatchExplanation } from "@/lib/shipping-information";
 import { formatProductPrice, formatProductPriceRange } from "@/lib/product-format";
 const variantLabel = (variant: NonNullable<Product['variants']>[number]) => {
   const compact = (s:string) => s.replace(/\s/g,'').replace(/×/g,'x').toLowerCase();
@@ -47,7 +47,7 @@ export default function ProductPurchaseActions({product}: {product: Product}) {
     {product.material && <p className="product-composition"><strong>Material:</strong> {product.material}</p>}
     {contents && <div className="product-contents" aria-live="polite"><h2>Ce primești</h2><ul>{contents.split('\n').filter(Boolean).map((line,i) => <li key={i}>{line.replace(/^\s*[•*-]\s*/, '')}</li>)}</ul></div>}
     {bundleComponents?.length ? <div className="product-contents"><h2>Componentele setului</h2><ul>{bundleComponents.map(component => <li key={component.sku}>{component.quantity} × {component.name} · Cod: {component.sku}</li>)}</ul></div> : null}
-    <div className="purchase-logistics"><p>{store.deliveryEstimate ? `Livrare estimată: ${store.deliveryEstimate}.` : "Termenul de livrare se confirmă înainte de acceptarea comenzii."}</p><p>{dispatchExplanation}</p><details><summary>Transport gratuit de la 399 lei · Cum se calculează livrarea?</summary><p>{shippingExplanation}</p><Link href="/livrare-retur">Livrare și retur</Link></details></div>
+    <div className="purchase-logistics"><p>{shippingEstimate}. Gratuit de la 399 lei după reduceri.</p><p>{store.deliveryEstimate ? `Livrare estimată: ${store.deliveryEstimate}.` : "Termenul de livrare se confirmă înainte de acceptarea comenzii."}</p><p>{dispatchExplanation}</p><details><summary>Transport gratuit de la 399 lei · Cum se calculează livrarea?</summary><p>{shippingExplanation}</p><Link href="/livrare-retur">Livrare și retur</Link></details></div>
     {product.variants?.length ? <fieldset ref={selector} className="variant-selector"><legend>Alege dimensiunea</legend><div>{product.variants.map(v => <label key={v.id} className={selected?.id===v.id?'variant-selected':v.inStock===false?'variant-unavailable':''}><input type="radio" name={`variant-${product.id}`} checked={selected?.id===v.id} disabled={v.inStock===false} onChange={() => selection?.select(v.id)}/>{variantLabel(v)}{v.inStock===false?' — indisponibil':''}</label>)}</div></fieldset> : null}
     <button className="section-link" onClick={() => guide.current?.showModal()}>Verifică dacă se potrivește</button>
     <p className="availability" role="status">{unavailable?'Momentan indisponibil':needsVariant?'Selectează varianta dorită.':'Disponibilitate verificată din nou înainte de comandă.'}</p>

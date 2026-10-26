@@ -1,3 +1,6 @@
+// Merchant-approved customer tariffs, 27 October 2026. Courier costs are separate.
+export const CUSTOMER_SHIPPING_RON = { home: 20, easybox: 17 } as const;
+
 export type ShippingMethod = "home" | "easybox";
 
 export type ShippingCarrier = "fan" | "sameday";

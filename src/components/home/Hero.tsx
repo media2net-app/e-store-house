@@ -25,7 +25,7 @@ export default async function Hero() {
         <BeddingFinderLink className="home-finder-button"/>
       </div>
     <div className="home-start-catalog">
-      <h2 className="home-sale-title"><Link href="/shop?categorie=oferte" className="home-sale-link"><span>Super Sale</span><span className="home-sale-link-action">Vezi toate produsele <span aria-hidden="true">→</span></span></Link></h2>
+      <h2 className="home-sale-title"><Link href="/shop?categorie=oferte" className="home-sale-link"><span className="home-sale-heading"><span className="home-sale-icon" aria-hidden="true">✦</span><span>Super Sale<small>Prețuri reduse, confort din plin</small></span></span><span className="home-sale-link-action">Vezi ofertele <span aria-hidden="true">↗</span></span></Link></h2>
       <nav className="home-mini-picks" aria-label="Selecție Super Sale">{saleSelection.map(({ id, label }, index) => {
         const product = getProductById(id);
         if (!product || product.inStock === false || product.tag !== "Super Sale") return null;

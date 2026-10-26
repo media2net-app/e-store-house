@@ -56,3 +56,14 @@ test('160/180 mattress searches discover the appropriate available flat-sheet va
  assert.equal(filterBedding(buildBeddingModels([unavailable]),{...emptyBeddingFilters,mattress:'180 × 200 cm'}).length,0);
  assert.equal(filterBedding(models,{...emptyBeddingFilters,mattress:'180 × 200 cm',sheet:'Cu elastic / husă pentru saltea'}).length,0);
 });
+test('simple material groups retain exact product composition and same-variant budget checks', () => {
+ const cotton = {...product, material:'Ranforce, 100% bumbac, 120 g/m²'};
+ const blend = {...product, id:2, material:'Finet, 70% bumbac, 30% poliester'};
+ const unknown = {...product, id:3, material:'Țesătură piqué gofrată'};
+ const models = buildBeddingModels([cotton, blend, unknown]);
+ assert.equal(models[0].material, cotton.material);
+ assert.deepEqual(Array.from(filterBedding(models,{...emptyBeddingFilters,material:'100% bumbac'}),p=>p.id),[1]);
+ assert.deepEqual(Array.from(filterBedding(models,{...emptyBeddingFilters,material:'Amestec cu bumbac'}),p=>p.id),[2]);
+ assert.equal(filterBedding(models,{...emptyBeddingFilters,material:'100% bumbac',mattress:'160 × 200 cm',maxPrice:'100'}).length,0);
+ assert.equal(filterBedding(models,{...emptyBeddingFilters,material:'100% bumbac',mattress:'160 × 200 cm',maxPrice:'150'})[0].choices[0].id,12);
+});

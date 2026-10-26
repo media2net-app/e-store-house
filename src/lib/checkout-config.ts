@@ -3,7 +3,7 @@ import { samedayConfiguration } from "./sameday";
 import { hasSupabaseStorage } from "./supabase-orders";
 import { hasRedisStorage } from "./orders";
 import { hasTransactionalEmail } from "./order-email";
-import { shippingCarrierLabels, type ShippingCarrier, type ShippingOption } from "./shipping";
+import { CUSTOMER_SHIPPING_RON, shippingCarrierLabels, type ShippingCarrier, type ShippingOption } from "./shipping";
 import { fanConfiguration } from "./fan";
 
 function shippingOption(carrier: ShippingCarrier): ShippingOption | null {
@@ -15,8 +15,8 @@ function shippingOption(carrier: ShippingCarrier): ShippingOption | null {
   if (carrier === "fan" && (!fan.ready || !fan.awbEnabled)) return null;
   const codAvailable = carrier === "fan" ? fan.ready && fan.awbEnabled && !!fan.bank && /^RO[A-Z0-9]{22}$/.test(fan.bankAccount || "")
     : samedayConfiguration().mode === "live";
-  return { carrier, label: shippingCarrierLabels[carrier], priceRon: Number(raw), codAvailable,
-    ...(carrier === "sameday" ? { dynamic: process.env.STORE_SAMEDAY_DYNAMIC_RATES === "true" } : {}) };
+  return { carrier, label: shippingCarrierLabels[carrier], priceRon: CUSTOMER_SHIPPING_RON.home, codAvailable,
+    ...(carrier === "sameday" ? { dynamic: false } : {}) };
 }
 
 export function checkoutConfiguration() {
@@ -24,7 +24,7 @@ export function checkoutConfiguration() {
   const lockerPrice = process.env.STORE_SAMEDAY_EASYBOX_SHIPPING_RON;
   if (process.env.STORE_SAMEDAY_ENABLED === "true" && samedayConfiguration().lockerReady
       && lockerPrice && /^\d+(?:\.\d{1,2})?$/.test(lockerPrice) && Number.isFinite(Number(lockerPrice)) && Number(lockerPrice) <= 9999) {
-    shippingOptions.push({ carrier: "sameday", method: "easybox", label: "Sameday easybox", priceRon: Number(lockerPrice), dynamic: process.env.STORE_SAMEDAY_DYNAMIC_RATES === "true", codAvailable: samedayConfiguration().mode === "live" });
+    shippingOptions.push({ carrier: "sameday", method: "easybox", label: "Sameday easybox", priceRon: CUSTOMER_SHIPPING_RON.easybox, dynamic: false, codAvailable: samedayConfiguration().mode === "live" });
   }
   const publicUrl = process.env.STORE_PUBLIC_URL;
   const operational = (hasSupabaseStorage() || hasRedisStorage())

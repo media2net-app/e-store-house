@@ -9,6 +9,15 @@ export type BeddingModel = { id: number; name: string; material: string; color: 
 const unique = (items: string[]) => [...new Set(items.filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ro', { numeric: true }));
 const sizes = (text: string) => unique([...text.matchAll(/(\d{2,3})\s*[x×]\s*(\d{2,3})(?:\s*[x×]\s*\d{1,3})?/gi)].map(m => [Number(m[1]), Number(m[2])].sort((a, b) => a - b).join(' × ') + ' cm'));
 
+/** Group the finder choices without changing the composition shown on products. */
+export function beddingMaterialGroup(material: string): string {
+  const normalized = normalizeSearch(material);
+  if (/100\s*%\s*bumbac/.test(normalized)) return '100% bumbac';
+  if (/100\s*%\s*poliester/.test(normalized)) return '100% poliester';
+  if (/bumbac|policoton/.test(normalized)) return 'Amestec cu bumbac';
+  return material;
+}
+
 /** Only dimensions explicitly attached to a component may be used for matching. */
 export function beddingDimensions(text: string) {
   const lines = normalizeSearch(text).replace(/dimensiun[ie]\s+/g, '\n')
@@ -55,7 +64,7 @@ export function filterBedding(models: BeddingModel[], filters: BeddingFilters): 
   if (height !== undefined && (!Number.isFinite(height) || height <= 0 || height > 100)) return [];
   const maxPrice = filters.maxPrice.trim() === '' ? null : Number(filters.maxPrice);
   if (maxPrice !== null && (!Number.isFinite(maxPrice) || maxPrice < 0)) return [];
-  return models.filter(p => (!filters.material || p.material === filters.material)).flatMap(p => {
+  return models.filter(p => (!filters.material || p.material === filters.material || beddingMaterialGroup(p.material) === filters.material)).flatMap(p => {
     const choices = p.choices.filter(v => (!filters.color || (v.colors !== undefined ? v.colors : p.colors).includes(filters.color))
       && (!filters.sheet || v.sheet === filters.sheet)
       && (!filters.mattress || fitsMattress(v, filters.mattress, height))
@@ -68,5 +77,5 @@ export function filterBedding(models: BeddingModel[], filters: BeddingFilters): 
 
 export function beddingOptions(models: BeddingModel[]) {
   const choices = models.flatMap(p => p.choices);
-  return { material: unique(models.map(p => p.material)), color: unique(models.flatMap(p => p.colors)), sheet: unique(choices.map(v => v.sheet)), mattress: unique(['90 × 200 cm', '140 × 200 cm', '160 × 200 cm', '180 × 200 cm', '200 × 200 cm', ...choices.flatMap(v => v.mattress)]), duvet: unique(choices.flatMap(v => v.duvet)), pillow: unique(choices.flatMap(v => v.pillow)) };
+  return { material: unique(models.map(p => beddingMaterialGroup(p.material))), color: unique(models.flatMap(p => p.colors)), sheet: unique(choices.map(v => v.sheet)), mattress: unique(['90 × 200 cm', '140 × 200 cm', '160 × 200 cm', '180 × 200 cm', '200 × 200 cm', ...choices.flatMap(v => v.mattress)]), duvet: unique(choices.flatMap(v => v.duvet)), pillow: unique(choices.flatMap(v => v.pillow)) };
 }

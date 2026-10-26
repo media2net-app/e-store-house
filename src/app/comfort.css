@@ -108,3 +108,19 @@ html{scroll-behavior:auto}
 
 .category-buying-guide{margin-top:2.5rem;padding:1.5rem;border:1px solid #ded9cf;border-radius:16px;background:#f7f3ea}.category-buying-guide h2{font-size:1.3rem;margin-bottom:.7rem}.category-buying-guide p{margin:.6rem 0;line-height:1.65}.category-buying-guide a{text-decoration:underline}
 .privacy-panel{position:fixed;z-index:150;bottom:16px;left:16px;right:16px;max-width:640px;margin-left:auto;background:#fffdf8;border:1px solid #b7bdae;border-radius:16px;padding:22px;box-shadow:0 8px 40px #20302030;max-height:85dvh;overflow:auto}.privacy-panel h2{font-size:1.25rem;font-weight:650}.privacy-panel p{font-size:.88rem;line-height:1.55;margin:10px 0}.privacy-panel label{display:flex;gap:10px;align-items:center;margin:12px 0}.privacy-panel input{width:20px;height:20px}.privacy-panel>div{display:flex;gap:8px;flex-wrap:wrap}.privacy-panel button{padding:11px 13px;border:1px solid #415641;border-radius:8px;background:#f0f3eb;font-size:.85rem}.privacy-panel a,.privacy-settings-link{text-decoration:underline}.privacy-settings-link{text-align:left;font:inherit}
+
+/* Four optional finder controls, kept together on a single page. */
+.finder-simple{margin-top:22px;background:linear-gradient(130deg,#f0e6d9,#e8ece2)}
+.finder-simple-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 26px;align-items:start}
+.finder-simple-fields .finder-field{min-width:0;margin:0}
+.finder-simple-fields select,.finder-simple-fields input{width:100%;min-height:52px;background:#fffdf9}
+.home-sale-link{position:relative;isolation:isolate;overflow:hidden;padding:20px;border:1px solid #ffba70;border-radius:16px;background:linear-gradient(115deg,#a52819,#b42b1c 65%,#8e2015);box-shadow:0 8px 24px #a5281926;gap:16px;color:#fff}
+.home-sale-link:hover{background:linear-gradient(115deg,#8e2015,#a52819);box-shadow:0 10px 28px #a5281938}
+.home-sale-link::before{content:"";position:absolute;z-index:-1;inset:-100%;background:linear-gradient(105deg,transparent 43%,#ffffff25 50%,transparent 57%);transform:translateX(-60%);pointer-events:none}
+.home-sale-heading{display:flex;align-items:center;gap:12px}
+.home-sale-heading small{display:block;margin-top:5px;font:500 13px/1.4 var(--font-inter),sans-serif;color:#fff4e8}
+.home-sale-icon{display:grid;place-items:center;flex-shrink:0;width:46px;height:46px;border-radius:50%;background:#ffd58a;color:#772016;font-size:32px}
+.home-sale-link-action{display:flex;align-items:center;gap:12px;padding:10px 14px;border-radius:999px;background:#ffe1a6;color:#662014;min-height:44px}
+.header-links .sale-nav-link,.navigation-dialog nav .sale-nav-link{background:#a52819;color:#fff4e8;border:1px solid #f3b66e;border-radius:10px;padding:10px 14px;font-weight:700}
+@media(prefers-reduced-motion:no-preference){.home-sale-link::before{animation:sale-glint 1.4s ease-out 1 .5s}@keyframes sale-glint{to{transform:translateX(60%)}}}
+@media(max-width:700px){.finder-simple{padding:20px 16px}.finder-simple-fields{grid-template-columns:minmax(0,1fr);gap:18px}.home-sale-link{padding:16px;gap:14px}.home-sale-heading{font-size:28px}.home-sale-link-action{margin-left:auto;font-size:14px}}

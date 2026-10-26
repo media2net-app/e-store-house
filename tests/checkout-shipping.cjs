@@ -202,3 +202,14 @@ test("easybox COD emails state card at collection, unpaid total and the selected
   for (const m of messages) { assert.match(m.text, /243.60/); assert.match(m.text, /cu cardul la ridicare/); assert.match(m.text, /Verified locker/); assert.doesNotMatch(m.text, /achită curierului/); }
   assert.match(messages[0].text, /numerarul nu este acceptat/); assert.match(messages[1].text, /neîncasată/);
 });
+
+test("merchant launch fees override legacy amounts and dynamic rates for card and COD", async () => {
+  const environment = { STORE_SAMEDAY_ENABLED: "true", STORE_SAMEDAY_SHIPPING_RON: "27.72", STORE_SAMEDAY_EASYBOX_SHIPPING_RON: "17.50", STORE_SAMEDAY_DYNAMIC_RATES: "true" };
+  const config = moduleAt("src/lib/checkout-config.ts", { "./fan": { fanConfiguration: () => ({ ready: false }) }, "./sameday": { samedayConfiguration: () => ({ mode: "live", homeReady: true, lockerReady: true }) }, "./supabase-orders": { hasSupabaseStorage: () => false }, "./orders": { hasRedisStorage: () => false }, "./order-email": { hasTransactionalEmail: () => false }, "./shipping": shipping }, { process: { env: environment } });
+  const current = config.checkoutConfiguration().shippingOptions;
+  assert.equal(shipping.quoteShipping(current, "sameday", false, "home").cents, 2000);
+  assert.equal(shipping.quoteShipping(current, "sameday", false, "easybox").cents, 1700);
+  assert.equal(shipping.quoteShipping(current, "sameday", true, "home").cents, 0);
+  assert.equal(shipping.quoteShipping(current, "sameday", true, "easybox").cents, 0);
+  assert(current.every(option => option.dynamic === false && option.codAvailable));
+});
