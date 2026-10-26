@@ -1,15 +1,18 @@
+import { withProductColors } from './product-colors';
 import { applySuperSale } from "./super-sale";
 import qualityHold from "@/data/quality-hold.json";
 import productsData from "@/data/products.json";
 
 export type Product = {
+  stockQuantity?: number;
+  colors?: string[];
   sku?: string;
   bundleComponents?: { sku: string; quantity: number; name: string }[];
   inStock?: boolean;
   description?: string;
   material?: string;
   features?: { label: string; value: string }[];
-  variants?: { id: number; name: string; dimensions: string; price: number; oldPrice?: number; sku: string; images?: string[]; inStock?: boolean; contents: string; bundleComponents?: Product["bundleComponents"] }[];
+  variants?: { stockQuantity?: number; colors?: string[]; id: number; name: string; dimensions: string; price: number; oldPrice?: number; sku: string; images?: string[]; inStock?: boolean; contents: string; bundleComponents?: Product["bundleComponents"] }[];
   id: number;
   name: string;
   category: string;
@@ -31,7 +34,7 @@ export type Product = {
   tag?: string;
 };
 
-export const allProducts: Product[] = (productsData as Product[]).filter((product) => !qualityHold.includes(product.id)).map(applySuperSale);
+export const allProducts: Product[] = (productsData as Product[]).filter((product) => !qualityHold.includes(product.id)).map(applySuperSale).map(withProductColors);
 export const featuredProducts: Product[] = [
   ...allProducts.filter((product) => product.categoryPath?.endsWith("/lenjerii-percale-imprimat")).slice(0, 4),
   ...allProducts.filter((product) => product.categoryPath?.endsWith("/lenjerii-de-pat-ranforce-butique")).slice(0, 4),

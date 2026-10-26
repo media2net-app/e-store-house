@@ -1,9 +1,10 @@
 import Link from "next/link";
-import { allProducts } from "@/lib/products";
+import { getLiveProducts } from "@/lib/live-products";
 import { diverseProducts } from "@/lib/discovery";
 import ProductCard from "@/components/product/ProductCard";
 
-export default function ProductGrid() {
+export default async function ProductGrid() {
+  const allProducts = await getLiveProducts();
   return <section className="recommendation-section home-section">
     <p className="eyebrow">INSPIRAȚIE PENTRU ACASĂ</p>
     <h2>Selecția noastră pentru acasă</h2>

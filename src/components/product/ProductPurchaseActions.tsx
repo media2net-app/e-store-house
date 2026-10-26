@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { trackCommerce } from "@/lib/marketing";
 import { useProductSelection } from "./ProductSelection";
 import { useCart } from "@/components/cart/CartProvider";
 import type { Product } from "@/lib/products";
@@ -20,6 +21,15 @@ export default function ProductPurchaseActions({product}: {product: Product}) {
   const guide = useRef<HTMLDialogElement>(null);
   const {addItem,isOpen} = useCart();
   const selection = useProductSelection(), selected = selection?.selected;
+  useEffect(() => {
+    const track = () => {
+    if (product.variants?.length && !selected) return;
+    const item = selected || product;
+    trackCommerce('view_item', { currency: 'RON', value: item.price, items: [{ item_id: item.sku || String(item.id), item_name: product.name, price: item.price, quantity: 1 }] }, String(item.id));
+    };
+    track(); window.addEventListener('estore-privacy-change', track);
+    return () => window.removeEventListener('estore-privacy-change', track);
+  }, [product, selected]);
   const needsVariant = Boolean(product.variants?.length && !selected);
   const unavailable = product.inStock===false || selected?.inStock===false;
   const oldPrice = selected?.oldPrice ?? product.oldPrice;

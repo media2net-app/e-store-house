@@ -2,6 +2,7 @@
 
 import { createContext, useContext, useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { trackCommerce } from "@/lib/marketing";
 import type { Product } from "@/lib/products";
 import { formatProductPrice } from "@/lib/product-format";
 import { cartOffers, SECOND_ITEM_OFFER, SECOND_ITEM_TERMS } from "@/lib/cart-offers";
@@ -66,6 +67,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     if (!Number.isSafeInteger(quantity) || quantity < 1 || quantity > 20) return;
     const current = items.find(item => item.productId === product.id);
     if ((current?.quantity ?? 0) + quantity > 20 || (!current && items.length >= 30)) {setCartNotice("Cantitatea maximă este de 20 de bucăți per produs și 30 de produse diferite în coș.");setIsOpen(true);return;}
+    trackCommerce('add_to_cart', { currency: 'RON', value: product.price * quantity, items: [{ item_id: product.sku || String(product.id), item_name: product.name, price: product.price, quantity }] });
     setCartNotice(`Adăugat în coș: ${product.name}, ${quantity} ${quantity === 1 ? 'bucată' : 'bucăți'}, ${formatProductPrice(product.price, product.currency)} / buc.`);
     setItems((prev) => {
       const existing = prev.find((item) => item.productId === product.id);

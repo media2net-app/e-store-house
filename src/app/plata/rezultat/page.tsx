@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { trackConfirmedOrder } from "@/lib/marketing";
 import { clearCheckoutDraft } from "@/lib/checkout-draft";
 import { useEffect, useState } from "react";
 import { store } from "@/lib/store-info";
@@ -21,9 +22,10 @@ export default function PaymentResultPage() {
       try {
         const response = await fetch(`/api/orders/${id}`, { cache: "no-store" });
         if (!response.ok) throw new Error();
-        const order = await response.json() as { id: string; orderNumber?: string; status: string; paymentMethod: string; shippingMethod: string; totalCents: number };
+        const order = await response.json() as { id: string; orderNumber?: string; status: string; paymentMethod: string; shippingMethod: string; totalCents: number; shippingCents: number };
         if (cancelled) return;
         setOrderNumber(order.orderNumber || order.id);
+        trackConfirmedOrder(order);
         if (order.status === "cancelled") {
           setStatus("Comanda a fost anulată. Eventuala rambursare a unei plăți cu cardul se verifică separat cu magazinul."); return;
         }

@@ -14,6 +14,7 @@ import { cartOffers } from "@/lib/cart-offers";
 import { shippingExplanation } from "@/lib/shipping-information";
 import { store } from "@/lib/store-info";
 import { type ShippingCarrier, type ShippingMethod, type ShippingOption } from "@/lib/shipping";
+import { trackCommerce, rememberMarketingOrder } from "@/lib/marketing";
 import { shippingPaymentAvailable } from "@/lib/checkout-payment-options";
 import type { PaymentMethod } from "@/lib/payment-methods";
 
@@ -47,7 +48,16 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
   const cartKey = JSON.stringify(items.map(({ productId, quantity }) => ({ productId, quantity })));
   const easyboxEligible = easyboxCartKey === cartKey;
   useEffect(() => {
-    if (!shippingOptions.some((option) => option.method === "easybox")) return;
+    const track = () => {
+    if (!items.length) return;
+    trackCommerce('begin_checkout', { currency: 'RON', value: cartOffers(items).totalCents / 100,
+      items: items.map(i => ({ item_id: i.sku || String(i.productId), item_name: i.name, price: i.price, quantity: i.quantity })) }, cartKey);
+    };
+    track(); window.addEventListener('estore-privacy-change', track);
+    return () => window.removeEventListener('estore-privacy-change', track);
+  }, [cartKey, items]);
+  useEffect(() => {
+    if (cartKey === "[]" || !shippingOptions.some((option) => option.method === "easybox")) return;
     const controller = new AbortController();
     void fetch("/api/shipping/sameday", { method: "POST", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ items: JSON.parse(cartKey) }), signal: controller.signal })
@@ -111,7 +121,8 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
           items: items.map((item) => ({ productId: item.productId, quantity: item.quantity })),
         }),
       });
-      const result = await response.json() as { error?: string; url?: string; redirectUrl?: string; fields?: Record<string, string>; refreshShipping?: boolean };
+      const result = await response.json() as { orderId?: string; error?: string; url?: string; redirectUrl?: string; fields?: Record<string, string>; refreshShipping?: boolean };
+      if (response.ok && result.orderId) rememberMarketingOrder(result.orderId, items.map(i => ({ item_id: i.sku || String(i.productId), item_name: i.name, price: i.price, quantity: i.quantity })));
       if (result.refreshShipping) { setRateResult(null); setRateRefresh((value) => value + 1); }
       if (response.ok && paymentMethod === "cod" && result.redirectUrl && /^\/plata\/rezultat\?order=[a-f0-9]{24}$/.test(result.redirectUrl)) {
         try { localStorage.removeItem("estore-cart-v1"); } catch { /* The in-memory cart can still be cleared. */ }

@@ -2,10 +2,10 @@ import type { Product } from './products';
 import { canonicalMaterial } from './catalog-filters';
 import { normalizeSearch } from './discovery';
 
-export type BeddingFilters = { material: string; color: string; sheet: string; mattress: string; duvet: string; pillow: string; maxPrice: string };
+export type BeddingFilters = { material: string; color: string; sheet: string; mattress: string; duvet: string; pillow: string; maxPrice: string; mattressHeight?: string };
 export const emptyBeddingFilters: BeddingFilters = { material: '', color: '', sheet: '', mattress: '', duvet: '', pillow: '', maxPrice: '' };
-export type BeddingChoice = { id: number; name: string; price: number; image: string; mattress: string[]; flatSheet: string[]; duvet: string[]; pillow: string[]; sheet: string };
-export type BeddingModel = { id: number; name: string; material: string; color: string; choices: BeddingChoice[]; variable: boolean };
+export type BeddingChoice = { id: number; name: string; price: number; image: string; colors: string[]; mattress: string[]; mattressHeights?: Record<string, number[]>; flatSheet: string[]; duvet: string[]; pillow: string[]; sheet: string };
+export type BeddingModel = { id: number; name: string; material: string; color: string; colors: string[]; choices: BeddingChoice[]; variable: boolean };
 const unique = (items: string[]) => [...new Set(items.filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ro', { numeric: true }));
 const sizes = (text: string) => unique([...text.matchAll(/(\d{2,3})\s*[x×]\s*(\d{2,3})(?:\s*[x×]\s*\d{1,3})?/gi)].map(m => [Number(m[1]), Number(m[2])].sort((a, b) => a - b).join(' × ') + ' cm'));
 
@@ -17,40 +17,48 @@ export function beddingDimensions(text: string) {
   const pillow = lines.filter(s => /pern/.test(s) && !/pilot|saltea|cears/.test(s));
   const mattress = lines.filter(s => /salte[al]|elastic|husa (?:de )?pat/.test(s) && !/pilot|pern/.test(s) && !/fara elastic|cearsaf (?:de )?pat (?:simplu|plat)/.test(s));
   const flat = lines.filter(s => /cearsaf/.test(s) && !/pilot|pern/.test(s) && (!/elastic/.test(s) || /fara elastic/.test(s)) && (sizes(s).length > 0 || /simplu/.test(s)));
-  return { duvet: unique(duvet.flatMap(sizes)), pillow: unique(pillow.flatMap(sizes)), mattress: unique(mattress.flatMap(sizes)), flatSheet: unique(flat.flatMap(sizes)), sheet: mattress.length ? 'Cu elastic / husă pentru saltea' : flat.length ? 'Cearșaf simplu' : '' };
+  const mattressHeights: Record<string, number[]> = {};
+  for (const line of mattress) for (const m of line.matchAll(/(\d{2,3})\s*[x×]\s*(\d{2,3})\s*[x×]\s*(\d{1,2})/gi)) {
+    const key = [Number(m[1]),Number(m[2])].sort((a,b)=>a-b).join(' × ')+' cm';
+    mattressHeights[key] = [...(mattressHeights[key] || []), Number(m[3])];
+  }
+  return { mattressHeights, duvet: unique(duvet.flatMap(sizes)), pillow: unique(pillow.flatMap(sizes)), mattress: unique(mattress.flatMap(sizes)), flatSheet: unique(flat.flatMap(sizes)), sheet: mattress.length ? 'Cu elastic / husă pentru saltea' : flat.length ? 'Cearșaf simplu' : '' };
 }
 
 /** A compact, display-only projection: no supplier copy or catalog prices are modified. */
 export function buildBeddingModels(products: Product[]): BeddingModel[] {
   return products.filter(p => p.categoryPath?.startsWith('lenjerii-de-pat') && p.inStock !== false).flatMap(p => {
-    const choices = p.variants?.length ? p.variants.filter(v => v.inStock !== false).map(v => ({ id: v.id, name: v.name, price: v.price, image: v.images?.[0] || p.image, ...beddingDimensions(v.contents || '') }))
-      : [{ id: p.id, name: 'Setul prezentat', price: p.price, image: p.image, ...beddingDimensions([p.description || '', ...(p.features || []).map(f => `${f.label}: ${f.value}`)].join('\n')) }];
+    const choices = p.variants?.length ? p.variants.filter(v => v.inStock !== false).map(v => ({ id: v.id, name: v.name, price: v.price, image: v.images?.[0] || p.image, colors: v.colors || p.colors || [], ...beddingDimensions(v.contents || '') }))
+      : [{ id: p.id, name: 'Setul prezentat', price: p.price, image: p.image, colors: p.colors || [], ...beddingDimensions([p.description || '', ...(p.features || []).map(f => `${f.label}: ${f.value}`)].join('\n')) }];
     if (!choices.length) return [];
     const color = p.features?.find(f => normalizeSearch(f.label) === 'culoare')?.value
       || p.description?.match(/(?:^|\n|\.\s*)Culoare:\s*([^\n.;]+)/i)?.[1]?.trim() || '';
-    return [{ id: p.id, name: p.name, material: canonicalMaterial(p.material || ''), color, choices, variable: Boolean(p.variants?.length) }];
+    return [{ id: p.id, name: p.name, material: canonicalMaterial(p.material || ''), color, colors: p.colors || (color ? [color] : []), choices, variable: Boolean(p.variants?.length) }];
   });
 }
 
 // Flat sheets have no fixed mattress size. Allow at least 20 cm on each edge;
 // the UI explicitly asks customers to check height and the desired tuck allowance.
-export function fitsMattress(choice: BeddingChoice, mattress: string): boolean {
-  if (choice.mattress.includes(mattress)) return true;
+export function fitsMattress(choice: BeddingChoice, mattress: string, height?: number): boolean {
+  if (choice.mattress.includes(mattress)) return height === undefined || (choice.mattressHeights?.[mattress]?.some(h => h >= height) ?? false);
   if (choice.sheet !== 'Cearșaf simplu') return false;
   const target = mattress.match(/\d+/g)?.map(Number);
   if (!target || target.length !== 2) return false;
   return choice.flatSheet.some(size => {
     const sheet = size.match(/\d+/g)!.map(Number);
-    return sheet[0] >= target[0] + 40 && sheet[1] >= target[1] + 40;
+    return sheet[0] >= target[0] + (height === undefined ? 40 : 2 * (height + 10)) && sheet[1] >= target[1] + (height === undefined ? 40 : 2 * (height + 10));
   });
 }
 
 export function filterBedding(models: BeddingModel[], filters: BeddingFilters): BeddingModel[] {
+  const height = filters.mattressHeight?.trim() ? Number(filters.mattressHeight) : undefined;
+  if (height !== undefined && (!Number.isFinite(height) || height <= 0 || height > 100)) return [];
   const maxPrice = filters.maxPrice.trim() === '' ? null : Number(filters.maxPrice);
   if (maxPrice !== null && (!Number.isFinite(maxPrice) || maxPrice < 0)) return [];
-  return models.filter(p => (!filters.material || p.material === filters.material) && (!filters.color || p.color === filters.color)).flatMap(p => {
-    const choices = p.choices.filter(v => (!filters.sheet || v.sheet === filters.sheet)
-      && (!filters.mattress || fitsMattress(v, filters.mattress))
+  return models.filter(p => (!filters.material || p.material === filters.material)).flatMap(p => {
+    const choices = p.choices.filter(v => (!filters.color || (v.colors !== undefined ? v.colors : p.colors).includes(filters.color))
+      && (!filters.sheet || v.sheet === filters.sheet)
+      && (!filters.mattress || fitsMattress(v, filters.mattress, height))
       && (!filters.duvet || v.duvet.includes(filters.duvet))
       && (!filters.pillow || v.pillow.includes(filters.pillow))
       && (maxPrice === null || v.price <= maxPrice));
@@ -60,5 +68,5 @@ export function filterBedding(models: BeddingModel[], filters: BeddingFilters): 
 
 export function beddingOptions(models: BeddingModel[]) {
   const choices = models.flatMap(p => p.choices);
-  return { material: unique(models.map(p => p.material)), color: unique(models.map(p => p.color)), sheet: unique(choices.map(v => v.sheet)), mattress: unique(['90 × 200 cm', '140 × 200 cm', '160 × 200 cm', '180 × 200 cm', '200 × 200 cm', ...choices.flatMap(v => v.mattress)]), duvet: unique(choices.flatMap(v => v.duvet)), pillow: unique(choices.flatMap(v => v.pillow)) };
+  return { material: unique(models.map(p => p.material)), color: unique(models.flatMap(p => p.colors)), sheet: unique(choices.map(v => v.sheet)), mattress: unique(['90 × 200 cm', '140 × 200 cm', '160 × 200 cm', '180 × 200 cm', '200 × 200 cm', ...choices.flatMap(v => v.mattress)]), duvet: unique(choices.flatMap(v => v.duvet)), pillow: unique(choices.flatMap(v => v.pillow)) };
 }

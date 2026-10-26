@@ -1,12 +1,14 @@
-import { allProducts } from "@/lib/products";
+import { getLiveProducts } from "@/lib/live-products";
 
 // Only the same reviewed products that the public shop displays are exposed here.
 export async function GET() {
+  const allProducts = await getLiveProducts();
   return Response.json({
     source: "estorehouse.ro",
     count: allProducts.length,
     products: allProducts.map((product) => ({
       id: product.id,
+      sku: product.sku,
       name: product.name,
       category: product.category,
       categoryPath: product.categoryPath,
@@ -22,5 +24,5 @@ export async function GET() {
         inStock: variant.inStock !== false,
       })) ?? [],
     })),
-  }, { headers: { "Cache-Control": "public, max-age=60, stale-while-revalidate=300" } });
+  }, { headers: { "Cache-Control": "no-store" } });
 }

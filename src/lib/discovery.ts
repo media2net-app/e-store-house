@@ -23,6 +23,10 @@ export function matchesSearch(product: Product, query: string) {
   const searchable = searchWords(text).join(" ");
   return searchWords(query).every((word) => searchable.includes(word));
 }
+/** Query words must describe one variant, never a mixture of sizes/SKUs. */
+export function matchingSearchVariants(product: Product, query: string) {
+  return (product.variants ?? []).filter(variant => matchesSearch({ ...product, variants: [variant] }, query));
+}
 const root = (product: Product) => product.categoryPath?.split("/")[0] ?? product.category;
 const sameKind = (a: Product, b: Product) => root(a) === root(b)
   && (root(a) !== "articole-baie" || a.categoryPath === b.categoryPath);

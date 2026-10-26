@@ -1,3 +1,4 @@
+import { getLiveProducts } from '@/lib/live-products';
 import { NextResponse } from "next/server";
 import { quoteCart } from "@/lib/cart-quote";
 import { checkoutConfiguration } from "@/lib/checkout-config";
@@ -11,7 +12,7 @@ export async function POST(request: Request) {
   let input, quote;
   try {
     input = await request.json();
-    quote = quoteCart(input.items);
+    quote = quoteCart(input.items, await getLiveProducts());
   } catch { return NextResponse.json({ error: "Coș invalid." }, { status: 400 }); }
   const customer = shippingCustomer(input.customer);
   const method = input.shippingMethod ?? "home";

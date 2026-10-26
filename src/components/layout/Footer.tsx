@@ -1,3 +1,4 @@
+import PrivacyButton from '@/components/marketing/PrivacyButton';
 import Link from "next/link";
 import Brand from "./Brand";
 import { store } from "@/lib/store-info";
@@ -11,8 +12,8 @@ export default function Footer() {
         {store.phone ? <a href={`tel:${store.phone.replace(/\s/g, "")}`}>{store.phone}</a> : null}
       </div>
       <div><h3>Ajutor și comenzi</h3><Link href="/informatii-clienti">Contact și datele firmei</Link><Link href="/livrare-retur">Livrare, plată și retur</Link><Link href="/retragere">Retragere din contract</Link><Link href="/reclamatii">Reclamații</Link><Link href="/promotii">Condițiile ofertelor</Link></div>
-      <div><h3>Drepturile clientului</h3><Link href="/termeni-si-conditii">Termeni și condiții</Link><Link href="/confidentialitate">Confidențialitatea datelor</Link><Link href="/cookie-uri">Cookie-uri</Link><Link href="/garantie-legala">Garanția legală de conformitate</Link>
-        <a href="https://reclamatiisal.anpc.ro/" target="_blank" rel="noopener noreferrer" className="sal-badge" aria-label="ANPC — Soluționarea Alternativă a Litigiilor"><img src="/anpc-sal-pictograma.png" width="250" height="50" alt="ANPC — Soluționarea Alternativă a Litigiilor" /></a>
+      <div><h3>Drepturile clientului</h3><Link href="/termeni-si-conditii">Termeni și condiții</Link><Link href="/confidentialitate">Confidențialitatea datelor</Link><Link href="/cookie-uri">Cookie-uri</Link><PrivacyButton/><Link href="/garantie-legala">Garanția legală de conformitate</Link>
+        <a href="https://reclamatiisal.anpc.ro/" target="_blank" rel="noopener noreferrer" className="sal-badge" aria-label="ANPC — Soluționarea Alternativă a Litigiilor"><img src="/anpc-sal-pictograma.png" width="201" height="50" alt="ANPC — Soluționarea Alternativă a Litigiilor" /></a>
         <a href="https://eservicii.anpc.ro/" target="_blank" rel="noopener noreferrer">Depune o reclamație la ANPC ↗</a>
         <a href="https://anpc.ro/" target="_blank" rel="noopener noreferrer">Autoritatea Națională pentru Protecția Consumatorilor ↗</a>
         <a href="tel:+40219551">Telefonul Consumatorului: 021 9551</a>

@@ -1,3 +1,4 @@
+import PrivacyPreferences from '@/components/marketing/PrivacyPreferences';
 import CatalogPosition from "@/components/catalog/CatalogPosition";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
@@ -40,7 +41,7 @@ export default function RootLayout({
           "@context": "https://schema.org", "@type": "Organization", "@id": "https://www.estorehouse.ro/#organization",
           name: "E-Store House", url: "https://www.estorehouse.ro", logo: "https://www.estorehouse.ro/brand/estore-house-icon.png",
         }) }} />
-        <CartProvider><CatalogPosition/>{children}</CartProvider>
+        <CartProvider><CatalogPosition/>{children}<PrivacyPreferences/></CartProvider>
       </body>
     </html>
   );

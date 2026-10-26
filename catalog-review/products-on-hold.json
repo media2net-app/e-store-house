@@ -10435,51 +10435,6 @@
     {
       "status": "awaiting_rework_or_verification",
       "reasonCodes": [
-        "complete_current_estore_review_not_confirmed"
-      ],
-      "product": {
-        "id": 106468,
-        "sku": "106468",
-        "name": "Lenjerie de pat Elvo Economy — 6 piese — 106468",
-        "category": "Lenjerii de pat Elvo",
-        "categoryPath": "lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-elvo",
-        "brand": "Elvo",
-        "price": 119,
-        "currency": "RON",
-        "image": "/products/elvo-106468/Elvo-106468-01-corectat.webp",
-        "images": [
-          "/products/elvo-106468/Elvo-106468-01-corectat.webp",
-          "/products/elvo-106468/Elvo-106468-02-corectat.webp",
-          "/products/elvo-106468/Elvo-106468-04.webp",
-          "/products/elvo-106468/Elvo-106468-03.webp"
-        ],
-        "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-promo/lenjerii-de-pat-elvo/lenjerie-de-pat-elvo-economy-6-piese-lee13/",
-        "material": "Microfibră / policoton, în funcție de lot",
-        "description": "Set pentru pat dublu. 1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm. Material: Microfibră / policoton, în funcție de lot. Întreținere: spălare la mașină la 30–40°C.",
-        "features": [
-          {
-            "label": "Conținut set",
-            "value": "1 cearșaf de pat 230 × 250 cm; 1 cearșaf de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm"
-          },
-          {
-            "label": "Material",
-            "value": "Microfibră / policoton, în funcție de lot"
-          },
-          {
-            "label": "Cearșaf de pat",
-            "value": "230 × 250 cm"
-          },
-          {
-            "label": "Întreținere",
-            "value": "Spălare la mașină la 30–40°C"
-          }
-        ],
-        "inStock": true
-      }
-    },
-    {
-      "status": "awaiting_rework_or_verification",
-      "reasonCodes": [
         "fewer_than_four_images",
         "variant_gallery_incomplete"
       ],

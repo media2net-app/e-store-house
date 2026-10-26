@@ -1,3 +1,4 @@
+import { getLiveProducts } from '@/lib/live-products';
 import { NextResponse } from "next/server";
 import { quoteCart } from "@/lib/cart-quote";
 import { easyboxEligibility, type PackingProfile } from "@/lib/sameday-protocol";
@@ -8,7 +9,7 @@ export const runtime = "nodejs";
 export async function POST(request: Request) {
   try {
     const input = await request.json();
-    const quote = quoteCart(input.items);
+    const quote = quoteCart(input.items, await getLiveProducts());
     const eligible = samedayConfiguration().lockerReady && easyboxEligibility(quote.lines, profiles as Record<string, PackingProfile>);
     return NextResponse.json({ easyboxEligible: eligible }, { headers: { "Cache-Control": "no-store" } });
   } catch { return NextResponse.json({ easyboxEligible: false }, { status: 400 }); }

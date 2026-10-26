@@ -33,6 +33,7 @@ export function productFacets(product: Product) {
   return {
     material: canonicalMaterial(product.material ?? ""),
     culoare: feature(product, "Culoare"),
+    colors: product.colors || (feature(product, "Culoare") ? [feature(product, "Culoare")] : []),
     dimensiuni: [...new Set([
       ...(product.variants?.map((variant) => variant.dimensions).filter(Boolean) ?? []),
       feature(product, "Dimensiune"), feature(product, "Dimensiuni"),
@@ -47,11 +48,13 @@ export function facetOptions(products: Product[]) {
   const unique = (values: string[]) => [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b, "ro"));
   return {
     material: unique(facets.map((facet) => facet.material)),
-    culoare: unique(facets.map((facet) => facet.culoare)),
+    culoare: unique(facets.flatMap((facet) => facet.colors)),
     dimensiune: unique(facets.flatMap((facet) => facet.dimensiuni).filter(value => value.length <= 60 && !/[;\n]/.test(value))),
     cearsaf: unique(facets.map((facet) => facet.cearsaf)),
   };
 }
+
+const facetsFallback = (product: Product) => productFacets(product).colors;
 
 /** Restrict price, size and stock to the same purchasable configuration. */
 export function matchingCatalogVariants(product: Product, filters: CatalogFilterState) {
@@ -61,15 +64,15 @@ export function matchingCatalogVariants(product: Product, filters: CatalogFilter
     && (max === null || Number.isFinite(max) && max >= 0 && price <= max);
   const available = (stock?: boolean) => filters.stoc !== "da" || product.inStock !== false && stock !== false;
   const dimensions = productFacets(product).dimensiuni;
-  return (product.variants?.length ? product.variants : [{ id: product.id, price: product.price, dimensions: '', inStock: product.inStock }]).filter(variant =>
+  return (product.variants?.length ? product.variants : [{ id: product.id, price: product.price, colors: product.colors, dimensions: '', inStock: product.inStock }]).filter(variant =>
     validPrice(variant.price) && available(variant.inStock)
+    && (!filters.culoare || (variant.colors || product.colors || facetsFallback(product)).includes(filters.culoare))
     && (!filters.dimensiune || (product.variants?.length ? variant.dimensions === filters.dimensiune : dimensions.includes(filters.dimensiune))));
 }
 
 export function matchesCatalogFilters(product: Product, filters: CatalogFilterState) {
   const facets = productFacets(product);
   return (!filters.material || facets.material === canonicalMaterial(filters.material))
-    && (!filters.culoare || facets.culoare === filters.culoare)
     && (!filters.cearsaf || facets.cearsaf === filters.cearsaf)
     && matchingCatalogVariants(product, filters).length > 0;
 }
@@ -79,7 +82,7 @@ export function compactFilterProduct(product: Product): Product {
   const facets = productFacets(product);
   return { id: product.id, name: facets.cearsaf === 'Cu elastic' ? 'cearșaf cu elastic' : facets.cearsaf === 'Simplu' ? 'cearșaf simplu' : '',
     category: '', price: product.price, currency: product.currency, image: '', images: [], externalUrl: '',
-    material: facets.material, inStock: product.inStock,
+    colors: facets.colors, material: facets.material, inStock: product.inStock,
     features: [{ label: 'Culoare', value: facets.culoare }, ...(product.variants?.length ? [] : facets.dimensiuni).map(value => ({ label: 'Dimensiune', value }))],
-    variants: product.variants?.map(v => ({ id: v.id, name: '', dimensions: v.dimensions, price: v.price, inStock: v.inStock, sku: '', contents: '' })) };
+    variants: product.variants?.map(v => ({ id: v.id, name: '', dimensions: v.dimensions, price: v.price, colors: v.colors, inStock: v.inStock, sku: '', contents: '' })) };
 }

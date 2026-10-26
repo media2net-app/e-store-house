@@ -1,3 +1,6 @@
+import { readStock } from '@/lib/live-products';
+import { applyStock } from '@/lib/stock-overlay';
+import { allProducts } from '@/lib/products';
 import { createHmac } from "node:crypto";
 import { NextResponse } from "next/server";
 import { quoteCart } from "@/lib/cart-quote";
@@ -86,7 +89,7 @@ export async function POST(request: Request) {
   }
 
   let quote: ReturnType<typeof quoteCart>;
-  try { quote = quoteCart(input.items); }
+  try { quote = quoteCart(input.items, applyStock(allProducts, await readStock())); }
   catch (error) { return NextResponse.json({ error: error instanceof Error ? error.message : "Coș invalid." }, { status: 400 }); }
   let locker: StoreOrder["shippingLocker"];
   if (shippingMethod === "easybox") {

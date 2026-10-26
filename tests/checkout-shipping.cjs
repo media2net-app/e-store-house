@@ -5,6 +5,7 @@ const fs = require("node:fs");
 const vm = require("node:vm");
 const ts = require("typescript");
 function moduleAt(file, dependencies = {}, extra = {}) {
+  if (file.startsWith("src/app/api/")) dependencies = { "@/lib/live-products": { readStock: async () => ({}), getLiveProducts: async () => [] }, "@/lib/stock-overlay": { applyStock: products => products }, "@/lib/products": { allProducts: [] }, ...dependencies };
   const exports = {};
   const compiled = ts.transpileModule(fs.readFileSync(file, "utf8"), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText;
   vm.runInNewContext(compiled, { exports, Buffer, Request, Response, URL, URLSearchParams, console, process: { env: {} },

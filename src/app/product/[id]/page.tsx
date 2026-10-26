@@ -1,3 +1,5 @@
+import { getLiveProducts } from '@/lib/live-products';
+import { productSchema } from '@/lib/product-schema';
 import CatalogReturn from "@/components/catalog/CatalogReturn";
 import ProductCard from "@/components/product/ProductCard";
 import { recommendations, recommendationReason } from "@/lib/discovery";
@@ -46,7 +48,8 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
     notFound();
   }
 
-  const product = getProductById(productId);
+  const allProducts = await getLiveProducts();
+  const product = allProducts.find(p => p.id === productId);
 
   if (!product) {
     notFound();
@@ -60,22 +63,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
   ];
   const material = product.material;
   const productDescription = product.description ?? product.name;
-  const prices = product.variants?.length ? product.variants.map((variant) => variant.price) : [product.price];
-  const structuredProduct = {
-    "@context": "https://schema.org", "@type": "Product", name: product.name,
-    description: productDescription, image: product.images, sku: product.sku,
-    brand: product.brand ? { "@type": "Brand", name: product.brand } : undefined,
-    offers: product.variants?.length ? {
-      "@type": "AggregateOffer", priceCurrency: "RON", lowPrice: Math.min(...prices),
-      highPrice: Math.max(...prices), offerCount: product.variants.filter((variant) => variant.inStock !== false).length,
-      availability: product.inStock === false ? "https://schema.org/OutOfStock" : "https://schema.org/InStock",
-    } : {
-      "@type": "Offer", priceCurrency: "RON", price: product.price,
-      availability: product.inStock === false ? "https://schema.org/OutOfStock" : "https://schema.org/InStock",
-      url: `https://www.estorehouse.ro/product/${product.id}`,
-      seller: { "@type": "Organization", name: "E-Store House" },
-    },
-  };
+  const structuredProduct = productSchema(product);
   const breadcrumb = {
     "@context": "https://schema.org", "@type": "BreadcrumbList",
     itemListElement: [

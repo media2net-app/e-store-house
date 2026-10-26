@@ -18,7 +18,7 @@ export type QuotedCartLine = {
   quantity: number;
 };
 
-export function quoteCart(requested: unknown) {
+export function quoteCart(requested: unknown, catalog: Product[] = allProducts) {
   if (!Array.isArray(requested) || requested.length === 0 || requested.length > 30) {
     throw new Error("Coșul este gol sau prea mare.");
   }
@@ -31,12 +31,14 @@ export function quoteCart(requested: unknown) {
       throw new Error("Produs sau cantitate invalidă în coș.");
     }
     seen.add(productId);
-    const product = allProducts.find((item) => item.id === productId || item.variants?.some((variant) => variant.id === productId));
+    const product = catalog.find((item) => item.id === productId || item.variants?.some((variant) => variant.id === productId));
     const variant = product?.variants?.find((item) => item.id === productId);
     if (!product || product.inStock === false || (product.variants?.length && !variant)
       || variant?.inStock === false || !["RON", "Lei"].includes(product.currency)) {
       throw new Error("Un produs din coș nu mai este disponibil.");
     }
+    const available = variant?.stockQuantity ?? product.stockQuantity;
+    if (available !== undefined && quantity > available) throw new Error('Cantitatea solicitată depășește stocul disponibil.');
     const price = variant?.price ?? product.price;
     if (!Number.isFinite(price) || price <= 0) throw new Error("Prețul unui produs nu este valid.");
     return {

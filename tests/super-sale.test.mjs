@@ -9,7 +9,7 @@ const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
 const products=read('src/data/products.json'),offers=read('src/data/super-sale.json'),evidence=read('catalog-review/price-verification-29-20261022/results.json');
 function load(file,mocks){const m=new Module(file);m.require=id=>{assert(Object.hasOwn(mocks,id),id);return mocks[id]};m._compile(ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText,file);return m.exports;}
 const sale=load('src/lib/super-sale.ts',{'@/data/super-sale.json':offers});
-const {allProducts}=load('src/lib/products.ts',{'./super-sale':sale,'@/data/quality-hold.json':[],'@/data/products.json':products,'./product-format':{}});
+const {allProducts}=load('src/lib/products.ts',{'./product-colors':{withProductColors:p=>p},'./super-sale':sale,'@/data/quality-hold.json':[],'@/data/products.json':products,'./product-format':{}});
 const cartOffers=load('src/lib/cart-offers.ts',{});
 const {quoteCart}=load('src/lib/cart-quote.ts',{'server-only':{},'@/lib/cart-offers':cartOffers,'@/lib/products':{allProducts}});
 test('exactly 30 verified campaign prices with additional 30% and unchanged regular products',()=>{

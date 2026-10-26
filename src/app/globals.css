@@ -203,7 +203,7 @@ button,a,input { outline-offset:5px; }
 .catalog-card-image img { position:absolute; inset:0; display:block; width:100%; height:100%; object-fit:contain; object-position:center; }
 .catalog-card-copy { display:flex; flex:1; flex-direction:column; padding:14px; }
 .catalog-card-category { font-size:10px; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-.catalog-card h3 { display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3; overflow:hidden; font-size:14px; line-height:1.5; font-weight:500; margin:7px 0 12px; }
+.catalog-card :is(h2,h3) { display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3; overflow:hidden; font-size:14px; line-height:1.5; font-weight:500; margin:7px 0 12px; }
 .catalog-card-price { margin-top:auto; font-size:16px; font-weight:650; overflow-wrap:anywhere; }
 .catalog-card-action { display:flex; justify-content:space-between; align-items:center; gap:8px; margin-top:12px; min-height:44px; border-top:1px solid var(--line); font-size:12px; }
 .catalog-card-link:hover .catalog-card-action { color:var(--bronze); }
@@ -227,7 +227,7 @@ button,a,input { outline-offset:5px; }
   .products-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
   .catalog-card { border-radius:10px; }
   .catalog-card-copy { padding:10px; }
-  .catalog-card h3 { font-size:13px; margin:6px 0 10px; }
+  .catalog-card :is(h2,h3) { font-size:13px; margin:6px 0 10px; }
   .catalog-card-price { font-size:14px; }
   .catalog-card-action { font-size:11px; margin-top:8px; }
   .recommendation-section { margin-top:36px; }
