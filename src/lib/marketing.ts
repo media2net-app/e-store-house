@@ -35,7 +35,7 @@ export function startMarketing() {
   if (choice?.analytics && /^G-[A-Z0-9]+$/.test(analyticsId) && !googleStarted) {
     googleStarted = true;
     window.dataLayer = window.dataLayer || [];
-    window.gtag = function () { window.dataLayer!.push(arguments); };
+    window.gtag = (...args: unknown[]) => { window.dataLayer!.push(args); };
     window.gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
     window.gtag('consent', 'update', { analytics_storage: 'granted', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
     window.gtag('js', new Date());
@@ -105,10 +105,11 @@ export function rememberMarketingOrder(id: string, items: MarketingItem[]) {
   const consent = privacyChoice(); if (!consent?.analytics && !consent?.marketing) return;
   try { sessionStorage.setItem(`estore-marketing-order:${id}`, JSON.stringify(items)); } catch { /* Tracking never blocks checkout. */ }
 }
-export function trackConfirmedOrder(order: { id: string; status: string; paymentMethod: string; totalCents: number; shippingCents: number }) {
+export function trackConfirmedOrder(order: { id: string; status: string; paymentMethod: string; totalCents: number; shippingCents: number; trackingEligible: boolean }) {
   const consent = privacyChoice(); if (!marketingConfigured || !consent?.analytics && !consent?.marketing) return;
   if (!['paid_review', 'pending_cod'].includes(order.status)) return;
   const event = order.paymentMethod === 'cod' ? 'cod_order_placed' : 'purchase';
+  if (event === 'purchase' && !order.trackingEligible) return;
   const key = `estore-conversion:${order.id}:${event}`;
   try {
     if (localStorage.getItem(key)) return;

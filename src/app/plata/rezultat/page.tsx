@@ -22,7 +22,7 @@ export default function PaymentResultPage() {
       try {
         const response = await fetch(`/api/orders/${id}`, { cache: "no-store" });
         if (!response.ok) throw new Error();
-        const order = await response.json() as { id: string; orderNumber?: string; status: string; paymentMethod: string; shippingMethod: string; totalCents: number; shippingCents: number };
+        const order = await response.json() as { id: string; orderNumber?: string; status: string; paymentMethod: string; shippingMethod: string; totalCents: number; shippingCents: number; trackingEligible: boolean };
         if (cancelled) return;
         setOrderNumber(order.orderNumber || order.id);
         trackConfirmedOrder(order);
