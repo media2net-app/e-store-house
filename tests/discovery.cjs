@@ -5,7 +5,7 @@ const ts = require('typescript');
 const Module = require('node:module');
 const mod = new Module('discovery');
 mod._compile(ts.transpileModule(fs.readFileSync('src/lib/discovery.ts', 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS } }).outputText, 'discovery.js');
-const { matchesSearch, recommendations, diverseProducts } = mod.exports;
+const { matchesSearch, matchingSearchVariants, recommendations, diverseProducts } = mod.exports;
 const products = JSON.parse(fs.readFileSync('src/data/products.json'));
 const sample = {id:1,name:'Față de pernă albă',category:'Perne',categoryPath:'perne/bumbac',material:'Bumbac',price:100,sku:'012345',images:['a','b','c','d']};
 assert(matchesSearch(sample, 'alba fata bumbac'));
@@ -31,3 +31,12 @@ for (const product of products) {
 assert.equal(new Set(diverseProducts(products).map(p=>p.categoryPath.split('/')[0])).size,
  Math.min(8,new Set(products.map(p=>p.categoryPath.split('/')[0])).size));
 console.log(`PASS: search accents, dimensions, word order, SKU; recommendations across ${products.length} reviewed products.`);
+
+// Every purchasable code must resolve its own variant without inheriting the parent SKU.
+for (const product of products) for (const variant of product.variants || []) {
+ const matches = matchingSearchVariants(product, variant.sku);
+ assert(matches.some(v => v.id === variant.id), `Missing variant SKU ${variant.sku}`);
+ assert.deepEqual(matches.map(v => v.id), [variant.id], `Mixed variants for SKU ${variant.sku}`);
+}
+const modelCode = {...sample, sku:'MODEL-CODE', variants:[{id:11,sku:'111',name:'Small'},{id:12,sku:'222',name:'Large'}]};
+assert.deepEqual(matchingSearchVariants(modelCode,'MODEL-CODE').map(v=>v.id),[11,12]);

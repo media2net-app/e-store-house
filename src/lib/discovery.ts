@@ -25,7 +25,11 @@ export function matchesSearch(product: Product, query: string) {
 }
 /** Query words must describe one variant, never a mixture of sizes/SKUs. */
 export function matchingSearchVariants(product: Product, query: string) {
-  return (product.variants ?? []).filter(variant => matchesSearch({ ...product, variants: [variant] }, query));
+  const variants = product.variants ?? [];
+  // A parent sometimes repeats one purchasable SKU. Do not let siblings inherit it.
+  // A separate model code still legitimately identifies all of its variants.
+  const parentUsesVariantSku = variants.some(variant => variant.sku === product.sku);
+  return variants.filter(variant => matchesSearch({ ...product, sku: parentUsesVariantSku ? variant.sku : product.sku, variants: [variant] }, query));
 }
 const root = (product: Product) => product.categoryPath?.split("/")[0] ?? product.category;
 const sameKind = (a: Product, b: Product) => root(a) === root(b)
