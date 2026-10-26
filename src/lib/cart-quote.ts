@@ -52,3 +52,22 @@ export function quoteCart(requested: unknown, catalog: Product[] = allProducts) 
   });
   return { lines, totals: cartOffers(lines) };
 }
+
+// Restoring browser storage may discard stale lines; checkout always uses strict quoteCart.
+export function restoreCart(requested: unknown, catalog: Product[] = allProducts) {
+  if (!Array.isArray(requested) || requested.length > 30) throw new Error("Coș salvat invalid.");
+  const lines: QuotedCartLine[] = [];
+  const seen = new Set<number>();
+  let removedCount = 0;
+  for (const entry of requested) {
+    try {
+      const line = quoteCart([entry], catalog).lines[0];
+      if (seen.has(line.productId)) throw new Error("Produs repetat.");
+      seen.add(line.productId);
+      lines.push(line);
+    } catch {
+      removedCount += 1;
+    }
+  }
+  return { lines, totals: cartOffers(lines), removedCount };
+}

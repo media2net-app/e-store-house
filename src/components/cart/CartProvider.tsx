@@ -20,7 +20,7 @@ type CartItem = {
   quantity: number;
 };
 type CartContextValue = {
-  items: CartItem[]; isOpen: boolean; totalItems: number;
+  items: CartItem[]; isOpen: boolean; totalItems: number; cartNotice: string;
   addItem: (product: Product, quantity: number) => void;
   removeItem: (productId: number) => void;
   updateQuantity: (productId: number, quantity: number) => void;
@@ -41,13 +41,16 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       try {
         const saved = JSON.parse(localStorage.getItem("estore-cart-v1") || "[]") as unknown;
         if (!Array.isArray(saved) || saved.length === 0) return;
-        const response = await fetch("/api/cart/quote", {
+        const response = await fetch("/api/cart/restore", {
           method: "POST", headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ items: saved }), cache: "no-store",
         });
         if (!response.ok) throw new Error("Coșul salvat nu mai este disponibil.");
-        const quote = await response.json() as { lines: CartItem[] };
-        if (!cancelled) setItems((previous) => previous.length ? previous : quote.lines);
+        const quote = await response.json() as { lines: CartItem[]; removedCount: number };
+        if (!cancelled) {
+          setItems((previous) => previous.length ? previous : quote.lines);
+          if (quote.removedCount) setCartNotice("Am actualizat coșul salvat. Unele produse nu mai sunt disponibile în cantitatea cerută și au fost eliminate.");
+        }
       } catch {
         if (!cancelled) setCartNotice("Coșul salvat nu a putut fi restaurat. Adaugă din nou produsele dorite.");
       } finally {
@@ -111,7 +114,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const totalItems = items.reduce((sum, item) => sum + item.quantity, 0);
   const totals = cartOffers(items);
   const money = (cents: number) => formatProductPrice(cents / 100, "RON");
-  return <CartContext.Provider value={{ items, isOpen, totalItems, addItem, removeItem, updateQuantity, clearCart: () => setItems([]),
+  return <CartContext.Provider value={{ items, isOpen, totalItems, cartNotice, addItem, removeItem, updateQuantity, clearCart: () => setItems([]),
     openCart: () => setIsOpen(true), closeCart: () => setIsOpen(false) }}>
     {children}
     <div className={"cart-overlay " + (isOpen ? "cart-overlay-open" : "")} onClick={() => setIsOpen(false)} aria-hidden={!isOpen} inert={!isOpen}>
