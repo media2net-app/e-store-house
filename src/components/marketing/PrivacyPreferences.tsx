@@ -2,10 +2,10 @@
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { marketingConfigured, privacyChoice, savePrivacy, startMarketing, trackPage, trackCommerce } from '@/lib/marketing';
+import { analyticsConfigured, tiktokConfigured, marketingConfigured, privacyChoice, savePrivacy, startMarketing, trackPage, trackCommerce } from '@/lib/marketing';
 export default function PrivacyPreferences() {
   const path = usePathname();
-  const [open, setOpen] = useState(false), [analytics, setAnalytics] = useState(false), [marketing, setMarketing] = useState(false);
+  const [open, setOpen] = useState(marketingConfigured), [analytics, setAnalytics] = useState(false), [marketing, setMarketing] = useState(false);
   useEffect(() => {
     function refresh() { const choice = privacyChoice(); setAnalytics(choice?.analytics ?? false); setMarketing(choice?.marketing ?? false); setOpen(marketingConfigured && !choice); startMarketing(); }
     function show() { refresh(); setOpen(true); }
@@ -36,8 +36,8 @@ export default function PrivacyPreferences() {
   }
   if (!open) return null;
   return <section className="privacy-panel" role="region" aria-labelledby="privacy-title"><h2 id="privacy-title">Tu alegi ce date partajezi</h2><p>Coșul și finalizarea comenzii funcționează fără urmărire opțională. Cu acordul tău, măsurăm utilizarea magazinului sau eficiența reclamelor. <Link href="/cookie-uri">Detalii</Link></p>
-    <label><input type="checkbox" checked={analytics} onChange={e => setAnalytics(e.target.checked)}/> Analiză trafic — Google Analytics</label>
-    <label><input type="checkbox" checked={marketing} onChange={e => setMarketing(e.target.checked)}/> Marketing — TikTok Pixel</label>
+    {analyticsConfigured && <label><input type="checkbox" checked={analytics} onChange={e => setAnalytics(e.target.checked)}/> Analiză trafic — Google Analytics</label>}
+    {tiktokConfigured && <label><input type="checkbox" checked={marketing} onChange={e => setMarketing(e.target.checked)}/> Marketing — TikTok Pixel</label>}
     {!marketingConfigured && <p>Instrumentele opționale nu sunt încă activate.</p>}
     <div><button onClick={() => save(false, false)}>Refuz opționalele</button><button onClick={() => save(analytics, marketing)}>Salvez alegerile</button><button onClick={() => save(true, true)}>Accept opționalele</button></div>
   </section>;

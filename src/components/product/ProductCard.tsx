@@ -5,7 +5,7 @@ import { formatProductPrice, formatProductPriceRange } from "@/lib/product-forma
 
 export default function ProductCard({ product, reason, priority = false, variantId }: { product: Product; reason?: string; priority?: boolean; variantId?: number }) {
   return <Link href={"/product/" + product.id + (variantId ? `?varianta=${variantId}` : "")} data-estore-item={JSON.stringify({item_id: product.variants?.find(v => v.id === variantId)?.sku || product.sku || String(product.id), item_name: product.name, price: product.price, quantity: 1})} className="catalog-card catalog-card-link">
-    <div className="catalog-card-image"><Image src={product.variants?.find(v => v.id === variantId)?.images?.[0] || product.image} alt={product.name} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : "auto"} width={400} height={600} sizes="(max-width: 700px) 45vw, (max-width: 1000px) 30vw, 250px" />{product.discount && <span className="sale-percent-badge">−{product.discount}%</span>}</div>
+    <div className="catalog-card-image"><Image src={product.variants?.find(v => v.id === variantId)?.images?.[0] || product.image} alt={product.name} quality={60} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : "auto"} width={400} height={600} sizes="(max-width: 700px) 45vw, (max-width: 1000px) 30vw, 250px" />{product.discount && <span className="sale-percent-badge">−{product.discount}%</span>}</div>
     <div className="catalog-card-copy">
 
       <h2>{product.name}</h2>

@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  images: { imageSizes: [16, 32, 48, 64, 96, 128, 256, 384, 512], formats: ["image/avif", "image/webp"], remotePatterns: [
+  images: { qualities: [60, 75], imageSizes: [16, 32, 48, 64, 96, 128, 256, 384, 512], formats: ["image/avif", "image/webp"], remotePatterns: [
     { protocol: "https", hostname: "cdn.dsmcdn.com", port: "", pathname: "/**", search: "" },
     { protocol: "https", hostname: "raw.githubusercontent.com", pathname: "/media2net-app/**" },
     { protocol: "https", hostname: "www.estorehouse.ro", pathname: "/**" },

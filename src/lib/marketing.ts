@@ -3,7 +3,9 @@ export type MarketingItem = { item_id: string; item_name: string; price: number;
 export const privacyKey = 'estore-privacy-v1';
 export const analyticsId = process.env.NEXT_PUBLIC_GA4_ID || '';
 export const tiktokId = process.env.NEXT_PUBLIC_TIKTOK_PIXEL_ID || '';
-export const marketingConfigured = /^G-[A-Z0-9]+$/.test(analyticsId) || /^[A-Z0-9]{10,40}$/i.test(tiktokId);
+export const analyticsConfigured = /^G-[A-Z0-9]+$/.test(analyticsId);
+export const tiktokConfigured = /^[A-Z0-9]{10,40}$/i.test(tiktokId);
+export const marketingConfigured = analyticsConfigured || tiktokConfigured;
 
 declare global {
   interface Window {
@@ -22,7 +24,7 @@ export function privacyChoice(): PrivacyChoice | null {
   } catch { return null; }
 }
 export function savePrivacy(analytics: boolean, marketing: boolean) {
-  const value = { analytics, marketing, savedAt: Date.now() };
+  const value = { analytics: analytics && analyticsConfigured, marketing: marketing && tiktokConfigured, savedAt: Date.now() };
   try { localStorage.setItem(privacyKey, JSON.stringify(value)); } catch { /* Denied if preferences cannot persist. */ }
   if (!analytics && window.gtag) window.gtag('consent', 'update', {analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
   if (!marketing && typeof window.ttq?.revokeConsent === 'function') window.ttq.revokeConsent();

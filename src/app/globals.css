@@ -329,8 +329,8 @@ button,a,input { outline-offset:5px; }
 .legal-page form input,.legal-page form textarea { font-size:16px; min-height:44px; }
 .legal-page form button,.legal-page .form-action { min-height:44px; cursor:pointer; }
 .footer-grid>div>a:not(.wordmark) { min-height:44px; display:flex; align-items:center; line-height:1.6; padding:7px 0; }
-.sal-badge { width:250px; max-width:100%; margin-top:12px; }
-.sal-badge img { width:250px; height:50px; max-width:none; }
+.sal-badge { width:201px; max-width:100%; margin-top:12px; }
+.sal-badge img { width:201px; height:auto; max-width:100%; }
 .legal-guarantee-reminder { display:grid; grid-template-columns:minmax(0,1fr) 160px; gap:24px; max-width:1368px; margin:36px auto 0; border-top:1px solid #d6c7af; padding-top:26px; align-items:center; }
 .legal-guarantee-reminder h2 { font-size:18px; font-weight:600; line-height:1.5; }
 .legal-guarantee-reminder p { font-size:13px; line-height:1.8; margin:12px 0; max-width:600px; }
