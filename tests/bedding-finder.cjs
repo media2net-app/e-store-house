@@ -35,8 +35,24 @@ test('reviewed catalog examples remain discoverable through their own component 
   assert(find(101369, { duvet:'200 × 230 cm', pillow:'50 × 70 cm' }));
   assert(find(95063, { duvet:'200 × 230 cm', sheet:'Cearșaf simplu' }));
   assert(find(96422, { mattress:'180 × 200 cm', pillow:'70 × 70 cm' }));
-  const fitted = find(161998, { mattress:'90 × 200 cm', duvet:'150 × 220 cm' });
+  const fitted = find(161998, { mattress:'90 × 200 cm', duvet:'150 × 220 cm', sheet:'Cu elastic / husă pentru saltea' });
   assert(fitted); assert(fitted.choices.every(v => v.mattress.includes('90 × 200 cm') && v.duvet.includes('150 × 220 cm')));
   assert(find(163175, { pillow:'50 × 70 cm' }));
   assert(!find(163175, { duvet:'220 × 240 cm' })); // This set contains a blanket, not a duvet cover.
+});
+test('singular component labels preserve king-size variant sheet, duvet and pillows', () => {
+ const d=beddingDimensions('Dimensiune cearsaf pat: 240x260cm Dimensiune cearsaf pilotă: 200x230cm Dimensiune față pernă: 50x70cm');
+ assert.deepEqual([...d.flatSheet],['240 × 260 cm']);assert.deepEqual([...d.duvet],['200 × 230 cm']);assert.deepEqual([...d.pillow],['50 × 70 cm']);
+});
+test('160/180 mattress searches discover the appropriate available flat-sheet variant without borrowing another variant price or dimensions', () => {
+ const catalog=JSON.parse(fs.readFileSync('src/data/products.json','utf8'));
+ const p=catalog.find(p=>p.id===102523), models=buildBeddingModels([p]);
+ for(const mattress of ['160 × 200 cm','180 × 200 cm']) {
+  const results=filterBedding(models,{...emptyBeddingFilters,mattress,duvet:'200 × 230 cm',pillow:'50 × 70 cm'});
+  assert.equal(results.length,1);assert.deepEqual(Array.from(results[0].choices,v=>v.id),[102526]);
+  assert.equal(filterBedding(models,{...emptyBeddingFilters,mattress,maxPrice:String(results[0].choices[0].price-1)}).length,0);
+ }
+ const unavailable=structuredClone(p);unavailable.variants.find(v=>v.id===102526).inStock=false;
+ assert.equal(filterBedding(buildBeddingModels([unavailable]),{...emptyBeddingFilters,mattress:'180 × 200 cm'}).length,0);
+ assert.equal(filterBedding(models,{...emptyBeddingFilters,mattress:'180 × 200 cm',sheet:'Cu elastic / husă pentru saltea'}).length,0);
 });

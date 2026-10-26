@@ -237,3 +237,9 @@ Reviewed Git source snapshots and found earlier development prices (including ro
 ## 26 October 2026 — Merchant price increase
 
 Applied an additional 30% to every website SKU and campaign price. Regular prices retain upward ending-9 rounding; campaign prices retain bani rounding. Imports recompute the three stages from verified supplier costs to avoid compounding. No separate historical-price export created. Historical campaign references are never increased; unavailable discounts are suppressed. Shipping and second-unit rules unchanged. Validation: 21 pricing/promotion tests and 12 checkout/shipping tests pass; production build and catalog approval validation pass for 896 models / 1,353 SKUs. All non-price catalog fields verified unchanged. Broader archive test exposes a pre-existing overlap for model 106468 between the archive and published catalog; unrelated to price-only changes and not altered here.
+
+## 26 October 2026 — Finder includes flat-sheet size variants
+
+Fixed singular Dimensiune component labels, which excluded king-size choices. Mattress filtering now remains visible for all sheet preferences and examines every available variant, allowing flat sheets with at least 20 cm on each edge as explicitly labelled indicative matches. Cards show actual sheet dimensions and a height reminder. Exact fitted dimensions, same-variant budget/duvet/pillow checks and variant deep links remain enforced. Added real Crep73 regression cases for both 160×200 and 180×200, stock and budget exclusions.
+
+Validation: all 12 finder tests and production build pass. Mobile browser checks at 390 px confirm flat-sheet results for 160×200 (354 models / 377 choices) and 180×200 (354 models / 368 choices), persistent mattress selection when changing sheet type, and Crep73 linking to variant 102526. No horizontal overflow on the opened product page.
