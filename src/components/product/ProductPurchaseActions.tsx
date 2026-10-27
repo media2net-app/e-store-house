@@ -7,7 +7,7 @@ import { useCart } from "@/components/cart/CartProvider";
 import type { Product } from "@/lib/products";
 import { store } from "@/lib/store-info";
 import { shippingExplanation, shippingEstimate, dispatchExplanation } from "@/lib/shipping-information";
-import { formatProductPrice, formatProductPriceRange } from "@/lib/product-format";
+import { formatProductPrice, formatProductPriceRange, formatProductReferenceRange } from "@/lib/product-format";
 const variantLabel = (variant: NonNullable<Product['variants']>[number]) => {
   const compact = (s:string) => s.replace(/\s/g,'').replace(/×/g,'x').toLowerCase();
   return variant.dimensions && !compact(variant.name).includes(compact(variant.dimensions)) ? `${variant.name} — ${variant.dimensions}` : variant.name;
@@ -32,7 +32,8 @@ export default function ProductPurchaseActions({product}: {product: Product}) {
   }, [product, selected]);
   const needsVariant = Boolean(product.variants?.length && !selected);
   const unavailable = product.inStock===false || selected?.inStock===false;
-  const oldPrice = selected?.oldPrice ?? product.oldPrice;
+  const reference = selected ? (selected.oldPrice ? formatProductPrice(selected.oldPrice, product.currency) : null) : formatProductReferenceRange(product);
+  const discount = selected ? selected.discount : product.discount;
   const price = selected ? formatProductPrice(selected.price, product.currency) : formatProductPriceRange(product);
   const choose = () => { selector.current?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'}); selector.current?.querySelector<HTMLInputElement>('input:not(:disabled)')?.focus({preventScroll:true}); };
   const purchase = () => {if(needsVariant){choose();return;} if(unavailable)return; addItem(selected ? {...product,id:selected.id,price:selected.price,sku:selected.sku,bundleComponents:selected.bundleComponents??product.bundleComponents,image:selected.images?.[0]??product.image,name:`${product.name} — ${variantLabel(selected)}`} : product,quantity);};
@@ -42,7 +43,7 @@ export default function ProductPurchaseActions({product}: {product: Product}) {
   const contentFeatures = product.features?.filter(feature => /cearsaf|husa|fete|continut|numar piese|dimensiun/.test(feature.label.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase())).map(feature => `${feature.label}: ${feature.value}`).join('\n');
   const contents = selected ? (selected.contents?.trim() || `Varianta aleasă: ${variantLabel(selected)}`) : (!product.variants?.length ? [contentFeatures, product.description?.split('\n').filter(line => /^\s*[•*-]/.test(line)).join('\n')].filter(Boolean).join('\n') : 'Alege dimensiunea pentru a vedea conținutul exact.');
   return <div className="purchase-actions">
-    <p className="purchase-price" aria-live="polite" aria-atomic="true">{oldPrice && <del className="sale-old-price" aria-label="Preț anterior">{formatProductPrice(oldPrice, product.currency)}</del>} {price}{product.discount && <span className="sale-inline-badge">−{product.discount}%</span>}</p>
+    <p className="purchase-price" aria-live="polite" aria-atomic="true">{reference && <del className="sale-old-price" aria-label="Preț de referință">{reference}</del>} {price}{discount && <span className="sale-inline-badge">−{discount}%</span>}</p>
     {product.saleReferencePeriod && <p className="sale-reference-note">Preț anterior: cel mai mic preț practicat în perioada {product.saleReferencePeriod}. <Link href="/promotii">Detalii ofertă</Link></p>}
     {product.material && <p className="product-composition"><strong>Material:</strong> {product.material}</p>}
     {contents && <div className="product-contents" aria-live="polite"><h2>Ce primești</h2><ul>{contents.split('\n').filter(Boolean).map((line,i) => <li key={i}>{line.replace(/^\s*[•*-]\s*/, '')}</li>)}</ul></div>}
@@ -52,7 +53,7 @@ export default function ProductPurchaseActions({product}: {product: Product}) {
     <button className="section-link" onClick={() => guide.current?.showModal()}>Verifică dacă se potrivește</button>
     <p className="availability" role="status">{unavailable?'Momentan indisponibil':needsVariant?'Selectează varianta dorită.':'Disponibilitate verificată din nou înainte de comandă.'}</p>
     <div className="purchase-controls"><div className="quantity-control"><button aria-label="Scade cantitatea" disabled={quantity===1} onClick={() => setQuantity(n=>Math.max(1,n-1))}>−</button><output aria-label="Cantitate">{quantity}</output><button aria-label="Crește cantitatea" disabled={quantity===20} onClick={() => setQuantity(n=>Math.min(20,n+1))}>+</button></div><button ref={mainButton} className="button-primary" disabled={unavailable} onClick={purchase}>{needsVariant?'Alege dimensiunea':'Adaugă în coș'}</button></div>
-    <p className="purchase-promotion">La cel puțin două articole din afara Super Sale: −10% la o singură bucată, cea mai ieftină dintre ele. <Link href="/promotii">Condiții</Link></p>
+    <p className="purchase-promotion">{product.discountExcluded ? "Preț promoțional final. Oferta nu se cumulează cu alte reduceri sau cupoane." : "La cel puțin două articole eligibile: −10% la o singură bucată, cea mai ieftină dintre ele. Super Sale și ofertele pentru baie sunt excluse."} <Link href="/promotii">Condiții</Link></p>
     {showSticky && !isOpen && !keyboard && <div className="sticky-purchase"><strong>{price}</strong><button className="button-primary" disabled={unavailable} onClick={purchase}>{needsVariant?'Alege dimensiunea':'Adaugă în coș'}</button></div>}
     <dialog ref={guide} className="store-dialog" aria-labelledby="fit-title"><div className="dialog-heading"><h2 id="fit-title">Verifică dacă se potrivește</h2><button onClick={() => guide.current?.close()} aria-label="Închide ghidul">✕</button></div><p>Compară dimensiunile saltelei, pilotei și pernelor cu piesele incluse. Dimensiunea husei de pilotă nu este dimensiunea saltelei.</p>{product.variants?.length ? <ul className="fit-list">{product.variants.map(v => <li key={v.id}><strong>{variantLabel(v)}</strong><p>{v.contents}</p></li>)}</ul> : <p className="fit-list">{product.description}</p>}<Link className="section-link" href="/ghid-dimensiuni">Deschide ghidul de alegere →</Link></dialog>
   </div>;

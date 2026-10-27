@@ -1,9 +1,9 @@
 export const FREE_SHIPPING_CENTS = 39_900;
 export const SECOND_ITEM_DISCOUNT_PERCENT = 10;
 export const SECOND_ITEM_OFFER = "10% reducere la al doilea produs";
-export const SECOND_ITEM_TERMS = "La minimum două articole din afara Super Sale, primești 10% reducere la o singură bucată, cea mai ieftină dintre articolele eligibile. Inclusiv două bucăți din același model. Produsele Super Sale sunt excluse.";
+export const SECOND_ITEM_TERMS = "La minimum două articole eligibile, primești 10% reducere la o singură bucată, cea mai ieftină dintre articolele eligibile. Inclusiv două bucăți din același model. Produsele Super Sale și ofertele pentru baie sunt excluse.";
 
-export type OfferItem = { productId: number; price: number; quantity: number; superSale?: boolean; currency?: string };
+export type OfferItem = { productId: number; price: number; quantity: number; superSale?: boolean; discountExcluded?: boolean; currency?: string };
 export function cartOffers(items: readonly OfferItem[]) {
   let subtotalCents = 0, quantity = 0, eligibleQuantity = 0;
   let cheapest: { productId: number; unitPriceCents: number } | undefined;
@@ -14,7 +14,7 @@ export function cartOffers(items: readonly OfferItem[]) {
     subtotalCents += unitPriceCents * item.quantity;
     quantity += item.quantity;
     if (!Number.isSafeInteger(subtotalCents) || !Number.isSafeInteger(quantity)) throw new Error("Coș prea mare.");
-    if (item.superSale) continue;
+    if (item.superSale || item.discountExcluded) continue;
     eligibleQuantity += item.quantity;
     if (!cheapest || unitPriceCents < cheapest.unitPriceCents) cheapest = { productId: item.productId, unitPriceCents };
   }

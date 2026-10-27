@@ -4,18 +4,16 @@ import Image, { getImageProps } from "next/image";
 import { categoryProducts } from "@/lib/categories";
 import { navigationGroups, groupHref } from "@/lib/navigation-groups";
 import Link from "next/link";
-import { formatProductPriceRange, formatProductPrice } from "@/lib/products";
-
-const selectionIds = [101399, 101400, 158295, 158310, 138602, 138608, 76882, 76885, 76895, 76899];
+import { formatProductPriceRange } from "@/lib/products";
+import { formatProductReferenceRange } from '@/lib/product-format';
+import { homeOffers } from '@/lib/home-offers';
 
 export default async function Hero() {
   const allProducts = await getLiveProducts();
   const getProductById = (id: number) => allProducts.find(p => p.id === id);
-  const saleSelection = allProducts.filter(p => p.tag === "Super Sale" && p.inStock !== false).filter((p,i,all) => all.findIndex(other => other.categoryPath?.split("/")[0] === p.categoryPath?.split("/")[0]) === i).slice(0,6).map(p => ({id:p.id,label:({"lenjerii-de-pat":"Lenjerie creponată",pilote:"Pilotă Finet",perne:"Pernă cu puf",paturi:"Pătură Cocolino",cuverturi:"Cuvertură muselină","huse-de-pat":"Husă Finet"} as Record<string,string>)[p.categoryPath?.split("/")[0] ?? ""] ?? p.name}));
-  const products = selectionIds.flatMap(id => {
-    const product = getProductById(id);
-    return product && product.inStock !== false ? [product] : [];
-  });
+  const featuredOffers = homeOffers(allProducts);
+  const saleSelection = featuredOffers.slice(0, 6).map(product => ({id: product.id, label: product.name}));
+  const products = featuredOffers.slice(6, 16);
   const mobileBanner = getImageProps({src: "/editorial/produse-ambalate-mobile-v2.webp", alt: "", width: 684, height: 2048, sizes: "35vw"}).props;
   return <section className="home-shop-start" aria-label="Produse și inspirație pentru acasă">
       <div className="home-start-message home-local-message">
@@ -25,11 +23,11 @@ export default async function Hero() {
         <BeddingFinderLink className="home-finder-button"/>
       </div>
     <div className="home-start-catalog">
-      <h2 className="home-sale-title"><Link href="/shop?categorie=oferte" className="home-sale-link"><span className="home-sale-heading"><span className="home-sale-icon" aria-hidden="true">✦</span><span>Super Sale<small>Prețuri reduse, confort din plin</small></span></span><span className="home-sale-link-action">Vezi ofertele <span aria-hidden="true">↗</span></span></Link></h2>
-      <nav className="home-mini-picks" aria-label="Selecție Super Sale">{saleSelection.map(({ id, label }, index) => {
+      <h2 className="home-sale-title"><Link href="/shop?categorie=oferte" className="home-sale-link"><span className="home-sale-heading"><span className="home-sale-icon" aria-hidden="true">✦</span><span>Super Sales · Black Friday<small>Reduceri de peste 40%</small></span></span><span className="home-sale-link-action">Vezi ofertele <span aria-hidden="true">↗</span></span></Link></h2>
+      <nav className="home-mini-picks" aria-label="Selecție Super Sales Black Friday">{saleSelection.map(({ id, label }, index) => {
         const product = getProductById(id);
         if (!product || product.inStock === false || product.tag !== "Super Sale") return null;
-        return <Link key={id} href={`/product/${product.id}`}><Image src={product.image} alt="" width={180} height={150} loading={index < 2 ? "eager" : "lazy"} fetchPriority={index === 0 ? "high" : "auto"} sizes="(max-width:700px) 45vw, 20vw"/><span>{label}</span><span className="home-mini-pricing">{product.oldPrice && <del aria-label="Preț anterior">{formatProductPrice(product.oldPrice, product.currency)}</del>}<strong className="home-mini-price">{formatProductPriceRange(product)}</strong></span>{product.discount && <span className="sale-percent-badge">−{product.discount}%</span>}</Link>;
+        return <Link key={id} href={`/product/${product.id}`}><Image src={product.image} alt="" width={180} height={150} loading={index < 2 ? "eager" : "lazy"} fetchPriority={index === 0 ? "high" : "auto"} sizes="(max-width:700px) 45vw, 20vw"/><span>{label}</span><span className="home-mini-pricing">{formatProductReferenceRange(product) && <del aria-label="Preț de referință">{formatProductReferenceRange(product)}</del>}<strong className="home-mini-price">{formatProductPriceRange(product)}</strong></span>{product.discount && <span className="sale-percent-badge">−{product.discount}%</span>}</Link>;
       })}</nav>
       </div>
       <nav className="home-mini-categories" aria-label="Categorii de produse">{navigationGroups.map(group => {
@@ -38,16 +36,16 @@ export default async function Hero() {
         return <Link key={group.slug} href={groupHref(group.slug)}>{cover && <Image src={cover.image} alt="" width={100} height={100} sizes="(max-width:700px) 14vw, 8vw"/>}<span>{group.name}</span></Link>;
       })}</nav>
       <div className="home-full-catalog">
-      <h2 className="home-start-title">Produse pentru casa ta</h2>
+      <h2 className="home-start-title">Reduceri de peste 40% pentru casa ta</h2>
       <div className="home-start-products">{products.map((product, index) => {
         const reduced = !!product.oldPrice && product.oldPrice > product.price;
         return <article className="home-start-product" key={product.id}>
           <Link href={`/product/${product.id}`} className="home-start-photo" aria-label={product.name}>
             <Image src={product.image} alt={product.name} width={600} height={800} sizes="(max-width: 700px) 44vw, 30vw" loading={index < 2 ? "eager" : "lazy"}/>
-            {reduced && <span className="home-start-discount">−{Math.round((1 - product.price / product.oldPrice!) * 100)}%</span>}
+            {reduced && <span className="home-start-discount">−{product.discount}%</span>}
           </Link>
           <h2><Link href={`/product/${product.id}`}>{product.name}</Link></h2>
-          <p className="home-start-price">{reduced && <del>{formatProductPrice(product.oldPrice!, product.currency)}</del>}<strong>{formatProductPrice(product.price, product.currency)}</strong></p>
+          <p className="home-start-price">{reduced && <del>{formatProductReferenceRange(product)}</del>}<strong>{formatProductPriceRange(product)}</strong></p>
           <Link href={`/product/${product.id}`} className="home-start-action">Vezi produsul <span aria-hidden="true">↗</span></Link>
         </article>;
       })}</div>

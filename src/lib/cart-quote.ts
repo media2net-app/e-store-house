@@ -8,6 +8,7 @@ export type RequestedCartLine = { productId: number; quantity: number };
 export type QuotedCartLine = {
   productId: number;
   superSale: boolean;
+  discountExcluded?: boolean;
   sku?: string;
   bundleComponents?: Product["bundleComponents"];
   name: string;
@@ -45,6 +46,7 @@ export function quoteCart(requested: unknown, catalog: Product[] = allProducts, 
     return {
       category: product.category, categoryPath: product.categoryPath,
       productId, quantity, price, currency: product.currency, superSale: product.tag === "Super Sale",
+      discountExcluded: product.discountExcluded,
       sku: variant?.sku ?? product.sku,
       bundleComponents: variant?.bundleComponents ?? product.bundleComponents,
       name: variant ? `${product.name} — ${variant.name}` : product.name,
@@ -69,14 +71,16 @@ export function quoteCart(requested: unknown, catalog: Product[] = allProducts, 
 }
 
 // Restoring browser storage may discard stale lines; checkout always uses strict quoteCart.
-export function restoreCart(requested: unknown, catalog: Product[] = allProducts) {
+export function restoreCart(requested: unknown, catalog: Product[] = allProducts, legacyIds: Record<string, number> = {}) {
   if (!Array.isArray(requested) || requested.length > 30) throw new Error("Coș salvat invalid.");
   const lines: QuotedCartLine[] = [];
   const seen = new Set<number>();
   let removedCount = 0;
   for (const entry of requested) {
     try {
-      const line = quoteCart([entry], catalog).lines[0];
+      const oldId = entry && typeof entry === "object" ? entry.productId : undefined;
+      const canonicalId = Number.isSafeInteger(oldId) ? legacyIds[String(oldId)] : undefined;
+      const line = quoteCart([canonicalId ? { ...entry, productId: canonicalId } : entry], catalog).lines[0];
       if (seen.has(line.productId)) throw new Error("Produs repetat.");
       seen.add(line.productId);
       lines.push(line);

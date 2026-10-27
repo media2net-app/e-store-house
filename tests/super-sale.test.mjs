@@ -7,16 +7,19 @@ import {validateSuperSale} from '../scripts/validate-super-sale.mjs';
 const require=createRequire(import.meta.url),Module=require('node:module');
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
 const products=read('src/data/products.json'),offers=read('src/data/super-sale.json'),evidence=read('catalog-review/price-verification-29-20261022/results.json');
-function load(file,mocks){const m=new Module(file);m.require=id=>{assert(Object.hasOwn(mocks,id),id);return mocks[id]};m._compile(ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText,file);return m.exports;}
-const sale=load('src/lib/super-sale.ts',{'@/data/super-sale.json':offers});
-const {allProducts}=load('src/lib/products.ts',{'./product-colors':{withProductColors:p=>p},'./super-sale':sale,'@/data/quality-hold.json':[],'@/data/products.json':products,'./product-format':{}});
+function load(file,mocks){const m=new Module(file);m.require=id=>{assert(Object.hasOwn(mocks,id),id);return mocks[id]};m._compile(ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText,file);return m.exports;}
+const sale=load('src/lib/super-sale.ts',{'@/data/super-sale.json':offers,'@/data/bath-offers.json':read('src/data/bath-offers.json')});
+const bath=load('src/lib/bath-offers.ts',{'@/data/bath-offers.json':read('src/data/bath-offers.json')});
+const {allProducts}=load('src/lib/products.ts',{'./product-colors':{withProductColors:p=>p},'./super-sale':sale,'./bath-offers':bath,'@/data/quality-hold.json':[],'@/data/products.json':products,'./product-format':{}});
 const cartOffers=load('src/lib/cart-offers.ts',{});
 const {quoteCart}=load('src/lib/cart-quote.ts',{'server-only':{},'@/lib/cart-offers':cartOffers,'@/lib/black-friday':{quoteBlackFridayCoupon:()=>null},'@/lib/products':{allProducts}});
 test('exactly 30 whole-lei supplier-plus-10% offers compared with actual prior selling prices',()=>{
  assert.equal(validateSuperSale(products,offers,evidence),30);
- assert.equal(allProducts.filter(p=>p.tag==='Super Sale').length,30);
+ assert.equal(allProducts.filter(p=>p.tag==='Super Sale').length,116);
+ assert.equal(sale.SUPER_SALE_IDS.length,116);
  for(const p of products){
   const actual=allProducts.find(x=>x.id===p.id),offer=offers.find(x=>x.id===p.id);
+  if(actual.discountExcluded){assert.deepEqual(actual,bath.applyBathOffer(sale.applySuperSale(p)));continue;}
   if(!offer){assert.deepEqual(actual,p);continue;}
   assert.equal(actual.price,offer.price);assert(Number.isInteger(actual.price));
   assert.equal(actual.oldPrice,offer.comparisonPrice);
@@ -28,7 +31,7 @@ test('exactly 30 whole-lei supplier-plus-10% offers compared with actual prior s
 
 });
 test('all promotion prices are charged on the server, with no extra second-item discount',()=>{
- for(const offer of offers){const q=quoteCart([{productId:offer.id,quantity:2}]);assert.equal(q.lines[0].price,offer.price);assert.equal(q.lines[0].superSale,true);assert.equal(q.totals.discountCents,0);assert.equal(q.totals.totalCents,Math.round(offer.price*100)*2);}
+ for(const offer of offers){const expected=bath.applyBathOffer(sale.applySuperSale(products.find(p=>p.id===offer.id))).price;const q=quoteCart([{productId:offer.id,quantity:2}]);assert.equal(q.lines[0].price,expected);assert.equal(q.lines[0].superSale,true);assert.equal(q.totals.discountCents,0);assert.equal(q.totals.totalCents,Math.round(expected*100)*2);}
 });
 test('campaign rejects mistaken SKU, supplier price or reference price',()=>{
  for(const field of ['sku','price','referencePrice','comparisonPrice']){const bad=structuredClone(offers);bad[0][field]=field==='sku'?'999999':0;assert.throws(()=>validateSuperSale(products,bad,evidence));}

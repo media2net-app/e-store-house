@@ -32,3 +32,11 @@ export const formatProductPriceRange = (product: Product) => {
   }
   return min === max ? formatProductPrice(min, product.currency) : `${formatProductPrice(min, product.currency)}–${formatProductPrice(max, product.currency)}`;
 };
+
+export const formatProductReferenceRange = (product: Product) => {
+  if (product.variants?.length) {
+    if (product.variants.some(variant => !variant.oldPrice)) return null;
+    return formatProductPriceRange({ ...product, variants: product.variants.map(variant => ({ ...variant, price: variant.oldPrice! })) });
+  }
+  return product.oldPrice ? formatProductPrice(product.oldPrice, product.currency) : null;
+};

@@ -469,7 +469,7 @@
   },
   {
     "path": "oferte",
-    "name": "Super Sale",
+    "name": "Super Sales · Black Friday",
     "parent": null,
     "sourceUrl": "https://ralexpucioasa.ro/categorie-produs/oferte/"
   },
@@ -520,5 +520,11 @@
     "name": "Lenjerii Finet 4 piese",
     "parent": "lenjerii-de-pat/lenjerii-de-pat-policoton",
     "sourceUrl": "https://ralexpucioasa.ro/store/produse-hotel/lenjerie-pat-finet-horeca-king-size/"
+  },
+  {
+    "path": "articole-baie/covorase-baie",
+    "name": "Covorașe baie",
+    "parent": "articole-baie",
+    "sourceUrl": "https://ralexpucioasa.ro/store/articole-baie/covoras-baie-greek-border/"
   }
 ]

@@ -66,3 +66,14 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Merchant now requests supplier +10% for the 30 Super Sale models, rounded UP to whole lei. This supersedes the additional 30% campaign rule; regular catalog prices are unchanged.
 - Merchant clarified the crossed-out price must be the ACTUAL current campaign selling price before this update, not the standard catalog price. Preserve it as comparisonPrice. Show only crossed-out price, new whole-lei price and percentage badge next to products, without explanatory copy. Floor the percentage after rounding the final selling price. Retain existing historical evidence unchanged, but do not assert that the launch comparison is the 30-day minimum.
 - The merchant will post on Instagram themselves. Do not publish social posts.
+
+
+## Bath publication and reseller promotion — 27 October 2026
+
+- Merchant authorized all 89 supplier bath models / 203 variants, Control first then website, matching numeric SKU/barcode and preserving existing records. All 203 bath variants have stock 100, including six existing local stock corrections; no Trendyol stock submission. Existing Control and marketplace prices remain unchanged.
+- Merchant extended website promotional pricing to existing similar bath models/colors: use the authenticated reseller acquisition cost, final price ceil(cost / 0.70), comparison ceil(final / 0.55), integer displayed discount calculated from those prices (over 40%). Keep private reseller evidence in the Desktop bath batch; do not assert the calculated comparison is a historical minimum.
+- Apply the bath campaign after existing Super Sale pricing for overlapping bath products. No additional cart/coupon discounts on bath campaign items, to preserve minimum 30% gross merchandise margin.
+- Complete missing size variants under existing models. Publish saved-cart SKU aliases alongside the corresponding catalog conversions.
+
+- Merchant explicitly requests all bath offers included in Super Sale; visible navigation and campaign title: “Super Sales · Black Friday”. Preserve the separate Black Friday coupon dates.
+- Homepage merchandise selections show only available Super Sale items with more than 40% discount for every size; keep other offers in the complete campaign page. Black Friday color changes are deferred until publication is finished.

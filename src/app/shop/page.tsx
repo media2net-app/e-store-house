@@ -24,7 +24,7 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
   const params = await searchParams;
   const { categorie, pagina } = params;
   const active = typeof categorie === "string" ? getCategory(categorie) ?? navigationGroups.find(group => group.slug === categorie) : undefined;
-  const title = categorie === "oferte" ? "Super Sale" : active?.name ?? "Magazinul de textile pentru casă";
+  const title = categorie === "oferte" ? "Super Sales · Black Friday" : active?.name ?? "Magazinul de textile pentru casă";
   const canonicalParams = new URLSearchParams();
   if (active && typeof categorie === 'string') canonicalParams.set('categorie', categorie);
   const requested = typeof pagina === 'string' && /^\d+$/.test(pagina) ? Number(pagina) : 1;
@@ -38,7 +38,7 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
   const filtered = ['q','material','culoare','dimensiune','cearsaf','stoc','pret_min','pret_max','sortare'].some(key => Boolean(params[key as keyof ShopParams]));
   return {
     title, description: categorie === "oferte"
-      ? "Descoperă selecția de produse Super Sale. Nu se cumulează cu reducerea de 10% la al doilea produs."
+      ? "Descoperă selecția Super Sales · Black Friday. Nu se cumulează cu reducerea de 10% la al doilea produs."
       : active ? `${active.name}: ${categoryContent(typeof categorie === "string" ? categorie : undefined)?.description || "Vezi dimensiunile, materialele și variantele disponibile în E-Store House."}`
         : "Descoperă textile pentru casă disponibile în magazinul E-Store House.",
     alternates: { canonical }, robots: filtered || outOfRange ? { index: false, follow: true } : undefined,
@@ -109,7 +109,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
           {group ? <span> / {group.name}</span> : null}
         </nav>
         <h1 className="font-[family-name:var(--font-playfair)] text-4xl font-semibold text-[#3b2d24]">
-          {query ? `Rezultate pentru „${query}”` : active?.path === "oferte" ? "Super Sale" : active?.name ?? "Toate produsele"}
+          {query ? `Rezultate pentru „${query}”` : active?.path === "oferte" ? "Super Sales · Black Friday" : active?.name ?? "Toate produsele"}
         </h1>
         <p className="mt-2 text-sm text-[#3b2d24]/80">
           {products.length ? `${products.length} ${products.length === 1 ? "produs" : "produse"}. Afișăm ${(page - 1) * pageSize + 1}–${Math.min(page * pageSize, products.length)}.` : "Nu am găsit produse pentru această selecție."}

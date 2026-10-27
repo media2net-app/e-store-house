@@ -52,10 +52,11 @@ const companions: Record<string, string[]> = {
   "terasa-si-gradina": ["fete-de-masa", "paturi"],
   "fete-de-masa": ["terasa-si-gradina"],
 };
-export function diverseProducts(products: Product[], limit = 8) {
+export function diverseProducts(products: Product[], limit = 8, categoryKey: (product: Product) => string = root) {
   const candidates = products.filter(available), selected: Product[] = [], seen = new Set<string>();
   for (const product of candidates) {
-    if (!seen.has(root(product))) { selected.push(product); seen.add(root(product)); }
+    const key = categoryKey(product);
+    if (!seen.has(key)) { selected.push(product); seen.add(key); }
     if (selected.length === limit) return selected;
   }
   return [...selected, ...candidates.filter((p) => !selected.some((item) => item.id === p.id))].slice(0, limit);
@@ -87,6 +88,7 @@ export function recommendations(product: Product, catalog: Product[]) {
   const relatedRoots = companions[root(product)] ?? [];
   const otherCategories = ranked.filter((item) => !sameKind(product, item));
   const companionCandidates = otherCategories.filter((item) => relatedRoots.includes(root(item)));
-  const complementary = diverseProducts([...companionCandidates, ...otherCategories.filter((item) => !companionCandidates.some((p) => p.id === item.id))], 8);
+  const complementary = diverseProducts([...companionCandidates, ...otherCategories.filter((item) => !companionCandidates.some((p) => p.id === item.id))], 8,
+    item => root(product) === 'articole-baie' && root(item) === 'articole-baie' ? item.categoryPath! : root(item));
   return { similar, complementary, hasCompanions: companionCandidates.length > 0 };
 }
