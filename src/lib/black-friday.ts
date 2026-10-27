@@ -22,12 +22,15 @@ export function quoteBlackFridayCoupon(codeInput: unknown, lines: readonly Coupo
   if (codeInput === undefined || codeInput === null || codeInput === "") return null;
   if (typeof codeInput !== "string" || codeInput.length > 24) throw new Error("Codul de reducere nu este valid.");
   const code = codeInput.trim().toUpperCase();
-  if (!["BFCOS", "BFSET20", "BF3", "BF4"].includes(code)) throw new Error("Codul de reducere nu există.");
+  if (!["BFCOS", "BFSET20", "BF3", "BF4", "BFBAIE20", "BFDORMITOR40"].includes(code)) throw new Error("Codul de reducere nu există.");
   if (!blackFridayActive(now)) throw new Error("Cupoanele Black Friday sunt valabile între 3 și 16 noiembrie 2026.");
 
   let eligibleCents = 0;
   let eligibleUnits = 0;
+  let bathCents = 0;
+  let bathUnits = 0;
   let hasBedding = false;
+  let hasDuvet = false;
   let hasSetAccessory = false;
   for (const line of lines) {
     if (line.superSale || !line.sku) continue;
@@ -37,7 +40,12 @@ export function quoteBlackFridayCoupon(codeInput: unknown, lines: readonly Coupo
     eligibleCents += unitCents * line.quantity;
     eligibleUnits += line.quantity;
     const mainCategory = line.categoryPath?.split("/")[0];
+    if (mainCategory === "articole-baie") {
+      bathCents += unitCents * line.quantity;
+      bathUnits += line.quantity;
+    }
     if (mainCategory === "lenjerii-de-pat") hasBedding = true;
+    if (mainCategory === "pilote") hasDuvet = true;
     if ((mainCategory === "perne" || mainCategory === "protectii-saltea") && unitCents >= 5_900) hasSetAccessory = true;
   }
 
@@ -52,6 +60,10 @@ export function quoteBlackFridayCoupon(codeInput: unknown, lines: readonly Coupo
     coupon = { code, discountCents: 3_000, label: "Black Friday: 3+ produse" };
   } else if (code === "BF4" && eligibleUnits >= 4 && eligibleCents >= 99_900) {
     coupon = { code, discountCents: 5_000, label: "Black Friday: 4+ produse" };
+  } else if (code === "BFBAIE20" && bathUnits >= 3 && bathCents >= 39_900) {
+    coupon = { code, discountCents: 2_000, label: "Black Friday: set pentru baie" };
+  } else if (code === "BFDORMITOR40" && hasBedding && hasDuvet && hasSetAccessory && eligibleCents >= 79_900) {
+    coupon = { code, discountCents: 4_000, label: "Black Friday: dormitor complet" };
   }
   if (!coupon) throw new Error("Coșul nu îndeplinește condițiile acestui cupon. Produsele Super Sale și cele fără cost verificat nu se iau în calcul.");
   if (coupon.discountCents <= automaticDiscountCents) {
