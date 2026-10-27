@@ -5,6 +5,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import { CartProvider } from "@/components/cart/CartProvider";
 import "./globals.css";
 import "./comfort.css";
+import "./black-friday.css";
 
 const inter = Inter({
   variable: "--font-inter",

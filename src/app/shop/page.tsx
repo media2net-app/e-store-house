@@ -108,12 +108,14 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
           {active ? categoryTrail(active.path).map((category) => <span key={category.path}> / <Link href={categoryHref(category.path)} aria-current={category.path === active.path ? "page" : undefined} className="hover:underline">{category.name}</Link></span>) : null}
           {group ? <span> / {group.name}</span> : null}
         </nav>
+        <div className={active?.path === "oferte" ? "black-friday-intro" : undefined}>
         <h1 className="font-[family-name:var(--font-playfair)] text-4xl font-semibold text-[#3b2d24]">
           {query ? `Rezultate pentru „${query}”` : active?.path === "oferte" ? "Super Sales · Black Friday" : active?.name ?? "Toate produsele"}
         </h1>
         <p className="mt-2 text-sm text-[#3b2d24]/80">
           {products.length ? `${products.length} ${products.length === 1 ? "produs" : "produse"}. Afișăm ${(page - 1) * pageSize + 1}–${Math.min(page * pageSize, products.length)}.` : "Nu am găsit produse pentru această selecție."}
         </p>
+        </div>
         {active?.path === "oferte" ? <p className="mt-4 rounded-xl border border-[#d8c4a0] bg-[#fcf7ee] px-5 py-4 text-sm leading-relaxed text-[#3b2d24]">
           Produsele Super Sale au reducerea inclusă în prețul afișat și sunt excluse din oferta de 10% la al doilea produs. <Link href="/promotii" className="font-semibold underline">Vezi condițiile ofertei</Link>.
         </p> : null}

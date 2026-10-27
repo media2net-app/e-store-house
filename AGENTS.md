@@ -77,3 +77,5 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 - Merchant explicitly requests all bath offers included in Super Sale; visible navigation and campaign title: “Super Sales · Black Friday”. Preserve the separate Black Friday coupon dates.
 - Homepage merchandise selections show only available Super Sale items with more than 40% discount for every size; keep other offers in the complete campaign page. Black Friday color changes are deferred until publication is finished.
+
+- Merchant authorized the deferred Black Friday palette on 27 October 2026: charcoal campaign surfaces, gold headings/actions, red discount badges, cream shopping surfaces. Seasonal overrides are in src/app/black-friday.css; do not change commercial calculations as part of styling.

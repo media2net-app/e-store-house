@@ -1,0 +1,70 @@
+/* Seasonal campaign palette; cream storefront and product photography stay clear. */
+:root {
+  --bf-charcoal: #202124;
+  --bf-gold: #f2ce83;
+  --bf-red: #bd2635;
+}
+
+.home-start-catalog {
+  padding: clamp(14px, 2vw, 24px);
+  border: 1px solid #494138;
+  border-radius: 20px;
+  background: var(--bf-charcoal);
+  color: #fff8ed;
+}
+.home-sale-link {
+  background: linear-gradient(120deg, #202124, #33302a);
+  border-color: #b89552;
+  color: var(--bf-gold);
+  box-shadow: none;
+}
+.home-sale-link:hover {
+  background: #34312c;
+  box-shadow: 0 4px 18px #00000020;
+}
+.home-sale-heading { min-width: 0; }
+.home-sale-heading > span:last-child { min-width: 0; overflow-wrap: anywhere; }
+.home-sale-heading small { color: #fff8ed; }
+.home-sale-icon, .home-sale-link-action {
+  background: var(--bf-gold);
+  color: var(--bf-charcoal);
+}
+.home-sale-link:focus-visible {
+  outline: 3px solid var(--bf-gold);
+  outline-offset: 4px;
+}
+.home-start-catalog .home-mini-picks { height: auto; margin-bottom: 0; }
+.home-start-catalog .home-mini-picks a { color: #fff8ed; }
+.home-start-catalog .home-mini-pricing del { color: #d7cec0; }
+.home-start-catalog .home-mini-pricing .home-mini-price { color: var(--bf-gold); }
+.home-start-catalog .home-mini-picks a:focus-visible {
+  outline: 3px solid var(--bf-gold);
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+.header-links .sale-nav-link, .navigation-dialog nav .sale-nav-link {
+  background: var(--bf-charcoal);
+  color: var(--bf-gold);
+  border-color: #b89552;
+}
+.header-links .sale-nav-link:hover, .navigation-dialog nav .sale-nav-link:hover {
+  background: #34312c;
+}
+.sale-percent-badge, .sale-inline-badge, .home-start-discount {
+  background: var(--bf-red);
+  color: #fff;
+}
+.black-friday-intro {
+  padding: clamp(20px, 4vw, 40px);
+  border: 1px solid #b89552;
+  border-radius: 18px;
+  background: linear-gradient(120deg, #202124, #33302a);
+}
+.black-friday-intro h1 { color: var(--bf-gold); overflow-wrap: anywhere; }
+.black-friday-intro p { color: #fff8ed; }
+@media (max-width: 700px) {
+  .home-start-catalog .home-sale-link { padding: 14px; }
+  .home-start-catalog .home-sale-heading { font-size: clamp(22px, 6vw, 28px); gap: 10px; }
+  .home-start-catalog .home-sale-icon { width: 36px; height: 36px; font-size: 26px; }
+  .black-friday-intro h1 { font-size: clamp(26px, 7vw, 36px); }
+}

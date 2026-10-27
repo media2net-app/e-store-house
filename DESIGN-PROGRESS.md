@@ -296,3 +296,12 @@ A further short-viewport check exposed an existing drawer footer overflow at 844
 Public mobile verification passed all 72 viewport/page/scroll combinations, short-screen drawer navigation, menu/search, axe and desktop overflow checks. Live quote audit passed server-side repricing, eligible-unit discount, Super Sale exclusions, invalid/duplicate quantity rejection and unavailable product rejection. Persistence audit passed separate variants, removal and Escape focus restoration, but reproduced a defect: one unavailable saved line discarded the whole saved cart.
 
 Added a separate restoration endpoint that validates/reprices every saved line, retains valid distinct lines, and reports removals in both the drawer and cart page. Strict checkout quotation remains unchanged: it still rejects unavailable items, malformed quantities, duplicates and over-stock requests. Added regression coverage for mixed availability, stale prices, stock limits, duplicates, malformed storage and oversized baskets. Ten targeted audit tests passed; production/browser checks follow.
+
+
+## Black Friday palette — 27 October 2026
+
+Merchant authorized implementation/publication after the bath catalog completed. Added a seasonal stylesheet after comfort.css: charcoal homepage offer selection and campaign heading, gold campaign navigation/CTA, red discount badges. Cream storefront, product photos, cart geometry and commerce calculations remain intact. Campaign heading wraps and scales on small screens; no additional JS, assets or dependencies.
+
+Contrast calculations passed: gold/charcoal 10.68:1, cream/charcoal 15.26:1, secondary reference text/charcoal 10.33:1, white/red badges 6.01:1, gold/lightest gradient stop 8.72:1. Browser automation is unavailable due the prior session URL restriction; no new browser screenshots, device emulation or visual mobile verification claimed. Responsive CSS inspected; production build and live stylesheet verification recorded below after completion.
+
+Validation: final npm run build passed (catalog validation, 80/80 store tests, TypeScript, 988 generated pages). Build log: /tmp/estore-black-friday-theme-build.log.
