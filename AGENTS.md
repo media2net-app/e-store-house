@@ -94,3 +94,5 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 - Merchant now limits the visible Super Sales collection to displayed discounts strictly greater than 40%, including every variant of a model. Use isVisibleSale in sale-selection.ts for category membership and homepage selection. Preserve existing prices and discount-stacking exclusions even for offers no longer shown in this collection.
 - Super Sales has two section buttons: Articole baie (selectie=baie) and Lenjerii de pat (selectie=lenjerii). Preserve section through filters, sorting, pagination and search reset; section switching starts a fresh selection. Current visible collection: 157 models, 89 bath + 68 bedding.
+
+- Merchant price-floor update: Damasc Policoton must start at 129 lei. Final price is now max(129, ceil(authenticated reseller cost / 0.70)); higher current campaign prices stay unchanged. Recalculate badge from the unchanged actual pre-campaign comparisonPrice. This raises 28 models from 112/118 to 129 lei; all remain over 40% off.

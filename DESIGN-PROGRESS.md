@@ -336,3 +336,5 @@ Validation: 90/90 store tests passed, including all 68 campaign SKU/reference ch
 Implemented a shared strict >40% rule for the campaign category and home offers, checking every variant. Added two responsive icon buttons with model counts and active selection, plus a return-to-all link. Section persists in filtering, sorting, pagination and empty/search reset links. Prices and stock unchanged. Browser verified both buttons and bedding selection; automated page and production checks recorded in the Desktop Super Sales selection batch.
 
 Targeted navigation test reached its existing image-presence check and failed on absent local public/products/quality-20261019/81336/02.png in this checkout; category assertions passed. This task does not change image files. Dedicated campaign tests and page checks validate the changed selection independently.
+
+Merchant follow-up: apply a 129 lei floor to Damasc Policoton. Raised 28 models (previously 112/118); retained 130/135/229 prices, reference prices, stock and discount exclusions. Resulting badge range 50–55%; entire 157-model Super Sales selection remains eligible.

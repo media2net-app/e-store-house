@@ -30,7 +30,7 @@ test('all 68 existing Damasc models use exact SKUs and their actual prior websit
     assert.equal(offer.variants[0].sku, original.sku);
     const result = applyDamascOffer(original);
     assert.equal(result.oldPrice, original.price);
-    assert(Number.isInteger(result.price) && result.price > 0);
+    assert(Number.isInteger(result.price) && result.price >= 129);
     assert.equal(result.discount, Math.floor((result.oldPrice-result.price)*100/result.oldPrice));
     assert(result.discount > 40);
     assert.equal(result.tag, 'Super Sale');
