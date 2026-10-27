@@ -1,6 +1,7 @@
 import "server-only";
 
-import { cartOffers } from "@/lib/cart-offers";
+import { cartOffers, FREE_SHIPPING_CENTS } from "@/lib/cart-offers";
+import { quoteBlackFridayCoupon } from "@/lib/black-friday";
 import { allProducts, type Product } from "@/lib/products";
 
 export type RequestedCartLine = { productId: number; quantity: number };
@@ -18,7 +19,7 @@ export type QuotedCartLine = {
   quantity: number;
 };
 
-export function quoteCart(requested: unknown, catalog: Product[] = allProducts) {
+export function quoteCart(requested: unknown, catalog: Product[] = allProducts, couponCode?: unknown) {
   if (!Array.isArray(requested) || requested.length === 0 || requested.length > 30) {
     throw new Error("Coșul este gol sau prea mare.");
   }
@@ -50,7 +51,21 @@ export function quoteCart(requested: unknown, catalog: Product[] = allProducts) 
       image: variant?.images?.[0] ?? product.image,
     };
   });
-  return { lines, totals: cartOffers(lines) };
+  const automatic = cartOffers(lines);
+  const coupon = quoteBlackFridayCoupon(couponCode, lines, automatic.discountCents);
+  const totals = coupon?.applied ? {
+    ...automatic,
+    discountCents: coupon.discountCents,
+    totalCents: automatic.subtotalCents - coupon.discountCents,
+    discountedProductId: undefined,
+    freeShipping: automatic.subtotalCents - coupon.discountCents >= FREE_SHIPPING_CENTS,
+    remainingShippingCents: Math.max(0, FREE_SHIPPING_CENTS - (automatic.subtotalCents - coupon.discountCents)),
+    shippingProgress: Math.min(100, (automatic.subtotalCents - coupon.discountCents) / FREE_SHIPPING_CENTS * 100),
+    promotionCode: coupon.code,
+    promotionLabel: coupon.label,
+    couponMessage: coupon.message,
+  } : { ...automatic, promotionCode: undefined, promotionLabel: undefined, couponMessage: coupon?.message };
+  return { lines, totals, couponCode: coupon?.code ?? null };
 }
 
 // Restoring browser storage may discard stale lines; checkout always uses strict quoteCart.

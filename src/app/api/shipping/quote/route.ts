@@ -12,8 +12,8 @@ export async function POST(request: Request) {
   let input, quote;
   try {
     input = await request.json();
-    quote = quoteCart(input.items, await getLiveProducts());
-  } catch { return NextResponse.json({ error: "Coș invalid." }, { status: 400 }); }
+    quote = quoteCart(input.items, await getLiveProducts(), input.couponCode);
+  } catch (error) { return NextResponse.json({ error: error instanceof Error ? error.message : "Coș invalid." }, { status: 400 }); }
   const customer = shippingCustomer(input.customer);
   const method = input.shippingMethod ?? "home";
   const paymentMethod = input.paymentMethod ?? "card";

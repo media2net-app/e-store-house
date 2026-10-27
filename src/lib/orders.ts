@@ -37,6 +37,7 @@ export type StoreOrder = {
   items: { productId: number; sku?: string; name: string; quantity: number; unitPriceCents: number }[];
   subtotalCents: number;
   discountCents: number;
+  couponCode?: string;
   shippingCents: number;
   shippingRateSource?: "fixed" | "sameday" | "free";
   shippingCarrier?: ShippingCarrier;

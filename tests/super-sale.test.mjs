@@ -11,7 +11,7 @@ function load(file,mocks){const m=new Module(file);m.require=id=>{assert(Object.
 const sale=load('src/lib/super-sale.ts',{'@/data/super-sale.json':offers});
 const {allProducts}=load('src/lib/products.ts',{'./product-colors':{withProductColors:p=>p},'./super-sale':sale,'@/data/quality-hold.json':[],'@/data/products.json':products,'./product-format':{}});
 const cartOffers=load('src/lib/cart-offers.ts',{});
-const {quoteCart}=load('src/lib/cart-quote.ts',{'server-only':{},'@/lib/cart-offers':cartOffers,'@/lib/products':{allProducts}});
+const {quoteCart}=load('src/lib/cart-quote.ts',{'server-only':{},'@/lib/cart-offers':cartOffers,'@/lib/black-friday':{quoteBlackFridayCoupon:()=>null},'@/lib/products':{allProducts}});
 test('exactly 30 whole-lei supplier-plus-10% offers compared with actual prior selling prices',()=>{
  assert.equal(validateSuperSale(products,offers,evidence),30);
  assert.equal(allProducts.filter(p=>p.tag==='Super Sale').length,30);
