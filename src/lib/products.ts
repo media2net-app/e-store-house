@@ -1,6 +1,7 @@
 import { withProductColors } from './product-colors';
 import { applySuperSale } from "./super-sale";
 import { applyBathOffer } from "./bath-offers";
+import { applyDamascOffer } from "./damasc-offers";
 import qualityHold from "@/data/quality-hold.json";
 import productsData from "@/data/products.json";
 
@@ -36,7 +37,7 @@ export type Product = {
   tag?: string;
 };
 
-export const allProducts: Product[] = (productsData as Product[]).filter((product) => !qualityHold.includes(product.id)).map(applySuperSale).map(applyBathOffer).map(withProductColors);
+export const allProducts: Product[] = (productsData as Product[]).filter((product) => !qualityHold.includes(product.id)).map(applySuperSale).map(applyBathOffer).map(applyDamascOffer).map(withProductColors);
 export const featuredProducts: Product[] = [
   ...allProducts.filter((product) => product.categoryPath?.endsWith("/lenjerii-percale-imprimat")).slice(0, 4),
   ...allProducts.filter((product) => product.categoryPath?.endsWith("/lenjerii-de-pat-ranforce-butique")).slice(0, 4),

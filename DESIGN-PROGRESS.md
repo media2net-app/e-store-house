@@ -324,3 +324,9 @@ Merchant requested removing the first introductory Black Friday box and retainin
 ## Bath easybox package profiles — 27 October 2026
 
 Merchant supplied packed dimensions for robes (30×30×10 cm), towels (30×30×5 cm), mats (40×40×10 cm), then explicitly confirmed 2 kg for every packed item. Added all 203 exact bath SKU package profiles: 58 robe variants, 144 towel variants, 1 mat. Existing conservative aggregate box calculation and 20 kg / drawer size constraints remain active; no guessed package measurements. Eligible carts use the existing 17 lei easybox fee; oversized combinations retain home delivery.
+
+## 27 October 2026 — Damasc reseller campaign
+
+Prepared 68 existing models for Super Sales, using authenticated Ralex costs matched by exact SKU/variant. Final prices 112–229 lei, actual prior website prices crossed out, displayed reductions 54–56%. All are excluded from additional discounts; stock and product content preserved. Acquisition evidence remains private in the Desktop Damasc batch. Local and production verification recorded below once completed.
+
+Validation: 90/90 store tests passed, including all 68 campaign SKU/reference checks and checkout exclusion checks; TypeScript and catalog validation passed (940 models / 1,482 SKUs). Production verification pending deployment.

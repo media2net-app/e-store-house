@@ -83,3 +83,9 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Merchant update 27 October: homepage must lead with Black Friday before other content. Display product dimensions on home/catalog cards and prominently in purchase controls. Preserve single-size dimensions when flattening supplier variants; never infer dimensions from images.
 
 - Merchant confirmed packed bath dimensions on 27 October 2026: robes 30×30×10 cm, towels 30×30×5 cm, bath mats 40×40×10 cm; weight 2 kg per packed item for all three categories. Apply by exact supplier SKU in shipping-packages.json. Preserve aggregate parcel size/weight limits for easybox and the 17 lei customer fee (free at the existing threshold).
+
+## Damasc Policoton reseller promotion — 27 October 2026
+
+- Merchant authorized all 68 existing Damasc Policoton models in Super Sales: exact authenticated reseller cost / 0.70, rounded UP to whole lei. Use the actual website selling price before this update as comparisonPrice; floor the percentage. No additional automatic/cart/coupon discounts.
+- Configuration: src/data/damasc-offers.json. Private reseller costs and exact variant evidence stay in the Desktop Damasc batch, never in the public bundle. King size model 95157 maps to supplier variant/barcode 95160; do not use the supplier parent minimum price.
+- Preserve existing products, galleries, stock, bath offers and Control/marketplace prices. Total campaign membership becomes 184 models.
