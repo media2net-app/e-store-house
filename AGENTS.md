@@ -79,3 +79,5 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Homepage merchandise selections show only available Super Sale items with more than 40% discount for every size; keep other offers in the complete campaign page. Black Friday color changes are deferred until publication is finished.
 
 - Merchant authorized the deferred Black Friday palette on 27 October 2026: charcoal campaign surfaces, gold headings/actions, red discount badges, cream shopping surfaces. Seasonal overrides are in src/app/black-friday.css; do not change commercial calculations as part of styling.
+
+- Merchant update 27 October: homepage must lead with Black Friday before other content. Display product dimensions on home/catalog cards and prominently in purchase controls. Preserve single-size dimensions when flattening supplier variants; never infer dimensions from images.

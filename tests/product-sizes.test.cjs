@@ -1,0 +1,64 @@
+const { test } = require('node:test');
+const assert = require('node:assert/strict');
+const fs = require('node:fs'), vm = require('node:vm'), ts = require('typescript');
+const React = require('react');
+const { renderToStaticMarkup } = require('react-dom/server');
+function load(file, deps = {}) {
+  const exports = {};
+  vm.runInNewContext(ts.transpileModule(fs.readFileSync(file, 'utf8'), { compilerOptions: {
+    module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, jsx: ts.JsxEmit.ReactJSX, esModuleInterop: true,
+  } }).outputText, { exports, require: key => key in deps ? deps[key] : require(key) });
+  return exports;
+}
+const sizes = load('src/lib/product-sizes.ts');
+const format = load('src/lib/product-format.ts');
+const catalog = JSON.parse(fs.readFileSync('src/data/products.json'));
+const bath = catalog.filter(p => p.categoryPath.startsWith('articole-baie'));
+const link = ({children, ...props}) => React.createElement('a', props, children);
+const image = ({src, alt}) => React.createElement('img', {src, alt});
+test('all catalog models have visible size evidence; all 203 bath SKUs have sizes', () => {
+  for (const p of catalog) assert(sizes.productSizes(p).length, `Missing size: ${p.id}`);
+  assert.equal(bath.length, 89);
+  assert.equal(bath.flatMap(p=>p.variants||[p]).length, 203);
+  for (const p of bath) for(const v of p.variants||[p]) assert(v === p ? sizes.productSizes(p).length : v.dimensions.trim(), String(v.id));
+});
+test('single-size towels retain exact verified dimensions in visible copy', () => {
+  for(const [id, size] of [[90641,'30 × 50 cm'],[90566,'30 × 50 cm'],[59406,'50 × 90 cm']]) {
+    const p=catalog.find(p=>p.id===id);
+    assert.equal(sizes.productSizeSummary(p), size);
+    assert(p.name.includes(size)); assert(p.description.includes(size));
+  }
+});
+test('size labels support missing dimension fields, robes and unit placement without guessing', () => {
+  assert.equal(sizes.productSizeSummary({variants:[{name:'90 × 200 cm — fără fețe de pernă',dimensions:''},{name:'XXL',dimensions:'XXL'}]}),'90 × 200 cm — fără fețe de pernă · XXL');
+  assert.equal(sizes.productSizeSummary({name:'Pătură',description:'Dimensiuni: 200cm x 230cm'}),'200 × 230 cm');
+  assert.equal(sizes.productSizeSummary({name:'Prosop',description:'500 g/m²'}),'');
+});
+test('rendered cards expose every size and the exact filtered variant', () => {
+  const Card=load('src/components/product/ProductCard.tsx', {'next/link':link,'next/image':image,'@/lib/product-sizes':sizes,'@/lib/product-format':format}).default;
+  const p=bath.find(p=>p.variants?.length>=3);
+  const html=renderToStaticMarkup(React.createElement(Card,{product:p}));
+  for(const v of p.variants) assert(html.includes(v.dimensions),v.dimensions);
+  const selected=p.variants.at(-1);
+  const filtered=renderToStaticMarkup(React.createElement(Card,{product:p,variantId:selected.id}));
+  assert(filtered.includes(`Dimensiune:</strong> ${selected.dimensions}`));
+  const single=renderToStaticMarkup(React.createElement(Card,{product:catalog.find(p=>p.id===90641)}));
+  assert(single.includes('Dimensiune:</strong> 30 × 50 cm'));
+});
+test('homepage leads with Black Friday and displays sizes in both product selections', async () => {
+  const Hero=load('src/components/home/Hero.tsx', {
+    '@/lib/live-products':{getLiveProducts:async()=>bath},
+    '@/components/catalog/BeddingFinderLink':()=>React.createElement('a',{href:'/ghid-dimensiuni'},'Găsește lenjeria'),
+    'next/image':image,'next/link':link,'@/lib/categories':{categoryProducts:()=>[]},
+    '@/lib/navigation-groups':{navigationGroups:[],groupHref:()=>'/shop'},
+    '@/lib/products':format,'@/lib/product-format':format,'@/lib/product-sizes':sizes,
+    '@/lib/home-offers':{homeOffers:()=>bath.slice(0,16).map(p=>({...p,tag:'Super Sale'}))},
+  }).default;
+  // getProductById uses the live list as well.
+  for(const p of bath) p.tag='Super Sale';
+  const html=renderToStaticMarkup(await Hero());
+  assert(html.includes('<h1>Black Friday</h1>'));
+  assert(html.indexOf('<h1>Black Friday</h1>') < html.indexOf('home-mini-picks'));
+  assert(html.indexOf('home-mini-picks') < html.indexOf('home-mini-categories'));
+  assert.equal((html.match(/class="home-product-sizes"/g)||[]).length,16);
+});

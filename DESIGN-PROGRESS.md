@@ -305,3 +305,12 @@ Merchant authorized implementation/publication after the bath catalog completed.
 Contrast calculations passed: gold/charcoal 10.68:1, cream/charcoal 15.26:1, secondary reference text/charcoal 10.33:1, white/red badges 6.01:1, gold/lightest gradient stop 8.72:1. Browser automation is unavailable due the prior session URL restriction; no new browser screenshots, device emulation or visual mobile verification claimed. Responsive CSS inspected; production build and live stylesheet verification recorded below after completion.
 
 Validation: final npm run build passed (catalog validation, 80/80 store tests, TypeScript, 988 generated pages). Build log: /tmp/estore-black-friday-theme-build.log.
+
+
+## Dimensions audit and Black Friday entry — 27 October 2026
+
+Three simple towels (90641, 90566, 59406) lost size information when supplier variants were flattened to single products. Restored 30 × 50 cm / 30 × 50 cm / 50 × 90 cm in title, description and features from each product's authenticated supplier HTML and same-day SKU extraction. Re-reviewed copy only; existing image review evidence preserved. All 89 bath models / 203 SKUs compared to source extraction with matching dimensions. All 940 models now have displayable size evidence; 34 variants lacking a dedicated dimensions field already carry their size in their reviewed name, now used as fallback. No prices, stock, SKUs or galleries changed.
+
+Shared dimension display added to catalogue/home cards and purchase area. Cards show all variant sizes, including filtered variant context; size selector moved before logistics. Homepage now opens with a Black Friday h1 and CTA, immediately followed by offers, then categories and the existing finder. Removed the generic editorial image from the campaign entry. Rendered component tests check size visibility and first-screen content order. Browser automation remains unavailable from the prior session restriction; no actual mobile screenshot or device verification claimed.
+
+Validation: npm run build passed: 85/85 tests, TypeScript and 988 generated pages. Catalog diff verified: only title/description/features of the three towels changed. Snapshot confirms all three Control titles already contain their correct size. Audit evidence: /Users/mihaipopescu/Desktop/EStore-dimensiuni-2026-10-27/dimension-audit.json.

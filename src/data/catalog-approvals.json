@@ -28491,7 +28491,12 @@
         "sha256": "fa780a8fb19f8930a2a910774eed86e002f54d13502e2ef606007af5fc3c67d2"
       }
     ],
-    "fingerprint": "5ed44024c18cde0181291738be869a90f70367cf372740be4ff6cb2a03e89982"
+    "fingerprint": "0ecad16ba1f860ec57d33b4adf39954d7aacd4f17df4f7bcef7bcfa9951e307c",
+    "dimensionReview": {
+      "reviewedAt": "2026-10-27T11:46:54.993Z",
+      "evidence": "Authenticated supplier page reseller-90641.html: own title/meta description; same-day prepared-copy.json barcode/size match.",
+      "change": "Single-size towel dimension restored in title, description and features. Existing reviewed gallery unchanged."
+    }
   },
   {
     "id": 90567,
@@ -28545,7 +28550,12 @@
         "sha256": "8300039381ae4524b6a8959ebdcb1601414f891b7367c9272d1f136bf7ea34bb"
       }
     ],
-    "fingerprint": "63158a7f548e9c86a3d9e1af0f8fe448d1c3cea0c2cb49f9738c955dffd34688"
+    "fingerprint": "03f7a4c4e46303d9e604542f4e374ea3cdbd484ab8515561c3af0865e32ba308",
+    "dimensionReview": {
+      "reviewedAt": "2026-10-27T11:46:54.998Z",
+      "evidence": "Authenticated supplier page reseller-90566.html: own title/meta description; same-day prepared-copy.json barcode/size match.",
+      "change": "Single-size towel dimension restored in title, description and features. Existing reviewed gallery unchanged."
+    }
   },
   {
     "id": 59406,
@@ -28572,7 +28582,12 @@
         "sha256": "18b39cd14c23d5dcd605fc6bc50d6b925fa3472f33df3c30e5169e0ecdb0fc0a"
       }
     ],
-    "fingerprint": "37c7b34e235c69d1d2d0236abcf8cbf9f841a9778d8d71c33abce965d0ea0173"
+    "fingerprint": "9b3eb6c6eeafabba4b5763031e788cf5c849441f44bed4d66fa8df73b6134468",
+    "dimensionReview": {
+      "reviewedAt": "2026-10-27T11:46:54.999Z",
+      "evidence": "Authenticated supplier page reseller-59406.html: own title/meta description; same-day prepared-copy.json barcode/size match.",
+      "change": "Single-size towel dimension restored in title, description and features. Existing reviewed gallery unchanged."
+    }
   },
   {
     "id": 58455,
