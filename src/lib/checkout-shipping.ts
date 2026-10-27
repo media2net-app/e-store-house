@@ -27,7 +27,7 @@ export function shippingCustomer(input: unknown): ShippingCustomer | null {
 
 export function shippingQuoteBinding(quote: ReturnType<typeof quoteCart>, customer: ShippingCustomer, carrier: unknown, method: ShippingMethod, lockerId?: number, paymentMethod: PaymentMethod = "card") {
   return JSON.stringify({ items: quote.lines.map((line) => [line.productId, line.sku, line.quantity, line.price]).sort((a, b) => Number(a[0]) - Number(b[0])),
-    totalCents: quote.totals.totalCents, customer: shippingCustomerFields.map((key) => customer[key]), carrier, method,
+    totalCents: quote.totals.totalCents, couponCode: quote.couponCode, customer: shippingCustomerFields.map((key) => customer[key]), carrier, method,
     lockerId: method === "easybox" ? lockerId : null, paymentMethod });
 }
 

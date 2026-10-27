@@ -28,6 +28,7 @@ type CheckoutInput = {
   intentId?: string;
   shippingQuoteToken?: string;
   paymentMethod?: "card" | "cod";
+  couponCode?: string;
 };
 
 function text(value: unknown, max: number) {
@@ -89,7 +90,7 @@ export async function POST(request: Request) {
   }
 
   let quote: ReturnType<typeof quoteCart>;
-  try { quote = quoteCart(input.items, applyStock(allProducts, await readStock())); }
+  try { quote = quoteCart(input.items, applyStock(allProducts, await readStock()), input.couponCode); }
   catch (error) { return NextResponse.json({ error: error instanceof Error ? error.message : "Coș invalid." }, { status: 400 }); }
   let locker: StoreOrder["shippingLocker"];
   if (shippingMethod === "easybox") {
@@ -133,7 +134,7 @@ export async function POST(request: Request) {
       billingName, billingAddress, billingCity, billingCounty, billingPostalCode,
       ...(separateBilling ? { billingCompany, billingCui } : {}) },
     items: lines, subtotalCents: quote.totals.subtotalCents,
-    discountCents: quote.totals.discountCents, shippingCents, shippingRateSource: confirmedRate.source, shippingCarrier: selectedShipping.carrier, shippingMethod, ...(locker ? { shippingLocker: locker } : {}), totalCents,
+    discountCents: quote.totals.discountCents, ...(quote.totals.promotionCode ? { couponCode: quote.totals.promotionCode } : {}), shippingCents, shippingRateSource: confirmedRate.source, shippingCarrier: selectedShipping.carrier, shippingMethod, ...(locker ? { shippingLocker: locker } : {}), totalCents,
   };
   order.checkoutFingerprint = createHmac("sha256", process.env.STORE_ADMIN_TOKEN!).update(JSON.stringify({ customer: order.customer, items: order.items,
     totalCents, shippingCents, paymentMethod, carrier: order.shippingCarrier, method: shippingMethod, lockerId: locker?.id })).digest("hex");

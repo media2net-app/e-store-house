@@ -29,6 +29,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
   const [paymentMethod, setPaymentMethod] = useState<PaymentMethod>(codEnabled && !cardEnabled ? "cod" : "card");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
+  const [couponCode, setCouponCode] = useState("");
   const [fieldErrors, setFieldErrors] = useState<Record<string,string>>({});
   const [draft, setDraft] = useCheckoutDraft();
   const { customer: customerDraft, billing: billingDraft, separateBilling } = draft;
@@ -42,7 +43,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
   const [method, setMethod] = useState<ShippingMethod>(defaultShipping?.method || "home");
   const [locker, setLocker] = useState<SamedayLocker | null>(null);
   const [easyboxCartKey, setEasyboxCartKey] = useState("");
-  const [rateResult, setRateResult] = useState<{ key: string; token?: string; cents?: number; expiresAt?: number; totals?: ReturnType<typeof cartOffers>; error?: string } | null>(null);
+  const [rateResult, setRateResult] = useState<{ key: string; token?: string; cents?: number; expiresAt?: number; totals?: ReturnType<typeof cartOffers> & { promotionCode?: string; promotionLabel?: string; couponMessage?: string }; error?: string } | null>(null);
   const [rateRefresh, setRateRefresh] = useState(0);
   const intentRef = useRef<{ checkoutKey: string; id: string } | null>(null);
   const cartKey = JSON.stringify(items.map(({ productId, quantity }) => ({ productId, quantity })));
@@ -68,10 +69,10 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
   const selectedShipping = shippingOptions.find((option) => option.carrier === carrier && (option.method || "home") === method);
   const addressReady = shippingLocationValid && fields.every(([name]) => customerDraft[name]?.trim()) && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(customerDraft.email || "");
   const paymentEnabled = paymentMethod === "cod" ? codEnabled && selectedShipping?.codAvailable === true : cardEnabled;
-  const rateKey = JSON.stringify({ items: JSON.parse(cartKey), customer: customerDraft, carrier, shippingMethod: method, paymentMethod, lockerId: method === "easybox" ? locker?.id : undefined });
+  const rateKey = JSON.stringify({ items: JSON.parse(cartKey), couponCode: couponCode.trim().toUpperCase() || undefined, customer: customerDraft, carrier, shippingMethod: method, paymentMethod, lockerId: method === "easybox" ? locker?.id : undefined });
   const rateReady = !!selectedShipping && addressReady && (method !== "easybox" || (easyboxEligible && !!locker));
   const currentRate = rateReady && rateResult?.key === rateKey ? rateResult : null;
-  const totals = currentRate?.totals || cartOffers(items);
+  const totals: ReturnType<typeof cartOffers> & { promotionCode?: string; promotionLabel?: string; couponMessage?: string } = currentRate?.totals || cartOffers(items);
   const shippingCents = currentRate?.cents ?? null;
   useEffect(() => {
     if (!rateReady) return;
@@ -105,7 +106,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
     const customer = { ...Object.fromEntries(fields.map(([name]) => [name, String(data.get(name) ?? "")])),
       separateBilling, ...Object.fromEntries(["billingName", "billingAddress", "billingCity", "billingCounty", "billingPostalCode", "billingCompany", "billingCui"]
         .map((name) => [name, String(data.get(name) ?? "")])) };
-    const checkoutKey = JSON.stringify({ customer, carrier, method, paymentMethod, lockerId: method === "easybox" ? locker?.id : undefined, shippingCents, totalCents: totals.totalCents, items: items.map(({ productId, quantity }) => ({ productId, quantity })) });
+    const checkoutKey = JSON.stringify({ customer, carrier, method, paymentMethod, couponCode: couponCode.trim().toUpperCase() || undefined, lockerId: method === "easybox" ? locker?.id : undefined, shippingCents, totalCents: totals.totalCents, items: items.map(({ productId, quantity }) => ({ productId, quantity })) });
     let intent: { checkoutKey: string; id: string } | null = intentRef.current;
     try { intent = JSON.parse(sessionStorage.getItem("estore-checkout-intent") || "null") || intent; } catch { /* Use the in-memory intent. */ }
     if (!intent || intent.checkoutKey !== checkoutKey) {
@@ -117,7 +118,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
       const response = await fetch("/api/checkout", {
         method: "POST", headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          customer, carrier, shippingMethod: method, paymentMethod, lockerId: method === "easybox" ? locker?.id : undefined, shippingQuoteToken: currentRate.token, acceptedTerms: data.get("acceptedTerms") === "on", intentId: intent.id,
+          customer, carrier, shippingMethod: method, paymentMethod, couponCode: couponCode.trim().toUpperCase() || undefined, lockerId: method === "easybox" ? locker?.id : undefined, shippingQuoteToken: currentRate.token, acceptedTerms: data.get("acceptedTerms") === "on", intentId: intent.id,
           items: items.map((item) => ({ productId: item.productId, quantity: item.quantity })),
         }),
       });
@@ -160,6 +161,14 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         {!totals.freeShipping && selectedShipping && (!selectedShipping.dynamic || paymentMethod === "cod") && <p className="checkout-shipping-explanation">Tarif pentru {selectedShipping.label}{paymentMethod === "cod" ? " cu ramburs" : ""}: {formatProductPrice(selectedShipping.priceRon, "RON")}, confirmat înainte de trimiterea comenzii.</p>}
       </section>
       <form onSubmit={submit} className="space-y-5">
+        <div className="rounded-xl border border-[#c9bda9] bg-white p-4">
+          <label htmlFor="black-friday-coupon" className="block text-sm font-semibold">Cod de reducere Black Friday</label>
+          <input id="black-friday-coupon" name="couponCode" value={couponCode} onChange={(event) => setCouponCode(event.target.value.toUpperCase())}
+            autoComplete="off" maxLength={24} placeholder="BFCOS, BFSET20, BF3 sau BF4"
+            className="mt-2 w-full rounded-lg border border-[#c9bda9] bg-white px-3 py-3 text-base uppercase" />
+          <p className="mt-2 text-sm text-[#5d5148]">Valabile 6–8 noiembrie 2026. Se aplică reducerea cea mai avantajoasă; codurile nu se cumulează.</p>
+          {currentRate?.totals?.couponMessage && <p className="mt-2 text-sm" role="status">{currentRate.totals.couponMessage}</p>}
+        </div>
         <h2 className="text-xl font-semibold">Date de contact și livrare</h2>
         <div className="grid gap-4">
           {fields.filter(([name]) => name !== "city").map(([name, label]) => name === "county" ?
@@ -219,7 +228,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         <h2 className="text-xl font-semibold">Comanda ta</h2>
         <ul className="mt-4 space-y-3">{items.map((item) => <li key={item.productId} className="flex justify-between gap-3 text-sm"><span>{item.name} × {item.quantity}</span><strong>{formatProductPrice(item.price * item.quantity, item.currency)}</strong></li>)}</ul>
         <p className="mt-5 border-t border-[#c9bda9] pt-3 text-sm">Produse: {formatProductPrice(totals.subtotalCents / 100, "RON")}</p>
-        {totals.discountCents ? <p className="mt-1 text-sm">Reducere −10%: −{formatProductPrice(totals.discountCents / 100, "RON")}</p> : null}
+        {totals.discountCents ? <p className="mt-1 text-sm">{totals.promotionLabel || "Reducere automată −10%"}: −{formatProductPrice(totals.discountCents / 100, "RON")}</p> : null}
         {store.taxNotice ? <p className="mt-1 text-xs">{store.taxNotice}</p> : null}
         <p className="mt-1 text-sm">Transport{selectedShipping ? ` prin ${selectedShipping.label}` : ""}: {shippingCents === null ? (totals.freeShipping ? "Gratuit" : "în curs de stabilire") : shippingCents === 0 ? "Gratuit" : formatProductPrice(shippingCents / 100, "RON")}</p>
         {store.deliveryEstimate ? <p className="mt-1 text-sm">Termen estimat de livrare: {store.deliveryEstimate}</p> : null}
