@@ -38,10 +38,12 @@ test('audited SKU price floors match current published variants', () => {
 });
 
 test('Black Friday codes are valid only during the announced dates', () => {
-  assert.equal(blackFridayActive(Date.parse('2026-11-05T23:59:59+02:00')), false);
+  assert.equal(blackFridayActive(Date.parse('2026-11-02T23:59:59+02:00')), false);
+  assert.equal(blackFridayActive(Date.parse('2026-11-03T00:00:00+02:00')), true);
   assert.equal(blackFridayActive(active), true);
-  assert.equal(blackFridayActive(Date.parse('2026-11-09T00:00:00+02:00')), false);
-  assert.throws(() => coupon('BFCOS', [line(1, '101', 39, 3)], 0, Date.parse('2026-10-27T12:00:00+02:00')), /6 și 8 noiembrie/);
+  assert.equal(blackFridayActive(Date.parse('2026-11-16T23:59:59+02:00')), true);
+  assert.equal(blackFridayActive(Date.parse('2026-11-17T00:00:00+02:00')), false);
+  assert.throws(() => coupon('BFCOS', [line(1, '101', 39, 3)], 0, Date.parse('2026-10-27T12:00:00+02:00')), /3 și 16 noiembrie/);
 });
 
 test('small basket tiers increase units without stacking with the automatic offer', () => {

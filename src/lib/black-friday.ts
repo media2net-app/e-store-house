@@ -3,8 +3,8 @@ import "server-only";
 import eligibility from "@/data/black-friday-eligible.json";
 import type { OfferItem } from "./cart-offers";
 
-export const BLACK_FRIDAY_START = "2026-11-06T00:00:00+02:00";
-export const BLACK_FRIDAY_END = "2026-11-09T00:00:00+02:00";
+export const BLACK_FRIDAY_START = "2026-11-03T00:00:00+02:00";
+export const BLACK_FRIDAY_END = "2026-11-17T00:00:00+02:00";
 
 type CouponLine = OfferItem & { sku?: string; categoryPath?: string };
 type Coupon = { code: string; discountCents: number; label: string };
@@ -23,7 +23,7 @@ export function quoteBlackFridayCoupon(codeInput: unknown, lines: readonly Coupo
   if (typeof codeInput !== "string" || codeInput.length > 24) throw new Error("Codul de reducere nu este valid.");
   const code = codeInput.trim().toUpperCase();
   if (!["BFCOS", "BFSET20", "BF3", "BF4"].includes(code)) throw new Error("Codul de reducere nu există.");
-  if (!blackFridayActive(now)) throw new Error("Cupoanele Black Friday sunt valabile între 6 și 8 noiembrie 2026.");
+  if (!blackFridayActive(now)) throw new Error("Cupoanele Black Friday sunt valabile între 3 și 16 noiembrie 2026.");
 
   let eligibleCents = 0;
   let eligibleUnits = 0;

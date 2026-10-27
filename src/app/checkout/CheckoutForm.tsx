@@ -166,7 +166,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
           <input id="black-friday-coupon" name="couponCode" value={couponCode} onChange={(event) => setCouponCode(event.target.value.toUpperCase())}
             autoComplete="off" maxLength={24} placeholder="BFCOS, BFSET20, BF3 sau BF4"
             className="mt-2 w-full rounded-lg border border-[#c9bda9] bg-white px-3 py-3 text-base uppercase" />
-          <p className="mt-2 text-sm text-[#5d5148]">Valabile 6–8 noiembrie 2026. Se aplică reducerea cea mai avantajoasă; codurile nu se cumulează.</p>
+          <p className="mt-2 text-sm text-[#5d5148]">Valabile 3–16 noiembrie 2026. Se aplică reducerea cea mai avantajoasă; codurile nu se cumulează.</p>
           {currentRate?.totals?.couponMessage && <p className="mt-2 text-sm" role="status">{currentRate.totals.couponMessage}</p>}
         </div>
         <h2 className="text-xl font-semibold">Date de contact și livrare</h2>
