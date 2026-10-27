@@ -22,6 +22,21 @@ const { quoteBlackFridayCoupon: coupon, blackFridayActive } = moduleExports;
 const active = Date.parse('2026-11-07T12:00:00+02:00');
 const line = (productId, sku, price, quantity = 1, extra = {}) => ({ productId, sku, price, quantity, ...extra });
 
+test('audited SKU price floors match current published variants', () => {
+  const catalog = JSON.parse(fs.readFileSync('src/data/products.json', 'utf8'));
+  const approved = JSON.parse(fs.readFileSync('src/data/black-friday-eligible.json', 'utf8')).minPriceCentsByItem;
+  const published = new Map(catalog.flatMap((product) => (product.variants?.length ? product.variants : [product]).map((variant) => [
+    `${variant.id}:${variant.sku || product.sku}`,
+    Math.round((variant.price ?? product.price) * 100),
+  ])));
+  assert.equal(Object.keys(approved).length, 1262);
+  for (const [key, floor] of Object.entries(approved)) {
+    assert(Number.isSafeInteger(floor) && floor > 0, key);
+    assert(published.has(key), key);
+    assert(published.get(key) >= floor, key);
+  }
+});
+
 test('Black Friday codes are valid only during the announced dates', () => {
   assert.equal(blackFridayActive(Date.parse('2026-11-05T23:59:59+02:00')), false);
   assert.equal(blackFridayActive(active), true);
