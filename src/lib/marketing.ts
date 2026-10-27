@@ -1,7 +1,9 @@
 export type PrivacyChoice = { analytics: boolean; marketing: boolean; savedAt: number };
 export type MarketingItem = { item_id: string; item_name: string; price: number; quantity: number };
 export const privacyKey = 'estore-privacy-v1';
-export const analyticsId = process.env.NEXT_PUBLIC_GA4_ID || '';
+// Public measurement ID verified in the owner's estorehouse.ro web stream.
+// Local development stays unconfigured unless an explicit test ID is provided.
+export const analyticsId = process.env.NEXT_PUBLIC_GA4_ID || (process.env.NODE_ENV === 'production' ? 'G-085L3V23EN' : '');
 export const tiktokId = process.env.NEXT_PUBLIC_TIKTOK_PIXEL_ID || '';
 export const analyticsConfigured = /^G-[A-Z0-9]+$/.test(analyticsId);
 export const tiktokConfigured = /^[A-Z0-9]{10,40}$/i.test(tiktokId);
