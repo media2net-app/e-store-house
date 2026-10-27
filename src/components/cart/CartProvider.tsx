@@ -1,4 +1,6 @@
 "use client";
+import Image from 'next/image';
+import { productDisplayName } from '@/lib/product-sizes';
 
 import { createContext, useContext, useEffect, useRef, useState } from "react";
 import Link from "next/link";
@@ -10,6 +12,7 @@ import FreeShippingProgress from "./FreeShippingProgress";
 
 type CartItem = {
   sku?: string;
+  categoryPath?: string;
   bundleComponents?: Product["bundleComponents"];
   productId: number;
   superSale?: boolean;
@@ -72,7 +75,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     const current = items.find(item => item.productId === product.id);
     if ((current?.quantity ?? 0) + quantity > 20 || (!current && items.length >= 30)) {setCartNotice("Cantitatea maximă este de 20 de bucăți per produs și 30 de produse diferite în coș.");setIsOpen(true);return;}
     trackCommerce('add_to_cart', { currency: 'RON', value: product.price * quantity, items: [{ item_id: product.sku || String(product.id), item_name: product.name, price: product.price, quantity }] });
-    setCartNotice(`Adăugat în coș: ${product.name}, ${quantity} ${quantity === 1 ? 'bucată' : 'bucăți'}, ${formatProductPrice(product.price, product.currency)} / buc.`);
+    setCartNotice(`Adăugat în coș: ${productDisplayName(product)}, ${quantity} ${quantity === 1 ? 'bucată' : 'bucăți'}, ${formatProductPrice(product.price, product.currency)} / buc.`);
     setItems((prev) => {
       const existing = prev.find((item) => item.productId === product.id);
       if (existing?.quantity && existing.quantity + quantity > 20) return prev;
@@ -80,7 +83,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       return existing
         ? prev.map((item) => item.productId === product.id ? { ...item, quantity: item.quantity + quantity } : item)
         : [...prev, { productId: product.id, sku: product.sku, bundleComponents: product.bundleComponents,
-          name: product.name, superSale: product.tag === "Super Sale", discountExcluded: product.discountExcluded, price: product.price, currency: product.currency, image: product.image, quantity }];
+          categoryPath: product.categoryPath, name: product.name, superSale: product.tag === "Super Sale", discountExcluded: product.discountExcluded, price: product.price, currency: product.currency, image: product.image, quantity }];
     });
     setIsOpen(true);
   };
@@ -126,12 +129,12 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
           <div className="cart-drawer-items">
             <p className="cart-offer-note">{totals.discountCents ? "Reducerea de 10% este aplicată automat." : "La două articole eligibile (fără Super Sale sau ofertele pentru baie), ai 10% reducere la cel mai ieftin dintre ele."}</p>
             {items.map((item) => <div key={item.productId} className="cart-item">
-              <div className="cart-item-main"><img src={item.image} alt={item.name} width={72} height={90} /><div><p className="cart-item-name">{item.name}</p>{item.sku ? <p className="cart-item-code">Cod: {item.sku}</p> : null}
+              <div className="cart-item-main"><Image quality={60} sizes="72px" src={item.image} alt={productDisplayName(item)} width={72} height={90} /><div><p className="cart-item-name">{productDisplayName(item)}</p>{item.sku ? <p className="cart-item-code">Cod: {item.sku}</p> : null}
                 {item.bundleComponents?.map((component) => <p key={component.sku} className="cart-item-code">{component.quantity * item.quantity} × {component.name} · {component.sku}</p>)}
                 <p>{formatProductPrice(item.price, item.currency)} / buc.</p>
                 {totals.discountedProductId === item.productId ? <p className="cart-item-discount">−10% la o bucată: economisești {money(totals.discountCents)}</p> : null}
               </div></div>
-              <div className="cart-item-controls"><div className="cart-quantity"><button onClick={() => updateQuantity(item.productId, item.quantity - 1)} aria-label={"Scade cantitatea pentru " + item.name}>−</button><span aria-label="Cantitate">{item.quantity}</span><button onClick={() => updateQuantity(item.productId, item.quantity + 1)} aria-label={"Crește cantitatea pentru " + item.name}>+</button></div><button className="cart-remove" onClick={() => removeItem(item.productId)} aria-label={"Șterge " + item.name}>Șterge</button></div>
+              <div className="cart-item-controls"><div className="cart-quantity"><button onClick={() => updateQuantity(item.productId, item.quantity - 1)} aria-label={"Scade cantitatea pentru " + productDisplayName(item)}>−</button><span aria-label="Cantitate">{item.quantity}</span><button onClick={() => updateQuantity(item.productId, item.quantity + 1)} aria-label={"Crește cantitatea pentru " + productDisplayName(item)}>+</button></div><button className="cart-remove" onClick={() => removeItem(item.productId)} aria-label={"Șterge " + productDisplayName(item)}>Șterge</button></div>
             </div>)}
             <FreeShippingProgress totalCents={totals.totalCents} />
             <details className="cart-promotion-terms"><summary>Cum se aplică oferta?</summary><p>{SECOND_ITEM_TERMS} O singură reducere per comandă.</p></details>

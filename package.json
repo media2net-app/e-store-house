@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "check:catalog": "node scripts/validate-catalog.mjs",
-    "test:store": "node --test tests/catalog-quality.test.mjs tests/catalog-pricing.test.mjs tests/super-sale.test.mjs tests/store-offers.test.mjs tests/bedding-finder.cjs tests/discovery.cjs tests/checkout-shipping.cjs tests/euplatesc.test.mjs tests/audit-remediation.cjs tests/black-friday.test.cjs tests/bath-offers.test.cjs tests/product-sizes.test.cjs tests/damasc-offers.test.cjs tests/sale-selection.test.cjs"
+    "test:store": "node --test tests/catalog-quality.test.mjs tests/catalog-pricing.test.mjs tests/super-sale.test.mjs tests/store-offers.test.mjs tests/bedding-finder.cjs tests/discovery.cjs tests/checkout-shipping.cjs tests/euplatesc.test.mjs tests/audit-remediation.cjs tests/black-friday.test.cjs tests/bath-offers.test.cjs tests/product-sizes.test.cjs tests/damasc-offers.test.cjs tests/sale-selection.test.cjs tests/catalog-payload.test.cjs"
   },
   "dependencies": {
     "next": "^16.4.2",

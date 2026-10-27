@@ -30,6 +30,6 @@ export const productSizeSummary = (product: Product) => {
   const simple = policotonSizeInfo(product);
   return simple ? `${simple.label === 'Pentru saltea:' ? 'Saltea ' : ''}${simple.summary}` : productSizes(product).join(' · ');
 };
-export const productDisplayName = (product: Product) => policotonSizeInfo(product)
+export const productDisplayName = (product: Pick<Product, 'name' | 'categoryPath'>) => product.categoryPath?.includes('damasc-policoton')
   ? product.name.replace(/(husă cu elastic)\s+\d+(?:\/\d+)?\s*[×x]\s*\d+(?:\s*[×x]\s*\d+)?\s*cm/gi, '$1')
   : product.name;

@@ -1,13 +1,15 @@
 'use client';
+import { unpackBeddingModels, type BeddingPayload } from '@/lib/bedding-payload';
 import { useEffect, useMemo, useState } from 'react';
 import { trackCommerce } from '@/lib/marketing';
 import Image from 'next/image';
 import FinderIcon from './FinderIcon';
 import Link from 'next/link';
-import { beddingOptions, emptyBeddingFilters, filterBedding, type BeddingFilters, type BeddingModel } from '@/lib/bedding-finder';
+import { beddingOptions, emptyBeddingFilters, filterBedding, type BeddingFilters } from '@/lib/bedding-finder';
 import { formatProductPrice } from '@/lib/product-format';
 
-export default function SizeGuide({ models }: { models: BeddingModel[] }) {
+export default function SizeGuide({ data }: { data: BeddingPayload }) {
+  const models = useMemo(() => unpackBeddingModels(data), [data]);
   const [filters, setFilters] = useState<BeddingFilters>({ ...emptyBeddingFilters });
   const [visible, setVisible] = useState(12);
   const options = useMemo(() => beddingOptions(models), [models]);

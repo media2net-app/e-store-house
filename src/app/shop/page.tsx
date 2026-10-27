@@ -1,3 +1,4 @@
+import { buildCatalogFilterIndex } from '@/lib/catalog-filter-index';
 import { saleSections, saleSection, matchesSaleSection } from '@/lib/sale-selection';
 import DiscoveryTracking from '@/components/marketing/DiscoveryTracking';
 import { categoryContent } from '@/lib/category-content';
@@ -13,7 +14,7 @@ import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import TrustBar from "@/components/layout/TrustBar";
 import { getLiveProducts } from "@/lib/live-products";
-import { canonicalMaterial, matchesCatalogFilters, matchingCatalogVariants, compactFilterProduct, type CatalogFilterState } from "@/lib/catalog-filters";
+import { canonicalMaterial, matchesCatalogFilters, matchingCatalogVariants, type CatalogFilterState } from "@/lib/catalog-filters";
 import type { Metadata } from "next";
 import { navigationGroups } from "@/lib/navigation-groups";
 import CategorySummary from "@/components/catalog/CategorySummary";
@@ -137,7 +138,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
 
         {subcategories.length > 0 && <nav className="subcategory-links" aria-label="Subcategorii">{subcategories.map(c=><Link key={c.path} href={categoryHref(c.path)}><span>{c.name}</span><CategorySummary path={c.path}/></Link>)}</nav>}
         {active?.path.startsWith("lenjerii-de-pat") && <BeddingFinderLink className="category-finder-button"/>}
-        <DiscoveryTracking searched={Boolean(query)} count={products.length}/><FilterPanel key={JSON.stringify(filters)+query+(categorie??'')+(selection??'')} products={categoryItems.filter(p=>matchesSearch(p,query)).map(compactFilterProduct)} initial={filters} category={categorie} query={query} sort={sort} selection={selection}/>
+        <DiscoveryTracking searched={Boolean(query)} count={products.length}/><FilterPanel key={JSON.stringify(filters)+query+(categorie??'')+(selection??'')} index={buildCatalogFilterIndex(categoryItems.filter(p=>matchesSearch(p,query)))} initial={filters} category={categorie} query={query} sort={sort} selection={selection}/>
 
         <form action="/shop" method="get" className="catalog-sort mt-6 flex flex-wrap items-end gap-3">
           {categorie ? <input type="hidden" name="categorie" value={categorie} /> : null}

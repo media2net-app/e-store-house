@@ -1,4 +1,5 @@
 "use client";
+import { productDisplayName } from '@/lib/product-sizes';
 
 import Link from "next/link";
 import { useCheckoutDraft } from '@/components/cart/useCheckoutDraft';
@@ -156,7 +157,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         <p><span>{totals.quantity} {totals.quantity === 1 ? "articol" : "articole"} · Produse după reduceri</span><strong>{formatProductPrice(totals.totalCents / 100, "RON")}</strong></p>
         <p><span>Transport</span><strong>{totals.freeShipping ? "Gratuit" : shippingCents === null ? "De confirmat" : formatProductPrice(shippingCents / 100, "RON")}</strong></p>
         {shippingCents !== null && <p><span>Total de plată</span><strong>{formatProductPrice((totals.totalCents + shippingCents) / 100, "RON")}</strong></p>}
-        <details><summary>Vezi produsele și cantitățile</summary><ul>{items.map(item => <li key={item.productId}>{item.name} × {item.quantity} — {formatProductPrice(item.price * item.quantity, "RON")}</li>)}</ul><Link href="/cos">Modifică în coș</Link></details>
+        <details><summary>Vezi produsele și cantitățile</summary><ul>{items.map(item => <li key={item.productId}>{productDisplayName(item)} × {item.quantity} — {formatProductPrice(item.price * item.quantity, "RON")}</li>)}</ul><Link href="/cos">Modifică în coș</Link></details>
         {!totals.freeShipping && <p className="checkout-shipping-explanation">{shippingExplanation}</p>}
         {!totals.freeShipping && selectedShipping && (!selectedShipping.dynamic || paymentMethod === "cod") && <p className="checkout-shipping-explanation">Tarif pentru {selectedShipping.label}{paymentMethod === "cod" ? " cu ramburs" : ""}: {formatProductPrice(selectedShipping.priceRon, "RON")}, confirmat înainte de trimiterea comenzii.</p>}
       </section>
@@ -226,7 +227,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         </div> : null}
       <section className="self-start rounded-xl bg-[#f8f4ec] p-5">
         <h2 className="text-xl font-semibold">Comanda ta</h2>
-        <ul className="mt-4 space-y-3">{items.map((item) => <li key={item.productId} className="flex justify-between gap-3 text-sm"><span>{item.name} × {item.quantity}</span><strong>{formatProductPrice(item.price * item.quantity, item.currency)}</strong></li>)}</ul>
+        <ul className="mt-4 space-y-3">{items.map((item) => <li key={item.productId} className="flex justify-between gap-3 text-sm"><span>{productDisplayName(item)} × {item.quantity}</span><strong>{formatProductPrice(item.price * item.quantity, item.currency)}</strong></li>)}</ul>
         <p className="mt-5 border-t border-[#c9bda9] pt-3 text-sm">Produse: {formatProductPrice(totals.subtotalCents / 100, "RON")}</p>
         {totals.discountCents ? <p className="mt-1 text-sm">{totals.promotionLabel || "Reducere automată −10%"}: −{formatProductPrice(totals.discountCents / 100, "RON")}</p> : null}
         {store.taxNotice ? <p className="mt-1 text-xs">{store.taxNotice}</p> : null}
