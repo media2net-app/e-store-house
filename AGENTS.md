@@ -81,3 +81,5 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Merchant authorized the deferred Black Friday palette on 27 October 2026: charcoal campaign surfaces, gold headings/actions, red discount badges, cream shopping surfaces. Seasonal overrides are in src/app/black-friday.css; do not change commercial calculations as part of styling.
 
 - Merchant update 27 October: homepage must lead with Black Friday before other content. Display product dimensions on home/catalog cards and prominently in purchase controls. Preserve single-size dimensions when flattening supplier variants; never infer dimensions from images.
+
+- Merchant confirmed packed bath dimensions on 27 October 2026: robes 30×30×10 cm, towels 30×30×5 cm, bath mats 40×40×10 cm; weight 2 kg per packed item for all three categories. Apply by exact supplier SKU in shipping-packages.json. Preserve aggregate parcel size/weight limits for easybox and the 17 lei customer fee (free at the existing threshold).

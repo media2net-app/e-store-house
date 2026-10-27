@@ -213,3 +213,43 @@ test("merchant launch fees override legacy amounts and dynamic rates for card an
   assert.equal(shipping.quoteShipping(current, "sameday", true, "easybox").cents, 0);
   assert(current.every(option => option.dynamic === false && option.codAvailable));
 });
+
+const bathProfiles = JSON.parse(fs.readFileSync('src/data/shipping-packages.json'));
+const bathProducts = JSON.parse(fs.readFileSync('src/data/products.json')).filter(p => p.categoryPath.startsWith('articole-baie/'));
+const bathLine = (category, quantity = 1) => {
+  const p = bathProducts.find(p => p.categoryPath === `articole-baie/${category}`);
+  return { sku: (p.variants || [p])[0].sku, quantity, name: p.name, categoryPath: p.categoryPath };
+};
+test('all 203 bath SKU profiles match merchant dimensions and 2 kg packed weight', () => {
+  let count = 0;
+  const dimensions = {'articole-baie/halate-baie':[30,30,10], 'articole-baie/prosoape':[30,30,5], 'articole-baie/covorase-baie':[40,40,10]};
+  for(const p of bathProducts) for(const v of p.variants || [p]) {
+    count++;
+    const profile = bathProfiles[v.sku];
+    assert(profile?.source);
+    assert.deepEqual([profile.width,profile.length,profile.height],dimensions[p.categoryPath]);
+    assert.equal(profile.weight,2);
+    assert(protocol.easyboxEligibility([{sku:v.sku,quantity:1,name:p.name,categoryPath:p.categoryPath}],bathProfiles),v.sku);
+  }
+  assert.equal(count,203);
+});
+test('bath cart aggregation respects drawer limits and does not enable unknown mixed parcels', () => {
+  for(const [category,max] of [['prosoape',9],['halate-baie',4],['covorase-baie',3]]) {
+    assert(protocol.easyboxEligibility([bathLine(category,max)],bathProfiles));
+    assert.equal(protocol.easyboxEligibility([bathLine(category,max+1)],bathProfiles),false);
+  }
+  const mixed = [bathLine('prosoape'),bathLine('halate-baie'),bathLine('covorase-baie')];
+  const parcel = protocol.packedParcel(mixed,bathProfiles);
+  assert.deepEqual([parcel.weight,parcel.width,parcel.length,parcel.height],[6,40,40,25]);
+  assert(protocol.fitsEasybox(parcel));
+  assert.equal(protocol.easyboxEligibility([...mixed,{sku:'unknown',quantity:1,name:'Produs'}],bathProfiles),false);
+});
+test('confirmed bath parcels quote 17 lei easybox for card and COD, zero above free shipping threshold', async () => {
+  const api = resolver(bathProfiles);
+  const fixed = [{carrier:'sameday',method:'easybox',priceRon:17,dynamic:false,codAvailable:true}];
+  for(const category of ['prosoape','halate-baie','covorase-baie']) for(const payment of ['card','cod']) {
+    const q = {...quote,lines:[{...bathLine(category),productId:1,price:50}],totals:{...quote.totals,totalCents:5000,freeShipping:false}};
+    assert.equal((await api.checkoutShippingRate(q,customer,fixed,'sameday','easybox',2,payment)).cents,1700);
+    assert.equal((await api.checkoutShippingRate({...q,totals:{...q.totals,freeShipping:true}},customer,fixed,'sameday','easybox',2,payment)).cents,0);
+  }
+});

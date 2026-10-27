@@ -319,3 +319,8 @@ Validation: npm run build passed: 85/85 tests, TypeScript and 988 generated page
 ## Remove duplicate Black Friday box — 27 October 2026
 
 Merchant requested removing the first introductory Black Friday box and retaining the following offer block. Removed the introductory block and its unused styles; promoted the existing Super Sales · Black Friday offer heading to the homepage h1. Homepage now starts directly with the offer link and product selection. Updated existing rendered-homepage regression check for a single h1 and absence of the removed box.
+
+
+## Bath easybox package profiles — 27 October 2026
+
+Merchant supplied packed dimensions for robes (30×30×10 cm), towels (30×30×5 cm), mats (40×40×10 cm), then explicitly confirmed 2 kg for every packed item. Added all 203 exact bath SKU package profiles: 58 robe variants, 144 towel variants, 1 mat. Existing conservative aggregate box calculation and 20 kg / drawer size constraints remain active; no guessed package measurements. Eligible carts use the existing 17 lei easybox fee; oversized combinations retain home delivery.
