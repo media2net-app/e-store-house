@@ -330,3 +330,9 @@ Merchant supplied packed dimensions for robes (30×30×10 cm), towels (30×30×5
 Prepared 68 existing models for Super Sales, using authenticated Ralex costs matched by exact SKU/variant. Final prices 112–229 lei, actual prior website prices crossed out, displayed reductions 54–56%. All are excluded from additional discounts; stock and product content preserved. Acquisition evidence remains private in the Desktop Damasc batch. Local and production verification recorded below once completed.
 
 Validation: 90/90 store tests passed, including all 68 campaign SKU/reference checks and checkout exclusion checks; TypeScript and catalog validation passed (940 models / 1,482 SKUs). Production verification pending deployment.
+
+## 27 October 2026 — Super Sales sections and >40% threshold
+
+Implemented a shared strict >40% rule for the campaign category and home offers, checking every variant. Added two responsive icon buttons with model counts and active selection, plus a return-to-all link. Section persists in filtering, sorting, pagination and empty/search reset links. Prices and stock unchanged. Browser verified both buttons and bedding selection; automated page and production checks recorded in the Desktop Super Sales selection batch.
+
+Targeted navigation test reached its existing image-presence check and failed on absent local public/products/quality-20261019/81336/02.png in this checkout; category assertions passed. This task does not change image files. Dedicated campaign tests and page checks validate the changed selection independently.

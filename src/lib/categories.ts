@@ -1,3 +1,4 @@
+import { isVisibleSale } from "./sale-selection";
 import categoryData from "@/data/categories.json";
 import { allProducts, type Product } from "@/lib/products";
 
@@ -7,7 +8,7 @@ export const getCategory = (path: string) => categories.find((category) => categ
 export const getCategoryChildren = (path: string | null, includeEmpty = false) => categories.filter((category) => category.parent === path && (includeEmpty || categoryCount(category.path) > 0));
 export const categoryHref = (path: string) => `/shop?categorie=${encodeURIComponent(path)}`;
 export const isInCategory = (product: Product, path: string) => {
-  if (path === "oferte") return product.tag === "Super Sale";
+  if (path === "oferte") return isVisibleSale(product);
   return product.categoryPath === path || product.categoryPath?.startsWith(`${path}/`) === true;
 };
 export const categoryProducts = (path: string) => allProducts.filter((product) => isInCategory(product, path));

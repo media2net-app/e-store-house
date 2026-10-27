@@ -89,3 +89,8 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Merchant authorized all 68 existing Damasc Policoton models in Super Sales: exact authenticated reseller cost / 0.70, rounded UP to whole lei. Use the actual website selling price before this update as comparisonPrice; floor the percentage. No additional automatic/cart/coupon discounts.
 - Configuration: src/data/damasc-offers.json. Private reseller costs and exact variant evidence stay in the Desktop Damasc batch, never in the public bundle. King size model 95157 maps to supplier variant/barcode 95160; do not use the supplier parent minimum price.
 - Preserve existing products, galleries, stock, bath offers and Control/marketplace prices. Total campaign membership becomes 184 models.
+
+## Super Sales selection — 27 October 2026
+
+- Merchant now limits the visible Super Sales collection to displayed discounts strictly greater than 40%, including every variant of a model. Use isVisibleSale in sale-selection.ts for category membership and homepage selection. Preserve existing prices and discount-stacking exclusions even for offers no longer shown in this collection.
+- Super Sales has two section buttons: Articole baie (selectie=baie) and Lenjerii de pat (selectie=lenjerii). Preserve section through filters, sorting, pagination and search reset; section switching starts a fresh selection. Current visible collection: 157 models, 89 bath + 68 bedding.

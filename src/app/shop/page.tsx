@@ -1,3 +1,4 @@
+import { saleSections, saleSection, matchesSaleSection } from '@/lib/sale-selection';
 import DiscoveryTracking from '@/components/marketing/DiscoveryTracking';
 import { categoryContent } from '@/lib/category-content';
 import BeddingFinderLink from '@/components/catalog/BeddingFinderLink';
@@ -17,7 +18,7 @@ import type { Metadata } from "next";
 import { navigationGroups } from "@/lib/navigation-groups";
 import CategorySummary from "@/components/catalog/CategorySummary";
 
-type ShopParams = { categorie?: string | string[]; q?: string | string[]; pagina?: string | string[]; sortare?: string | string[];
+type ShopParams = { selectie?: string | string[]; categorie?: string | string[]; q?: string | string[]; pagina?: string | string[]; sortare?: string | string[];
   material?: string | string[]; culoare?: string | string[]; dimensiune?: string | string[]; cearsaf?: string | string[];
   stoc?: string | string[]; pret_min?: string | string[]; pret_max?: string | string[] };
 export async function generateMetadata({ searchParams }: { searchParams: Promise<ShopParams> }): Promise<Metadata> {
@@ -35,7 +36,7 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
   const outOfRange = requested > 1 && (!Number.isSafeInteger(requested) || requested > maximum);
   if (Number.isSafeInteger(requested) && requested > 1 && Math.min(requested, maximum) > 1) canonicalParams.set('pagina', String(Math.min(requested, maximum)));
   const canonical = `/shop${canonicalParams.size ? `?${canonicalParams}` : ''}`;
-  const filtered = ['q','material','culoare','dimensiune','cearsaf','stoc','pret_min','pret_max','sortare'].some(key => Boolean(params[key as keyof ShopParams]));
+  const filtered = ['selectie','q','material','culoare','dimensiune','cearsaf','stoc','pret_min','pret_max','sortare'].some(key => Boolean(params[key as keyof ShopParams]));
   return {
     title, description: categorie === "oferte"
       ? "Descoperă selecția Super Sales · Black Friday. Nu se cumulează cu reducerea de 10% la al doilea produs."
@@ -46,12 +47,13 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
 }
 
 export default async function MagazinPage({ searchParams }: { searchParams: Promise<ShopParams> }) {
-  const { categorie, q, pagina, sortare, material, culoare, dimensiune, cearsaf, stoc, pret_min, pret_max } = await searchParams;
+  const { selectie, categorie, q, pagina, sortare, material, culoare, dimensiune, cearsaf, stoc, pret_min, pret_max } = await searchParams;
   if (Array.isArray(categorie)) notFound();
   if (categorie === "produse-hotel") redirect("/categorii");
   const group = navigationGroups.find(group => group.slug === categorie);
   const active = categorie ? getCategory(categorie) ?? (group ? { path: group.slug, name: group.name } : undefined) : undefined;
   if (categorie && !active) notFound();
+  const selection = categorie === "oferte" ? saleSection(selectie)?.key : undefined;
   const query = typeof q === "string" ? q.trim().slice(0, 200) : "";
   const suggestion = suggestSearch(query);
   const sort = typeof sortare === "string" && ["pret-crescator", "pret-descrescator", "nume"].includes(sortare) ? sortare : "nume";
@@ -63,7 +65,8 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
   };
   const allProducts = await getLiveProducts();
   const categoryProducts = (path: string) => allProducts.filter(p => isInCategory(p, path));
-  const categoryItems = group ? [...new Map(group.paths.flatMap(categoryProducts).map(product => [product.id, product])).values()]
+  const campaignItems = allProducts.filter(p => isInCategory(p, "oferte"));
+  const categoryItems = categorie === "oferte" ? campaignItems.filter(p => matchesSaleSection(p, selection)) : group ? [...new Map(group.paths.flatMap(categoryProducts).map(product => [product.id, product])).values()]
     : active ? categoryProducts(active.path) : allProducts;
   const subcategories = group ? group.paths.flatMap(path => getCategory(path) ? [getCategory(path)!] : [])
     : active ? getCategoryChildren(active.path) : [];
@@ -85,6 +88,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
   const pageHref = (number: number) => {
     const params = new URLSearchParams();
     if (categorie) params.set("categorie", categorie);
+    if (selection) params.set("selectie", selection);
     if (query) params.set("q", query);
     for (const [key, value] of Object.entries({ material: filters.material, culoare: filters.culoare, dimensiune: filters.dimensiune,
       cearsaf: filters.cearsaf, stoc: filters.stoc, pret_min: filters.pretMin, pret_max: filters.pretMax })) if (value) params.set(key, value);
@@ -116,16 +120,28 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
           {products.length ? `${products.length} ${products.length === 1 ? "produs" : "produse"}. Afișăm ${(page - 1) * pageSize + 1}–${Math.min(page * pageSize, products.length)}.` : "Nu am găsit produse pentru această selecție."}
         </p>
         </div>
+        {active?.path === "oferte" && <nav className="sale-section-picker" aria-label="Alege produsele Super Sales">
+          <p>Reduceri de peste 40%. Ce cauți?</p>
+          <div className="sale-section-buttons">{saleSections.map(section => <Link key={section.key}
+            href={`/shop?${new URLSearchParams({ categorie: 'oferte', selectie: section.key })}`}
+            className="sale-section-button" aria-current={selection === section.key ? 'page' : undefined}>
+            <svg aria-hidden="true" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+              {section.key === 'baie' ? <><path d="M5 7h22M9 7v20h14V7M9 21h14M9 24h14"/><path d="M5 5v4M27 5v4"/></> : <><path d="M4 25V11a3 3 0 0 1 3-3h18a3 3 0 0 1 3 3v14M4 18h24M4 23h24"/><rect x="7" y="11" width="7" height="5" rx="1"/><rect x="18" y="11" width="7" height="5" rx="1"/></>}
+            </svg><span><strong>{section.label}</strong><small>{campaignItems.filter(p => matchesSaleSection(p, section.key)).length} modele</small></span>
+          </Link>)}</div>
+          {selection && <Link href="/shop?categorie=oferte" className="sale-show-all">Vezi toate ofertele →</Link>}
+        </nav>}
         {active?.path === "oferte" ? <p className="mt-4 rounded-xl border border-[#d8c4a0] bg-[#fcf7ee] px-5 py-4 text-sm leading-relaxed text-[#3b2d24]">
           Produsele Super Sale au reducerea inclusă în prețul afișat și sunt excluse din oferta de 10% la al doilea produs. <Link href="/promotii" className="font-semibold underline">Vezi condițiile ofertei</Link>.
         </p> : null}
 
         {subcategories.length > 0 && <nav className="subcategory-links" aria-label="Subcategorii">{subcategories.map(c=><Link key={c.path} href={categoryHref(c.path)}><span>{c.name}</span><CategorySummary path={c.path}/></Link>)}</nav>}
         {active?.path.startsWith("lenjerii-de-pat") && <BeddingFinderLink className="category-finder-button"/>}
-        <DiscoveryTracking searched={Boolean(query)} count={products.length}/><FilterPanel key={JSON.stringify(filters)+query+(categorie??'')} products={categoryItems.filter(p=>matchesSearch(p,query)).map(compactFilterProduct)} initial={filters} category={categorie} query={query} sort={sort}/>
+        <DiscoveryTracking searched={Boolean(query)} count={products.length}/><FilterPanel key={JSON.stringify(filters)+query+(categorie??'')+(selection??'')} products={categoryItems.filter(p=>matchesSearch(p,query)).map(compactFilterProduct)} initial={filters} category={categorie} query={query} sort={sort} selection={selection}/>
 
         <form action="/shop" method="get" className="catalog-sort mt-6 flex flex-wrap items-end gap-3">
           {categorie ? <input type="hidden" name="categorie" value={categorie} /> : null}
+          {selection ? <input type="hidden" name="selectie" value={selection} /> : null}
           {query ? <input type="hidden" name="q" value={query} /> : null}
           {Object.entries({ material: filters.material, culoare: filters.culoare, dimensiune: filters.dimensiune,
             cearsaf: filters.cearsaf, stoc: filters.stoc, pret_min: filters.pretMin, pret_max: filters.pretMax })
@@ -139,11 +155,11 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
             </select>
           </label>
           <button className="rounded-xl bg-[#3b2d24] px-5 py-3 text-sm font-semibold text-white">Aplică</button>
-          {query ? <Link href={active ? categoryHref(active.path) : "/shop"} className="px-3 py-3 text-sm text-[#3b2d24] underline">Șterge căutarea</Link> : null}
+          {query ? <Link href={selection ? `/shop?categorie=oferte&selectie=${selection}` : active ? categoryHref(active.path) : "/shop"} className="px-3 py-3 text-sm text-[#3b2d24] underline">Șterge căutarea</Link> : null}
         </form>
 
-        {!products.length && suggestion && <p className="search-suggestion">Ai vrut să cauți <Link href={`/shop?${new URLSearchParams({ q: suggestion, ...(categorie ? { categorie } : {}) })}`}>{suggestion}</Link>?</p>}
-        {!products.length && <div className="empty-state"><h2>Niciun produs pentru această selecție</h2><p>Încearcă să elimini un filtru sau să folosești un termen mai scurt.</p><Link className="section-link" href={`/shop?${new URLSearchParams({...categorie?{categorie}:{},...query?{q:query}:{}})}`}>Elimină filtrele →</Link></div>}
+        {!products.length && suggestion && <p className="search-suggestion">Ai vrut să cauți <Link href={`/shop?${new URLSearchParams({ q: suggestion, ...(categorie ? { categorie } : {}), ...(selection ? {selectie: selection} : {}) })}`}>{suggestion}</Link>?</p>}
+        {!products.length && <div className="empty-state"><h2>Niciun produs pentru această selecție</h2><p>Încearcă să elimini un filtru sau să folosești un termen mai scurt.</p><Link className="section-link" href={`/shop?${new URLSearchParams({...categorie?{categorie}:{},...selection?{selectie:selection}:{},...query?{q:query}:{}})}`}>Elimină filtrele →</Link></div>}
         <div className="products-grid mt-8">{visibleProducts.map((product, index) => <ProductCard key={product.id} product={product} priority={index < 2} variantId={(filters.dimensiune || query && product.variants?.length === 1) && product.variants?.length ? product.variants.reduce((a,b)=>a.price<=b.price?a:b).id : undefined} />)}</div>
         {pageCount > 1 ? <nav aria-label="Pagini catalog" className="mt-8 flex items-center justify-center gap-5 text-sm text-[#3b2d24]">
           {page > 1 ? <Link href={pageHref(page - 1)} className="rounded-full border border-[#3b2d24] px-4 py-2">← Înapoi</Link> : null}
