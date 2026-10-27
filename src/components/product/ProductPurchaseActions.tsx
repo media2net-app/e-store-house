@@ -5,7 +5,7 @@ import { trackCommerce } from "@/lib/marketing";
 import { useProductSelection } from "./ProductSelection";
 import { useCart } from "@/components/cart/CartProvider";
 import type { Product } from "@/lib/products";
-import { productSizeSummary } from "@/lib/product-sizes";
+import { productSizeSummary, policotonSizeInfo } from "@/lib/product-sizes";
 import { store } from "@/lib/store-info";
 import { shippingExplanation, shippingEstimate, dispatchExplanation } from "@/lib/shipping-information";
 import { formatProductPrice, formatProductPriceRange, formatProductReferenceRange } from "@/lib/product-format";
@@ -40,6 +40,7 @@ export default function ProductPurchaseActions({product}: {product: Product}) {
   const purchase = () => {if(needsVariant){choose();return;} if(unavailable)return; addItem(selected ? {...product,id:selected.id,price:selected.price,sku:selected.sku,bundleComponents:selected.bundleComponents??product.bundleComponents,image:selected.images?.[0]??product.image,name:`${product.name} — ${variantLabel(selected)}`} : product,quantity);};
   useEffect(() => {const observer = new IntersectionObserver(([entry]) => setShowSticky(!entry.isIntersecting),{threshold:0}); if(mainButton.current)observer.observe(mainButton.current); return () => observer.disconnect();},[]);
   useEffect(() => {const check = () => setKeyboard(Boolean(window.visualViewport && window.innerHeight-window.visualViewport.height>150));window.visualViewport?.addEventListener('resize',check);return () => window.visualViewport?.removeEventListener('resize',check);},[]);
+  const simpleSize = policotonSizeInfo(product);
   const bundleComponents = selected?.bundleComponents ?? product.bundleComponents;
   const contentFeatures = product.features?.filter(feature => /cearsaf|husa|fete|continut|numar piese|dimensiun/.test(feature.label.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase())).map(feature => `${feature.label}: ${feature.value}`).join('\n');
   const contents = selected ? (selected.contents?.trim() || `Varianta aleasă: ${variantLabel(selected)}`) : (!product.variants?.length ? [contentFeatures, product.description?.split('\n').filter(line => /^\s*[•*-]/.test(line)).join('\n')].filter(Boolean).join('\n') : 'Alege dimensiunea pentru a vedea conținutul exact.');
@@ -47,9 +48,9 @@ export default function ProductPurchaseActions({product}: {product: Product}) {
     <p className="purchase-price" aria-live="polite" aria-atomic="true">{reference && <del className="sale-old-price" aria-label="Preț de referință">{reference}</del>} {price}{discount && <span className="sale-inline-badge">−{discount}%</span>}</p>
     {product.saleReferencePeriod && <p className="sale-reference-note">Preț anterior: cel mai mic preț practicat în perioada {product.saleReferencePeriod}. <Link href="/promotii">Detalii ofertă</Link></p>}
     {product.material && <p className="product-composition"><strong>Material:</strong> {product.material}</p>}
-    <p className="product-size-summary" aria-live="polite"><strong>{selected || !product.variants?.length ? "Dimensiune:" : "Mărimi:"}</strong> {selected ? (selected.dimensions || selected.name) : productSizeSummary(product)}</p>
+    <p className="product-size-summary" aria-live="polite"><strong>{simpleSize?.label ?? (selected || !product.variants?.length ? "Dimensiune:" : "Mărimi:")}</strong> {simpleSize?.summary ?? (selected ? (selected.dimensions || selected.name) : productSizeSummary(product))}</p>
     {product.variants?.length ? <fieldset ref={selector} className="variant-selector"><legend>Alege dimensiunea</legend><div>{product.variants.map(v => <label key={v.id} className={selected?.id===v.id?'variant-selected':v.inStock===false?'variant-unavailable':''}><input type="radio" name={`variant-${product.id}`} checked={selected?.id===v.id} disabled={v.inStock===false} onChange={() => selection?.select(v.id)}/>{variantLabel(v)}{v.inStock===false?' — indisponibil':''}</label>)}</div></fieldset> : null}
-    {contents && <div className="product-contents" aria-live="polite"><h2>Ce primești</h2><ul>{contents.split('\n').filter(Boolean).map((line,i) => <li key={i}>{line.replace(/^\s*[•*-]\s*/, '')}</li>)}</ul></div>}
+    {simpleSize ? <div className="product-contents policoton-contents"><h2>Ce primești</h2><p>{simpleSize.contents}</p><details className="product-detail-copy"><summary>Vezi dimensiunile pieselor</summary><ul>{simpleSize.details.map((line,i) => <li key={i}>{line}</li>)}</ul></details></div> : contents && <div className="product-contents" aria-live="polite"><h2>Ce primești</h2><ul>{contents.split('\n').filter(Boolean).map((line,i) => <li key={i}>{line.replace(/^\s*[•*-]\s*/, '')}</li>)}</ul></div>}
     {bundleComponents?.length ? <div className="product-contents"><h2>Componentele setului</h2><ul>{bundleComponents.map(component => <li key={component.sku}>{component.quantity} × {component.name} · Cod: {component.sku}</li>)}</ul></div> : null}
     <div className="purchase-logistics"><p>{shippingEstimate}. Gratuit de la 399 lei după reduceri.</p><p>{store.deliveryEstimate ? `Livrare estimată: ${store.deliveryEstimate}.` : "Termenul de livrare se confirmă înainte de acceptarea comenzii."}</p><p>{dispatchExplanation}</p><details><summary>Transport gratuit de la 399 lei · Cum se calculează livrarea?</summary><p>{shippingExplanation}</p><Link href="/livrare-retur">Livrare și retur</Link></details></div>
     <button className="section-link" onClick={() => guide.current?.showModal()}>Verifică dacă se potrivește</button>

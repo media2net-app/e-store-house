@@ -338,3 +338,7 @@ Implemented a shared strict >40% rule for the campaign category and home offers,
 Targeted navigation test reached its existing image-presence check and failed on absent local public/products/quality-20261019/81336/02.png in this checkout; category assertions passed. This task does not change image files. Dedicated campaign tests and page checks validate the changed selection independently.
 
 Merchant follow-up: apply a 129 lei floor to Damasc Policoton. Raised 28 models (previously 112/118); retained 130/135/229 prices, reference prices, stock and discount exclusions. Resulting badge range 50–55%; entire 157-model Super Sales selection remains eligible.
+
+## 27 October 2026 — Clear Damasc Policoton size labels
+
+Replaced the unlabelled concatenation of all piece measurements with a compact mattress-fit summary for the 41 verified fitted models, or sheet type/piece count for the 27 flat-sheet models. Exact dimensions and 24 cm fitted height remain in collapsed piece details, without the prior duplicate feature/bullet lists. Removed the repeated fitted dimensions from visible product titles; reviewed catalog and search/finder inputs unchanged. Seven size/render tests, TypeScript, catalog validation and local checks of four representative product pages plus 24 catalog cards passed. Live verification will be saved in Desktop/EStore-policoton-display-2026-10-27.

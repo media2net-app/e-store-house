@@ -64,3 +64,37 @@ test('homepage leads with Black Friday and displays sizes in both product select
   assert(html.indexOf('home-mini-picks') < html.indexOf('home-mini-categories'));
   assert.equal((html.match(/class="home-product-sizes"/g)||[]).length,16);
 });
+
+test('Damasc Policoton summaries separate mattress fit from individual piece dimensions', () => {
+  const policoton = catalog.filter(p => p.categoryPath.includes('damasc-policoton'));
+  assert.equal(policoton.length, 68);
+  for (const p of policoton) {
+    const info = sizes.policotonSizeInfo(p);
+    assert(info, String(p.id));
+    assert(info.details.length > 0, String(p.id));
+    assert(!info.summary.includes('70') && !info.summary.includes('230') && !info.summary.includes('250'));
+    if (p.categoryPath.includes('cu-husa')) {
+      assert.equal(info.label, 'Pentru saltea:');
+      assert.equal(info.summary, '160 × 200 sau 180 × 200 cm');
+      assert(info.details.join(' ').includes('24'), 'Exact mattress height remains in the details');
+    } else {
+      assert(info.summary.startsWith('Cearșaf clasic'));
+      assert(!info.summary.includes('160') && !info.summary.includes('180'), 'No inferred fit for flat sheets');
+    }
+  }
+  const source = catalog.find(p => p.id === 163140);
+  assert(!sizes.productDisplayName(source).includes('160/180'));
+  assert(sizes.productDisplayName(source).includes('gri-verzui'));
+  assert(source.name.includes('160/180'), 'Reviewed catalog remains unchanged');
+  assert.equal(sizes.policotonSizeInfo({...source, description:'', features:[], name:'Lenjerie cu elastic'}), undefined);
+});
+
+test('Policoton cards show a clear mattress label without pillow and duvet measurement strings', () => {
+  const Card=load('src/components/product/ProductCard.tsx', {'next/link':link,'next/image':image,'@/lib/product-sizes':sizes,'@/lib/product-format':format}).default;
+  const p=catalog.find(p=>p.id===163140);
+  const html=renderToStaticMarkup(React.createElement(Card,{product:p}));
+  assert(html.includes('Pentru saltea:</strong> 160 × 200 sau 180 × 200 cm'));
+  assert(!html.includes('Dimensiune:</strong>'));
+  assert(!html.includes('70 × 70'));
+  assert(html.includes('<h2>Lenjerie de pat Damasc policoton, 6 piese, husă cu elastic — gri-verzui</h2>'));
+});

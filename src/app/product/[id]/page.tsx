@@ -1,3 +1,4 @@
+import { productDisplayName } from '@/lib/product-sizes';
 import { getLiveProducts } from '@/lib/live-products';
 import { productSchema } from '@/lib/product-schema';
 import CatalogReturn from "@/components/catalog/CatalogReturn";
@@ -83,7 +84,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
       <section className="mx-auto w-full max-w-[1440px] px-4 py-10">
         <CatalogReturn />
 
-        <h1 className="mobile-product-title">{product.name}</h1>
+        <h1 className="mobile-product-title">{productDisplayName(product)}</h1>
         <div className="product-overview mt-5 grid gap-8 lg:grid-cols-2">
           <div>
             <ProductImageGallery images={product.images} name={product.name} />
@@ -94,7 +95,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               {product.brand || "E-Store House"}
             </p>
             <h1 className="desktop-product-title mt-2 font-[family-name:var(--font-playfair)] text-3xl font-semibold text-[#3b2d24]">
-              {product.name}
+              {productDisplayName(product)}
             </h1>
             <nav aria-label="Categoria produsului" className="mt-2 flex flex-wrap gap-1 text-sm text-[#3b2d24]/70">
               {product.categoryPath ? categoryTrail(product.categoryPath).map((category, index) => <span key={category.path}>{index ? " / " : ""}<Link href={categoryHref(category.path)} className="hover:underline">{category.name}</Link></span>) : product.category}

@@ -6,14 +6,14 @@ import { navigationGroups, groupHref } from "@/lib/navigation-groups";
 import Link from "next/link";
 import { formatProductPriceRange } from "@/lib/products";
 import { formatProductReferenceRange } from '@/lib/product-format';
-import { productSizeSummary } from '@/lib/product-sizes';
+import { productSizeSummary, productDisplayName } from '@/lib/product-sizes';
 import { homeOffers } from '@/lib/home-offers';
 
 export default async function Hero() {
   const allProducts = await getLiveProducts();
   const getProductById = (id: number) => allProducts.find(p => p.id === id);
   const featuredOffers = homeOffers(allProducts);
-  const saleSelection = featuredOffers.slice(0, 6).map(product => ({id: product.id, label: product.name}));
+  const saleSelection = featuredOffers.slice(0, 6).map(product => ({id: product.id, label: productDisplayName(product)}));
   const products = featuredOffers.slice(6, 16);
   return <section className="home-shop-start" aria-label="Produse și inspirație pentru acasă">
     <div className="home-start-catalog">
@@ -39,7 +39,7 @@ export default async function Hero() {
             <Image src={product.image} alt={product.name} width={600} height={800} sizes="(max-width: 700px) 44vw, 30vw" loading={index < 2 ? "eager" : "lazy"}/>
             {reduced && <span className="home-start-discount">−{product.discount}%</span>}
           </Link>
-          <h2><Link href={`/product/${product.id}`}>{product.name}</Link></h2>
+          <h2><Link href={`/product/${product.id}`}>{productDisplayName(product)}</Link></h2>
           <p className="home-product-sizes">{productSizeSummary(product)}</p>
           <p className="home-start-price">{reduced && <del>{formatProductReferenceRange(product)}</del>}<strong>{formatProductPriceRange(product)}</strong></p>
           <Link href={`/product/${product.id}`} className="home-start-action">Vezi produsul <span aria-hidden="true">↗</span></Link>
