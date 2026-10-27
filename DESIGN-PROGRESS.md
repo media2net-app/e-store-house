@@ -314,3 +314,8 @@ Three simple towels (90641, 90566, 59406) lost size information when supplier va
 Shared dimension display added to catalogue/home cards and purchase area. Cards show all variant sizes, including filtered variant context; size selector moved before logistics. Homepage now opens with a Black Friday h1 and CTA, immediately followed by offers, then categories and the existing finder. Removed the generic editorial image from the campaign entry. Rendered component tests check size visibility and first-screen content order. Browser automation remains unavailable from the prior session restriction; no actual mobile screenshot or device verification claimed.
 
 Validation: npm run build passed: 85/85 tests, TypeScript and 988 generated pages. Catalog diff verified: only title/description/features of the three towels changed. Snapshot confirms all three Control titles already contain their correct size. Audit evidence: /Users/mihaipopescu/Desktop/EStore-dimensiuni-2026-10-27/dimension-audit.json.
+
+
+## Remove duplicate Black Friday box — 27 October 2026
+
+Merchant requested removing the first introductory Black Friday box and retaining the following offer block. Removed the introductory block and its unused styles; promoted the existing Super Sales · Black Friday offer heading to the homepage h1. Homepage now starts directly with the offer link and product selection. Updated existing rendered-homepage regression check for a single h1 and absence of the removed box.

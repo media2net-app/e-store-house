@@ -57,8 +57,10 @@ test('homepage leads with Black Friday and displays sizes in both product select
   // getProductById uses the live list as well.
   for(const p of bath) p.tag='Super Sale';
   const html=renderToStaticMarkup(await Hero());
-  assert(html.includes('<h1>Black Friday</h1>'));
-  assert(html.indexOf('<h1>Black Friday</h1>') < html.indexOf('home-mini-picks'));
+  assert(html.includes('<h1 class="home-sale-title">'));
+  assert(!html.includes('home-black-friday-hero'));
+  assert.equal((html.match(/<h1[ >]/g)||[]).length,1);
+  assert(html.indexOf('<h1 class="home-sale-title">') < html.indexOf('home-mini-picks'));
   assert(html.indexOf('home-mini-picks') < html.indexOf('home-mini-categories'));
   assert.equal((html.match(/class="home-product-sizes"/g)||[]).length,16);
 });

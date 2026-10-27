@@ -16,14 +16,8 @@ export default async function Hero() {
   const saleSelection = featuredOffers.slice(0, 6).map(product => ({id: product.id, label: product.name}));
   const products = featuredOffers.slice(6, 16);
   return <section className="home-shop-start" aria-label="Produse și inspirație pentru acasă">
-      <div className="home-start-message home-local-message home-black-friday-hero">
-        <p className="eyebrow">SUPER SALES · E-STORE HOUSE</p>
-        <h1>Black Friday</h1>
-        <p className="home-black-friday-subtitle">Reduceri de peste 40% pentru casa ta.</p>
-        <Link className="home-black-friday-cta" href="/shop?categorie=oferte">Vezi ofertele Black Friday <span aria-hidden="true">↗</span></Link>
-      </div>
     <div className="home-start-catalog">
-      <h2 className="home-sale-title"><Link href="/shop?categorie=oferte" className="home-sale-link"><span className="home-sale-heading"><span className="home-sale-icon" aria-hidden="true">✦</span><span>Super Sales · Black Friday<small>Reduceri de peste 40%</small></span></span><span className="home-sale-link-action">Vezi ofertele <span aria-hidden="true">↗</span></span></Link></h2>
+      <h1 className="home-sale-title"><Link href="/shop?categorie=oferte" className="home-sale-link"><span className="home-sale-heading"><span className="home-sale-icon" aria-hidden="true">✦</span><span>Super Sales · Black Friday<small>Reduceri de peste 40%</small></span></span><span className="home-sale-link-action">Vezi ofertele <span aria-hidden="true">↗</span></span></Link></h1>
       <nav className="home-mini-picks" aria-label="Selecție Super Sales Black Friday">{saleSelection.map(({ id, label }, index) => {
         const product = getProductById(id);
         if (!product || product.inStock === false || product.tag !== "Super Sale") return null;
