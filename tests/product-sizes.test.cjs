@@ -67,7 +67,7 @@ test('homepage leads with Black Friday and displays sizes in both product select
 
 test('Damasc Policoton summaries separate mattress fit from individual piece dimensions', () => {
   const policoton = catalog.filter(p => p.categoryPath.includes('damasc-policoton'));
-  assert.equal(policoton.length, 68);
+  assert.equal(policoton.length, 85);
   for (const p of policoton) {
     const info = sizes.policotonSizeInfo(p);
     assert(info, String(p.id));
