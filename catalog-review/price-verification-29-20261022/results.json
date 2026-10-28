@@ -5747,13 +5747,18 @@
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc191/",
     "costs": {
       "94799": 187,
-      "94801": 294
+      "94801": 294,
+      "94802": 303
     },
     "availability": {
       "94799": false,
-      "94801": false
+      "94801": false,
+      "94802": false
     },
-    "checkedAt": "2026-10-23T20:22:40.240692+00:00"
+    "checkedAt": "2026-10-28T23:23:37.556221+00:00",
+    "pricingRules": {
+      "94802": "retail-plus-60"
+    }
   },
   {
     "id": 94753,
@@ -9136,13 +9141,18 @@
     "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-satin-grace/",
     "costs": {
       "110756": 25,
-      "110757": 30
+      "110757": 30,
+      "110758": 33
     },
     "availability": {
       "110756": false,
-      "110757": false
+      "110757": false,
+      "110758": false
     },
-    "checkedAt": "2026-10-24T01:59:09.014454+00:00"
+    "checkedAt": "2026-10-28T23:23:37.556221+00:00",
+    "pricingRules": {
+      "110758": "retail-plus-60"
+    }
   },
   {
     "id": 110516,
@@ -12031,5 +12041,20 @@
       "111423": "retail-plus-60"
     },
     "priceBasis": "Supplier cu pernă variation regular public price, excluding reseller discount"
+  },
+  {
+    "id": 95893,
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-puf-gasca-deep-sleep/",
+    "costs": {
+      "95893": 193
+    },
+    "availability": {
+      "95893": false
+    },
+    "checkedAt": "2026-10-28T23:23:37.556221+00:00",
+    "pricingRules": {
+      "95893": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount; merchant Trendyol export stock 100"
   }
 ]

@@ -1,0 +1,55 @@
+{
+  "reviewedAt": "2026-10-28T23:23:37.556221+00:00",
+  "source": "Merchant Trendyol export Products_28.10.2026-21.30.xlsx and own Ralex product pages",
+  "stockDecision": "Merchant instructed stock 100 for new website publications; own Trendyol export shows stock 100 for the same three Control SKUs. Supplier availability is false and explicitly retained in price evidence.",
+  "items": [
+    {
+      "sku": "94802",
+      "modelId": 94798,
+      "controlStock": 100,
+      "supplierStock": false,
+      "priceBasis": 303,
+      "websitePrice": 484.8,
+      "gallery": [
+        "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/594246ea-ffd1-347d-9f27-2f19b9929316/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/64cefb32-99bb-3628-870b-c6bb92f59c70/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/80ee5e0b-1823-3d1d-af6e-83c6ad69dd08/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/c2a341f1-78d5-39a3-9628-146752c9e286/1_org_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "95893",
+      "modelId": 95893,
+      "controlStock": 100,
+      "supplierStock": false,
+      "priceBasis": 193,
+      "websitePrice": 308.8,
+      "gallery": [
+        "https://cdn.dsmcdn.com/ty1974/prod/QC_ENRICHMENT/20261010/18/a9b73126-6786-3372-afa9-05f715e57838/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1976/prod/QC_ENRICHMENT/20261010/18/a1f1e1e7-9dad-3b0c-b67b-af17e192ae6b/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1976/prod/QC_ENRICHMENT/20261010/18/69edb28d-c644-33c3-8a96-d05d54ab88f7/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1975/prod/QC_ENRICHMENT/20261010/18/01e30e01-87ad-3025-8aca-22839a4ef8d2/1_org_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "110758",
+      "modelId": 110755,
+      "controlStock": 100,
+      "supplierStock": false,
+      "priceBasis": 33,
+      "websitePrice": 52.8,
+      "gallery": [
+        "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260612/23/4894b772-40fa-3715-b8e9-4e4a34ae666e/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260612/23/1bbdfed1-872f-3f28-b7c5-9a515ed466f9/1_org_zoom.jpg",
+        "/products/ralex-remaining-20261029/110758/garden-reviewed.png",
+        "/products/ralex-remaining-20261029/110758/hem-detail-reviewed.png"
+      ]
+    }
+  ],
+  "releasedFromQualityHold": [
+    95893
+  ],
+  "releasedFromProductsOnHold": [
+    95893
+  ]
+}

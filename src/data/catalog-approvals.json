@@ -15140,7 +15140,7 @@
     "reviewedAt": "2026-10-23T20:22:40.240692+00:00",
     "source": "control-percale-prc191-publication-20261023",
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc191/",
-    "visualReview": "Reviewed existing Control photographs against own supplier reference: complete bed, front view, fabric/pillow detail and alternate angle or overhead; print, colors, piece counts and captions verified for each published variant. Supplier variants without dimensions excluded. No generated images.",
+    "visualReview": "Reviewed existing Control photographs against own supplier reference: complete bed, front view, fabric/pillow detail and alternate angle or overhead; print, colors, piece counts and captions verified for each published variant. Supplier variants without dimensions excluded. No generated images. New 94802 fitted variant: four distinct Trendyol photographs visually checked against PRC191 source and printed size/contents captions; supplier barcode and regular public price checked. Merchant Trendyol export shows stock 100 although supplier variation is out of stock.",
     "photographicViews": 4,
     "media": [
       {
@@ -15174,9 +15174,25 @@
       {
         "url": "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/e8f58568-4d2b-3d16-abfe-7001888275fe/1_org_zoom.jpg",
         "sha256": "851705c8244294f09a54c89f4639fb03ddd4cade4e504863aa6872caf46d72c9"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/594246ea-ffd1-347d-9f27-2f19b9929316/1_org_zoom.jpg",
+        "sha256": "f855650bc3279255de00a125f40669d850965f93f5577d39a1fd71d108fdb094"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/64cefb32-99bb-3628-870b-c6bb92f59c70/1_org_zoom.jpg",
+        "sha256": "55cbf801cf736db70c1383d3cc97e800d0498368127512c9c43b117ab7e09265"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/80ee5e0b-1823-3d1d-af6e-83c6ad69dd08/1_org_zoom.jpg",
+        "sha256": "d0f3ee5320e6955feb813ce3112523f27f566439356e4e141ef77a884d1fad9f"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/c2a341f1-78d5-39a3-9628-146752c9e286/1_org_zoom.jpg",
+        "sha256": "36838607cc37e8d69a6f05c8a69258ba77aa6dfa2cbbf083b128e5c6d6fe0e2b"
       }
     ],
-    "fingerprint": "6f0a17f5889f28364791eb750aa3c9cbeacdf48549e3ce17f78c9a5ee5267032"
+    "fingerprint": "6db681e29b91f684b9736b490bacb9a8849f394bc7f7d59915671084879f8d52"
   },
   {
     "id": 94753,
@@ -23351,7 +23367,7 @@
     "reviewedAt": "2026-10-24T01:59:09.014454+00:00",
     "source": "control-recovered-outdoor-publication-20261024",
     "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-satin-grace/",
-    "visualReview": "Own supplier and both Control table photographs visually reviewed. Folded, fabric/hem detail and draped cloth outputs inspected against actual source, preserving color, weave and patterns. Four distinct views per size: corresponding square/rectangular Control hero plus three shared fabric views. Supplier numeric barcode renderer and own embedded size variations verified.",
+    "visualReview": "Own supplier and both Control table photographs visually reviewed. Folded, fabric/hem detail and draped cloth outputs inspected against actual source, preserving color, weave and patterns. Four distinct views per size: corresponding square/rectangular Control hero plus three shared fabric views. Supplier numeric barcode renderer and own embedded size variations verified. New 110758 size: two actual Trendyol photos plus a distinct garden-table angle and hem close-up generated from the exact green Oxford supplier references, then visually inspected for color, fabric and drape. Numeric 140 × 240 cm variation verified; merchant Trendyol export shows stock 100 although supplier variation is out of stock.",
     "photographicViews": 4,
     "media": [
       {
@@ -23373,9 +23389,25 @@
       {
         "url": "/products/110755/drape-reviewed-v1.png",
         "sha256": "0fd2f3b52e4df326cf16139f116a49f4b823e93e1b49298c126bbdb49c566452"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260612/23/4894b772-40fa-3715-b8e9-4e4a34ae666e/1_org_zoom.jpg",
+        "sha256": "c9b9c1a4be8496aa99105da5fa7ca90383a415e56c5f7fde365a251d07c78cc0"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260612/23/1bbdfed1-872f-3f28-b7c5-9a515ed466f9/1_org_zoom.jpg",
+        "sha256": "9a4c30efb9b24913be6295cbefb55fa3fe18d5ef81377e0b01f7392fcc687a91"
+      },
+      {
+        "url": "/products/ralex-remaining-20261029/110758/garden-reviewed.png",
+        "sha256": "30ff4c43fe52dce088c9fc3775a1e82f2c6615bd9b0dc207dd8cb3a26b2430a7"
+      },
+      {
+        "url": "/products/ralex-remaining-20261029/110758/hem-detail-reviewed.png",
+        "sha256": "9810603d53b69850f95f6f3f878f3fc3925a9b91985da07fb3dcacec4f2178f6"
       }
     ],
-    "fingerprint": "92cd34993b17d5ddc40c34162086ecd1390536fa5ebc6173a520b6fc5e726a24"
+    "fingerprint": "40ac3289c00b29dc8d5d8ff32aba36b30c5fb70b402b88b7d178053879db5cb3"
   },
   {
     "id": 110516,
@@ -29641,5 +29673,32 @@
       }
     ],
     "fingerprint": "e46af254fbc0a0e7e738703c7d520c8639654fa15566ef9052e608eabdf4a69d"
+  },
+  {
+    "id": 95893,
+    "reviewedAt": "2026-10-28T23:23:37.556221+00:00",
+    "source": "Trendyol merchant export Control SKU 95893; own Ralex numeric product page",
+    "supplierUrl": "https://ralexpucioasa.ro/store/perne/perna-puf-gasca-deep-sleep/",
+    "visualReview": "Four distinct merchant Trendyol photographs reviewed: complete pillow hero, alternate front with exact 50 × 70 cm caption, blue-trim/logo detail and overhead. Blue edging and Ralex Deep Sleep embroidery match the ten supplier photographs. Supplier page provides 100% cotton percale/polyurethane cover, 50% goose down/50% goose feather fill and medium-firm grade. Merchant Trendyol export stock 100 supersedes supplier out-of-stock status for this website publication.",
+    "photographicViews": 4,
+    "media": [
+      {
+        "url": "https://cdn.dsmcdn.com/ty1974/prod/QC_ENRICHMENT/20261010/18/a9b73126-6786-3372-afa9-05f715e57838/1_org_zoom.jpg",
+        "sha256": "a1265b4815a7a0fe0eb43392cebfe5509891d1334b52c1ebbc75d4a92d8e311c"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_ENRICHMENT/20261010/18/a1f1e1e7-9dad-3b0c-b67b-af17e192ae6b/1_org_zoom.jpg",
+        "sha256": "a99fed122cb08a9e49f9557845d4e9d6d3ea646e23d042095ac81f1d438db589"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1976/prod/QC_ENRICHMENT/20261010/18/69edb28d-c644-33c3-8a96-d05d54ab88f7/1_org_zoom.jpg",
+        "sha256": "33b4028f9915652f4d1362d345da69d40fe71c594c5c4648342968a2386aa082"
+      },
+      {
+        "url": "https://cdn.dsmcdn.com/ty1975/prod/QC_ENRICHMENT/20261010/18/01e30e01-87ad-3025-8aca-22839a4ef8d2/1_org_zoom.jpg",
+        "sha256": "7c5848e1d92d2d697b8fa9663a7d979a3cc552eca3a2ffd393c1a3f77d04862d"
+      }
+    ],
+    "fingerprint": "3591f88f7ff6d9167205db74d6f791fb4822bab4ab09473c55dc5ea89db4311a"
   }
 ]
