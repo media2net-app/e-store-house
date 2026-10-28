@@ -8549,17 +8549,25 @@
     "supplierUrl": "https://ralexpucioasa.ro/store/saltele-si-toppere/toper-memory-aloe-vera/",
     "costs": {
       "102990": 351,
+      "102991": 370,
       "102992": 388,
       "102993": 418,
       "102995": 252
     },
     "availability": {
       "102990": true,
+      "102991": true,
       "102992": true,
       "102993": true,
       "102995": true
     },
-    "checkedAt": "2026-10-24T01:28:08.091286+00:00"
+    "checkedAt": "2026-10-28T18:43:57.923Z",
+    "pricingRules": {
+      "102991": "retail-plus-60"
+    },
+    "retailPriceBasis": {
+      "102991": "Supplier variation regular display price 370 RON; summary range is reseller discounted price"
+    }
   },
   {
     "id": 107247,
@@ -11422,5 +11430,260 @@
       "105709": true
     },
     "checkedAt": "2026-10-27T10:55:22.014Z"
+  },
+  {
+    "id": 76880,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp42/",
+    "costs": {
+      "76880": 186
+    },
+    "availability": {
+      "76880": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "76880": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 76888,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp50/",
+    "costs": {
+      "76888": 136
+    },
+    "availability": {
+      "76888": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "76888": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 76898,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph4/",
+    "costs": {
+      "76898": 136
+    },
+    "availability": {
+      "76898": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "76898": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 76902,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph8/",
+    "costs": {
+      "76902": 141
+    },
+    "availability": {
+      "76902": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "76902": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 76903,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph9/",
+    "costs": {
+      "76903": 141
+    },
+    "availability": {
+      "76903": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "76903": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 76904,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph10/",
+    "costs": {
+      "76904": 141
+    },
+    "availability": {
+      "76904": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "76904": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 76905,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph11/",
+    "costs": {
+      "76905": 141
+    },
+    "availability": {
+      "76905": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "76905": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 83415,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph16/",
+    "costs": {
+      "83415": 193
+    },
+    "availability": {
+      "83415": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "83415": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 83462,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp52/",
+    "costs": {
+      "83462": 141
+    },
+    "availability": {
+      "83462": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "83462": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 83470,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp60/",
+    "costs": {
+      "83470": 136
+    },
+    "availability": {
+      "83470": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "83470": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 83471,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp61/",
+    "costs": {
+      "83471": 136
+    },
+    "availability": {
+      "83471": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "83471": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 83476,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp66/",
+    "costs": {
+      "83476": 136
+    },
+    "availability": {
+      "83476": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "83476": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 83479,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp69/",
+    "costs": {
+      "83479": 136
+    },
+    "availability": {
+      "83479": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "83479": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 83483,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp73/",
+    "costs": {
+      "83483": 136
+    },
+    "availability": {
+      "83483": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "83483": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 96419,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-pat-damasc-policoton-6-piese-cu-husa/lenjerii-de-pat-damasc-policoton-6-piese-cu-husa-6dph44/",
+    "costs": {
+      "96419": 141
+    },
+    "availability": {
+      "96419": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "96419": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 96460,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp75/",
+    "costs": {
+      "96460": 136
+    },
+    "availability": {
+      "96460": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "96460": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 96464,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-damasc-policoton-6-piese/lenjerii-de-pat-damasc-policoton-6-piese-6dp77/",
+    "costs": {
+      "96464": 136
+    },
+    "availability": {
+      "96464": true
+    },
+    "checkedAt": "2026-10-28T18:41:11.471907+00:00",
+    "pricingRules": {
+      "96464": "retail-plus-60"
+    },
+    "priceBasis": "Supplier regular public price, excluding reseller discount"
   }
 ]

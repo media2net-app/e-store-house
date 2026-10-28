@@ -101,3 +101,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 - Merchant requests simpler size presentation for Damasc Policoton. Do not concatenate sheet, duvet, pillow and quantity measurements in the primary summary. For verified fitted models show only mattress 160 × 200 or 180 × 200 cm; for flat-sheet sets show sheet type and piece count without inventing mattress compatibility.
 - Keep exact reviewed dimensions and mattress height in an initially collapsed “Vezi dimensiunile pieselor” section. Simplify the visible fitted title by omitting its repeated size string. Preserve source catalog, finder data, SKU, pricing and stock; this is a presentation change only.
+
+## Ralex publication prices and stock — 28 October 2026
+
+- For the 17 newly published Damasc Policoton models and the newly added Topper Memory Aloe Vera variant 102991, use the supplier's regular displayed price without the reseller discount, plus exactly 60%, rounded to bani. Give each newly published SKU stock quantity 100. Existing website SKUs keep their prior pricing rules and stock. The new Damasc models are not automatically included in the existing 68-model Damasc Super Sales campaign.
