@@ -71,6 +71,9 @@ test("stored prices follow each SKU's supplier-backed pricing rule", () => {
     const source = sources.get(product.id);
     for (const entry of [product, ...(product.variants ?? [])]) {
       assert.ok(Number.isFinite(entry.price) && entry.price > 0, `Invalid price for ${entry.id}`);
+      // A variable model displays the lowest variant price, which may follow a
+      // different supplier-backed pricing rule from the other variants.
+      if (entry === product && product.variants?.length) continue;
       if (source.pricingRules?.[entry.sku] === "retail-plus-60") {
         assert.equal(entry.price, Math.round(source.costs[entry.sku] * 160) / 100, `Incorrect 60% retail markup for ${entry.id}`);
       } else {

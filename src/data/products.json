@@ -22179,7 +22179,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "50% bumbac, 50% poliester",
-    "description": "Lenjerie de pat Natur Uni Stripe, 6 piese, bej.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Natur Uni Stripe, 6 piese, bej.\n\nMaterial: 50% bumbac, 50% poliester.\n\nConținut și dimensiuni:\nCearșaf: 230 × 250 cm: 1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nHusă universală: 160/180 × 200 × 25 cm: 1 husă cu elastic, universală pentru saltea de 160 × 200 × 25 cm sau 180 × 200 × 25 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-stripe-6-piese-cu-husa-bej/",
     "images": [
       "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260611/11/022c3c8d-c066-3901-a364-ee2dc664d5a5/1_org_zoom.jpg",
@@ -22198,9 +22198,25 @@
         "value": "6 piese; tipul cearșafului și dimensiunile sunt indicate pentru fiecare variantă."
       }
     ],
-    "price": 419,
+    "price": 284.8,
     "inStock": true,
     "variants": [
+      {
+        "id": 81195,
+        "sku": "81195",
+        "name": "Cearșaf: 230 × 250 cm",
+        "dimensions": "Cearșaf: 230 × 250 cm",
+        "contents": "1 cearșaf de pat 230 × 250 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260611/11/022c3c8d-c066-3901-a364-ee2dc664d5a5/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260611/11/06c9e8ff-02b0-3492-a410-5d2beaa95cb3/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260611/11/ac8456f2-331b-3f48-a13d-6a62b0f5002d/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260611/11/6a9d8bc0-e0ef-335a-a27d-d1ae8e790911/1_org_zoom.jpg"
+        ],
+        "price": 284.8,
+        "stock": 100,
+        "inStock": true
+      },
       {
         "id": 81208,
         "sku": "81208",
