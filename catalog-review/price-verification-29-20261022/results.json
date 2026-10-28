@@ -5318,12 +5318,21 @@
     "id": 81208,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-stripe-6-piese-cu-husa-bej/",
     "costs": {
-      "81208": 195
+      "81208": 195,
+      "81195": 178
     },
     "availability": {
-      "81208": true
+      "81208": true,
+      "81195": true
     },
-    "checkedAt": "2026-10-23T20:18:31.027091+00:00"
+    "checkedAt": "2026-10-28T21:26:54.847121+00:00",
+    "pricingRules": {
+      "81195": "retail-plus-60"
+    },
+    "priceBasis": "81195: supplier regular public price, excluding reseller discount; 81208: existing website pricing rule",
+    "variantSources": {
+      "81195": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-de-pat-policoton/lenjerii-de-pat-natur-uni/lenjerie-de-pat-natur-uni-stripe-6-piese-cu-cearsaf-bej/"
+    }
   },
   {
     "id": 81220,
