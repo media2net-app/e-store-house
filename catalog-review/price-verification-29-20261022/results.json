@@ -4054,156 +4054,312 @@
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc181/",
     "costs": {
       "94749": 187,
-      "94751": 294
+      "94751": 294,
+      "94752": 303
     },
     "availability": {
       "94749": true,
-      "94751": true
+      "94751": true,
+      "94752": true
     },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94752": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94752": {
+        "supplierVariantId": 94752,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc181-100-bumbac-verde-deschis-imprimeu-floral.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94758,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc183/",
     "costs": {
       "94759": 187,
-      "94761": 294
+      "94761": 294,
+      "94762": 303
     },
     "availability": {
       "94759": true,
-      "94761": true
+      "94761": true,
+      "94762": true
     },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94762": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94762": {
+        "supplierVariantId": 94762,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc183-100-bumbac-roz-imprimeu-floral.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94768,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc185/",
     "costs": {
       "94769": 187,
-      "94771": 294
+      "94771": 294,
+      "94772": 303
     },
     "availability": {
       "94769": true,
-      "94771": true
+      "94771": true,
+      "94772": true
     },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94772": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94772": {
+        "supplierVariantId": 94772,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc185-100-bumbac-roz-somon-imprimeu-floral.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94773,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc186/",
     "costs": {
       "94774": 187,
-      "94776": 294
+      "94776": 294,
+      "94777": 303
     },
     "availability": {
       "94774": true,
-      "94776": true
+      "94776": true,
+      "94777": true
     },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94777": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94777": {
+        "supplierVariantId": 94777,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc186-100-bumbac-verde-imprimeu-cu-frunze.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94778,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc187/",
     "costs": {
       "94779": 187,
-      "94781": 294
+      "94781": 294,
+      "94782": 303
     },
     "availability": {
       "94779": true,
-      "94781": true
+      "94781": true,
+      "94782": true
     },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94782": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94782": {
+        "supplierVariantId": 94782,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc187-100-bumbac-piersica-imprimeu-cu-frunze.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94783,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc188/",
     "costs": {
       "94784": 187,
-      "94786": 294
+      "94786": 294,
+      "94787": 303
     },
     "availability": {
       "94784": true,
-      "94786": true
+      "94786": true,
+      "94787": true
     },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94787": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94787": {
+        "supplierVariantId": 94787,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc188-100-bumbac-alb-imprimeu-cu-buline-negre.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94788,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc189/",
     "costs": {
       "94789": 187,
-      "94791": 294
+      "94791": 294,
+      "94792": 303
     },
     "availability": {
       "94789": true,
-      "94791": true
+      "94791": true,
+      "94792": true
     },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94792": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94792": {
+        "supplierVariantId": 94792,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc189-100-bumbac-alb-imprimeu-floral.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94803,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc192/",
     "costs": {
       "94804": 187,
-      "94806": 294
+      "94806": 294,
+      "94807": 303
     },
     "availability": {
       "94804": true,
-      "94806": true
+      "94806": true,
+      "94807": true
     },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94807": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94807": {
+        "supplierVariantId": 94807,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc192-100-bumbac-alb-imprimeu-floral.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94818,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc195/",
     "costs": {
       "94819": 187,
-      "94821": 294
+      "94821": 294,
+      "94822": 303
     },
     "availability": {
       "94819": true,
-      "94821": true
+      "94821": true,
+      "94822": true
     },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94822": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94822": {
+        "supplierVariantId": 94822,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc195-100-bumbac-crem-imprimeu-floral-mic.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94828,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc197/",
     "costs": {
       "94829": 187,
-      "94831": 294
+      "94831": 294,
+      "94832": 303
     },
     "availability": {
       "94829": true,
-      "94831": true
+      "94831": true,
+      "94832": true
     },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94832": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94832": {
+        "supplierVariantId": 94832,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc197-100-bumbac-albastru-gri-imprimeu-floral-ornamental.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94848,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc201/",
     "costs": {
       "94849": 187,
-      "94851": 294
+      "94851": 294,
+      "94852": 303
     },
     "availability": {
       "94849": true,
-      "94851": true
+      "94851": true,
+      "94852": true
     },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94852": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94852": {
+        "supplierVariantId": 94852,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc201-100-bumbac-roz-imprimeu-cu-pisici.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94858,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc203/",
     "costs": {
       "94859": 187,
-      "94861": 294
+      "94861": 294,
+      "94862": 303
     },
     "availability": {
       "94859": true,
-      "94861": true
+      "94861": true,
+      "94862": true
     },
-    "checkedAt": "2026-10-23T20:00:39.497050+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94862": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94862": {
+        "supplierVariantId": 94862,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc203-100-bumbac-roz-imprimeu-cu-desene.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94688,
@@ -4751,13 +4907,26 @@
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc198/",
     "costs": {
       "94834": 187,
-      "94836": 294
+      "94836": 294,
+      "94837": 303
     },
     "availability": {
       "94834": true,
-      "94836": true
+      "94836": true,
+      "94837": true
     },
-    "checkedAt": "2026-10-23T20:09:17.447372+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94837": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94837": {
+        "supplierVariantId": 94837,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc198-100-bumbac-gri-imprimeu-cu-arbori-stilizati.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94030,
@@ -5591,78 +5760,156 @@
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc182/",
     "costs": {
       "94754": 187,
-      "94756": 294
+      "94756": 294,
+      "94757": 303
     },
     "availability": {
       "94754": true,
-      "94756": true
+      "94756": true,
+      "94757": true
     },
-    "checkedAt": "2026-10-23T20:24:52.707833+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94757": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94757": {
+        "supplierVariantId": 94757,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc182-100-bumbac-crem-imprimeu-floral.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94763,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc184/",
     "costs": {
       "94764": 187,
-      "94766": 294
+      "94766": 294,
+      "94767": 303
     },
     "availability": {
       "94764": true,
-      "94766": true
+      "94766": true,
+      "94767": true
     },
-    "checkedAt": "2026-10-23T20:24:52.707833+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94767": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94767": {
+        "supplierVariantId": 94767,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc184-100-bumbac-alb-imprimeu-geometric-gri.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94808,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc193/",
     "costs": {
       "94809": 187,
-      "94811": 294
+      "94811": 294,
+      "94812": 303
     },
     "availability": {
       "94809": true,
-      "94811": true
+      "94811": true,
+      "94812": true
     },
-    "checkedAt": "2026-10-23T20:24:52.707833+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94812": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94812": {
+        "supplierVariantId": 94812,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc193-100-bumbac-crem-imprimeu-floral-mic.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94813,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc194/",
     "costs": {
       "94814": 187,
-      "94816": 294
+      "94816": 294,
+      "94817": 303
     },
     "availability": {
       "94814": true,
-      "94816": true
+      "94816": true,
+      "94817": true
     },
-    "checkedAt": "2026-10-23T20:24:52.707833+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94817": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94817": {
+        "supplierVariantId": 94817,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc194-100-bumbac-alb-imprimeu-floral-roz.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94843,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc200/",
     "costs": {
       "94844": 187,
-      "94846": 294
+      "94846": 294,
+      "94847": 303
     },
     "availability": {
       "94844": true,
-      "94846": true
+      "94846": true,
+      "94847": true
     },
-    "checkedAt": "2026-10-23T20:24:52.707833+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94847": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94847": {
+        "supplierVariantId": 94847,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc200-100-bumbac-crem-imprimeu-cu-ursuleti.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 94853,
     "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc202/",
     "costs": {
       "94854": 187,
-      "94856": 294
+      "94856": 294,
+      "94857": 303
     },
     "availability": {
       "94854": true,
-      "94856": true
+      "94856": true,
+      "94857": true
     },
-    "checkedAt": "2026-10-23T20:24:52.707833+00:00"
+    "checkedAt": "2026-10-28T22:23:37.041185+00:00",
+    "pricingRules": {
+      "94857": "retail-plus-60"
+    },
+    "priceBasis": "Existing variants: prior website pricing rule; new fitted variant: supplier regular public price, excluding reseller discount, plus 60%",
+    "dimensionSources": {
+      "94857": {
+        "supplierVariantId": 94857,
+        "distributorUrl": "https://www.casa-decor.ro/lenjerii-de-pat/lenjerie-de-pat-percalle-ralex-pucioasa-prc202-100-bumbac-verde-deschis-imprimeu-geometric.html",
+        "heightSource": "Merchant Trendyol export title and four photographs, 28 October 2026"
+      }
+    }
   },
   {
     "id": 162830,

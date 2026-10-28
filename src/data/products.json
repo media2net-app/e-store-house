@@ -17603,7 +17603,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC181, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC181, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc181/",
     "images": [
       "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/0f711c65-3d55-33c8-9012-a53555b15462/1_org_zoom.jpg",
@@ -17619,7 +17619,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -17656,6 +17656,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94752,
+        "sku": "94752",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/61912c75-fba7-3f7f-a7dc-279fe7be6f26/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/0b4b9fff-8bea-37e4-992a-8d8e60411a9f/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/348463d8-5664-3a10-9606-7ac358804002/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/069c7f5d-91ac-3f3c-b7c6-02a28f391237/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -17667,7 +17683,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC183, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC183, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc183/",
     "images": [
       "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/e9e9ea8e-9a66-318a-8976-cc1e0ce0b005/1_org_zoom.jpg",
@@ -17683,7 +17699,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -17720,6 +17736,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94762,
+        "sku": "94762",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/37c3e21c-1cf8-3ccf-9701-dae09729c97e/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/52dde9d7-2a72-3a77-9622-563d645deff9/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/10837eb7-63c7-3704-9402-eaccde904bda/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/36146d13-6cb3-3faa-8879-64c56a3a2bfe/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -17731,7 +17763,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC185, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC185, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc185/",
     "images": [
       "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/4b6ab3fa-0b6d-32b8-af43-b63b37953441/1_org_zoom.jpg",
@@ -17747,7 +17779,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -17784,6 +17816,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94772,
+        "sku": "94772",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260920/20/b7b88f20-c177-33a6-bfe8-ecef1346f464/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260920/20/219c7855-67f6-3f1a-861c-1bdc04a89ffe/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260920/20/982a9f9f-f9d2-3ce9-9a01-99727b51a01e/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/2a331ef1-139b-3d11-9bf6-86fef144a3d9/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -17795,7 +17843,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC186, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC186, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc186/",
     "images": [
       "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/d5acd8e3-8fc4-37ce-acfe-68f08c4008d4/1_org_zoom.jpg",
@@ -17811,7 +17859,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -17848,6 +17896,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94777,
+        "sku": "94777",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/80d2397d-f8d7-339d-a03f-6554c5b7fceb/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/1595a285-6d98-37b3-8f6e-321352691d63/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/cf508bf8-dba2-3764-a9ec-67d156bec8af/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/cb5d4ca4-1b97-3538-b254-f8d552060f41/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -17859,7 +17923,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC187, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC187, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc187/",
     "images": [
       "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/ac552a88-65ef-3f34-87a9-2d96367dd838/1_org_zoom.jpg",
@@ -17875,7 +17939,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -17912,6 +17976,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94782,
+        "sku": "94782",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/f293a1df-5c19-3dbc-b35e-3053e33116a9/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/e16e6eaf-4b76-3b3a-93bb-13b262b543d7/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/3476c1a0-1712-3b67-bf45-00c0ee134b72/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/2b75414f-4f73-3217-9afb-0ce1e5266fc7/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -17923,7 +18003,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC188, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC188, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc188/",
     "images": [
       "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/14ece3a0-0c25-3ee3-af98-fb31cc5c67c2/1_org_zoom.jpg",
@@ -17939,7 +18019,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -17976,6 +18056,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94787,
+        "sku": "94787",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/0c6e1de3-9580-32e9-b86c-cb69717140ce/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/6c9d4a2c-be7d-3d4c-81f4-7319eb4f9b9a/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/ae82030d-242d-38a8-8ffb-a361dacc7530/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/7faa105c-8eae-319e-898a-a141265ca829/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -17987,7 +18083,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC189, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC189, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc189/",
     "images": [
       "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/45a7551d-f292-3976-b3e8-454b63900f3c/1_org_zoom.jpg",
@@ -18003,7 +18099,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -18040,6 +18136,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94792,
+        "sku": "94792",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/b40f46a6-8d57-36d3-ae0b-0aa18d87f266/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260920/20/cddc786a-edf9-3c67-93dd-9f2335377a2d/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260920/20/a4e32ad0-6eac-3398-9f80-a7efa738e0b4/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260920/20/b5653b91-ecc4-3079-8d8e-51977062188c/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -18051,7 +18163,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC192, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC192, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc192/",
     "images": [
       "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/decaf714-4cef-3325-9e1c-faed9c06184d/1_org_zoom.jpg",
@@ -18067,7 +18179,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -18104,6 +18216,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94807,
+        "sku": "94807",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/805fb9b5-c506-36a7-b849-22aa4ed2673f/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260920/20/585afa99-7b84-3f08-bcfb-8f660d2e2a0e/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260920/20/dad3b472-5ee2-3077-8dcf-052122adfc69/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/e19b7a8b-6113-3292-9f9f-644d47da81ad/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -18115,7 +18243,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC195, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC195, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc195/",
     "images": [
       "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/9a02abbd-7443-3f02-b97b-efc57682eac7/1_org_zoom.jpg",
@@ -18131,7 +18259,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -18168,6 +18296,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94822,
+        "sku": "94822",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/2da8b970-1324-329d-8490-10bee6020aab/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/dff234d6-2ed7-328f-ba51-199834f3fd03/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/0daa95fa-9e76-38c6-a93a-23deda85ef2d/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/50ea7ff3-2837-3007-9270-0501eef73ae4/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -18179,7 +18323,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC197, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC197, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc197/",
     "images": [
       "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/b2d630c4-5bf7-311f-8bd2-0f4f9aa0008c/1_org_zoom.jpg",
@@ -18195,7 +18339,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -18232,6 +18376,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94832,
+        "sku": "94832",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/07a0e4da-d7cc-38af-b71b-7be0b13be4b7/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/ec6d2ac2-6475-3aba-abc0-88ee7b0608f7/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/a323b660-a6ae-3aee-a0b8-52fd7608a982/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/a8d0b720-f95e-3bce-a5ab-17f262cc2d33/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -18243,7 +18403,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC201, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC201, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc201/",
     "images": [
       "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/85366fc2-9b46-32f9-97d0-a341adf1a05a/1_org_zoom.jpg",
@@ -18259,7 +18419,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -18296,6 +18456,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94852,
+        "sku": "94852",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/0c97b5ee-3c75-3546-b879-686fd222b8d6/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/8bdc49d5-3094-3eb9-ae34-bb966c368b09/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260920/20/204ca7d2-741e-3f2a-8998-eef1e98f39e2/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260920/20/fa01c474-5df1-37a0-b551-0296b028f998/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -18307,7 +18483,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC203, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC203, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc203/",
     "images": [
       "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/15/f1820ac1-cb99-3608-893e-72f0186f3190/1_org_zoom.jpg",
@@ -18323,7 +18499,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -18358,6 +18534,22 @@
           "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/cbf923df-b844-30f0-a1f3-64e727b76b3b/1_org_zoom.jpg"
         ],
         "price": 619,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 94862,
+        "sku": "94862",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/018cb29d-7397-3ce4-bfc8-ce631a8b4953/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260920/20/3ad5a068-b2b7-39ae-ac09-62345e506e9a/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/5afc605a-eb9f-3c24-8214-9b2f0b83cd46/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260920/20/1b21c687-85a9-38ea-85bc-4eae1ed87636/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
         "stock": 100,
         "inStock": true
       }
@@ -20291,7 +20483,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC198, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC198, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc198/",
     "images": [
       "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/9c8950aa-6bfa-33c1-823d-a258650957ef/1_org_zoom.jpg",
@@ -20307,7 +20499,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -20342,6 +20534,22 @@
           "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260920/20/8346897a-e110-3b23-840c-bcd508b3703b/1_org_zoom.jpg"
         ],
         "price": 619,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 94837,
+        "sku": "94837",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/3a001096-a54d-3354-9ffd-c44a0174b251/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/58ff8ee7-b139-307e-8312-15b955eaf16a/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/7d04cd24-1b26-3a8c-8575-2a5956e3cde2/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/94d124d5-bbc2-374d-ac7e-cbdde872cb31/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
         "stock": 100,
         "inStock": true
       }
@@ -23366,7 +23574,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC182, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC182, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc182/",
     "images": [
       "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/65a3ba98-75f1-31f9-bcbb-5828d5f2fa37/1_org_zoom.jpg",
@@ -23382,7 +23590,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -23419,6 +23627,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94757,
+        "sku": "94757",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260920/20/581e7663-4659-3be9-ae57-527cdb8e23bd/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260920/20/b6005e6c-2081-374f-8f30-462a16b65a0a/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260920/20/32c93c3a-09d1-3b9d-89d9-a40d1ade6103/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/3dec393a-cdfe-3210-88d9-b7d0199adbc0/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -23430,7 +23654,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC184, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC184, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc184/",
     "images": [
       "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/0549edca-0485-348b-b76a-d6ae1e09fa8c/1_org_zoom.jpg",
@@ -23446,7 +23670,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -23483,6 +23707,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94767,
+        "sku": "94767",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/8ee73fb8-6aa0-319c-9ad3-ace0aff9942f/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/8b44aee6-a64b-35d3-b400-b57f417da5cc/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/af021155-0004-3695-9749-57c63c4fa0af/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/a1ac2a7e-8ec1-308f-8b2b-42c5e350f512/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -23494,7 +23734,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC193, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC193, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc193/",
     "images": [
       "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/4f13e937-2327-30cb-b09b-e209798767d3/1_org_zoom.jpg",
@@ -23510,7 +23750,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -23547,6 +23787,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94812,
+        "sku": "94812",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260920/20/e665edb6-c1eb-3181-acfe-c58d9594815d/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/5503029c-66c6-3643-a47b-bccd91eb667e/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260920/20/cb90b3dd-8907-3806-9644-98408e74d095/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260920/20/2d61a3b8-2e08-37c6-93a3-f3694a967f59/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -23558,7 +23814,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC194, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC194, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc194/",
     "images": [
       "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/824479af-68cd-3156-a4be-fd5ba2a6f587/1_org_zoom.jpg",
@@ -23574,7 +23830,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -23611,6 +23867,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94817,
+        "sku": "94817",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/126a93e7-1fd7-32fe-8941-7dc24ef821ff/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/1c0e4368-69fa-3dff-9aac-944e99510f94/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/ed421d2b-c5fa-30b1-806a-578e2d9469fa/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/bcf4f4fa-58ef-32e9-b2a3-901d61cd04d8/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -23622,7 +23894,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC200, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC200, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc200/",
     "images": [
       "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/cd10ded6-4403-3a55-ad3c-e1631d15e535/1_org_zoom.jpg",
@@ -23638,7 +23910,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -23675,6 +23947,22 @@
         "price": 619,
         "stock": 100,
         "inStock": true
+      },
+      {
+        "id": 94847,
+        "sku": "94847",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/4b3a7a9f-61db-3458-90f6-495ece4e349a/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/0539b64b-a81a-36f0-bc66-6f9326d0c5b3/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/0263fdd7-a4f5-3c69-a025-0105042ee3fb/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/3770047f-f7f1-3e1b-90d9-d749bbb1cf20/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -23686,7 +23974,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC202, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC202, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc202/",
     "images": [
       "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/d47401f9-d9f7-372e-8371-fa19c64128ca/1_org_zoom.jpg",
@@ -23702,7 +23990,7 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
@@ -23737,6 +24025,22 @@
           "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260920/20/d7d02468-25f1-392e-9db1-7e1fe99cc908/1_org_zoom.jpg"
         ],
         "price": 619,
+        "stock": 100,
+        "inStock": true
+      },
+      {
+        "id": 94857,
+        "sku": "94857",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/658c5d1a-323e-3165-9e65-f8722c6355c4/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1960/prod/QC_PREP/20260917/16/459c074a-194c-3e67-b272-60949727077b/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/2d63992e-7908-39cc-8e00-74ea3cc2df69/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1961/prod/QC_PREP/20260917/16/5e0cb067-e354-372b-855b-395cfa46c4ca/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
         "stock": 100,
         "inStock": true
       }
