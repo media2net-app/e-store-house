@@ -64,11 +64,19 @@ test("recommendations exclude unavailable models even when the category and pric
   assert.ok([...result.similar, ...result.complementary].every((p) => p.id !== unavailable.id));
 });
 
-test("all stored model and variant prices are whole lei ending in 9", () => {
+test("stored prices follow each SKU's supplier-backed pricing rule", () => {
+  const evidence = JSON.parse(readFileSync(new URL("../catalog-review/price-verification-29-20261022/results.json", import.meta.url), "utf8"));
+  const sources = new Map(evidence.map(source => [source.id, source]));
   for (const product of catalog) {
+    const source = sources.get(product.id);
     for (const entry of [product, ...(product.variants ?? [])]) {
-      assert.ok(Number.isSafeInteger(entry.price) && entry.price > 0, `Invalid price for ${entry.id}`);
-      assert.equal(entry.price % 10, 9, `Price must end in 9 for ${entry.id}`);
+      assert.ok(Number.isFinite(entry.price) && entry.price > 0, `Invalid price for ${entry.id}`);
+      if (source.pricingRules?.[entry.sku] === "retail-plus-60") {
+        assert.equal(entry.price, Math.round(source.costs[entry.sku] * 160) / 100, `Incorrect 60% retail markup for ${entry.id}`);
+      } else {
+        assert.ok(Number.isSafeInteger(entry.price), `Price must be whole lei for ${entry.id}`);
+        assert.equal(entry.price % 10, 9, `Price must end in 9 for ${entry.id}`);
+      }
     }
     if (product.variants?.length) assert.equal(product.price, Math.min(...product.variants.map((v) => v.price)));
   }

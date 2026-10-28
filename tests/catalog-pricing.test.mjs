@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { supplierSalePrice, validateSupplierPrices } from '../scripts/catalog-pricing.mjs';
+import { supplierSalePrice, supplierRetailPlus60, validateSupplierPrices } from '../scripts/catalog-pricing.mjs';
 import { readFileSync } from 'node:fs';
 
 test('supplier pricing preserves the prior rounded base and adds 20%, then 30%, rounded upward', () => {
@@ -19,6 +19,14 @@ test('supplier pricing preserves the prior rounded base and adds 20%, then 30%, 
 });
 test('missing or invalid costs cannot silently create sale prices', () => {
   for (const value of [0, -5, NaN, Infinity, undefined, '100']) assert.throws(() => supplierSalePrice(value), TypeError);
+});
+test('new Ralex listings use exactly 60% over supplier regular retail, to bani', () => {
+  assert.equal(supplierRetailPlus60(136), 217.6);
+  assert.equal(supplierRetailPlus60(141), 225.6);
+  assert.equal(supplierRetailPlus60(186), 297.6);
+  assert.equal(supplierRetailPlus60(193), 308.8);
+  assert.equal(supplierRetailPlus60(370), 592);
+  for (const value of [0, -5, NaN, Infinity, undefined, '100']) assert.throws(() => supplierRetailPlus60(value), TypeError);
 });
 
 const products = JSON.parse(readFileSync(new URL('../src/data/products.json', import.meta.url)));
