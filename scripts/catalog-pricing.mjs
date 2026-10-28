@@ -8,6 +8,14 @@ export function supplierSalePrice(costRon) {
   return Math.ceil((basePrice * 130 - 900) / 1000) * 10 + 9;
 }
 
+// Merchant instruction, 28 October 2026: newly published Ralex SKUs use the
+// supplier's regular public price, excluding the reseller discount, plus 60%.
+export function supplierRetailPlus60(retailRon) {
+  if (!Number.isFinite(retailRon) || retailRon <= 0) throw new TypeError("A positive verified supplier retail price is required.");
+  const retailCents = Math.round(retailRon * 100);
+  return Math.round(retailCents * 1.6) / 100;
+}
+
 export function validateSupplierPrices(products, evidence) {
   const sources = new Map(evidence.map((entry) => [entry.id, entry]));
   const seenSkus = new Set();
@@ -18,7 +26,12 @@ export function validateSupplierPrices(products, evidence) {
     for (const variant of variants) {
       if (seenSkus.has(variant.sku)) throw new Error(`Duplicate saleable SKU: ${variant.sku}`);
       seenSkus.add(variant.sku);
-      if (variant.price !== supplierSalePrice(source.costs[variant.sku])) throw new Error(`Price differs from supplier +29% rounded, then +20% rounded, then +30% rounded, ending in 9: ${variant.sku}`);
+      const rule = source.pricingRules?.[variant.sku];
+      if (rule && rule !== "retail-plus-60") throw new Error(`Unknown pricing rule: ${variant.sku}`);
+      const expected = rule === "retail-plus-60"
+        ? supplierRetailPlus60(source.costs[variant.sku])
+        : supplierSalePrice(source.costs[variant.sku]);
+      if (variant.price !== expected) throw new Error(`Price differs from verified supplier pricing rule: ${variant.sku}`);
     }
     if (product.price !== Math.min(...variants.map((variant) => variant.price))) throw new Error(`Parent must use cheapest variant: ${product.id}`);
   }
