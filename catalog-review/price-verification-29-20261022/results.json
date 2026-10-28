@@ -11941,5 +11941,95 @@
       "96464": "retail-plus-60"
     },
     "priceBasis": "Supplier regular public price, excluding reseller discount"
+  },
+  {
+    "id": 111383,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/saltele-sezlong/saltea-sezlong-premium-doua-segmente-1-2/",
+    "costs": {
+      "111384": 105
+    },
+    "availability": {
+      "111384": true
+    },
+    "checkedAt": "2026-10-28T22:41:08.408647+00:00",
+    "pricingRules": {
+      "111384": "retail-plus-60"
+    },
+    "priceBasis": "Supplier cu pernă variation regular public price, excluding reseller discount"
+  },
+  {
+    "id": 111395,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/saltele-sezlong/saltea-sezlong-premium-doua-segmente-5/",
+    "costs": {
+      "111396": 105
+    },
+    "availability": {
+      "111396": true
+    },
+    "checkedAt": "2026-10-28T22:41:08.408647+00:00",
+    "pricingRules": {
+      "111396": "retail-plus-60"
+    },
+    "priceBasis": "Supplier cu pernă variation regular public price, excluding reseller discount"
+  },
+  {
+    "id": 111386,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/saltele-sezlong/saltea-sezlong-premium-doua-segmente-2/",
+    "costs": {
+      "111387": 105
+    },
+    "availability": {
+      "111387": true
+    },
+    "checkedAt": "2026-10-28T22:41:08.408647+00:00",
+    "pricingRules": {
+      "111387": "retail-plus-60"
+    },
+    "priceBasis": "Supplier cu pernă variation regular public price, excluding reseller discount"
+  },
+  {
+    "id": 111419,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/saltele-sezlong/saltea-sezlong-premium-doua-segmente-15/",
+    "costs": {
+      "111420": 105
+    },
+    "availability": {
+      "111420": true
+    },
+    "checkedAt": "2026-10-28T22:41:08.408647+00:00",
+    "pricingRules": {
+      "111420": "retail-plus-60"
+    },
+    "priceBasis": "Supplier cu pernă variation regular public price, excluding reseller discount"
+  },
+  {
+    "id": 111410,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/saltele-sezlong/saltea-sezlong-premium-doua-segmente-11/",
+    "costs": {
+      "111411": 105
+    },
+    "availability": {
+      "111411": true
+    },
+    "checkedAt": "2026-10-28T22:41:08.408647+00:00",
+    "pricingRules": {
+      "111411": "retail-plus-60"
+    },
+    "priceBasis": "Supplier cu pernă variation regular public price, excluding reseller discount"
+  },
+  {
+    "id": 111422,
+    "supplierUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/saltele-sezlong/saltea-sezlong-premium-doua-segmente-16/",
+    "costs": {
+      "111423": 105
+    },
+    "availability": {
+      "111423": true
+    },
+    "checkedAt": "2026-10-28T22:41:08.408647+00:00",
+    "pricingRules": {
+      "111423": "retail-plus-60"
+    },
+    "priceBasis": "Supplier cu pernă variation regular public price, excluding reseller discount"
   }
 ]
