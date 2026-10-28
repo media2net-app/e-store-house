@@ -22347,30 +22347,50 @@
   },
   {
     "id": 102989,
-    "reviewedAt": "2026-10-28T18:43:57.923Z",
-    "source": "control-topper-completed-publication-20261024",
+    "reviewedAt": "2026-10-28T19:44:15.489411+00:00",
+    "source": "topper-trendyol-gallery-20261028",
     "supplierUrl": "https://ralexpucioasa.ro/store/saltele-si-toppere/toper-memory-aloe-vera/",
-    "visualReview": "Own supplier reference and actual output photos reviewed for Aloe print, quilting, edge and thickness. Memory: new full hero, low edge, fabric surface and hand-compression view; unverified Control infographic claims omitted. Fresh Waterproof: retain Control clean hero and hand detail plus new edge and surface photographs. Own embedded variant dimensions, price and barcode renderer verified; no invented internal foam color or cutaway. Additional size 90 × 200 cm verified from own embedded variant 102995; Control code 1029950 resolved by model, dimensions and visual review. Uses already reviewed model gallery; incorrect Control-specific image claims omitted. Additional 140 × 200 cm variant verified as numeric product ID 102991 on its own supplier variation; supplier uses the same product image for all sizes and the existing model gallery remains appropriate.",
+    "visualReview": "All five numeric supplier size variants retain the same verified Topper Memory Aloe Vera model. First view for each variant is its own Trendyol listing photograph with matching printed size; parent hero omits size label. Second view is a distinct press/texture photograph from the same Trendyol listing image shared across sizes. Unverified infographic claims and icons were excluded by cropping. Third low side view and fourth macro textile/zipper view were generated from the Trendyol and supplier photo references and checked against the supplier white quilted cover, subtle green aloe motif, closed zipper and 5 cm thickness; no exposed foam or unsupported care/health claims shown. Each size has four distinct reviewed visual views; only the size-specific hero differs across variants.",
     "photographicViews": 4,
     "media": [
       {
-        "url": "/products/102989/hero-reviewed-v1.png",
-        "sha256": "6b8d004787c4f3817b6976168254e3c8e749f30a60faed7f82943f0c65c90549"
+        "url": "/products/102989/trendyol-20261028/01-trendyol-102990.webp",
+        "sha256": "6c10785550f839fa125f2487adcc5cb424dabcf6cff9aec494d7a24aa0d1f9b0"
       },
       {
-        "url": "/products/102989/side-reviewed-v1.png",
-        "sha256": "8a6785e36bbc7c57fcec7e1d812cc40f021d370d5a80afb05ebdadf9e5dc260a"
+        "url": "/products/102989/trendyol-20261028/01-trendyol-102991.webp",
+        "sha256": "f3e20502776085737e606fbaf7375e0b532d389bb6d8ddc8baebdf8101c2c4f5"
       },
       {
-        "url": "/products/102989/surface-reviewed-v1.png",
-        "sha256": "dcd3ab7e7ce49d62fb762e2129c5ab3acec7cdf472efdd5bcc3cc0d60691d7bf"
+        "url": "/products/102989/trendyol-20261028/01-trendyol-102992.webp",
+        "sha256": "a45cc7f14e70f14fc6ca5e59ba7ec1756460044e70f75d166a900aa3bd7c8636"
       },
       {
-        "url": "/products/102989/press-reviewed-v1.png",
-        "sha256": "57a72e05c52bd5912da0c3061ffce49dc8c3458e717edc26c6e2eab959f0c249"
+        "url": "/products/102989/trendyol-20261028/01-trendyol-102993.webp",
+        "sha256": "69082eb161911b5e127ec1f192b6f366b37cba10838f7873c22189f168140dac"
+      },
+      {
+        "url": "/products/102989/trendyol-20261028/01-trendyol-102995.webp",
+        "sha256": "434ad7ecda5d096b0e4eca3b1126e44fff7499286cbaa58947e2debb5445a0f4"
+      },
+      {
+        "url": "/products/102989/trendyol-20261028/01-trendyol-hero-generic.webp",
+        "sha256": "3bd6e3d47ff40dbb83e262fe1502b690b7df5034a1a2be19e0aa9bb93fbcbf58"
+      },
+      {
+        "url": "/products/102989/trendyol-20261028/02-trendyol-press.webp",
+        "sha256": "9f63d27536adabb680ba300324c13e2a60074b15f4b714d438e842a8b07ec979"
+      },
+      {
+        "url": "/products/102989/trendyol-20261028/03-side.webp",
+        "sha256": "747b724e5367575c5efb6619ac375c1093fb83b53e25b1af626347e32ed912fc"
+      },
+      {
+        "url": "/products/102989/trendyol-20261028/04-textile-zipper.webp",
+        "sha256": "d77f35b77f7a7fd2295f6f57b82b12435fb4391631d1da7f923dc6da9a7ae9c0"
       }
     ],
-    "fingerprint": "098d5b35f9be19a0b08a1812377b615159e8c85833983a0ae288da8d8781006b"
+    "fingerprint": "3c7ea3eade5ad8426d1f2ed258efcea0708a8288d6aa50c798f6d4239c0470ce"
   },
   {
     "id": 107247,
