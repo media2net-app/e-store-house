@@ -31,7 +31,7 @@ function item(input: {
   size?: string;
 }) {
   const description = input.description.replace(/\s+/g, ' ').trim().slice(0, 5000);
-  return `<item>${tag('id', input.id)}${tag('title', input.title.slice(0, 150))}${tag('description', description)}${tag('link', input.link)}${tag('image_link', input.image)}${input.extraImages.slice(0, 3).map(image => tag('additional_image_link', image)).join('')}${tag('availability', input.available ? 'in stock' : 'out of stock')}${tag('price', `${input.price.toFixed(2)} RON`)}${tag('condition', 'new')}${tag('brand', input.brand)}${tag('product_type', input.productType)}${tag('item_group_id', input.groupId)}${tag('size', input.size)}</item>`;
+  return `<item>${tag('id', input.id)}${tag('title', input.title.slice(0, 150))}${tag('description', description)}${tag('link', input.link)}${tag('image_link', new URL(input.image, baseUrl).href)}${input.extraImages.slice(0, 3).map(image => tag('additional_image_link', new URL(image, baseUrl).href)).join('')}${tag('availability', input.available ? 'in stock' : 'out of stock')}${tag('price', `${input.price.toFixed(2)} RON`)}${tag('condition', 'new')}${tag('brand', input.brand)}${tag('product_type', input.productType)}${tag('item_group_id', input.groupId)}${tag('size', input.size)}</item>`;
 }
 
 export function googleMerchantFeed(products: Product[]) {
