@@ -5,9 +5,20 @@ export const privacyKey = 'estore-privacy-v1';
 // Local development stays unconfigured unless an explicit test ID is provided.
 export const analyticsId = process.env.NEXT_PUBLIC_GA4_ID || (process.env.NODE_ENV === 'production' ? 'G-085L3V23EN' : '');
 export const tiktokId = process.env.NEXT_PUBLIC_TIKTOK_PIXEL_ID || '';
+// Public dataset ID verified in the E-Store House Meta Events Manager.
+// Local development stays unconfigured unless an explicit test ID is provided.
+export const metaPixelId = process.env.NEXT_PUBLIC_META_PIXEL_ID || (process.env.NODE_ENV === 'production' ? '1115285697965903' : '');
 export const analyticsConfigured = /^G-[A-Z0-9]+$/.test(analyticsId);
 export const tiktokConfigured = /^[A-Z0-9]{10,40}$/i.test(tiktokId);
-export const marketingConfigured = analyticsConfigured || tiktokConfigured;
+export const metaConfigured = /^\d{10,25}$/.test(metaPixelId);
+export const marketingConfigured = analyticsConfigured || tiktokConfigured || metaConfigured;
+
+type MetaPixel = ((command: string, name: string, parameters?: Record<string, unknown>) => void) & {
+  queue?: unknown[][];
+  callMethod?: (...args: unknown[]) => void;
+  loaded?: boolean;
+  version?: string;
+};
 
 declare global {
   interface Window {
@@ -15,6 +26,8 @@ declare global {
     gtag?: (...args: unknown[]) => void;
     ttq?: { track: (name: string, parameters?: object) => void; page: () => void; [key: string]: unknown };
     TiktokAnalyticsObject?: string;
+    fbq?: MetaPixel;
+    _fbq?: MetaPixel;
   }
 }
 export function privacyChoice(): PrivacyChoice | null {
@@ -26,13 +39,13 @@ export function privacyChoice(): PrivacyChoice | null {
   } catch { return null; }
 }
 export function savePrivacy(analytics: boolean, marketing: boolean) {
-  const value = { analytics: analytics && analyticsConfigured, marketing: marketing && tiktokConfigured, savedAt: Date.now() };
+  const value = { analytics: analytics && analyticsConfigured, marketing: marketing && (tiktokConfigured || metaConfigured), savedAt: Date.now() };
   try { localStorage.setItem(privacyKey, JSON.stringify(value)); } catch { /* Denied if preferences cannot persist. */ }
   if (!analytics && window.gtag) window.gtag('consent', 'update', {analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
   if (!marketing && typeof window.ttq?.revokeConsent === 'function') window.ttq.revokeConsent();
   window.dispatchEvent(new Event('estore-privacy-change'));
 }
-let googleStarted = false, tiktokStarted = false;
+let googleStarted = false, tiktokStarted = false, metaStarted = false;
 const once = new Set<string>();
 export function startMarketing() {
   const choice = privacyChoice();
@@ -73,6 +86,18 @@ export function startMarketing() {
     const script = document.createElement('script'); script.async = true;
     script.src = `https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=${tiktokId}&lib=ttq`; document.head.appendChild(script);
   }
+  if (choice?.marketing && metaConfigured && !metaStarted) {
+    metaStarted = true;
+    const fbq = function (...args: unknown[]) {
+      if (fbq.callMethod) fbq.callMethod(...args);
+      else fbq.queue!.push(args);
+    } as MetaPixel;
+    fbq.queue = []; fbq.loaded = true; fbq.version = '2.0';
+    window.fbq = window._fbq = fbq;
+    fbq('init', metaPixelId);
+    const script = document.createElement('script'); script.async = true;
+    script.src = 'https://connect.facebook.net/en_US/fbevents.js'; document.head.appendChild(script);
+  }
 }
 /** Send product data only. Never include names, email, address, phone or raw search text. */
 export function trackCommerce(event: string, parameters: Record<string, unknown> = {}, eventKey?: string) {
@@ -94,6 +119,14 @@ export function trackCommerce(event: string, parameters: Record<string, unknown>
       currency: 'RON', value: parameters.value, ...(parameters.transaction_id ? { order_id: parameters.transaction_id } : {}) });
     if(key) once.add('tt:'+key); delivered = true;
   }
+  const metaEvent = event === 'cod_order_placed' ? 'Purchase' : pixelEvents[event];
+  if (consent.marketing && metaStarted && metaEvent && (!key || !once.has('meta:'+key))) {
+    const items = (parameters.items || []) as MarketingItem[];
+    window.fbq?.('track', metaEvent, { content_type: 'product', content_ids: items.map(i => i.item_id),
+      contents: items.map(i => ({ id: i.item_id, quantity: i.quantity, item_price: i.price })),
+      currency: 'RON', value: parameters.value });
+    if (key) once.add('meta:'+key); delivered = true;
+  }
   return delivered;
 }
 export function trackPage(path: string) {
@@ -104,6 +137,7 @@ export function trackPage(path: string) {
   });
   // Do not expose order IDs or free-text search queries via automatic Pixel page events.
   if (choice?.marketing && tiktokStarted && !window.location.search) window.ttq?.page();
+  if (choice?.marketing && metaStarted && !window.location.search) window.fbq?.('track', 'PageView');
 }
 export function rememberMarketingOrder(id: string, items: MarketingItem[]) {
   const consent = privacyChoice(); if (!consent?.analytics && !consent?.marketing) return;

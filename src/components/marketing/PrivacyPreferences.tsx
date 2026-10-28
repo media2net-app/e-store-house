@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { analyticsConfigured, tiktokConfigured, marketingConfigured, privacyChoice, savePrivacy, startMarketing, trackPage, trackCommerce } from '@/lib/marketing';
+import { analyticsConfigured, tiktokConfigured, metaConfigured, marketingConfigured, privacyChoice, savePrivacy, startMarketing, trackPage, trackCommerce } from '@/lib/marketing';
 export default function PrivacyPreferences() {
   const path = usePathname();
   const [open, setOpen] = useState(marketingConfigured), [analytics, setAnalytics] = useState(false), [marketing, setMarketing] = useState(false);
@@ -25,7 +25,7 @@ export default function PrivacyPreferences() {
       // Unload previously granted third-party code immediately upon withdrawal.
       for (const cookie of document.cookie.split(';')) {
         const name = cookie.trim().split('=')[0];
-        if (/^(_ga|_gid|_gat|_ttp|ttcsid)/.test(name)) {
+        if (/^(_ga|_gid|_gat|_ttp|ttcsid|_fbp|_fbc)/.test(name)) {
           document.cookie = `${name}=; Max-Age=0; path=/`;
           document.cookie = `${name}=; Max-Age=0; path=/; domain=.estorehouse.ro`;
         }
@@ -37,7 +37,7 @@ export default function PrivacyPreferences() {
   if (!open) return null;
   return <section className="privacy-panel" role="region" aria-labelledby="privacy-title"><h2 id="privacy-title">Tu alegi ce date partajezi</h2><p>Coșul și finalizarea comenzii funcționează fără urmărire opțională. Cu acordul tău, măsurăm utilizarea magazinului sau eficiența reclamelor. <Link href="/cookie-uri">Detalii</Link></p>
     {analyticsConfigured && <label><input type="checkbox" checked={analytics} onChange={e => setAnalytics(e.target.checked)}/> Analiză trafic — Google Analytics</label>}
-    {tiktokConfigured && <label><input type="checkbox" checked={marketing} onChange={e => setMarketing(e.target.checked)}/> Marketing — TikTok Pixel</label>}
+    {(tiktokConfigured || metaConfigured) && <label><input type="checkbox" checked={marketing} onChange={e => setMarketing(e.target.checked)}/> Marketing — {[tiktokConfigured && 'TikTok Pixel', metaConfigured && 'Meta Pixel'].filter(Boolean).join(' și ')}</label>}
     {!marketingConfigured && <p>Instrumentele opționale nu sunt încă activate.</p>}
     <div><button onClick={() => save(false, false)}>Refuz opționalele</button><button onClick={() => save(analytics, marketing)}>Salvez alegerile</button><button onClick={() => save(true, true)}>Accept opționalele</button></div>
   </section>;
