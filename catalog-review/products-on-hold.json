@@ -7342,50 +7342,6 @@
     {
       "status": "awaiting_rework_or_verification",
       "reasonCodes": [
-        "fewer_than_four_images"
-      ],
-      "product": {
-        "id": 95893,
-        "name": "Pernă puf gâscă Deep Sleep, 50 × 70 cm",
-        "categoryPath": "perne",
-        "brand": "Ralex Pucioasa",
-        "currency": "RON",
-        "image": "/products/perna-puf-gasca-deep-sleep/local-95.webp",
-        "images": [
-          "/products/perna-puf-gasca-deep-sleep/local-95.webp",
-          "/products/perna-puf-gasca-deep-sleep/local-96.webp"
-        ],
-        "externalUrl": "https://ralexpucioasa.ro/store/perne/perna-puf-gasca-deep-sleep/",
-        "material": "Percalle 100% bumbac cu peliculă de poliuretan; puf și pană de gâscă",
-        "features": [
-          {
-            "label": "Dimensiuni",
-            "value": "50 × 70 cm"
-          },
-          {
-            "label": "Umplutură",
-            "value": "50% puf gâscă, 50% pană gâscă"
-          },
-          {
-            "label": "Fermitate",
-            "value": "Mediu–tare"
-          },
-          {
-            "label": "Conținut",
-            "value": "1 pernă"
-          }
-        ],
-        "description": "Pernă puf gâscă Deep Sleep, 50 × 70 cm. Descriere produs: Țesătură: percalle 100% bumbac dublată cu peliculă de poliuretan Umplutură: 50% puf gâscă – 50% pană gâscă Grad de fermitate: mediu-tare Conținut pachet: 1 pernă.",
-        "category": "Perne și protecții pernă",
-        "sku": "95893",
-        "price": 349,
-        "inStock": true,
-        "stock": 100
-      }
-    },
-    {
-      "status": "awaiting_rework_or_verification",
-      "reasonCodes": [
         "complete_current_estore_review_not_confirmed"
       ],
       "product": {

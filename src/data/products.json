@@ -23510,7 +23510,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Percale, 100% bumbac",
-    "description": "Lenjerie de pat Percale PRC191, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Lenjerie de pat Percale PRC191, 100% bumbac.\n\nConținutul pachetului, în funcție de varianta aleasă:\nO persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Pernele de umplutură, pilota și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/lenjerii-percale-imprimat/lenjerie-de-pat-percalle-imprimat-prc191/",
     "images": [
       "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/0b788d67-073b-378c-aeb6-781ec2e5e6c5/1_org_zoom.jpg",
@@ -23526,11 +23526,11 @@
       },
       {
         "label": "Conținut",
-        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
+        "value": "O persoană — 3 piese: 1 cearșaf de pat 160 × 240 cm; 1 husă de pilotă 150 × 220 cm; 1 față de pernă 50 × 70 cm.\nKing size — 6 piese: 1 cearșaf de pat 240 × 260 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.\nKing size — 6 piese cu husă: 1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm."
       }
     ],
     "price": 389,
-    "inStock": false,
+    "inStock": true,
     "variants": [
       {
         "id": 94799,
@@ -23563,6 +23563,22 @@
         "price": 619,
         "stock": 100,
         "inStock": false
+      },
+      {
+        "id": 94802,
+        "sku": "94802",
+        "name": "King size — 6 piese cu husă elastică",
+        "dimensions": "Husă 180 × 200 × 25 cm; saltea 160 × 200 sau 180 × 200 cm",
+        "contents": "1 husă de pat cu elastic 180 × 200 × 25 cm, potrivită pentru saltea de 160 × 200 sau 180 × 200 cm; 1 husă de pilotă 200 × 230 cm; 2 fețe de pernă 50 × 70 cm; 2 fețe de pernă 70 × 70 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/594246ea-ffd1-347d-9f27-2f19b9929316/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/64cefb32-99bb-3628-870b-c6bb92f59c70/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/80ee5e0b-1823-3d1d-af6e-83c6ad69dd08/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1959/prod/QC_PREP/20260917/16/c2a341f1-78d5-39a3-9628-146752c9e286/1_org_zoom.jpg"
+        ],
+        "price": 484.8,
+        "stock": 100,
+        "inStock": true
       }
     ]
   },
@@ -35832,7 +35848,7 @@
     "brand": "Ralex Pucioasa",
     "currency": "RON",
     "material": "Oxford: 50% bumbac și 50% poliester, 300 g/m²",
-    "description": "Față de masă terasă / grădină Satin Grace.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "description": "Față de masă terasă / grădină Satin Grace.\n\nMaterial: Oxford: 50% bumbac și 50% poliester, 300 g/m².\n\nConținut: 1 față de masă, în dimensiunea selectată. Mărimi disponibile în catalog: 140 × 140 cm, 140 × 180 cm, 140 × 240 cm.\n\nÎntreținere: Urmați instrucțiunile de pe eticheta produsului. Vesela, mobilierul și accesoriile de decor nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/terasa-si-gradina/fete-masa-terasa-gradina/fata-de-masa-terasa-gradina-satin-grace/",
     "images": [
       "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260612/23/4894b772-40fa-3715-b8e9-4e4a34ae666e/1_org_zoom.jpg",
@@ -35852,7 +35868,7 @@
         "value": "1 față de masă, în dimensiunea selectată."
       }
     ],
-    "price": 69,
+    "price": 52.8,
     "variants": [
       {
         "id": 110756,
@@ -35885,9 +35901,25 @@
         "price": 69,
         "stock": 0,
         "inStock": false
+      },
+      {
+        "id": 110758,
+        "sku": "110758",
+        "name": "140 × 240 cm",
+        "dimensions": "140 × 240 cm",
+        "contents": "1 față de masă, 140 × 240 cm.",
+        "images": [
+          "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260612/23/4894b772-40fa-3715-b8e9-4e4a34ae666e/1_org_zoom.jpg",
+          "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260612/23/1bbdfed1-872f-3f28-b7c5-9a515ed466f9/1_org_zoom.jpg",
+          "/products/ralex-remaining-20261029/110758/garden-reviewed.png",
+          "/products/ralex-remaining-20261029/110758/hem-detail-reviewed.png"
+        ],
+        "price": 52.8,
+        "stock": 100,
+        "inStock": true
       }
     ],
-    "inStock": false
+    "inStock": true
   },
   {
     "id": 110516,
@@ -46156,6 +46188,38 @@
     ],
     "sku": "111423",
     "price": 168,
+    "stock": 100,
+    "inStock": true
+  },
+  {
+    "id": 95893,
+    "name": "Pernă Deep Sleep cu puf și pană de gâscă, 50 × 70 cm",
+    "category": "Perne",
+    "categoryPath": "perne",
+    "brand": "Ralex Pucioasa",
+    "currency": "RON",
+    "material": "Înveliș percale 100% bumbac, dublat cu peliculă de poliuretan; umplutură 50% puf de gâscă și 50% pană de gâscă",
+    "description": "Pernă Deep Sleep cu puf și pană de gâscă, 50 × 70 cm.\n\nMaterial: Înveliș percale 100% bumbac, dublat cu peliculă de poliuretan; umplutură 50% puf de gâscă și 50% pană de gâscă.\n\nConținut: 1 pernă de 50 × 70 cm. Fermitate mediu-tare.\n\nÎntreținere: urmați instrucțiunile de pe eticheta produsului. Husa decorativă, lenjeria și mobilierul din fotografii nu sunt incluse.\n\nProdus de Ralex Pucioasa.",
+    "externalUrl": "https://ralexpucioasa.ro/store/perne/perna-puf-gasca-deep-sleep/",
+    "images": [
+      "https://cdn.dsmcdn.com/ty1974/prod/QC_ENRICHMENT/20261010/18/a9b73126-6786-3372-afa9-05f715e57838/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_ENRICHMENT/20261010/18/a1f1e1e7-9dad-3b0c-b67b-af17e192ae6b/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1976/prod/QC_ENRICHMENT/20261010/18/69edb28d-c644-33c3-8a96-d05d54ab88f7/1_org_zoom.jpg",
+      "https://cdn.dsmcdn.com/ty1975/prod/QC_ENRICHMENT/20261010/18/01e30e01-87ad-3025-8aca-22839a4ef8d2/1_org_zoom.jpg"
+    ],
+    "image": "https://cdn.dsmcdn.com/ty1974/prod/QC_ENRICHMENT/20261010/18/a9b73126-6786-3372-afa9-05f715e57838/1_org_zoom.jpg",
+    "features": [
+      {
+        "label": "Material",
+        "value": "Înveliș percale 100% bumbac, dublat cu peliculă de poliuretan; umplutură 50% puf de gâscă și 50% pană de gâscă"
+      },
+      {
+        "label": "Dimensiuni și conținut",
+        "value": "1 pernă, 50 × 70 cm"
+      }
+    ],
+    "sku": "95893",
+    "price": 308.8,
     "stock": 100,
     "inStock": true
   }
