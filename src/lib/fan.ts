@@ -88,7 +88,7 @@ export function fanPayload(order: StoreOrder, parcel: Parcel) {
         weight: parcel.weight,
         cod: cod ? order.totalCents / 100 : 0,
         declaredValue: 0,
-        payment: "sender",
+        payment: "expeditor",
         observation: `estore-${order.id}`,
         content: `Comanda ${order.id}`,
         dimensions: { length: parcel.length, width: parcel.width, height: parcel.height },
