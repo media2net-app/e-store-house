@@ -23,7 +23,7 @@ let authentication: Promise<string> | null = null;
 
 async function token(): Promise<string> {
   const config = fanConfiguration();
-  if (!config.ready) throw new Error("Contul API FAN nu este configurat.");
+  if (!config.username || !config.password) throw new Error("Autentificarea API FAN nu este configurată.");
   const key = `${config.username}:${config.password}:${config.clientId}`;
   if (access?.key === key && access.until > Date.now()) return access.value;
   if (authentication) return authentication;
@@ -40,6 +40,19 @@ async function token(): Promise<string> {
     return result.data.token;
   })();
   try { return await authentication; } finally { authentication = null; }
+}
+
+export async function fanAccountBranches() {
+  const result = await (await api("/reports/branches", "GET")).json() as {
+    status?: string;
+    data?: { id?: number; name?: string; bank?: string; bankAccount?: string; address?: { county?: string; locality?: string } }[];
+  };
+  if (result.status !== "success" || !Array.isArray(result.data)) throw new Error("FAN nu a returnat sucursalele contului.");
+  return result.data.filter((branch) => Number.isSafeInteger(branch.id) && Number(branch.id) > 0).map((branch) => ({
+    id: Number(branch.id), name: String(branch.name || ""), bank: String(branch.bank || ""),
+    accountLast4: String(branch.bankAccount || "").slice(-4),
+    county: String(branch.address?.county || ""), locality: String(branch.address?.locality || ""),
+  }));
 }
 
 async function api(path: string, method: "GET" | "POST", body?: unknown) {

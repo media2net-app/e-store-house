@@ -17,6 +17,9 @@ export default function AdminOrdersPage() {
   const [checkingEmail, setCheckingEmail] = useState(false);
   const [sendingEmailTest, setSendingEmailTest] = useState(false);
   const [emailStatus, setEmailStatus] = useState("");
+  const [fanChecking, setFanChecking] = useState(false);
+  const [fanStatus, setFanStatus] = useState("");
+  const [fanBranches, setFanBranches] = useState<{ id: number; name: string; county: string; locality: string }[]>([]);
   const [paymentChecks, setPaymentChecks] = useState<Record<string, string>>({});
   const [verifiedPayments, setVerifiedPayments] = useState<Record<string, boolean>>({});
   const [notifyingCod, setNotifyingCod] = useState<string | null>(null);
@@ -83,6 +86,23 @@ export default function AdminOrdersPage() {
       setCheckingEmail(false);
     }
   }
+  async function checkFanAccount() {
+    setFanChecking(true);
+    setFanStatus("");
+    setFanBranches([]);
+    try {
+      const response = await fetch("/api/admin/fan-account", { headers: { Authorization: `Bearer ${token}` }, cache: "no-store" });
+      const result = await response.json() as { error?: string; branches?: { id: number; name: string; county: string; locality: string }[]; configuredClientId?: string | null; clientIdValid?: boolean };
+      if (!response.ok) throw new Error(result.error || "Conexiunea FAN nu a putut fi verificată.");
+      setFanBranches(result.branches || []);
+      setFanStatus(result.clientIdValid ? `Contul FAN este conectat; ID sucursală configurat: ${result.configuredClientId}.`
+        : "Autentificarea FAN funcționează. Alege ID-ul sucursalei firmei din lista de mai jos pentru configurare.");
+    } catch (reason) {
+      setFanStatus(reason instanceof Error ? reason.message : "Conexiunea FAN nu a putut fi verificată.");
+    } finally {
+      setFanChecking(false);
+    }
+  }
   async function sendEmailTest() {
     setEmailStatus("");
     setSendingEmailTest(true);
@@ -138,6 +158,7 @@ export default function AdminOrdersPage() {
     <div className="mt-5 flex gap-3"><input aria-label="Cheie de administrare" type="password" value={token} onChange={(event) => setToken(event.target.value)} className="rounded-lg border px-3 py-2" /><button onClick={() => void loadOrders()} className="rounded-lg bg-[#3b2d24] px-5 py-2 text-white">Încarcă</button></div>
     {error && <p className="mt-4 text-red-700" role="alert">{error}</p>}
     {orders && <SamedayAdmin token={token} />}
+    {orders && <section className="mt-7 rounded-lg border p-4 text-sm"><h2 className="font-semibold">Conectare FAN Courier</h2><p className="mt-2">Verifică autentificarea API și ID-ul punctului de lucru fără să emiți AWB.</p><button onClick={() => void checkFanAccount()} disabled={fanChecking} className="mt-3 rounded-lg border px-3 py-2 disabled:opacity-50">{fanChecking ? "Se verifică…" : "Verifică contul FAN"}</button>{fanStatus && <p className="mt-3" role="status">{fanStatus}</p>}{fanBranches.length > 0 && <ul className="mt-2 list-disc pl-5">{fanBranches.map((branch) => <li key={branch.id}>{branch.name || "Punct de lucru"} · ID {branch.id} · {branch.locality}, {branch.county}</li>)}</ul>}</section>}
     {orders && <section className="mt-7 rounded-lg border p-4 text-sm"><h2 className="font-semibold">Emailuri pentru comenzi: orders@estorehouse.ro</h2><div className="mt-3 flex flex-wrap gap-3"><button onClick={() => void checkEmail()} disabled={checkingEmail} className="rounded-lg bg-[#3b2d24] px-4 py-2 text-white disabled:opacity-50">{checkingEmail ? "Se verifică…" : "Verifică conexiunea SMTP"}</button><button onClick={() => void sendEmailTest()} disabled={sendingEmailTest} className="rounded-lg border border-[#3b2d24] px-4 py-2 disabled:opacity-50">{sendingEmailTest ? "Se trimite…" : "Trimite email de test"}</button></div>{emailStatus && <p className="mt-3" role="status">{emailStatus}</p>}</section>}
     {orders && <section className="mt-7 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm"><h2 className="font-semibold">Test privat EuPlătesc — 1 leu</h2><p className="mt-2">Disponibil numai pe Preview, în modul test. Creează o comandă marcată „NU EXPEDIAȚI” și te duce la pagina securizată EuPlătesc. Plata efectivă se confirmă acolo de titularul cardului.</p><button onClick={() => void startPaymentTest()} disabled={startingTest} className="mt-3 rounded-lg bg-[#3b2d24] px-4 py-2 text-white disabled:opacity-50">{startingTest ? "Se pregătește…" : "Pregătește plata de test de 1 leu"}</button></section>}
     {orders && <div className="mt-8 space-y-4"><h2 className="text-xl font-semibold">Cereri de retragere</h2>{withdrawals.length === 0 ? <p>Nu există cereri de retragere.</p> : withdrawals.map((item) => <article key={item.id} className="rounded-lg border border-amber-300 p-4"><strong>Comanda {item.orderId || "nespecificată"}</strong><p>{item.name} · {item.email}</p><p>Produse: {item.products}</p><p>Adresă: {item.address}</p><p>Primită la {new Date(item.submittedAt).toLocaleString("ro-RO")}</p></article>)}<h2 className="pt-5 text-xl font-semibold">Reclamații</h2>{complaints.length === 0 ? <p>Nu există reclamații.</p> : complaints.map((item) => <article key={item.id} className="rounded-lg border border-amber-300 p-4"><strong>Reclamația {item.id}</strong><p>{item.name} · {item.email} · {item.phone}</p><p>Comanda: {item.orderId || "nespecificată"}</p><p>{item.issue}</p><p>Primită la {new Date(item.submittedAt).toLocaleString("ro-RO")}</p></article>)}<h2 className="pt-5 text-xl font-semibold">Comenzi</h2>{orders.length === 0 ? <p>Nu există comenzi.</p> : orders.map((order) => <article key={order.id} className="rounded-lg border p-4">
