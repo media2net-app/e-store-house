@@ -276,7 +276,7 @@ test("merchant launch fees override legacy amounts and dynamic rates for card an
 });
 
 const bathProfiles = JSON.parse(fs.readFileSync('src/data/shipping-packages.json'));
-const bathProducts = JSON.parse(fs.readFileSync('src/data/products.json')).filter(p => p.categoryPath.startsWith('articole-baie/'));
+const bathProducts = JSON.parse(fs.readFileSync(process.env.TEST_PRODUCTS_PATH || 'src/data/products.json')).filter(p => p.categoryPath.startsWith('articole-baie/'));
 const bathLine = (category, quantity = 1) => {
   const p = bathProducts.find(p => p.categoryPath === `articole-baie/${category}`);
   return { sku: (p.variants || [p])[0].sku, quantity, name: p.name, categoryPath: p.categoryPath };

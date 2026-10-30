@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),ts=require('typescript');
-const catalog=JSON.parse(fs.readFileSync('src/data/products.json'));
+const catalog=JSON.parse(fs.readFileSync(process.env.TEST_PRODUCTS_PATH||'src/data/products.json'));
 function load(products=catalog){const exports={};vm.runInNewContext(ts.transpileModule(fs.readFileSync('src/lib/packing-suggestion.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText,{exports,require:n=>({default:n.endsWith('/products.json')?products:JSON.parse(fs.readFileSync(n.endsWith('/merchant-bedding-unit-weight.json')?'src/data/merchant-bedding-unit-weight.json':'src/data/merchant-standard-parcel.json'))})});return exports.packingSuggestion;}
 const suggest=load();
 function standard(result){assert.ok(result);assert.equal(result.length,40);assert.equal(result.width,40);assert.equal(result.height,10);assert.equal(result.weight,2);assert.equal(result.requiresMeasurement,true);}
@@ -96,6 +96,21 @@ test('all blanket, throw and throw-set variants use the confirmed packed profile
   }
  }
  assert.equal(checked,46);
+});
+test('pillow profiles include complete four-cushion sets while heavier pillows remain for weighing',()=>{
+ const profiles=JSON.parse(fs.readFileSync('src/data/shipping-packages.json'));
+ const heavier=new Set(['102893','102537','94319','102830']);
+ let cushions=0,pillows=0;
+ for(const product of catalog){
+  if(!['perne','terasa-si-gradina/pernute-scaun'].includes(product.categoryPath))continue;
+  for(const item of product.variants?.length?product.variants:[product]){
+   if(heavier.has(item.sku)){assert.equal(profiles[item.sku],undefined);continue;}
+   const profile=profiles[item.sku];assert.ok(profile,item.sku);
+   assert.equal(profile.weight,1);assert.equal(profile.length,40);assert.equal(profile.width,30);assert.equal(profile.height,10);
+   if(product.categoryPath==='perne')pillows++;else cushions++;
+  }
+ }
+ assert.equal(pillows,14);assert.equal(cushions,11);
 });
 test('mattresses, their size variants, toppers and mixed orders stay manual',()=>{
  const mattress=catalog.find(p=>p.id===106764);assert.ok(mattress);
