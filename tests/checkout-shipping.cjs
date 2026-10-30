@@ -57,10 +57,12 @@ test("missing package weights retain the approved fixed price; measured parcels 
 test("FAN quotes a measured set and adds only the actual destination and COD supplements", async () => {
   const profiles = require("../src/data/shipping-packages.json");
   const calls = [];
+  let bankChecks = 0;
   const fan = moduleAt("src/lib/fan-shipping-price.ts", {
     "@/data/shipping-packages.json": { default: profiles },
     "./fan": {
       fanConfiguration: () => ({ clientId: "4342" }),
+      fanCollectionBank: async () => { bankChecks++; return { bank: "Test", bankAccount: "RO12AAAAAAAAAAAAAAAAAAAA" }; },
       fitsFanStandard: parcel => parcel.weight <= 30,
       fanInternalTariff: async (input) => {
         calls.push(input);
@@ -79,6 +81,7 @@ test("FAN quotes a measured set and adds only the actual destination and COD sup
   assert.equal((await fan.fanCustomerShipping({ ...destination, paymentMethod: "cod" })).cents, 3250);
   assert.equal((await fan.fanCustomerShipping({ ...destination, paymentMethod: "card", freeShipping: true })).cents, 600);
   await assert.rejects(fan.fanCustomerShipping({ ...destination, lines: [{ ...lines[0], sku: "unknown" }], paymentMethod: "card" }));
+  assert.equal(bankChecks, 1);
   assert.equal(calls.length, 6);
 });
 test("FAN Standard accepts one measured duvet and rejects an oversized combined box", () => {
@@ -86,6 +89,31 @@ test("FAN Standard accepts one measured duvet and rejects an oversized combined 
   assert.equal(fanProtocol.fitsFanStandard({ weight: 2, length: 50, width: 50, height: 40 }), false);
   assert.equal(fanProtocol.fitsFanStandard({ weight: 30, length: 60, width: 50, height: 30 }), true);
   assert.equal(fanProtocol.fitsFanStandard({ weight: 31, length: 60, width: 50, height: 30 }), false);
+});
+test("FAN COD uses the bank account of the configured authenticated branch", async () => {
+  const bankAccount = "RO12AAAAAAAAAAAAAAAAAAAA";
+  let logins = 0, branchReads = 0;
+  const fan = moduleAt("src/lib/fan.ts", { "./sameday-protocol": protocol }, {
+    process: { env: { FAN_API_USERNAME: "store", FAN_API_PASSWORD: "test-password", FAN_CLIENT_ID: "42" } },
+    AbortSignal,
+    fetch: async (url) => {
+      if (String(url).endsWith("/login")) { logins++; return Response.json({ status: "success", data: { token: "session" } }); }
+      if (String(url).endsWith("/reports/branches")) { branchReads++; return Response.json({ status: "success", data: [
+        { id: 41, bank: "Other", bankAccount: "RO12BBBBBBBBBBBBBBBBBBBB" },
+        { id: 42, bank: "Bank", bankAccount },
+      ] }); }
+      throw new Error("Unexpected FAN API call");
+    },
+  });
+  const collection = await fan.fanCollectionBank();
+  assert.equal(collection.bankAccount, bankAccount);
+  assert.equal((await fan.fanCollectionBank()).bankAccount, bankAccount);
+  assert.equal(logins, 1);assert.equal(branchReads, 1);
+  const payload = fan.fanPayload({ id: "order-1", shippingCarrier: "fan", shippingMethod: "home", paymentMethod: "cod", totalCents: 10000,
+    customer: { firstName: "Test", lastName: "Client", phone: "0700000000", email: "test@example.com", county: "Bucuresti", city: "Bucuresti", address: "Strada Test", postalCode: "010101" } },
+  { weight: 1, length: 30, width: 30, height: 10 }, collection);
+  assert.equal(payload.shipments[0].info.bankAccount, bankAccount);
+  assert.equal(payload.shipments[0].info.cod, 100);
 });
 test("free shipping still validates the locker; easybox rejects a fourth bedding set", async () => {
   const helpers = resolver();
@@ -181,6 +209,19 @@ test("COD readiness is independent of online card activation", () => {
   assert.equal(config.checkoutConfiguration().ready, true);
   assert.equal(config.checkoutConfiguration().codReady, true);
   assert.equal(config.checkoutConfiguration().cardReady, false);
+});
+
+test("FAN COD can quote using the authenticated branch bank without duplicate Vercel bank variables", () => {
+  const environment = { STORE_COD_ENABLED: "true", VERCEL_ENV: "production", STORE_FAN_ENABLED: "true", STORE_FAN_SHIPPING_RON: "20", STORE_PUBLIC_URL: "https://estore.test", STORE_ADMIN_TOKEN: "secret",
+    NEXT_PUBLIC_STORE_SUPPORT_PHONE: "0700000000", NEXT_PUBLIC_STORE_SUPPORT_EMAIL: "contact@estore.test", NEXT_PUBLIC_STORE_SHIPPING_DESCRIPTION: "Shown at checkout", NEXT_PUBLIC_STORE_VAT_STATUS: "not_registered", NEXT_PUBLIC_STORE_DELIVERY_ESTIMATE: "1–3 zile lucrătoare" };
+  const config = moduleAt("src/lib/checkout-config.ts", { "./fan": { fanConfiguration: () => ({ ready: true, awbEnabled: true }) },
+    "./sameday": { samedayConfiguration: () => ({ mode: "live", homeReady: false, lockerReady: false }) },
+    "./supabase-orders": { hasSupabaseStorage: () => false }, "./orders": { hasRedisStorage: () => true },
+    "./order-email": { hasTransactionalEmail: () => true }, "./shipping": shipping,
+  }, { process: { env: environment } });
+  const result = config.checkoutConfiguration();
+  assert.equal(result.codReady, true);
+  assert.equal(result.shippingOptions.find(option => option.carrier === "fan").codAvailable, true);
 });
 
 test("FAN checkout accepts a signed destination supplement above the free standard delivery threshold", async () => {
