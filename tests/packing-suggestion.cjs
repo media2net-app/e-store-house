@@ -42,6 +42,19 @@ test('every tablecloth variant, including garden tablecloths, has the confirmed 
  }
  assert.equal(checked,135);
 });
+test('all duvet and duvet-set variants use the merchant-confirmed 1 kg, 50 × 50 × 20 cm parcel',()=>{
+ const profiles=JSON.parse(fs.readFileSync('src/data/shipping-packages.json'));
+ let checked=0;
+ for(const product of catalog){
+  if(product.categoryPath!=='pilote'&&!product.categoryPath?.startsWith('pilote/'))continue;
+  for(const item of product.variants?.length?product.variants:[product]){
+   const profile=profiles[item.sku];assert.ok(profile,item.sku);
+   assert.equal(profile.weight,1);assert.equal(profile.length,50);assert.equal(profile.width,50);assert.equal(profile.height,20);
+   checked++;
+  }
+ }
+ assert.equal(checked,108);
+});
 test('mattresses, their size variants, toppers and mixed orders stay manual',()=>{
  const mattress=catalog.find(p=>p.id===106764);assert.ok(mattress);
  for(const item of [{productId:mattress.id,quantity:1},...mattress.variants.map(v=>({productId:v.id,sku:v.sku,quantity:1})),{name:'Topper vechi',quantity:1},{name:'Saltea veche',quantity:1}]){
