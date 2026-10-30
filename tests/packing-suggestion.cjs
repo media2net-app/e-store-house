@@ -29,6 +29,19 @@ test('every sellable bedding SKU uses 1 kg regardless of its size or collection'
  }
  assert.equal(checked,821);
 });
+test('every tablecloth variant, including garden tablecloths, has the confirmed packed dimensions',()=>{
+ const profiles=JSON.parse(fs.readFileSync('src/data/shipping-packages.json'));
+ let checked=0;
+ for(const product of catalog){
+  if(!['fete-de-masa/fete-de-masa-antimurdarire','terasa-si-gradina/fete-masa-terasa-gradina'].includes(product.categoryPath))continue;
+  for(const item of product.variants?.length?product.variants:[product]){
+   const profile=profiles[item.sku];assert.ok(profile,item.sku);
+   assert.equal(profile.weight,1);assert.equal(profile.length,30);assert.equal(profile.width,30);assert.equal(profile.height,10);
+   checked++;
+  }
+ }
+ assert.equal(checked,135);
+});
 test('mattresses, their size variants, toppers and mixed orders stay manual',()=>{
  const mattress=catalog.find(p=>p.id===106764);assert.ok(mattress);
  for(const item of [{productId:mattress.id,quantity:1},...mattress.variants.map(v=>({productId:v.id,sku:v.sku,quantity:1})),{name:'Topper vechi',quantity:1},{name:'Saltea veche',quantity:1}]){
