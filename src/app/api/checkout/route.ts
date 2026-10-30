@@ -108,8 +108,10 @@ export async function POST(request: Request) {
     shippingQuoteBinding(quote, { firstName, lastName, email, phone, address, city, county, postalCode }, input.carrier, shippingMethod, input.lockerId, paymentMethod), process.env.STORE_ADMIN_TOKEN!);
   if (!confirmedRate) return NextResponse.json({ error: "Cotația de transport a expirat sau coșul/datele s-au schimbat. Recalculează transportul înainte de plată.", refreshShipping: true }, { status: 409 });
   const fixedRate = quoteShipping(config.shippingOptions, input.carrier, quote.totals.freeShipping, shippingMethod)!;
-  if ((quote.totals.freeShipping && confirmedRate.cents !== 0)
+  if ((quote.totals.freeShipping && confirmedRate.source !== "fan" && confirmedRate.cents !== 0)
     || (confirmedRate.source === "sameday" && (input.carrier !== "sameday" || !selectedShipping.dynamic || paymentMethod === "cod"))
+    || (confirmedRate.source === "fan" && (input.carrier !== "fan" || !selectedShipping.dynamic
+      || confirmedRate.cents < (quote.totals.freeShipping ? 0 : fixedRate.cents)))
     || (confirmedRate.source === "fixed" && confirmedRate.cents !== fixedRate.cents)
     || (confirmedRate.source === "free" && !quote.totals.freeShipping)) {
     return NextResponse.json({ error: "Tariful de livrare s-a schimbat. Recalculează transportul.", refreshShipping: true }, { status: 409 });

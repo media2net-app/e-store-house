@@ -39,7 +39,7 @@ export type StoreOrder = {
   discountCents: number;
   couponCode?: string;
   shippingCents: number;
-  shippingRateSource?: "fixed" | "sameday" | "free";
+  shippingRateSource?: "fixed" | "sameday" | "fan" | "free";
   shippingCarrier?: ShippingCarrier;
   shippingMethod?: ShippingMethod;
   shippingLocker?: import("./sameday-protocol").SamedayLocker;

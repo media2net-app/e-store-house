@@ -68,7 +68,7 @@ async function api(path: string, method: "GET" | "POST", body?: unknown) {
 }
 
 export function fanPayload(order: StoreOrder, parcel: Parcel) {
-  if (!validParcel(parcel) || parcel.weight > 30 || order.shippingCarrier !== "fan" || (order.shippingMethod || "home") !== "home") throw new Error("Comandă sau colet FAN invalid.");
+  if (!fitsFanStandard(parcel) || order.shippingCarrier !== "fan" || (order.shippingMethod || "home") !== "home") throw new Error("Comandă sau colet FAN invalid.");
   const config = fanConfiguration();
   if (!config.ready) throw new Error("Contul API FAN nu este configurat.");
   const cod = order.paymentMethod === "cod";
@@ -102,6 +102,12 @@ export function fanPayload(order: StoreOrder, parcel: Parcel) {
   };
 }
 
+export function fitsFanStandard(parcel: Parcel) {
+  if (!validParcel(parcel) || parcel.weight > 30) return false;
+  const [short, middle, long] = [parcel.width, parcel.length, parcel.height].sort((a, b) => a - b);
+  return short <= 30 && middle <= 50 && long <= 60;
+}
+
 export async function estimateFan(order: StoreOrder, parcel: Parcel) {
   const payload = fanPayload(order, parcel);
   const shipment = payload.shipments[0];
@@ -112,7 +118,7 @@ export async function estimateFan(order: StoreOrder, parcel: Parcel) {
 
 export async function fanInternalTariff(input: { clientId: string; service: string; county: string; locality: string; parcel: Parcel }) {
   if (!/^\d+$/.test(input.clientId) || !["Standard", "Cont Colector"].includes(input.service)
-    || !validParcel(input.parcel) || !input.county || !input.locality) throw new Error("Date de tarif FAN invalide.");
+    || !fitsFanStandard(input.parcel) || !input.county || !input.locality) throw new Error("Date de tarif FAN invalide.");
   const p = new URLSearchParams({ clientId: input.clientId, "info[service]": input.service,
     "info[payment]": "expeditor", "info[weight]": String(input.parcel.weight),
     "info[packages][parcel]": "1", "info[packages][envelope]": "0",

@@ -1,6 +1,6 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
 
-export type ShippingRate = { cents: number; source: "fixed" | "sameday" | "free" };
+export type ShippingRate = { cents: number; source: "fixed" | "sameday" | "fan" | "free" };
 const lifetimeMs = 10 * 60_000;
 
 function signature(value: string, secret: string) {
@@ -24,7 +24,7 @@ export function verifyShippingQuote(token: unknown, binding: string, secret: str
     if (value.binding !== signature(binding, secret) || !Number.isSafeInteger(value.expiresAt)
       || value.expiresAt <= now || value.expiresAt > now + lifetimeMs
       || !Number.isSafeInteger(value.cents) || value.cents < 0 || value.cents > 999900
-      || !["fixed", "sameday", "free"].includes(value.source)) return null;
+      || !["fixed", "sameday", "fan", "free"].includes(value.source)) return null;
     return { cents: value.cents, source: value.source };
   } catch { return null; }
 }

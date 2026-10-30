@@ -29,6 +29,8 @@ export async function POST(request: Request) {
     const signed = issueShippingQuote(shippingQuoteBinding(quote, customer, input.carrier, method, input.lockerId, paymentMethod), rate, process.env.STORE_ADMIN_TOKEN);
     return NextResponse.json({ ...rate, ...signed, totals: quote.totals }, { headers: { "Cache-Control": "no-store" } });
   } catch {
-    return NextResponse.json({ error: "Transportul nu poate fi confirmat. Verifică metoda de livrare și easybox-ul sau reîncearcă." }, { status: 503 });
+    return NextResponse.json({ error: input.carrier === "fan"
+      ? "FAN nu poate confirma tariful pentru acest colet și această localitate. Alege Sameday sau reîncearcă."
+      : "Transportul nu poate fi confirmat. Verifică metoda de livrare și easybox-ul sau reîncearcă." }, { status: 503 });
   }
 }
