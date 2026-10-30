@@ -16,7 +16,9 @@ Fluxul de AWB folosește magazinul drept sursă a comenzilor și a stării exped
 
 Nu seta `FAN_AWB_ENABLED=true` înainte de confirmarea contractului și a ID-ului. Aplicația respinge emiterea cât timp aceste date lipsesc. O comandă de curier pentru ridicare este separată de crearea AWB-ului; până la implementarea și verificarea preluării API, cheamă curierul din SelfAWB sau predă coletul la FAN.
 
-În `/admin/comenzi`, „Verifică contul FAN” citește sucursalele și, dacă `FAN_CLIENT_ID` aparține contului, estimează fără emitere un colet Standard de 1 kg, 10 × 10 × 10 cm către București. Verifică „Greutate / primul kg” față de cei 13 lei fără TVA din contractul nr. 4342/26.10.2026; indexul de combustibil, kilometrii suplimentari și TVA sunt afișate separat. Dacă baza nu corespunde, cere FAN să asocieze contractul cu acel cont înainte de activarea la checkout.
+În `/admin/comenzi`, „Verifică contul FAN” citește sucursalele și afișează doar banca și ultimele patru caractere ale IBAN-ului, ca să poți compara contul de ramburs cu contractul. Dacă `FAN_CLIENT_ID` aparține contului, estimează fără emitere un colet Standard de 1 kg, 10 × 10 × 10 cm către București. Verifică „Greutate / primul kg” față de cei 13 lei fără TVA din contractul nr. 4342/26.10.2026; indexul de combustibil, kilometrii suplimentari și TVA sunt afișate separat. Dacă baza nu corespunde, cere FAN să asocieze contractul cu acel cont înainte de activarea la checkout.
+
+După modificarea variabilelor Vercel, este necesar un deployment nou. Un merge pe `main` declanșează fluxul normal de deployment din GitHub; confirmă că deploymentul Production folosește commitul nou înainte de testul API.
 
 ## În E-Store Control
 
