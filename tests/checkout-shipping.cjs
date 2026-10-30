@@ -18,10 +18,11 @@ const shipping = moduleAt("src/lib/shipping.ts");
 const customer = { firstName: "Client", lastName: "Test", email: "client@example.test", phone: "0729758396", address: "Strada Test 1", city: "Bucuresti", county: "Bucuresti", postalCode: "010101" };
 const options = [{ carrier: "sameday", priceRon: 27.72, dynamic: true, codAvailable: true }, { carrier: "sameday", method: "easybox", priceRon: 17.5, dynamic: true, codAvailable: true }];
 const quote = { lines: [{ productId: 1, sku: "123", quantity: 2, price: 119, name: "Lenjerie", category: "LENJERII DE PAT" }], totals: { subtotalCents: 23800, discountCents: 1190, totalCents: 22610, freeShipping: false } };
-function resolver(profiles = {}, api = {}) {
+function resolver(profiles = {}, api = {}, fanApi = {}) {
   return moduleAt("src/lib/checkout-shipping.ts", {
     "@/data/shipping-packages.json": { default: profiles }, "./sameday-protocol": protocol, "./shipping": shipping,
     "./sameday": { samedayLocker: async (id) => { if (id !== 2) throw new Error("locker unavailable"); return { id }; }, samedayPayload: (order, parcel, locker) => ({ order, parcel, locker }), ...api },
+    "./fan-shipping-price": { fanCustomerShipping: async () => { throw new Error("Unexpected FAN quote"); }, ...fanApi },
   });
 }
 test("shipping confirmation is signed, expires, and cannot be moved to a different cart/address/locker", () => {
@@ -51,6 +52,32 @@ test("missing package weights retain the approved fixed price; measured parcels 
   const result = await resolver(profile, api).checkoutShippingRate(quote, customer, options, "sameday", "home");
   assert.equal(result.cents, 2345); assert.equal(result.source, "sameday");
   await assert.rejects(resolver(profile, { estimateSameday: async () => { throw new Error("provider offline"); } }).checkoutShippingRate(quote, customer, options, "sameday", "home"));
+});
+test("FAN quotes a measured set and adds only the actual destination and COD supplements", async () => {
+  const profiles = require("../src/data/shipping-packages.json");
+  const calls = [];
+  const fan = moduleAt("src/lib/fan-shipping-price.ts", {
+    "@/data/shipping-packages.json": { default: profiles },
+    "./fan": {
+      fanConfiguration: () => ({ clientId: "4342" }),
+      fanInternalTariff: async (input) => {
+        calls.push(input);
+        assert.equal(input.parcel.weight, 1);
+        assert.equal(input.parcel.length, 40);
+        assert.equal(input.parcel.width, 40);
+        assert.equal(input.parcel.height, 10);
+        return { total: input.locality === "Bucuresti" ? 22 : input.service === "Cont Colector" ? 34.5 : 28 };
+      },
+    },
+    "./packing-suggestion": { packingSuggestion: () => { throw new Error("Measured set should use its SKU profile"); } },
+    "./sameday-protocol": protocol,
+  });
+  const lines = [{ productId: 138600, sku: "138600", quantity: 1, name: "Lenjerie Ranforce" }];
+  const destination = { lines, county: "Dambovita", locality: "Gaesti", basePriceRon: 20, freeShipping: false };
+  assert.equal((await fan.fanCustomerShipping({ ...destination, paymentMethod: "card" })).cents, 2600);
+  assert.equal((await fan.fanCustomerShipping({ ...destination, paymentMethod: "cod" })).cents, 3250);
+  assert.equal((await fan.fanCustomerShipping({ ...destination, paymentMethod: "card", freeShipping: true })).cents, 600);
+  assert.equal(calls.length, 6);
 });
 test("free shipping still validates the locker; easybox rejects a fourth bedding set", async () => {
   const helpers = resolver();
@@ -146,6 +173,32 @@ test("COD readiness is independent of online card activation", () => {
   assert.equal(config.checkoutConfiguration().ready, true);
   assert.equal(config.checkoutConfiguration().codReady, true);
   assert.equal(config.checkoutConfiguration().cardReady, false);
+});
+
+test("FAN checkout accepts a signed destination supplement above the free standard delivery threshold", async () => {
+  const free = { ...quote, totals: { ...quote.totals, freeShipping: true } };
+  const fanOption = { carrier: "fan", priceRon: 20, dynamic: true, codAvailable: true };
+  const helpers = resolver({}, {}, { fanCustomerShipping: async () => ({ cents: 600, source: "fan" }) });
+  const binding = helpers.shippingQuoteBinding(free, customer, "fan", "home", undefined, "cod");
+  const signed = tokens.issueShippingQuote(binding, { cents: 600, source: "fan" }, "secret");
+  let stored;
+  const route = moduleAt("src/app/api/checkout/route.ts", {
+    "node:crypto": require("node:crypto"), "next/server": { NextResponse: Response },
+    "@/lib/cart-quote": { quoteCart: () => free },
+    "@/lib/checkout-config": { checkoutConfiguration: () => ({ ready: true, codReady: true, cardReady: false, publicUrl: "https://estore.test", shippingOptions: [fanOption] }) },
+    "@/lib/checkout-shipping": helpers, "@/lib/shipping-quote-token": tokens, "@/lib/shipping": shipping,
+    "@/lib/orders": { createOrder: async order => { stored = order; }, markPaymentEmailSent: async () => {} },
+    "@/lib/order-email": { sendCodConfirmation: async () => {} }, "@/lib/euplatesc": {}, "@/lib/sameday": {},
+    "@/lib/sameday-protocol": protocol, "@/data/shipping-packages.json": { default: {} },
+  }, { process: { env: { STORE_ADMIN_TOKEN: "secret", VERCEL_ENV: "production" } } });
+  const request = new Request("https://estore.test/api/checkout", { method: "POST", body: JSON.stringify({
+    items: [{ productId: 1, quantity: 2 }], customer, carrier: "fan", shippingMethod: "home", paymentMethod: "cod",
+    shippingQuoteToken: signed.token, acceptedTerms: true, intentId: "12345678-1234-1234-1234-123456789012",
+  }) });
+  assert.equal((await route.POST(request)).status, 200);
+  assert.equal(stored.shippingCents, 600);
+  assert.equal(stored.shippingRateSource, "fan");
+  assert.equal(stored.totalCents, free.totals.totalCents + 600);
 });
 
 

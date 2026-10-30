@@ -16,7 +16,7 @@ function shippingOption(carrier: ShippingCarrier): ShippingOption | null {
   const codAvailable = carrier === "fan" ? fan.ready && fan.awbEnabled && !!fan.bank && /^RO[A-Z0-9]{22}$/.test(fan.bankAccount || "")
     : samedayConfiguration().mode === "live";
   return { carrier, label: shippingCarrierLabels[carrier], priceRon: CUSTOMER_SHIPPING_RON.home, codAvailable,
-    ...(carrier === "sameday" ? { dynamic: false } : {}) };
+    dynamic: carrier === "fan" };
 }
 
 export function checkoutConfiguration() {

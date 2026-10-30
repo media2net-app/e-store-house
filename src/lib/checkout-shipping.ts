@@ -7,6 +7,7 @@ import { samedayLocker, samedayPayload, estimateSameday } from "./sameday";
 import { quoteShipping, type ShippingMethod, type ShippingOption } from "./shipping";
 import type { ShippingRate } from "./shipping-quote-token";
 import type { PaymentMethod } from "./payment-methods";
+import { fanCustomerShipping } from "./fan-shipping-price";
 
 export const shippingCustomerFields = ["firstName", "lastName", "email", "phone", "address", "city", "county", "postalCode"] as const;
 type ShippingCustomer = Pick<StoreOrder["customer"], (typeof shippingCustomerFields)[number]>;
@@ -42,6 +43,8 @@ export async function checkoutShippingRate(quote: ReturnType<typeof quoteCart>, 
   }
   const parcel = packedParcel(quote.lines, profiles as Record<string, PackingProfile>);
   if (locker && parcel && !fitsEasybox(parcel)) throw new Error("Coletul depășește limitele easybox. Alege livrarea la domiciliu.");
+  if (carrier === "fan") return fanCustomerShipping({ lines: quote.lines, county: customer.county, locality: customer.city,
+    paymentMethod, freeShipping: quote.totals.freeShipping, basePriceRon: fixed.option.priceRon });
   if (quote.totals.freeShipping) return { cents: 0, source: "free" };
   if (paymentMethod !== "cod" && carrier === "sameday" && fixed.option.dynamic && parcel) {
     const estimate = await estimateSameday(samedayPayload({ id: "checkout-estimate", customer }, parcel, locker));
