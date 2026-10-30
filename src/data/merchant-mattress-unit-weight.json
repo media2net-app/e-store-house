@@ -1,0 +1,8 @@
+{
+  "confirmedAt": "2026-10-30",
+  "source": "Administratorul E-Store House: toate cele 25 de variante de saltele și toppere ambalate au 1 kg și nu depășesc 60 × 50 × 30 cm.",
+  "scope": "saltele-si-toppere",
+  "weightKgPerPackedUnit": 1,
+  "maxConfirmedParcelCm": { "length": 60, "width": 50, "height": 30 },
+  "requiresExactDimensionsBeforeAwb": true
+}
