@@ -13,7 +13,7 @@ function shippingOption(carrier: ShippingCarrier): ShippingOption | null {
   if (carrier === "sameday" && !samedayConfiguration().homeReady) return null;
   const fan = fanConfiguration();
   if (carrier === "fan" && (!fan.ready || !fan.awbEnabled)) return null;
-  const codAvailable = carrier === "fan" ? fan.ready && fan.awbEnabled && !!fan.bank && /^RO[A-Z0-9]{22}$/.test(fan.bankAccount || "")
+  const codAvailable = carrier === "fan" ? fan.ready && fan.awbEnabled
     : samedayConfiguration().mode === "live";
   return { carrier, label: shippingCarrierLabels[carrier], priceRon: CUSTOMER_SHIPPING_RON.home, codAvailable,
     dynamic: carrier === "fan" };
