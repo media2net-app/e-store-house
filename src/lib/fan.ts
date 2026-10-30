@@ -105,14 +105,29 @@ export function fanPayload(order: StoreOrder, parcel: Parcel) {
 export async function estimateFan(order: StoreOrder, parcel: Parcel) {
   const payload = fanPayload(order, parcel);
   const shipment = payload.shipments[0];
-  const p = new URLSearchParams({ clientId: String(payload.clientId), "info[service]": shipment.info.service,
-    "info[payment]": shipment.info.payment, "info[weight]": String(parcel.weight),
+  const rate = await fanInternalTariff({ clientId: String(payload.clientId), service: shipment.info.service,
+    county: shipment.recipient.address.county, locality: shipment.recipient.address.locality, parcel });
+  return { amount: rate.total, currency: "RON" };
+}
+
+export async function fanInternalTariff(input: { clientId: string; service: string; county: string; locality: string; parcel: Parcel }) {
+  if (!/^\d+$/.test(input.clientId) || !["Standard", "Cont Colector"].includes(input.service)
+    || !validParcel(input.parcel) || !input.county || !input.locality) throw new Error("Date de tarif FAN invalide.");
+  const p = new URLSearchParams({ clientId: input.clientId, "info[service]": input.service,
+    "info[payment]": "expeditor", "info[weight]": String(input.parcel.weight),
     "info[packages][parcel]": "1", "info[packages][envelope]": "0",
-    "info[dimensions][length]": String(parcel.length), "info[dimensions][width]": String(parcel.width), "info[dimensions][height]": String(parcel.height),
-    "recipient[county]": shipment.recipient.address.county, "recipient[locality]": shipment.recipient.address.locality });
-  const result = await (await api(`/reports/awb/internal-tariff?${p}`, "GET")).json() as { status?: string; data?: { total?: number } };
-  if (result.status !== "success" || !Number.isFinite(Number(result.data?.total)) || Number(result.data?.total) < 0) throw new Error("FAN nu a returnat un tarif valid.");
-  return { amount: Number(result.data!.total), currency: "RON" };
+    "info[dimensions][length]": String(input.parcel.length), "info[dimensions][width]": String(input.parcel.width), "info[dimensions][height]": String(input.parcel.height),
+    "recipient[county]": ascii(input.county), "recipient[locality]": ascii(input.locality) });
+  const result = await (await api(`/reports/awb/internal-tariff?${p}`, "GET")).json() as {
+    status?: string; data?: { extraKmCost?: number; weightCost?: number; insuranceCost?: number; optionsCost?: number; fuelCost?: number; costNoVAT?: number; vat?: number; total?: number };
+  };
+  const data = result.data;
+  if (result.status !== "success" || !data || [data.extraKmCost, data.weightCost, data.insuranceCost,
+    data.optionsCost, data.fuelCost, data.costNoVAT, data.vat, data.total].some((value) => typeof value !== "number" || !Number.isFinite(value) || value < 0)) {
+    throw new Error("FAN nu a returnat un tarif valid.");
+  }
+  return { extraKmCost: data.extraKmCost!, weightCost: data.weightCost!, insuranceCost: data.insuranceCost!,
+    optionsCost: data.optionsCost!, fuelCost: data.fuelCost!, costNoVAT: data.costNoVAT!, vat: data.vat!, total: data.total! };
 }
 
 export async function createFanAwb(order: StoreOrder, parcel: Parcel) {
