@@ -55,6 +55,20 @@ test('all duvet and duvet-set variants use the merchant-confirmed 1 kg, 50 × 50
  }
  assert.equal(checked,108);
 });
+test('all bed-cover and mattress-protector variants use the confirmed packed profile',()=>{
+ const profiles=JSON.parse(fs.readFileSync('src/data/shipping-packages.json'));
+ const paths=['huse-de-pat/huse-pat-jerse-100','huse-de-pat/huse-de-pat-finet-2-fete-perna','protectii-saltea'];
+ let checked=0;
+ for(const product of catalog){
+  if(!paths.includes(product.categoryPath))continue;
+  for(const item of product.variants?.length?product.variants:[product]){
+   const profile=profiles[item.sku];assert.ok(profile,item.sku);
+   assert.equal(profile.weight,1);assert.equal(profile.length,30);assert.equal(profile.width,30);assert.equal(profile.height,10);
+   checked++;
+  }
+ }
+ assert.equal(checked,99);
+});
 test('mattresses, their size variants, toppers and mixed orders stay manual',()=>{
  const mattress=catalog.find(p=>p.id===106764);assert.ok(mattress);
  for(const item of [{productId:mattress.id,quantity:1},...mattress.variants.map(v=>({productId:v.id,sku:v.sku,quantity:1})),{name:'Topper vechi',quantity:1},{name:'Saltea veche',quantity:1}]){
