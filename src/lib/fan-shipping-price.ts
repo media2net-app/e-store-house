@@ -1,15 +1,14 @@
 import "server-only";
 import profiles from "@/data/shipping-packages.json";
 import { fanConfiguration, fanInternalTariff, fitsFanStandard } from "./fan";
-import { packingSuggestion } from "./packing-suggestion";
 import { packedParcel, type PackingProfile } from "./sameday-protocol";
 import type { quoteCart } from "./cart-quote";
 
 type Lines = ReturnType<typeof quoteCart>["lines"];
 
 // Charge the approved base fee plus the API's actual weight, size, destination,
-// and COD difference from a one-kilogram standard parcel. Incomplete packing
-// data still requires a warehouse measurement before the AWB is created.
+// and COD difference from a one-kilogram standard parcel. FAN needs a measured
+// profile for every SKU in the cart so the checkout quote is based on real sizes.
 export async function fanCustomerShipping(input: {
   lines: Lines;
   county: string;
@@ -18,8 +17,7 @@ export async function fanCustomerShipping(input: {
   freeShipping: boolean;
   basePriceRon: number;
 }) {
-  const parcel = packedParcel(input.lines, profiles as Record<string, PackingProfile>)
-    ?? packingSuggestion(input.lines);
+  const parcel = packedParcel(input.lines, profiles as Record<string, PackingProfile>);
   if (!parcel || !fitsFanStandard(parcel)) {
     throw new Error("FAN nu poate confirma automat acest colet. Alege livrarea Sameday.");
   }
