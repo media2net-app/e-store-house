@@ -16,6 +16,8 @@ Fluxul de AWB folosește magazinul drept sursă a comenzilor și a stării exped
 
 Nu seta `FAN_AWB_ENABLED=true` înainte de confirmarea contractului și a ID-ului. Aplicația respinge emiterea cât timp aceste date lipsesc. O comandă de curier pentru ridicare este separată de crearea AWB-ului; până la implementarea și verificarea preluării API, cheamă curierul din SelfAWB sau predă coletul la FAN.
 
+În `/admin/comenzi`, „Verifică contul FAN” citește sucursalele și, dacă `FAN_CLIENT_ID` aparține contului, estimează fără emitere un colet Standard de 1 kg, 10 × 10 × 10 cm către București. Verifică „Greutate / primul kg” față de cei 13 lei fără TVA din contractul nr. 4342/26.10.2026; indexul de combustibil, kilometrii suplimentari și TVA sunt afișate separat. Dacă baza nu corespunde, cere FAN să asocieze contractul cu acel cont înainte de activarea la checkout.
+
 ## În E-Store Control
 
 În „Comenzi site propriu”, cântărește coletul final și confirmă datele comenzii. Poți estima costul și emite AWB pentru curierul selectat de client. După emitere, descarcă PDF-ul individual sau selectează până la 20 de AWB-uri pentru un PDF de tipărire. Nu relua emiterea după un răspuns incert: verifică mai întâi referința `estore-<ID comandă>` în SelfAWB.
