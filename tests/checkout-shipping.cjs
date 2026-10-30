@@ -71,7 +71,6 @@ test("FAN quotes a measured set and adds only the actual destination and COD sup
         return { total: input.locality === "Bucuresti" ? 22 : input.service === "Cont Colector" ? 34.5 : 28 };
       },
     },
-    "./packing-suggestion": { packingSuggestion: () => { throw new Error("Measured set should use its SKU profile"); } },
     "./sameday-protocol": protocol,
   });
   const lines = [{ productId: 138600, sku: "138600", quantity: 1, name: "Lenjerie Ranforce" }];
@@ -79,6 +78,7 @@ test("FAN quotes a measured set and adds only the actual destination and COD sup
   assert.equal((await fan.fanCustomerShipping({ ...destination, paymentMethod: "card" })).cents, 2600);
   assert.equal((await fan.fanCustomerShipping({ ...destination, paymentMethod: "cod" })).cents, 3250);
   assert.equal((await fan.fanCustomerShipping({ ...destination, paymentMethod: "card", freeShipping: true })).cents, 600);
+  await assert.rejects(fan.fanCustomerShipping({ ...destination, lines: [{ ...lines[0], sku: "unknown" }], paymentMethod: "card" }));
   assert.equal(calls.length, 6);
 });
 test("FAN Standard accepts one measured duvet and rejects an oversized combined box", () => {
