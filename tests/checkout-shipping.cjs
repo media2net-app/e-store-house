@@ -15,6 +15,7 @@ function moduleAt(file, dependencies = {}, extra = {}) {
 const tokens = moduleAt("src/lib/shipping-quote-token.ts", { "node:crypto": require("node:crypto") });
 const protocol = moduleAt("src/lib/sameday-protocol.ts");
 const shipping = moduleAt("src/lib/shipping.ts");
+const fanProtocol = moduleAt("src/lib/fan.ts", { "./sameday-protocol": protocol });
 const customer = { firstName: "Client", lastName: "Test", email: "client@example.test", phone: "0729758396", address: "Strada Test 1", city: "Bucuresti", county: "Bucuresti", postalCode: "010101" };
 const options = [{ carrier: "sameday", priceRon: 27.72, dynamic: true, codAvailable: true }, { carrier: "sameday", method: "easybox", priceRon: 17.5, dynamic: true, codAvailable: true }];
 const quote = { lines: [{ productId: 1, sku: "123", quantity: 2, price: 119, name: "Lenjerie", category: "LENJERII DE PAT" }], totals: { subtotalCents: 23800, discountCents: 1190, totalCents: 22610, freeShipping: false } };
@@ -60,11 +61,12 @@ test("FAN quotes a measured set and adds only the actual destination and COD sup
     "@/data/shipping-packages.json": { default: profiles },
     "./fan": {
       fanConfiguration: () => ({ clientId: "4342" }),
+      fitsFanStandard: parcel => parcel.weight <= 30,
       fanInternalTariff: async (input) => {
         calls.push(input);
         assert.equal(input.parcel.weight, 1);
-        assert.equal(input.parcel.length, 40);
-        assert.equal(input.parcel.width, 40);
+        assert.equal(input.parcel.length, input.locality === "Bucuresti" ? 10 : 40);
+        assert.equal(input.parcel.width, input.locality === "Bucuresti" ? 10 : 40);
         assert.equal(input.parcel.height, 10);
         return { total: input.locality === "Bucuresti" ? 22 : input.service === "Cont Colector" ? 34.5 : 28 };
       },
@@ -78,6 +80,12 @@ test("FAN quotes a measured set and adds only the actual destination and COD sup
   assert.equal((await fan.fanCustomerShipping({ ...destination, paymentMethod: "cod" })).cents, 3250);
   assert.equal((await fan.fanCustomerShipping({ ...destination, paymentMethod: "card", freeShipping: true })).cents, 600);
   assert.equal(calls.length, 6);
+});
+test("FAN Standard accepts one measured duvet and rejects an oversized combined box", () => {
+  assert.equal(fanProtocol.fitsFanStandard({ weight: 1, length: 50, width: 50, height: 20 }), true);
+  assert.equal(fanProtocol.fitsFanStandard({ weight: 2, length: 50, width: 50, height: 40 }), false);
+  assert.equal(fanProtocol.fitsFanStandard({ weight: 30, length: 60, width: 50, height: 30 }), true);
+  assert.equal(fanProtocol.fitsFanStandard({ weight: 31, length: 60, width: 50, height: 30 }), false);
 });
 test("free shipping still validates the locker; easybox rejects a fourth bedding set", async () => {
   const helpers = resolver();
