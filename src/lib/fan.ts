@@ -42,17 +42,41 @@ async function token(): Promise<string> {
   try { return await authentication; } finally { authentication = null; }
 }
 
-export async function fanAccountBranches() {
+type FanBranch = { id?: number; name?: string; bank?: string; bankAccount?: string; address?: { county?: string; locality?: string } };
+
+async function rawFanBranches(): Promise<FanBranch[]> {
   const result = await (await api("/reports/branches", "GET")).json() as {
     status?: string;
-    data?: { id?: number; name?: string; bank?: string; bankAccount?: string; address?: { county?: string; locality?: string } }[];
+    data?: FanBranch[];
   };
   if (result.status !== "success" || !Array.isArray(result.data)) throw new Error("FAN nu a returnat sucursalele contului.");
-  return result.data.filter((branch) => Number.isSafeInteger(branch.id) && Number(branch.id) > 0).map((branch) => ({
+  return result.data.filter((branch) => Number.isSafeInteger(branch.id) && Number(branch.id) > 0);
+}
+
+export async function fanAccountBranches() {
+  return (await rawFanBranches()).map((branch) => ({
     id: Number(branch.id), name: String(branch.name || ""), bank: String(branch.bank || ""),
     accountLast4: String(branch.bankAccount || "").slice(-4),
     county: String(branch.address?.county || ""), locality: String(branch.address?.locality || ""),
   }));
+}
+
+let collectionBank: { clientId: string; bank: string; bankAccount: string; until: number } | null = null;
+export async function fanCollectionBank() {
+  const config = fanConfiguration();
+  if (!config.ready || !config.clientId) throw new Error("Contul FAN nu este configurat.");
+  if (collectionBank?.clientId === config.clientId && collectionBank.until > Date.now()) {
+    return { bank: collectionBank.bank, bankAccount: collectionBank.bankAccount };
+  }
+  const branch = (await rawFanBranches()).find((row) => String(row.id) === config.clientId);
+  const bank = String(branch?.bank || "").trim();
+  const bankAccount = String(branch?.bankAccount || "").replace(/\s/g, "").toUpperCase();
+  if (!bank || !/^RO[A-Z0-9]{22}$/.test(bankAccount)) throw new Error("Sucursala FAN nu are un cont bancar valid pentru ramburs.");
+  if (config.bankAccount && config.bankAccount !== bankAccount) {
+    throw new Error("Banca FAN nu corespunde configurării magazinului.");
+  }
+  collectionBank = { clientId: config.clientId, bank, bankAccount, until: Date.now() + 5 * 60_000 };
+  return { bank, bankAccount };
 }
 
 async function api(path: string, method: "GET" | "POST", body?: unknown) {
@@ -67,12 +91,14 @@ async function api(path: string, method: "GET" | "POST", body?: unknown) {
   return response;
 }
 
-export function fanPayload(order: StoreOrder, parcel: Parcel) {
+export function fanPayload(order: StoreOrder, parcel: Parcel, collection?: { bank: string; bankAccount: string }) {
   if (!fitsFanStandard(parcel) || order.shippingCarrier !== "fan" || (order.shippingMethod || "home") !== "home") throw new Error("Comandă sau colet FAN invalid.");
   const config = fanConfiguration();
   if (!config.ready) throw new Error("Contul API FAN nu este configurat.");
   const cod = order.paymentMethod === "cod";
-  if (cod && (!config.bank || !/^RO[A-Z0-9]{22}$/.test(config.bankAccount || "") || order.totalCents > 1_000_000)) throw new Error("Rambursul FAN necesită banca și IBAN-ul contractului; limita este 10.000 lei.");
+  const bank = collection?.bank || config.bank;
+  const bankAccount = collection?.bankAccount || config.bankAccount;
+  if (cod && (!bank || !/^RO[A-Z0-9]{22}$/.test(bankAccount || "") || order.totalCents > 1_000_000)) throw new Error("Rambursul FAN necesită banca și IBAN-ul contractului; limita este 10.000 lei.");
   const customer = order.customer;
   const name = `${customer.firstName} ${customer.lastName}`.trim();
   const phone = customer.phone.replace(/\D/g, "");
@@ -82,8 +108,8 @@ export function fanPayload(order: StoreOrder, parcel: Parcel) {
     shipments: [{
       info: {
         service: cod ? "Cont Colector" : "Standard",
-        bank: cod ? config.bank : "",
-        bankAccount: cod ? config.bankAccount : "",
+        bank: cod ? bank : "",
+        bankAccount: cod ? bankAccount : "",
         packages: { parcel: 1, envelope: 0 },
         weight: parcel.weight,
         cod: cod ? order.totalCents / 100 : 0,
@@ -109,7 +135,7 @@ export function fitsFanStandard(parcel: Parcel) {
 }
 
 export async function estimateFan(order: StoreOrder, parcel: Parcel) {
-  const payload = fanPayload(order, parcel);
+  const payload = fanPayload(order, parcel, order.paymentMethod === "cod" ? await fanCollectionBank() : undefined);
   const shipment = payload.shipments[0];
   const rate = await fanInternalTariff({ clientId: String(payload.clientId), service: shipment.info.service,
     county: shipment.recipient.address.county, locality: shipment.recipient.address.locality, parcel });
@@ -137,7 +163,8 @@ export async function fanInternalTariff(input: { clientId: string; service: stri
 }
 
 export async function createFanAwb(order: StoreOrder, parcel: Parcel) {
-  const result = await (await api("/intern-awb", "POST", fanPayload(order, parcel))).json() as {
+  const collection = order.paymentMethod === "cod" ? await fanCollectionBank() : undefined;
+  const result = await (await api("/intern-awb", "POST", fanPayload(order, parcel, collection))).json() as {
     response?: { awbNumber?: string | number; tariff?: number; vat?: number; errors?: unknown }[];
   };
   const row = result.response?.[0];

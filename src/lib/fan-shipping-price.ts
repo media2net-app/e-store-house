@@ -1,6 +1,6 @@
 import "server-only";
 import profiles from "@/data/shipping-packages.json";
-import { fanConfiguration, fanInternalTariff, fitsFanStandard } from "./fan";
+import { fanCollectionBank, fanConfiguration, fanInternalTariff, fitsFanStandard } from "./fan";
 import { packedParcel, type PackingProfile } from "./sameday-protocol";
 import type { quoteCart } from "./cart-quote";
 
@@ -23,6 +23,7 @@ export async function fanCustomerShipping(input: {
   }
   const clientId = fanConfiguration().clientId;
   if (!clientId) throw new Error("Contul FAN nu este configurat.");
+  if (input.paymentMethod === "cod") await fanCollectionBank();
   const [reference, requested] = await Promise.all([
     fanInternalTariff({ clientId, parcel: { weight: 1, length: 10, width: 10, height: 10 },
       service: "Standard", county: "Bucuresti", locality: "Bucuresti" }),
