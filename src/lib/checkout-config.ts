@@ -20,7 +20,7 @@ function shippingOption(carrier: ShippingCarrier): ShippingOption | null {
 }
 
 export function checkoutConfiguration() {
-  const shippingOptions = ([shippingOption("fan"), shippingOption("sameday")].filter(Boolean)) as ShippingOption[];
+  const shippingOptions = ([shippingOption("sameday"), shippingOption("fan")].filter(Boolean)) as ShippingOption[];
   const lockerPrice = process.env.STORE_SAMEDAY_EASYBOX_SHIPPING_RON;
   if (process.env.STORE_SAMEDAY_ENABLED === "true" && samedayConfiguration().lockerReady
       && lockerPrice && /^\d+(?:\.\d{1,2})?$/.test(lockerPrice) && Number.isFinite(Number(lockerPrice)) && Number(lockerPrice) <= 9999) {
