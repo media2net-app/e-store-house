@@ -9,9 +9,10 @@ test('only the retired public preview redirects to the real store; private callb
  for(const path of ['/api/euplatesc/callback','/admin/comenzi','/plata/rezultat','/_next/static/x'])assert.equal(p(req(path)).next,true);
  assert.equal(p(req('/checkout','POST')).next,true);env.VERCEL_ENV='production';assert.equal(p(req('/checkout')).next,true);env.VERCEL_ENV='preview';env.VERCEL_GIT_COMMIT_REF='other-feature';assert.equal(p(req('/checkout')).next,true);
 });
-test('COD-only checkout never offers a shipping method that forces unavailable card payment',()=>{
+test('COD-only checkout offers only shipping methods with confirmed ramburs',()=>{
  const {shippingPaymentAvailable:f}=mod('src/lib/checkout-payment-options.ts');
- const home={carrier:'sameday'},locker={carrier:'sameday',method:'easybox'},fan={carrier:'fan'};
- assert.equal(f(home,false,true),true);assert.equal(f(locker,false,true),true);assert.equal(f(fan,false,true),false);
+ const home={carrier:'sameday',codAvailable:true},locker={carrier:'sameday',method:'easybox',codAvailable:true},fan={carrier:'fan',codAvailable:true};
+ assert.equal(f(home,false,true),true);assert.equal(f(locker,false,true),true);assert.equal(f(fan,false,true),true);
+ assert.equal(f({...fan,codAvailable:false},false,true),false);
  assert.equal(f(locker,true,true),true);assert.equal(f(fan,true,false),true);assert.equal(f(home,false,false),false);
 });
