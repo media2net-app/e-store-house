@@ -13385,22 +13385,31 @@
       "163862": 64.0,
       "163863": 97.0,
       "163864": 105.0,
-      "163865": 145.0
+      "163865": 145.0,
+      "163866": 64.0,
+      "163867": 81.0,
+      "163868": 97.0
     },
     "availability": {
       "163861": true,
       "163862": true,
       "163863": true,
       "163864": true,
-      "163865": true
+      "163865": true,
+      "163866": true,
+      "163867": true,
+      "163868": true
     },
-    "checkedAt": "2026-10-31T20:06:31.206028+00:00",
+    "checkedAt": "2026-10-31T22:03:02.387846+00:00",
     "pricingRules": {
       "163861": "retail-plus-60",
       "163862": "retail-plus-60",
       "163863": "retail-plus-60",
       "163864": "retail-plus-60",
-      "163865": "retail-plus-60"
+      "163865": "retail-plus-60",
+      "163866": "retail-plus-60",
+      "163867": "retail-plus-60",
+      "163868": "retail-plus-60"
     },
     "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
   },
@@ -13412,22 +13421,31 @@
       "163853": 64.0,
       "163854": 97.0,
       "163855": 105.0,
-      "163856": 145.0
+      "163856": 145.0,
+      "163857": 64.0,
+      "163858": 81.0,
+      "163859": 97.0
     },
     "availability": {
       "163852": true,
       "163853": true,
       "163854": true,
       "163855": true,
-      "163856": true
+      "163856": true,
+      "163857": true,
+      "163858": true,
+      "163859": true
     },
-    "checkedAt": "2026-10-31T20:06:31.206028+00:00",
+    "checkedAt": "2026-10-31T22:03:02.387846+00:00",
     "pricingRules": {
       "163852": "retail-plus-60",
       "163853": "retail-plus-60",
       "163854": "retail-plus-60",
       "163855": "retail-plus-60",
-      "163856": "retail-plus-60"
+      "163856": "retail-plus-60",
+      "163857": "retail-plus-60",
+      "163858": "retail-plus-60",
+      "163859": "retail-plus-60"
     },
     "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
   },
@@ -13439,22 +13457,31 @@
       "163844": 64.0,
       "163845": 97.0,
       "163846": 105.0,
-      "163847": 145.0
+      "163847": 145.0,
+      "163848": 64.0,
+      "163849": 81.0,
+      "163850": 97.0
     },
     "availability": {
       "163843": true,
       "163844": true,
       "163845": true,
       "163846": true,
-      "163847": true
+      "163847": true,
+      "163848": true,
+      "163849": true,
+      "163850": true
     },
-    "checkedAt": "2026-10-31T20:06:31.206028+00:00",
+    "checkedAt": "2026-10-31T22:03:02.387846+00:00",
     "pricingRules": {
       "163843": "retail-plus-60",
       "163844": "retail-plus-60",
       "163845": "retail-plus-60",
       "163846": "retail-plus-60",
-      "163847": "retail-plus-60"
+      "163847": "retail-plus-60",
+      "163848": "retail-plus-60",
+      "163849": "retail-plus-60",
+      "163850": "retail-plus-60"
     },
     "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
   },
@@ -13466,22 +13493,31 @@
       "163835": 64.0,
       "163836": 97.0,
       "163837": 105.0,
-      "163838": 145.0
+      "163838": 145.0,
+      "163839": 64.0,
+      "163840": 81.0,
+      "163841": 97.0
     },
     "availability": {
       "163834": true,
       "163835": true,
       "163836": true,
       "163837": true,
-      "163838": true
+      "163838": true,
+      "163839": true,
+      "163840": true,
+      "163841": true
     },
-    "checkedAt": "2026-10-31T20:06:31.206028+00:00",
+    "checkedAt": "2026-10-31T22:03:02.387846+00:00",
     "pricingRules": {
       "163834": "retail-plus-60",
       "163835": "retail-plus-60",
       "163836": "retail-plus-60",
       "163837": "retail-plus-60",
-      "163838": "retail-plus-60"
+      "163838": "retail-plus-60",
+      "163839": "retail-plus-60",
+      "163840": "retail-plus-60",
+      "163841": "retail-plus-60"
     },
     "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
   },
@@ -13493,22 +13529,31 @@
       "163826": 64.0,
       "163827": 97.0,
       "163828": 105.0,
-      "163829": 145.0
+      "163829": 145.0,
+      "163830": 64.0,
+      "163831": 81.0,
+      "163832": 97.0
     },
     "availability": {
       "163825": true,
       "163826": true,
       "163827": true,
       "163828": true,
-      "163829": true
+      "163829": true,
+      "163830": true,
+      "163831": true,
+      "163832": true
     },
-    "checkedAt": "2026-10-31T20:06:31.206028+00:00",
+    "checkedAt": "2026-10-31T22:03:02.387846+00:00",
     "pricingRules": {
       "163825": "retail-plus-60",
       "163826": "retail-plus-60",
       "163827": "retail-plus-60",
       "163828": "retail-plus-60",
-      "163829": "retail-plus-60"
+      "163829": "retail-plus-60",
+      "163830": "retail-plus-60",
+      "163831": "retail-plus-60",
+      "163832": "retail-plus-60"
     },
     "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
   },
@@ -13520,22 +13565,31 @@
       "163817": 64.0,
       "163818": 97.0,
       "163819": 105.0,
-      "163820": 145.0
+      "163820": 145.0,
+      "163821": 64.0,
+      "163822": 81.0,
+      "163823": 97.0
     },
     "availability": {
       "163816": true,
       "163817": true,
       "163818": true,
       "163819": true,
-      "163820": true
+      "163820": true,
+      "163821": true,
+      "163822": true,
+      "163823": true
     },
-    "checkedAt": "2026-10-31T20:06:31.206028+00:00",
+    "checkedAt": "2026-10-31T22:03:02.387846+00:00",
     "pricingRules": {
       "163816": "retail-plus-60",
       "163817": "retail-plus-60",
       "163818": "retail-plus-60",
       "163819": "retail-plus-60",
-      "163820": "retail-plus-60"
+      "163820": "retail-plus-60",
+      "163821": "retail-plus-60",
+      "163822": "retail-plus-60",
+      "163823": "retail-plus-60"
     },
     "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
   },
@@ -13547,22 +13601,31 @@
       "163808": 64.0,
       "163809": 97.0,
       "163810": 105.0,
-      "163811": 145.0
+      "163811": 145.0,
+      "163812": 64.0,
+      "163813": 81.0,
+      "163814": 97.0
     },
     "availability": {
       "163807": true,
       "163808": true,
       "163809": true,
       "163810": true,
-      "163811": true
+      "163811": true,
+      "163812": true,
+      "163813": true,
+      "163814": true
     },
-    "checkedAt": "2026-10-31T20:06:31.206028+00:00",
+    "checkedAt": "2026-10-31T22:03:02.387846+00:00",
     "pricingRules": {
       "163807": "retail-plus-60",
       "163808": "retail-plus-60",
       "163809": "retail-plus-60",
       "163810": "retail-plus-60",
-      "163811": "retail-plus-60"
+      "163811": "retail-plus-60",
+      "163812": "retail-plus-60",
+      "163813": "retail-plus-60",
+      "163814": "retail-plus-60"
     },
     "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
   },
@@ -13574,22 +13637,31 @@
       "163799": 64.0,
       "163800": 97.0,
       "163801": 105.0,
-      "163802": 145.0
+      "163802": 145.0,
+      "163803": 64.0,
+      "163804": 81.0,
+      "163805": 97.0
     },
     "availability": {
       "163798": true,
       "163799": true,
       "163800": true,
       "163801": true,
-      "163802": true
+      "163802": true,
+      "163803": true,
+      "163804": true,
+      "163805": true
     },
-    "checkedAt": "2026-10-31T20:06:31.206028+00:00",
+    "checkedAt": "2026-10-31T22:03:02.387846+00:00",
     "pricingRules": {
       "163798": "retail-plus-60",
       "163799": "retail-plus-60",
       "163800": "retail-plus-60",
       "163801": "retail-plus-60",
-      "163802": "retail-plus-60"
+      "163802": "retail-plus-60",
+      "163803": "retail-plus-60",
+      "163804": "retail-plus-60",
+      "163805": "retail-plus-60"
     },
     "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
   },
@@ -13601,22 +13673,31 @@
       "163790": 64.0,
       "163791": 97.0,
       "163792": 105.0,
-      "163793": 145.0
+      "163793": 145.0,
+      "163794": 64.0,
+      "163795": 81.0,
+      "163796": 97.0
     },
     "availability": {
       "163789": true,
       "163790": true,
       "163791": true,
       "163792": true,
-      "163793": true
+      "163793": true,
+      "163794": true,
+      "163795": true,
+      "163796": true
     },
-    "checkedAt": "2026-10-31T20:06:31.206028+00:00",
+    "checkedAt": "2026-10-31T22:03:02.387846+00:00",
     "pricingRules": {
       "163789": "retail-plus-60",
       "163790": "retail-plus-60",
       "163791": "retail-plus-60",
       "163792": "retail-plus-60",
-      "163793": "retail-plus-60"
+      "163793": "retail-plus-60",
+      "163794": "retail-plus-60",
+      "163795": "retail-plus-60",
+      "163796": "retail-plus-60"
     },
     "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
   },
@@ -13628,22 +13709,31 @@
       "163781": 64.0,
       "163782": 97.0,
       "163783": 105.0,
-      "163784": 145.0
+      "163784": 145.0,
+      "163785": 64.0,
+      "163786": 81.0,
+      "163787": 97.0
     },
     "availability": {
       "163780": true,
       "163781": true,
       "163782": true,
       "163783": true,
-      "163784": true
+      "163784": true,
+      "163785": true,
+      "163786": true,
+      "163787": true
     },
-    "checkedAt": "2026-10-31T20:06:31.206028+00:00",
+    "checkedAt": "2026-10-31T22:03:02.387846+00:00",
     "pricingRules": {
       "163780": "retail-plus-60",
       "163781": "retail-plus-60",
       "163782": "retail-plus-60",
       "163783": "retail-plus-60",
-      "163784": "retail-plus-60"
+      "163784": "retail-plus-60",
+      "163785": "retail-plus-60",
+      "163786": "retail-plus-60",
+      "163787": "retail-plus-60"
     },
     "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
   },
@@ -13655,22 +13745,31 @@
       "163772": 64.0,
       "163773": 97.0,
       "163774": 105.0,
-      "163775": 145.0
+      "163775": 145.0,
+      "163776": 64.0,
+      "163777": 81.0,
+      "163778": 97.0
     },
     "availability": {
       "163771": true,
       "163772": true,
       "163773": true,
       "163774": true,
-      "163775": true
+      "163775": true,
+      "163776": true,
+      "163777": true,
+      "163778": true
     },
-    "checkedAt": "2026-10-31T20:06:31.206028+00:00",
+    "checkedAt": "2026-10-31T22:03:02.387846+00:00",
     "pricingRules": {
       "163771": "retail-plus-60",
       "163772": "retail-plus-60",
       "163773": "retail-plus-60",
       "163774": "retail-plus-60",
-      "163775": "retail-plus-60"
+      "163775": "retail-plus-60",
+      "163776": "retail-plus-60",
+      "163777": "retail-plus-60",
+      "163778": "retail-plus-60"
     },
     "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
   },
@@ -13682,22 +13781,31 @@
       "163763": 64.0,
       "163764": 97.0,
       "163765": 105.0,
-      "163766": 145.0
+      "163766": 145.0,
+      "163767": 64.0,
+      "163768": 81.0,
+      "163769": 97.0
     },
     "availability": {
       "163762": true,
       "163763": true,
       "163764": true,
       "163765": true,
-      "163766": true
+      "163766": true,
+      "163767": true,
+      "163768": true,
+      "163769": true
     },
-    "checkedAt": "2026-10-31T20:06:31.206028+00:00",
+    "checkedAt": "2026-10-31T22:03:02.387846+00:00",
     "pricingRules": {
       "163762": "retail-plus-60",
       "163763": "retail-plus-60",
       "163764": "retail-plus-60",
       "163765": "retail-plus-60",
-      "163766": "retail-plus-60"
+      "163766": "retail-plus-60",
+      "163767": "retail-plus-60",
+      "163768": "retail-plus-60",
+      "163769": "retail-plus-60"
     },
     "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
   },
@@ -13709,22 +13817,31 @@
       "163753": 64.0,
       "163754": 97.0,
       "163755": 105.0,
-      "163756": 145.0
+      "163756": 145.0,
+      "163757": 64.0,
+      "163758": 81.0,
+      "163759": 97.0
     },
     "availability": {
       "163752": true,
       "163753": true,
       "163754": true,
       "163755": true,
-      "163756": true
+      "163756": true,
+      "163757": true,
+      "163758": true,
+      "163759": true
     },
-    "checkedAt": "2026-10-31T20:06:31.206028+00:00",
+    "checkedAt": "2026-10-31T22:03:02.387846+00:00",
     "pricingRules": {
       "163752": "retail-plus-60",
       "163753": "retail-plus-60",
       "163754": "retail-plus-60",
       "163755": "retail-plus-60",
-      "163756": "retail-plus-60"
+      "163756": "retail-plus-60",
+      "163757": "retail-plus-60",
+      "163758": "retail-plus-60",
+      "163759": "retail-plus-60"
     },
     "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
   }
