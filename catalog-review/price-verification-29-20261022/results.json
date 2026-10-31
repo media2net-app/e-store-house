@@ -12056,5 +12056,1325 @@
       "95893": "retail-plus-60"
     },
     "priceBasis": "Supplier regular public price, excluding reseller discount; merchant Trendyol export stock 100"
+  },
+  {
+    "id": 164286,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-purple-leaf/",
+    "costs": {
+      "164287": 177.0,
+      "164288": 193.0,
+      "164289": 241.0,
+      "164290": 258.0,
+      "164291": 289.0,
+      "164292": 306.0
+    },
+    "availability": {
+      "164287": true,
+      "164288": true,
+      "164289": true,
+      "164290": true,
+      "164291": true,
+      "164292": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164287": "retail-plus-60",
+      "164288": "retail-plus-60",
+      "164289": "retail-plus-60",
+      "164290": "retail-plus-60",
+      "164291": "retail-plus-60",
+      "164292": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164279,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-field-flowers/",
+    "costs": {
+      "164280": 177.0,
+      "164281": 193.0,
+      "164282": 241.0,
+      "164283": 258.0,
+      "164284": 289.0,
+      "164285": 306.0
+    },
+    "availability": {
+      "164280": true,
+      "164281": true,
+      "164282": true,
+      "164283": true,
+      "164284": true,
+      "164285": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164280": "retail-plus-60",
+      "164281": "retail-plus-60",
+      "164282": "retail-plus-60",
+      "164283": "retail-plus-60",
+      "164284": "retail-plus-60",
+      "164285": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164272,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-gray-circle/",
+    "costs": {
+      "164273": 177.0,
+      "164274": 193.0,
+      "164275": 241.0,
+      "164276": 258.0,
+      "164277": 289.0,
+      "164278": 306.0
+    },
+    "availability": {
+      "164273": true,
+      "164274": true,
+      "164275": true,
+      "164276": true,
+      "164277": true,
+      "164278": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164273": "retail-plus-60",
+      "164274": "retail-plus-60",
+      "164275": "retail-plus-60",
+      "164276": "retail-plus-60",
+      "164277": "retail-plus-60",
+      "164278": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164265,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-snow-man/",
+    "costs": {
+      "164266": 177.0,
+      "164267": 193.0,
+      "164268": 241.0,
+      "164269": 258.0,
+      "164270": 289.0,
+      "164271": 306.0
+    },
+    "availability": {
+      "164266": true,
+      "164267": true,
+      "164268": true,
+      "164269": true,
+      "164270": true,
+      "164271": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164266": "retail-plus-60",
+      "164267": "retail-plus-60",
+      "164268": "retail-plus-60",
+      "164269": "retail-plus-60",
+      "164270": "retail-plus-60",
+      "164271": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164258,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-fire-flower/",
+    "costs": {
+      "164259": 177.0,
+      "164260": 193.0,
+      "164261": 241.0,
+      "164262": 258.0,
+      "164263": 289.0,
+      "164264": 306.0
+    },
+    "availability": {
+      "164259": true,
+      "164260": true,
+      "164261": true,
+      "164262": true,
+      "164263": true,
+      "164264": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164259": "retail-plus-60",
+      "164260": "retail-plus-60",
+      "164261": "retail-plus-60",
+      "164262": "retail-plus-60",
+      "164263": "retail-plus-60",
+      "164264": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164228,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-navy-blue-lines/",
+    "costs": {
+      "164229": 177.0,
+      "164230": 193.0,
+      "164231": 241.0,
+      "164232": 258.0,
+      "164233": 289.0,
+      "164234": 306.0
+    },
+    "availability": {
+      "164229": true,
+      "164230": true,
+      "164231": true,
+      "164232": true,
+      "164233": true,
+      "164234": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164229": "retail-plus-60",
+      "164230": "retail-plus-60",
+      "164231": "retail-plus-60",
+      "164232": "retail-plus-60",
+      "164233": "retail-plus-60",
+      "164234": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164221,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-green-lines/",
+    "costs": {
+      "164222": 177.0,
+      "164223": 193.0,
+      "164224": 241.0,
+      "164225": 258.0,
+      "164226": 289.0,
+      "164227": 306.0
+    },
+    "availability": {
+      "164222": true,
+      "164223": true,
+      "164224": true,
+      "164225": true,
+      "164226": true,
+      "164227": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164222": "retail-plus-60",
+      "164223": "retail-plus-60",
+      "164224": "retail-plus-60",
+      "164225": "retail-plus-60",
+      "164226": "retail-plus-60",
+      "164227": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164214,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-pink-lines/",
+    "costs": {
+      "164215": 177.0,
+      "164216": 193.0,
+      "164217": 241.0,
+      "164218": 258.0,
+      "164219": 289.0,
+      "164220": 306.0
+    },
+    "availability": {
+      "164215": true,
+      "164216": true,
+      "164217": true,
+      "164218": true,
+      "164219": true,
+      "164220": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164215": "retail-plus-60",
+      "164216": "retail-plus-60",
+      "164217": "retail-plus-60",
+      "164218": "retail-plus-60",
+      "164219": "retail-plus-60",
+      "164220": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164207,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-yellow-lines/",
+    "costs": {
+      "164208": 177.0,
+      "164209": 193.0,
+      "164210": 241.0,
+      "164211": 258.0,
+      "164212": 289.0,
+      "164213": 306.0
+    },
+    "availability": {
+      "164208": true,
+      "164209": true,
+      "164210": true,
+      "164211": true,
+      "164212": true,
+      "164213": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164208": "retail-plus-60",
+      "164209": "retail-plus-60",
+      "164210": "retail-plus-60",
+      "164211": "retail-plus-60",
+      "164212": "retail-plus-60",
+      "164213": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164200,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-shiny-dasies/",
+    "costs": {
+      "164201": 177.0,
+      "164202": 193.0,
+      "164203": 241.0,
+      "164204": 258.0,
+      "164205": 289.0,
+      "164206": 306.0
+    },
+    "availability": {
+      "164201": true,
+      "164202": true,
+      "164203": true,
+      "164204": true,
+      "164205": true,
+      "164206": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164201": "retail-plus-60",
+      "164202": "retail-plus-60",
+      "164203": "retail-plus-60",
+      "164204": "retail-plus-60",
+      "164205": "retail-plus-60",
+      "164206": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164193,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-abstact-lines/",
+    "costs": {
+      "164194": 177.0,
+      "164195": 193.0,
+      "164196": 241.0,
+      "164197": 258.0,
+      "164198": 289.0,
+      "164199": 306.0
+    },
+    "availability": {
+      "164194": true,
+      "164195": true,
+      "164196": true,
+      "164197": true,
+      "164198": true,
+      "164199": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164194": "retail-plus-60",
+      "164195": "retail-plus-60",
+      "164196": "retail-plus-60",
+      "164197": "retail-plus-60",
+      "164198": "retail-plus-60",
+      "164199": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164186,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-flowers-pink/",
+    "costs": {
+      "164187": 177.0,
+      "164188": 193.0,
+      "164189": 241.0,
+      "164190": 258.0,
+      "164191": 289.0,
+      "164192": 306.0
+    },
+    "availability": {
+      "164187": true,
+      "164188": true,
+      "164189": true,
+      "164190": true,
+      "164191": true,
+      "164192": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164187": "retail-plus-60",
+      "164188": "retail-plus-60",
+      "164189": "retail-plus-60",
+      "164190": "retail-plus-60",
+      "164191": "retail-plus-60",
+      "164192": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164179,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-white-stars/",
+    "costs": {
+      "164180": 177.0,
+      "164181": 193.0,
+      "164182": 241.0,
+      "164183": 258.0,
+      "164184": 289.0,
+      "164185": 306.0
+    },
+    "availability": {
+      "164180": true,
+      "164181": true,
+      "164182": true,
+      "164183": true,
+      "164184": true,
+      "164185": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164180": "retail-plus-60",
+      "164181": "retail-plus-60",
+      "164182": "retail-plus-60",
+      "164183": "retail-plus-60",
+      "164184": "retail-plus-60",
+      "164185": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164172,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-purple-round/",
+    "costs": {
+      "164173": 177.0,
+      "164174": 193.0,
+      "164175": 241.0,
+      "164176": 258.0,
+      "164177": 289.0,
+      "164178": 306.0
+    },
+    "availability": {
+      "164173": true,
+      "164174": true,
+      "164175": true,
+      "164176": true,
+      "164177": true,
+      "164178": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164173": "retail-plus-60",
+      "164174": "retail-plus-60",
+      "164175": "retail-plus-60",
+      "164176": "retail-plus-60",
+      "164177": "retail-plus-60",
+      "164178": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164165,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-space-kid-v2/",
+    "costs": {
+      "164166": 177.0,
+      "164167": 193.0,
+      "164168": 241.0,
+      "164169": 258.0,
+      "164170": 289.0,
+      "164171": 306.0
+    },
+    "availability": {
+      "164166": true,
+      "164167": true,
+      "164168": true,
+      "164169": true,
+      "164170": true,
+      "164171": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164166": "retail-plus-60",
+      "164167": "retail-plus-60",
+      "164168": "retail-plus-60",
+      "164169": "retail-plus-60",
+      "164170": "retail-plus-60",
+      "164171": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164158,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-space-kid-v1/",
+    "costs": {
+      "164159": 177.0,
+      "164160": 193.0,
+      "164161": 241.0,
+      "164162": 258.0,
+      "164163": 289.0,
+      "164164": 306.0
+    },
+    "availability": {
+      "164159": true,
+      "164160": true,
+      "164161": true,
+      "164162": true,
+      "164163": true,
+      "164164": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164159": "retail-plus-60",
+      "164160": "retail-plus-60",
+      "164161": "retail-plus-60",
+      "164162": "retail-plus-60",
+      "164163": "retail-plus-60",
+      "164164": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164150,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-65/",
+    "costs": {
+      "164151": 177.0,
+      "164152": 193.0,
+      "164153": 241.0,
+      "164154": 258.0,
+      "164155": 289.0,
+      "164156": 306.0
+    },
+    "availability": {
+      "164151": true,
+      "164152": true,
+      "164153": true,
+      "164154": true,
+      "164155": true,
+      "164156": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164151": "retail-plus-60",
+      "164152": "retail-plus-60",
+      "164153": "retail-plus-60",
+      "164154": "retail-plus-60",
+      "164155": "retail-plus-60",
+      "164156": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164141,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-64/",
+    "costs": {
+      "164142": 177.0,
+      "164143": 193.0,
+      "164144": 241.0,
+      "164145": 258.0,
+      "164146": 289.0,
+      "164147": 306.0
+    },
+    "availability": {
+      "164142": true,
+      "164143": true,
+      "164144": true,
+      "164145": true,
+      "164146": true,
+      "164147": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164142": "retail-plus-60",
+      "164143": "retail-plus-60",
+      "164144": "retail-plus-60",
+      "164145": "retail-plus-60",
+      "164146": "retail-plus-60",
+      "164147": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164132,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-63/",
+    "costs": {
+      "164133": 177.0,
+      "164134": 193.0,
+      "164135": 241.0,
+      "164136": 258.0,
+      "164137": 289.0,
+      "164138": 306.0
+    },
+    "availability": {
+      "164133": true,
+      "164134": true,
+      "164135": true,
+      "164136": true,
+      "164137": true,
+      "164138": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164133": "retail-plus-60",
+      "164134": "retail-plus-60",
+      "164135": "retail-plus-60",
+      "164136": "retail-plus-60",
+      "164137": "retail-plus-60",
+      "164138": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164123,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-62/",
+    "costs": {
+      "164124": 177.0,
+      "164125": 193.0,
+      "164126": 241.0,
+      "164127": 258.0,
+      "164128": 289.0,
+      "164129": 306.0
+    },
+    "availability": {
+      "164124": true,
+      "164125": true,
+      "164126": true,
+      "164127": true,
+      "164128": true,
+      "164129": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164124": "retail-plus-60",
+      "164125": "retail-plus-60",
+      "164126": "retail-plus-60",
+      "164127": "retail-plus-60",
+      "164128": "retail-plus-60",
+      "164129": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164114,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-61/",
+    "costs": {
+      "164115": 177.0,
+      "164116": 193.0,
+      "164117": 241.0,
+      "164118": 258.0,
+      "164119": 289.0,
+      "164120": 306.0
+    },
+    "availability": {
+      "164115": true,
+      "164116": true,
+      "164117": true,
+      "164118": true,
+      "164119": true,
+      "164120": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164115": "retail-plus-60",
+      "164116": "retail-plus-60",
+      "164117": "retail-plus-60",
+      "164118": "retail-plus-60",
+      "164119": "retail-plus-60",
+      "164120": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164105,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-60/",
+    "costs": {
+      "164106": 177.0,
+      "164107": 193.0,
+      "164108": 241.0,
+      "164109": 258.0,
+      "164110": 289.0,
+      "164111": 306.0
+    },
+    "availability": {
+      "164106": true,
+      "164107": true,
+      "164108": true,
+      "164109": true,
+      "164110": true,
+      "164111": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164106": "retail-plus-60",
+      "164107": "retail-plus-60",
+      "164108": "retail-plus-60",
+      "164109": "retail-plus-60",
+      "164110": "retail-plus-60",
+      "164111": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164096,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-59/",
+    "costs": {
+      "164097": 177.0,
+      "164098": 193.0,
+      "164099": 241.0,
+      "164100": 258.0,
+      "164101": 289.0,
+      "164102": 306.0
+    },
+    "availability": {
+      "164097": true,
+      "164098": true,
+      "164099": true,
+      "164100": true,
+      "164101": true,
+      "164102": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164097": "retail-plus-60",
+      "164098": "retail-plus-60",
+      "164099": "retail-plus-60",
+      "164100": "retail-plus-60",
+      "164101": "retail-plus-60",
+      "164102": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164087,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-58/",
+    "costs": {
+      "164088": 177.0,
+      "164089": 193.0,
+      "164090": 241.0,
+      "164091": 258.0,
+      "164092": 289.0,
+      "164093": 306.0
+    },
+    "availability": {
+      "164088": true,
+      "164089": true,
+      "164090": true,
+      "164091": true,
+      "164092": true,
+      "164093": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164088": "retail-plus-60",
+      "164089": "retail-plus-60",
+      "164090": "retail-plus-60",
+      "164091": "retail-plus-60",
+      "164092": "retail-plus-60",
+      "164093": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164078,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-57/",
+    "costs": {
+      "164079": 177.0,
+      "164080": 193.0,
+      "164081": 241.0,
+      "164082": 258.0,
+      "164083": 289.0,
+      "164084": 306.0
+    },
+    "availability": {
+      "164079": true,
+      "164080": true,
+      "164081": true,
+      "164082": true,
+      "164083": true,
+      "164084": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164079": "retail-plus-60",
+      "164080": "retail-plus-60",
+      "164081": "retail-plus-60",
+      "164082": "retail-plus-60",
+      "164083": "retail-plus-60",
+      "164084": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164069,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-56/",
+    "costs": {
+      "164070": 177.0,
+      "164071": 193.0,
+      "164072": 241.0,
+      "164073": 258.0,
+      "164074": 289.0,
+      "164075": 306.0
+    },
+    "availability": {
+      "164070": true,
+      "164071": true,
+      "164072": true,
+      "164073": true,
+      "164074": true,
+      "164075": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164070": "retail-plus-60",
+      "164071": "retail-plus-60",
+      "164072": "retail-plus-60",
+      "164073": "retail-plus-60",
+      "164074": "retail-plus-60",
+      "164075": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164060,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-55/",
+    "costs": {
+      "164061": 177.0,
+      "164062": 193.0,
+      "164063": 241.0,
+      "164064": 258.0,
+      "164065": 289.0,
+      "164066": 306.0
+    },
+    "availability": {
+      "164061": true,
+      "164062": true,
+      "164063": true,
+      "164064": true,
+      "164065": true,
+      "164066": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164061": "retail-plus-60",
+      "164062": "retail-plus-60",
+      "164063": "retail-plus-60",
+      "164064": "retail-plus-60",
+      "164065": "retail-plus-60",
+      "164066": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164051,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-54/",
+    "costs": {
+      "164052": 177.0,
+      "164053": 193.0,
+      "164054": 241.0,
+      "164055": 258.0,
+      "164056": 289.0,
+      "164057": 306.0
+    },
+    "availability": {
+      "164052": true,
+      "164053": true,
+      "164054": true,
+      "164055": true,
+      "164056": true,
+      "164057": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164052": "retail-plus-60",
+      "164053": "retail-plus-60",
+      "164054": "retail-plus-60",
+      "164055": "retail-plus-60",
+      "164056": "retail-plus-60",
+      "164057": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164042,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-53/",
+    "costs": {
+      "164043": 177.0,
+      "164044": 193.0,
+      "164045": 241.0,
+      "164046": 258.0,
+      "164047": 289.0,
+      "164048": 306.0
+    },
+    "availability": {
+      "164043": true,
+      "164044": true,
+      "164045": true,
+      "164046": true,
+      "164047": true,
+      "164048": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164043": "retail-plus-60",
+      "164044": "retail-plus-60",
+      "164045": "retail-plus-60",
+      "164046": "retail-plus-60",
+      "164047": "retail-plus-60",
+      "164048": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164033,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-52/",
+    "costs": {
+      "164034": 177.0,
+      "164035": 193.0,
+      "164036": 241.0,
+      "164037": 258.0,
+      "164038": 289.0,
+      "164039": 306.0
+    },
+    "availability": {
+      "164034": true,
+      "164035": true,
+      "164036": true,
+      "164037": true,
+      "164038": true,
+      "164039": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164034": "retail-plus-60",
+      "164035": "retail-plus-60",
+      "164036": "retail-plus-60",
+      "164037": "retail-plus-60",
+      "164038": "retail-plus-60",
+      "164039": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164024,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-51/",
+    "costs": {
+      "164025": 177.0,
+      "164026": 193.0,
+      "164027": 241.0,
+      "164028": 258.0,
+      "164029": 289.0,
+      "164030": 306.0
+    },
+    "availability": {
+      "164025": true,
+      "164026": true,
+      "164027": true,
+      "164028": true,
+      "164029": true,
+      "164030": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164025": "retail-plus-60",
+      "164026": "retail-plus-60",
+      "164027": "retail-plus-60",
+      "164028": "retail-plus-60",
+      "164029": "retail-plus-60",
+      "164030": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164015,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-50/",
+    "costs": {
+      "164016": 177.0,
+      "164017": 193.0,
+      "164018": 241.0,
+      "164019": 258.0,
+      "164020": 289.0,
+      "164021": 306.0
+    },
+    "availability": {
+      "164016": true,
+      "164017": true,
+      "164018": true,
+      "164019": true,
+      "164020": true,
+      "164021": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164016": "retail-plus-60",
+      "164017": "retail-plus-60",
+      "164018": "retail-plus-60",
+      "164019": "retail-plus-60",
+      "164020": "retail-plus-60",
+      "164021": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 164006,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-49/",
+    "costs": {
+      "164007": 177.0,
+      "164008": 193.0,
+      "164009": 241.0,
+      "164010": 258.0,
+      "164011": 289.0,
+      "164012": 306.0
+    },
+    "availability": {
+      "164007": true,
+      "164008": true,
+      "164009": true,
+      "164010": true,
+      "164011": true,
+      "164012": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "164007": "retail-plus-60",
+      "164008": "retail-plus-60",
+      "164009": "retail-plus-60",
+      "164010": "retail-plus-60",
+      "164011": "retail-plus-60",
+      "164012": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 163997,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-48/",
+    "costs": {
+      "163998": 177.0,
+      "163999": 193.0,
+      "164000": 241.0,
+      "164001": 258.0,
+      "164002": 289.0,
+      "164003": 306.0
+    },
+    "availability": {
+      "163998": true,
+      "163999": true,
+      "164000": true,
+      "164001": true,
+      "164002": true,
+      "164003": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "163998": "retail-plus-60",
+      "163999": "retail-plus-60",
+      "164000": "retail-plus-60",
+      "164001": "retail-plus-60",
+      "164002": "retail-plus-60",
+      "164003": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 163986,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-47/",
+    "costs": {
+      "163987": 177.0,
+      "163988": 193.0,
+      "163989": 241.0,
+      "163990": 258.0,
+      "163991": 289.0,
+      "163992": 306.0
+    },
+    "availability": {
+      "163987": true,
+      "163988": true,
+      "163989": true,
+      "163990": true,
+      "163991": true,
+      "163992": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "163987": "retail-plus-60",
+      "163988": "retail-plus-60",
+      "163989": "retail-plus-60",
+      "163990": "retail-plus-60",
+      "163991": "retail-plus-60",
+      "163992": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 163976,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-46/",
+    "costs": {
+      "163977": 177.0,
+      "163978": 193.0,
+      "163979": 241.0,
+      "163980": 258.0,
+      "163981": 289.0,
+      "163982": 306.0
+    },
+    "availability": {
+      "163977": true,
+      "163978": true,
+      "163979": true,
+      "163980": true,
+      "163981": true,
+      "163982": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "163977": "retail-plus-60",
+      "163978": "retail-plus-60",
+      "163979": "retail-plus-60",
+      "163980": "retail-plus-60",
+      "163981": "retail-plus-60",
+      "163982": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 163966,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-45/",
+    "costs": {
+      "163967": 177.0,
+      "163968": 193.0,
+      "163969": 241.0,
+      "163970": 258.0,
+      "163971": 289.0,
+      "163972": 306.0
+    },
+    "availability": {
+      "163967": true,
+      "163968": true,
+      "163969": true,
+      "163970": true,
+      "163971": true,
+      "163972": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "163967": "retail-plus-60",
+      "163968": "retail-plus-60",
+      "163969": "retail-plus-60",
+      "163970": "retail-plus-60",
+      "163971": "retail-plus-60",
+      "163972": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 163956,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-44/",
+    "costs": {
+      "163957": 177.0,
+      "163958": 193.0,
+      "163959": 241.0,
+      "163960": 258.0,
+      "163961": 289.0,
+      "163962": 306.0
+    },
+    "availability": {
+      "163957": true,
+      "163958": true,
+      "163959": true,
+      "163960": true,
+      "163961": true,
+      "163962": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "163957": "retail-plus-60",
+      "163958": "retail-plus-60",
+      "163959": "retail-plus-60",
+      "163960": "retail-plus-60",
+      "163961": "retail-plus-60",
+      "163962": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 163946,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-43/",
+    "costs": {
+      "163947": 177.0,
+      "163948": 193.0,
+      "163949": 241.0,
+      "163950": 258.0,
+      "163951": 289.0,
+      "163952": 306.0
+    },
+    "availability": {
+      "163947": true,
+      "163948": true,
+      "163949": true,
+      "163950": true,
+      "163951": true,
+      "163952": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "163947": "retail-plus-60",
+      "163948": "retail-plus-60",
+      "163949": "retail-plus-60",
+      "163950": "retail-plus-60",
+      "163951": "retail-plus-60",
+      "163952": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 163930,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-42/",
+    "costs": {
+      "163931": 177.0,
+      "163932": 193.0,
+      "163933": 241.0,
+      "163934": 258.0,
+      "163935": 289.0,
+      "163936": 306.0
+    },
+    "availability": {
+      "163931": true,
+      "163932": true,
+      "163933": true,
+      "163934": true,
+      "163935": true,
+      "163936": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "163931": "retail-plus-60",
+      "163932": "retail-plus-60",
+      "163933": "retail-plus-60",
+      "163934": "retail-plus-60",
+      "163935": "retail-plus-60",
+      "163936": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 163921,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-41/",
+    "costs": {
+      "163922": 177.0,
+      "163923": 193.0,
+      "163924": 241.0,
+      "163925": 258.0,
+      "163926": 289.0,
+      "163927": 306.0
+    },
+    "availability": {
+      "163922": true,
+      "163923": true,
+      "163924": true,
+      "163925": true,
+      "163926": true,
+      "163927": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "163922": "retail-plus-60",
+      "163923": "retail-plus-60",
+      "163924": "retail-plus-60",
+      "163925": "retail-plus-60",
+      "163926": "retail-plus-60",
+      "163927": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 163912,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-40/",
+    "costs": {
+      "163913": 177.0,
+      "163914": 193.0,
+      "163915": 241.0,
+      "163916": 258.0,
+      "163917": 289.0,
+      "163918": 306.0
+    },
+    "availability": {
+      "163913": true,
+      "163914": true,
+      "163915": true,
+      "163916": true,
+      "163917": true,
+      "163918": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "163913": "retail-plus-60",
+      "163914": "retail-plus-60",
+      "163915": "retail-plus-60",
+      "163916": "retail-plus-60",
+      "163917": "retail-plus-60",
+      "163918": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 163903,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-34/",
+    "costs": {
+      "163904": 177.0,
+      "163905": 193.0,
+      "163906": 241.0,
+      "163907": 258.0,
+      "163908": 289.0,
+      "163909": 306.0
+    },
+    "availability": {
+      "163904": true,
+      "163905": true,
+      "163906": true,
+      "163907": true,
+      "163908": true,
+      "163909": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "163904": "retail-plus-60",
+      "163905": "retail-plus-60",
+      "163906": "retail-plus-60",
+      "163907": "retail-plus-60",
+      "163908": "retail-plus-60",
+      "163909": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
+  },
+  {
+    "id": 163894,
+    "supplierUrl": "https://ralexpucioasa.ro/store/lenjerii-de-pat/lenjerii-100-bumbac/ranforce-100acotton-pro/lenjerie-pat-ranforce-100-cotton-pro-11/",
+    "costs": {
+      "163895": 177.0,
+      "163896": 193.0,
+      "163897": 241.0,
+      "163898": 258.0,
+      "163899": 289.0,
+      "163900": 306.0
+    },
+    "availability": {
+      "163895": true,
+      "163896": true,
+      "163897": true,
+      "163898": true,
+      "163899": true,
+      "163900": true
+    },
+    "checkedAt": "2026-10-31T19:25:54.256930+00:00",
+    "pricingRules": {
+      "163895": "retail-plus-60",
+      "163896": "retail-plus-60",
+      "163897": "retail-plus-60",
+      "163898": "retail-plus-60",
+      "163899": "retail-plus-60",
+      "163900": "retail-plus-60"
+    },
+    "priceBasis": "Ralex regular public price without reseller discount; +60% and stock 100 per merchant instruction 31.10.2026"
   }
 ]
