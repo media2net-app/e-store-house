@@ -52126,7 +52126,7 @@
     "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
-    "description": "Față de masă antimurdărire XMAS 13. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă dreptunghiulară în dimensiunea selectată. Alegeți dimensiunea dorită. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
+    "description": "Față de masă antimurdărire XMAS 13. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă în forma și dimensiunea selectate. Alegeți o variantă dreptunghiulară sau rotundă. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-xmas-13/",
     "images": [
       "/products/ralex-57-20261031/163860/01.jpg",
@@ -52233,6 +52233,57 @@
         ],
         "inStock": true,
         "stock": 100
+      },
+      {
+        "id": 163866,
+        "sku": "163866",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 102.4,
+        "images": [
+          "/products/ralex-57-20261031/163860/round-01.jpg",
+          "/products/ralex-57-20261031/163860/round-02.jpg",
+          "/products/ralex-57-20261031/163860/round-03.jpg",
+          "/products/ralex-57-20261031/163860/round-04.jpg",
+          "/products/ralex-57-20261031/163860/contents-163866.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163867,
+        "sku": "163867",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 129.6,
+        "images": [
+          "/products/ralex-57-20261031/163860/round-01.jpg",
+          "/products/ralex-57-20261031/163860/round-02.jpg",
+          "/products/ralex-57-20261031/163860/round-03.jpg",
+          "/products/ralex-57-20261031/163860/round-04.jpg",
+          "/products/ralex-57-20261031/163860/contents-163867.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163868,
+        "sku": "163868",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 155.2,
+        "images": [
+          "/products/ralex-57-20261031/163860/round-01.jpg",
+          "/products/ralex-57-20261031/163860/round-02.jpg",
+          "/products/ralex-57-20261031/163860/round-03.jpg",
+          "/products/ralex-57-20261031/163860/round-04.jpg",
+          "/products/ralex-57-20261031/163860/contents-163868.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
       }
     ]
   },
@@ -52243,7 +52294,7 @@
     "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
-    "description": "Față de masă antimurdărire XMAS 12. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă dreptunghiulară în dimensiunea selectată. Alegeți dimensiunea dorită. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
+    "description": "Față de masă antimurdărire XMAS 12. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă în forma și dimensiunea selectate. Alegeți o variantă dreptunghiulară sau rotundă. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-xmas-12/",
     "images": [
       "/products/ralex-57-20261031/163851/01.jpg",
@@ -52350,6 +52401,57 @@
         ],
         "inStock": true,
         "stock": 100
+      },
+      {
+        "id": 163857,
+        "sku": "163857",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 102.4,
+        "images": [
+          "/products/ralex-57-20261031/163851/round-01.jpg",
+          "/products/ralex-57-20261031/163851/round-02.jpg",
+          "/products/ralex-57-20261031/163851/round-03.jpg",
+          "/products/ralex-57-20261031/163851/round-04.jpg",
+          "/products/ralex-57-20261031/163851/contents-163857.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163858,
+        "sku": "163858",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 129.6,
+        "images": [
+          "/products/ralex-57-20261031/163851/round-01.jpg",
+          "/products/ralex-57-20261031/163851/round-02.jpg",
+          "/products/ralex-57-20261031/163851/round-03.jpg",
+          "/products/ralex-57-20261031/163851/round-04.jpg",
+          "/products/ralex-57-20261031/163851/contents-163858.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163859,
+        "sku": "163859",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 155.2,
+        "images": [
+          "/products/ralex-57-20261031/163851/round-01.jpg",
+          "/products/ralex-57-20261031/163851/round-02.jpg",
+          "/products/ralex-57-20261031/163851/round-03.jpg",
+          "/products/ralex-57-20261031/163851/round-04.jpg",
+          "/products/ralex-57-20261031/163851/contents-163859.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
       }
     ]
   },
@@ -52360,7 +52462,7 @@
     "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
-    "description": "Față de masă antimurdărire XMAS 11. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă dreptunghiulară în dimensiunea selectată. Alegeți dimensiunea dorită. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
+    "description": "Față de masă antimurdărire XMAS 11. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă în forma și dimensiunea selectate. Alegeți o variantă dreptunghiulară sau rotundă. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-xmas-11/",
     "images": [
       "/products/ralex-57-20261031/163842/01.jpg",
@@ -52467,6 +52569,57 @@
         ],
         "inStock": true,
         "stock": 100
+      },
+      {
+        "id": 163848,
+        "sku": "163848",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 102.4,
+        "images": [
+          "/products/ralex-57-20261031/163842/round-01.jpg",
+          "/products/ralex-57-20261031/163842/round-02.jpg",
+          "/products/ralex-57-20261031/163842/round-03.jpg",
+          "/products/ralex-57-20261031/163842/round-04.jpg",
+          "/products/ralex-57-20261031/163842/contents-163848.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163849,
+        "sku": "163849",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 129.6,
+        "images": [
+          "/products/ralex-57-20261031/163842/round-01.jpg",
+          "/products/ralex-57-20261031/163842/round-02.jpg",
+          "/products/ralex-57-20261031/163842/round-03.jpg",
+          "/products/ralex-57-20261031/163842/round-04.jpg",
+          "/products/ralex-57-20261031/163842/contents-163849.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163850,
+        "sku": "163850",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 155.2,
+        "images": [
+          "/products/ralex-57-20261031/163842/round-01.jpg",
+          "/products/ralex-57-20261031/163842/round-02.jpg",
+          "/products/ralex-57-20261031/163842/round-03.jpg",
+          "/products/ralex-57-20261031/163842/round-04.jpg",
+          "/products/ralex-57-20261031/163842/contents-163850.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
       }
     ]
   },
@@ -52477,7 +52630,7 @@
     "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
-    "description": "Față de masă antimurdărire XMAS 10. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă dreptunghiulară în dimensiunea selectată. Alegeți dimensiunea dorită. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
+    "description": "Față de masă antimurdărire XMAS 10. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă în forma și dimensiunea selectate. Alegeți o variantă dreptunghiulară sau rotundă. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-xmas-10/",
     "images": [
       "/products/ralex-57-20261031/163833/01.jpg",
@@ -52584,6 +52737,57 @@
         ],
         "inStock": true,
         "stock": 100
+      },
+      {
+        "id": 163839,
+        "sku": "163839",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 102.4,
+        "images": [
+          "/products/ralex-57-20261031/163833/round-01.jpg",
+          "/products/ralex-57-20261031/163833/round-02.jpg",
+          "/products/ralex-57-20261031/163833/round-03.jpg",
+          "/products/ralex-57-20261031/163833/round-04.jpg",
+          "/products/ralex-57-20261031/163833/contents-163839.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163840,
+        "sku": "163840",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 129.6,
+        "images": [
+          "/products/ralex-57-20261031/163833/round-01.jpg",
+          "/products/ralex-57-20261031/163833/round-02.jpg",
+          "/products/ralex-57-20261031/163833/round-03.jpg",
+          "/products/ralex-57-20261031/163833/round-04.jpg",
+          "/products/ralex-57-20261031/163833/contents-163840.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163841,
+        "sku": "163841",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 155.2,
+        "images": [
+          "/products/ralex-57-20261031/163833/round-01.jpg",
+          "/products/ralex-57-20261031/163833/round-02.jpg",
+          "/products/ralex-57-20261031/163833/round-03.jpg",
+          "/products/ralex-57-20261031/163833/round-04.jpg",
+          "/products/ralex-57-20261031/163833/contents-163841.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
       }
     ]
   },
@@ -52594,7 +52798,7 @@
     "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
-    "description": "Față de masă antimurdărire XMAS 9. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă dreptunghiulară în dimensiunea selectată. Alegeți dimensiunea dorită. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
+    "description": "Față de masă antimurdărire XMAS 9. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă în forma și dimensiunea selectate. Alegeți o variantă dreptunghiulară sau rotundă. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-xmas-9/",
     "images": [
       "/products/ralex-57-20261031/163824/01.jpg",
@@ -52701,6 +52905,57 @@
         ],
         "inStock": true,
         "stock": 100
+      },
+      {
+        "id": 163830,
+        "sku": "163830",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 102.4,
+        "images": [
+          "/products/ralex-57-20261031/163824/round-01.jpg",
+          "/products/ralex-57-20261031/163824/round-02.jpg",
+          "/products/ralex-57-20261031/163824/round-03.jpg",
+          "/products/ralex-57-20261031/163824/round-04.jpg",
+          "/products/ralex-57-20261031/163824/contents-163830.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163831,
+        "sku": "163831",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 129.6,
+        "images": [
+          "/products/ralex-57-20261031/163824/round-01.jpg",
+          "/products/ralex-57-20261031/163824/round-02.jpg",
+          "/products/ralex-57-20261031/163824/round-03.jpg",
+          "/products/ralex-57-20261031/163824/round-04.jpg",
+          "/products/ralex-57-20261031/163824/contents-163831.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163832,
+        "sku": "163832",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 155.2,
+        "images": [
+          "/products/ralex-57-20261031/163824/round-01.jpg",
+          "/products/ralex-57-20261031/163824/round-02.jpg",
+          "/products/ralex-57-20261031/163824/round-03.jpg",
+          "/products/ralex-57-20261031/163824/round-04.jpg",
+          "/products/ralex-57-20261031/163824/contents-163832.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
       }
     ]
   },
@@ -52711,7 +52966,7 @@
     "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
-    "description": "Față de masă antimurdărire XMAS 8. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă dreptunghiulară în dimensiunea selectată. Alegeți dimensiunea dorită. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
+    "description": "Față de masă antimurdărire XMAS 8. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă în forma și dimensiunea selectate. Alegeți o variantă dreptunghiulară sau rotundă. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-xmas-8/",
     "images": [
       "/products/ralex-57-20261031/163815/01.jpg",
@@ -52818,6 +53073,57 @@
         ],
         "inStock": true,
         "stock": 100
+      },
+      {
+        "id": 163821,
+        "sku": "163821",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 102.4,
+        "images": [
+          "/products/ralex-57-20261031/163815/round-01.jpg",
+          "/products/ralex-57-20261031/163815/round-02.jpg",
+          "/products/ralex-57-20261031/163815/round-03.jpg",
+          "/products/ralex-57-20261031/163815/round-04.jpg",
+          "/products/ralex-57-20261031/163815/contents-163821.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163822,
+        "sku": "163822",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 129.6,
+        "images": [
+          "/products/ralex-57-20261031/163815/round-01.jpg",
+          "/products/ralex-57-20261031/163815/round-02.jpg",
+          "/products/ralex-57-20261031/163815/round-03.jpg",
+          "/products/ralex-57-20261031/163815/round-04.jpg",
+          "/products/ralex-57-20261031/163815/contents-163822.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163823,
+        "sku": "163823",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 155.2,
+        "images": [
+          "/products/ralex-57-20261031/163815/round-01.jpg",
+          "/products/ralex-57-20261031/163815/round-02.jpg",
+          "/products/ralex-57-20261031/163815/round-03.jpg",
+          "/products/ralex-57-20261031/163815/round-04.jpg",
+          "/products/ralex-57-20261031/163815/contents-163823.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
       }
     ]
   },
@@ -52828,7 +53134,7 @@
     "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
-    "description": "Față de masă antimurdărire XMAS 7. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă dreptunghiulară în dimensiunea selectată. Alegeți dimensiunea dorită. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
+    "description": "Față de masă antimurdărire XMAS 7. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă în forma și dimensiunea selectate. Alegeți o variantă dreptunghiulară sau rotundă. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-xmas-7/",
     "images": [
       "/products/ralex-57-20261031/163806/01.jpg",
@@ -52935,6 +53241,57 @@
         ],
         "inStock": true,
         "stock": 100
+      },
+      {
+        "id": 163812,
+        "sku": "163812",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 102.4,
+        "images": [
+          "/products/ralex-57-20261031/163806/round-01.jpg",
+          "/products/ralex-57-20261031/163806/round-02.jpg",
+          "/products/ralex-57-20261031/163806/round-03.jpg",
+          "/products/ralex-57-20261031/163806/round-04.jpg",
+          "/products/ralex-57-20261031/163806/contents-163812.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163813,
+        "sku": "163813",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 129.6,
+        "images": [
+          "/products/ralex-57-20261031/163806/round-01.jpg",
+          "/products/ralex-57-20261031/163806/round-02.jpg",
+          "/products/ralex-57-20261031/163806/round-03.jpg",
+          "/products/ralex-57-20261031/163806/round-04.jpg",
+          "/products/ralex-57-20261031/163806/contents-163813.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163814,
+        "sku": "163814",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 155.2,
+        "images": [
+          "/products/ralex-57-20261031/163806/round-01.jpg",
+          "/products/ralex-57-20261031/163806/round-02.jpg",
+          "/products/ralex-57-20261031/163806/round-03.jpg",
+          "/products/ralex-57-20261031/163806/round-04.jpg",
+          "/products/ralex-57-20261031/163806/contents-163814.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
       }
     ]
   },
@@ -52945,7 +53302,7 @@
     "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
-    "description": "Față de masă antimurdărire XMAS 6. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă dreptunghiulară în dimensiunea selectată. Alegeți dimensiunea dorită. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
+    "description": "Față de masă antimurdărire XMAS 6. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă în forma și dimensiunea selectate. Alegeți o variantă dreptunghiulară sau rotundă. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-xmas-6/",
     "images": [
       "/products/ralex-57-20261031/163797/01.jpg",
@@ -53052,6 +53409,57 @@
         ],
         "inStock": true,
         "stock": 100
+      },
+      {
+        "id": 163803,
+        "sku": "163803",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 102.4,
+        "images": [
+          "/products/ralex-57-20261031/163797/round-01.jpg",
+          "/products/ralex-57-20261031/163797/round-02.jpg",
+          "/products/ralex-57-20261031/163797/round-03.jpg",
+          "/products/ralex-57-20261031/163797/round-04.jpg",
+          "/products/ralex-57-20261031/163797/contents-163803.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163804,
+        "sku": "163804",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 129.6,
+        "images": [
+          "/products/ralex-57-20261031/163797/round-01.jpg",
+          "/products/ralex-57-20261031/163797/round-02.jpg",
+          "/products/ralex-57-20261031/163797/round-03.jpg",
+          "/products/ralex-57-20261031/163797/round-04.jpg",
+          "/products/ralex-57-20261031/163797/contents-163804.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163805,
+        "sku": "163805",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 155.2,
+        "images": [
+          "/products/ralex-57-20261031/163797/round-01.jpg",
+          "/products/ralex-57-20261031/163797/round-02.jpg",
+          "/products/ralex-57-20261031/163797/round-03.jpg",
+          "/products/ralex-57-20261031/163797/round-04.jpg",
+          "/products/ralex-57-20261031/163797/contents-163805.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
       }
     ]
   },
@@ -53062,7 +53470,7 @@
     "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
-    "description": "Față de masă antimurdărire XMAS 5. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă dreptunghiulară în dimensiunea selectată. Alegeți dimensiunea dorită. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
+    "description": "Față de masă antimurdărire XMAS 5. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă în forma și dimensiunea selectate. Alegeți o variantă dreptunghiulară sau rotundă. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-xmas-5/",
     "images": [
       "/products/ralex-57-20261031/163788/01.jpg",
@@ -53169,6 +53577,57 @@
         ],
         "inStock": true,
         "stock": 100
+      },
+      {
+        "id": 163794,
+        "sku": "163794",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 102.4,
+        "images": [
+          "/products/ralex-57-20261031/163788/round-01.jpg",
+          "/products/ralex-57-20261031/163788/round-02.jpg",
+          "/products/ralex-57-20261031/163788/round-03.jpg",
+          "/products/ralex-57-20261031/163788/round-04.jpg",
+          "/products/ralex-57-20261031/163788/contents-163794.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163795,
+        "sku": "163795",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 129.6,
+        "images": [
+          "/products/ralex-57-20261031/163788/round-01.jpg",
+          "/products/ralex-57-20261031/163788/round-02.jpg",
+          "/products/ralex-57-20261031/163788/round-03.jpg",
+          "/products/ralex-57-20261031/163788/round-04.jpg",
+          "/products/ralex-57-20261031/163788/contents-163795.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163796,
+        "sku": "163796",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 155.2,
+        "images": [
+          "/products/ralex-57-20261031/163788/round-01.jpg",
+          "/products/ralex-57-20261031/163788/round-02.jpg",
+          "/products/ralex-57-20261031/163788/round-03.jpg",
+          "/products/ralex-57-20261031/163788/round-04.jpg",
+          "/products/ralex-57-20261031/163788/contents-163796.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
       }
     ]
   },
@@ -53179,7 +53638,7 @@
     "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
-    "description": "Față de masă antimurdărire XMAS 4. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă dreptunghiulară în dimensiunea selectată. Alegeți dimensiunea dorită. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
+    "description": "Față de masă antimurdărire XMAS 4. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă în forma și dimensiunea selectate. Alegeți o variantă dreptunghiulară sau rotundă. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-xmas-4/",
     "images": [
       "/products/ralex-57-20261031/163779/01.jpg",
@@ -53286,6 +53745,57 @@
         ],
         "inStock": true,
         "stock": 100
+      },
+      {
+        "id": 163785,
+        "sku": "163785",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 102.4,
+        "images": [
+          "/products/ralex-57-20261031/163779/round-01.jpg",
+          "/products/ralex-57-20261031/163779/round-02.jpg",
+          "/products/ralex-57-20261031/163779/round-03.jpg",
+          "/products/ralex-57-20261031/163779/round-04.jpg",
+          "/products/ralex-57-20261031/163779/contents-163785.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163786,
+        "sku": "163786",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 129.6,
+        "images": [
+          "/products/ralex-57-20261031/163779/round-01.jpg",
+          "/products/ralex-57-20261031/163779/round-02.jpg",
+          "/products/ralex-57-20261031/163779/round-03.jpg",
+          "/products/ralex-57-20261031/163779/round-04.jpg",
+          "/products/ralex-57-20261031/163779/contents-163786.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163787,
+        "sku": "163787",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 155.2,
+        "images": [
+          "/products/ralex-57-20261031/163779/round-01.jpg",
+          "/products/ralex-57-20261031/163779/round-02.jpg",
+          "/products/ralex-57-20261031/163779/round-03.jpg",
+          "/products/ralex-57-20261031/163779/round-04.jpg",
+          "/products/ralex-57-20261031/163779/contents-163787.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
       }
     ]
   },
@@ -53296,7 +53806,7 @@
     "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
-    "description": "Față de masă antimurdărire XMAS 3. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă dreptunghiulară în dimensiunea selectată. Alegeți dimensiunea dorită. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
+    "description": "Față de masă antimurdărire XMAS 3. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă în forma și dimensiunea selectate. Alegeți o variantă dreptunghiulară sau rotundă. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-xmas-3/",
     "images": [
       "/products/ralex-57-20261031/163770/01.jpg",
@@ -53403,6 +53913,57 @@
         ],
         "inStock": true,
         "stock": 100
+      },
+      {
+        "id": 163776,
+        "sku": "163776",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 102.4,
+        "images": [
+          "/products/ralex-57-20261031/163770/round-01.jpg",
+          "/products/ralex-57-20261031/163770/round-02.jpg",
+          "/products/ralex-57-20261031/163770/round-03.jpg",
+          "/products/ralex-57-20261031/163770/round-04.jpg",
+          "/products/ralex-57-20261031/163770/contents-163776.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163777,
+        "sku": "163777",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 129.6,
+        "images": [
+          "/products/ralex-57-20261031/163770/round-01.jpg",
+          "/products/ralex-57-20261031/163770/round-02.jpg",
+          "/products/ralex-57-20261031/163770/round-03.jpg",
+          "/products/ralex-57-20261031/163770/round-04.jpg",
+          "/products/ralex-57-20261031/163770/contents-163777.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163778,
+        "sku": "163778",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 155.2,
+        "images": [
+          "/products/ralex-57-20261031/163770/round-01.jpg",
+          "/products/ralex-57-20261031/163770/round-02.jpg",
+          "/products/ralex-57-20261031/163770/round-03.jpg",
+          "/products/ralex-57-20261031/163770/round-04.jpg",
+          "/products/ralex-57-20261031/163770/contents-163778.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
       }
     ]
   },
@@ -53413,7 +53974,7 @@
     "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
-    "description": "Față de masă antimurdărire XMAS 2. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă dreptunghiulară în dimensiunea selectată. Alegeți dimensiunea dorită. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
+    "description": "Față de masă antimurdărire XMAS 2. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă în forma și dimensiunea selectate. Alegeți o variantă dreptunghiulară sau rotundă. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-xmas-2/",
     "images": [
       "/products/ralex-57-20261031/163761/01.jpg",
@@ -53520,6 +54081,57 @@
         ],
         "inStock": true,
         "stock": 100
+      },
+      {
+        "id": 163767,
+        "sku": "163767",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 102.4,
+        "images": [
+          "/products/ralex-57-20261031/163761/round-01.jpg",
+          "/products/ralex-57-20261031/163761/round-02.jpg",
+          "/products/ralex-57-20261031/163761/round-03.jpg",
+          "/products/ralex-57-20261031/163761/round-04.jpg",
+          "/products/ralex-57-20261031/163761/contents-163767.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163768,
+        "sku": "163768",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 129.6,
+        "images": [
+          "/products/ralex-57-20261031/163761/round-01.jpg",
+          "/products/ralex-57-20261031/163761/round-02.jpg",
+          "/products/ralex-57-20261031/163761/round-03.jpg",
+          "/products/ralex-57-20261031/163761/round-04.jpg",
+          "/products/ralex-57-20261031/163761/contents-163768.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163769,
+        "sku": "163769",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 155.2,
+        "images": [
+          "/products/ralex-57-20261031/163761/round-01.jpg",
+          "/products/ralex-57-20261031/163761/round-02.jpg",
+          "/products/ralex-57-20261031/163761/round-03.jpg",
+          "/products/ralex-57-20261031/163761/round-04.jpg",
+          "/products/ralex-57-20261031/163761/contents-163769.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
       }
     ]
   },
@@ -53530,7 +54142,7 @@
     "categoryPath": "fete-de-masa/fete-de-masa-antimurdarire",
     "brand": "Ralex Pucioasa",
     "currency": "RON",
-    "description": "Față de masă antimurdărire XMAS 1. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă dreptunghiulară în dimensiunea selectată. Alegeți dimensiunea dorită. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
+    "description": "Față de masă antimurdărire XMAS 1. Compoziție: 70% bumbac și 30% poliester, cu tratament antimurdărire Teflon, conform furnizorului. Conținut: 1 față de masă în forma și dimensiunea selectate. Alegeți o variantă dreptunghiulară sau rotundă. Fotografiile sunt ambientale; vesela, mobilierul și decorațiunile nu sunt incluse. Spălare la maximum 40°C și călcare la maximum 150°C; respectați eticheta produsului. Comercializat de E-Store House.\n\nProdus de Ralex Pucioasa.",
     "externalUrl": "https://ralexpucioasa.ro/store/fete-de-masa/fete-de-masa-antimurdarire/fata-de-masa-antimurdarire-xmas-1/",
     "images": [
       "/products/ralex-57-20261031/163751/01.jpg",
@@ -53634,6 +54246,57 @@
           "/products/ralex-57-20261031/163751/03.jpg",
           "/products/ralex-57-20261031/163751/04.jpg",
           "/products/ralex-57-20261031/163751/contents-163756.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163757,
+        "sku": "163757",
+        "name": "Diametru 140 cm",
+        "dimensions": "Diametru 140 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 102.4,
+        "images": [
+          "/products/ralex-57-20261031/163751/round-01.jpg",
+          "/products/ralex-57-20261031/163751/round-02.jpg",
+          "/products/ralex-57-20261031/163751/round-03.jpg",
+          "/products/ralex-57-20261031/163751/round-04.jpg",
+          "/products/ralex-57-20261031/163751/contents-163757.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163758,
+        "sku": "163758",
+        "name": "Diametru 160 cm",
+        "dimensions": "Diametru 160 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 129.6,
+        "images": [
+          "/products/ralex-57-20261031/163751/round-01.jpg",
+          "/products/ralex-57-20261031/163751/round-02.jpg",
+          "/products/ralex-57-20261031/163751/round-03.jpg",
+          "/products/ralex-57-20261031/163751/round-04.jpg",
+          "/products/ralex-57-20261031/163751/contents-163758.jpg"
+        ],
+        "inStock": true,
+        "stock": 100
+      },
+      {
+        "id": 163759,
+        "sku": "163759",
+        "name": "Diametru 180 cm",
+        "dimensions": "Diametru 180 cm",
+        "contents": "1 față de masă rotundă",
+        "price": 155.2,
+        "images": [
+          "/products/ralex-57-20261031/163751/round-01.jpg",
+          "/products/ralex-57-20261031/163751/round-02.jpg",
+          "/products/ralex-57-20261031/163751/round-03.jpg",
+          "/products/ralex-57-20261031/163751/round-04.jpg",
+          "/products/ralex-57-20261031/163751/contents-163759.jpg"
         ],
         "inStock": true,
         "stock": 100
