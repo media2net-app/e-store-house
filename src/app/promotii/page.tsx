@@ -1,5 +1,6 @@
 import LegalLayout from "@/components/layout/LegalLayout";
-export const metadata = { title: "Condițiile ofertelor" };
+import { pageMetadata } from "@/lib/page-metadata";
+export const metadata = pageMetadata("Condițiile ofertelor", "Citește condițiile Super Sales, ale reducerii pentru două articole eligibile și ale transportului gratuit în E-Store House.", "/promotii");
 export default function Page() { return <LegalLayout><h1>Condițiile ofertelor</h1>
 <section><h2>Super Sales · Black Friday</h2><p>Produsele marcate Super Sale au prețul afișat aplicat direct în coș. Procentul arată diferența dintre prețul anterior afișat și prețul promoțional, rotunjită în jos la procent întreg. Prețul anterior și perioada lui sunt afișate pe pagina produsului. Produsele Super Sale sunt excluse din oferta de 10% la al doilea produs: nu primesc reducerea suplimentară și nu se numără la cele două articole eligibile. Valoarea lor contribuie la pragul pentru transport gratuit.</p></section>
 <section><h2>Oferte pentru baie</h2><p>Prețurile promoționale afișate se aplică direct în coș. Produsele din această ofertă nu primesc reduceri suplimentare și nu contribuie la condițiile cupoanelor sau ale reducerii automate. Valoarea lor contribuie la transportul gratuit de la 399 lei.</p></section>

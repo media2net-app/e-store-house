@@ -1,9 +1,9 @@
 import LegalLayout from "@/components/layout/LegalLayout";
 import Link from "next/link";
 import { store } from "@/lib/store-info";
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/page-metadata";
 
-export const metadata: Metadata = { title: "Informații pentru clienți", description: "Datele comerciantului E-Store House, asistență pentru comenzi, reclamații și drepturile cumpărătorilor.", alternates: { canonical: "/informatii-clienti" } };
+export const metadata = pageMetadata("Informații pentru clienți", "Datele comerciantului E-Store House, asistență pentru comenzi, reclamații și drepturile cumpărătorilor.", "/informatii-clienti");
 
 export default function CustomerInfoPage() {
   const phone = store.phone;

@@ -7,8 +7,9 @@ import TrustBar from "@/components/layout/TrustBar";
 import { categoryHref, getCategoryChildren } from "@/lib/categories";
 
 import CategorySummary from "@/components/catalog/CategorySummary";
+import { pageMetadata } from "@/lib/page-metadata";
 
-export const metadata = { title: "Categorii de produse și oferte", alternates: { canonical: "/categorii" } };
+export const metadata = pageMetadata("Categorii de produse și oferte", "Explorează categoriile E-Store House: lenjerii de pat, pilote, prosoape, textile pentru baie și fețe de masă.", "/categorii");
 
 function Subcategories({ parent }: { parent: string }) {
   const children = getCategoryChildren(parent);
