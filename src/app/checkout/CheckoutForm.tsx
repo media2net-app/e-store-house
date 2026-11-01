@@ -158,18 +158,12 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         <p><span>Transport</span><strong>{totals.freeShipping ? "Gratuit" : shippingCents === null ? "De confirmat" : formatProductPrice(shippingCents / 100, "RON")}</strong></p>
         {shippingCents !== null && <p><span>Total de plată</span><strong>{formatProductPrice((totals.totalCents + shippingCents) / 100, "RON")}</strong></p>}
         <details><summary>Vezi produsele și cantitățile</summary><ul>{items.map(item => <li key={item.productId}>{productDisplayName(item)} × {item.quantity} — {formatProductPrice(item.price * item.quantity, "RON")}</li>)}</ul><Link href="/cos">Modifică în coș</Link></details>
-        {!totals.freeShipping && <p className="checkout-shipping-explanation">{shippingExplanation}</p>}
-        {!totals.freeShipping && selectedShipping && (!selectedShipping.dynamic || paymentMethod === "cod") && <p className="checkout-shipping-explanation">Tarif pentru {selectedShipping.label}{paymentMethod === "cod" ? " cu ramburs" : ""}: {formatProductPrice(selectedShipping.priceRon, "RON")}, confirmat înainte de trimiterea comenzii.</p>}
+        {!totals.freeShipping && <details className="checkout-shipping-details"><summary>Cum se calculează transportul?</summary>
+          <p className="checkout-shipping-explanation">{shippingExplanation}</p>
+          {selectedShipping && (!selectedShipping.dynamic || paymentMethod === "cod") && <p className="checkout-shipping-explanation">Tarif pentru {selectedShipping.label}{paymentMethod === "cod" ? " cu ramburs" : ""}: {formatProductPrice(selectedShipping.priceRon, "RON")}, confirmat înainte de trimiterea comenzii.</p>}
+        </details>}
       </section>
       <form onSubmit={submit} className="space-y-5">
-        <div className="rounded-xl border border-[#c9bda9] bg-white p-4">
-          <label htmlFor="black-friday-coupon" className="block text-sm font-semibold">Cod de reducere Black Friday</label>
-          <input id="black-friday-coupon" name="couponCode" value={couponCode} onChange={(event) => setCouponCode(event.target.value.toUpperCase())}
-            autoComplete="off" maxLength={24} placeholder="Introdu codul cuponului"
-            className="mt-2 w-full rounded-lg border border-[#c9bda9] bg-white px-3 py-3 text-base uppercase" />
-          <p className="mt-2 text-sm text-[#5d5148]">Valabile 3–16 noiembrie 2026. Se aplică reducerea cea mai avantajoasă; codurile nu se cumulează.</p>
-          {currentRate?.totals?.couponMessage && <p className="mt-2 text-sm" role="status">{currentRate.totals.couponMessage}</p>}
-        </div>
         <h2 className="text-xl font-semibold">Date de contact și livrare</h2>
         <div className="grid gap-4">
           {fields.filter(([name]) => name !== "city").map(([name, label]) => name === "county" ?
@@ -186,6 +180,15 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
             {fieldErrors[name] && <span id={`error-${name}`} className="field-error">{fieldErrors[name]}</span>}
           </label>)}
         </div>
+        <details className="checkout-coupon rounded-xl border border-[#c9bda9] bg-white p-4">
+          <summary className="font-semibold">Ai un cod de reducere Black Friday?</summary>
+          <label htmlFor="black-friday-coupon" className="mt-3 block text-sm">Cod de reducere</label>
+          <input id="black-friday-coupon" name="couponCode" value={couponCode} onChange={(event) => setCouponCode(event.target.value.toUpperCase())}
+            autoComplete="off" maxLength={24} placeholder="Introdu codul cuponului"
+            className="mt-2 w-full rounded-lg border border-[#c9bda9] bg-white px-3 py-3 text-base uppercase" />
+          <p className="mt-2 text-sm text-[#5d5148]">Valabile 3–16 noiembrie 2026. Se aplică reducerea cea mai avantajoasă; codurile nu se cumulează.</p>
+          {currentRate?.totals?.couponMessage && <p className="mt-2 text-sm" role="status">{currentRate.totals.couponMessage}</p>}
+        </details>
         <fieldset className="rounded-xl border border-[#c9bda9] p-4">
           <legend className="px-1 text-sm font-semibold">Alege metoda de plată</legend>
           <label className="flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="card" checked={paymentMethod === "card"} disabled={!cardEnabled} onChange={() => setPaymentMethod("card")} />Card / Apple Pay / Google Pay prin EuPlătesc{!cardEnabled ? " — în curs de activare" : ""}</label>

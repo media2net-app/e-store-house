@@ -58,6 +58,12 @@ test('server charges exact whole-leu prices and applies only eligible cart disco
   assert.equal(q.totals.totalCents,product.price*200-expectedDiscount);
  }
 });
+test('ECN31 keeps the approved price and is clearly flagged as excluded from extra discounts',()=>{
+ const product=allProducts.find(p=>p.id===101369);
+ assert.equal(product.price,91);
+ assert.equal(product.discountExcluded,true);
+ assert.equal(quoteCart([{productId:101369,quantity:2}]).totals.discountCents,0);
+});
 test('campaign rejects mistaken SKU, supplier price or reference price',()=>{
  for(const field of ['sku','price','referencePrice','comparisonPrice']){const bad=structuredClone(offers);bad[0][field]=field==='sku'?'999999':0;assert.throws(()=>validateSuperSale(products,bad,evidence));}
 });

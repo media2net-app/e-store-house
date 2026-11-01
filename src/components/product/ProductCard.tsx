@@ -18,6 +18,7 @@ export default function ProductCard({ product, reason, priority = false, variant
       {product.material ? <p className="catalog-card-material">{product.material}</p> : null}
       {reason ? <p className="catalog-card-reason">{reason}</p> : null}
       <p className="catalog-card-price">{reference && <del className="sale-old-price" aria-label="Preț de referință">{reference}</del>} {formatProductPriceRange(shown)}</p>
+      {product.discountExcluded && <p className="catalog-card-final-price">Preț final · fără reducere suplimentară</p>}
       {sizes && <p className="catalog-card-variants"><strong>{simple?.label ?? (shown.variants && shown.variants.length > 1 ? "Mărimi:" : "Dimensiune:")}</strong> {sizes}</p>}
       <span className="catalog-card-action">{product.variants?.length ? "Alege dimensiunea" : "Vezi produsul"} <span aria-hidden="true">↗</span></span>
     </div>

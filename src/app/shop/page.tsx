@@ -39,12 +39,15 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
   if (Number.isSafeInteger(requested) && requested > 1 && Math.min(requested, maximum) > 1) canonicalParams.set('pagina', String(Math.min(requested, maximum)));
   const canonical = `/shop${canonicalParams.size ? `?${canonicalParams}` : ''}`;
   const filtered = ['selectie','q','material','culoare','dimensiune','cearsaf','stoc','pret_min','pret_max','sortare'].some(key => Boolean(params[key as keyof ShopParams]));
+  const description = categorie === "oferte"
+    ? "Descoperă selecția Super Sales · Black Friday. Nu se cumulează cu reducerea de 10% la al doilea produs."
+    : active ? `${active.name}: ${categoryContent(typeof categorie === "string" ? categorie : undefined)?.description || "Vezi dimensiunile, materialele și variantele disponibile în E-Store House."}`
+      : "Descoperă textile pentru casă disponibile în magazinul E-Store House.";
   return {
-    title, description: categorie === "oferte"
-      ? "Descoperă selecția Super Sales · Black Friday. Nu se cumulează cu reducerea de 10% la al doilea produs."
-      : active ? `${active.name}: ${categoryContent(typeof categorie === "string" ? categorie : undefined)?.description || "Vezi dimensiunile, materialele și variantele disponibile în E-Store House."}`
-        : "Descoperă textile pentru casă disponibile în magazinul E-Store House.",
+    title, description,
     alternates: { canonical }, robots: filtered || outOfRange ? { index: false, follow: true } : undefined,
+    openGraph: { type: "website", url: canonical, title, description, siteName: "E-Store House", locale: "ro_RO", images: ["/brand/estore-house-icon.png"] },
+    twitter: { card: "summary", title, description, images: ["/brand/estore-house-icon.png"] },
   };
 }
 
@@ -107,7 +110,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
       <Header query={query} />
       <CatalogLayout activePath={active?.path} showSidebar={false}>
 
-      <section className="mx-auto w-full max-w-[1440px] px-4 py-10">
+      <section className="shop-catalog-content mx-auto w-full max-w-[1440px] px-4 py-6 md:py-10">
         <nav aria-label="Traseu categorie" className="mb-4 flex flex-wrap gap-2 text-sm text-[#3b2d24]/80">
           <Link href="/categorii" className="hover:underline">Categorii</Link>
           <span>/</span><Link href="/shop" className="hover:underline">Toate produsele</Link>
@@ -122,6 +125,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
           {products.length ? `${products.length} ${products.length === 1 ? "produs" : "produse"}. Afișăm ${(page - 1) * pageSize + 1}–${Math.min(page * pageSize, products.length)}.` : "Nu am găsit produse pentru această selecție."}
         </p>
         </div>
+        {categorie === "lenjerii-de-pat/lenjerii-de-pat-promo" && <p className="shop-promo-clarification">Reducerile sunt marcate distinct; prețul fără marcaj nu este redus.</p>}
         {active?.path === "oferte" && <nav className="sale-section-picker" aria-label="Alege produsele Super Sales">
           <p>Reduceri de peste 40%. Ce cauți?</p>
           <div className="sale-section-buttons">{saleSections.map(section => <Link key={section.key}
