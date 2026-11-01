@@ -126,25 +126,24 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
         </p>
         </div>
         {categorie === "lenjerii-de-pat/lenjerii-de-pat-promo" && <p className="shop-promo-clarification">Reducerile sunt marcate distinct; prețul fără marcaj nu este redus.</p>}
-        {active?.path === "oferte" && <nav className="sale-section-picker" data-selected={selection ? "true" : undefined} aria-label="Alege produsele Super Sales">
-          <p>Reduceri de peste 40%. Ce cauți?</p>
+        {active?.path === "oferte" && <nav className="sale-section-picker" data-selected={selection ? "true" : undefined} aria-label="Colecții și oferte">
+          <p>Alege ce cauți. Reducerile marcate sunt de peste 40%.</p>
           <div className="sale-section-buttons">{saleSections.map(section => <Link key={section.key}
             href={`/shop?${new URLSearchParams({ categorie: 'oferte', selectie: section.key })}`}
             className="sale-section-button" aria-current={selection === section.key ? 'page' : undefined}>
             <svg aria-hidden="true" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
               {section.key === 'baie' ? <><path d="M5 7h22M9 7v20h14V7M9 21h14M9 24h14"/><path d="M5 5v4M27 5v4"/></> : section.key === 'lenjerii' ? <><path d="M4 25V11a3 3 0 0 1 3-3h18a3 3 0 0 1 3 3v14M4 18h24M4 23h24"/><rect x="7" y="11" width="7" height="5" rx="1"/><rect x="18" y="11" width="7" height="5" rx="1"/></> : <><ellipse cx="16" cy="10" rx="11" ry="5"/><path d="M5 10v14c0 3 22 3 22 0V10M10 15v11M22 15v11"/></>}
             </svg><span><strong>{section.label}</strong><small>{campaignItems.filter(p => matchesSaleSection(p, section.key)).length} modele</small></span>
-          </Link>)}</div>
+          </Link>)}<Link href="/shop?categorie=fete-de-masa" className="sale-section-button sale-section-button-catalog">
+            <svg aria-hidden="true" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+              <ellipse cx="16" cy="10" rx="11" ry="5"/><path d="M5 10v14c0 3 22 3 22 0V10M10 15v11M22 15v11"/>
+            </svg><span><strong>Fețe de masă</strong><small>{categoryProducts('fete-de-masa').length} modele în catalog, fără reducere</small></span>
+          </Link></div>
           {selection && <Link href="/shop?categorie=oferte" className="sale-show-all">Vezi toate ofertele →</Link>}
         </nav>}
         {active?.path === "oferte" ? <p className="mt-4 rounded-xl border border-[#d8c4a0] bg-[#fcf7ee] px-5 py-4 text-sm leading-relaxed text-[#3b2d24]">
           Produsele Super Sale au reducerea inclusă în prețul afișat și sunt excluse din oferta de 10% la al doilea produs. <Link href="/promotii" className="font-semibold underline">Vezi condițiile ofertei</Link>.
         </p> : null}
-        {active?.path === "oferte" ? <div className="mt-4">
-          <Link href="/shop?categorie=fete-de-masa" className="inline-flex min-h-11 items-center rounded-full border border-[#3b2d24] bg-white px-5 py-2 text-sm font-semibold text-[#3b2d24]">
-            Vezi toate fețele de masă ({categoryProducts('fete-de-masa').length} modele) →
-          </Link>
-        </div> : null}
 
         {subcategories.length > 0 && <nav className="subcategory-links" aria-label="Subcategorii">{subcategories.map(c=><Link key={c.path} href={categoryHref(c.path)}><span>{c.name}</span><CategorySummary path={c.path}/></Link>)}</nav>}
         {active?.path.startsWith("lenjerii-de-pat") && <BeddingFinderLink className="category-finder-button"/>}
