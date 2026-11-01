@@ -47,12 +47,23 @@ export function savePrivacy(analytics: boolean, marketing: boolean) {
 }
 let googleStarted = false, tiktokStarted = false, metaStarted = false;
 const once = new Set<string>();
+// Keep only campaign identifiers. Search text, order IDs and address details must
+// never enter Analytics through page_location.
+export function analyticsPageLocation(path = window.location.pathname) {
+  const safe = new URLSearchParams();
+  const query = new URLSearchParams(window.location.search);
+  for (const key of ['gclid', 'gbraid', 'wbraid', 'gad_source', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_content']) {
+    const value = query.get(key);
+    if (value && /^[\p{L}\p{N} _.-]{1,512}$/u.test(value)) safe.set(key, value);
+  }
+  return `${window.location.origin}${path}${safe.size ? `?${safe}` : ''}`;
+}
 export function startMarketing() {
   const choice = privacyChoice();
   if (choice?.analytics && /^G-[A-Z0-9]+$/.test(analyticsId) && !googleStarted) {
     googleStarted = true;
     window.dataLayer = window.dataLayer || [];
-    window.gtag = function () { window.dataLayer!.push(arguments); };
+    window.gtag = (...args: unknown[]) => { window.dataLayer!.push(args); };
     window.gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
     window.gtag('consent', 'update', { analytics_storage: 'granted', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
     window.gtag('js', new Date());
@@ -61,7 +72,7 @@ export function startMarketing() {
     for (const [param, field] of [['utm_source','campaign_source'],['utm_medium','campaign_medium'],['utm_campaign','campaign_name'],['utm_content','campaign_content']]) {
       const value=query.get(param); if(value && /^[a-zA-Z0-9_-]{1,80}$/.test(value)) campaign[field]=value;
     }
-    window.gtag('config', analyticsId, { ...campaign, send_page_view: false, page_location: window.location.origin + window.location.pathname, page_referrer: document.referrer ? new URL(document.referrer).origin : '', allow_google_signals: false, allow_ad_personalization_signals: false });
+    window.gtag('config', analyticsId, { ...campaign, send_page_view: false, page_location: analyticsPageLocation(), page_referrer: document.referrer ? new URL(document.referrer).origin : '', allow_google_signals: false, allow_ad_personalization_signals: false });
     const script = document.createElement('script'); script.async = true;
     script.src = `https://www.googletagmanager.com/gtag/js?id=${analyticsId}`; document.head.appendChild(script);
   }
@@ -108,7 +119,7 @@ export function trackCommerce(event: string, parameters: Record<string, unknown>
   const key = eventKey ? `${event}:${eventKey}` : undefined;
   let delivered = false;
   if (consent.analytics && googleStarted && (!key || !once.has('ga:'+key))) {
-    window.gtag?.('event', event, { ...parameters, page_location: window.location.origin + window.location.pathname });
+    window.gtag?.('event', event, { ...parameters, page_location: analyticsPageLocation() });
     if(key) once.add('ga:'+key); delivered = true;
   }
   const pixelEvents: Record<string, string> = { view_item: 'ViewContent', add_to_cart: 'AddToCart', begin_checkout: 'InitiateCheckout', purchase: 'Purchase' };
@@ -132,7 +143,7 @@ export function trackCommerce(event: string, parameters: Record<string, unknown>
 export function trackPage(path: string) {
   const choice = privacyChoice(); startMarketing();
   if (choice?.analytics && googleStarted) window.gtag?.('event', 'page_view', {
-    page_location: `${window.location.origin}${path}`, page_title: document.title,
+    page_location: analyticsPageLocation(path), page_title: document.title,
     page_referrer: document.referrer ? new URL(document.referrer).origin : '',
   });
   // Do not expose order IDs or free-text search queries via automatic Pixel page events.
@@ -146,7 +157,9 @@ export function rememberMarketingOrder(id: string, items: MarketingItem[]) {
 export function trackConfirmedOrder(order: { id: string; status: string; paymentMethod: string; totalCents: number; shippingCents: number }) {
   const consent = privacyChoice(); if (!marketingConfigured || !consent?.analytics && !consent?.marketing) return;
   if (!['paid_review', 'pending_cod'].includes(order.status)) return;
-  const event = order.paymentMethod === 'cod' ? 'cod_order_placed' : 'purchase';
+  // An accepted cash-on-delivery order is a placed ecommerce order. Keep the
+  // payment method so reporting can separate it from prepaid purchases.
+  const event = 'purchase';
   const key = `estore-conversion:${order.id}:${event}`;
   try {
     if (localStorage.getItem(key)) return;

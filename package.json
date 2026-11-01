@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run check:catalog && npm run test:store && next build",
+    "build": "npm run check:security && npm run check:catalog && npm run test:store && next build",
+    "check:security": "node scripts/check-build-config.mjs",
     "start": "next start",
     "lint": "eslint",
     "check:catalog": "node scripts/validate-catalog.mjs",

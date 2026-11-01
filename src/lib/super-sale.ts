@@ -16,5 +16,5 @@ export function applySuperSale(product: Product): Product {
   return { ...product, price: offer.price, oldPrice: reduced ? offer.comparisonPrice : undefined,
     discount: reduced ? Math.floor((Math.round(offer.comparisonPrice * 100) - Math.round(offer.price * 100)) * 100 / Math.round(offer.comparisonPrice * 100)) || undefined : undefined,
     saleReferencePeriod: undefined,
-    tag: 'Super Sale' };
+    tag: 'Super Sale', discountExcluded: true };
 }

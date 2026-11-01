@@ -25,6 +25,8 @@ export const metadata: Metadata = {
   },
   description:
     "Descoperă lenjerii de pat, pilote și textile alese pentru casă. Texturi fine și nuanțe calde pentru un cămin elegant.",
+  openGraph: { type: "website", url: "/", locale: "ro_RO", siteName: "E-Store House", title: "E-Store House — Arta de a te simți acasă", description: "Descoperă lenjerii de pat, pilote și textile alese pentru casă.", images: ["/brand/estore-house-icon.png"] },
+  twitter: { card: "summary", title: "E-Store House — Arta de a te simți acasă", description: "Descoperă lenjerii de pat, pilote și textile alese pentru casă.", images: ["/brand/estore-house-icon.png"] },
 };
 
 export default function RootLayout({
