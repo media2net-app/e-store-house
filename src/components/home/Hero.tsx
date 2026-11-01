@@ -17,7 +17,7 @@ export default async function Hero() {
   const products = featuredOffers.slice(6, 16);
   return <section className="home-shop-start" aria-label="Produse și inspirație pentru acasă">
     <div className="home-start-catalog">
-      <h1 className="home-sale-title"><Link href="/shop?categorie=oferte" className="home-sale-link"><span className="home-sale-heading"><span className="home-sale-icon" aria-hidden="true">✦</span><span>Super Sales · Black Friday<small>Reduceri peste 40% · fețe de masă fără reducere afișată</small></span></span><span className="home-sale-link-action">Vezi produsele <span aria-hidden="true">↗</span></span></Link></h1>
+      <h1 className="home-sale-title"><Link href="/shop?categorie=oferte" className="home-sale-link"><span className="home-sale-heading"><span className="home-sale-icon" aria-hidden="true">✦</span><span>Super Sales · Black Friday<small>Reduceri peste 40% · fețe de masă la preț de lansare</small></span></span><span className="home-sale-link-action">Vezi produsele <span aria-hidden="true">↗</span></span></Link></h1>
       <nav className="home-mini-picks" aria-label="Selecție Super Sales Black Friday">{saleSelection.map(({ id, label }, index) => {
         const product = getProductById(id);
         if (!product || product.inStock === false || product.tag !== "Super Sale") return null;
