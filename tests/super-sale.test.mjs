@@ -12,8 +12,9 @@ const sale=load('src/lib/super-sale.ts',{'@/data/super-sale.json':offers,'@/data
 const bath=load('src/lib/bath-offers.ts',{'@/data/bath-offers.json':read('src/data/bath-offers.json')});
 const damasc=load('src/lib/damasc-offers.ts',{'@/data/damasc-offers.json':read('src/data/damasc-offers.json')});
 const ralex=load('src/lib/ralex-57-offers.ts',{'@/data/ralex-57-offers.json':read('src/data/ralex-57-offers.json')});
+const launch=load('src/lib/tablecloth-launch.ts',{'@/data/tablecloth-launch-prices.json':read('src/data/tablecloth-launch-prices.json')});
 const whole=load('src/lib/whole-lei-prices.ts',{});
-const {allProducts}=load('src/lib/products.ts',{'./product-colors':{withProductColors:p=>p},'./super-sale':sale,'./bath-offers':bath,'./damasc-offers':damasc,'./ralex-57-offers':ralex,'./whole-lei-prices':whole,'@/data/quality-hold.json':[],'@/data/products.json':products,'./product-format':{}});
+const {allProducts}=load('src/lib/products.ts',{'./product-colors':{withProductColors:p=>p},'./super-sale':sale,'./bath-offers':bath,'./damasc-offers':damasc,'./ralex-57-offers':ralex,'./tablecloth-launch':launch,'./whole-lei-prices':whole,'@/data/quality-hold.json':[],'@/data/products.json':products,'./product-format':{}});
 const cartOffers=load('src/lib/cart-offers.ts',{});
 const {quoteCart}=load('src/lib/cart-quote.ts',{'server-only':{},'@/lib/cart-offers':cartOffers,'@/lib/black-friday':{quoteBlackFridayCoupon:()=>null},'@/lib/products':{allProducts}});
 test('every website product and size has a whole-leu selling price',()=>{
@@ -27,13 +28,13 @@ test('every website product and size has a whole-leu selling price',()=>{
  }
  assert.throws(()=>whole.wholeLeiProduct({id:1,price:50.99,discount:45}),/reviewed whole-leu price/);
 });
-test('exactly 30 whole-lei supplier-plus-10% offers compared with actual prior selling prices',()=>{
- assert.equal(validateSuperSale(products,offers,evidence),30);
- assert.equal(allProducts.filter(p=>p.tag==='Super Sale').length,184);
- assert.equal(sale.SUPER_SALE_IDS.length,184);
+test('29 whole-lei supplier-plus-10% offers remain after moving the tablecloth to launch pricing',()=>{
+ assert.equal(validateSuperSale(products,offers,evidence),29);
+ assert.equal(allProducts.filter(p=>p.tag==='Super Sale').length,183);
+ assert.equal(sale.SUPER_SALE_IDS.length,183);
  for(const p of products){
   const actual=allProducts.find(x=>x.id===p.id),offer=offers.find(x=>x.id===p.id);
-  const expected=whole.wholeLeiProduct(ralex.applyRalex57Offer(damasc.applyDamascOffer(bath.applyBathOffer(sale.applySuperSale(p)))));
+  const expected=whole.wholeLeiProduct(launch.applyTableclothLaunch(ralex.applyRalex57Offer(damasc.applyDamascOffer(bath.applyBathOffer(sale.applySuperSale(p))))));
   assert.deepEqual(actual,expected);
   if(actual.discountExcluded)continue;
   if(!offer)continue;
@@ -56,6 +57,16 @@ test('server charges exact whole-leu prices and applies only eligible cart disco
   const expectedDiscount=product.tag==='Super Sale'||product.discountExcluded?0:Math.round(product.price*10);
   assert.equal(q.totals.discountCents,expectedDiscount);
   assert.equal(q.totals.totalCents,product.price*200-expectedDiscount);
+ }
+});
+test('tablecloth launch prices are charged exactly and excluded from stacked discounts',()=>{
+ for(const [productId,price] of [[111357,59],[95327,99]]){
+  const q=quoteCart([{productId,quantity:2}]);
+  assert.equal(q.lines[0].price,price);
+  assert.equal(q.lines[0].discountExcluded,true);
+  assert.equal(q.lines[0].superSale,false);
+  assert.equal(q.totals.discountCents,0);
+  assert.equal(q.totals.totalCents,price*200);
  }
 });
 test('ECN31 keeps the approved price and is clearly flagged as excluded from extra discounts',()=>{
