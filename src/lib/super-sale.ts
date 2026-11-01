@@ -1,9 +1,10 @@
 import offers from '@/data/super-sale.json';
 import bathOffers from '@/data/bath-offers.json';
 import damascOffers from '@/data/damasc-offers.json';
+import ralex57Offers from '@/data/ralex-57-offers.json';
 import type { Product } from './products';
 
-export const SUPER_SALE_IDS: readonly number[] = [...new Set([...offers, ...bathOffers, ...damascOffers].map(offer => offer.id))];
+export const SUPER_SALE_IDS: readonly number[] = [...new Set([...offers, ...bathOffers, ...damascOffers, ...ralex57Offers].map(offer => offer.id))];
 export function isSuperSale(id: number) { return SUPER_SALE_IDS.includes(id); }
 
 /** Campaign prices are fixed from verified supplier costs, never from a discount guess. */

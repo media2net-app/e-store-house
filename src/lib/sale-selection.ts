@@ -3,6 +3,7 @@ import type { Product } from './products';
 export const saleSections = [
   { key: 'baie', label: 'Articole baie', path: 'articole-baie' },
   { key: 'lenjerii', label: 'Lenjerii de pat', path: 'lenjerii-de-pat' },
+  { key: 'fete', label: 'Fețe de masă', path: 'fete-de-masa' },
 ] as const;
 export function isVisibleSale(product: Product): boolean {
   return product.tag === 'Super Sale' && (product.discount ?? 0) > 40

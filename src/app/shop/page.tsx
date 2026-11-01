@@ -127,7 +127,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
             href={`/shop?${new URLSearchParams({ categorie: 'oferte', selectie: section.key })}`}
             className="sale-section-button" aria-current={selection === section.key ? 'page' : undefined}>
             <svg aria-hidden="true" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-              {section.key === 'baie' ? <><path d="M5 7h22M9 7v20h14V7M9 21h14M9 24h14"/><path d="M5 5v4M27 5v4"/></> : <><path d="M4 25V11a3 3 0 0 1 3-3h18a3 3 0 0 1 3 3v14M4 18h24M4 23h24"/><rect x="7" y="11" width="7" height="5" rx="1"/><rect x="18" y="11" width="7" height="5" rx="1"/></>}
+              {section.key === 'baie' ? <><path d="M5 7h22M9 7v20h14V7M9 21h14M9 24h14"/><path d="M5 5v4M27 5v4"/></> : section.key === 'lenjerii' ? <><path d="M4 25V11a3 3 0 0 1 3-3h18a3 3 0 0 1 3 3v14M4 18h24M4 23h24"/><rect x="7" y="11" width="7" height="5" rx="1"/><rect x="18" y="11" width="7" height="5" rx="1"/></> : <><ellipse cx="16" cy="10" rx="11" ry="5"/><path d="M5 10v14c0 3 22 3 22 0V10M10 15v11M22 15v11"/></>}
             </svg><span><strong>{section.label}</strong><small>{campaignItems.filter(p => matchesSaleSection(p, section.key)).length} modele</small></span>
           </Link>)}</div>
           {selection && <Link href="/shop?categorie=oferte" className="sale-show-all">Vezi toate ofertele →</Link>}

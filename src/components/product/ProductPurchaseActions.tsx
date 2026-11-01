@@ -34,6 +34,7 @@ export default function ProductPurchaseActions({product}: {product: Product}) {
   const needsVariant = Boolean(product.variants?.length && !selected);
   const unavailable = product.inStock===false || selected?.inStock===false;
   const reference = selected ? (selected.oldPrice ? formatProductPrice(selected.oldPrice, product.currency) : null) : formatProductReferenceRange(product);
+  const referencePeriod = selected?.saleReferencePeriod ?? product.saleReferencePeriod;
   const discount = selected ? selected.discount : product.discount;
   const price = selected ? formatProductPrice(selected.price, product.currency) : formatProductPriceRange(product);
   const choose = () => { selector.current?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'}); selector.current?.querySelector<HTMLInputElement>('input:not(:disabled)')?.focus({preventScroll:true}); };
@@ -46,7 +47,7 @@ export default function ProductPurchaseActions({product}: {product: Product}) {
   const contents = selected ? (selected.contents?.trim() || `Varianta aleasă: ${variantLabel(selected)}`) : (!product.variants?.length ? [contentFeatures, product.description?.split('\n').filter(line => /^\s*[•*-]/.test(line)).join('\n')].filter(Boolean).join('\n') : 'Alege dimensiunea pentru a vedea conținutul exact.');
   return <div className="purchase-actions">
     <p className="purchase-price" aria-live="polite" aria-atomic="true">{reference && <del className="sale-old-price" aria-label="Preț de referință">{reference}</del>} {price}{discount && <span className="sale-inline-badge">−{discount}%</span>}</p>
-    {product.saleReferencePeriod && <p className="sale-reference-note">Preț anterior: cel mai mic preț practicat în perioada {product.saleReferencePeriod}. <Link href="/promotii">Detalii ofertă</Link></p>}
+    {referencePeriod && <p className="sale-reference-note">Preț anterior: cel mai mic preț practicat în perioada {referencePeriod}. <Link href="/promotii">Detalii ofertă</Link></p>}
     {product.material && <p className="product-composition"><strong>Material:</strong> {product.material}</p>}
     <p className="product-size-summary" aria-live="polite"><strong>{simpleSize?.label ?? (selected || !product.variants?.length ? "Dimensiune:" : "Mărimi:")}</strong> {simpleSize?.summary ?? (selected ? (selected.dimensions || selected.name) : productSizeSummary(product))}</p>
     {product.variants?.length ? <fieldset ref={selector} className="variant-selector"><legend>Alege dimensiunea</legend><div>{product.variants.map(v => <label key={v.id} className={selected?.id===v.id?'variant-selected':v.inStock===false?'variant-unavailable':''}><input type="radio" name={`variant-${product.id}`} checked={selected?.id===v.id} disabled={v.inStock===false} onChange={() => selection?.select(v.id)}/>{variantLabel(v)}{v.inStock===false?' — indisponibil':''}</label>)}</div></fieldset> : null}
