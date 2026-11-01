@@ -17,7 +17,7 @@ export default async function Hero() {
   const products = featuredOffers.slice(6, 16);
   return <section className="home-shop-start" aria-label="Produse și inspirație pentru acasă">
     <div className="home-start-catalog">
-      <h1 className="home-sale-title"><Link href="/shop?categorie=oferte" className="home-sale-link"><span className="home-sale-heading"><span className="home-sale-icon" aria-hidden="true">✦</span><span>Super Sales · Black Friday<small>Oferte pentru casa ta</small></span></span><span className="home-sale-link-action">Vezi ofertele <span aria-hidden="true">↗</span></span></Link></h1>
+      <h1 className="home-sale-title"><Link href="/shop?categorie=oferte" className="home-sale-link"><span className="home-sale-heading"><span className="home-sale-icon" aria-hidden="true">✦</span><span>Super Sales · Black Friday<small>Reduceri de peste 40%</small></span></span><span className="home-sale-link-action">Vezi ofertele <span aria-hidden="true">↗</span></span></Link></h1>
       <nav className="home-mini-picks" aria-label="Selecție Super Sales Black Friday">{saleSelection.map(({ id, label }, index) => {
         const product = getProductById(id);
         if (!product || product.inStock === false || product.tag !== "Super Sale") return null;
@@ -31,7 +31,7 @@ export default async function Hero() {
       })}</nav>
       <div className="home-finder-shortcut"><BeddingFinderLink className="home-finder-button"/></div>
       <div className="home-full-catalog">
-      <h2 className="home-start-title">Prețuri speciale pentru casa ta</h2>
+      <h2 className="home-start-title">Reduceri de peste 40% pentru casa ta</h2>
       <div className="home-start-products">{products.map((product, index) => {
         const reduced = !!product.oldPrice && product.oldPrice > product.price;
         return <article className="home-start-product" key={product.id}>
