@@ -5,7 +5,7 @@ import { categoryContent } from '@/lib/category-content';
 import BeddingFinderLink from '@/components/catalog/BeddingFinderLink';
 import FilterPanel from "@/components/catalog/FilterPanel";
 import ProductCard from "@/components/product/ProductCard";
-import { matchesSearch, matchingSearchVariants, suggestSearch } from "@/lib/discovery";
+import { matchesSearch, matchingSearchVariants, searchRelevance, suggestSearch } from "@/lib/discovery";
 import CatalogLayout from "@/components/layout/CatalogLayout";
 import { notFound, redirect } from "next/navigation";
 import { categoryHref, isInCategory, categoryTrail, getCategory, getCategoryChildren } from "@/lib/categories";
@@ -14,20 +14,23 @@ import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import TrustBar from "@/components/layout/TrustBar";
 import { getLiveProducts } from "@/lib/live-products";
-import { canonicalMaterial, matchesCatalogFilters, matchingCatalogVariants, type CatalogFilterState } from "@/lib/catalog-filters";
+import { canonicalDimension, compositionFacet, matchesCatalogFilters, matchingCatalogVariants, type CatalogFilterState } from "@/lib/catalog-filters";
 import type { Metadata } from "next";
 import { navigationGroups } from "@/lib/navigation-groups";
 import CategorySummary from "@/components/catalog/CategorySummary";
+import { campaignActive } from '@/lib/campaign';
+
+export const dynamic = 'force-dynamic';
 
 type ShopParams = { selectie?: string | string[]; categorie?: string | string[]; q?: string | string[]; pagina?: string | string[]; sortare?: string | string[];
-  material?: string | string[]; culoare?: string | string[]; dimensiune?: string | string[]; cearsaf?: string | string[];
+  material?: string | string[]; tesatura?: string | string[]; umplutura?: string | string[]; gramaj?: string | string[]; culoare?: string | string[]; dimensiune?: string | string[]; cearsaf?: string | string[];
   stoc?: string | string[]; pret_min?: string | string[]; pret_max?: string | string[] };
 const pageSizeFor = (category: string | string[] | undefined) => category === 'oferte' ? 30 : 24;
 export async function generateMetadata({ searchParams }: { searchParams: Promise<ShopParams> }): Promise<Metadata> {
   const params = await searchParams;
   const { categorie, pagina } = params;
   const active = typeof categorie === "string" ? getCategory(categorie) ?? navigationGroups.find(group => group.slug === categorie) : undefined;
-  const title = categorie === "oferte" ? "Super Sales · Black Friday" : active?.name ?? "Magazinul de textile pentru casă";
+  const title = categorie === "oferte" ? (campaignActive() ? "Super Sales · Black Friday" : "Oferte pentru casă") : active?.name ?? "Magazinul de textile pentru casă";
   const canonicalParams = new URLSearchParams();
   if (active && typeof categorie === 'string') canonicalParams.set('categorie', categorie);
   const requested = typeof pagina === 'string' && /^\d+$/.test(pagina) ? Number(pagina) : 1;
@@ -38,9 +41,9 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
   const outOfRange = requested > 1 && (!Number.isSafeInteger(requested) || requested > maximum);
   if (Number.isSafeInteger(requested) && requested > 1 && Math.min(requested, maximum) > 1) canonicalParams.set('pagina', String(Math.min(requested, maximum)));
   const canonical = `/shop${canonicalParams.size ? `?${canonicalParams}` : ''}`;
-  const filtered = ['selectie','q','material','culoare','dimensiune','cearsaf','stoc','pret_min','pret_max','sortare'].some(key => Boolean(params[key as keyof ShopParams]));
+  const filtered = ['selectie','q','material','tesatura','umplutura','gramaj','culoare','dimensiune','cearsaf','stoc','pret_min','pret_max','sortare'].some(key => Boolean(params[key as keyof ShopParams]));
   const description = categorie === "oferte"
-    ? "Descoperă modele Super Sale cu reducere și fețe de masă fără reducere afișată. Condițiile ofertelor suplimentare sunt afișate pe fiecare produs."
+    ? "Descoperă modelele Super Sales și textilele pentru casă. Condițiile ofertelor sunt afișate pe fiecare produs."
     : active ? `${active.name}: ${categoryContent(typeof categorie === "string" ? categorie : undefined)?.description || "Vezi dimensiunile, materialele și variantele disponibile în E-Store House."}`
       : "Descoperă textile pentru casă disponibile în magazinul E-Store House.";
   return {
@@ -52,19 +55,20 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
 }
 
 export default async function MagazinPage({ searchParams }: { searchParams: Promise<ShopParams> }) {
-  const { selectie, categorie, q, pagina, sortare, material, culoare, dimensiune, cearsaf, stoc, pret_min, pret_max } = await searchParams;
+  const { selectie, categorie, q, pagina, sortare, material, tesatura, umplutura, gramaj, culoare, dimensiune, cearsaf, stoc, pret_min, pret_max } = await searchParams;
   if (Array.isArray(categorie)) notFound();
   if (categorie === "produse-hotel") redirect("/categorii");
   const group = navigationGroups.find(group => group.slug === categorie);
   const active = categorie ? getCategory(categorie) ?? (group ? { path: group.slug, name: group.name } : undefined) : undefined;
   if (categorie && !active) notFound();
   const selection = categorie === "oferte" ? saleSection(selectie)?.key : undefined;
+  const saleMode = campaignActive();
   const query = typeof q === "string" ? q.trim().slice(0, 200) : "";
   const suggestion = suggestSearch(query);
-  const sort = typeof sortare === "string" && ["pret-crescator", "pret-descrescator", "nume"].includes(sortare) ? sortare : "nume";
+  const sort = typeof sortare === "string" && ["pret-crescator", "pret-descrescator", "nume", "relevanta"].includes(sortare) ? sortare : query ? "relevanta" : "nume";
   const filters: CatalogFilterState = {
-    material: typeof material === "string" ? canonicalMaterial(material) : "", culoare: typeof culoare === "string" ? culoare : "",
-    dimensiune: typeof dimensiune === "string" ? dimensiune : "", cearsaf: typeof cearsaf === "string" ? cearsaf : "",
+    material: typeof material === "string" ? compositionFacet(material) : "", tesatura: typeof tesatura === 'string' ? tesatura : '', umplutura: typeof umplutura === 'string' ? umplutura : '', gramaj: typeof gramaj === 'string' ? gramaj : '', culoare: typeof culoare === "string" ? culoare : "",
+    dimensiune: typeof dimensiune === "string" ? canonicalDimension(dimensiune) : "", cearsaf: typeof cearsaf === "string" ? cearsaf : "",
     stoc: stoc === "da" ? "da" : "", pretMin: typeof pret_min === "string" ? pret_min : "",
     pretMax: typeof pret_max === "string" ? pret_max : "",
   };
@@ -85,7 +89,9 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
       return { ...product, variants, price: Math.min(...variants.map(v => v.price)) };
     })
     .filter((product): product is NonNullable<typeof product> => product !== null)
-    .sort((a, b) => sort === "pret-crescator" ? a.price - b.price : sort === "pret-descrescator" ? b.price - a.price : a.name.localeCompare(b.name, "ro"));
+    .sort((a, b) => sort === "pret-crescator" ? a.price - b.price : sort === "pret-descrescator" ? b.price - a.price : sort === "relevanta" ? searchRelevance(b, query) - searchRelevance(a, query) || a.name.localeCompare(b.name, "ro") : a.name.localeCompare(b.name, "ro"));
+  const filterIndexProducts = categoryItems.filter(product => matchesSearch(product, query)).map(product =>
+    query && product.variants?.length ? { ...product, variants: matchingSearchVariants(product, query) } : product).filter(product => !product.variants || product.variants.length > 0);
   const pageSize = pageSizeFor(categorie);
   const pageCount = Math.max(1, Math.ceil(products.length / pageSize));
   const requestedPage = typeof pagina === "string" && /^\d+$/.test(pagina) ? Number(pagina) : 1;
@@ -96,9 +102,9 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
     if (categorie) params.set("categorie", categorie);
     if (selection) params.set("selectie", selection);
     if (query) params.set("q", query);
-    for (const [key, value] of Object.entries({ material: filters.material, culoare: filters.culoare, dimensiune: filters.dimensiune,
+    for (const [key, value] of Object.entries({ material: filters.material, tesatura: filters.tesatura, umplutura: filters.umplutura, gramaj: filters.gramaj, culoare: filters.culoare, dimensiune: filters.dimensiune,
       cearsaf: filters.cearsaf, stoc: filters.stoc, pret_min: filters.pretMin, pret_max: filters.pretMax })) if (value) params.set(key, value);
-    if (sort !== "nume") params.set("sortare", sort);
+    if (sort !== (query ? "relevanta" : "nume")) params.set("sortare", sort);
     if (number > 1) params.set("pagina", String(number));
     return `/shop?${params}`;
   };
@@ -118,9 +124,9 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
           {active ? categoryTrail(active.path).map((category) => <span key={category.path}> / <Link href={categoryHref(category.path)} aria-current={category.path === active.path ? "page" : undefined} className="hover:underline">{category.name}</Link></span>) : null}
           {group ? <span> / {group.name}</span> : null}
         </nav>
-        <div className={active?.path === "oferte" ? "black-friday-intro" : undefined}>
+        <div className={active?.path === "oferte" && saleMode ? "black-friday-intro" : undefined}>
         <h1 className="font-[family-name:var(--font-playfair)] text-4xl font-semibold text-[#3b2d24]">
-          {query ? `Rezultate pentru „${query}”` : active?.path === "oferte" ? "Super Sales · Black Friday" : active?.name ?? "Toate produsele"}
+          {query ? `Rezultate pentru „${query}”` : active?.path === "oferte" ? (saleMode ? "Super Sales · Black Friday" : "Oferte pentru casă") : active?.name ?? "Toate produsele"}
         </h1>
         <p className="mt-2 text-sm text-[#3b2d24]/80">
           {products.length ? `${products.length} ${products.length === 1 ? "produs" : "produse"}. Afișăm ${(page - 1) * pageSize + 1}–${Math.min(page * pageSize, products.length)}.` : "Nu am găsit produse pentru această selecție."}
@@ -128,13 +134,13 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
         </div>
         {categorie === "lenjerii-de-pat/lenjerii-de-pat-promo" && <p className="shop-promo-clarification">Reducerile sunt marcate distinct; prețul fără marcaj nu este redus.</p>}
         {active?.path === "oferte" && <nav className="sale-section-picker" data-selected={selection ? "true" : undefined} aria-label="Colecții și oferte">
-          <p>{reducedItems.length} modele reduse peste 40% și {categoryProducts('fete-de-masa').length} modele de fețe de masă fără reducere afișată. Alege ce cauți:</p>
+          <p>{reducedItems.length} modele reduse peste 40%. Alege ce cauți:</p>
           <div className="sale-section-buttons">{saleSections.map(section => <Link key={section.key}
             href={`/shop?${new URLSearchParams({ categorie: 'oferte', selectie: section.key })}`}
             className={`sale-section-button${section.key === 'fete-de-masa' ? ' sale-section-button-catalog' : ''}`} aria-current={selection === section.key ? 'page' : undefined}>
             <svg aria-hidden="true" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
               {section.key === 'baie' ? <><path d="M5 7h22M9 7v20h14V7M9 21h14M9 24h14"/><path d="M5 5v4M27 5v4"/></> : section.key === 'lenjerii' ? <><path d="M4 25V11a3 3 0 0 1 3-3h18a3 3 0 0 1 3 3v14M4 18h24M4 23h24"/><rect x="7" y="11" width="7" height="5" rx="1"/><rect x="18" y="11" width="7" height="5" rx="1"/></> : <><ellipse cx="16" cy="10" rx="11" ry="5"/><path d="M5 10v14c0 3 22 3 22 0V10M10 15v11M22 15v11"/></>}
-            </svg><span><strong>{section.label}</strong><small>{salePageItems.filter(p => matchesSaleSection(p, section.key)).length} modele{section.key === 'fete-de-masa' ? ' · fără reducere afișată' : ''}</small></span>
+            </svg><span><strong>{section.label}</strong><small>{salePageItems.filter(p => matchesSaleSection(p, section.key)).length} modele</small></span>
           </Link>)}</div>
           {selection && <Link href="/shop?categorie=oferte" className="sale-show-all">Vezi toate produsele →</Link>}
         </nav>}
@@ -144,18 +150,19 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
 
         {subcategories.length > 0 && <nav className="subcategory-links" aria-label="Subcategorii">{subcategories.map(c=><Link key={c.path} href={categoryHref(c.path)}><span>{c.name}</span><CategorySummary path={c.path}/></Link>)}</nav>}
         {active?.path.startsWith("lenjerii-de-pat") && <BeddingFinderLink className="category-finder-button"/>}
-        <DiscoveryTracking searched={Boolean(query)} count={products.length}/><FilterPanel key={JSON.stringify(filters)+query+(categorie??'')+(selection??'')} index={buildCatalogFilterIndex(categoryItems.filter(p=>matchesSearch(p,query)))} initial={filters} category={categorie} query={query} sort={sort} selection={selection}/>
+        <DiscoveryTracking searched={Boolean(query)} count={products.length}/><FilterPanel key={JSON.stringify(filters)+query+(categorie??'')+(selection??'')} index={buildCatalogFilterIndex(filterIndexProducts)} initial={filters} category={categorie} query={query} sort={sort} selection={selection}/>
 
         <form action="/shop" method="get" className="catalog-sort mt-6 flex flex-wrap items-end gap-3">
           {categorie ? <input type="hidden" name="categorie" value={categorie} /> : null}
           {selection ? <input type="hidden" name="selectie" value={selection} /> : null}
           {query ? <input type="hidden" name="q" value={query} /> : null}
-          {Object.entries({ material: filters.material, culoare: filters.culoare, dimensiune: filters.dimensiune,
+          {Object.entries({ material: filters.material, tesatura: filters.tesatura, umplutura: filters.umplutura, gramaj: filters.gramaj, culoare: filters.culoare, dimensiune: filters.dimensiune,
             cearsaf: filters.cearsaf, stoc: filters.stoc, pret_min: filters.pretMin, pret_max: filters.pretMax })
             .filter(([, value]) => value).map(([name, value]) => <input key={name} type="hidden" name={name} value={value} />)}
           <label className="flex flex-col gap-1 text-sm text-[#3b2d24]">
             Sortează
             <select name="sortare" defaultValue={sort} className="rounded-xl border border-[#e5d9c7] bg-white px-4 py-3">
+              {query && <option value="relevanta">După relevanță</option>}
               <option value="nume">După nume</option>
               <option value="pret-crescator">Preț crescător</option>
               <option value="pret-descrescator">Preț descrescător</option>
@@ -167,7 +174,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
 
         {!products.length && suggestion && <p className="search-suggestion">Ai vrut să cauți <Link href={`/shop?${new URLSearchParams({ q: suggestion, ...(categorie ? { categorie } : {}), ...(selection ? {selectie: selection} : {}) })}`}>{suggestion}</Link>?</p>}
         {!products.length && <div className="empty-state"><h2>Niciun produs pentru această selecție</h2><p>Încearcă să elimini un filtru sau să folosești un termen mai scurt.</p><Link className="section-link" href={`/shop?${new URLSearchParams({...categorie?{categorie}:{},...selection?{selectie:selection}:{},...query?{q:query}:{}})}`}>Elimină filtrele →</Link></div>}
-        <div className="products-grid mt-8">{visibleProducts.map((product, index) => <ProductCard key={product.id} product={product} reason={categorie === 'oferte' && !isVisibleSale(product) ? 'Fără reducere afișată' : undefined} priority={index < 2} variantId={(filters.dimensiune || query && product.variants?.length === 1) && product.variants?.length ? product.variants.reduce((a,b)=>a.price<=b.price?a:b).id : undefined} />)}</div>
+        <div className="products-grid mt-8">{visibleProducts.map((product, index) => <ProductCard key={product.id} product={product} priority={index < 2} variantId={(filters.dimensiune || query && product.variants?.length === 1) && product.variants?.length ? product.variants.reduce((a,b)=>a.price<=b.price?a:b).id : undefined} />)}</div>
         {pageCount > 1 ? <nav aria-label="Pagini catalog" className="mt-8 flex flex-wrap items-center justify-center gap-2 text-sm text-[#3b2d24]">
           {page > 1 ? <Link href={pageHref(page - 1)} className="flex min-h-11 items-center rounded-full border border-[#3b2d24] px-4">← Înapoi</Link> : null}
           {categorie === 'oferte' && Array.from({ length: pageCount }, (_, index) => index + 1).map(number =>

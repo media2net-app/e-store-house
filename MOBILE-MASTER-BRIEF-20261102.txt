@@ -1,0 +1,185 @@
+PROMPT MASTER — E-STORE HOUSE — EXPERIENȚĂ CU PRIORITATE PENTRU MOBIL
+Pentru lucru în Bridgemind cu ChatGPT. Acesta este brief-ul complet și înlocuiește toate versiunile și completările anterioare.
+
+Lucrezi cu mine în Bridgemind, folosind ChatGPT, la magazinul existent https://www.estorehouse.ro/. Acționează ca un dezvoltator senior care înțelege designul, utilizarea pe telefon și vânzarea online. Vreau implementarea completă a îmbunătățirilor, cu verificarea rezultatului.
+
+Majoritatea vizitatorilor vor veni de pe telefon, inclusiv din reclame. Proiectează întâi pentru ecrane mici și adaptează apoi pentru desktop. Clientul trebuie să înțeleagă imediat ce vindem, să găsească produsul potrivit și să poată comanda fără confuzie.
+
+OBSERVAȚII DIN AUDITUL PUBLIC — DE RECONFIRMAT ÎNAINTE DE MODIFICĂRI
+
+Auditul anterior a fost realizat în browser desktop pe homepage, catalog, filtre, căutare, produsul /product/76881, coș și formularul de checkout. Nu a fost un test complet pe telefon; nu s-au măsurat Core Web Vitals și nu s-a trimis o comandă sau o plată reală.
+
+Probleme observate:
+- Căutarea „saltea 160x200” a returnat 211 rezultate, începând cu huse și lenjerii. Sortarea afișată era „După nume”.
+- Filtrele conțineau dimensiuni duplicate: „140 × 210 cm”, „140 x 210 cm”, „140cm x 210cm”. Aceeași problemă apărea și la alte dimensiuni.
+- Filtrul Material includea fraze întregi și multe formulări apropiate, în locul unor opțiuni simple și consecvente.
+- Homepage-ul avea un bloc promoțional foarte înalt, urmat de multe lenjerii din aceeași familie. Păstrează Super Sales în prim-plan în campanie, dar compactează prezentarea și diversifică selecția.
+- Pe banner apărea „fețe de masă fără reducere afișată”, formulare nepotrivită pentru comunicarea comercială.
+- Pe /product/76881, dimensiunile esențiale erau ascunse în „Vezi dimensiunile pieselor”; informația despre set se repeta.
+- Disponibilitatea era comunicată prin formulări vagi despre verificarea înaintea comenzii, fără o stare simplă și clară pentru client. Verifică ce permite sursa reală de stoc.
+- Printre recomandările pentru o lenjerie apăreau și produse slab legate de cumpărare, precum fețe de masă și pernuțe de scaun.
+- Coșul lateral promova reducerea la două articole eligibile chiar când produsul adăugat era Super Sale, exclus din ofertă. Regula poate fi corectă, dar prezentarea trebuie să fie contextuală.
+- După eliminarea produsului din coș, rămânea mesajul anterior „Adăugat în coș”, alături de mesajul că acesta era gol.
+- Easybox a apărut inițial indisponibil și a devenit selectabil după încărcare. Este o problemă de comunicare a stării temporare, nu dovada că serviciul nu funcționează.
+
+Adăugarea produsului în coș și accesul la checkout au funcționat în test. Nu le considera funcții defecte. Verifică separat plățile complete, tarifele finale de transport și funcționarea pe telefoane.
+
+1. MODUL DE LUCRU
+
+Inspectează codul, platforma, componentele, sursa catalogului și integrările existente înainte de a modifica. Verifică fișierele cu instrucțiuni ale proiectului. Nu presupune că este WordPress, Shopify sau altă platformă.
+
+Fă un plan scurt, apoi implementează. Ia autonom deciziile obișnuite de design. Cere informații numai pentru blocaje reale. Lucrează incremental, cu versiuni recuperabile și previzualizare funcțională. Separă problemele confirmate de ipoteze. Nu declara finalizat ceva ce nu ai testat.
+
+Păstrează logo-ul actual, identitatea magazinului, URL-urile utile și integrările de produse, stocuri, facturare, plăți și curieri. Nu schimba prețurile sau regulile comerciale pentru a simplifica designul.
+
+2. DIRECȚIA VIZUALĂ
+
+Construiește un magazin cald, ordonat și credibil, potrivit textilelor pentru casă. Produsele sunt elementul principal.
+
+Folosește o paletă restrânsă, derivată din logo: alb cald/ivoriu pentru fundal, text foarte închis și un verde discret pentru acțiunea principală. Folosește roșu doar pentru reduceri sau erori. Păstrează contrastul puternic și un singur stil dominant de buton.
+
+Definește reguli comune pentru culori, tipografie, spațiere, colțuri și componente. Folosește maximum două familii de fonturi. Textul principal și câmpurile formularului să fie de minimum 16 px pe mobil; etichetele secundare pot fi mai mici, dar trebuie să rămână lizibile.
+
+Elimină textele repetitive, spațiile excesive, umbrele grele, animațiile inutile și elementele care concurează cu produsul. Evită caruselele automate, videoclipurile pornite automat și ferestrele promoționale imediat după intrare.
+
+3. ANTET ȘI NAVIGARE PE TELEFON
+
+Creează un antet compact: meniu, logo lizibil și coș cu numărul produselor. Căutarea trebuie să fie ușor de observat și accesat, nu ascunsă într-un meniu.
+
+Dacă fixezi antetul, redu-i înălțimea la derulare. Nu stivui mai multe bare fixe care consumă ecranul.
+
+Organizează meniul în categorii clare: Lenjerii de pat; Pilote și perne; Prosoape și halate; Cuverturi și pături; Huse și protecții; Saltele și toppere; Fețe de masă. Folosește subcategorii extensibile unde este necesar.
+
+Meniul trebuie să se închidă intuitiv, să permită navigarea cu tastatura și să păstreze poziția utilizatorului. Țintește maximum trei acțiuni pentru a ajunge din homepage într-o categorie relevantă.
+
+4. PAGINA PRINCIPALĂ CU DOUĂ MODURI: SUPER SALES / NORMAL
+
+Această cerință are prioritate față de orice recomandare anterioară de a afișa categoriile înaintea ofertelor: în perioada Black Friday, Super Sales și produsele reduse trebuie să domine prima pagină. După campanie, revino automat la prezentarea normală.
+
+MODUL SUPER SALES — ÎN PERIOADA BLACK FRIDAY
+
+Ordinea paginii:
+- antet compact, căutare și acces permanent la categorii prin meniu;
+- banner compact „SUPER SALES • BLACK FRIDAY”, cu mesaj comercial clar și buton „Vezi toate reducerile”;
+- selecție de 4–8 produse cu reduceri reale, în două coloane pe mobil, apoi acces la toate ofertele;
+- categorii vizuale;
+- restul selecțiilor și informațiilor utile.
+
+Ofertele trebuie să fie vizibile imediat. Păstrează bannerul suficient de scurt încât primele produse să înceapă cât mai aproape de primul ecran pe telefon. Nu transforma promoția într-un banner enorm care împinge produsele mult în jos.
+
+Pe fiecare produs eligibil arată fotografia reală, titlul scurt, prețul de referință corect tăiat, prețul promoțional dominant și procentul reducerii calculat din aceleași date. Pentru variante, afișează perechi de prețuri și procente aferente aceleiași variante, fără combinații înșelătoare. Selectează produse diverse, disponibile și relevante comercial.
+
+Folosește o temă temporară de campanie, cu accente închise/aurii coerente cu logo-ul și prețuri foarte lizibile. Păstrează identitatea, navigarea și regulile de utilizare pe mobil. Nu inventa reduceri, prețuri de referință, recenzii, urgență ori stoc limitat.
+
+MODUL NORMAL — DUPĂ BLACK FRIDAY
+
+Revino la:
+- antet și căutare;
+- banner de brand: „Confort bine ales pentru casa ta.”, cu buton „Descoperă produsele”;
+- categorii vizuale imediat după banner;
+- selecții de produse și eventualele oferte obișnuite încă valabile;
+- produse fabricate în România, unde originea este confirmată;
+- beneficii reale, contact și informații utile.
+
+Retrage automat etichetele Black Friday, tema de campanie, mesajele și cupoanele expirate. Ofertele obișnuite încă valabile nu trebuie eliminate. Nu reseta arbitrar prețurile: aplică perioada și regulile configurate pentru fiecare promoție.
+
+COMUTAREA ÎNTRE MODURI
+
+Implementează modurile în același site, pe aceeași adresă, printr-o configurație comună a campaniei. Permite activarea/dezactivarea manuală și stabilește începutul/sfârșitul în fusul Europe/Bucharest.
+
+Citește perioada din configurația reală a campaniei. Nu deduce data finală din perioada unui cupon și nu inventa o dată. Dacă lipsește perioada, construiește mecanismul configurabil și semnalează exact valoarea necesară.
+
+La expirare, actualizează coerent homepage-ul, antetul, paginile produselor, cupoanele și validarea din coș/checkout, conform regulilor comerciale. Ține cont de cache și de paginile rămase deschise. Nu modifica retroactiv comenzile deja înregistrate.
+
+Testează în mediul de test starea înainte de campanie, în timpul campaniei și după expirare, inclusiv un coș creat înaintea tranziției. Livrează previzualizări mobile pentru ambele moduri.
+
+În ambele moduri, elimină formularea „fețe de masă fără reducere afișată”. „Fabricat în România” și „Pucioasa” se afișează numai unde există dovezi; nu prezenta întregul catalog ca fiind fabricat în România dacă include și alte origini.
+
+5. CATALOG ȘI CĂUTARE
+
+Pe mobil, folosește două coloane de produse când rămân lizibile. Cardurile trebuie să aibă proporții coerente, imagine clară, titlu scurt, preț evident și informația decisivă despre material sau dimensiune.
+
+Pe card, limitează titlul la două-trei rânduri; titlul complet trebuie să poată fi citit în pagina produsului. Nu încărca fiecare card cu toate specificațiile.
+
+Pentru produse cu variante, afișează „Alege dimensiunea”. Pentru cele fără variante obligatorii, permite adăugarea rapidă în coș, cu confirmare discretă.
+
+În audit, „saltea 160x200” a returnat 211 rezultate, începând cu huse și lenjerii. Repară relevanța: întâi saltelele în mărimea căutată, apoi accesoriile. Sortarea implicită pentru căutări trebuie să fie după relevanță.
+
+Normalizează „160x200”, „160 x 200” și „160 × 200 cm”, diacriticele și singularul/pluralul. Caută în variante și atribute, nu numai în titlu.
+
+6. FILTRE CARE AJUTĂ LA ALEGERE
+
+În audit au apărut dimensiuni duplicate și fraze întregi în filtrul Material. Creează o mapare canonică reutilizabilă și aplic-o inclusiv produselor nou importate.
+
+Separă compoziția, țesătura, umplutura, gramajul și dimensiunile. Nu confunda dimensiunea saltelei cu dimensiunea cearșafului sau a husei de pilotă. Nu uni produse cu compoziții diferite.
+
+Arată numai filtre relevante categoriei și susținute de date reale. Panoul de filtre trebuie să aibă selecții vizibile, resetare și buton „Arată X produse”.
+
+Păstrează filtrele, sortarea și poziția din listă când clientul revine dintr-un produs. Evită rezultate goale fără explicație sau soluție de revenire.
+
+7. PAGINA PRODUSULUI
+
+Optimizează în primul rând această pagină, deoarece reclamele pot trimite clientul direct aici.
+
+Fotografiile trebuie să fie clare, fără deformare sau tăierea produsului, cu glisare și zoom. Păstrează culoarea, modelul, materialul și proporțiile reale. Dacă generezi decoruri, nu modifica produsul prezentat.
+
+Afișează aproape de început: titlu, preț, variante, disponibilitate reală și butonul de cumpărare. Evită ca fotografia să ocupe singură mai multe ecrane.
+
+Arată direct un rezumat „Ce primești”: număr de piese și dimensiunea fiecărei componente. La lenjerii, diferențiază cearșaful de pat, husa de pilotă și fețele de pernă. La saltele, diferențiază lățimea, lungimea și grosimea.
+
+Afișează materialul, costul sau regula reală a transportului și termenul estimat. Folosește stări de disponibilitate clare, susținute de sursă: în stoc, la comandă, indisponibil sau disponibilitate de confirmat. Nu transforma lipsa datelor în „în stoc”. Pune întreținerea și explicațiile secundare în secțiuni extensibile.
+
+Variantele trebuie să actualizeze corect prețul, stocul și fotografia, unde diferă. Nu selecta tacit o mărime ambiguă.
+
+Când butonul principal iese din ecran, afișează o bară compactă cu prețul și „Adaugă în coș” sau „Alege dimensiunea”. Respectă zona de siguranță a telefonului și nu acoperi conținutul.
+
+Recomandă puține produse complementare, relevante și compatibile ca dimensiuni.
+
+8. COȘ ȘI FINALIZAREA COMENZII
+
+Permite comandă fără cont și un traseu scurt până la checkout. Clientul trebuie să vadă produsul, varianta, cantitatea, reducerile și costul transportului fără ambiguitate.
+
+Afișează promoțiile numai în contextul eligibilității reale. Păstrează regula reducerii la articolul eligibil mai ieftin și excluderile existente; nu sugera că reducerea se aplică întregului coș.
+
+Folosește câmpuri clare, autocomplete și tastatură potrivită pentru telefon/e-mail. Arată erorile lângă câmp și păstrează datele introduse. Pentru easybox, clarifică datele necesare fără a cere inutil informații de livrare la domiciliu; păstrează datele de facturare cerute de integrare.
+
+Opțiunile în curs de încărcare trebuie prezentate ca atare, nu drept „indisponibile”. Arată totalul complet înaintea trimiterii comenzii. Prezintă clar costul standard și eventualele suplimente reale, fără să ascunzi condițiile importante. Actualizează mesajele la adăugare, modificare și eliminare, astfel încât coșul gol să nu afișeze o confirmare veche de adăugare.
+
+Verifică în mediul de test plățile, rambursul, easybox, calculele și comportamentul la eroare sau reîncercare. Previne comenzile duplicate. Validează pe server prețurile, stocul, cupoanele și transportul din sursele comerciale existente; nu te baza numai pe ce afișează interfața.
+
+9. ACCESIBILITATE, VITEZĂ ȘI VIZIBILITATE
+
+Testează la 360, 390, 430, 768 și 1440 px, în Safari iOS și Chrome Android când sunt disponibile. Distinge testarea pe dispozitiv real de simularea dimensiunilor.
+
+Criterii: fără derulare orizontală accidentală; fără text tăiat; zone interactive de minimum 44 × 44 px; contrast lizibil; focus vizibil; etichete accesibile; pagină utilizabilă cu tastatura și la mărirea textului.
+
+Bannerul cookie trebuie să fie compact și utilizabil, cu opțiuni clare. Nu trebuie să se suprapună peste butoane fixe. Păstrează funcționarea magazinului la refuzul urmăririi opționale.
+
+Măsoară performanța înainte/după în aceleași condiții. Optimizează imaginile responsive și scripturile; nu întârzia încărcarea imaginii principale vizibile. Rezervă spațiul imaginilor pentru a evita salturile paginii.
+
+Verifică titlurile, descrierile, indexabilitatea, canonical, sitemap și datele structurate pentru produse. Păstrează URL-urile existente și tratează corect paginile cu filtre. Nu inventa scoruri sau rezultate SEO.
+
+10. AUTOMATIZARE ȘI CRITERII DE FINALIZARE
+
+Construiește componente și reguli reutilizabile, nu corecții manuale pentru câteva produse. Interfața trebuie să funcționeze și la creșterea catalogului.
+
+Verifică Analytics și pixelii existenți înainte de a adăuga cod. Evenimentele produs, coș, checkout și comandă trebuie să aibă valori corecte, fără dublări și conform opțiunilor de consimțământ. Nu considera apăsarea butonului de plată o cumpărare.
+
+Testează minimum: lenjerie cu elastic; lenjerie fără elastic; produs cu variante; prosop; saltea; topper; produs indisponibil; produs la promoție; coș mixt cu prag de transport gratuit. Verifică și cantități modificate, produs eliminat, cupon invalid/expirat, excluderea ofertelor necumulabile și pragul de transport gratuit înainte/după reduceri. Pragul observat în audit era 399 lei; reconfirmă configurația și păstrează regulile reale.
+
+Testează căutările „saltea 160x200”, „topper 180x200”, „lenjerie bumbac”, „prosop 70x140” și „husa impermeabila”, inclusiv revenirea din produs.
+
+Ordine de implementare: defecte și date → navigare/căutare/filtre → produs/coș/checkout → homepage → performanță și verificare finală.
+
+Livrează:
+- versiune funcțională de previzualizare;
+- capturi înainte/după pentru homepage, categorie, produs și checkout pe mobil, inclusiv ambele moduri ale homepage-ului;
+- modificările și rezultatele testelor;
+- problemele nerezolvate și motivul;
+- procedură de publicare și revenire la versiunea anterioară;
+- raport scurt pentru fiecare problemă din audit: confirmată/neconfirmată, corectată și cum a fost verificată.
+
+Consideră lucrarea terminată numai când traseul căutare/categorie → produs → coș → comandă de test funcționează, paginile sunt lizibile pe telefon și nu există suprapuneri sau blocaje în fluxurile verificate. Dacă un test nu poate fi executat, spune explicit acest lucru.
+
+Scopul final: un magazin simplu de înțeles, rapid de folosit și coerent vizual, în care cumpărătorul vede produsul, informațiile decisive și următorul pas.
+

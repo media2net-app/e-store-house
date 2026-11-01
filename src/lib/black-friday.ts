@@ -1,10 +1,10 @@
 import "server-only";
 
 import eligibility from "@/data/black-friday-eligible.json";
+import { BLACK_FRIDAY_START, BLACK_FRIDAY_END, blackFridayActive } from './black-friday-period';
 import type { OfferItem } from "./cart-offers";
 
-export const BLACK_FRIDAY_START = "2026-11-03T00:00:00+02:00";
-export const BLACK_FRIDAY_END = "2026-11-17T00:00:00+02:00";
+export { BLACK_FRIDAY_START, BLACK_FRIDAY_END, blackFridayActive };
 
 type CouponLine = OfferItem & { sku?: string; categoryPath?: string };
 type Coupon = { code: string; discountCents: number; label: string };
@@ -13,10 +13,6 @@ type CouponResult =
   | { code: string; discountCents: number; applied: false; label?: undefined; message: string };
 
 const minimumPrices = eligibility.minPriceCentsByItem as Record<string, number>;
-
-export function blackFridayActive(now = Date.now()) {
-  return now >= Date.parse(BLACK_FRIDAY_START) && now < Date.parse(BLACK_FRIDAY_END);
-}
 
 export function quoteBlackFridayCoupon(codeInput: unknown, lines: readonly CouponLine[], automaticDiscountCents: number, now = Date.now()): CouponResult | null {
   if (codeInput === undefined || codeInput === null || codeInput === "") return null;

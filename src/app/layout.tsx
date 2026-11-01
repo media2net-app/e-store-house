@@ -1,4 +1,6 @@
 import PrivacyPreferences from '@/components/marketing/PrivacyPreferences';
+import CampaignRefresh from '@/components/marketing/CampaignRefresh';
+import { campaignActive } from '@/lib/campaign';
 import CatalogPosition from "@/components/catalog/CatalogPosition";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
@@ -37,6 +39,7 @@ export default function RootLayout({
   return (
     <html
       lang="ro"
+      data-campaign={campaignActive() ? 'on' : 'off'}
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
@@ -44,7 +47,7 @@ export default function RootLayout({
           "@context": "https://schema.org", "@type": "Organization", "@id": "https://www.estorehouse.ro/#organization",
           name: "E-Store House", url: "https://www.estorehouse.ro", logo: "https://www.estorehouse.ro/brand/estore-house-icon.png",
         }) }} />
-        <CartProvider><CatalogPosition/>{children}<PrivacyPreferences/></CartProvider>
+        <CartProvider><CatalogPosition/><CampaignRefresh/>{children}<PrivacyPreferences/></CartProvider>
       </body>
     </html>
   );

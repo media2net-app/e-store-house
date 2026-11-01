@@ -23,9 +23,11 @@ type CartItem = {
   image: string;
   quantity: number;
 };
+export type CartProduct = Pick<Product, 'id' | 'name' | 'price' | 'currency' | 'image'>
+  & Partial<Pick<Product, 'sku' | 'categoryPath' | 'bundleComponents' | 'tag' | 'discountExcluded'>>;
 type CartContextValue = {
   items: CartItem[]; isOpen: boolean; totalItems: number; cartNotice: string;
-  addItem: (product: Product, quantity: number) => void;
+  addItem: (product: CartProduct, quantity: number, options?: { openCart?: boolean }) => boolean;
   removeItem: (productId: number) => void;
   updateQuantity: (productId: number, quantity: number) => void;
   clearCart: () => void;
@@ -70,10 +72,10 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       catch { /* Shopping remains usable when browser storage is unavailable. */ }
     }
   }, [items, cartLoaded]);
-  const addItem = (product: Product, quantity: number) => {
-    if (!Number.isSafeInteger(quantity) || quantity < 1 || quantity > 20) return;
+  const addItem = (product: CartProduct, quantity: number, options?: { openCart?: boolean }) => {
+    if (!Number.isSafeInteger(quantity) || quantity < 1 || quantity > 20) return false;
     const current = items.find(item => item.productId === product.id);
-    if ((current?.quantity ?? 0) + quantity > 20 || (!current && items.length >= 30)) {setCartNotice("Cantitatea maximă este de 20 de bucăți per produs și 30 de produse diferite în coș.");setIsOpen(true);return;}
+    if ((current?.quantity ?? 0) + quantity > 20 || (!current && items.length >= 30)) {setCartNotice("Cantitatea maximă este de 20 de bucăți per produs și 30 de produse diferite în coș.");setIsOpen(true);return false;}
     trackCommerce('add_to_cart', { currency: 'RON', value: product.price * quantity, items: [{ item_id: product.sku || String(product.id), item_name: product.name, price: product.price, quantity }] });
     setCartNotice(`Adăugat în coș: ${productDisplayName(product)}, ${quantity} ${quantity === 1 ? 'bucată' : 'bucăți'}, ${formatProductPrice(product.price, product.currency)} / buc.`);
     setItems((prev) => {
@@ -85,13 +87,18 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
         : [...prev, { productId: product.id, sku: product.sku, bundleComponents: product.bundleComponents,
           categoryPath: product.categoryPath, name: product.name, superSale: product.tag === "Super Sale", discountExcluded: product.discountExcluded, price: product.price, currency: product.currency, image: product.image, quantity }];
     });
-    setIsOpen(true);
+    if (options?.openCart !== false) setIsOpen(true);
+    return true;
   };
-  const removeItem = (productId: number) => setItems((prev) => prev.filter((item) => item.productId !== productId));
+  const removeItem = (productId: number) => {
+    setItems((prev) => prev.filter((item) => item.productId !== productId));
+    setCartNotice('Produs eliminat din coș.');
+  };
   const updateQuantity = (productId: number, quantity: number) => {
     if (!Number.isSafeInteger(quantity) || quantity > 20) return;
     if (quantity <= 0) { removeItem(productId); return; }
     setItems((prev) => prev.map((item) => item.productId === productId ? { ...item, quantity } : item));
+    setCartNotice('Cantitatea din coș a fost actualizată.');
   };
   useEffect(() => {
     if (!isOpen) return;
@@ -117,17 +124,18 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
 
   const totalItems = items.reduce((sum, item) => sum + item.quantity, 0);
   const totals = cartOffers(items);
+  const eligibleUnits = items.reduce((count, item) => count + (!item.superSale && !item.discountExcluded ? item.quantity : 0), 0);
   const money = (cents: number) => formatProductPrice(cents / 100, "RON");
-  return <CartContext.Provider value={{ items, isOpen, totalItems, cartNotice, addItem, removeItem, updateQuantity, clearCart: () => setItems([]),
+  return <CartContext.Provider value={{ items, isOpen, totalItems, cartNotice, addItem, removeItem, updateQuantity, clearCart: () => { setItems([]); setCartNotice(''); },
     openCart: () => setIsOpen(true), closeCart: () => setIsOpen(false) }}>
     {children}
     <div className={"cart-overlay " + (isOpen ? "cart-overlay-open" : "")} onClick={() => setIsOpen(false)} aria-hidden={!isOpen} inert={!isOpen}>
       <aside ref={drawer} className="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" onClick={(event) => event.stopPropagation()}>
         <div className="cart-drawer-header"><div><small>E-STORE HOUSE</small><h2 id="cart-title">Coșul tău <span>({totalItems})</span></h2></div><button className="cart-close" onClick={() => setIsOpen(false)} aria-label="Închide coșul">✕</button></div>
         {cartNotice ? <p className="cart-offer-note" role="status">{cartNotice}</p> : null}
-        {!items.length ? <div className="cart-empty"><p>Coșul tău așteaptă ceva frumos.</p><p>Adaugă două articole eligibile (fără Super Sale sau ofertele pentru baie) și primești 10% reducere la cel mai ieftin dintre ele.</p><Link href="/shop" onClick={() => setIsOpen(false)} className="cart-shop-link">Descoperă colecția →</Link></div> : <>
+        {!items.length ? <div className="cart-empty"><p>Coșul tău este gol.</p><Link href="/shop" onClick={() => setIsOpen(false)} className="cart-shop-link">Descoperă colecția →</Link></div> : <>
           <div className="cart-drawer-items">
-            <p className="cart-offer-note">{totals.discountCents ? "Reducerea de 10% este aplicată automat." : "La două articole eligibile (fără Super Sale sau ofertele pentru baie), ai 10% reducere la cel mai ieftin dintre ele."}</p>
+            {eligibleUnits > 0 && <p className="cart-offer-note">{totals.discountCents ? "Reducerea de 10% este aplicată la o bucată eligibilă, cea mai ieftină." : "Adaugă încă un articol eligibil pentru 10% reducere la o singură bucată, cea mai ieftină. Super Sale și ofertele pentru baie nu intră în această ofertă."}</p>}
             {items.map((item) => <div key={item.productId} className="cart-item">
               <div className="cart-item-main"><Image quality={60} sizes="72px" src={item.image} alt={productDisplayName(item)} width={72} height={90} /><div><p className="cart-item-name">{productDisplayName(item)}</p>{item.sku ? <p className="cart-item-code">Cod: {item.sku}</p> : null}
                 {item.bundleComponents?.map((component) => <p key={component.sku} className="cart-item-code">{component.quantity * item.quantity} × {component.name} · {component.sku}</p>)}

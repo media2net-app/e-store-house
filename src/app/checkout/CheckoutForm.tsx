@@ -18,6 +18,7 @@ import { type ShippingCarrier, type ShippingMethod, type ShippingOption } from "
 import { trackCommerce, rememberMarketingOrder } from "@/lib/marketing";
 import { shippingPaymentAvailable } from "@/lib/checkout-payment-options";
 import type { PaymentMethod } from "@/lib/payment-methods";
+import { useBlackFridayCoupon } from '@/components/marketing/useBlackFridayCoupon';
 
 const fields = [
   ["firstName", "Prenume"], ["lastName", "Nume"], ["email", "E-mail"],
@@ -31,6 +32,8 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [couponCode, setCouponCode] = useState("");
+  const couponActive = useBlackFridayCoupon();
+  const effectiveCouponCode = couponActive ? couponCode.trim().toUpperCase() || undefined : undefined;
   const [fieldErrors, setFieldErrors] = useState<Record<string,string>>({});
   const [draft, setDraft] = useCheckoutDraft();
   const { customer: customerDraft, billing: billingDraft, separateBilling } = draft;
@@ -43,12 +46,13 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
   const [carrier, setCarrier] = useState<ShippingCarrier | null>(defaultShipping?.carrier ?? null);
   const [method, setMethod] = useState<ShippingMethod>(defaultShipping?.method || "home");
   const [locker, setLocker] = useState<SamedayLocker | null>(null);
-  const [easyboxCartKey, setEasyboxCartKey] = useState("");
+  const [easyboxCheckedKey, setEasyboxCheckedKey] = useState("");
+  const [easyboxEligibility, setEasyboxEligibility] = useState<boolean | null>(null);
   const [rateResult, setRateResult] = useState<{ key: string; token?: string; cents?: number; expiresAt?: number; totals?: ReturnType<typeof cartOffers> & { promotionCode?: string; promotionLabel?: string; couponMessage?: string }; error?: string } | null>(null);
   const [rateRefresh, setRateRefresh] = useState(0);
   const intentRef = useRef<{ checkoutKey: string; id: string } | null>(null);
   const cartKey = JSON.stringify(items.map(({ productId, quantity }) => ({ productId, quantity })));
-  const easyboxEligible = easyboxCartKey === cartKey;
+  const easyboxEligible = easyboxEligibility === true && easyboxCheckedKey === cartKey;
   useEffect(() => {
     const track = () => {
     if (!items.length) return;
@@ -63,14 +67,14 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
     const controller = new AbortController();
     void fetch("/api/shipping/sameday", { method: "POST", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ items: JSON.parse(cartKey) }), signal: controller.signal })
-      .then((response) => response.json()).then((result) => { if (result.easyboxEligible) setEasyboxCartKey(cartKey); })
-      .catch(() => {});
+      .then((response) => response.json()).then((result) => { if (!controller.signal.aborted) { setEasyboxEligibility(Boolean(result.easyboxEligible)); setEasyboxCheckedKey(cartKey); } })
+      .catch(() => { if (!controller.signal.aborted) { setEasyboxEligibility(false); setEasyboxCheckedKey(cartKey); } });
     return () => controller.abort();
   }, [cartKey, shippingOptions]);
   const selectedShipping = shippingOptions.find((option) => option.carrier === carrier && (option.method || "home") === method);
   const addressReady = shippingLocationValid && fields.every(([name]) => customerDraft[name]?.trim()) && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(customerDraft.email || "");
   const paymentEnabled = paymentMethod === "cod" ? codEnabled && selectedShipping?.codAvailable === true : cardEnabled;
-  const rateKey = JSON.stringify({ items: JSON.parse(cartKey), couponCode: couponCode.trim().toUpperCase() || undefined, customer: customerDraft, carrier, shippingMethod: method, paymentMethod, lockerId: method === "easybox" ? locker?.id : undefined });
+  const rateKey = JSON.stringify({ items: JSON.parse(cartKey), couponCode: effectiveCouponCode, customer: customerDraft, carrier, shippingMethod: method, paymentMethod, lockerId: method === "easybox" ? locker?.id : undefined });
   const rateReady = !!selectedShipping && addressReady && (method !== "easybox" || (easyboxEligible && !!locker));
   const currentRate = rateReady && rateResult?.key === rateKey ? rateResult : null;
   const totals: ReturnType<typeof cartOffers> & { promotionCode?: string; promotionLabel?: string; couponMessage?: string } = currentRate?.totals || cartOffers(items);
@@ -107,7 +111,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
     const customer = { ...Object.fromEntries(fields.map(([name]) => [name, String(data.get(name) ?? "")])),
       separateBilling, ...Object.fromEntries(["billingName", "billingAddress", "billingCity", "billingCounty", "billingPostalCode", "billingCompany", "billingCui"]
         .map((name) => [name, String(data.get(name) ?? "")])) };
-    const checkoutKey = JSON.stringify({ customer, carrier, method, paymentMethod, couponCode: couponCode.trim().toUpperCase() || undefined, lockerId: method === "easybox" ? locker?.id : undefined, shippingCents, totalCents: totals.totalCents, items: items.map(({ productId, quantity }) => ({ productId, quantity })) });
+    const checkoutKey = JSON.stringify({ customer, carrier, method, paymentMethod, couponCode: effectiveCouponCode, lockerId: method === "easybox" ? locker?.id : undefined, shippingCents, totalCents: totals.totalCents, items: items.map(({ productId, quantity }) => ({ productId, quantity })) });
     let intent: { checkoutKey: string; id: string } | null = intentRef.current;
     try { intent = JSON.parse(sessionStorage.getItem("estore-checkout-intent") || "null") || intent; } catch { /* Use the in-memory intent. */ }
     if (!intent || intent.checkoutKey !== checkoutKey) {
@@ -119,7 +123,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
       const response = await fetch("/api/checkout", {
         method: "POST", headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          customer, carrier, shippingMethod: method, paymentMethod, couponCode: couponCode.trim().toUpperCase() || undefined, lockerId: method === "easybox" ? locker?.id : undefined, shippingQuoteToken: currentRate.token, acceptedTerms: data.get("acceptedTerms") === "on", intentId: intent.id,
+          customer, carrier, shippingMethod: method, paymentMethod, couponCode: effectiveCouponCode, lockerId: method === "easybox" ? locker?.id : undefined, shippingQuoteToken: currentRate.token, acceptedTerms: data.get("acceptedTerms") === "on", intentId: intent.id,
           items: items.map((item) => ({ productId: item.productId, quantity: item.quantity })),
         }),
       });
@@ -164,11 +168,12 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         </details>}
       </section>
       <form onSubmit={submit} className="space-y-5">
-        <h2 className="text-xl font-semibold">Date de contact și livrare</h2>
+        <h2 className="text-xl font-semibold">{method === 'easybox' ? 'Date de contact și facturare' : 'Date de contact și livrare'}</h2>
+        {method === 'easybox' && <p className="text-sm">Adresa de mai jos este folosită pentru facturare. Coletul se livrează la easybox-ul pe care îl alegi.</p>}
         <div className="grid gap-4">
           {fields.filter(([name]) => name !== "city").map(([name, label]) => name === "county" ?
             <AddressLocalityFields key={name} county={customerDraft.county || ""} city={customerDraft.city || ""}
-              onChange={(county, city) => setCustomerDraft(value => ({ ...value, county, city }))} onValidityChange={setShippingLocationValid} /> : <label key={name} className="block text-sm font-medium">{label}
+              onChange={(county, city) => setCustomerDraft(value => ({ ...value, county, city }))} onValidityChange={setShippingLocationValid} /> : <label key={name} className="block text-sm font-medium">{method === 'easybox' && name === 'address' ? 'Adresă de facturare (stradă, număr, bloc, apartament)' : label}
             <input className="mt-1 w-full rounded-lg border border-[#c9bda9] bg-white px-3 py-3" name={name} value={customerDraft[name] || ""}
               type={name === "email" ? "email" : name === "phone" ? "tel" : "text"}
               autoComplete={({ firstName: "given-name", lastName: "family-name", email: "email", phone: "tel", address: "street-address", city: "address-level2", county: "address-level1", postalCode: "postal-code" })[name]}
@@ -180,7 +185,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
             {fieldErrors[name] && <span id={`error-${name}`} className="field-error">{fieldErrors[name]}</span>}
           </label>)}
         </div>
-        <details className="checkout-coupon rounded-xl border border-[#c9bda9] bg-white p-4">
+        {couponActive && <details className="checkout-coupon rounded-xl border border-[#c9bda9] bg-white p-4">
           <summary className="font-semibold">Ai un cod de reducere Black Friday?</summary>
           <label htmlFor="black-friday-coupon" className="mt-3 block text-sm">Cod de reducere</label>
           <input id="black-friday-coupon" name="couponCode" value={couponCode} onChange={(event) => setCouponCode(event.target.value.toUpperCase())}
@@ -188,7 +193,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
             className="mt-2 w-full rounded-lg border border-[#c9bda9] bg-white px-3 py-3 text-base uppercase" />
           <p className="mt-2 text-sm text-[#5d5148]">Valabile 3–16 noiembrie 2026. Se aplică reducerea cea mai avantajoasă; codurile nu se cumulează.</p>
           {currentRate?.totals?.couponMessage && <p className="mt-2 text-sm" role="status">{currentRate.totals.couponMessage}</p>}
-        </details>
+        </details>}
         <fieldset className="rounded-xl border border-[#c9bda9] p-4">
           <legend className="px-1 text-sm font-semibold">Alege metoda de plată</legend>
           <label className="flex items-center gap-3 text-sm"><input type="radio" name="paymentMethod" value="card" checked={paymentMethod === "card"} disabled={!cardEnabled} onChange={() => setPaymentMethod("card")} />Card / Apple Pay / Google Pay prin EuPlătesc{!cardEnabled ? " — în curs de activare" : ""}</label>
@@ -211,7 +216,7 @@ export default function CheckoutForm({ shippingOptions, cardEnabled, codEnabled 
         <fieldset className="rounded-xl border border-[#c9bda9] p-4">
           <legend className="px-1 text-sm font-semibold">Alege curierul</legend>
           {shippingOptions.length ? shippingOptions.map((option) => <label key={`${option.carrier}-${option.method || "home"}`} className="mt-2 flex items-center justify-between gap-3 text-sm">
-            <span className="flex items-center gap-2"><input type="radio" name="carrier" value={option.carrier} checked={carrier === option.carrier && method === (option.method || "home")} disabled={!shippingPaymentAvailable(option, cardEnabled, codEnabled) || option.method === "easybox" && !easyboxEligible} onChange={() => { setCarrier(option.carrier); setMethod(option.method || "home"); setLocker(null); if (!cardEnabled && codEnabled && option.codAvailable) setPaymentMethod("cod"); else if (!option.codAvailable) setPaymentMethod("card"); }} required />{option.label}{!shippingPaymentAvailable(option, cardEnabled, codEnabled) ? " — disponibil după activarea plății cu cardul sau rambursului" : option.method === "easybox" && !easyboxEligible ? " — indisponibil pentru acest coș" : ""}</span>
+            <span className="flex items-center gap-2"><input type="radio" name="carrier" value={option.carrier} checked={carrier === option.carrier && method === (option.method || "home")} disabled={!shippingPaymentAvailable(option, cardEnabled, codEnabled) || option.method === "easybox" && !easyboxEligible} onChange={() => { setCarrier(option.carrier); setMethod(option.method || "home"); setLocker(null); if (!cardEnabled && codEnabled && option.codAvailable) setPaymentMethod("cod"); else if (!option.codAvailable) setPaymentMethod("card"); }} required />{option.label}{!shippingPaymentAvailable(option, cardEnabled, codEnabled) ? " — disponibil după activarea plății cu cardul sau rambursului" : option.method === "easybox" && !easyboxEligible ? (easyboxCheckedKey !== cartKey ? " — se verifică eligibilitatea…" : " — indisponibil pentru acest coș") : ""}</span>
             <span>{option.dynamic ? (carrier === option.carrier && method === (option.method || "home") && shippingCents !== null ? shippingCents === 0 ? "Gratuit" : formatProductPrice(shippingCents / 100, "RON") : "După completarea datelor") : totals.freeShipping ? "Gratuit" : formatProductPrice(option.priceRon, "RON")}</span>
           </label>) : <p className="text-sm">Opțiunile de livrare sunt în curs de stabilire.</p>}
           {shippingOptions.some((option) => option.method === "easybox") && <p className="mt-3 text-xs">Easybox este disponibil pentru colete mici, cu maximum 3 lenjerii. Topperele și saltelele se livrează la domiciliu.</p>}

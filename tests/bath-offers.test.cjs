@@ -14,8 +14,9 @@ const catalog = read('src/data/products.json');
 const aliases = read('src/data/cart-product-aliases.json');
 const { applyBathOffer } = load('src/lib/bath-offers.ts', { '@/data/bath-offers.json': offers });
 const cart = load('src/lib/cart-offers.ts');
+const couponPeriod = load('src/lib/black-friday-period.ts');
 const coupon = load('src/lib/black-friday.ts', {
-  'server-only': {}, '@/data/black-friday-eligible.json': read('src/data/black-friday-eligible.json'),
+  'server-only': {}, '@/data/black-friday-eligible.json': read('src/data/black-friday-eligible.json'), './black-friday-period': couponPeriod,
 });
 const pricing = load('src/lib/cart-quote.ts', {
   'server-only': {}, '@/lib/products': { allProducts: [] }, '@/lib/cart-offers': cart, '@/lib/black-friday': coupon,
