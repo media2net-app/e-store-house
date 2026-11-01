@@ -140,6 +140,11 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
         {active?.path === "oferte" ? <p className="mt-4 rounded-xl border border-[#d8c4a0] bg-[#fcf7ee] px-5 py-4 text-sm leading-relaxed text-[#3b2d24]">
           Produsele Super Sale au reducerea inclusă în prețul afișat și sunt excluse din oferta de 10% la al doilea produs. <Link href="/promotii" className="font-semibold underline">Vezi condițiile ofertei</Link>.
         </p> : null}
+        {active?.path === "oferte" ? <div className="mt-4">
+          <Link href="/shop?categorie=fete-de-masa" className="inline-flex min-h-11 items-center rounded-full border border-[#3b2d24] bg-white px-5 py-2 text-sm font-semibold text-[#3b2d24]">
+            Vezi toate fețele de masă ({categoryProducts('fete-de-masa').length} modele) →
+          </Link>
+        </div> : null}
 
         {subcategories.length > 0 && <nav className="subcategory-links" aria-label="Subcategorii">{subcategories.map(c=><Link key={c.path} href={categoryHref(c.path)}><span>{c.name}</span><CategorySummary path={c.path}/></Link>)}</nav>}
         {active?.path.startsWith("lenjerii-de-pat") && <BeddingFinderLink className="category-finder-button"/>}
