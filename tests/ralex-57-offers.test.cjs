@@ -16,7 +16,7 @@ vm.runInNewContext(source, { exports: moduleExports, require: key => {
   return offers;
 } });
 
-test('Ralex reseller campaign covers each existing SKU once with a genuine displayed reduction', () => {
+test('Ralex whole-leu prices cover each existing SKU without a false discount', () => {
   assert.equal(offers.length, 57);
   const seen = new Set();
   let variantCount = 0;
@@ -24,8 +24,8 @@ test('Ralex reseller campaign covers each existing SKU once with a genuine displ
     const base = products.find(product => product.id === offer.id);
     assert(base?.variants?.length);
     const updated = moduleExports.applyRalex57Offer(base);
-    assert.equal(updated.tag, 'Super Sale');
-    assert.equal(updated.discountExcluded, true);
+    assert.equal(updated.tag, undefined);
+    assert.equal(updated.discountExcluded, undefined);
     assert.equal(updated.variants.length, base.variants.length);
     for (const variant of updated.variants) {
       const old = base.variants.find(item => item.sku === variant.sku);
@@ -33,12 +33,12 @@ test('Ralex reseller campaign covers each existing SKU once with a genuine displ
       assert(!seen.has(variant.sku), `Duplicate campaign SKU ${variant.sku}`);
       seen.add(variant.sku);
       variantCount++;
-      assert.equal(variant.oldPrice, old.price);
-      assert.equal(Math.round(variant.price * 100) % 100, 99);
-      assert(variant.price < variant.oldPrice);
-      assert.equal(variant.discount, Math.floor((Math.round(old.price * 100) - Math.round(variant.price * 100)) * 100 / Math.round(old.price * 100)));
-      assert(variant.discount > 40);
-      assert(variant.saleReferencePeriod);
+      assert.equal(variant.oldPrice, undefined);
+      assert(Number.isInteger(variant.price));
+      assert.equal(variant.price % 10, 9);
+      assert(variant.price < old.price);
+      assert.equal(variant.discount, undefined);
+      assert.equal(variant.saleReferencePeriod, undefined);
     }
   }
   assert.equal(variantCount, 368);
