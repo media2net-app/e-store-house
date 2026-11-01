@@ -1,7 +1,7 @@
 import offers from '@/data/ralex-57-offers.json';
 import type { Product } from './products';
 
-/** Campaign prices backed by the private authenticated Ralex reseller price audit. */
+/** Whole-leu website prices backed by the private authenticated Ralex reseller audit. */
 export function applyRalex57Offer(product: Product): Product {
   const offer = offers.find(entry => entry.id === product.id);
   if (!offer) return product;
@@ -15,17 +15,14 @@ export function applyRalex57Offer(product: Product): Product {
     if (!entry || Math.round(variant.price * 100) !== Math.round(entry.comparisonPrice * 100)) {
       throw new Error(`Ralex campaign SKU or reference price changed: ${product.id}:${variant.sku}`);
     }
-    const oldCents = Math.round(entry.comparisonPrice * 100);
-    const saleCents = Math.round(entry.price * 100);
-    const discount = Math.floor((oldCents - saleCents) * 100 / oldCents);
-    if (saleCents <= 0 || saleCents % 100 !== 99 || discount <= 40 || !entry.referencePeriod) {
-      throw new Error(`Ralex campaign price invalid: ${product.id}:${variant.sku}`);
+    if (!Number.isInteger(entry.price) || entry.price <= 0 || entry.price % 10 !== 9
+      || entry.price >= entry.comparisonPrice || !entry.referencePeriod) {
+      throw new Error(`Ralex whole-leu price invalid: ${product.id}:${variant.sku}`);
     }
-    return { ...variant, price: entry.price, oldPrice: entry.comparisonPrice, discount,
-      saleReferencePeriod: entry.referencePeriod };
+    return { ...variant, price: entry.price, oldPrice: undefined, discount: undefined,
+      saleReferencePeriod: undefined };
   });
   const cheapest = variants.reduce((a, b) => a.price <= b.price ? a : b);
-  return { ...product, variants, price: cheapest.price, oldPrice: cheapest.oldPrice,
-    discount: Math.min(...variants.map(variant => variant.discount)),
-    saleReferencePeriod: offer.referencePeriodSummary, tag: 'Super Sale', discountExcluded: true };
+  return { ...product, variants, price: cheapest.price, oldPrice: undefined,
+    discount: undefined, saleReferencePeriod: undefined, tag: undefined, discountExcluded: undefined };
 }
