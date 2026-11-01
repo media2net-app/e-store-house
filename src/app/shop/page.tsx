@@ -22,6 +22,7 @@ import CategorySummary from "@/components/catalog/CategorySummary";
 type ShopParams = { selectie?: string | string[]; categorie?: string | string[]; q?: string | string[]; pagina?: string | string[]; sortare?: string | string[];
   material?: string | string[]; culoare?: string | string[]; dimensiune?: string | string[]; cearsaf?: string | string[];
   stoc?: string | string[]; pret_min?: string | string[]; pret_max?: string | string[] };
+const pageSizeFor = (category: string | string[] | undefined) => category === 'oferte' ? 30 : 24;
 export async function generateMetadata({ searchParams }: { searchParams: Promise<ShopParams> }): Promise<Metadata> {
   const params = await searchParams;
   const { categorie, pagina } = params;
@@ -33,7 +34,7 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
   const catalog = requested > 1 ? await getLiveProducts() : [];
   const selectedGroup = navigationGroups.find(group => group.slug === categorie);
   const count = !active ? catalog.length : catalog.filter(p => selectedGroup ? selectedGroup.paths.some(path => isInCategory(p,path)) : isInCategory(p, String(categorie))).length;
-  const maximum = Math.max(1, Math.ceil(count / 24));
+  const maximum = Math.max(1, Math.ceil(count / pageSizeFor(categorie)));
   const outOfRange = requested > 1 && (!Number.isSafeInteger(requested) || requested > maximum);
   if (Number.isSafeInteger(requested) && requested > 1 && Math.min(requested, maximum) > 1) canonicalParams.set('pagina', String(Math.min(requested, maximum)));
   const canonical = `/shop${canonicalParams.size ? `?${canonicalParams}` : ''}`;
@@ -81,7 +82,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
     })
     .filter((product): product is NonNullable<typeof product> => product !== null)
     .sort((a, b) => sort === "pret-crescator" ? a.price - b.price : sort === "pret-descrescator" ? b.price - a.price : a.name.localeCompare(b.name, "ro"));
-  const pageSize = 24;
+  const pageSize = pageSizeFor(categorie);
   const pageCount = Math.max(1, Math.ceil(products.length / pageSize));
   const requestedPage = typeof pagina === "string" && /^\d+$/.test(pagina) ? Number(pagina) : 1;
   const page = Math.min(pageCount, Math.max(1, Number.isSafeInteger(requestedPage) ? requestedPage : 1));
@@ -94,7 +95,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
     for (const [key, value] of Object.entries({ material: filters.material, culoare: filters.culoare, dimensiune: filters.dimensiune,
       cearsaf: filters.cearsaf, stoc: filters.stoc, pret_min: filters.pretMin, pret_max: filters.pretMax })) if (value) params.set(key, value);
     if (sort !== "nume") params.set("sortare", sort);
-    params.set("pagina", String(number));
+    if (number > 1) params.set("pagina", String(number));
     return `/shop?${params}`;
   };
 
@@ -162,10 +163,13 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
         {!products.length && suggestion && <p className="search-suggestion">Ai vrut să cauți <Link href={`/shop?${new URLSearchParams({ q: suggestion, ...(categorie ? { categorie } : {}), ...(selection ? {selectie: selection} : {}) })}`}>{suggestion}</Link>?</p>}
         {!products.length && <div className="empty-state"><h2>Niciun produs pentru această selecție</h2><p>Încearcă să elimini un filtru sau să folosești un termen mai scurt.</p><Link className="section-link" href={`/shop?${new URLSearchParams({...categorie?{categorie}:{},...selection?{selectie:selection}:{},...query?{q:query}:{}})}`}>Elimină filtrele →</Link></div>}
         <div className="products-grid mt-8">{visibleProducts.map((product, index) => <ProductCard key={product.id} product={product} priority={index < 2} variantId={(filters.dimensiune || query && product.variants?.length === 1) && product.variants?.length ? product.variants.reduce((a,b)=>a.price<=b.price?a:b).id : undefined} />)}</div>
-        {pageCount > 1 ? <nav aria-label="Pagini catalog" className="mt-8 flex items-center justify-center gap-5 text-sm text-[#3b2d24]">
-          {page > 1 ? <Link href={pageHref(page - 1)} className="rounded-full border border-[#3b2d24] px-4 py-2">← Înapoi</Link> : null}
-          <span aria-live="polite">Pagina {page} din {pageCount}</span>
-          {page < pageCount ? <Link href={pageHref(page + 1)} className="rounded-full border border-[#3b2d24] px-4 py-2">Înainte →</Link> : null}
+        {pageCount > 1 ? <nav aria-label="Pagini catalog" className="mt-8 flex flex-wrap items-center justify-center gap-2 text-sm text-[#3b2d24]">
+          {page > 1 ? <Link href={pageHref(page - 1)} className="flex min-h-11 items-center rounded-full border border-[#3b2d24] px-4">← Înapoi</Link> : null}
+          {categorie === 'oferte' && Array.from({ length: pageCount }, (_, index) => index + 1).map(number =>
+            <Link key={number} href={pageHref(number)} aria-label={`Pagina ${number}`} aria-current={number === page ? 'page' : undefined}
+              className={`flex min-h-11 min-w-11 items-center justify-center rounded-full border px-3 font-semibold ${number === page ? 'border-[#3b2d24] bg-[#3b2d24] text-white' : 'border-[#3b2d24] bg-white'}`}>{number}</Link>)}
+          <span className="px-2" aria-live="polite">Pagina {page} din {pageCount}</span>
+          {page < pageCount ? <Link href={pageHref(page + 1)} className="flex min-h-11 items-center rounded-full border border-[#3b2d24] px-4">Înainte →</Link> : null}
         </nav> : null}
         {categoryContent(active?.path) && <section className="category-buying-guide"><h2>Cum alegi din această categorie?</h2><p>{categoryContent(active?.path)!.intro}</p><p>{categoryContent(active?.path)!.advice}</p>{active?.path.startsWith('lenjerii-de-pat') && <Link href="/ghid-dimensiuni">Găsește lenjeria potrivită →</Link>}</section>}
       </section>
