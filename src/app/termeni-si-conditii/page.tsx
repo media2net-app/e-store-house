@@ -2,7 +2,8 @@ import Link from "next/link";
 import LegalLayout from "@/components/layout/LegalLayout";
 import { store } from "@/lib/store-info";
 import { checkoutConfiguration } from "@/lib/checkout-config";
-export const metadata = { title: "Termeni și condiții" };
+import { pageMetadata } from "@/lib/page-metadata";
+export const metadata = pageMetadata("Termeni și condiții", "Consultă condițiile de cumpărare din E-Store House: produse, prețuri, comenzi, plată, livrare și drepturile consumatorilor.", "/termeni-si-conditii");
 export default function Page() { const { ready: checkoutReady, cardReady: cardPaymentReady, codReady, shippingOptions } = checkoutConfiguration(); const codCouriers = [...new Set(shippingOptions.filter(option => option.codAvailable).map(option => option.carrier === "fan" ? "FAN Courier" : "Sameday"))].join(" sau "); return <LegalLayout>
 <h1>Termeni și condiții</h1>
 <section><h2>Comerciantul și comunicarea</h2><p>{store.name}, CUI {store.cui}, Registrul Comerțului {store.registration}, cu sediul social la {store.address}. Ne poți contacta la <a href={`mailto:${store.email}`}>{store.email}</a>. Datele de contact sunt disponibile în <Link href="/informatii-clienti">pagina pentru clienți</Link>.</p></section>

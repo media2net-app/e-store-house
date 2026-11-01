@@ -1,6 +1,9 @@
 import LegalLayout from "@/components/layout/LegalLayout";
 import Link from "next/link";
 import { store } from "@/lib/store-info";
+import { pageMetadata } from "@/lib/page-metadata";
+
+export const metadata = pageMetadata("Garanția legală de conformitate", "Consultă drepturile privind garanția legală de conformitate, remediile disponibile și notificarea oficială a Uniunii Europene.", "/garantie-legala");
 
 export default function LegalGuaranteePage() {
   return <LegalLayout>

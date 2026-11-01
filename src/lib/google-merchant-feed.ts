@@ -24,6 +24,7 @@ function item(input: {
   image: string;
   extraImages: string[];
   price: number;
+  comparisonPrice?: number;
   available: boolean;
   brand?: string;
   productType?: string;
@@ -31,7 +32,10 @@ function item(input: {
   size?: string;
 }) {
   const description = input.description.replace(/\s+/g, ' ').trim().slice(0, 5000);
-  return `<item>${tag('id', input.id)}${tag('title', input.title.slice(0, 150))}${tag('description', description)}${tag('link', input.link)}${tag('image_link', new URL(input.image, baseUrl).href)}${input.extraImages.slice(0, 3).map(image => tag('additional_image_link', new URL(image, baseUrl).href)).join('')}${tag('availability', input.available ? 'in stock' : 'out of stock')}${tag('price', `${input.price.toFixed(2)} RON`)}${tag('condition', 'new')}${tag('brand', input.brand)}${tag('product_type', input.productType)}${tag('item_group_id', input.groupId)}${tag('size', input.size)}</item>`;
+  const comparisonPrice = input.comparisonPrice;
+  const onSale = typeof comparisonPrice === 'number' && Number.isFinite(comparisonPrice) && comparisonPrice > input.price;
+  const regularPrice = onSale ? comparisonPrice : input.price;
+  return `<item>${tag('id', input.id)}${tag('title', input.title.slice(0, 150))}${tag('description', description)}${tag('link', input.link)}${tag('image_link', new URL(input.image, baseUrl).href)}${input.extraImages.slice(0, 3).map(image => tag('additional_image_link', new URL(image, baseUrl).href)).join('')}${tag('availability', input.available ? 'in stock' : 'out of stock')}${tag('price', `${regularPrice.toFixed(2)} RON`)}${onSale ? tag('sale_price', `${input.price.toFixed(2)} RON`) : ''}${tag('condition', 'new')}${tag('brand', input.brand)}${tag('product_type', input.productType)}${tag('item_group_id', input.groupId)}${tag('size', input.size)}</item>`;
 }
 
 export function googleMerchantFeed(products: Product[]) {
@@ -54,6 +58,7 @@ export function googleMerchantFeed(products: Product[]) {
           image: images[0] || product.image,
           extraImages: images.slice(1),
           price: variant.price,
+          comparisonPrice: variant.oldPrice,
           available: product.inStock !== false && variant.inStock !== false,
           groupId: `esh-${product.id}`,
           size: variant.dimensions || variant.name,
@@ -69,6 +74,7 @@ export function googleMerchantFeed(products: Product[]) {
       image: product.image,
       extraImages: product.images.slice(1),
       price: product.price,
+      comparisonPrice: product.oldPrice,
       available: product.inStock !== false,
     })];
   });
