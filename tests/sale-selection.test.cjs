@@ -15,7 +15,8 @@ const sale = load('src/lib/super-sale.ts', Object.fromEntries(['super-sale','bat
 const bath = load('src/lib/bath-offers.ts', {'@/data/bath-offers.json':read('src/data/bath-offers.json')});
 const damasc = load('src/lib/damasc-offers.ts', {'@/data/damasc-offers.json':read('src/data/damasc-offers.json')});
 const ralex = load('src/lib/ralex-57-offers.ts', {'@/data/ralex-57-offers.json':read('src/data/ralex-57-offers.json')});
-const catalog = base.map(sale.applySuperSale).map(bath.applyBathOffer).map(damasc.applyDamascOffer).map(ralex.applyRalex57Offer);
+const launch = load('src/lib/tablecloth-launch.ts', {'@/data/tablecloth-launch-prices.json':read('src/data/tablecloth-launch-prices.json')});
+const catalog = base.map(sale.applySuperSale).map(bath.applyBathOffer).map(damasc.applyDamascOffer).map(ralex.applyRalex57Offer).map(launch.applyTableclothLaunch);
 const categories = load('src/lib/categories.ts', {'./sale-selection':selection,'@/data/categories.json':read('src/data/categories.json'),'@/lib/products':{allProducts:catalog}});
 test('Super Sales includes only reductions strictly above 40% for every displayed size',()=>{
  const p={id:1,tag:'Super Sale',discount:41};
@@ -38,9 +39,10 @@ test('Super Sales page lists 157 discounted models and 24 tablecloth models with
  const tablecloths=offers.filter(p=>selection.matchesSaleSection(p,'fete-de-masa'));
  assert(tablecloths.every(p=>!p.discount && !p.oldPrice && Number.isInteger(p.price)
   && (p.variants||[]).every(v=>!v.discount && !v.oldPrice && Number.isInteger(v.price))));
- assert.equal(tablecloths.filter(p=>p.discountExcluded).length,1);
+ assert.equal(tablecloths.filter(p=>p.discountExcluded).length,24);
+ assert(tablecloths.every(p=>p.tag==='Preț de lansare'));
  assert.equal(selection.saleSection('fete'),undefined);
  assert.equal(selection.saleSection(['baie']),undefined);
  assert.equal(selection.saleSection('invalid'),undefined);
- assert.equal(catalog.filter(p=>p.tag==='Super Sale').length,184);
+ assert.equal(catalog.filter(p=>p.tag==='Super Sale').length,183);
 });

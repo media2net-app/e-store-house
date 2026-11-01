@@ -65,7 +65,7 @@ export function quoteBlackFridayCoupon(codeInput: unknown, lines: readonly Coupo
   } else if (code === "BFDORMITOR40" && hasBedding && hasDuvet && hasSetAccessory && eligibleCents >= 79_900) {
     coupon = { code, discountCents: 4_000, label: "Black Friday: dormitor complet" };
   }
-  if (!coupon) throw new Error("Coșul nu îndeplinește condițiile acestui cupon. Produsele Super Sale, ofertele pentru baie și cele neeligibile nu se iau în calcul.");
+  if (!coupon) throw new Error("Coșul nu îndeplinește condițiile acestui cupon. Produsele Super Sale, ofertele pentru baie, fețele de masă la preț de lansare și cele neeligibile nu se iau în calcul.");
   if (coupon.discountCents <= automaticDiscountCents) {
     return { code, discountCents: automaticDiscountCents, applied: false,
       message: "Oferta automată de 10% la produsul cel mai ieftin este mai avantajoasă și rămâne aplicată." };

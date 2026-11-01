@@ -40,7 +40,7 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
   const canonical = `/shop${canonicalParams.size ? `?${canonicalParams}` : ''}`;
   const filtered = ['selectie','q','material','culoare','dimensiune','cearsaf','stoc','pret_min','pret_max','sortare'].some(key => Boolean(params[key as keyof ShopParams]));
   const description = categorie === "oferte"
-    ? "Descoperă modele Super Sale cu reducere și fețe de masă fără reducere afișată. Condițiile ofertelor suplimentare sunt afișate pe fiecare produs."
+    ? "Descoperă modele Super Sale cu reducere și fețe de masă la preț de lansare. Condițiile ofertelor suplimentare sunt afișate pe fiecare produs."
     : active ? `${active.name}: ${categoryContent(typeof categorie === "string" ? categorie : undefined)?.description || "Vezi dimensiunile, materialele și variantele disponibile în E-Store House."}`
       : "Descoperă textile pentru casă disponibile în magazinul E-Store House.";
   return {
@@ -128,18 +128,18 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
         </div>
         {categorie === "lenjerii-de-pat/lenjerii-de-pat-promo" && <p className="shop-promo-clarification">Reducerile sunt marcate distinct; prețul fără marcaj nu este redus.</p>}
         {active?.path === "oferte" && <nav className="sale-section-picker" data-selected={selection ? "true" : undefined} aria-label="Colecții și oferte">
-          <p>{reducedItems.length} modele reduse peste 40% și {categoryProducts('fete-de-masa').length} modele de fețe de masă fără reducere afișată. Alege ce cauți:</p>
+          <p>{reducedItems.length} modele reduse peste 40% și {categoryProducts('fete-de-masa').length} modele de fețe de masă la preț de lansare. Alege ce cauți:</p>
           <div className="sale-section-buttons">{saleSections.map(section => <Link key={section.key}
             href={`/shop?${new URLSearchParams({ categorie: 'oferte', selectie: section.key })}`}
             className={`sale-section-button${section.key === 'fete-de-masa' ? ' sale-section-button-catalog' : ''}`} aria-current={selection === section.key ? 'page' : undefined}>
             <svg aria-hidden="true" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
               {section.key === 'baie' ? <><path d="M5 7h22M9 7v20h14V7M9 21h14M9 24h14"/><path d="M5 5v4M27 5v4"/></> : section.key === 'lenjerii' ? <><path d="M4 25V11a3 3 0 0 1 3-3h18a3 3 0 0 1 3 3v14M4 18h24M4 23h24"/><rect x="7" y="11" width="7" height="5" rx="1"/><rect x="18" y="11" width="7" height="5" rx="1"/></> : <><ellipse cx="16" cy="10" rx="11" ry="5"/><path d="M5 10v14c0 3 22 3 22 0V10M10 15v11M22 15v11"/></>}
-            </svg><span><strong>{section.label}</strong><small>{salePageItems.filter(p => matchesSaleSection(p, section.key)).length} modele{section.key === 'fete-de-masa' ? ' · fără reducere afișată' : ''}</small></span>
+            </svg><span><strong>{section.label}</strong><small>{salePageItems.filter(p => matchesSaleSection(p, section.key)).length} modele{section.key === 'fete-de-masa' ? ' · preț de lansare' : ''}</small></span>
           </Link>)}</div>
           {selection && <Link href="/shop?categorie=oferte" className="sale-show-all">Vezi toate produsele →</Link>}
         </nav>}
         {active?.path === "oferte" ? <p className="mt-4 rounded-xl border border-[#d8c4a0] bg-[#fcf7ee] px-5 py-4 text-sm leading-relaxed text-[#3b2d24]">
-          Produsele cu procent de reducere afișat au prețul promoțional inclus. Condițiile reducerilor suplimentare sunt afișate pe fiecare produs. <Link href="/promotii" className="font-semibold underline">Vezi condițiile ofertei</Link>.
+          Produsele cu procent de reducere afișat au prețul promoțional inclus. Fețele de masă au preț de lansare, fără procent de reducere. <Link href="/promotii" className="font-semibold underline">Vezi condițiile ofertei</Link>.
         </p> : null}
 
         {subcategories.length > 0 && <nav className="subcategory-links" aria-label="Subcategorii">{subcategories.map(c=><Link key={c.path} href={categoryHref(c.path)}><span>{c.name}</span><CategorySummary path={c.path}/></Link>)}</nav>}
@@ -167,7 +167,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
 
         {!products.length && suggestion && <p className="search-suggestion">Ai vrut să cauți <Link href={`/shop?${new URLSearchParams({ q: suggestion, ...(categorie ? { categorie } : {}), ...(selection ? {selectie: selection} : {}) })}`}>{suggestion}</Link>?</p>}
         {!products.length && <div className="empty-state"><h2>Niciun produs pentru această selecție</h2><p>Încearcă să elimini un filtru sau să folosești un termen mai scurt.</p><Link className="section-link" href={`/shop?${new URLSearchParams({...categorie?{categorie}:{},...selection?{selectie:selection}:{},...query?{q:query}:{}})}`}>Elimină filtrele →</Link></div>}
-        <div className="products-grid mt-8">{visibleProducts.map((product, index) => <ProductCard key={product.id} product={product} reason={categorie === 'oferte' && !isVisibleSale(product) ? 'Fără reducere afișată' : undefined} priority={index < 2} variantId={(filters.dimensiune || query && product.variants?.length === 1) && product.variants?.length ? product.variants.reduce((a,b)=>a.price<=b.price?a:b).id : undefined} />)}</div>
+        <div className="products-grid mt-8">{visibleProducts.map((product, index) => <ProductCard key={product.id} product={product} reason={categorie === 'oferte' && product.tag === 'Preț de lansare' ? 'Preț de lansare · fără procent de reducere' : undefined} priority={index < 2} variantId={(filters.dimensiune || query && product.variants?.length === 1) && product.variants?.length ? product.variants.reduce((a,b)=>a.price<=b.price?a:b).id : undefined} />)}</div>
         {pageCount > 1 ? <nav aria-label="Pagini catalog" className="mt-8 flex flex-wrap items-center justify-center gap-2 text-sm text-[#3b2d24]">
           {page > 1 ? <Link href={pageHref(page - 1)} className="flex min-h-11 items-center rounded-full border border-[#3b2d24] px-4">← Înapoi</Link> : null}
           {categorie === 'oferte' && Array.from({ length: pageCount }, (_, index) => index + 1).map(number =>

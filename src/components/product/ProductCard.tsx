@@ -11,7 +11,7 @@ export default function ProductCard({ product, reason, priority = false, variant
   const sizes = simple?.summary ?? productSizeSummary(shown);
   const reference = formatProductReferenceRange(shown);
   return <Link href={"/product/" + product.id + (variantId ? `?varianta=${variantId}` : "")} data-estore-item={JSON.stringify({item_id: product.variants?.find(v => v.id === variantId)?.sku || product.sku || String(product.id), item_name: product.name, price: product.price, quantity: 1})} className="catalog-card catalog-card-link">
-    <div className="catalog-card-image"><Image src={selected?.images?.[0] || product.image} alt={product.name} quality={60} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : "auto"} width={400} height={600} sizes="(max-width: 700px) 45vw, (max-width: 1000px) 30vw, 250px" />{shown.discount && <span className="sale-percent-badge">−{shown.discount}%</span>}</div>
+    <div className="catalog-card-image"><Image src={selected?.images?.[0] || product.image} alt={product.name} quality={60} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : "auto"} width={400} height={600} sizes="(max-width: 700px) 45vw, (max-width: 1000px) 30vw, 250px" />{shown.discount ? <span className="sale-percent-badge">−{shown.discount}%</span> : product.tag === 'Preț de lansare' ? <span className="launch-price-badge">Preț de lansare</span> : null}</div>
     <div className="catalog-card-copy">
 
       <h2>{productDisplayName(product)}</h2>

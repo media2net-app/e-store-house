@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 export function validateSuperSale(products, offers, evidence) {
-  assert.equal(offers.length,30,'The approved campaign must contain exactly 30 models');
+  assert.equal(offers.length,29,'The approved campaign must contain exactly 29 models');
   assert.equal(new Set(offers.map(o=>o.id)).size,offers.length,'Duplicate sale model');
   for(const offer of offers){
     const product=products.find(p=>p.id===offer.id);
