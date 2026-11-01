@@ -9,7 +9,7 @@ function load(file, deps = {}) {
   return exports;
 }
 const read = name => JSON.parse(fs.readFileSync(name));
-const selection = load('src/lib/sale-selection.ts');
+const selection = load('src/lib/sale-selection.ts', {'@/data/ralex-57-offers.json':read('src/data/ralex-57-offers.json')});
 const base = read('src/data/products.json');
 const sale = load('src/lib/super-sale.ts', Object.fromEntries(['super-sale','bath-offers','damasc-offers','ralex-57-offers'].map(n=>['@/data/'+n+'.json',read('src/data/'+n+'.json')])));
 const bath = load('src/lib/bath-offers.ts', {'@/data/bath-offers.json':read('src/data/bath-offers.json')});
@@ -17,13 +17,16 @@ const damasc = load('src/lib/damasc-offers.ts', {'@/data/damasc-offers.json':rea
 const ralex = load('src/lib/ralex-57-offers.ts', {'@/data/ralex-57-offers.json':read('src/data/ralex-57-offers.json')});
 const catalog = base.map(sale.applySuperSale).map(bath.applyBathOffer).map(damasc.applyDamascOffer).map(ralex.applyRalex57Offer);
 const categories = load('src/lib/categories.ts', {'./sale-selection':selection,'@/data/categories.json':read('src/data/categories.json'),'@/lib/products':{allProducts:catalog}});
-test('Super Sales includes only reductions strictly above 40% for every displayed size',()=>{
+test('Super Sales keeps existing 40% threshold and includes all Ralex campaign sizes',()=>{
  const p={id:1,tag:'Super Sale',discount:41};
  assert(selection.isVisibleSale(p));
  for(const discount of [undefined,0,39,40])assert(!selection.isVisibleSale({...p,discount}));
  assert(!selection.isVisibleSale({...p,tag:undefined}));
  assert(!selection.isVisibleSale({...p,variants:[{discount:41},{discount:40}]}));
  assert(selection.isVisibleSale({...p,variants:[{discount:41},{discount:55}]}));
+ const ralexId = read('src/data/ralex-57-offers.json')[0].id;
+ assert(selection.isVisibleSale({...p,id:ralexId,discount:36,variants:[{discount:36},{discount:45}]}));
+ assert(!selection.isVisibleSale({...p,id:ralexId,discount:36,variants:[{discount:36},{discount:0}]}));
 });
 test('214 visible campaign models split into bath, bedding and tablecloth sections',()=>{
  const offers=catalog.filter(p=>categories.isInCategory(p,'oferte'));

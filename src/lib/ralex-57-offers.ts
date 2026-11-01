@@ -18,7 +18,8 @@ export function applyRalex57Offer(product: Product): Product {
     const oldCents = Math.round(entry.comparisonPrice * 100);
     const saleCents = Math.round(entry.price * 100);
     const discount = Math.floor((oldCents - saleCents) * 100 / oldCents);
-    if (saleCents <= 0 || saleCents % 100 !== 99 || discount <= 40 || !entry.referencePeriod) {
+    if (saleCents <= 0 || saleCents % 100 !== 0 || entry.price % 10 !== 9
+      || discount <= 0 || !entry.referencePeriod) {
       throw new Error(`Ralex campaign price invalid: ${product.id}:${variant.sku}`);
     }
     return { ...variant, price: entry.price, oldPrice: entry.comparisonPrice, discount,

@@ -11,7 +11,7 @@ function load(file, mocks = {}) {
  mod._compile(ts.transpileModule(fs.readFileSync(file,'utf8'), {compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText,file);
  return mod.exports;
 }
-const {isInCategory,categoryProducts} = load('src/lib/categories.ts', {'./sale-selection':load('src/lib/sale-selection.ts'), '@/data/categories.json':categories,'@/lib/products':{allProducts:products}});
+const {isInCategory,categoryProducts} = load('src/lib/categories.ts', {'./sale-selection':load('src/lib/sale-selection.ts', {'@/data/ralex-57-offers.json':{default:JSON.parse(fs.readFileSync('src/data/ralex-57-offers.json'))}}), '@/data/categories.json':categories,'@/lib/products':{allProducts:products}});
 const {catalogPriceRange}=load('src/lib/product-format.ts');
 const {navigationGroups,groupHref}=load('src/lib/navigation-groups.ts');
 // Parent pages must contain all descendants exactly once, including nested leaves.

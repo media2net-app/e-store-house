@@ -85,7 +85,7 @@ test('variant reference-price range is shown without decimal padding', () => {
 
 test('homepage showcases only available offers above 40%, including every displayed size', () => {
   const discovery = load('src/lib/discovery.ts');
-  const { homeOffers } = load('src/lib/home-offers.ts', { './discovery': discovery, './sale-selection': load('src/lib/sale-selection.ts') });
+  const { homeOffers } = load('src/lib/home-offers.ts', { './discovery': discovery, './sale-selection': load('src/lib/sale-selection.ts', {'@/data/ralex-57-offers.json':read('src/data/ralex-57-offers.json')}) });
   const products = catalog.map(applyBathOffer);
   const picks = homeOffers(products);
   assert.equal(picks.length, 16);
