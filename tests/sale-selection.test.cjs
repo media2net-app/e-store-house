@@ -25,16 +25,17 @@ test('Super Sales includes only reductions strictly above 40% for every displaye
  assert(!selection.isVisibleSale({...p,variants:[{discount:41},{discount:40}]}));
  assert(selection.isVisibleSale({...p,variants:[{discount:41},{discount:55}]}));
 });
-test('214 visible campaign models split into bath, bedding and tablecloth sections',()=>{
+test('157 visible campaign models split into bath and bedding sections',()=>{
  const offers=catalog.filter(p=>categories.isInCategory(p,'oferte'));
- assert.equal(offers.length,214);
- for(const [key,count] of [['baie',89],['lenjerii',112],['fete',13]]) {
+ assert.equal(offers.length,157);
+ for(const [key,count] of [['baie',89],['lenjerii',68]]) {
   const selected=offers.filter(p=>selection.matchesSaleSection(p,key));
   assert.equal(selected.length,count);
   assert(selected.every(selection.isVisibleSale));
  }
- assert.equal(offers.filter(p=>selection.matchesSaleSection(p,undefined)).length,214);
+ assert.equal(offers.filter(p=>selection.matchesSaleSection(p,undefined)).length,157);
+ assert.equal(selection.saleSection('fete'),undefined);
  assert.equal(selection.saleSection(['baie']),undefined);
  assert.equal(selection.saleSection('invalid'),undefined);
- assert.equal(catalog.filter(p=>p.tag==='Super Sale').length,241);
+ assert.equal(catalog.filter(p=>p.tag==='Super Sale').length,184);
 });
