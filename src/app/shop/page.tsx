@@ -126,7 +126,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
         </p>
         </div>
         {categorie === "lenjerii-de-pat/lenjerii-de-pat-promo" && <p className="shop-promo-clarification">Reducerile sunt marcate distinct; prețul fără marcaj nu este redus.</p>}
-        {active?.path === "oferte" && <nav className="sale-section-picker" aria-label="Alege produsele Super Sales">
+        {active?.path === "oferte" && <nav className="sale-section-picker" data-selected={selection ? "true" : undefined} aria-label="Alege produsele Super Sales">
           <p>Reduceri de peste 40%. Ce cauți?</p>
           <div className="sale-section-buttons">{saleSections.map(section => <Link key={section.key}
             href={`/shop?${new URLSearchParams({ categorie: 'oferte', selectie: section.key })}`}
