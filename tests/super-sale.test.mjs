@@ -8,19 +8,20 @@ const require=createRequire(import.meta.url),Module=require('node:module');
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
 const products=read('src/data/products.json'),offers=read('src/data/super-sale.json'),evidence=read('catalog-review/price-verification-29-20261022/results.json');
 function load(file,mocks){const m=new Module(file);m.require=id=>{assert(Object.hasOwn(mocks,id),id);return mocks[id]};m._compile(ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText,file);return m.exports;}
-const sale=load('src/lib/super-sale.ts',{'@/data/super-sale.json':offers,'@/data/bath-offers.json':read('src/data/bath-offers.json'),'@/data/damasc-offers.json':read('src/data/damasc-offers.json')});
+const sale=load('src/lib/super-sale.ts',{'@/data/super-sale.json':offers,'@/data/bath-offers.json':read('src/data/bath-offers.json'),'@/data/damasc-offers.json':read('src/data/damasc-offers.json'),'@/data/ralex-57-offers.json':read('src/data/ralex-57-offers.json')});
 const bath=load('src/lib/bath-offers.ts',{'@/data/bath-offers.json':read('src/data/bath-offers.json')});
 const damasc=load('src/lib/damasc-offers.ts',{'@/data/damasc-offers.json':read('src/data/damasc-offers.json')});
-const {allProducts}=load('src/lib/products.ts',{'./product-colors':{withProductColors:p=>p},'./super-sale':sale,'./bath-offers':bath,'./damasc-offers':damasc,'@/data/quality-hold.json':[],'@/data/products.json':products,'./product-format':{}});
+const ralex=load('src/lib/ralex-57-offers.ts',{'@/data/ralex-57-offers.json':read('src/data/ralex-57-offers.json')});
+const {allProducts}=load('src/lib/products.ts',{'./product-colors':{withProductColors:p=>p},'./super-sale':sale,'./bath-offers':bath,'./damasc-offers':damasc,'./ralex-57-offers':ralex,'@/data/quality-hold.json':[],'@/data/products.json':products,'./product-format':{}});
 const cartOffers=load('src/lib/cart-offers.ts',{});
 const {quoteCart}=load('src/lib/cart-quote.ts',{'server-only':{},'@/lib/cart-offers':cartOffers,'@/lib/black-friday':{quoteBlackFridayCoupon:()=>null},'@/lib/products':{allProducts}});
 test('exactly 30 whole-lei supplier-plus-10% offers compared with actual prior selling prices',()=>{
  assert.equal(validateSuperSale(products,offers,evidence),30);
- assert.equal(allProducts.filter(p=>p.tag==='Super Sale').length,184);
- assert.equal(sale.SUPER_SALE_IDS.length,184);
+ assert.equal(allProducts.filter(p=>p.tag==='Super Sale').length,241);
+ assert.equal(sale.SUPER_SALE_IDS.length,241);
  for(const p of products){
   const actual=allProducts.find(x=>x.id===p.id),offer=offers.find(x=>x.id===p.id);
-  if(actual.discountExcluded){assert.deepEqual(actual,damasc.applyDamascOffer(bath.applyBathOffer(sale.applySuperSale(p))));continue;}
+  if(actual.discountExcluded){assert.deepEqual(actual,ralex.applyRalex57Offer(damasc.applyDamascOffer(bath.applyBathOffer(sale.applySuperSale(p)))));continue;}
   if(!offer){assert.deepEqual(actual,p);continue;}
   assert.equal(actual.price,offer.price);assert(Number.isInteger(actual.price));
   assert.equal(actual.oldPrice,offer.comparisonPrice);

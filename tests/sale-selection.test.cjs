@@ -11,10 +11,11 @@ function load(file, deps = {}) {
 const read = name => JSON.parse(fs.readFileSync(name));
 const selection = load('src/lib/sale-selection.ts');
 const base = read('src/data/products.json');
-const sale = load('src/lib/super-sale.ts', Object.fromEntries(['super-sale','bath-offers','damasc-offers'].map(n=>['@/data/'+n+'.json',read('src/data/'+n+'.json')])));
+const sale = load('src/lib/super-sale.ts', Object.fromEntries(['super-sale','bath-offers','damasc-offers','ralex-57-offers'].map(n=>['@/data/'+n+'.json',read('src/data/'+n+'.json')])));
 const bath = load('src/lib/bath-offers.ts', {'@/data/bath-offers.json':read('src/data/bath-offers.json')});
 const damasc = load('src/lib/damasc-offers.ts', {'@/data/damasc-offers.json':read('src/data/damasc-offers.json')});
-const catalog = base.map(sale.applySuperSale).map(bath.applyBathOffer).map(damasc.applyDamascOffer);
+const ralex = load('src/lib/ralex-57-offers.ts', {'@/data/ralex-57-offers.json':read('src/data/ralex-57-offers.json')});
+const catalog = base.map(sale.applySuperSale).map(bath.applyBathOffer).map(damasc.applyDamascOffer).map(ralex.applyRalex57Offer);
 const categories = load('src/lib/categories.ts', {'./sale-selection':selection,'@/data/categories.json':read('src/data/categories.json'),'@/lib/products':{allProducts:catalog}});
 test('Super Sales includes only reductions strictly above 40% for every displayed size',()=>{
  const p={id:1,tag:'Super Sale',discount:41};
@@ -24,16 +25,16 @@ test('Super Sales includes only reductions strictly above 40% for every displaye
  assert(!selection.isVisibleSale({...p,variants:[{discount:41},{discount:40}]}));
  assert(selection.isVisibleSale({...p,variants:[{discount:41},{discount:55}]}));
 });
-test('157 campaign models split into 89 bath and 68 bedding, without changing their prices',()=>{
+test('214 visible campaign models split into bath, bedding and tablecloth sections',()=>{
  const offers=catalog.filter(p=>categories.isInCategory(p,'oferte'));
- assert.equal(offers.length,157);
- for(const [key,count] of [['baie',89],['lenjerii',68]]) {
+ assert.equal(offers.length,214);
+ for(const [key,count] of [['baie',89],['lenjerii',112],['fete',13]]) {
   const selected=offers.filter(p=>selection.matchesSaleSection(p,key));
   assert.equal(selected.length,count);
   assert(selected.every(selection.isVisibleSale));
  }
- assert.equal(offers.filter(p=>selection.matchesSaleSection(p,undefined)).length,157);
+ assert.equal(offers.filter(p=>selection.matchesSaleSection(p,undefined)).length,214);
  assert.equal(selection.saleSection(['baie']),undefined);
  assert.equal(selection.saleSection('invalid'),undefined);
- assert.equal(catalog.filter(p=>p.tag==='Super Sale').length,184);
+ assert.equal(catalog.filter(p=>p.tag==='Super Sale').length,241);
 });
