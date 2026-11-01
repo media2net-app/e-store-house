@@ -123,7 +123,7 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
         </p>
         </div>
         {active?.path === "oferte" && <nav className="sale-section-picker" aria-label="Alege produsele Super Sales">
-          <p>Oferte Super Sales. Ce cauți?</p>
+          <p>Reduceri de peste 40%. Ce cauți?</p>
           <div className="sale-section-buttons">{saleSections.map(section => <Link key={section.key}
             href={`/shop?${new URLSearchParams({ categorie: 'oferte', selectie: section.key })}`}
             className="sale-section-button" aria-current={selection === section.key ? 'page' : undefined}>

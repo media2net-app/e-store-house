@@ -34,11 +34,10 @@ test('Ralex reseller campaign covers each existing SKU once with a genuine displ
       seen.add(variant.sku);
       variantCount++;
       assert.equal(variant.oldPrice, old.price);
-      assert(Number.isInteger(variant.price));
-      assert.equal(variant.price % 10, 9);
+      assert.equal(Math.round(variant.price * 100) % 100, 99);
       assert(variant.price < variant.oldPrice);
       assert.equal(variant.discount, Math.floor((Math.round(old.price * 100) - Math.round(variant.price * 100)) * 100 / Math.round(old.price * 100)));
-      assert(variant.discount > 0);
+      assert(variant.discount > 40);
       assert(variant.saleReferencePeriod);
     }
   }
