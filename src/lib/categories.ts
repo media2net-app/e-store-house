@@ -8,7 +8,7 @@ export const getCategory = (path: string) => categories.find((category) => categ
 export const getCategoryChildren = (path: string | null, includeEmpty = false) => categories.filter((category) => category.parent === path && (includeEmpty || categoryCount(category.path) > 0));
 export const categoryHref = (path: string) => `/shop?categorie=${encodeURIComponent(path)}`;
 export const isInCategory = (product: Product, path: string) => {
-  if (path === "oferte") return isVisibleSale(product);
+  if (path === "oferte") return isVisibleSale(product) || product.categoryPath === "fete-de-masa" || product.categoryPath?.startsWith("fete-de-masa/") === true;
   return product.categoryPath === path || product.categoryPath?.startsWith(`${path}/`) === true;
 };
 export const categoryProducts = (path: string) => allProducts.filter((product) => isInCategory(product, path));
