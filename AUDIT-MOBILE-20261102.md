@@ -22,7 +22,7 @@ Brief-ul integral primit de la comerciant este păstrat în `MOBILE-MASTER-BRIEF
 - Capturile înainte/după sunt în `/Users/mihaipopescu/Desktop/estorehouse-mobile-audit-20261102/`: `home-before.png`, `home-after-campaign.png`, `home-after-normal.png`, `category-before.png`, `category-after.png`, `product-before.png`, `product-after.png`, `checkout-before.png`, `checkout-after.png`.
 - Căutarea, navigarea, adăugarea rapidă, coșul și accesul la checkout au fost parcurse local. Checkoutul local nu avea acreditările de producție pentru ofertele curierilor, tranzacție/card sau comandă efectivă; regulile de quote, plată ramburs, cupon, prag de 399 lei și prevenirea duplicatelor sunt acoperite de testele server existente. Nu pretind o plată sau comandă reală.
 - Valorile de performanță din browserul cald reprezintă doar navigarea de test, nu Core Web Vitals. Nu există scoruri de teren comparabile înainte/după și nu declar o îmbunătățire cuantificată.
-- Perioada cupoanelor Black Friday este 3–16 noiembrie 2026. Data de sfârșit a **campaniei vizuale** nu a fost furnizată. Mecanismul `auto` este pregătit, dar modul rămâne `on` până la configurarea intervalului confirmat; detalii în `CAMPAIGN-CONFIG.md`.
+- Perioada cupoanelor Black Friday este 3–16 noiembrie 2026. Ulterior auditului inițial, comerciantul a confirmat că **modul vizual** se încheie la sfârșitul lunii noiembrie; `mode: "auto"` îl oprește la 1 decembrie 2026, ora 00:00 în România. Data de început rămâne neinventată (`startAt: null`); detalii în `CAMPAIGN-CONFIG.md`.
 - Catalogul comercial (`src/data/products.json`), prețurile, regulile de transport și URL-urile existente nu au fost editate pentru această lucrare.
 
 ## Publicare și revenire
