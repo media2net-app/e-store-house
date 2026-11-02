@@ -19,6 +19,8 @@ const towel = { ...sample, name:'Prosop alb', category:'Prosoape', categoryPath:
 assert(matchesSearch(towel, 'prosoape baie'));
 const bathrobe = products.find(product => product.name.startsWith('Halat de baie din velur'));
 assert(bathrobe && !matchesSearch(bathrobe, 'prosoape baie'), 'A towel mentioned as not included must not match a bathrobe');
+const fittedSheet = products.find(product => product.name === 'Lenjerie Ranforce Cotton Pro Armonique');
+assert(fittedSheet && matchesSearch(fittedSheet, 'cearceaf cu elastic 90x200'), 'Variant contents must remain searchable');
 const cotton = { ...sample, name:'Lenjerie de pat', categoryPath:'lenjerii-de-pat', material:'100% bumbac' };
 const polycotton = { ...cotton, material:'Damasc policoton, 80% poliester, 20% bumbac', sku:'100123' };
 assert(matchesSearch(cotton, 'lenjerie 100% bumbac'));

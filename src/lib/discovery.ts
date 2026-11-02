@@ -19,6 +19,7 @@ const searchWords = (query: string) => rawWords(query)
 const asksForPureCotton = (query: string) => /(?:^|\s)(?:100\s*%?\s*bumbac|bumbac\s*100\s*%?)(?=\s|$)/.test(normalizeSearch(query));
 const isPureCotton = (product: Product) => /\b100\s*%\s*bumbac\b/.test(normalizeSearch(product.material?.trim() || product.name));
 const isDiscounted = (product: Product) => (product.discount ?? 0) > 0 || (product.variants ?? []).some(variant => (variant.discount ?? 0) > 0);
+const positiveDetail = (value?: string) => (value ?? '').split(/[;\n.]+/).filter(part => !/\bnu\b.*\b(?:inclus[aei]?|include|contine)\b/.test(normalizeSearch(part))).join(' ');
 /** Suggestions are explicit links; never silently alter numeric SKUs or measurements. */
 export function suggestSearch(query: string) {
   const typos: Record<string, string> = { lenjrie: 'lenjerie', lenjeriee: 'lenjerie', lenjerrie: 'lenjerie', bumbak: 'bumbac', cersaf: 'cearșaf', pilta: 'pilotă' };
@@ -34,8 +35,8 @@ export function matchesSearch(product: Product, query: string) {
   if (searchIntent(query).sale && !isDiscounted(product)) return false;
   const text = normalizeSearch([product.name, product.category, product.categoryPath, product.brand, product.material, product.sku,
     ...(product.colors ?? []),
-    ...(product.features?.filter(feature => /^(culoare|dimensiun|marime|tesatura|compozitie|gramaj|umplutura)/.test(normalizeSearch(feature.label))).map(feature => feature.value) ?? []),
-    ...(product.variants?.flatMap((variant) => [variant.sku, variant.name, variant.dimensions, ...(variant.colors ?? [])]) ?? [])].join(" "));
+    ...(product.features?.map(feature => positiveDetail(feature.value)) ?? []),
+    ...(product.variants?.flatMap((variant) => [variant.sku, variant.name, variant.dimensions, positiveDetail(variant.contents), ...(variant.colors ?? [])]) ?? [])].join(" "));
   const searchable = searchWords(text).join(" ");
   return searchWords(query).every((word) => searchable.includes(word));
 }
