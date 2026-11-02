@@ -5,7 +5,20 @@ export const normalizeSearch = (text: string) => text.normalize("NFD")
   .toLocaleLowerCase("ro-RO")
   .replace(/(\d)\s*[x×]\s*(\d)/g, "$1x$2");
 const searchAliases: Record<string, string> = { cearceaf: 'cearsaf', cearceafuri: 'cearsaf', cearsafuri: 'cearsaf', lenjerii: 'lenjer', lenjerie: 'lenjer', saltele: 'saltea', saltelele: 'saltea', toppere: 'topper', prosoape: 'prosop', huse: 'husa' };
-const searchWords = (query: string) => normalizeSearch(query).split(/\s+/).filter(Boolean).map(word => searchAliases[word] || word);
+const cheapWords = new Set(['ieftin', 'ieftina', 'ieftine', 'ieftini']);
+const saleWords = new Set(['oferta', 'oferte', 'reducere', 'reduceri', 'promotie', 'promotii', 'promo']);
+const fillerWords = new Set(['de', 'din', 'la', 'pentru', 'si']);
+const rawWords = (text: string) => normalizeSearch(text).split(/[\s,;.!?()[\]{}\/-]+/).filter(Boolean);
+export function searchIntent(query: string) {
+  const words = rawWords(query);
+  return { cheap: words.some(word => cheapWords.has(word)), sale: words.some(word => saleWords.has(word)) };
+}
+const searchWords = (query: string) => rawWords(query)
+  .filter(word => !cheapWords.has(word) && !saleWords.has(word) && !fillerWords.has(word))
+  .map(word => searchAliases[word] || word);
+const asksForPureCotton = (query: string) => /(?:^|\s)(?:100\s*%?\s*bumbac|bumbac\s*100\s*%?)(?=\s|$)/.test(normalizeSearch(query));
+const isPureCotton = (product: Product) => /\b100\s*%\s*bumbac\b/.test(normalizeSearch(product.material?.trim() || product.name));
+const isDiscounted = (product: Product) => (product.discount ?? 0) > 0 || (product.variants ?? []).some(variant => (variant.discount ?? 0) > 0);
 /** Suggestions are explicit links; never silently alter numeric SKUs or measurements. */
 export function suggestSearch(query: string) {
   const typos: Record<string, string> = { lenjrie: 'lenjerie', lenjeriee: 'lenjerie', lenjerrie: 'lenjerie', bumbak: 'bumbac', cersaf: 'cearșaf', pilta: 'pilotă' };
@@ -17,9 +30,12 @@ export function suggestSearch(query: string) {
   return changed ? words.join(' ') : null;
 }
 export function matchesSearch(product: Product, query: string) {
-  const text = normalizeSearch([product.name, product.category, product.brand, product.material, product.sku,
-    ...(product.features?.flatMap((feature) => [feature.label, feature.value]) ?? []),
-    ...(product.variants?.flatMap((variant) => [variant.sku, variant.name, variant.dimensions, variant.contents]) ?? [])].join(" "));
+  if (asksForPureCotton(query) && !isPureCotton(product)) return false;
+  if (searchIntent(query).sale && !isDiscounted(product)) return false;
+  const text = normalizeSearch([product.name, product.category, product.categoryPath, product.brand, product.material, product.sku,
+    ...(product.colors ?? []),
+    ...(product.features?.filter(feature => /^(culoare|dimensiun|marime|tesatura|compozitie|gramaj|umplutura)/.test(normalizeSearch(feature.label))).map(feature => feature.value) ?? []),
+    ...(product.variants?.flatMap((variant) => [variant.sku, variant.name, variant.dimensions, ...(variant.colors ?? [])]) ?? [])].join(" "));
   const searchable = searchWords(text).join(" ");
   return searchWords(query).every((word) => searchable.includes(word));
 }
