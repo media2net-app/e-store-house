@@ -144,6 +144,9 @@ export default async function MagazinPage({ searchParams }: { searchParams: Prom
           </Link>)}</div>
           {selection && <Link href="/shop?categorie=oferte" className="sale-show-all">Vezi toate produsele →</Link>}
         </nav>}
+        {active?.path === "oferte" && selection === "lenjerii" && <p className="mt-4 rounded-xl border border-[#d8c4a0] bg-white px-5 py-4 text-sm leading-relaxed text-[#3b2d24]">
+          Cauți lenjerii din 100% bumbac? <Link href="/shop?categorie=lenjerii-de-pat%2Flenjerii-100-bumbac&sortare=pret-crescator" className="font-semibold underline">Vezi colecția din bumbac, sortată după preț</Link>.
+        </p>}
         {active?.path === "oferte" ? <p className="mt-4 rounded-xl border border-[#d8c4a0] bg-[#fcf7ee] px-5 py-4 text-sm leading-relaxed text-[#3b2d24]">
           Produsele cu procent de reducere afișat au prețul promoțional inclus. Condițiile reducerilor suplimentare sunt afișate pe fiecare produs. <Link href="/promotii" className="font-semibold underline">Vezi condițiile ofertei</Link>.
         </p> : null}
