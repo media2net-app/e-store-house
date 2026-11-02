@@ -70,6 +70,7 @@ export function searchRelevance(product: Product, query: string) {
   if (intent === 'saltea') score += path.startsWith('saltele-si-toppere') && /^saltea\b/.test(normalizeSearch(product.name)) ? 250 : 0;
   if (intent === 'topper') score += path.startsWith('saltele-si-toppere') && /^topper\b/.test(normalizeSearch(product.name)) ? 250 : 0;
   if (intent === 'prosop') score += path.startsWith('articole-baie') && name.includes('prosop') ? 180 : 0;
+  if (intent === 'prosop' && words.includes('baie') && name.includes('plaja') && !words.includes('plaja')) score -= 200;
   if (intent === 'lenjer') score += path.startsWith('lenjerii-de-pat') ? 180 : 0;
   if (intent === 'husa') score += path.startsWith('huse-de-pat') || path.startsWith('protectii-saltea') ? 180 : 0;
   return score;

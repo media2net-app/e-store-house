@@ -5,7 +5,7 @@ const ts = require('typescript');
 const Module = require('node:module');
 const mod = new Module('discovery');
 mod._compile(ts.transpileModule(fs.readFileSync('src/lib/discovery.ts', 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS } }).outputText, 'discovery.js');
-const { matchesSearch, matchingSearchVariants, searchIntent, recommendations, diverseProducts } = mod.exports;
+const { matchesSearch, matchingSearchVariants, searchIntent, searchRelevance, recommendations, diverseProducts } = mod.exports;
 const products = JSON.parse(fs.readFileSync('src/data/products.json'));
 const sample = {id:1,name:'Față de pernă albă',category:'Perne',categoryPath:'perne/bumbac',material:'Bumbac',price:100,sku:'012345',images:['a','b','c','d']};
 assert(matchesSearch(sample, 'alba fata bumbac'));
@@ -17,6 +17,7 @@ assert.deepEqual(searchIntent('lenjerii de pat ieftine'), {cheap:true,sale:false
 assert.deepEqual(searchIntent('lenjerii de pat la reducere'), {cheap:false,sale:true});
 const towel = { ...sample, name:'Prosop alb', category:'Prosoape', categoryPath:'articole-baie/prosoape' };
 assert(matchesSearch(towel, 'prosoape baie'));
+assert(searchRelevance(towel, 'prosoape baie') > searchRelevance({ ...towel, name:'Prosop de plajă alb' }, 'prosoape baie'));
 const bathrobe = products.find(product => product.name.startsWith('Halat de baie din velur'));
 assert(bathrobe && !matchesSearch(bathrobe, 'prosoape baie'), 'A towel mentioned as not included must not match a bathrobe');
 const fittedSheet = products.find(product => product.name === 'Lenjerie Ranforce Cotton Pro Armonique');
