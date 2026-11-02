@@ -2,6 +2,19 @@ const {test}=require('node:test'),assert=require('node:assert/strict'),fs=requir
 function load(file,deps={},globals={}){const exports={};vm.runInNewContext(ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText,{exports,require:key=>key in deps?deps[key]:require(key),...globals});return exports;}
 const discovery=load('src/lib/discovery.ts'),facets=load('src/lib/catalog-filters.ts',{'./discovery':discovery}),finder=load('src/lib/bedding-finder.ts',{'./discovery':discovery,'./catalog-filters':facets});
 const products=JSON.parse(fs.readFileSync('src/data/products.json')),colors=JSON.parse(fs.readFileSync('src/data/product-colors.json'));
+test('mattress and topper searches rank matching products before accessories',()=>{
+ for(const [query,prefix] of [['saltea 160x200','Saltea'],['topper 180x200','Topper'],['prosop 70x140','Prosop']]){
+  const found=products.filter(p=>discovery.matchesSearch(p,query)).sort((a,b)=>discovery.searchRelevance(b,query)-discovery.searchRelevance(a,query));
+  assert(found.length>0,query);assert(found[0].name.startsWith(prefix),query);
+ }
+});
+test('dimension filter merges spelling but preserves measured object',()=>{
+ assert.equal(facets.canonicalDimension('140 × 210 cm'),'140 × 210 cm');
+ assert.equal(facets.canonicalDimension('140 x 210 cm'),'140 × 210 cm');
+ assert.equal(facets.canonicalDimension('140cm x 210cm'),'140 × 210 cm');
+ assert.equal(facets.canonicalDimension('Cearșaf 140x210cm'),'Cearșaf de pat: 140 × 210 cm');
+ assert.notEqual(facets.canonicalDimension('Cearșaf 140x210cm'),facets.canonicalDimension('Saltea 140x210cm'));
+});
 test('dimension query returns only the requested variant, not the cheaper sibling',()=>{const p=products.find(p=>p.name.includes('Crep73'));assert(p);const variants=discovery.matchingSearchVariants(p,'Crep73 240x260');assert.equal(variants.length,1);assert.equal(variants[0].id,102526);assert.equal(variants[0].price,599);});
 test('height allowance is applied to flat sheets and invalid heights do not match',()=>{const choice={sheet:'Cearșaf simplu',mattress:[],flatSheet:['240 × 260 cm']};assert(finder.fitsMattress(choice,'180 × 200 cm',20));assert(!finder.fitsMattress(choice,'180 × 200 cm',25)); assert(!finder.fitsMattress(choice,'180 × 200 cm',35)); assert(finder.fitsMattress(choice,'180 × 200 cm',15)); const fitted=finder.beddingDimensions('Husă saltea 180x200x25cm'); assert(finder.fitsMattress(fitted,'180 × 200 cm',25)); assert(!finder.fitsMattress(fitted,'180 × 200 cm',35));});
 test('colors exist for every model and are constrained to the matched variant',()=>{for(const p of products)assert((p.variants||[p]).some(v=>colors[v.sku]?.length),String(p.id));const p={id:1,name:'Set',categoryPath:'lenjerii-de-pat',inStock:true,colors:['Alb','Roz'],variants:[{id:11,price:100,colors:['Alb'],inStock:true,contents:'Husă saltea 160x200cm'},{id:12,price:200,colors:['Roz'],inStock:true,contents:'Husă saltea 180x200cm'}]};const m=finder.buildBeddingModels([p]);assert.equal(finder.filterBedding(m,{...finder.emptyBeddingFilters,color:'Roz',maxPrice:'150'}).length,0);});

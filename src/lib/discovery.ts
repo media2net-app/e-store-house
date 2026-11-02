@@ -4,7 +4,7 @@ export const normalizeSearch = (text: string) => text.normalize("NFD")
   .replace(/[\u0300-\u036f]/g, "")
   .toLocaleLowerCase("ro-RO")
   .replace(/(\d)\s*[x×]\s*(\d)/g, "$1x$2");
-const searchAliases: Record<string, string> = { cearceaf: 'cearsaf', cearceafuri: 'cearsaf', cearsafuri: 'cearsaf', lenjerii: 'lenjer', lenjerie: 'lenjer' };
+const searchAliases: Record<string, string> = { cearceaf: 'cearsaf', cearceafuri: 'cearsaf', cearsafuri: 'cearsaf', lenjerii: 'lenjer', lenjerie: 'lenjer', saltele: 'saltea', saltelele: 'saltea', toppere: 'topper', prosoape: 'prosop', huse: 'husa' };
 const searchWords = (query: string) => normalizeSearch(query).split(/\s+/).filter(Boolean).map(word => searchAliases[word] || word);
 /** Suggestions are explicit links; never silently alter numeric SKUs or measurements. */
 export function suggestSearch(query: string) {
@@ -30,6 +30,32 @@ export function matchingSearchVariants(product: Product, query: string) {
   // A separate model code still legitimately identifies all of its variants.
   const parentUsesVariantSku = variants.some(variant => variant.sku === product.sku);
   return variants.filter(variant => matchesSearch({ ...product, sku: parentUsesVariantSku ? variant.sku : product.sku, variants: [variant] }, query));
+}
+/** Rank the actual requested product before items that merely mention it as a fit. */
+export function searchRelevance(product: Product, query: string) {
+  if (!query.trim()) return 0;
+  const words = searchWords(query);
+  const name = searchWords(product.name).join(' ');
+  const path = normalizeSearch(product.categoryPath ?? '');
+  const sku = normalizeSearch(product.sku ?? '');
+  let score = sku === normalizeSearch(query.trim()) ? 1000 : 0;
+  for (const word of words) {
+    if (/^\d+x\d+/.test(word)) {
+      const sizes = [product.name, ...(product.variants?.map(v => v.dimensions) ?? [])].map(normalizeSearch);
+      if (sizes.some(size => size.includes(word))) score += 30;
+      continue;
+    }
+    if (name.startsWith(word)) score += 90;
+    else if (name.includes(` ${word}`)) score += 35;
+    if (path.split(/[/-]/).includes(word)) score += 80;
+  }
+  const intent = words.find(word => ['saltea', 'topper', 'prosop', 'lenjer', 'husa', 'pilota', 'perna'].includes(word));
+  if (intent === 'saltea') score += path.startsWith('saltele-si-toppere') && /^saltea\b/.test(normalizeSearch(product.name)) ? 250 : 0;
+  if (intent === 'topper') score += path.startsWith('saltele-si-toppere') && /^topper\b/.test(normalizeSearch(product.name)) ? 250 : 0;
+  if (intent === 'prosop') score += path.startsWith('articole-baie') && name.includes('prosop') ? 180 : 0;
+  if (intent === 'lenjer') score += path.startsWith('lenjerii-de-pat') ? 180 : 0;
+  if (intent === 'husa') score += path.startsWith('huse-de-pat') || path.startsWith('protectii-saltea') ? 180 : 0;
+  return score;
 }
 const root = (product: Product) => product.categoryPath?.split("/")[0] ?? product.category;
 const sameKind = (a: Product, b: Product) => root(a) === root(b)
@@ -88,7 +114,7 @@ export function recommendations(product: Product, catalog: Product[]) {
   const relatedRoots = companions[root(product)] ?? [];
   const otherCategories = ranked.filter((item) => !sameKind(product, item));
   const companionCandidates = otherCategories.filter((item) => relatedRoots.includes(root(item)));
-  const complementary = diverseProducts([...companionCandidates, ...otherCategories.filter((item) => !companionCandidates.some((p) => p.id === item.id))], 8,
+  const complementary = diverseProducts(companionCandidates, 4,
     item => root(product) === 'articole-baie' && root(item) === 'articole-baie' ? item.categoryPath! : root(item));
   return { similar, complementary, hasCompanions: companionCandidates.length > 0 };
 }

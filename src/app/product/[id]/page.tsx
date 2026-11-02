@@ -13,6 +13,8 @@ import type { Metadata } from "next";
 import { store } from "@/lib/store-info";
 import ProductImageGallery from "@/components/product/ProductImageGallery";
 import ProductPurchaseActions from "@/components/product/ProductPurchaseActions";
+import ProductMobileSummary from '@/components/product/ProductMobileSummary';
+import { formatProductPriceRange } from '@/lib/product-format';
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import {
@@ -85,6 +87,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
         <CatalogReturn />
 
         <h1 className="mobile-product-title">{productDisplayName(product)}</h1>
+        <ProductMobileSummary range={formatProductPriceRange(product)} currency={product.currency} hasVariants={Boolean(product.variants?.length)} available={product.inStock !== false} stockKnown={product.stockQuantity !== undefined} />
         <div className="product-overview mt-5 grid gap-8 lg:grid-cols-2">
           <div>
             <ProductImageGallery images={product.images} name={product.name} />

@@ -11,6 +11,12 @@ vm.runInNewContext(output, {
   exports: moduleExports,
   require: (name) => {
     if (name === 'server-only') return {};
+    if (name === './black-friday-period') return (() => {
+      const exports = {};
+      const period = ts.transpileModule(fs.readFileSync('src/lib/black-friday-period.ts', 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText;
+      vm.runInNewContext(period, { exports, Date });
+      return exports;
+    })();
     if (name === '@/data/black-friday-eligible.json') return { default: { minPriceCentsByItem: {
       '1:101': 3900, '2:102': 3900, '3:103': 3900, '4:104': 9900,
       '5:94319': 24900, '6:106': 36900,

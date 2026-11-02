@@ -35,7 +35,7 @@ test('size labels support missing dimension fields, robes and unit placement wit
   assert.equal(sizes.productSizeSummary({name:'Prosop',description:'500 g/m²'}),'');
 });
 test('rendered cards expose every size and the exact filtered variant', () => {
-  const Card=load('src/components/product/ProductCard.tsx', {'next/link':link,'next/image':image,'@/lib/product-sizes':sizes,'@/lib/product-format':format}).default;
+  const Card=load('src/components/product/ProductCard.tsx', {'next/link':link,'next/image':image,'@/lib/product-sizes':sizes,'@/lib/product-format':format,'./QuickAdd':()=>null}).default;
   const p=bath.find(p=>p.variants?.length>=3);
   const html=renderToStaticMarkup(React.createElement(Card,{product:p}));
   for(const v of p.variants) assert(html.includes(v.dimensions),v.dimensions);
@@ -45,7 +45,7 @@ test('rendered cards expose every size and the exact filtered variant', () => {
   const single=renderToStaticMarkup(React.createElement(Card,{product:catalog.find(p=>p.id===90641)}));
   assert(single.includes('Dimensiune:</strong> 30 × 50 cm'));
 });
-test('homepage leads with Black Friday and displays sizes in both product selections', async () => {
+test('homepage switches between campaign and evergreen content with one heading', async () => {
   const Hero=load('src/components/home/Hero.tsx', {
     '@/lib/live-products':{getLiveProducts:async()=>bath},
     '@/components/catalog/BeddingFinderLink':()=>React.createElement('a',{href:'/ghid-dimensiuni'},'Găsește lenjeria'),
@@ -53,16 +53,22 @@ test('homepage leads with Black Friday and displays sizes in both product select
     '@/lib/navigation-groups':{navigationGroups:[],groupHref:()=>'/shop'},
     '@/lib/products':format,'@/lib/product-format':format,'@/lib/product-sizes':sizes,
     '@/lib/home-offers':{homeOffers:()=>bath.slice(0,16).map(p=>({...p,tag:'Super Sale'}))},
+    '@/lib/discovery':{diverseProducts:products=>products.slice(0,8)},
+    '@/components/product/ProductCard':({product})=>React.createElement('div',null,product.name),
   }).default;
   // getProductById uses the live list as well.
   for(const p of bath) p.tag='Super Sale';
-  const html=renderToStaticMarkup(await Hero());
+  const html=renderToStaticMarkup(await Hero({campaign:true}));
   assert(html.includes('<h1 class="home-sale-title">'));
   assert(!html.includes('home-black-friday-hero'));
   assert.equal((html.match(/<h1[ >]/g)||[]).length,1);
   assert(html.indexOf('<h1 class="home-sale-title">') < html.indexOf('home-mini-picks'));
   assert(html.indexOf('home-mini-picks') < html.indexOf('home-mini-categories'));
-  assert.equal((html.match(/class="home-product-sizes"/g)||[]).length,16);
+  assert(html.includes('SUPER SALES · BLACK FRIDAY'));
+  const normal=renderToStaticMarkup(await Hero({campaign:false}));
+  assert(normal.includes('Confort bine ales pentru casa ta.'));
+  assert(!normal.includes('SUPER SALES'));
+  assert.equal((normal.match(/<h1[ >]/g)||[]).length,1);
 });
 
 test('Damasc Policoton summaries separate mattress fit from individual piece dimensions', () => {
@@ -90,7 +96,7 @@ test('Damasc Policoton summaries separate mattress fit from individual piece dim
 });
 
 test('Policoton cards show a clear mattress label without pillow and duvet measurement strings', () => {
-  const Card=load('src/components/product/ProductCard.tsx', {'next/link':link,'next/image':image,'@/lib/product-sizes':sizes,'@/lib/product-format':format}).default;
+  const Card=load('src/components/product/ProductCard.tsx', {'next/link':link,'next/image':image,'@/lib/product-sizes':sizes,'@/lib/product-format':format,'./QuickAdd':()=>null}).default;
   const p=catalog.find(p=>p.id===163140);
   const html=renderToStaticMarkup(React.createElement(Card,{product:p}));
   assert(html.includes('Pentru saltea:</strong> 160 × 200 sau 180 × 200 cm'));

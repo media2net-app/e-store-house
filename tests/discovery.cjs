@@ -26,7 +26,7 @@ for (const product of products) {
  assert(selected.every(p=>p.id !== product.id && p.inStock !== false));
  assert.equal(new Set(selected.map(p=>p.id)).size,selected.length);
  assert(similar.every(p=>p.categoryPath.split('/')[0]===product.categoryPath.split('/')[0]));
- assert(complementary.length > 0);
+ if (product.categoryPath.startsWith('lenjerii-de-pat')) assert(complementary.every(p => !['fete-de-masa','terasa-si-gradina'].includes(p.categoryPath.split('/')[0])));
 }
 assert.equal(new Set(diverseProducts(products).map(p=>p.categoryPath.split('/')[0])).size,
  Math.min(8,new Set(products.map(p=>p.categoryPath.split('/')[0])).size));

@@ -50,7 +50,7 @@ test("curated catalog returns up to 5 available similar models and separate comp
     const source = active.find((p) => p.id === id);
     const { similar, complementary } = recommendations(source, active);
     assert.equal(similar.length, Math.min(5, active.filter((p) => p.id !== id && p.inStock !== false && p.categoryPath.split("/")[0] === source.categoryPath.split("/")[0]).length));
-    assert.ok(complementary.length > 0 && complementary.length <= 8);
+    assert.ok(complementary.length <= 4);
     const all = [...similar, ...complementary];
     assert.equal(new Set(all.map((p) => p.id)).size, all.length);
     assert.ok(all.every((p) => p.id !== id && p.inStock !== false && new Set(p.images).size >= 4));
@@ -113,12 +113,12 @@ test("application imports use supplier cost plus 29% rounded, then 20% and 30% r
   }
 });
 
-test("complementary recommendations fill eight slots across available categories", () => {
+test("complementary recommendations show only a short relevant selection", () => {
   const source = active.find((p) => p.id === 95974);
   const { similar, complementary } = recommendations(source, active);
   assert.equal(similar.length, 5);
-  assert.equal(complementary.length, 8);
-  assert.equal(new Set(complementary.map((p) => p.categoryPath.split('/')[0])).size, 8);
+  assert.ok(complementary.length <= 4);
+  assert.equal(new Set(complementary.map((p) => p.id)).size, complementary.length);
   assert.ok(complementary.every((p) => p.categoryPath.split('/')[0] !== source.categoryPath.split('/')[0]));
 });
 
@@ -127,7 +127,7 @@ test("robes complement towels without being labelled as similar towels", () => {
   const { similar, complementary } = recommendations(towel, active);
   assert.ok(similar.every((p) => p.categoryPath === towel.categoryPath));
   assert.ok(complementary.some((p) => p.categoryPath === 'articole-baie/halate-baie'));
-  assert.equal(complementary.length, 8);
+  assert.ok(complementary.length <= 4);
 });
 
 
