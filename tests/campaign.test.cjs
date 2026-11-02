@@ -46,3 +46,14 @@ test('invalid calendar dates and wrong Romanian offsets are rejected', () => {
     assert.equal(nextCampaignTransition(Date.parse(start), config), null, invalid);
   }
 });
+test('confirmed campaign stays on through 30 November and ends at 1 December midnight in Romania', () => {
+  const config = JSON.parse(fs.readFileSync('src/data/campaign.json', 'utf8'));
+  const ending = Date.parse('2026-12-01T00:00:00+02:00');
+  assert.equal(config.mode, 'auto');
+  assert.equal(config.startAt, null);
+  assert.equal(config.endAt, '2026-12-01T00:00:00+02:00');
+  assert.equal(campaignActive(ending - 1, config), true);
+  assert.equal(campaignActive(ending, config), false);
+  assert.equal(nextCampaignTransition(ending - 1, config), ending);
+  assert.equal(nextCampaignTransition(ending, config), null);
+});
